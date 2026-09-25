@@ -135,6 +135,12 @@
     if (!a && !t) return 'projetos: sem consolidação';
     return `<b>${a}</b> lei${a === 1 ? '' : 's'} · <b>${t}</b> em tramitação`;
   }
+  function resumoHistorico(c) {
+    if (c.gestao?.length && (!c.projetos || (!c.projetos.aprovados?.length && !c.projetos.em_tramitacao?.length))) return `gestão: <b>${c.gestao.length}</b> ${c.gestao.length === 1 ? 'cargo' : 'cargos'}`;
+    const partes = [resumoProjetos(c)];
+    if (c.relatorias?.length) partes.push(`<b>${c.relatorias.length}</b> relatoria${c.relatorias.length === 1 ? '' : 's'}`);
+    return partes.join(' · ');
+  }
   function cardCandidato(c) {
     const anos = anosPolitica(c);
     const p = PARTIDO_POR_SIGLA[c.partido];
@@ -144,8 +150,8 @@
         <div class="numero ${c.numero ? '' : 'pendente'}">${c.numero || 'nº a confirmar'}</div>
       </div>
       <p class="resumo">${esc(c.resumo)}</p>
-      <div class="tags">${tagSituacao(c)}${c.reeleicao ? '<span class="tag">tenta reeleição</span>' : ''}${c.tipo_historico === 'sem_mandato' ? '<span class="tag">estreante</span>' : ''}</div>
-      <div class="rodape-card"><span>${anos !== null && c.tipo_historico !== 'sem_mandato' ? `<b>${anos}</b> anos de vida pública` : 'sem mandato anterior'}</span><span>${resumoProjetos(c)}</span></div>`);
+      <div class="tags">${tagSituacao(c)}${c.reeleicao ? '<span class="tag">tenta reeleição</span>' : ''}${c.tipo_historico === 'sem_mandato' ? '<span class="tag">estreante</span>' : ''}${c.processos?.length ? `<span class="tag warn">${c.processos.length} ${c.processos.length === 1 ? 'processo/denúncia' : 'processos/denúncias'}</span>` : ''}</div>
+      <div class="rodape-card"><span>${anos !== null && c.tipo_historico !== 'sem_mandato' ? `<b>${anos}</b> anos de vida pública` : 'sem mandato anterior'}</span><span>${resumoHistorico(c)}</span></div>`);
   }
   function abrirCandidato(c) {
     const cargo = CARGO_POR_ID[c.cargo]; const p = PARTIDO_POR_SIGLA[c.partido]; const anos = anosPolitica(c);
@@ -167,6 +173,17 @@
         </div>
         <p class="nota">Fonte: ${esc(pj.fonte)} · atualizado em ${esc(pj.atualizado_em)}.</p>`;
     }
+    const gestao = c.gestao?.length ? `<h3>Gestão: o que fez quando teve a caneta</h3>` + c.gestao.map(g => `
+        <div class="gestao">
+          <div class="linha"><div class="per">${esc(g.periodo)}</div><div><b>${esc(g.cargo)}</b>${g.fonte ? `<div class="obs">Fonte: ${esc(g.fonte)}</div>` : ''}</div></div>
+          <div class="colunas">
+            <div class="col"><h4>Realizações <span>${g.realizacoes?.length ?? 0}</span></h4>${g.realizacoes?.length ? `<ul>${g.realizacoes.map(r => `<li>${esc(r)}</li>`).join('')}</ul>` : '<p class="vazio">Sem balanço consolidado.</p>'}</div>
+            <div class="col"><h4>Críticas e problemas <span>${g.criticas?.length ?? 0}</span></h4>${g.criticas?.length ? `<ul>${g.criticas.map(r => `<li>${esc(r)}</li>`).join('')}</ul>` : '<p class="vazio">Nenhuma registrada aqui.</p>'}</div>
+          </div>
+        </div>`).join('') : (c.tipo_historico === 'executivo' || c.tipo_historico === 'misto' ? '<h3>Gestão</h3><p class="nota">Teve cargo executivo, mas ainda não consolidamos o balanço.</p>' : '');
+    const relatorias = c.relatorias?.length ? `<ul>${c.relatorias.map(r => `<li><b>${esc(r.titulo)}</b>${r.ano ? ` (${r.ano})` : ''}${r.resultado ? `<div class="obs">${esc(r.resultado)}</div>` : ''}</li>`).join('')}</ul>` : '<p class="nota">Nenhuma relatoria ou presidência de comissão registrada aqui.</p>';
+    const fiscalizacao = c.fiscalizacao?.length ? `<ul>${c.fiscalizacao.map(f => `<li><span class="tag">${esc(f.tipo)}</span> ${esc(f.descricao)}${f.ano ? ` <i>(${f.ano})</i>` : ''}</li>`).join('')}</ul>` : '<p class="nota">Nenhuma CPI, denúncia ou ação de fiscalização registrada aqui.</p>';
+    const processos = c.processos?.length ? `<ul class="processos">${c.processos.map(pr => `<li>${esc(pr.descricao)}<div class="obs"><b>Status:</b> ${esc(pr.status)}${pr.ano ? ` · ${pr.ano}` : ''}${pr.fonte ? ` · <a href="${esc(pr.fonte)}" target="_blank" rel="noopener">fonte</a>` : ''}</div></li>`).join('')}</ul><p class="nota">${esc(D.candidatos.meta.aviso_processos || '')}</p>` : '<p class="nota">Nenhum processo, investigação ou denúncia localizado nas fontes consultadas. Isso não é atestado: procure o nome no MPES, TSE e Jusbrasil.</p>';
     abrirModal(`
       <p class="kicker">${esc(cargo.nome)} · ${esc(c.partido)}${p?.federacao ? ' · Federação ' + esc(p.federacao) : ''}</p>
       <h2>${esc(c.nome_urna)} <span class="numero">${c.numero || ''}</span></h2>
@@ -179,8 +196,15 @@
       <p>${c.tipo_historico === 'sem_mandato' ? 'Primeira candidatura registrada. ' : ''}${anos !== null && c.inicio_politica ? `Na vida pública desde <b>${c.inicio_politica}</b> (${anos} anos).` : 'Sem data de início registrada.'}</p>
       <h3>Mandatos e cargos</h3>
       ${mandatos}
-      <h3>Projetos</h3>
+      ${gestao}
+      <h3>Projetos de lei</h3>
       ${projetos}
+      <h3>Relatorias e cargos de direção</h3>
+      ${relatorias}
+      <h3>Fiscalização e denúncias que fez</h3>
+      ${fiscalizacao}
+      <h3>Processos e denúncias contra</h3>
+      ${processos}
       <h3>Sobre o partido</h3>
       <p>${esc(p?.ideologia || '')} <a href="#" data-partido="${esc(c.partido)}">Ver ficha do ${esc(c.partido)}</a></p>
       <h3>Fontes</h3>

@@ -19,7 +19,9 @@ O que cada fonte dá:
 - Câmara (dadosabertos.camara.leg.br): proposições de autoria (PL, PLP, PEC) e
   a situação de cada uma. Classifica em aprovadas (transformadas em norma),
   em tramitação e arquivadas.
-- Senado (legis.senado.leg.br/dadosabertos): autorias e situação atual.
+- Senado (legis.senado.leg.br/dadosabertos): autorias, situação atual e relatorias.
+- Gestão, fiscalização (CPIs, denúncias feitas) e processos contra o candidato
+  não têm API. Ficam manuais, no JSON, sempre com fonte.
 - Ales: não tem API pública estável. Fica manual.
 """
 from __future__ import annotations
@@ -257,6 +259,14 @@ def fetch_senado(doc, dry_run: bool):
             else:
                 tramitando.append(item)
             time.sleep(0.15)
+        # relatorias: /senador/{cod}/relatorias
+        rel = get_json(f"{SENADO_BASE}/senador/{cod}/relatorias.json") or {}
+        rels = (((rel.get("MateriasRelatoriaParlamentar") or {}).get("Parlamentar") or {}).get("Relatorias") or {}).get("Relatoria") or []
+        c["relatorias"] = [{
+            "titulo": f"{(r.get('Materia') or {}).get('SiglaSubtipoMateria', '')} {(r.get('Materia') or {}).get('NumeroMateria', '')}/{(r.get('Materia') or {}).get('AnoMateria', '')}: {((r.get('Materia') or {}).get('Ementa') or '')[:160]}",
+            "resultado": (r.get("DescricaoTipoRelator") or "relator") + (" · " + r.get("Comissao", {}).get("SiglaComissao", "") if r.get("Comissao") else ""),
+            "ano": (r.get("Materia") or {}).get("AnoMateria"),
+        } for r in rels if (r.get("Materia") or {}).get("SiglaSubtipoMateria") in ("PL", "PLS", "PLP", "PEC", "PLC", "MPV")]
         c["projetos"] = {
             "fonte": f"Senado Federal, dados abertos (parlamentar {cod})",
             "atualizado_em": time.strftime("%Y-%m-%d"),

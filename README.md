@@ -13,7 +13,7 @@ de instalar nada. Se publicar no GitHub Pages, o site é a raiz do repositório.
 |---|---|---|
 | Cargos | o que cada cargo decide, o que não decide, como avaliar um candidato, glossário, ordem dos votos na urna | `data/cargos.json` |
 | Partidos | 30 partidos registrados: espectro, ideologia, marcos (o que fizeram quando tiveram poder), críticas frequentes, quem lançaram no ES | `data/partidos.json` |
-| Candidatos | filtro por cargo, partido, busca e "só quem já tem mandato"; ficha com chapa, mandatos, projetos e fontes | `data/candidatos.json` |
+| Candidatos | filtro por cargo, partido, busca e "só quem já tem mandato"; ficha com chapa, mandatos, gestão (para quem governou), projetos, relatorias, fiscalização e denúncias que fez, processos e denúncias contra, e fontes | `data/candidatos.json` |
 
 ## Cobertura dos dados (25/09/2026)
 
@@ -74,6 +74,20 @@ partidos/cargos que não existem.
 
 `projetos: null` significa "não consolidado". Para quem nunca teve mandato a
 página explica isso em vez de mostrar zeros.
+
+Campos extras, todos listas (vazias quando não há nada localizado):
+
+```json
+"gestao":       [{"cargo": "Prefeito de X", "periodo": "2013-2020", "realizacoes": ["..."], "criticas": ["..."], "fonte": "..."}],
+"relatorias":   [{"titulo": "...", "resultado": "relator; virou a Lei ...", "ano": 2023}],
+"fiscalizacao": [{"tipo": "CPI | denúncia | representação | fiscalização", "descricao": "...", "ano": 2026}],
+"processos":    [{"descricao": "...", "status": "arquivado | em andamento | condenado | ...", "ano": 2021, "fonte": "https://..."}]
+```
+
+`gestao` é a métrica certa para quem foi prefeito, governador ou secretário:
+lei não mede gestão. `processos` lista o que está em fontes públicas com o
+status da última notícia encontrada. Investigação não é condenação e
+arquivamento não é atestado de inocência.
 
 ## Fontes
 

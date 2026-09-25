@@ -119,3 +119,8 @@ code { background: var(--card); border: 1px solid var(--line); padding: 1px 6px;
 .chapa { background: var(--bg); border-radius: 12px; padding: 10px 14px; margin: 8px 0; }
 .marcos li, .criticas li { margin-bottom: 6px; }
 .pill-link { display: inline-block; margin-top: 12px; }
+
+.gestao { margin-bottom: 14px; }
+.gestao .colunas { margin-top: 8px; }
+.processos li { margin-bottom: 10px; }
+.modal .tag { vertical-align: middle; }
