@@ -1,0 +1,372 @@
+{
+  "nota": "Espectro e ideologia são a autodefinição do partido cruzada com a classificação usual da imprensa e da ciência política. 'Marcos' lista o que o partido fez ou sustentou quando teve poder (governos, presidências de Casa, leis de autoria de seus parlamentares). 'Críticas' lista o que costuma ser cobrado dele. Nenhuma das duas listas é completa; use como ponto de partida.",
+  "federacoes_2026": [
+    {"nome": "Federação Brasil da Esperança", "partidos": ["PT", "PCdoB", "PV"]},
+    {"nome": "Federação PSDB Cidadania", "partidos": ["PSDB", "Cidadania"]},
+    {"nome": "Federação PSOL Rede", "partidos": ["PSOL", "Rede"]},
+    {"nome": "Federação União Progressista", "partidos": ["União", "PP"]},
+    {"nome": "Federação Renovação Solidária", "partidos": ["Solidariedade", "PRD"]}
+  ],
+  "partidos": [
+    {
+      "sigla": "PT", "numero": 13, "nome": "Partido dos Trabalhadores", "fundacao": 1980,
+      "espectro": "esquerda / centro-esquerda", "federacao": "Brasil da Esperança",
+      "ideologia": "Nascido do sindicalismo do ABC paulista e das comunidades eclesiais de base. Defende Estado forte em políticas sociais, valorização do salário mínimo, programas de transferência de renda e crédito público. Na economia oscilou entre desenvolvimentismo e ajustes fiscais.",
+      "marcos": [
+        "Governos Lula (2003-2010, 2023-) e Dilma (2011-2016): Bolsa Família, Prouni, Fies ampliado, Luz para Todos, Minha Casa Minha Vida, Mais Médicos.",
+        "Lei Maria da Penha (2006), Lei de Cotas nas universidades federais (2012), Estatuto da Igualdade Racial (2010).",
+        "Regime de partilha do pré-sal (2010) e criação do Fundo Social.",
+        "No terceiro mandato de Lula: novo arcabouço fiscal (2023), reforma tributária sobre o consumo (promulgada em 2023 com apoio de vários partidos), isenção do IR até R$ 5 mil (2025), retomada da queda do desmatamento na Amazônia."
+      ],
+      "criticas": [
+        "Escândalos do Mensalão (2005) e da Lava Jato / Petrobras (2014-2018), com condenações de dirigentes.",
+        "Recessão de 2015-2016 e impeachment de Dilma Rousseff em 2016.",
+        "Crítica recorrente de gasto público alto e dependência de alianças com o Centrão."
+      ],
+      "no_es": "Helder Salomão (governador), Fabiano Contarato (senador), Jack Rocha, João Coser e Iriny Lopes (deputado federal)."
+    },
+    {
+      "sigla": "PL", "numero": 22, "nome": "Partido Liberal", "fundacao": 2006,
+      "espectro": "direita", "federacao": null,
+      "ideologia": "Criado em 2006 como PR (fusão do antigo PL com o Prona), foi partido de centro fisiológico até 2021, quando Jair Bolsonaro se filiou e o transformou na principal legenda da direita conservadora. Defende agenda de segurança pública dura, pautas de família e liberdade econômica.",
+      "marcos": [
+        "Maior bancada da Câmara eleita em 2022 (99 deputados).",
+        "Sustentou o governo Bolsonaro, que teve: reforma da Previdência (2019), Lei de Liberdade Econômica (2019), marco legal do saneamento (2020), autonomia do Banco Central (2021), Auxílio Emergencial na pandemia (2020), Pix (lançado pelo BC em 2020).",
+        "Flávio Bolsonaro é o candidato do partido a presidente em 2026."
+      ],
+      "criticas": [
+        "Jair Bolsonaro foi declarado inelegível pelo TSE (2023) e condenado pelo STF (2025) por tentativa de golpe.",
+        "Gestão da pandemia de Covid-19 (mais de 700 mil mortes) e atrasos na vacinação.",
+        "Presidente do partido, Valdemar Costa Neto, foi condenado no Mensalão."
+      ],
+      "no_es": "Maguinha Malta (senadora), Lucas Polese e Lucas Stein Casagrande (deputado federal), Capitão Assumção, Danilo Bahiense e Marcos Madureira (deputado estadual). Eliane Leal é vice na chapa de Pazolini."
+    },
+    {
+      "sigla": "MDB", "numero": 15, "nome": "Movimento Democrático Brasileiro", "fundacao": 1966,
+      "espectro": "centro", "federacao": null,
+      "ideologia": "Único partido de oposição tolerado na ditadura, virou a maior legenda da redemocratização. Hoje é um partido de centro, pragmático, com forte presença em prefeituras e governos estaduais. Não tem uma doutrina econômica fixa.",
+      "marcos": [
+        "Constituinte de 1987-88, presidida por Ulysses Guimarães, que deu origem à Constituição atual.",
+        "Governo Itamar Franco: Plano Real (1994), que acabou com a hiperinflação.",
+        "Governo Temer (2016-2018): teto de gastos (2016), reforma trabalhista (2017), Lei da Terceirização, TLP no BNDES.",
+        "No ES: governos de Ricardo Ferraço (2026-), Rose de Freitas foi a primeira senadora capixaba."
+      ],
+      "criticas": [
+        "Escândalos envolvendo lideranças históricas (Eduardo Cunha, Michel Temer, Renan Calheiros, Sarney).",
+        "Fisiologismo: participa de praticamente todos os governos, de qualquer lado."
+      ],
+      "no_es": "Ricardo Ferraço (governador, à reeleição), Rose de Freitas (senadora), Vandinho Leite e Mazinho dos Anjos (deputado estadual)."
+    },
+    {
+      "sigla": "PP", "numero": 11, "nome": "Progressistas", "fundacao": 1995,
+      "espectro": "centro-direita", "federacao": "União Progressista",
+      "ideologia": "Herdeiro da Arena e do PDS (partidos do regime militar), passou por PPR e PPB até virar PP em 2003. Liberal na economia, conservador nos costumes, muito ligado ao agronegócio e aos prefeitos do interior. Núcleo do chamado Centrão.",
+      "marcos": [
+        "Arthur Lira presidiu a Câmara (2021-2025): aprovou a reforma tributária (2023), o novo arcabouço fiscal (2023) e o marco das garantias.",
+        "Comandou o Ministério da Agricultura em vários governos (Tereza Cristina foi ministra de Bolsonaro).",
+        "No ES: Da Vitória, Amaro Neto e Evair de Melo construíram carreira pelo PP."
+      ],
+      "criticas": [
+        "Dezenas de parlamentares citados na Lava Jato.",
+        "Associado ao 'orçamento secreto' (emendas de relator), derrubado pelo STF em 2022."
+      ],
+      "no_es": "Amaro Neto e Da Vitória (deputado federal), Raquel Lessa e Adilson Espindula (deputado estadual). Camillo Neves é vice na chapa de Ferraço."
+    },
+    {
+      "sigla": "União", "numero": 44, "nome": "União Brasil", "fundacao": 2022,
+      "espectro": "centro-direita", "federacao": "União Progressista",
+      "ideologia": "Fusão do DEM (ex-PFL, liberal-conservador tradicional) com o PSL (que elegeu Bolsonaro em 2018). Liberal na economia, dividido entre alas conservadora e de centro. Tem o maior fundo partidário do país.",
+      "marcos": [
+        "PFL/DEM foi base do governo FHC: Plano Real, Lei de Responsabilidade Fiscal (2000), privatização das telecomunicações.",
+        "Rodrigo Maia (DEM) presidiu a Câmara na aprovação da reforma da Previdência (2019).",
+        "Governos estaduais de peso: Ronaldo Caiado (GO, antes do PSD), ACM Neto (BA)."
+      ],
+      "criticas": [
+        "PSL: escândalo das candidaturas laranjas em 2018.",
+        "Alianças pouco previsíveis: tem ministros no governo Lula e oposição no Congresso ao mesmo tempo."
+      ],
+      "no_es": "Messias Donato, Marcelo Santos e Dr. Bruno Resende (deputado federal), Denninho Silva (deputado estadual)."
+    },
+    {
+      "sigla": "Republicanos", "numero": 10, "nome": "Republicanos", "fundacao": 2005,
+      "espectro": "centro-direita / conservador", "federacao": null,
+      "ideologia": "Criado como PRB, ligado à Igreja Universal do Reino de Deus. Conservador nos costumes (família, religião, segurança), pragmático na economia. Cresceu muito com Tarcísio de Freitas em SP.",
+      "marcos": [
+        "Tarcísio de Freitas governa São Paulo desde 2023 (reeleição em 2026).",
+        "Marcos Pereira foi ministro da Indústria (Temer) e é vice-presidente da Câmara.",
+        "No ES, Lorenzo Pazolini foi eleito e reeleito prefeito de Vitória (2020, 2024)."
+      ],
+      "criticas": [
+        "Dependência da estrutura da Universal e da Record.",
+        "Pautas de costumes vistas como restritivas por parte do eleitorado."
+      ],
+      "no_es": "Lorenzo Pazolini (governador), Evair de Melo (senador), Alcântaro Filho, Pablo Muribeca e Bispo Alves (deputado estadual)."
+    },
+    {
+      "sigla": "PSD", "numero": 55, "nome": "Partido Social Democrático", "fundacao": 2011,
+      "espectro": "centro", "federacao": null,
+      "ideologia": "Fundado por Gilberto Kassab com a frase 'nem de esquerda, nem de direita, nem de centro'. Partido de gestores e prefeitos, participa de governos de todos os lados. Em 2026 lança Ronaldo Caiado a presidente.",
+      "marcos": [
+        "Maior número de prefeitos eleitos em 2024.",
+        "Ronaldo Caiado (GO, 2019-2026): queda de homicídios e ajuste fiscal em Goiás. Ratinho Jr. (PR).",
+        "Ministros em todos os governos desde 2011 (Dilma, Temer, Bolsonaro, Lula)."
+      ],
+      "criticas": [
+        "Ausência de programa ideológico claro.",
+        "Kassab, presidente do partido, foi investigado na Lava Jato e é vice na chapa presidencial."
+      ],
+      "no_es": "Sergio Meneguelli (senador)."
+    },
+    {
+      "sigla": "PSB", "numero": 40, "nome": "Partido Socialista Brasileiro", "fundacao": 1947,
+      "espectro": "centro-esquerda", "federacao": null,
+      "ideologia": "Socialismo democrático de perfil moderado. Historicamente forte no Nordeste (Arraes, Eduardo Campos) e no ES (Casagrande). Aliado do PT em nível nacional desde 2022, com Geraldo Alckmin na vice-presidência.",
+      "marcos": [
+        "No ES: Renato Casagrande governou três vezes (2011-2014, 2019-2026), com nota máxima de capacidade de pagamento no Tesouro e investimento com recursos próprios.",
+        "Geraldo Alckmin é vice-presidente e ministro do Desenvolvimento, Indústria e Comércio (Nova Indústria Brasil).",
+        "Pautas ambientais: Casagrande criou a Comissão Mista de Mudanças Climáticas no Congresso."
+      ],
+      "criticas": [
+        "Alianças variáveis (já foi oposição e base do PT).",
+        "No ES, 16 anos no poder geram cobrança por renovação."
+      ],
+      "no_es": "Renato Casagrande (senador), Tyago Hoffmann (deputado federal), Dary Pagung, Janete de Sá, Bruno Lamas e Paulo Foletto (deputado estadual)."
+    },
+    {
+      "sigla": "PDT", "numero": 12, "nome": "Partido Democrático Trabalhista", "fundacao": 1979,
+      "espectro": "centro-esquerda", "federacao": null,
+      "ideologia": "Trabalhismo de Leonel Brizola: nacionalismo, educação pública em tempo integral, defesa do trabalhador. Apoiou Lula em 2026.",
+      "marcos": [
+        "CIEPs no Rio de Janeiro (escolas de tempo integral de Brizola e Darcy Ribeiro).",
+        "Ciro Gomes: Ministério da Integração Nacional (transposição do São Francisco começou em seu período).",
+        "Ministério do Trabalho no governo Lula 3 (Carlos Lupi)."
+      ],
+      "criticas": [
+        "Escândalo de descontos indevidos no INSS (2025) derrubou o ministro Carlos Lupi.",
+        "Encolhimento eleitoral desde 2018."
+      ],
+      "no_es": "José Esmeraldo e Fábio Duarte (deputado estadual)."
+    },
+    {
+      "sigla": "Podemos", "numero": 20, "nome": "Podemos", "fundacao": 1995,
+      "espectro": "centro-direita", "federacao": null,
+      "ideologia": "Antigo PTN, renomeado em 2016 com discurso de 'nova política', democracia direta e anticorrupção. Incorporou o PSC em 2023. Sergio Moro é seu nome mais conhecido.",
+      "marcos": [
+        "Pautas anticorrupção e de segurança pública no Senado (Sergio Moro, Álvaro Dias).",
+        "Cresceu bastante em prefeituras no Sul e Sudeste."
+      ],
+      "criticas": [
+        "Absorveu políticos de perfis muito diversos (o PSC era conservador religioso), o que dilui o programa."
+      ],
+      "no_es": "Gilson Daniel (deputado federal), Fabrício Gandini, Zé Preto, Allan Ferreira e Alexandre Xambinho (deputado estadual)."
+    },
+    {
+      "sigla": "PSDB", "numero": 45, "nome": "Partido da Social Democracia Brasileira", "fundacao": 1988,
+      "espectro": "centro", "federacao": "PSDB Cidadania",
+      "ideologia": "Social-democracia com forte viés liberal na economia. Partido de FHC, Mário Covas e Serra. Dominou a oposição ao PT por 20 anos, mas encolheu muito desde 2018. Em 2026 não lançou candidato a presidente.",
+      "marcos": [
+        "Plano Real (1993-94, FHC como ministro da Fazenda).",
+        "Governo FHC (1995-2002): estabilidade monetária, Lei de Responsabilidade Fiscal (2000), Lei dos Genéricos (1999), Bolsa Escola, programa nacional de Aids, privatização das telecomunicações.",
+        "Governos de São Paulo por 28 anos (1995-2022)."
+      ],
+      "criticas": [
+        "Apagão de 2001 e desemprego alto no fim do governo FHC.",
+        "Privatizações contestadas (Vale, telecomunicações) e crise de identidade após 2018."
+      ],
+      "no_es": "Dr. Victor Linhalis (deputado federal)."
+    },
+    {
+      "sigla": "Cidadania", "numero": 23, "nome": "Cidadania", "fundacao": 1992,
+      "espectro": "centro", "federacao": "PSDB Cidadania",
+      "ideologia": "Ex-PPS, que por sua vez veio do antigo PCB. Migrou para o social-liberalismo: defende Estado eficiente, reformas e pautas de direitos civis.",
+      "marcos": [
+        "Lançou Ciro Gomes a presidente em 1998 e 2002.",
+        "Roberto Freire, Cristovam Buarque e Daniel Coelho foram seus nomes nacionais."
+      ],
+      "criticas": ["Partido pequeno, com pouca capacidade de execução própria."],
+      "no_es": "Federado com o PSDB; sem nome de destaque nas majoritárias."
+    },
+    {
+      "sigla": "PSOL", "numero": 50, "nome": "Partido Socialismo e Liberdade", "fundacao": 2004,
+      "espectro": "esquerda", "federacao": "PSOL Rede",
+      "ideologia": "Dissidência do PT após a reforma da Previdência de 2003. Socialismo democrático, direitos humanos, pautas de minorias, meio ambiente e combate à desigualdade. Forte em movimentos sociais e no eleitorado urbano jovem.",
+      "marcos": [
+        "Marielle Franco (vereadora no Rio, assassinada em 2018) e as leis de proteção a mulheres aprovadas em sua memória.",
+        "Sônia Guajajara é a primeira ministra dos Povos Indígenas (2023-); Guilherme Boulos assumiu a Secretaria-Geral da Presidência (2025).",
+        "No ES, Camila Valadão teve a maior votação de uma mulher para a Ales (2022)."
+      ],
+      "criticas": [
+        "Pouca experiência de gestão executiva.",
+        "Tensão frequente entre apoiar o governo Lula e manter independência."
+      ],
+      "no_es": "Professor Fabian (senador), Camila Valadão (deputada estadual)."
+    },
+    {
+      "sigla": "Rede", "numero": 18, "nome": "Rede Sustentabilidade", "fundacao": 2015,
+      "espectro": "centro-esquerda", "federacao": "PSOL Rede",
+      "ideologia": "Partido de Marina Silva. Sustentabilidade, transparência e renovação política.",
+      "marcos": [
+        "Marina Silva como ministra do Meio Ambiente (2003-2008 e 2023-): quedas históricas no desmatamento da Amazônia.",
+        "Heloísa Helena e Randolfe Rodrigues (ex-Rede) foram seus principais parlamentares."
+      ],
+      "criticas": ["Partido pequeno e dependente da liderança de Marina Silva."],
+      "no_es": "Federado com o PSOL."
+    },
+    {
+      "sigla": "PCdoB", "numero": 65, "nome": "Partido Comunista do Brasil", "fundacao": 1962,
+      "espectro": "esquerda", "federacao": "Brasil da Esperança",
+      "ideologia": "Comunista de origem, hoje defende um socialismo com caminho nacional-desenvolvimentista: indústria nacional, ciência, soberania. Aliado permanente do PT desde 1989.",
+      "marcos": [
+        "Ministério do Esporte (2003-2015): Copa de 2014 e Olimpíadas de 2016.",
+        "Aldo Rebelo foi relator do Código Florestal (2012) e ministro da Defesa.",
+        "Luciana Santos comanda o Ministério da Ciência e Tecnologia (2023-); Flávio Dino governou o Maranhão (2015-2022)."
+      ],
+      "criticas": ["Programa comunista de origem gera rejeição em parte do eleitorado; hoje é essencialmente um partido de governo."],
+      "no_es": "Dr. Nésio Fernandes (deputado federal)."
+    },
+    {
+      "sigla": "PV", "numero": 43, "nome": "Partido Verde", "fundacao": 1986,
+      "espectro": "centro-esquerda", "federacao": "Brasil da Esperança",
+      "ideologia": "Ecologia política: meio ambiente, energia limpa, direitos animais. Federado com PT e PCdoB.",
+      "marcos": [
+        "Marina Silva teve 19% dos votos a presidente pelo PV em 2010.",
+        "Fernando Gabeira e Alfredo Sirkis marcaram a pauta ambiental na Câmara.",
+        "No ES, Evair de Melo foi eleito deputado federal pelo PV em 2014."
+      ],
+      "criticas": ["Partido pequeno, historicamente acusado de servir de legenda para candidatos sem vínculo com a pauta ambiental."],
+      "no_es": "Federado com PT e PCdoB."
+    },
+    {
+      "sigla": "Avante", "numero": 70, "nome": "Avante", "fundacao": 1989,
+      "espectro": "centro", "federacao": null,
+      "ideologia": "Antigo PTdoB, renomeado em 2017. Discurso de trabalhismo e 'políticas de resultado', mas na prática é um partido de centro pragmático.",
+      "marcos": [
+        "André Fufuca é ministro do Esporte no governo Lula 3.",
+        "Lança Augusto Cury a presidente em 2026.",
+        "No ES, abrigou Marcos do Val após a saída do Podemos."
+      ],
+      "criticas": ["Partido pequeno, sem programa nacional definido."],
+      "no_es": "Marcos do Val (senador)."
+    },
+    {
+      "sigla": "Novo", "numero": 30, "nome": "Partido Novo", "fundacao": 2011,
+      "espectro": "direita liberal", "federacao": null,
+      "ideologia": "Liberalismo econômico: Estado mínimo, privatizações, redução de impostos, meritocracia. Criado por executivos do mercado (João Amoêdo). Lança Romeu Zema a presidente em 2026.",
+      "marcos": [
+        "Romeu Zema governou Minas Gerais por dois mandatos (2019-2026) com ajuste fiscal e adesão ao regime de recuperação fiscal.",
+        "Recusou fundo partidário e fundo eleitoral por anos, como bandeira.",
+        "Amoêdo teve 2,5% a presidente em 2018."
+      ],
+      "criticas": [
+        "Poucos quadros com experiência de gestão além de Zema.",
+        "Racha interno entre a ala de Amoêdo e a ala bolsonarista."
+      ],
+      "no_es": "Leonardo Monjardim (senador)."
+    },
+    {
+      "sigla": "DC", "numero": 27, "nome": "Democracia Cristã", "fundacao": 1995,
+      "espectro": "direita", "federacao": null,
+      "ideologia": "Antigo PSDC, renomeado em 2018. Democracia cristã conservadora: família, vida, religião. Historicamente ligado a José Maria Eymael.",
+      "marcos": ["Lança Clariana Barão a presidente em 2026. Partido de representação nacional pequena."],
+      "criticas": ["Costuma funcionar como legenda de abrigo para candidatos regionais."],
+      "no_es": "Callegari (senador), Coronel Weliton (deputado estadual)."
+    },
+    {
+      "sigla": "Agir", "numero": 36, "nome": "Agir", "fundacao": 1985,
+      "espectro": "centro-direita", "federacao": null,
+      "ideologia": "Antigo PRN, partido que elegeu Fernando Collor em 1989, depois PTC e, desde 2022, Agir. Apresenta-se como 'direita construtiva', democrática e anti-extremismo.",
+      "marcos": ["Governo Collor (1990-1992): abertura comercial e início das privatizações, além do confisco da poupança (Plano Collor)."],
+      "criticas": ["Impeachment de Collor em 1992. Hoje é partido pequeno."],
+      "no_es": "Hudson Leal (deputado estadual)."
+    },
+    {
+      "sigla": "PRTB", "numero": 28, "nome": "Partido Renovador Trabalhista Brasileiro", "fundacao": 1994,
+      "espectro": "direita", "federacao": null,
+      "ideologia": "Nacionalismo conservador. Partido de Levy Fidelix; em 2024 lançou Pablo Marçal em SP.",
+      "marcos": [
+        "Hamilton Mourão foi eleito vice-presidente pelo PRTB em 2018.",
+        "Pablo Marçal teve 28% em São Paulo em 2024."
+      ],
+      "criticas": [
+        "Registro de Marçal a presidente em 2026 foi negado pelo TSE (inelegível até 2032).",
+        "Disputas internas de comando."
+      ],
+      "no_es": "Rodney Miranda (senador)."
+    },
+    {
+      "sigla": "UP", "numero": 80, "nome": "Unidade Popular", "fundacao": 2019,
+      "espectro": "esquerda radical", "federacao": null,
+      "ideologia": "Socialismo revolucionário com base no Movimento de Luta nos Bairros, Vilas e Favelas (MLB). Defende moradia, reforma urbana e ruptura com o capitalismo.",
+      "marcos": ["Léo Péricles (2022) e Samara Martins (2026) a presidente. Ocupações de moradia organizadas pelo MLB."],
+      "criticas": ["Sem mandatos relevantes; programa de ruptura tem pouca viabilidade institucional."],
+      "no_es": "Rafael Demuner (governador)."
+    },
+    {
+      "sigla": "PSTU", "numero": 16, "nome": "Partido Socialista dos Trabalhadores Unificado", "fundacao": 1994,
+      "espectro": "esquerda radical", "federacao": null,
+      "ideologia": "Trotskista. Defende governo dos trabalhadores, estatizações e ruptura com o sistema financeiro.",
+      "marcos": ["Presença histórica em sindicatos (Conlutas). Zé Maria e Vera Lúcia foram candidatos a presidente."],
+      "criticas": ["Nunca elegeu parlamentar federal."],
+      "no_es": "Sem candidato majoritário no ES em 2026."
+    },
+    {
+      "sigla": "PCB", "numero": 21, "nome": "Partido Comunista Brasileiro", "fundacao": 1922,
+      "espectro": "esquerda radical", "federacao": null,
+      "ideologia": "Partido mais antigo do país. Marxista-leninista, anticapitalista e anti-imperialista.",
+      "marcos": ["Luís Carlos Prestes e a resistência à ditadura. Hoje é partido de propaganda ideológica."],
+      "criticas": ["Sem representação parlamentar."],
+      "no_es": "Sem candidato majoritário no ES em 2026."
+    },
+    {
+      "sigla": "PCO", "numero": 29, "nome": "Partido da Causa Operária", "fundacao": 1995,
+      "espectro": "esquerda radical", "federacao": null,
+      "ideologia": "Trotskista, presidido desde 1995 por Rui Costa Pimenta. Defende revolução socialista e é crítico das instituições.",
+      "marcos": ["Rui Costa Pimenta disputa a presidência pela quarta vez."],
+      "criticas": ["Sem mandatos; retórica considerada extremista até por outros partidos de esquerda."],
+      "no_es": "Sem candidato majoritário no ES em 2026."
+    },
+    {
+      "sigla": "Missão", "numero": 14, "nome": "Partido Missão", "fundacao": 2025,
+      "espectro": "direita", "federacao": null,
+      "ideologia": "Registrado pelo TSE em novembro de 2025, criado pelo MBL (Movimento Brasil Livre). Liberalismo econômico, segurança pública dura, defesa da família e combate cultural à esquerda. Herdou o número 14 do antigo PTB.",
+      "marcos": [
+        "O MBL foi um dos organizadores das manifestações pelo impeachment de Dilma (2015-16).",
+        "Primeira eleição do partido é a de 2026, com Renan Santos a presidente."
+      ],
+      "criticas": ["Partido novo, sem histórico de gestão nem de votações. Renan Santos nunca teve mandato."],
+      "no_es": "Breno Barcelos (governador)."
+    },
+    {
+      "sigla": "Democrata", "numero": 35, "nome": "Democrata", "fundacao": 2015,
+      "espectro": "centro-direita", "federacao": null,
+      "ideologia": "Antigo Partido da Mulher Brasileira (PMB), renomeado pelo TSE em dezembro de 2025. Sem programa nacional consolidado.",
+      "marcos": ["Lança Wilson Grassi a presidente em 2026."],
+      "criticas": ["Partido nanico e sem quadros conhecidos."],
+      "no_es": "Sem candidato majoritário no ES em 2026."
+    },
+    {
+      "sigla": "Solidariedade", "numero": 77, "nome": "Solidariedade", "fundacao": 2013,
+      "espectro": "centro", "federacao": "Renovação Solidária",
+      "ideologia": "Criado por Paulinho da Força (Força Sindical). Trabalhismo sindical de perfil moderado.",
+      "marcos": ["Atuação em pautas trabalhistas na Câmara. Federou-se ao PRD em 2025."],
+      "criticas": ["Paulinho da Força foi condenado em processo da Lava Jato (depois anulado). Partido pequeno."],
+      "no_es": "Dra. Tânia Pires (deputada federal), entre outros."
+    },
+    {
+      "sigla": "PRD", "numero": 25, "nome": "Partido Renovação Democrática", "fundacao": 2023,
+      "espectro": "direita", "federacao": "Renovação Solidária",
+      "ideologia": "Fusão do PTB (partido histórico de Vargas, refundado em 1980) com o Patriota. Conservador, nacionalista.",
+      "marcos": ["O PTB de origem esteve ligado à legislação trabalhista da era Vargas; o partido atual não tem esse peso."],
+      "criticas": ["Roberto Jefferson, ex-presidente do PTB, foi condenado por atirar contra policiais em 2022."],
+      "no_es": "Sem candidato majoritário no ES em 2026."
+    },
+    {
+      "sigla": "Mobiliza", "numero": 33, "nome": "Mobilização Nacional", "fundacao": 1984,
+      "espectro": "centro", "federacao": null,
+      "ideologia": "Antigo PMN, renomeado Mobiliza. Nacionalismo genérico, sem programa definido.",
+      "marcos": ["Partido de base local, sem mandatos federais relevantes."],
+      "criticas": ["Funciona como legenda de aluguel na maior parte dos estados."],
+      "no_es": "Sem candidato majoritário no ES em 2026."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "eleicao": {
+    "ano": 2026,
+    "uf": "ES",
+    "primeiro_turno": "2026-10-04",
+    "segundo_turno": "2026-10-25",
+    "eleitores_es": "cerca de 2,99 milhões",
+    "ordem_na_urna": [
+      {"cargo": "deputado_federal", "digitos": 4},
+      {"cargo": "deputado_estadual", "digitos": 5},
+      {"cargo": "senador", "digitos": 3, "obs": "1º voto"},
+      {"cargo": "senador", "digitos": 3, "obs": "2º voto (em 2026 cada estado elege 2 senadores)"},
+      {"cargo": "governador", "digitos": 2},
+      {"cargo": "presidente", "digitos": 2}
+    ],
+    "atualizado_em": "2026-09-25"
+  },
+  "cargos": [
+    {
+      "id": "presidente",
+      "nome": "Presidente da República",
+      "vagas": 1,
+      "mandato_anos": 4,
+      "sistema": "majoritário, com 2º turno se ninguém passar de 50% dos votos válidos",
+      "digitos": 2,
+      "o_que_e": "Chefe de Estado e chefe de governo do país. Comanda o Poder Executivo federal, os ministérios e as Forças Armadas.",
+      "responsabilidades": [
+        "Sancionar ou vetar as leis aprovadas pelo Congresso e editar medidas provisórias (que valem de imediato, mas precisam ser confirmadas pelo Congresso).",
+        "Montar e enviar ao Congresso a proposta de orçamento da União e, depois, executar esse orçamento.",
+        "Nomear ministros de Estado, o presidente do Banco Central, ministros do STF (com aprovação do Senado), o Procurador-Geral da República e embaixadores.",
+        "Conduzir a política externa, a política econômica e programas nacionais (saúde via SUS, educação, assistência social, segurança em cooperação com os estados).",
+        "Comandar as Forças Armadas e decretar intervenção federal, estado de defesa ou de sítio nos casos previstos na Constituição."
+      ],
+      "o_que_nao_faz": "Não faz leis sozinho. Precisa do Congresso para aprovar leis, orçamento, emendas à Constituição e para converter medidas provisórias em lei. Também não controla diretamente a polícia dos estados nem as escolas municipais.",
+      "como_avaliar": "Para quem já governou, olhe o que sancionou, quais programas criou e como ficaram as contas públicas. Para quem foi parlamentar, olhe o que apresentou e o que virou lei. Para estreantes, resta o plano de governo e a equipe."
+    },
+    {
+      "id": "governador",
+      "nome": "Governador do Espírito Santo",
+      "vagas": 1,
+      "mandato_anos": 4,
+      "sistema": "majoritário, com 2º turno se ninguém passar de 50% dos votos válidos",
+      "digitos": 2,
+      "o_que_e": "Chefe do Poder Executivo estadual. Despacha no Palácio Anchieta e comanda as secretarias de Estado.",
+      "responsabilidades": [
+        "Segurança pública: comanda a Polícia Militar, a Polícia Civil, o Corpo de Bombeiros e o sistema prisional do estado.",
+        "Saúde: hospitais estaduais, regulação de leitos e a rede de média e alta complexidade que os municípios não cobrem.",
+        "Educação: ensino médio e parte do ensino fundamental (a rede estadual), além de escolas técnicas.",
+        "Infraestrutura: rodovias estaduais (as ES-xxx), portos e aeroportos sob gestão estadual, saneamento via Cesan.",
+        "Tributos: define e arrecada ICMS, IPVA e ITCMD, e decide incentivos fiscais para atrair empresas.",
+        "Envia à Assembleia Legislativa o orçamento estadual e sanciona ou veta as leis estaduais."
+      ],
+      "o_que_nao_faz": "Não cuida de postos de saúde básicos, creches, ensino fundamental inicial, coleta de lixo ou ruas da cidade. Isso é da prefeitura. Também não legisla sobre Código Penal, trabalho ou previdência, que são federais.",
+      "como_avaliar": "Olhe a execução de obras, os indicadores de homicídios, as filas de cirurgia e o resultado do ensino médio (Ideb). Para quem já governou, compare promessa com entrega. Para quem foi prefeito, o histórico da cidade é a melhor pista."
+    },
+    {
+      "id": "senador",
+      "nome": "Senador",
+      "vagas": 2,
+      "mandato_anos": 8,
+      "sistema": "majoritário: os 2 mais votados do estado são eleitos (sem 2º turno). Você vota em 2 nomes.",
+      "digitos": 3,
+      "o_que_e": "Representante do estado no Senado Federal. São 81 senadores, 3 por estado, com mandato de 8 anos. Em 2026 o Espírito Santo renova 2 das 3 cadeiras.",
+      "responsabilidades": [
+        "Revisar e votar os projetos de lei aprovados pela Câmara e propor projetos próprios.",
+        "Votar emendas à Constituição (precisa de 3/5 dos senadores em 2 votações).",
+        "Sabatinar e aprovar indicações do presidente: ministros do STF, Procurador-Geral da República, presidente e diretores do Banco Central, embaixadores, ministros do TCU.",
+        "Autorizar operações de crédito e limites de endividamento de estados e municípios. Isso afeta diretamente o caixa do ES.",
+        "Julgar o presidente da República em processo de impeachment e ministros do STF por crime de responsabilidade.",
+        "Fiscalizar o Executivo por meio de comissões e CPIs."
+      ],
+      "o_que_nao_faz": "Não executa obras nem administra serviços. Um senador pode destinar emendas ao orçamento para o estado, mas quem executa é o Executivo.",
+      "como_avaliar": "Para quem já foi senador ou deputado: quantos projetos apresentou, quantos viraram lei, que relatorias importantes assumiu e como votou em temas-chave. Para ex-governadores e ex-prefeitos: o histórico de gestão. Para estreantes: só as propostas."
+    },
+    {
+      "id": "deputado_federal",
+      "nome": "Deputado Federal",
+      "vagas": 10,
+      "mandato_anos": 4,
+      "sistema": "proporcional: o voto conta para o candidato e para o partido ou federação dele. As vagas são divididas pelo quociente eleitoral e, dentro de cada legenda, ficam com os mais votados.",
+      "digitos": 4,
+      "o_que_e": "Representante do estado na Câmara dos Deputados, que tem 513 cadeiras. O Espírito Santo elege 10.",
+      "responsabilidades": [
+        "Propor, discutir e votar leis federais (Código Penal, trabalho, previdência, tributos federais, saúde, educação nacional).",
+        "Votar o orçamento da União e apresentar emendas parlamentares que mandam dinheiro para obras e serviços no estado.",
+        "Votar emendas à Constituição e medidas provisórias.",
+        "Fiscalizar o Executivo federal: convocar ministros, abrir CPIs, aprovar ou rejeitar as contas do presidente.",
+        "Autorizar a abertura de processo de impeachment do presidente (é a Câmara que autoriza, o Senado que julga)."
+      ],
+      "o_que_nao_faz": "Não governa nem administra serviços. Não legisla sobre assuntos estaduais ou municipais.",
+      "como_avaliar": "Para quem já foi deputado: projetos apresentados, quantos viraram lei, relatorias e presença nas votações (a Câmara publica tudo em dadosabertos.camara.leg.br). Para quem vem da Assembleia ou de prefeitura: o que fez lá. Atenção ao efeito 'puxador de votos': seu voto pode eleger outra pessoa do mesmo partido ou federação.",
+      "aviso_proporcional": "Como a eleição é proporcional, o voto em um candidato pouco votado ajuda a eleger o mais votado da mesma legenda. Vale conhecer a chapa inteira do partido ou federação, não só o nome escolhido. Federações registradas para 2026: Brasil da Esperança (PT, PCdoB, PV), PSDB-Cidadania, PSOL-Rede, União Progressista (União Brasil, PP) e Renovação Solidária (Solidariedade, PRD)."
+    },
+    {
+      "id": "deputado_estadual",
+      "nome": "Deputado Estadual",
+      "vagas": 30,
+      "mandato_anos": 4,
+      "sistema": "proporcional, com as mesmas regras da eleição para deputado federal",
+      "digitos": 5,
+      "o_que_e": "Membro da Assembleia Legislativa do Espírito Santo (Ales), que tem 30 cadeiras.",
+      "responsabilidades": [
+        "Propor e votar leis estaduais: ICMS e IPVA, regras para a educação e a saúde estaduais, políticas de segurança, meio ambiente e serviço público estadual.",
+        "Votar o orçamento do estado e destinar emendas parlamentares para municípios e entidades.",
+        "Fiscalizar o governador e as secretarias: convocar secretários, abrir CPIs, julgar as contas do governo.",
+        "Aprovar ou rejeitar indicações do governador para o Tribunal de Contas do Estado e outros cargos.",
+        "Emendar a Constituição Estadual."
+      ],
+      "o_que_nao_faz": "Não legisla sobre assuntos federais (crimes, trabalho, previdência) e não administra serviços. Não tem poder sobre prefeituras, embora possa destinar emendas a elas.",
+      "como_avaliar": "Para quem já é deputado: projetos que viraram lei estadual, atuação nas comissões e nas CPIs. A Ales publica no portal al.es.gov.br. Para vereadores e ex-prefeitos: o histórico no município."
+    }
+  ],
+  "glossario": [
+    {"termo": "Quociente eleitoral", "def": "Total de votos válidos dividido pelo número de vagas. É quantos votos uma legenda precisa para ter direito a uma cadeira. Em 2022, no ES, foi cerca de 200 mil votos para federal e 67 mil para estadual."},
+    {"termo": "Federação partidária", "def": "União de partidos que funciona como um só nas eleições e por 4 anos no Legislativo. Os votos somam para o quociente eleitoral. Diferente de coligação, que só vale na eleição majoritária."},
+    {"termo": "Coligação", "def": "Aliança de partidos apenas para governador, senador ou presidente. Não existe mais coligação para deputado desde 2020."},
+    {"termo": "Projeto em tramitação", "def": "Projeto apresentado que ainda passa por comissões ou plenário. Muitos nunca são votados."},
+    {"termo": "Lei em vigor", "def": "Projeto aprovado nas duas casas (ou na Assembleia), sancionado e publicado. É o que de fato tem efeito."},
+    {"termo": "Relatoria", "def": "Parlamentar escolhido para analisar e dar parecer sobre um projeto. Relatar projetos importantes pesa tanto quanto ser autor."},
+    {"termo": "Registro deferido / indeferido", "def": "A Justiça Eleitoral aceitou (deferido) ou rejeitou (indeferido) a candidatura. Candidato indeferido pode recorrer e, em alguns casos, aparece na urna com votos contados como nulos até o julgamento final."}
+  ]
+}

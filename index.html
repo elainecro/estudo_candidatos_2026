@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eleições 2026 no ES</title>
+<meta name="description" content="Guia de estudo para o eleitor do Espírito Santo: o que cada cargo faz, o que cada partido defende e o histórico de cada candidato.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#candidatos">Ir direto para os candidatos</a>
+
+<header class="topo">
+  <div class="wrap">
+    <p class="kicker">Espírito Santo · 1º turno em 4 de outubro de 2026</p>
+    <h1>Em quem eu posso votar?</h1>
+    <p class="lead">Um guia para estudar antes de votar: o que cada cargo faz, o que cada partido defende e o que cada candidato já fez (ou não fez) na vida pública.</p>
+    <nav class="abas" aria-label="Seções">
+      <a href="#cargos">Cargos</a>
+      <a href="#partidos">Partidos</a>
+      <a href="#candidatos">Candidatos</a>
+      <a href="#urna">Na urna</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="cargos" class="secao">
+    <h2>1. Os cargos</h2>
+    <p class="intro">Você vai escolher seis nomes. Cada cargo tem um poder diferente, e um bom candidato para um pode ser um péssimo para outro. Toque em um cargo para ver o que ele decide e o que fica fora da alçada dele.</p>
+    <div id="lista-cargos" class="grade cargos"></div>
+    <details class="glossario">
+      <summary>Glossário rápido: quociente eleitoral, federação, tramitação…</summary>
+      <dl id="glossario"></dl>
+    </details>
+  </section>
+
+  <section id="partidos" class="secao">
+    <h2>2. Os partidos</h2>
+    <p class="intro">Trinta partidos têm registro no TSE. Aqui está o que cada um diz defender, o que fez quando teve poder e o que costumam cobrar dele. Cuidado com o campo "marcos": ele lista o que o partido sustentou em governos, não garante que o candidato local pense igual.</p>
+    <div class="filtros">
+      <label>Espectro
+        <select id="f-espectro">
+          <option value="">todos</option>
+        </select>
+      </label>
+      <label class="check"><input type="checkbox" id="f-com-candidato" checked> só partidos com candidato no ES neste guia</label>
+    </div>
+    <div id="lista-partidos" class="grade partidos"></div>
+  </section>
+
+  <section id="candidatos" class="secao">
+    <h2>3. Os candidatos</h2>
+    <p class="intro" id="cobertura"></p>
+    <div class="filtros filtros-cand">
+      <div class="chips" id="chips-cargo" role="tablist" aria-label="Cargo"></div>
+      <label>Partido
+        <select id="f-partido"><option value="">todos</option></select>
+      </label>
+      <label>Buscar
+        <input type="search" id="f-busca" placeholder="nome ou número">
+      </label>
+      <label class="check"><input type="checkbox" id="f-reeleicao"> só quem já tem mandato</label>
+    </div>
+    <p class="contagem" id="contagem"></p>
+    <div id="lista-candidatos" class="grade candidatos"></div>
+  </section>
+
+  <section id="urna" class="secao">
+    <h2>4. Na urna</h2>
+    <p class="intro">A ordem em que a urna vai pedir os votos e quantos dígitos cada um tem. Leve uma "cola" com os números; é permitido.</p>
+    <ol id="ordem-urna" class="ordem"></ol>
+    <p class="nota">Voto em branco e nulo não vão para ninguém. Nas eleições proporcionais (deputados), votar só no número do partido (voto de legenda) ajuda a legenda a conquistar cadeiras, mas não escolhe quem senta nelas.</p>
+  </section>
+
+</main>
+
+<footer class="wrap rodape">
+  <p id="atualizado"></p>
+  <p>Fontes: TSE/DivulgaCand, Câmara dos Deputados, Senado Federal, Assembleia Legislativa do ES e imprensa capixaba (links em cada ficha). Projeto aberto: edite <code>data/*.json</code> e rode <code>python3 scripts/build_bundle.py</code>.</p>
+</footer>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-fundo" data-fechar></div>
+  <article class="modal-caixa" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+    <button class="fechar" data-fechar aria-label="Fechar">×</button>
+    <div id="modal-conteudo"></div>
+  </article>
+</div>
+
+<script src="data/bundle.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

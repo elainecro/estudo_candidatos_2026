@@ -1,0 +1,1031 @@
+{
+  "meta": {
+    "atualizado_em": "2026-09-25",
+    "cobertura": {
+      "presidente": "completa (12 registros deferidos + 1 indeferido)",
+      "governador": "completa (5 candidatos)",
+      "senador": "completa (11 candidatos)",
+      "deputado_federal": "parcial: 15 de 135 registrados. Estão aqui os 7 que tentam reeleição, o substituto de quem desistiu e os nomes com mandato anterior mais conhecidos. Para a lista completa, rode scripts/fetch_dados.py --tse.",
+      "deputado_estadual": "parcial: 24 de 403 registrados. Estão aqui os 22 deputados atuais que tentam reeleição e 2 ex-parlamentares. Para a lista completa, rode scripts/fetch_dados.py --tse."
+    },
+    "aviso_historico": "O histórico de projetos vem de fontes públicas (Câmara, Senado, Ales, imprensa) e de buscas feitas em 25/09/2026. Onde não há dado consolidado, o campo fica nulo em vez de inventado. Números de urna marcados como nulos precisam ser confirmados no TSE."
+  },
+  "candidatos": [
+    {
+      "id": "lula", "cargo": "presidente", "nome_urna": "Lula", "nome_completo": "Luiz Inácio Lula da Silva",
+      "partido": "PT", "numero": "13", "idade": 80, "ocupacao": "Presidente da República",
+      "chapa": {"vice": "Geraldo Alckmin", "partido_vice": "PSB", "coligacao": "Federação Brasil da Esperança (PT, PCdoB, PV) + PSB, PDT e outros"},
+      "situacao": "deferido", "tipo_historico": "executivo", "inicio_politica": 1978,
+      "resumo": "Metalúrgico e sindicalista no ABC paulista, fundador do PT em 1980. Sétima eleição presidencial, tenta o quarto mandato.",
+      "mandatos": [
+        {"cargo": "Deputado federal constituinte (SP)", "periodo": "1987-1991", "partido": "PT"},
+        {"cargo": "Presidente da República", "periodo": "2003-2010", "partido": "PT"},
+        {"cargo": "Presidente da República", "periodo": "2023-atual", "partido": "PT"}
+      ],
+      "projetos": {
+        "fonte": "Planalto / imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Como presidente, o histórico relevante é o de programas criados e leis sancionadas, não de projetos de autoria."},
+        "em_tramitacao": [],
+        "aprovados": [
+          {"titulo": "Bolsa Família", "norma": "Lei 10.836/2004", "ano": 2004, "status": "em vigor (relançado em 2023)", "papel": "governo"},
+          {"titulo": "Prouni", "norma": "Lei 11.096/2005", "ano": 2005, "status": "em vigor", "papel": "governo"},
+          {"titulo": "Lei Maria da Penha", "norma": "Lei 11.340/2006", "ano": 2006, "status": "em vigor", "papel": "sancionou"},
+          {"titulo": "Novo arcabouço fiscal", "norma": "LC 200/2023", "ano": 2023, "status": "em vigor", "papel": "governo"},
+          {"titulo": "Isenção do IR até R$ 5 mil", "norma": "Lei de 2025", "ano": 2025, "status": "em vigor a partir de 2026", "papel": "governo"}
+        ]
+      },
+      "fontes": ["https://www.jota.info/eleicoes/eleicoes-2026/lula-confirma-alckmin-como-vice-na-chapa-para-as-eleicoes-2026"]
+    },
+    {
+      "id": "flavio-bolsonaro", "cargo": "presidente", "nome_urna": "Flávio Bolsonaro", "nome_completo": "Flávio Nantes Bolsonaro",
+      "partido": "PL", "numero": "22", "idade": 45, "ocupacao": "Senador (RJ)",
+      "chapa": {"vice": "Alfredo Gaspar", "partido_vice": "União", "coligacao": "PL e aliados"},
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2002,
+      "resumo": "Filho mais velho de Jair Bolsonaro. Quatro mandatos de deputado estadual no Rio e senador desde 2019. Escolhido pelo pai para representar o bolsonarismo em 2026.",
+      "mandatos": [
+        {"cargo": "Deputado estadual (RJ)", "periodo": "2003-2018", "partido": "PP / PSC / PSL", "obs": "4 mandatos consecutivos"},
+        {"cargo": "Senador (RJ)", "periodo": "2019-atual", "partido": "PSL / Republicanos / Patriota / PL"}
+      ],
+      "projetos": {
+        "fonte": "a consolidar via API do Senado (scripts/fetch_dados.py --senado)", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Sem consolidação confiável nas fontes acessadas. Atuação concentrada em segurança pública e pautas liberais na economia."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.jota.info/eleicoes/eleicoes-2026/alfredo-gaspar-sera-o-candidato-a-vice-presidente-na-chapa-de-flavio-bolsonaro"]
+    },
+    {
+      "id": "ronaldo-caiado", "cargo": "presidente", "nome_urna": "Ronaldo Caiado", "nome_completo": "Ronaldo Ramos Caiado",
+      "partido": "PSD", "numero": "55", "idade": 76, "ocupacao": "Médico, ex-governador de Goiás",
+      "chapa": {"vice": "Gilberto Kassab", "partido_vice": "PSD", "coligacao": "PSD"},
+      "situacao": "deferido", "tipo_historico": "misto", "inicio_politica": 1989,
+      "resumo": "Médico ortopedista e produtor rural, fundou a UDR nos anos 1980. Candidato a presidente em 1989, foi deputado, senador e governador de Goiás por dois mandatos. Renunciou em abril de 2026 para concorrer.",
+      "mandatos": [
+        {"cargo": "Deputado federal (GO)", "periodo": "1991-1995 e 1999-2015", "partido": "PDS / PFL / DEM"},
+        {"cargo": "Senador (GO)", "periodo": "2015-2018", "partido": "DEM"},
+        {"cargo": "Governador de Goiás", "periodo": "2019-2026", "partido": "DEM / União / PSD"}
+      ],
+      "projetos": {
+        "fonte": "Câmara / Senado / imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Longa atuação legislativa ligada ao agronegócio e à segurança pública. Como governador, marcou pela queda de homicídios e pelo ajuste fiscal de Goiás."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.otempo.com.br/eleicoes/2026/presidentes/2026/7/26/psd-confirma-chapa-caiado-e-kassab-para-disputar-a-presidencia"]
+    },
+    {
+      "id": "romeu-zema", "cargo": "presidente", "nome_urna": "Romeu Zema", "nome_completo": "Romeu Zema Neto",
+      "partido": "Novo", "numero": "30", "idade": 61, "ocupacao": "Empresário, ex-governador de Minas Gerais",
+      "chapa": {"vice": "Eduardo Girão", "partido_vice": "Novo", "coligacao": "Novo"},
+      "situacao": "deferido", "tipo_historico": "executivo", "inicio_politica": 2018,
+      "resumo": "Empresário do Grupo Zema. Eleito governador de Minas em 2018 sem mandato anterior e reeleito em 2022 no primeiro turno. Deixou o cargo em abril de 2026.",
+      "mandatos": [
+        {"cargo": "Governador de Minas Gerais", "periodo": "2019-2026", "partido": "Novo"}
+      ],
+      "projetos": {
+        "fonte": "imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Sem mandato legislativo. Como governador: ajuste fiscal, adesão ao regime de recuperação fiscal de Minas, privatizações e concessões."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.jota.info/eleicoes/eleicoes-2026/sem-anuncio-de-vice-romeu-zema-e-oficializado-candidato-a-presidencia-pelo-novo"]
+    },
+    {
+      "id": "augusto-cury", "cargo": "presidente", "nome_urna": "Augusto Cury", "nome_completo": "Augusto Jorge Cury",
+      "partido": "Avante", "numero": "70", "idade": 67, "ocupacao": "Psiquiatra e escritor",
+      "chapa": {"vice": "Júlio Delgado", "partido_vice": "Avante", "coligacao": "Avante"},
+      "situacao": "deferido", "tipo_historico": "sem_mandato", "inicio_politica": 2026,
+      "resumo": "Autor de best-sellers publicados em mais de 70 países. Estreia na política em 2026.",
+      "mandatos": [], "projetos": null,
+      "fontes": ["https://pt.wikipedia.org/wiki/Campanha_presidencial_de_Augusto_Cury_em_2026"]
+    },
+    {
+      "id": "renan-santos", "cargo": "presidente", "nome_urna": "Renan Santos", "nome_completo": "Renan Antônio da Silva Santos",
+      "partido": "Missão", "numero": "14", "idade": 42, "ocupacao": "Ativista, cofundador do MBL",
+      "chapa": {"vice": "Coronel Medina (Aroldo Medina)", "partido_vice": "Missão", "coligacao": "Missão"},
+      "situacao": "deferido", "tipo_historico": "sem_mandato", "inicio_politica": 2014,
+      "resumo": "Um dos fundadores do MBL e presidente nacional do Partido Missão, registrado em 2025. Nunca teve mandato.",
+      "mandatos": [], "projetos": null,
+      "fontes": ["https://www.nsctotal.com.br/politica/eleicoes-2026-quem-e-renan-santos-candidato-do-partido-missao-a-presidencia"]
+    },
+    {
+      "id": "clariana-barao", "cargo": "presidente", "nome_urna": "Clariana Barão", "nome_completo": "Clariana Barão",
+      "partido": "DC", "numero": "27", "idade": 39, "ocupacao": "Advogada",
+      "chapa": {"vice": "Fabiana Torquato", "partido_vice": "DC", "coligacao": "DC"},
+      "situacao": "deferido", "tipo_historico": "sem_mandato", "inicio_politica": 2026,
+      "resumo": "Primeira disputa eleitoral. Chapa 100% feminina.",
+      "mandatos": [], "projetos": null,
+      "fontes": ["https://www.correiobraziliense.com.br/politica/2026/08/7489268-quem-e-clariana-barao-candidata-a-presidencia-pelo-dc.html"]
+    },
+    {
+      "id": "samara-martins", "cargo": "presidente", "nome_urna": "Samara Martins", "nome_completo": "Samara Martins",
+      "partido": "UP", "numero": "80", "idade": 38, "ocupacao": "Dentista do SUS",
+      "chapa": {"vice": "Raquel Brício", "partido_vice": "UP", "coligacao": "UP"},
+      "situacao": "deferido", "tipo_historico": "sem_mandato", "inicio_politica": 2026,
+      "resumo": "Militante do movimento de moradia (MLB). Chapa 100% feminina.",
+      "mandatos": [], "projetos": null,
+      "fontes": ["https://www.correiobraziliense.com.br/politica/2026/08/7489627-quem-e-samara-martins-candidata-a-presidencia-pela-up.html"]
+    },
+    {
+      "id": "wilson-grassi", "cargo": "presidente", "nome_urna": "Veterinário Wilson Grassi", "nome_completo": "Wilson Grassi Júnior",
+      "partido": "Democrata", "numero": "35", "idade": 56, "ocupacao": "Médico veterinário",
+      "chapa": {"vice": null, "partido_vice": "Democrata", "coligacao": "Democrata"},
+      "situacao": "deferido", "tipo_historico": "sem_mandato", "inicio_politica": 2026,
+      "resumo": "Candidato do antigo PMB, renomeado Democrata em 2025.",
+      "mandatos": [], "projetos": null,
+      "fontes": ["https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/democrata-define-wilson-grassi-junior-candidato-presidencia"]
+    },
+    {
+      "id": "edmilson-costa", "cargo": "presidente", "nome_urna": "Edmilson Costa", "nome_completo": "Edmilson Silva Costa",
+      "partido": "PCB", "numero": "21", "idade": 76, "ocupacao": "Economista",
+      "chapa": {"vice": "Cleusa Santos", "partido_vice": "PCB", "coligacao": "PCB"},
+      "situacao": "deferido", "tipo_historico": "sem_mandato", "inicio_politica": 1970,
+      "resumo": "Economista e dirigente histórico do PCB. Programa de ruptura nas áreas trabalhista, previdenciária e fiscal.",
+      "mandatos": [], "projetos": null,
+      "fontes": ["https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/pcb-traz-edmilson-costa-como-candidato-presidencia"]
+    },
+    {
+      "id": "hertz-dias", "cargo": "presidente", "nome_urna": "Hertz Dias", "nome_completo": "Hertz Dias",
+      "partido": "PSTU", "numero": "16", "idade": null, "ocupacao": "Professor e rapper",
+      "chapa": {"vice": "Vanessa Portugal", "partido_vice": "PSTU", "coligacao": "PSTU"},
+      "situacao": "deferido", "tipo_historico": "sem_mandato", "inicio_politica": 2010,
+      "resumo": "Professor e rapper maranhense, militante do movimento negro.",
+      "mandatos": [], "projetos": null,
+      "fontes": ["https://www.correiobraziliense.com.br/politica/2026/08/7489635-quem-e-hertz-dias-o-rapper-candidato-a-presidente-pelo-pstu.html"]
+    },
+    {
+      "id": "rui-costa-pimenta", "cargo": "presidente", "nome_urna": "Rui Costa Pimenta", "nome_completo": "Rui Costa Pimenta",
+      "partido": "PCO", "numero": "29", "idade": 69, "ocupacao": "Jornalista",
+      "chapa": {"vice": "Antônio Carlos Silva", "partido_vice": "PCO", "coligacao": "PCO"},
+      "situacao": "deferido", "tipo_historico": "sem_mandato", "inicio_politica": 1995,
+      "resumo": "Presidente do PCO desde 1995. Quarta candidatura à presidência.",
+      "mandatos": [], "projetos": null,
+      "fontes": ["https://www.cnnbrasil.com.br/eleicoes/quem-e-rui-costa-pimenta-candidato-do-pco-a-presidencia-pela-quarta-vez/"]
+    },
+    {
+      "id": "pablo-marcal", "cargo": "presidente", "nome_urna": "Pablo Marçal", "nome_completo": "Pablo Henrique Costa Marçal",
+      "partido": "PRTB", "numero": "28", "idade": 39, "ocupacao": "Empresário e influenciador",
+      "chapa": {"vice": "Leonardo Avalanche", "partido_vice": "PRTB", "coligacao": "PRTB"},
+      "situacao": "indeferido", "situacao_obs": "Registro negado por unanimidade pelo TSE em 11/09/2026: inelegível até 2032 por uso indevido de redes sociais na eleição de 2024 em São Paulo. O número pode aparecer na urna, mas votos nele são anulados salvo reversão judicial.",
+      "tipo_historico": "sem_mandato", "inicio_politica": 2022,
+      "resumo": "Terceiro colocado na eleição para prefeito de São Paulo em 2024.",
+      "mandatos": [], "projetos": null,
+      "fontes": ["https://www.otempo.com.br/eleicoes/2026/presidentes/2026/9/12/tse-nega-por-unanimidade-registro-de-candidatura-de-pablo-marcal-a-presidencia"]
+    },
+
+    {
+      "id": "ricardo-ferraco", "cargo": "governador", "nome_urna": "Ricardo Ferraço", "nome_completo": "Ricardo de Rezende Ferraço",
+      "partido": "MDB", "numero": "15", "idade": 63, "ocupacao": "Governador do ES",
+      "chapa": {"vice": "Camillo Neves", "partido_vice": "PP", "coligacao": "Agora é o Futuro: MDB, Podemos, Agir, PSB, PDT, Federação PSDB-Cidadania e Federação União Progressista (União, PP)"},
+      "situacao": "deferido", "tipo_historico": "misto", "inicio_politica": 1982,
+      "resumo": "De Cachoeiro de Itapemirim. Vereador aos 19 anos, presidiu a Assembleia, foi deputado federal mais votado do ES em 1998 e senador com 1,55 milhão de votos em 2010. Vice de Casagrande, assumiu o governo em 2 de abril de 2026 quando o titular saiu para disputar o Senado.",
+      "mandatos": [
+        {"cargo": "Vereador de Cachoeiro de Itapemirim", "periodo": "1983-1988", "partido": "PTB"},
+        {"cargo": "Deputado estadual", "periodo": "1989-1998", "partido": "PTB / PSDB", "obs": "presidiu a Ales em 1995-96; chefe da Casa Civil"},
+        {"cargo": "Deputado federal", "periodo": "1999-2002", "partido": "PSDB"},
+        {"cargo": "Secretário de Estado da Agricultura", "periodo": "2003-2006", "partido": "PSDB"},
+        {"cargo": "Senador", "periodo": "2011-2018", "partido": "PMDB / PSDB"},
+        {"cargo": "Vice-governador", "periodo": "2023-2026", "partido": "MDB"},
+        {"cargo": "Governador", "periodo": "abr/2026-atual", "partido": "MDB"}
+      ],
+      "projetos": {
+        "fonte": "Senado / Câmara / imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Como senador, relatou o novo Código de Processo Civil na CCJ e presidiu a Comissão de Relações Exteriores. Consolidação de autorias pendente (scripts/fetch_dados.py --senado)."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://jovempan.com.br/politica/com-longa-trajetoria-politica-ricardo-ferraco-e-candidato-a-reeleicao-pelo-governo-do-es/", "https://www.camara.leg.br/deputados/74674/biografia"]
+    },
+    {
+      "id": "lorenzo-pazolini", "cargo": "governador", "nome_urna": "Lorenzo Pazolini", "nome_completo": "Lorenzo Silva de Pazolini",
+      "partido": "Republicanos", "numero": "10", "idade": 44, "ocupacao": "Delegado, ex-prefeito de Vitória",
+      "chapa": {"vice": "Eliane Leal", "partido_vice": "PL", "coligacao": "Paz pra Viver um Novo Tempo: Republicanos, PL e Democrata"},
+      "situacao": "deferido", "tipo_historico": "misto", "inicio_politica": 2018,
+      "resumo": "Delegado da Polícia Civil por 11 anos (chefiou a Delegacia de Proteção à Criança e ao Adolescente). Deputado estadual em 2018, prefeito de Vitória eleito em 2020 e reeleito em 2024 no primeiro turno. Renunciou em 2026 para disputar o governo.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2019-2020", "partido": "PRP / Republicanos", "obs": "renunciou para assumir a prefeitura"},
+        {"cargo": "Prefeito de Vitória", "periodo": "2021-2026", "partido": "Republicanos", "obs": "eleito com 58,5% (2020) e 56,2% (2024)"}
+      ],
+      "projetos": {
+        "fonte": "Ales / imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Mandato curto na Ales (2 anos) focado em fiscalização e segurança. Como prefeito, o histórico está na gestão: segurança municipal, turismo, ampliação de escolas e unidades de saúde."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://jovempan.com.br/noticias/ex-prefeito-de-vitoria-lorenzo-pazolini-e-candidato-ao-governo-do-es/"]
+    },
+    {
+      "id": "helder-salomao", "cargo": "governador", "nome_urna": "Helder Salomão", "nome_completo": "Helder Ignacio Salomão",
+      "partido": "PT", "numero": "13", "idade": 62, "ocupacao": "Professor, deputado federal",
+      "chapa": {"vice": "Professora Valdirene", "partido_vice": "PT", "coligacao": "Federação Brasil da Esperança (PT, PCdoB, PV)"},
+      "situacao": "deferido", "tipo_historico": "misto", "inicio_politica": 1982,
+      "resumo": "Professor, militante das comunidades eclesiais de base em Cariacica. Único prefeito reeleito da história de Cariacica. Três mandatos de deputado federal, o mais votado do ES em 2022.",
+      "mandatos": [
+        {"cargo": "Vereador de Cariacica", "periodo": "1993-1996", "partido": "PT"},
+        {"cargo": "Deputado estadual", "periodo": "2003-2004", "partido": "PT", "obs": "deixou para disputar a prefeitura"},
+        {"cargo": "Prefeito de Cariacica", "periodo": "2005-2012", "partido": "PT", "obs": "reeleito em 2008"},
+        {"cargo": "Deputado federal", "periodo": "2015-atual", "partido": "PT", "obs": "3 mandatos; 120.337 votos em 2022"}
+      ],
+      "projetos": {
+        "fonte": "Câmara dos Deputados (a consolidar via API)", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Atuação nas comissões de Direitos Humanos e Educação; presidiu a Comissão de Direitos Humanos. Lista de autorias e leis sancionadas pendente de consolidação."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-helder-salomao-pre-candidato-ao-governo-do-es/", "https://www.camara.leg.br/deputados/178873/biografia"]
+    },
+    {
+      "id": "breno-barcelos", "cargo": "governador", "nome_urna": "Breno Barcelos", "nome_completo": "Breno Augusto Fagundes Barcelos",
+      "partido": "Missão", "numero": "14", "idade": 41, "ocupacao": "Engenheiro",
+      "chapa": {"vice": "Victor Oliveira", "partido_vice": "Missão", "coligacao": "Missão"},
+      "situacao": "deferido", "tipo_historico": "sem_mandato", "inicio_politica": 2026,
+      "resumo": "Engenheiro, primeira disputa eleitoral.",
+      "mandatos": [], "projetos": null,
+      "fontes": ["https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/es/governador/breno-barcelos-missao-14/"]
+    },
+    {
+      "id": "rafael-demuner", "cargo": "governador", "nome_urna": "Rafael Demuner", "nome_completo": "Rafael Ketley Demuner",
+      "partido": "UP", "numero": "80", "idade": null, "ocupacao": null,
+      "chapa": {"vice": "Dionary Sarmento", "partido_vice": "UP", "coligacao": "UP"},
+      "situacao": "deferido", "tipo_historico": "sem_mandato", "inicio_politica": 2026,
+      "resumo": "Candidato da Unidade Popular, sem mandato anterior.",
+      "mandatos": [], "projetos": null,
+      "fontes": ["https://www.tribunapr.com.br/eleicoes/2026/candidatos/es/governador/rafael-demuner-up-80/"]
+    },
+
+    {
+      "id": "fabiano-contarato", "cargo": "senador", "nome_urna": "Fabiano Contarato", "nome_completo": "Fabiano Contarato",
+      "partido": "PT", "numero": "133", "idade": 56, "ocupacao": "Senador, delegado aposentado",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2018,
+      "resumo": "Delegado da Polícia Civil e professor de Direito. Eleito senador em 2018 pela Rede com 1,1 milhão de votos, o mais votado do estado. Migrou para o PT em 2022. Tenta a reeleição.",
+      "mandatos": [
+        {"cargo": "Senador", "periodo": "2019-atual", "partido": "Rede / PT", "obs": "presidiu a Comissão de Meio Ambiente"}
+      ],
+      "projetos": {
+        "fonte": "Senado Federal / imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Total de autorias a consolidar via API do Senado."},
+        "em_tramitacao": [
+          {"id": "PL 4146/2020", "titulo": "Piso salarial nacional para garis e trabalhadores da limpeza urbana", "obs": "autor; pedido de urgência"},
+          {"id": "PEC 19", "titulo": "Vincula o piso da enfermagem à jornada de 30h e cria índice de reajuste anual", "obs": "relator"},
+          {"id": "Projeto", "titulo": "Punição a torcidas organizadas por atos racistas, homofóbicos ou xenofóbicos, com banimento de estádios por até 5 anos", "obs": "autor; aprovado na CCJ do Senado"}
+        ],
+        "aprovados": [
+          {"titulo": "Piso salarial nacional da enfermagem", "norma": "Lei 14.434/2022", "ano": 2022, "status": "em vigor", "papel": "autor"}
+        ]
+      },
+      "fontes": ["https://www25.senado.leg.br/web/senadores/senador/-/perfil/5953", "https://www.cofen.gov.br/senador-fabiano-contarato-sera-relator-da-pec-das-30h/"]
+    },
+    {
+      "id": "marcos-do-val", "cargo": "senador", "nome_urna": "Marcos do Val", "nome_completo": "Marcos Ribeiro do Val",
+      "partido": "Avante", "numero": "700", "idade": 55, "ocupacao": "Senador, instrutor de segurança",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2018,
+      "resumo": "Instrutor de táticas policiais, eleito senador em 2018 pelo PPS (hoje Cidadania). Passou pelo Podemos e está no Avante. Tenta a reeleição.",
+      "mandatos": [
+        {"cargo": "Senador", "periodo": "2019-atual", "partido": "PPS / Podemos / Avante", "obs": "membro da CCJ, Comissão de Segurança Pública e de Relações Exteriores"}
+      ],
+      "projetos": {
+        "fonte": "Senado Federal / imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Total de autorias a consolidar via API do Senado. Foco em segurança pública."},
+        "em_tramitacao": [
+          {"id": "PL 1001/2024", "titulo": "Torna qualificado o homicídio cometido por integrante de facção criminosa", "obs": "aprovado na Comissão de Segurança Pública, aguarda CCJ"},
+          {"id": "Projeto", "titulo": "Pacto Nacional de Fortalecimento e Valorização dos Profissionais de Segurança Pública (piso nacional, adicionais)", "obs": "aprovado na CSP"},
+          {"id": "Projeto", "titulo": "Aumento de pena para incêndio em florestas e vegetação", "obs": "autor"}
+        ],
+        "aprovados": []
+      },
+      "fontes": ["https://www25.senado.leg.br/web/senadores/senador/-/perfil/5942"]
+    },
+    {
+      "id": "renato-casagrande", "cargo": "senador", "nome_urna": "Renato Casagrande", "nome_completo": "José Renato Casagrande",
+      "partido": "PSB", "numero": "400", "idade": 65, "ocupacao": "Engenheiro florestal e advogado, ex-governador",
+      "situacao": "deferido", "tipo_historico": "misto", "inicio_politica": 1990,
+      "resumo": "Primeiro deputado estadual do PSB capixaba, vice-governador, deputado federal, senador e três vezes governador (2011-2014, 2019-2026). Renunciou em abril de 2026 para voltar ao Senado.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "1991-1994", "partido": "PSB"},
+        {"cargo": "Vice-governador", "periodo": "1995-1998", "partido": "PSB"},
+        {"cargo": "Deputado federal", "periodo": "2003-2006", "partido": "PSB"},
+        {"cargo": "Senador", "periodo": "2007-2010", "partido": "PSB", "obs": "criou a Comissão Mista de Mudanças Climáticas; presidiu a Comissão de Meio Ambiente"},
+        {"cargo": "Governador", "periodo": "2011-2014", "partido": "PSB"},
+        {"cargo": "Governador", "periodo": "2019-abr/2026", "partido": "PSB", "obs": "reeleito em 2022"}
+      ],
+      "projetos": {
+        "fonte": "Senado / Câmara / imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Como senador, foi um dos idealizadores da reforma do Código de Processo Penal (2008). Como governador, o histórico é de gestão: nota máxima de capacidade de pagamento no Tesouro, investimento com recursos próprios, programa Estado Presente na segurança."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.folhavitoria.com.br/politica/quem-e-renato-casagrande-candidato-do-psb-ao-senado-pelo-espirito-santo/", "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3868"]
+    },
+    {
+      "id": "rose-de-freitas", "cargo": "senador", "nome_urna": "Rose de Freitas", "nome_completo": "Rose de Freitas",
+      "partido": "MDB", "numero": "156", "idade": 77, "ocupacao": "Jornalista, ex-senadora",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 1982,
+      "resumo": "Nascida em Minas, fez carreira no ES. Deputada estadual em 1982, constituinte em 1986, seis mandatos na Câmara e primeira senadora da história do estado (2015-2023). Concorre na coligação Agora é o Futuro.",
+      "mandatos": [
+        {"cargo": "Deputada estadual", "periodo": "1983-1986", "partido": "PMDB"},
+        {"cargo": "Deputada federal", "periodo": "1987-2015", "partido": "PMDB / PSDB / PMDB", "obs": "6 mandatos; constituinte; 1ª vice-presidente da Câmara em 2011"},
+        {"cargo": "Senadora", "periodo": "2015-2023", "partido": "PMDB / Podemos / MDB", "obs": "presidiu a Comissão Mista de Orçamento em 2015 e 2017"}
+      ],
+      "projetos": {
+        "fonte": "Senado / Câmara", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Na Constituinte apresentou 87 emendas, 5 aprovadas na íntegra e 9 parcialmente. Integrou a 'bancada do batom', responsável por avanços nos direitos das mulheres na Constituição. Autorias posteriores a consolidar."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www12.senado.leg.br/institucional/arquivo/biografia?grupo=senadores&id=rose-de-freitas", "https://www.camara.leg.br/deputados/73507/biografia"]
+    },
+    {
+      "id": "sergio-meneguelli", "cargo": "senador", "nome_urna": "Sergio Meneguelli", "nome_completo": "Sérgio Meneguelli",
+      "partido": "PSD", "numero": "556", "idade": 70, "ocupacao": "Advogado, deputado estadual",
+      "situacao": "deferido", "tipo_historico": "misto", "inicio_politica": 1983,
+      "resumo": "Quatro mandatos de vereador e prefeito de Colatina (2017-2020), famoso pelos vídeos de fiscalização. Deputado estadual mais votado da história do ES em 2022 (138.523 votos).",
+      "mandatos": [
+        {"cargo": "Vereador de Colatina", "periodo": "1983-1988, 2005-2016", "partido": "MDB e outros", "obs": "4 mandatos"},
+        {"cargo": "Prefeito de Colatina", "periodo": "2017-2020", "partido": "MDB"},
+        {"cargo": "Deputado estadual", "periodo": "2023-atual", "partido": "Republicanos / PSD"}
+      ],
+      "projetos": {
+        "fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Primeiro mandato legislativo estadual. Lista de proposições disponível no portal da Ales."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://pt.wikipedia.org/wiki/S%C3%A9rgio_Meneguelli", "https://www.al.es.gov.br/Deputado/SergioMeneguelli"]
+    },
+    {
+      "id": "evair-de-melo", "cargo": "senador", "nome_urna": "Evair de Melo", "nome_completo": "Evair Vieira de Melo",
+      "partido": "Republicanos", "numero": "100", "idade": 55, "ocupacao": "Deputado federal, engenheiro agrônomo",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2014,
+      "resumo": "De Conceição do Castelo, dirigiu o Incaper (2009-2014). Três mandatos de deputado federal (PV, depois PP). Deixou a disputa pela Câmara para concorrer ao Senado pelo Republicanos.",
+      "mandatos": [
+        {"cargo": "Diretor-presidente do Incaper", "periodo": "2009-2014", "partido": null},
+        {"cargo": "Deputado federal", "periodo": "2015-atual", "partido": "PV / PP / Republicanos", "obs": "3 mandatos"}
+      ],
+      "projetos": {
+        "fonte": "Câmara dos Deputados / site do parlamentar", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Relatou 5 proposições que viraram lei (3 medidas provisórias e 2 projetos). Foco em agricultura e agroindústria."},
+        "em_tramitacao": [],
+        "aprovados": [
+          {"titulo": "Selo Arte: desburocratiza produção e venda de alimentos artesanais de origem animal (queijos, embutidos)", "norma": "Lei 13.680/2018", "ano": 2018, "status": "em vigor", "papel": "autor"},
+          {"titulo": "Política Nacional de Incentivo à Produção de Cacau de Qualidade", "norma": "Lei 13.710/2018", "ano": 2018, "status": "em vigor", "papel": "autor"},
+          {"titulo": "Dia Nacional do Ciclista (19 de agosto)", "norma": "Lei 13.508/2017", "ano": 2017, "status": "em vigor", "papel": "autor"},
+          {"titulo": "Regulamentação da telemedicina durante a pandemia de Covid-19", "norma": "Lei 13.989/2020", "ano": 2020, "status": "cumprida (substituída pela lei geral da telessaúde em 2022)", "papel": "autor"}
+        ]
+      },
+      "fontes": ["https://www.camara.leg.br/deputados/178871/biografia", "https://evairdemelo.com.br/pages/biografia"]
+    },
+    {
+      "id": "maguinha-malta", "cargo": "senador", "nome_urna": "Maguinha Malta", "nome_completo": "Magda Santos Malta",
+      "partido": "PL", "numero": "222", "idade": 43, "ocupacao": "Publicitária",
+      "suplentes": ["Cabo Diego Cassotto", "Nerleo Caus"],
+      "situacao": "deferido", "tipo_historico": "sem_mandato", "inicio_politica": 2026,
+      "resumo": "Filha do senador Magno Malta. Foi secretária parlamentar do deputado Gilvan da Federal. Primeira candidatura registrada no TSE.",
+      "mandatos": [], "projetos": null,
+      "fontes": ["https://www.folhavitoria.com.br/eleicoes/quem-e-maguinha-malta-candidata-do-pl-ao-senado-pelo-espirito-santo/"]
+    },
+    {
+      "id": "rodney-miranda", "cargo": "senador", "nome_urna": "Rodney Miranda", "nome_completo": "Rodney Rocha Miranda",
+      "partido": "PRTB", "numero": "280", "idade": 61, "ocupacao": "Delegado da Polícia Federal aposentado, advogado",
+      "situacao": "deferido", "tipo_historico": "misto", "inicio_politica": 2010,
+      "resumo": "Delegado federal, secretário de Segurança do ES em dois períodos e de Goiás. Deputado estadual em 2010, prefeito de Vila Velha (2013-2016), derrotado na reeleição em 2016.",
+      "mandatos": [
+        {"cargo": "Secretário de Segurança Pública do ES", "periodo": "dois períodos", "partido": null},
+        {"cargo": "Deputado estadual", "periodo": "2011-2012", "partido": "DEM"},
+        {"cargo": "Prefeito de Vila Velha", "periodo": "2013-2016", "partido": "DEM"},
+        {"cargo": "Secretário de Segurança Pública de Goiás", "periodo": "2019-2023", "partido": null}
+      ],
+      "projetos": {
+        "fonte": "imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Mandato legislativo curto (2 anos na Ales). Histórico relevante é executivo, em segurança pública."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.folhavitoria.com.br/eleicoes/quem-e-rodney-miranda-candidato-do-prtb-ao-senado-pelo-espirito-santo/"]
+    },
+    {
+      "id": "leonardo-monjardim", "cargo": "senador", "nome_urna": "Leonardo Monjardim", "nome_completo": "Leonardo Passos Monjardim",
+      "partido": "Novo", "numero": "300", "idade": 53, "ocupacao": "Vereador de Vitória, advogado e professor",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2020,
+      "resumo": "Vereador de Vitória pelo Novo. Discurso liberal-conservador, foco em educação, saúde e endurecimento penal.",
+      "mandatos": [
+        {"cargo": "Vereador de Vitória", "periodo": "2021-atual", "partido": "Novo"}
+      ],
+      "projetos": {
+        "fonte": "Câmara Municipal de Vitória (a consolidar)", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Histórico legislativo apenas municipal."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.folhavitoria.com.br/eleicoes/quem-e-leonardo-monjardim-candidato-do-novo-ao-senado-pelo-espirito-santo/"]
+    },
+    {
+      "id": "professor-fabian", "cargo": "senador", "nome_urna": "Professor Fabian", "nome_completo": "Carlos Fabian",
+      "partido": "PSOL", "numero": "500", "idade": 49, "ocupacao": "Professor, doutor em Educação (Ufes)",
+      "situacao": "deferido", "tipo_historico": "sem_mandato", "inicio_politica": 2026,
+      "resumo": "Professor do ensino fundamental e formador de professores há mais de 20 anos. Primeira eleição. Único candidato negro ao Senado pelo ES. Federação PSOL-Rede.",
+      "mandatos": [], "projetos": null,
+      "fontes": ["https://www.folhavitoria.com.br/eleicoes/quem-e-carlos-fabian-candidato-do-psol-ao-senado-pelo-espirito-santo/"]
+    },
+    {
+      "id": "callegari", "cargo": "senador", "nome_urna": "Callegari", "nome_completo": "Wellington Callegari",
+      "partido": "DC", "numero": "277", "idade": 46, "ocupacao": "Deputado estadual, professor e servidor do Judiciário",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2022,
+      "resumo": "Professor e servidor de carreira do Judiciário estadual, de Cachoeiro de Itapemirim. Primeiro mandato na Ales (eleito pelo PL em 2022), hoje no DC.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2023-atual", "partido": "PL / DC"}
+      ],
+      "projetos": {
+        "fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Lista de proposições disponível no portal da Ales."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.folhavitoria.com.br/eleicoes/quem-e-wellington-callegari-candidato-do-dc-ao-senado-pelo-espirito-santo/"]
+    },
+
+    {
+      "id": "amaro-neto", "cargo": "deputado_federal", "nome_urna": "Amaro Neto", "nome_completo": "Amaro Rocha Nascimento Neto",
+      "partido": "PP", "numero": "1100", "idade": 49, "ocupacao": "Jornalista e apresentador, deputado federal",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2014, "reeleicao": true,
+      "resumo": "Apresentador de TV (Balanço Geral). Deputado estadual mais votado em 2014, perdeu a prefeitura de Vitória em 2016 por 1.400 votos, deputado federal mais votado da história do ES em 2018 (181.813 votos). Reeleito em 2022.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2015-2018", "partido": "SD / PRB", "obs": "apresentou mais de 60 projetos; 11 aprovados em plenário e 5 viraram lei"},
+        {"cargo": "Deputado federal", "periodo": "2019-atual", "partido": "Republicanos / PP", "obs": "2 mandatos"}
+      ],
+      "projetos": {
+        "fonte": "Câmara dos Deputados (a consolidar via API)", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Na Ales: 60+ projetos, 5 leis. Na Câmara: consolidação pendente. Defende redução da maioridade penal."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.camara.leg.br/deputados/204356/biografia"]
+    },
+    {
+      "id": "da-vitoria", "cargo": "deputado_federal", "nome_urna": "Da Vitória", "nome_completo": "Josias Mário da Vitória",
+      "partido": "PP", "numero": null, "idade": 55, "ocupacao": "Policial militar, advogado, deputado federal",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2006, "reeleicao": true,
+      "resumo": "Policial militar desde 1990, de Colatina. Três mandatos de deputado estadual (presidiu as comissões de Segurança e Educação) e dois de deputado federal. Coordena a bancada capixaba em Brasília há 8 anos e preside o PP no estado.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2007-2018", "partido": "PDT / Cidadania e outros", "obs": "3 mandatos"},
+        {"cargo": "Deputado federal", "periodo": "2019-atual", "partido": "Cidadania / PP", "obs": "2 mandatos; coordenador da bancada do ES"}
+      ],
+      "projetos": {
+        "fonte": "Câmara dos Deputados / Agência Câmara", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Consolidação pendente via API da Câmara."},
+        "em_tramitacao": [
+          {"id": "PL 5041/2025", "titulo": "Proíbe companhias aéreas de cobrar pela bagagem de mão", "obs": "autor; aprovado na Câmara, segue para o Senado"}
+        ],
+        "aprovados": []
+      },
+      "fontes": ["https://www.camara.leg.br/deputados/204355/biografia", "https://pt.wikipedia.org/wiki/Josias_da_Vit%C3%B3ria"]
+    },
+    {
+      "id": "victor-linhalis", "cargo": "deputado_federal", "nome_urna": "Dr. Victor Linhalis", "nome_completo": "Victor Garozi Linhalis",
+      "partido": "PSDB", "numero": null, "idade": 40, "ocupacao": "Advogado, deputado federal",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2022, "reeleicao": true,
+      "resumo": "Advogado de Colatina, eleito em 2022 pelo PSB. Filiou-se ao PSDB em março de 2026 e concorre pela Federação PSDB-Cidadania. Bandeiras: saúde, segurança, causa animal e pesca.",
+      "mandatos": [
+        {"cargo": "Deputado federal", "periodo": "2023-atual", "partido": "PSB / PSDB"}
+      ],
+      "projetos": {
+        "fonte": "Câmara dos Deputados / site do parlamentar", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Consolidação pendente via API da Câmara."},
+        "em_tramitacao": [
+          {"id": "PL 5774/2023", "titulo": "Amplia incentivos da Lei do Bem para pesquisa e inovação e cria bolsas para pesquisadores e empreendedores"},
+          {"id": "PL 3131/2024", "titulo": "Reconhece pessoas com doença renal crônica irreversível como pessoas com deficiência na carteira de identidade"},
+          {"id": "PL 2428/2024", "titulo": "Transparência de dados em investigações de abuso sexual contra crianças e adolescentes"},
+          {"id": "PL 2211/2023", "titulo": "Tipifica a 'perseguição moral' como crime"},
+          {"id": "PL 346/2024", "titulo": "Prioriza telessaúde para pacientes com câncer com dificuldade de acesso"}
+        ],
+        "aprovados": []
+      },
+      "fontes": ["https://www.camara.leg.br/deputados/220528/biografia", "https://drvictorlinhalis.com/meu-trabalho/"]
+    },
+    {
+      "id": "gilson-daniel", "cargo": "deputado_federal", "nome_urna": "Gilson Daniel", "nome_completo": "Gilson Daniel Batista",
+      "partido": "Podemos", "numero": "2000", "idade": null, "ocupacao": "Contador, deputado federal",
+      "situacao": "deferido", "tipo_historico": "misto", "inicio_politica": 2008, "reeleicao": true,
+      "resumo": "Vereador e duas vezes prefeito de Viana (2013-2020). Presidiu a Amunes, a Associação Brasileira de Municípios e a Confederação Nacional de Municípios. Secretário de Governo e de Economia e Planejamento do ES antes de ir para a Câmara. Bandeira: municipalismo.",
+      "mandatos": [
+        {"cargo": "Vereador de Viana", "periodo": "2009-2012", "partido": "PV"},
+        {"cargo": "Prefeito de Viana", "periodo": "2013-2020", "partido": "PV", "obs": "2 mandatos"},
+        {"cargo": "Secretário de Governo / Economia e Planejamento do ES", "periodo": "2021-2022", "partido": null},
+        {"cargo": "Deputado federal", "periodo": "2023-atual", "partido": "Podemos"}
+      ],
+      "projetos": {
+        "fonte": "Câmara dos Deputados (a consolidar via API)", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Atuação em pautas municipalistas e do microempreendedor (acompanha o PLP 108/2021). Consolidação pendente."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.camara.leg.br/deputados/220529/biografia"]
+    },
+    {
+      "id": "jack-rocha", "cargo": "deputado_federal", "nome_urna": "Jack Rocha", "nome_completo": "Jaqueline Rocha",
+      "partido": "PT", "numero": null, "idade": null, "ocupacao": "Deputada federal",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2001, "reeleicao": true,
+      "resumo": "Primeira mulher negra eleita deputada federal pelo ES. Formada nas comunidades eclesiais de base e no sindicalismo, filiada ao PT em 2001. Presidenta do PT-ES e coordenadora da Secretaria da Mulher da Câmara.",
+      "mandatos": [
+        {"cargo": "Deputada federal", "periodo": "2023-atual", "partido": "PT", "obs": "vice-líder da bancada do PT; coordena a Secretaria da Mulher"}
+      ],
+      "projetos": {
+        "fonte": "Câmara dos Deputados / Agência Câmara", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Consolidação pendente via API da Câmara."},
+        "em_tramitacao": [
+          {"id": "PL 2883/2024", "titulo": "Cria o Orçamento Mulher, com transparência dos recursos para políticas para mulheres", "obs": "aprovado na CCJ da Câmara"},
+          {"id": "PLP 41/2026", "titulo": "Sistema Nacional de Enfrentamento da Violência contra Meninas e Mulheres, com recursos para combate ao feminicídio", "obs": "autora"}
+        ],
+        "aprovados": [
+          {"titulo": "Lei da Igualdade Salarial entre mulheres e homens", "norma": "Lei 14.611/2023", "ano": 2023, "status": "em vigor", "papel": "relatora"},
+          {"titulo": "Inclui a violência vicária (uso dos filhos para punir a mulher) na Lei Maria da Penha", "norma": "Lei 15.384/2026", "ano": 2026, "status": "em vigor", "papel": "autora/articuladora"}
+        ]
+      },
+      "fontes": ["https://www.camara.leg.br/deputados/220527", "https://www.camara.leg.br/radio/programas/painel-eletronico/1274308-nos-100-dias-do-pacto-contra-feminicidio-deputada-jack-rocha-destaca-leis-e-cobra-orcamento-no-combate-ao-crime/"]
+    },
+    {
+      "id": "messias-donato", "cargo": "deputado_federal", "nome_urna": "Messias Donato", "nome_completo": "Manoel Messias Donato Bezerra",
+      "partido": "União", "numero": null, "idade": 50, "ocupacao": "Pastor, deputado federal",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2008, "reeleicao": true,
+      "resumo": "Pastor da Igreja Quadrangular, nascido na Bahia. Vereador de Cariacica (2013-2020) e secretário municipal. Eleito deputado federal em 2022 pelo Republicanos, migrou para o União Brasil em março de 2026.",
+      "mandatos": [
+        {"cargo": "Vereador de Cariacica", "periodo": "2013-2020", "partido": "PRB / Republicanos", "obs": "2 mandatos"},
+        {"cargo": "Secretário de Governo de Cariacica", "periodo": "2021-2022", "partido": null},
+        {"cargo": "Deputado federal", "periodo": "2023-atual", "partido": "Republicanos / União"}
+      ],
+      "projetos": {
+        "fonte": "Câmara dos Deputados / imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Nenhuma proposição de autoria transformada em lei até a última consolidação (2025)."},
+        "em_tramitacao": [
+          {"id": "PL 5371/2023", "titulo": "Aumenta as penas dos crimes de aborto e os insere no rol de crimes contra a vida"},
+          {"id": "PL 5939/2023", "titulo": "Veda progressão de regime em crimes sexuais contra crianças e adolescentes", "obs": "coautor"},
+          {"id": "PL 2210/2023", "titulo": "Altera o ECA para vedar ações que interfiram na formação de gênero"}
+        ],
+        "aprovados": []
+      },
+      "fontes": ["https://www.camara.leg.br/deputados/220530/biografia"]
+    },
+    {
+      "id": "gilvan-da-federal", "cargo": "deputado_federal", "nome_urna": "Gilvan da Federal", "nome_completo": "Gilvan Aguiar Costa",
+      "partido": "PL", "numero": "2222", "idade": 50, "ocupacao": "Policial federal, deputado federal",
+      "situacao": "desistiu", "situacao_obs": "Desistiu da reeleição em setembro de 2026. O PL colocou no lugar o vereador de Viana Lucas Stein Casagrande, que herdou o número 2222.",
+      "tipo_historico": "legislativo", "inicio_politica": 2020, "reeleicao": false,
+      "resumo": "Policial federal, vereador de Vitória (2021-2022) e segundo deputado federal mais votado do ES em 2022 (87.994 votos).",
+      "mandatos": [
+        {"cargo": "Vereador de Vitória", "periodo": "2021-2022", "partido": "PL"},
+        {"cargo": "Deputado federal", "periodo": "2023-atual", "partido": "PL"}
+      ],
+      "projetos": {
+        "fonte": "Agência Pública / Câmara", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": 20, "obs": "9 de autoria própria e 11 como coautor em 3 anos de mandato."},
+        "em_tramitacao": [
+          {"id": "PL 3070/2023", "titulo": "Proíbe participação de crianças e adolescentes em eventos de Parada LGBTQIA+"},
+          {"id": "PL 1903/2023", "titulo": "Porte de arma para professores de escolas públicas e privadas"},
+          {"id": "PL 5850/2023", "titulo": "Veda retorno ao Judiciário de juízes que saem para cargos políticos"},
+          {"id": "PL 137/2024", "titulo": "Cria o Dia do Patriota"}
+        ],
+        "aprovados": [
+          {"titulo": "PL 1562/2024", "norma": "transformado em lei", "ano": 2025, "status": "em vigor", "papel": "autor"}
+        ]
+      },
+      "fontes": ["https://www.agazeta.com.br/colunas/leticia-goncalves/gilvan-da-federal-esta-fora-das-eleicoes-2026-e-ja-tem-substituto-no-pl-0926", "https://apublica.org/2026/09/seguranca-publica-e-foco-de-apenas-1-em-cada-4-propostas-da-bancada-da-bala/"]
+    },
+    {
+      "id": "lucas-stein-casagrande", "cargo": "deputado_federal", "nome_urna": "Lucas Stein Casagrande", "nome_completo": "Lucas Stein Casagrande",
+      "partido": "PL", "numero": "2222", "idade": null, "ocupacao": "Vereador de Viana",
+      "situacao": "deferido", "situacao_obs": "Entrou na chapa no lugar de Gilvan da Federal em setembro de 2026.",
+      "tipo_historico": "legislativo", "inicio_politica": 2024,
+      "resumo": "Vereador de Viana, substituto de Gilvan da Federal na chapa do PL.",
+      "mandatos": [
+        {"cargo": "Vereador de Viana", "periodo": "2025-atual", "partido": "PL"}
+      ],
+      "projetos": null,
+      "fontes": ["https://www.agazeta.com.br/colunas/leticia-goncalves/gilvan-da-federal-esta-fora-das-eleicoes-2026-e-ja-tem-substituto-no-pl-0926"]
+    },
+    {
+      "id": "marcelo-santos", "cargo": "deputado_federal", "nome_urna": "Marcelo Santos", "nome_completo": "Marcelo Santos",
+      "partido": "União", "numero": "4456", "idade": 56, "ocupacao": "Presidente da Assembleia Legislativa",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 1996,
+      "resumo": "Vereador de Cariacica (1997-2000) e deputado estadual há seis mandatos consecutivos. Presidente da Ales desde 2023. Deixa a Assembleia para disputar a Câmara pela Federação União Progressista.",
+      "mandatos": [
+        {"cargo": "Vereador de Cariacica", "periodo": "1997-2000", "partido": null},
+        {"cargo": "Deputado estadual", "periodo": "2003-atual", "partido": "PMDB / PDT / Podemos / União", "obs": "6 mandatos; presidente da Ales desde 2023"}
+      ],
+      "projetos": {
+        "fonte": "Ales / imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Seis mandatos de proposições na Ales; consolidação pendente."},
+        "em_tramitacao": [],
+        "aprovados": [
+          {"titulo": "Garante merenda escolar a cerca de 20 mil professores da rede estadual", "norma": "lei estadual", "ano": 2025, "status": "em vigor", "papel": "coautor com Gandini"}
+        ]
+      },
+      "fontes": ["https://www.deputadomarcelosantos.com.br/", "https://portaljornaldonorte.com.br/assembleia-aprova-projeto-de-gandini-e-marcelo-santos-que-garante-merenda-a-20-mil-professores/"]
+    },
+    {
+      "id": "iriny-lopes", "cargo": "deputado_federal", "nome_urna": "Iriny", "nome_completo": "Iriny Nicolau Corres Lopes",
+      "partido": "PT", "numero": "1333", "idade": null, "ocupacao": "Deputada estadual, ex-ministra",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 1984,
+      "resumo": "Fundadora do PT no ES. Três mandatos de deputada federal (2003-2015), primeira mulher a presidir a Comissão de Direitos Humanos da Câmara, ministra da Secretaria de Políticas para as Mulheres (2011-2012). Deputada estadual desde 2023.",
+      "mandatos": [
+        {"cargo": "Deputada federal", "periodo": "2003-2015", "partido": "PT", "obs": "3 mandatos; presidiu a CDHM em 2005 e 2010"},
+        {"cargo": "Ministra da Secretaria de Políticas para as Mulheres", "periodo": "2011-2012", "partido": "PT"},
+        {"cargo": "Deputada estadual", "periodo": "2023-atual", "partido": "PT"}
+      ],
+      "projetos": {
+        "fonte": "Câmara / Ales (a consolidar)", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Histórico de 12 anos na Câmara disponível em dadosabertos.camara.leg.br (id 74162)."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.camara.leg.br/deputados/74162/biografia"]
+    },
+    {
+      "id": "joao-coser", "cargo": "deputado_federal", "nome_urna": "João Coser", "nome_completo": "João Carlos Coser",
+      "partido": "PT", "numero": "1313", "idade": 70, "ocupacao": "Deputado estadual, ex-prefeito de Vitória",
+      "situacao": "deferido", "tipo_historico": "misto", "inicio_politica": 1980,
+      "resumo": "Fundador do PT-ES e primeiro presidente da CUT no estado. Dois mandatos de deputado estadual, dois de deputado federal e dois de prefeito de Vitória (2005-2012). Voltou à Ales em 2023 com 58.279 votos.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2 mandatos (anos 1990)", "partido": "PT"},
+        {"cargo": "Deputado federal", "periodo": "2 mandatos (1999-2004)", "partido": "PT"},
+        {"cargo": "Prefeito de Vitória", "periodo": "2005-2012", "partido": "PT", "obs": "reeleito em 2008 no 1º turno"},
+        {"cargo": "Deputado estadual", "periodo": "2023-atual", "partido": "PT"}
+      ],
+      "projetos": {
+        "fonte": "Câmara / Ales / imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Como prefeito, construiu mais de 15 escolas e revitalizou espaços urbanos. Autorias legislativas a consolidar (id Câmara 74772)."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.camara.leg.br/deputados/74772", "https://eshoje.com.br/politica/2026/08/em-ato-com-liderancas-em-vitoria-joao-coser-lanca-candidatura-a-deputado-federal/"]
+    },
+    {
+      "id": "tyago-hoffmann", "cargo": "deputado_federal", "nome_urna": "Tyago Hoffmann", "nome_completo": "Tyago Ribeiro Hoffmann",
+      "partido": "PSB", "numero": null, "idade": null, "ocupacao": "Economista, deputado estadual",
+      "situacao": "deferido", "tipo_historico": "misto", "inicio_politica": 2022,
+      "resumo": "Economista de Guarapari, professor universitário. Cinco passagens como secretário de Estado (Saúde, Governo, Ciência e Tecnologia, Educação Profissional). Primeiro mandato eletivo na Ales em 2023 (32.123 votos). Apadrinhado por Casagrande.",
+      "mandatos": [
+        {"cargo": "Secretário de Estado (Sesa, Governo, Secti)", "periodo": "governos Casagrande", "partido": "PSB"},
+        {"cargo": "Deputado estadual", "periodo": "2023-atual", "partido": "PSB"}
+      ],
+      "projetos": {
+        "fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Histórico principal é de gestão. Propostas: atualização do teto MAC da saúde, qualificação profissional."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://aquinoticias.com/2026/07/tyago-hoffmann-confirma-disputa-por-vaga-de-deputado-federal-pelo-psb/"]
+    },
+    {
+      "id": "bruno-resende", "cargo": "deputado_federal", "nome_urna": "Dr. Bruno Resende", "nome_completo": "Bruno Resende",
+      "partido": "União", "numero": null, "idade": null, "ocupacao": "Médico, deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2022,
+      "resumo": "Médico de Cachoeiro de Itapemirim, criado em Mimoso do Sul. Deputado estadual mais votado do sul do estado em 2022 (31.897 votos). Presidiu a Comissão de Saúde da Ales.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2023-atual", "partido": "União", "obs": "presidiu a Comissão de Saúde (2023-24)"}
+      ],
+      "projetos": {
+        "fonte": "Ales / imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Consolidação pendente."},
+        "em_tramitacao": [],
+        "aprovados": [
+          {"titulo": "Estatuto da Pessoa com Câncer no Espírito Santo", "norma": "Lei estadual 11.815/2023", "ano": 2023, "status": "em vigor", "papel": "autor"}
+        ]
+      },
+      "fontes": ["https://diaadiaes.com.br/uniao-progressista-homologa-candidatura-de-dr-bruno-resende-a-camara-dos-deputados/"]
+    },
+    {
+      "id": "lucas-polese", "cargo": "deputado_federal", "nome_urna": "Lucas Polese", "nome_completo": "Lucas Polese",
+      "partido": "PL", "numero": "2212", "idade": null, "ocupacao": "Deputado estadual, web designer",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2022,
+      "resumo": "De Cariacica, fundador do Instituto Liberal do ES. Deputado estadual mais jovem eleito em 2022 (29.490 votos). Pautas: fiscalização do gasto público, segurança, conservadorismo.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2023-atual", "partido": "PL"}
+      ],
+      "projetos": {
+        "fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Consolidação pendente."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.al.es.gov.br/Deputado/LucasPolese", "https://lucaspolese.com.br/"]
+    },
+    {
+      "id": "nesio-fernandes", "cargo": "deputado_federal", "nome_urna": "Dr. Nésio Fernandes", "nome_completo": "Nésio Fernandes de Medeiros Junior",
+      "partido": "PCdoB", "numero": "6565", "idade": null, "ocupacao": "Médico sanitarista",
+      "situacao": "deferido", "tipo_historico": "executivo", "inicio_politica": 2019,
+      "resumo": "Secretário de Saúde do ES (2019-2022) na pandemia, presidente do Conass e secretário de Atenção Primária do Ministério da Saúde. Sem mandato eletivo anterior. Federação Brasil da Esperança.",
+      "mandatos": [
+        {"cargo": "Secretário de Estado da Saúde do ES", "periodo": "2019-2022", "partido": null},
+        {"cargo": "Secretário de Atenção Primária do Ministério da Saúde", "periodo": "2023-2025", "partido": null}
+      ],
+      "projetos": {
+        "fonte": "imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Sem mandato legislativo. Propõe lei nacional para organizar filas de consultas e exames no SUS."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://aquinoticias.com/2026/09/nesio-fernandes-defende-lei-nacional-para-organizar-acesso-a-consultas-e-exames-no-sus/"]
+    },
+
+    {
+      "id": "capitao-assumcao", "cargo": "deputado_estadual", "nome_urna": "Capitão Assumção", "nome_completo": "Lucinio Castelo de Assumção",
+      "partido": "PL", "numero": null, "idade": 63, "ocupacao": "Policial militar, deputado estadual",
+      "situacao": "deferido", "situacao_obs": "Registro indeferido em setembro por multas eleitorais, revertido pelo TRE-ES em 21/09/2026 após regularização.",
+      "tipo_historico": "legislativo", "inicio_politica": 2006, "reeleicao": true,
+      "resumo": "De Ecoporanga, representante da PM na Ales. Deputado federal (2009-2011) e dois mandatos de deputado estadual, o segundo com 98.669 votos.",
+      "mandatos": [
+        {"cargo": "Deputado federal", "periodo": "2009-2011", "partido": "PSB"},
+        {"cargo": "Deputado estadual", "periodo": "2019-atual", "partido": "PSL / PL", "obs": "2 mandatos"}
+      ],
+      "projetos": {
+        "fonte": "Ales / Câmara (a consolidar)", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Na Câmara, projeto para exame Papanicolau gratuito na rede pública. Na Ales, pauta concentrada em segurança e categoria militar."},
+        "em_tramitacao": [], "aprovados": []
+      },
+      "fontes": ["https://www.al.es.gov.br/Deputado/CapitaoAssumcao", "https://www.agazeta.com.br/es/politica/capitao-assumcao-tem-candidatura-a-assembleia-do-es-liberada-pela-justica-eleitoral-0926"]
+    },
+    {
+      "id": "danilo-bahiense", "cargo": "deputado_estadual", "nome_urna": "Delegado Danilo Bahiense", "nome_completo": "Danilo Bahiense",
+      "partido": "PL", "numero": "22222", "idade": null, "ocupacao": "Delegado da Polícia Civil, deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2018, "reeleicao": true,
+      "resumo": "Delegado por 30 anos. Dois mandatos na Ales; preside a Comissão de Segurança e Combate ao Crime Organizado.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2019-atual", "partido": "PSL / PL", "obs": "2 mandatos"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://www.al.es.gov.br/Deputado/DelegadoDaniloBahiense"]
+    },
+    {
+      "id": "marcos-madureira", "cargo": "deputado_estadual", "nome_urna": "Marcos Madureira", "nome_completo": "Marcos Madureira",
+      "partido": "PL", "numero": null, "idade": null, "ocupacao": "Deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2018, "reeleicao": true,
+      "resumo": "Deputado estadual, assumiu como suplente na legislatura atual. Já havia sido deputado em 2019-2022.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2019-2022 e legislatura atual (suplente efetivado)", "partido": "Patriota / PL"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://hubpolitico.com.br/eleicoes/2026/candidatos/es/deputado-estadual"]
+    },
+    {
+      "id": "fabricio-gandini", "cargo": "deputado_estadual", "nome_urna": "Gandini", "nome_completo": "Fabrício Gandini Aquino",
+      "partido": "Podemos", "numero": "20000", "idade": 46, "ocupacao": "Deputado estadual, gestor público",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2008, "reeleicao": true,
+      "resumo": "Três mandatos de vereador em Vitória (o mais votado da história do estado em 2012), presidiu a Câmara Municipal, secretário de Gestão da prefeitura. Deputado estadual desde 2019.",
+      "mandatos": [
+        {"cargo": "Vereador de Vitória", "periodo": "2009-2016", "partido": "PPS", "obs": "3 mandatos; presidente da Câmara 2013-14"},
+        {"cargo": "Deputado estadual", "periodo": "2019-atual", "partido": "Cidadania / PSD / Podemos", "obs": "2 mandatos"}
+      ],
+      "projetos": {
+        "fonte": "Ales / imprensa", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Consolidação pendente."},
+        "em_tramitacao": [],
+        "aprovados": [
+          {"titulo": "Garante merenda escolar a cerca de 20 mil professores da rede estadual", "norma": "lei estadual", "ano": 2025, "status": "em vigor", "papel": "coautor com Marcelo Santos"}
+        ]
+      },
+      "fontes": ["https://pt.wikipedia.org/wiki/Fabr%C3%ADcio_Gandini"]
+    },
+    {
+      "id": "vandinho-leite", "cargo": "deputado_estadual", "nome_urna": "Vandinho Leite", "nome_completo": "Vanderson Alonso Leite",
+      "partido": "MDB", "numero": "15000", "idade": 48, "ocupacao": "Deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2016, "reeleicao": true,
+      "resumo": "Base na Serra. Candidato a vice-prefeito (2016) e prefeito (2020) da Serra pelo PSDB, sem sucesso. Dois mandatos na Ales, agora pelo MDB.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2019-atual", "partido": "PSDB / MDB", "obs": "2 mandatos"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://ndmais.com.br/eleicoes/2026/candidatos/es/deputado-estadual/15000-vandinho-leite/"]
+    },
+    {
+      "id": "mazinho-dos-anjos", "cargo": "deputado_estadual", "nome_urna": "Mazinho dos Anjos", "nome_completo": "Edmar Lorencini dos Anjos",
+      "partido": "MDB", "numero": "15123", "idade": 45, "ocupacao": "Deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2022, "reeleicao": true,
+      "resumo": "Eleito em 2022 pelo PSDB com 20.731 votos, filiou-se ao MDB em março de 2026. Presidiu a CCJ e comanda a Comissão de Finanças.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2023-atual", "partido": "PSDB / MDB", "obs": "presidiu a CCJ; preside Finanças"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://tribunaonline.com.br/coluna/plenario/mazinho-dos-anjos-e-novo-quadro-do-mdb-296032"]
+    },
+    {
+      "id": "camila-valadao", "cargo": "deputado_estadual", "nome_urna": "Camila Valadão", "nome_completo": "Camila Valadão",
+      "partido": "PSOL", "numero": "50180", "idade": 42, "ocupacao": "Assistente social, deputada estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2005, "reeleicao": true,
+      "resumo": "Doutora em Política Social, ex-presidente do Conselho Regional de Serviço Social. Vereadora de Vitória (2021-2022) e deputada estadual com a maior votação de uma mulher na história da Ales (52.221 votos).",
+      "mandatos": [
+        {"cargo": "Vereadora de Vitória", "periodo": "2021-2022", "partido": "PSOL"},
+        {"cargo": "Deputada estadual", "periodo": "2023-atual", "partido": "PSOL"}
+      ],
+      "projetos": {
+        "fonte": "Ales / site da parlamentar", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Consolidação pendente."},
+        "em_tramitacao": [
+          {"id": "PL", "titulo": "Uso de escolas públicas estaduais para cursinhos pré-vestibulares gratuitos"},
+          {"id": "PL", "titulo": "Isenção de taxas para públicos específicos"}
+        ],
+        "aprovados": []
+      },
+      "fontes": ["https://www.al.es.gov.br/Deputado/CamilaValadao", "https://camilavaladao.com.br/sobre/"]
+    },
+    {
+      "id": "dary-pagung", "cargo": "deputado_estadual", "nome_urna": "Dary Pagung", "nome_completo": "Dary Pagung",
+      "partido": "PSB", "numero": "40569", "idade": null, "ocupacao": "Advogado, deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 1996, "reeleicao": true,
+      "resumo": "Duas vezes vereador de Baixo Guandu. Quinto mandato na Ales (18.721 votos em 2022). Presidente da CCJ e 1º vice-presidente da Assembleia.",
+      "mandatos": [
+        {"cargo": "Vereador de Baixo Guandu", "periodo": "1997-2000 e 2005-2008", "partido": null},
+        {"cargo": "Deputado estadual", "periodo": "2007-atual", "partido": "PSB", "obs": "5 mandatos"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://www.al.es.gov.br/Deputado/DaryPagung"]
+    },
+    {
+      "id": "janete-de-sa", "cargo": "deputado_estadual", "nome_urna": "Janete de Sá", "nome_completo": "Janete Santos de Sá",
+      "partido": "PSB", "numero": "40800", "idade": 70, "ocupacao": "Enfermeira, deputada estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 1990, "reeleicao": true,
+      "resumo": "Sindicalista ferroviária nos anos 1990. Seis mandatos consecutivos na Ales desde 2003. Presidiu a Comissão de Direitos Humanos, a CPI dos Agrotóxicos e foi a primeira procuradora da Mulher da Casa. Hoje lidera a pauta de proteção animal.",
+      "mandatos": [
+        {"cargo": "Presidente do Sindicato dos Ferroviários ES/MG", "periodo": "anos 1990", "partido": null},
+        {"cargo": "Deputada estadual", "periodo": "2003-atual", "partido": "PSB / PMN / PSB", "obs": "6 mandatos"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Preside a Comissão de Proteção aos Animais e a CPI dos Maus-tratos. Consolidação de leis pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://janetedesa.com.br/sobre-mim/"]
+    },
+    {
+      "id": "raquel-lessa", "cargo": "deputado_estadual", "nome_urna": "Raquel Lessa", "nome_completo": "Raquel Ferreira Mageste Lessa",
+      "partido": "PP", "numero": "11333", "idade": 64, "ocupacao": "Administradora, deputada estadual",
+      "situacao": "deferido", "tipo_historico": "misto", "inicio_politica": 2004, "reeleicao": true,
+      "resumo": "Prefeita de São Gabriel da Palha por dois mandatos (2005-2012). Terceiro mandato na Ales.",
+      "mandatos": [
+        {"cargo": "Prefeita de São Gabriel da Palha", "periodo": "2005-2012", "partido": null, "obs": "reeleita em 2008"},
+        {"cargo": "Deputada estadual", "periodo": "2015-atual", "partido": "PSDB / PROS / PP", "obs": "3 mandatos"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://pt.wikipedia.org/wiki/Raquel_Lessa"]
+    },
+    {
+      "id": "adilson-espindula", "cargo": "deputado_estadual", "nome_urna": "Adilson Espindula", "nome_completo": "Adilson Espindula",
+      "partido": "PP", "numero": "11000", "idade": null, "ocupacao": "Deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2018, "reeleicao": true,
+      "resumo": "Eleito em 2018 e reeleito em 2022. Passou por PTB, PDT e PSD; filiou-se ao PP em março de 2026.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2019-atual", "partido": "PTB / PDT / PSD / PP", "obs": "2 mandatos"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://pt.wikipedia.org/wiki/Adilson_Espindula"]
+    },
+    {
+      "id": "hudson-leal", "cargo": "deputado_estadual", "nome_urna": "Hudson Leal", "nome_completo": "Hudson Leal",
+      "partido": "Agir", "numero": "36300", "idade": 61, "ocupacao": "Médico anestesista, deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2014, "reeleicao": true,
+      "resumo": "Médico, terceiro mandato na Ales. Deixou o Republicanos pelo Agir em 2026. Pauta: saúde.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2015-atual", "partido": "PTN / Republicanos / Agir", "obs": "3 mandatos"}
+      ],
+      "projetos": {"fonte": "Ales / Republicanos10", "atualizado_em": "2026-09-25", "apresentados": {"total": 342, "obs": "Entre 2015 e 2018: 342 proposições, sendo 199 indicações e 53 projetos de lei. Leis sancionadas a consolidar."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://republicanos10.org.br/noticias/defensor-da-saude-hudson-leal-tenta-reeleicao-como-deputado-estadual-no-es/"]
+    },
+    {
+      "id": "ze-preto", "cargo": "deputado_estadual", "nome_urna": "Zé Preto", "nome_completo": "Ademir José Gomes Pereira",
+      "partido": "Podemos", "numero": "20500", "idade": null, "ocupacao": "Produtor rural, deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2012, "reeleicao": true,
+      "resumo": "De Guarapari. Dois mandatos de vereador e deputado estadual eleito pelo PL em 2022 (15.901 votos, recorde em Guarapari). Migrou para o Podemos em 2026.",
+      "mandatos": [
+        {"cargo": "Vereador de Guarapari", "periodo": "2 mandatos", "partido": null},
+        {"cargo": "Deputado estadual", "periodo": "2023-atual", "partido": "PL / Podemos"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Projeto para tornar a Pedra do Elefante patrimônio; demais a consolidar."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://www.espiritosantonoticias.com.br/conheca-alguns-candidatos-a-deputado-estadual-que-representam-o-sul-do-espirito-santo-nas-eleicoes-2026/"]
+    },
+    {
+      "id": "coronel-weliton", "cargo": "deputado_estadual", "nome_urna": "Coronel Weliton", "nome_completo": "Weliton Virgílio Pereira",
+      "partido": "DC", "numero": "27190", "idade": 59, "ocupacao": "Militar reformado, deputado estadual",
+      "situacao": "deferido", "tipo_historico": "misto", "inicio_politica": 2016, "reeleicao": true,
+      "resumo": "Prefeito de Iúna (2017-2020), derrotado na reeleição. Deputado estadual desde 2023 (eleito pelo PTB com 12.176 votos).",
+      "mandatos": [
+        {"cargo": "Prefeito de Iúna", "periodo": "2017-2020", "partido": null},
+        {"cargo": "Deputado estadual", "periodo": "2023-atual", "partido": "PTB / PRD / DC"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://pt.wikipedia.org/wiki/Coronel_Weliton"]
+    },
+    {
+      "id": "denninho-silva", "cargo": "deputado_estadual", "nome_urna": "Denninho Silva", "nome_completo": "Denner Januário da Silva",
+      "partido": "União", "numero": "44444", "idade": 43, "ocupacao": "Deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2016, "reeleicao": true,
+      "resumo": "Líder comunitário em Goiabeiras. Vereador de Vitória (2017-2022), o mais votado em 2020. Deputado estadual com 25.986 votos em 2022. Presidiu a CPI dos Explosivos e Combustíveis.",
+      "mandatos": [
+        {"cargo": "Vereador de Vitória", "periodo": "2017-2022", "partido": "PPS / Cidadania", "obs": "2 mandatos"},
+        {"cargo": "Deputado estadual", "periodo": "2023-atual", "partido": "União"}
+      ],
+      "projetos": {
+        "fonte": "Ales", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Consolidação pendente."},
+        "em_tramitacao": [],
+        "aprovados": [
+          {"titulo": "Botão do pânico em hospitais e unidades de ensino do estado", "norma": "Lei estadual 11.831/2023", "ano": 2023, "status": "em vigor", "papel": "autor"}
+        ]
+      },
+      "fontes": ["https://www.al.es.gov.br/Noticia/2023/01/44103/denninho-mandato-para-cuidar-das-pessoas.html"]
+    },
+    {
+      "id": "alcantaro-filho", "cargo": "deputado_estadual", "nome_urna": "Alcântaro Filho", "nome_completo": "Alcântaro Filho",
+      "partido": "Republicanos", "numero": "10100", "idade": null, "ocupacao": "Deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2022, "reeleicao": true,
+      "resumo": "Primeiro mandato na Ales, eleito em 2022 pelo Republicanos.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2023-atual", "partido": "Republicanos"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://www.otempo.com.br/eleicoes/2026/candidatos/espirito-santo/deputado-estadual/alcantaro-filho-10100"]
+    },
+    {
+      "id": "pablo-muribeca", "cargo": "deputado_estadual", "nome_urna": "Pablo Muribeca", "nome_completo": "Pablo Muribeca",
+      "partido": "Republicanos", "numero": "10000", "idade": null, "ocupacao": "Deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2022, "reeleicao": true,
+      "resumo": "Deputado estadual desde 2023. Disputou a prefeitura da Serra em 2024 pelo Republicanos e perdeu.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "2023-atual", "partido": "Patriota / Republicanos"}
+      ],
+      "projetos": {
+        "fonte": "Ales", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Consolidação pendente."},
+        "em_tramitacao": [],
+        "aprovados": [
+          {"titulo": "Prioridade e identificação visual na pulseira de classificação de risco para pessoas com autismo", "norma": "Lei estadual 11.821/2023", "ano": 2023, "status": "em vigor", "papel": "autor"}
+        ]
+      },
+      "fontes": ["https://pablomuribeca.com.br/"]
+    },
+    {
+      "id": "bispo-alves", "cargo": "deputado_estadual", "nome_urna": "Bispo Alves", "nome_completo": "Bispo Alves",
+      "partido": "Republicanos", "numero": "10123", "idade": null, "ocupacao": "Pastor, deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2014, "reeleicao": true,
+      "resumo": "Bispo licenciado da Igreja Universal. Deputado estadual no Rio de Janeiro (2015-2018) e presidente do Procon carioca. Assumiu na Ales como suplente na legislatura atual.",
+      "mandatos": [
+        {"cargo": "Deputado estadual (RJ)", "periodo": "2015-2018", "partido": "PRB"},
+        {"cargo": "Deputado estadual (ES)", "periodo": "legislatura atual (suplente efetivado)", "partido": "Republicanos"}
+      ],
+      "projetos": {"fonte": "Ales / Alerj (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://republicanos10.org.br/quem_e_quem/bispo-alves/"]
+    },
+    {
+      "id": "allan-ferreira", "cargo": "deputado_estadual", "nome_urna": "Allan Ferreira", "nome_completo": "Allan Albert Lourenço Ferreira",
+      "partido": "Podemos", "numero": "20123", "idade": null, "ocupacao": "Servidor público, contador, deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2016, "reeleicao": true,
+      "resumo": "De Cachoeiro de Itapemirim. Vereador em 2016 e 2020, deputado estadual em 2022 (15.185 votos). Presidiu a Comissão de Cooperativismo.",
+      "mandatos": [
+        {"cargo": "Vereador de Cachoeiro de Itapemirim", "periodo": "2017-2022", "partido": null, "obs": "2 mandatos"},
+        {"cargo": "Deputado estadual", "periodo": "2023-atual", "partido": "Podemos"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://www.espiritosantonoticias.com.br/conheca-alguns-candidatos-a-deputado-estadual-que-representam-o-sul-do-espirito-santo-nas-eleicoes-2026/"]
+    },
+    {
+      "id": "alexandre-xambinho", "cargo": "deputado_estadual", "nome_urna": "Alexandre Xambinho", "nome_completo": "Alexandre Xambinho",
+      "partido": "Podemos", "numero": "20789", "idade": null, "ocupacao": "Administrador, deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2012, "reeleicao": true,
+      "resumo": "Vereador da Serra por dois mandatos. Dois mandatos na Ales (20.722 votos em 2022). Presidiu a Comissão de Ciência e Tecnologia por 4 anos e preside Infraestrutura.",
+      "mandatos": [
+        {"cargo": "Vereador da Serra", "periodo": "2013-2018", "partido": null, "obs": "2 mandatos"},
+        {"cargo": "Deputado estadual", "periodo": "2019-atual", "partido": "Rede / Podemos", "obs": "2 mandatos"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Relator em duas CPIs; consolidação de leis pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://www.al.es.gov.br/Deputado/AlexandreXambinho"]
+    },
+    {
+      "id": "jose-esmeraldo", "cargo": "deputado_estadual", "nome_urna": "Engenheiro José Esmeraldo", "nome_completo": "José Esmeraldo de Freitas",
+      "partido": "PDT", "numero": "12056", "idade": 80, "ocupacao": "Engenheiro civil, deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 1982, "reeleicao": true,
+      "resumo": "Quatro mandatos de vereador em Vitória (1983-1998) e sete de deputado estadual desde 1999. Um dos parlamentares mais longevos do estado.",
+      "mandatos": [
+        {"cargo": "Vereador de Vitória", "periodo": "1983-1998", "partido": null, "obs": "4 mandatos"},
+        {"cargo": "Deputado estadual", "periodo": "1999-atual", "partido": "vários / União / PDT", "obs": "7 mandatos"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://www.al.es.gov.br/Deputado/EngenheiroJoseEsmeraldo"]
+    },
+    {
+      "id": "fabio-duarte", "cargo": "deputado_estadual", "nome_urna": "Fábio Duarte", "nome_completo": "Fábio Duarte",
+      "partido": "PDT", "numero": "12789", "idade": 49, "ocupacao": "Deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2022, "reeleicao": true,
+      "resumo": "Criado em Pitanga, na Serra. Assumiu na Ales como suplente na legislatura atual; vice-presidente da Comissão de Saúde.",
+      "mandatos": [
+        {"cargo": "Deputado estadual", "periodo": "legislatura atual (suplente efetivado)", "partido": "PDT"}
+      ],
+      "projetos": {"fonte": "Ales (a consolidar)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://www.al.es.gov.br/Deputado/FabioDuarte"]
+    },
+    {
+      "id": "bruno-lamas", "cargo": "deputado_estadual", "nome_urna": "Bruno Lamas", "nome_completo": "Bruno Lamas Silva",
+      "partido": "PSB", "numero": "40011", "idade": 49, "ocupacao": "Administrador, ex-deputado estadual",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2004,
+      "resumo": "Três mandatos de vereador na Serra e deputado estadual eleito em 2014 e 2018. Tenta voltar à Ales.",
+      "mandatos": [
+        {"cargo": "Vereador da Serra", "periodo": "3 mandatos", "partido": "PSB"},
+        {"cargo": "Deputado estadual", "periodo": "2015-2022", "partido": "PSB", "obs": "2 mandatos"}
+      ],
+      "projetos": {
+        "fonte": "Ales / Wikipedia", "atualizado_em": "2026-09-25",
+        "apresentados": {"total": null, "obs": "Consolidação pendente."},
+        "em_tramitacao": [],
+        "aprovados": [
+          {"titulo": "Compra fracionada do passe escolar", "norma": "lei estadual", "ano": null, "status": "em vigor", "papel": "autor"},
+          {"titulo": "Gratuidade no transporte intermunicipal para idosos acima de 65 anos", "norma": "lei estadual", "ano": null, "status": "em vigor", "papel": "autor"}
+        ]
+      },
+      "fontes": ["https://pt.wikipedia.org/wiki/Bruno_Lamas"]
+    },
+    {
+      "id": "paulo-foletto", "cargo": "deputado_estadual", "nome_urna": "Paulo Folletto", "nome_completo": "Paulo Roberto Foletto",
+      "partido": "PSB", "numero": "40240", "idade": 70, "ocupacao": "Médico, deputado federal",
+      "situacao": "deferido", "tipo_historico": "legislativo", "inicio_politica": 2006,
+      "resumo": "Médico, deputado federal por vários mandatos (desde 2007). Em vez de tentar a reeleição para a Câmara, disputa uma vaga na Ales.",
+      "mandatos": [
+        {"cargo": "Deputado federal", "periodo": "2007-atual", "partido": "PSB", "obs": "id Câmara 160517"}
+      ],
+      "projetos": {"fonte": "Câmara (a consolidar via API, id 160517)", "atualizado_em": "2026-09-25", "apresentados": {"total": null, "obs": "Consolidação pendente."}, "em_tramitacao": [], "aprovados": []},
+      "fontes": ["https://www.camara.leg.br/deputados/160517"]
+    }
+  ]
+}
