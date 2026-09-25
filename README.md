@@ -32,6 +32,17 @@ Câmara e do Senado, rode o script abaixo em uma máquina com internet aberta.
 Onde um dado não foi confirmado, o JSON tem `null` em vez de chute. Na
 página, isso aparece como "nº a confirmar" ou "sem consolidação".
 
+## Publicar num link (celular)
+
+```bash
+python3 scripts/build_bundle.py
+python3 scripts/build_artifact.py        # gera dist/artifact.html, um arquivo só
+```
+
+`dist/artifact.html` é a página inteira embutida (CSS, JS e dados) no formato
+que o Artifact do Claude espera. Para GitHub Pages ou Netlify, use o
+`index.html` normal.
+
 ## Atualizar os dados
 
 ```bash
