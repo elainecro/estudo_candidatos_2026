@@ -1,0 +1,1 @@
+# estudo_candidatos_2026
