@@ -49,6 +49,7 @@ import sys
 import time
 import unicodedata
 import urllib.parse
+import urllib.error
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -87,6 +88,29 @@ HOJE = time.strftime("%Y-%m-%d")
 
 # ============================================================ utilidades
 
+def _curl(url: str, headers: dict, destino: pathlib.Path | None = None, timeout: int = 600) -> bytes | None:
+    """Plano B: o TSE barra o TLS do Python (403) mas aceita o curl do sistema."""
+    import shutil
+    import subprocess
+    if not shutil.which("curl"):
+        return None
+    cmd = ["curl", "-sSL", "--fail", "--max-time", str(timeout), "--compressed"]
+    for k, v in headers.items():
+        cmd += ["-H", f"{k}: {v}"]
+    if destino:
+        cmd += ["-o", str(destino)]
+    cmd.append(url)
+    try:
+        r = subprocess.run(cmd, capture_output=True, timeout=timeout + 30)
+    except Exception as exc:  # noqa: BLE001
+        print(f"  curl falhou: {exc}", file=sys.stderr)
+        return None
+    if r.returncode != 0:
+        print(f"  curl falhou ({r.returncode}): {r.stderr.decode(errors='ignore').strip()[:200]}", file=sys.stderr)
+        return None
+    return destino.read_bytes() if destino else r.stdout
+
+
 def get_json(url: str, headers: dict | None = None, tentativas: int = 3, pausa: float = 0.6):
     h = dict(UA)
     if headers:
@@ -96,6 +120,19 @@ def get_json(url: str, headers: dict | None = None, tentativas: int = 3, pausa: 
             req = urllib.request.Request(url, headers=h)
             with urllib.request.urlopen(req, timeout=60) as resp:
                 return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            if exc.code == 403:
+                raw = _curl(url, h)
+                if raw:
+                    try:
+                        return json.loads(raw.decode("utf-8"))
+                    except ValueError:
+                        print(f"  resposta não é JSON: {url}", file=sys.stderr)
+                        return None
+            if i == tentativas - 1:
+                print(f"  falhou: {url} ({exc})", file=sys.stderr)
+                return None
+            time.sleep(pausa * (2 ** i))
         except Exception as exc:  # noqa: BLE001
             if i == tentativas - 1:
                 print(f"  falhou: {url} ({exc})", file=sys.stderr)
@@ -165,15 +202,20 @@ def baixar_zip(nome: str) -> pathlib.Path | None:
         return dest
     url = TSE_CSV[nome]
     print(f"  baixando {url} (pode levar minutos)")
+    h = {"User-Agent": UA["User-Agent"], "Accept": "*/*", "Accept-Language": UA["Accept-Language"], "Referer": "https://dadosabertos.tse.jus.br/"}
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA["User-Agent"]})
+        req = urllib.request.Request(url, headers=h)
         with urllib.request.urlopen(req, timeout=600) as resp, open(dest, "wb") as fh:
             shutil.copyfileobj(resp, fh)
         return dest
     except Exception as exc:  # noqa: BLE001
-        print(f"  falhou: {url} ({exc})", file=sys.stderr)
+        print(f"  urllib falhou ({exc}); tentando com curl", file=sys.stderr)
         dest.unlink(missing_ok=True)
-        return None
+    if _curl(url, h, destino=dest) and dest.exists() and dest.stat().st_size > 1000:
+        return dest
+    dest.unlink(missing_ok=True)
+    print(f"  falhou também com curl: {url}", file=sys.stderr)
+    return None
 
 
 def ler_csv_zip(zip_path: pathlib.Path, sufixos: tuple[str, ...]):
