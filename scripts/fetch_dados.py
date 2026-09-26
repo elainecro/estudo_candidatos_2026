@@ -175,8 +175,19 @@ def achar(cands, cargo, nome_urna):
 
 
 def brl(v):
+    """Aceita '1.234,56' (bens, receitas), '1234.56' (complementar), números e vazio."""
+    if v is None or v == "":
+        return 0.0
+    if not isinstance(v, str):
+        try:
+            return float(v)
+        except (TypeError, ValueError):
+            return 0.0
+    t = v.strip().replace("R$", "").strip()
+    if "," in t:
+        t = t.replace(".", "").replace(",", ".")
     try:
-        return float(str(v).replace(".", "").replace(",", ".")) if isinstance(v, str) else float(v or 0)
+        return float(t)
     except ValueError:
         return 0.0
 
@@ -378,10 +389,11 @@ def normalizar_csv_redes(rows) -> dict:
         if not sq or not url:
             continue
         u = url.strip()
+        # o TSE grava alguns em caixa alta; para rede social, minúsculas funcionam
+        if u == u.upper():
+            u = u.lower()
         if not re.match(r"^https?://", u, re.I):
             u = "https://" + u
-        # o TSE grava alguns em caixa alta; domínio e caminho de rede social são insensíveis o bastante para minúsculas
-        u = u.lower() if u.isupper() else u
         por.setdefault(sq, []).append(u)
     return por
 
