@@ -301,6 +301,207 @@ def normalizar_csv_receitas(rows) -> dict:
     return por
 
 
+ID_ELEICAO = {"BR": "6257", "ES": "6259"}  # CD_ELEICAO de 2026 nos CSVs; é o id que o DivulgaCand usa na URL
+
+
+def limpo(v) -> str | None:
+    v = (v or "").strip()
+    return None if v in ("", "#NULO#", "#NE#", "#NULO", "#NE", "-1", "-3") else v
+
+
+def normalizar_csv_historico(rows) -> dict:
+    """historico_candidatura -> {SQ_CANDIDATO_ATUAL: {eleicoes_anteriores, trocas_de_partido, vezes_eleito, primeiro_ano}}"""
+    por = {}
+    for r in rows:
+        sq = limpo(r.get("SQ_CANDIDATO_ATUAL"))
+        ano = limpo(r.get("ANO_ELEICAO"))
+        if not sq or not ano or ano == limpo(r.get("ANO_ELEICAO_ATUAL")):
+            continue
+        chave = (ano, limpo(r.get("DS_CARGO")), limpo(r.get("NM_UE")))
+        item = {"ano": ano, "cargo": (limpo(r.get("DS_CARGO")) or "").title(), "partido": limpo(r.get("SG_PARTIDO")),
+                "uf": (limpo(r.get("NM_UE")) or "").title(), "resultado": limpo(r.get("DS_SIT_TOT_TURNO")), "turno": limpo(r.get("NR_TURNO")),
+                "situacao": limpo(r.get("DS_SITUACAO_CANDIDATURA"))}
+        d = por.setdefault(sq, {})
+        atual = d.get(chave)
+        if not atual or (item["turno"] or "1") > (atual["turno"] or "1"):  # 2º turno manda no resultado
+            d[chave] = item
+    out = {}
+    for sq, d in por.items():
+        lista = sorted(d.values(), key=lambda x: (x["ano"], x["cargo"]))
+        partidos = [x["partido"] for x in lista if x["partido"]]
+        trocas = sum(1 for i in range(1, len(partidos)) if partidos[i] != partidos[i - 1])
+        eleitos = [x for x in lista if (x["resultado"] or "").lower().startswith("eleito")]
+        out[sq] = {"eleicoes_anteriores": lista, "trocas_de_partido": trocas, "vezes_eleito": len(eleitos),
+                   "primeiro_ano": int(lista[0]["ano"]) if lista else None, "eleitos": eleitos}
+    return out
+
+
+def normalizar_csv_motivos(rows) -> dict:
+    por = {}
+    for r in rows:
+        sq = limpo(r.get("SQ_CANDIDATO"))
+        if not sq:
+            continue
+        por.setdefault(sq, []).append({"tipo": limpo(r.get("DS_TP_MOTIVO")), "motivo": limpo(r.get("DS_MOTIVO")), "processo": limpo(r.get("NR_PROCESSO"))})
+    return por
+
+
+def normalizar_csv_complementar(rows) -> dict:
+    por = {}
+    for r in rows:
+        sq = limpo(r.get("SQ_CANDIDATO"))
+        if not sq:
+            continue
+        por[sq] = {
+            "reeleicao": (limpo(r.get("ST_REELEICAO")) or "").upper() == "S",
+            "limite_gastos": brl(limpo(r.get("VR_DESPESA_MAX_CAMPANHA"))) if limpo(r.get("VR_DESPESA_MAX_CAMPANHA")) else None,
+            "situacao_tot": limpo(r.get("DS_SITUACAO_CANDIDATO_TOT")),
+            "situacao_julgamento": limpo(r.get("DS_SITUACAO_JULGAMENTO")),
+            "na_urna": (limpo(r.get("ST_CANDIDATO_INSERIDO_URNA")) or "").upper() == "SIM",
+            "destinacao_votos": limpo(r.get("NM_TIPO_DESTINACAO_VOTOS")),
+            "substituido": (limpo(r.get("ST_SUBSTITUIDO")) or "").upper() == "S",
+            "sq_substituido": limpo(r.get("SQ_SUBSTITUIDO")),
+            "nascimento": (limpo(r.get("NM_MUNICIPIO_NASCIMENTO")) or "").title() or None,
+            "genero": (limpo(r.get("DS_GENERO_FEFC")) or "").capitalize() or None,
+            "cor_raca": (limpo(r.get("DS_COR_RACA_FEFC")) or "").capitalize() or None,
+            "declarou_bens": (limpo(r.get("ST_DECLARAR_BENS")) or "").upper() == "S",
+            "processo_registro": limpo(r.get("NR_PROCESSO")),
+        }
+    return por
+
+
+def normalizar_csv_redes(rows) -> dict:
+    por = {}
+    for r in rows:
+        sq = limpo(r.get("SQ_CANDIDATO"))
+        url = limpo(r.get("DS_URL"))
+        if not sq or not url:
+            continue
+        u = url.strip()
+        if not re.match(r"^https?://", u, re.I):
+            u = "https://" + u
+        # o TSE grava alguns em caixa alta; domínio e caminho de rede social são insensíveis o bastante para minúsculas
+        u = u.lower() if u.isupper() else u
+        por.setdefault(sq, []).append(u)
+    return por
+
+
+def mapear_situacao_tot(tot: str | None, destinacao: str | None) -> tuple[str, str | None]:
+    t = (tot or "").upper()
+    obs = None
+    if "INDEFERIDO" in t:
+        sit = "indeferido"
+        obs = "Indeferido com recurso: aparece na urna, votos ficam sub judice." if "RECURSO" in t else "Registro indeferido."
+    elif "DEFERIDO" in t:
+        sit = "deferido"
+        if "RECURSO" in t:
+            obs = "Deferido, mas há recurso pendente contra o registro."
+    elif "RENÚNCIA" in t or "RENUNCIA" in t or "FALECIDO" in t or "CASSADO" in t:
+        sit = "desistiu"
+        obs = t.capitalize()
+    else:
+        sit = "aguardando"
+        obs = t.capitalize() if t else None
+    if destinacao and "anulado" in destinacao.lower():
+        obs = (obs + " " if obs else "") + f"Destinação dos votos: {destinacao}."
+    return sit, obs
+
+
+def aplicar_extras_csv(doc):
+    """Aplica historico, motivos, complementar e redes sociais, se os zips estiverem em data/cache/."""
+    por_sq = {str(c.get("tse_id")): c for c in doc["candidatos"] if c.get("tse_id")}
+    for c in por_sq.values():
+        uf = "BR" if c["cargo"] == "presidente" else "ES"
+        c["tse_url"] = f"https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/{ID_ELEICAO[uf]}/{uf}/{c['tse_id']}"
+
+    zh = CACHE / "historico_candidatura_2026.zip"
+    if zh.exists():
+        hist = normalizar_csv_historico(ler_csv_zip(zh, ("_ES.csv", "_BR.csv")))
+        n = 0
+        for sq, h in hist.items():
+            c = por_sq.get(sq)
+            if not c:
+                continue
+            c["eleicoes_anteriores"] = h["eleicoes_anteriores"]
+            c["trocas_de_partido"] = h["trocas_de_partido"]
+            c["vezes_eleito"] = h["vezes_eleito"]
+            if not c.get("inicio_politica") and h["primeiro_ano"]:
+                c["inicio_politica"] = h["primeiro_ano"]
+            if c.get("tipo_historico") == "sem_dados":
+                if h["eleitos"]:
+                    cargos = " ".join((e["cargo"] or "").lower() for e in h["eleitos"])
+                    exec_ = any(k in cargos for k in ("prefeito", "governador", "vice"))
+                    leg = any(k in cargos for k in ("vereador", "deputad", "senador"))
+                    c["tipo_historico"] = "misto" if exec_ and leg else "executivo" if exec_ else "legislativo"
+                    if not c.get("mandatos"):
+                        c["mandatos"] = [{"cargo": f"{e['cargo']} ({e['uf']})", "periodo": f"eleito em {e['ano']}", "partido": e["partido"], "obs": "importado do histórico do TSE; período e detalhes a confirmar"} for e in h["eleitos"]]
+                else:
+                    c["tipo_historico"] = "sem_mandato"
+                    c["resumo"] = c["resumo"].replace("histórico ainda não pesquisado.", f"Disputou {len(h['eleicoes_anteriores'])} eleição(ões) antes sem ser eleito, segundo o TSE.")
+            n += 1
+        print(f"  histórico eleitoral aplicado a {n} candidatos")
+
+    zm = CACHE / "motivo_cassacao_2026.zip"
+    if zm.exists():
+        mot = normalizar_csv_motivos(ler_csv_zip(zm, ("_ES.csv", "_BR.csv")))
+        n = 0
+        for sq, lista in mot.items():
+            c = por_sq.get(sq)
+            if not c:
+                continue
+            c["motivos_registro"] = lista
+            txt = "; ".join(f"{m['motivo']}" + (f" (processo {m['processo']})" if m.get("processo") else "") for m in lista if m.get("motivo"))
+            if txt and txt not in (c.get("situacao_obs") or ""):
+                c["situacao_obs"] = ((c.get("situacao_obs") or "") + " Motivo registrado pelo TSE: " + txt + ".").strip()
+            n += 1
+        print(f"  motivos de indeferimento/cassação aplicados a {n} candidatos")
+
+    zc = CACHE / "consulta_cand_complementar_2026.zip"
+    if zc.exists():
+        comp = normalizar_csv_complementar(ler_csv_zip(zc, ("_ES.csv", "_BR.csv")))
+        n = 0
+        for sq, k in comp.items():
+            c = por_sq.get(sq)
+            if not c:
+                continue
+            sit, obs = mapear_situacao_tot(k["situacao_tot"], k["destinacao_votos"])
+            c["situacao"] = sit
+            if obs and obs not in (c.get("situacao_obs") or ""):
+                c["situacao_obs"] = ((c.get("situacao_obs") or "") + " " + obs).strip()
+            if k["reeleicao"]:
+                c["reeleicao"] = True
+            c["tse_complementar"] = {kk: v for kk, v in k.items() if kk not in ("situacao_tot", "reeleicao")}
+            n += 1
+        print(f"  dados complementares aplicados a {n} candidatos")
+
+    zr = CACHE / "rede_social_candidato_2026.zip"
+    if zr.exists():
+        redes = normalizar_csv_redes(ler_csv_zip(zr, ("_ES.csv", "_BR.csv")))
+        n = 0
+        for sq, lista in redes.items():
+            c = por_sq.get(sq)
+            if c:
+                c["redes"] = lista
+                n += 1
+        print(f"  redes sociais aplicadas a {n} candidatos")
+
+    # certidões e propostas de governo: zips de PDFs; guardamos o nome do arquivo por candidato
+    for nome_zip, campo in (("certidao_criminal_2026_ES.zip", "certidoes_arquivos"), ("proposta_governo_2026_ES.zip", "proposta_governo_arquivos")):
+        zz = CACHE / nome_zip
+        if not zz.exists():
+            continue
+        import zipfile
+        n = 0
+        with zipfile.ZipFile(zz) as z:
+            for nome in z.namelist():
+                m = re.search(r"(\d{11,12})", nome)
+                c = por_sq.get(m.group(1)) if m else None
+                if c:
+                    c.setdefault(campo, []).append(f"data/cache/{nome_zip}:{nome}")
+                    n += 1
+        print(f"  {campo}: {n} arquivos mapeados")
+
+
 def fetch_tse_csv(doc, dry_run: bool):
     print("  API bloqueada (403). Usando os CSVs dos Dados Abertos do TSE.")
     z = baixar_zip("consulta_cand")
@@ -322,7 +523,8 @@ def fetch_tse_csv(doc, dry_run: bool):
         vistos += 1
         alvo = achar(doc["candidatos"], n["cargo"], n["nome_urna"])
         b = bens.get(n["tse_id"])
-        n["tse_url"] = "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        uf_link = "BR" if n["cargo"] == "presidente" else "ES"
+        n["tse_url"] = f"https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/{ID_ELEICAO[uf_link]}/{uf_link}/{n['tse_id']}"
         if alvo:
             for k in ("numero", "situacao", "situacao_detalhe", "tse_id", "tse_url", "idade", "ocupacao"):
                 if n.get(k) and (k in ("situacao", "situacao_detalhe", "tse_id", "tse_url") or not alvo.get(k)):
@@ -344,7 +546,19 @@ def fetch_tse_csv(doc, dry_run: bool):
     doc["meta"]["atualizado_em_tse"] = HOJE
     doc["meta"]["fonte_tse"] = "Dados Abertos (CSV)"
     print(f"TSE CSV: {vistos} candidatos lidos, {atualizados} atualizados, {novos} novos")
+    orfaos = [c["nome_urna"] for c in doc["candidatos"] if not c.get("tse_id")]
+    if orfaos:
+        print(f"  fichas já existentes que NÃO casaram com nenhum nome do TSE ({len(orfaos)}): {', '.join(orfaos)}")
+        print("  -> confira o nome de urna no CSV e ajuste 'nome_urna' no JSON, ou preencha 'tse_id' à mão")
+    aplicar_extras_csv(doc)
+    _atualizar_cobertura(doc)
     salvar(doc, dry_run)
+
+
+def _atualizar_cobertura(doc):
+    from collections import Counter
+    cont = Counter(c["cargo"] for c in doc["candidatos"] if c.get("situacao") != "desistiu")
+    doc["meta"]["cobertura"] = {cargo: f"{n} candidatos importados do TSE em {HOJE}" for cargo, n in cont.items()}
 
 
 def mapear_situacao(txt: str) -> str:
