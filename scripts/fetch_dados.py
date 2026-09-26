@@ -9,7 +9,8 @@ de rede não.
 
 Fontes e o que cada uma enche na ficha:
 
-  --tse       DivulgaCand: lista completa (ES + presidente), número, situação,
+  --tse       DivulgaCand (ou, se a API der 403, os CSVs dos Dados Abertos do
+              TSE, baixados para data/cache/): lista completa (ES + presidente), número, situação,
               foto, vice/suplentes, BENS declarados (com total), CERTIDÕES anexadas
               ao registro e ELEIÇÕES ANTERIORES (histórico eleitoral e trocas de
               partido). Cria ficha para quem ainda não está no JSON.
@@ -66,7 +67,21 @@ CARGOS_TSE = {
     "deputado_federal": (6, "ES"),
     "deputado_estadual": (7, "ES"),
 }
-UA = {"User-Agent": "estudo-candidatos-2026/1.1 (uso pessoal, ver README)", "Accept": "application/json"}
+# O TSE responde 403 a clientes que não parecem navegador. Cabeçalhos de navegador resolvem na maioria dos casos.
+UA = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "pt-BR,pt;q=0.9",
+    "Referer": "https://divulgacandcontas.tse.jus.br/divulga/",
+    "Origin": "https://divulgacandcontas.tse.jus.br",
+}
+CACHE = ROOT / "data" / "cache"
+TSE_CSV = {
+    "consulta_cand": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+    "bem_candidato": "https://cdn.tse.jus.br/estatistica/sead/odsele/bem_candidato/bem_candidato_2026.zip",
+    "receitas": "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip",
+}
+CD_CARGO = {"1": "presidente", "3": "governador", "5": "senador", "6": "deputado_federal", "7": "deputado_estadual"}
 HOJE = time.strftime("%Y-%m-%d")
 
 
@@ -136,7 +151,153 @@ def id_eleicao_2026():
     for e in data:
         if str(e.get("ano")) == "2026":
             return e["id"]
-    raise SystemExit("não achei a eleição de 2026 em /eleicao/ordinarias")
+    return None
+
+
+# ------------------------------------------------ fallback: CSVs dos Dados Abertos do TSE
+
+def baixar_zip(nome: str) -> pathlib.Path | None:
+    """Baixa (uma vez) o zip dos Dados Abertos para data/cache/ e devolve o caminho."""
+    import shutil
+    CACHE.mkdir(parents=True, exist_ok=True)
+    dest = CACHE / f"{nome}_2026.zip"
+    if dest.exists() and dest.stat().st_size > 0:
+        return dest
+    url = TSE_CSV[nome]
+    print(f"  baixando {url} (pode levar minutos)")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA["User-Agent"]})
+        with urllib.request.urlopen(req, timeout=600) as resp, open(dest, "wb") as fh:
+            shutil.copyfileobj(resp, fh)
+        return dest
+    except Exception as exc:  # noqa: BLE001
+        print(f"  falhou: {url} ({exc})", file=sys.stderr)
+        dest.unlink(missing_ok=True)
+        return None
+
+
+def ler_csv_zip(zip_path: pathlib.Path, sufixos: tuple[str, ...]):
+    """Itera as linhas (dict) dos CSVs do zip cujo nome termina com um dos sufixos (ex.: _ES.csv, _BR.csv)."""
+    import csv
+    import io
+    import zipfile
+    with zipfile.ZipFile(zip_path) as z:
+        for nome in z.namelist():
+            if not nome.lower().endswith(".csv") or not any(nome.upper().endswith(s.upper()) for s in sufixos):
+                continue
+            with z.open(nome) as fh:
+                texto = io.TextIOWrapper(fh, encoding="latin-1", newline="")
+                for row in csv.DictReader(texto, delimiter=";"):
+                    yield row
+
+
+def normalizar_csv_candidato(row: dict) -> dict | None:
+    """Uma linha de consulta_cand_2026_XX.csv -> campos da ficha. None se não for cargo titular."""
+    cargo = CD_CARGO.get(str(row.get("CD_CARGO", "")).strip())
+    if not cargo:
+        return None
+    detalhe = (row.get("DS_DETALHE_SITUACAO_CAND") or row.get("DS_SITUACAO_CANDIDATURA") or "")
+    idade = row.get("NR_IDADE_DATA_POSSE")
+    return {
+        "cargo": cargo,
+        "nome_urna": (row.get("NM_URNA_CANDIDATO") or "").strip().title() if (row.get("NM_URNA_CANDIDATO") or "").isupper() else (row.get("NM_URNA_CANDIDATO") or "").strip(),
+        "nome_completo": (row.get("NM_CANDIDATO") or "").strip().title(),
+        "numero": (row.get("NR_CANDIDATO") or "").strip() or None,
+        "partido": (row.get("SG_PARTIDO") or "").strip() or None,
+        "situacao": mapear_situacao(detalhe),
+        "situacao_detalhe": detalhe.strip().capitalize() or None,
+        "idade": int(idade) if idade and idade.strip().isdigit() and int(idade) > 0 else None,
+        "ocupacao": (row.get("DS_OCUPACAO") or "").strip().capitalize() or None,
+        "tse_id": (row.get("SQ_CANDIDATO") or "").strip() or None,
+        "federacao": (row.get("NM_FEDERACAO") or "").strip() if (row.get("NM_FEDERACAO") or "").strip() not in ("", "#NULO#", "#NE#") else None,
+        "coligacao": (row.get("NM_COLIGACAO") or "").strip() if (row.get("NM_COLIGACAO") or "").strip() not in ("", "#NULO#", "#NE#") else None,
+    }
+
+
+def normalizar_csv_bens(rows) -> dict:
+    """Linhas de bem_candidato -> {SQ_CANDIDATO: {"total":..., "itens":[...]}}"""
+    por = {}
+    for r in rows:
+        sq = (r.get("SQ_CANDIDATO") or "").strip()
+        if not sq:
+            continue
+        item = {"tipo": (r.get("DS_TIPO_BEM_CANDIDATO") or "").strip().capitalize(), "descricao": (r.get("DS_BEM_CANDIDATO") or "").strip()[:160], "valor": brl(r.get("VR_BEM_CANDIDATO"))}
+        b = por.setdefault(sq, {"total": 0.0, "itens": []})
+        b["total"] += item["valor"]
+        b["itens"].append(item)
+    for b in por.values():
+        b["itens"] = sorted(b["itens"], key=lambda i: -i["valor"])[:15]
+        b["fonte"] = "TSE Dados Abertos (bem_candidato_2026)"
+        b["atualizado_em"] = HOJE
+    return por
+
+
+def normalizar_csv_receitas(rows) -> dict:
+    """Linhas de receitas_candidatos -> {SQ_CANDIDATO: campanha}"""
+    por = {}
+    for r in rows:
+        sq = (r.get("SQ_CANDIDATO") or "").strip()
+        if not sq:
+            continue
+        v = brl(r.get("VR_RECEITA"))
+        nome = (r.get("NM_DOADOR") or r.get("NM_DOADOR_RFB") or "não identificado").strip()
+        origem = (r.get("DS_ORIGEM_RECEITA") or r.get("DS_FONTE_RECEITA") or "").lower()
+        c = por.setdefault(sq, {"receitas": 0.0, "despesas": None, "fundo_publico_e_partido": 0.0, "_doadores": {}})
+        c["receitas"] += v
+        if "fundo" in origem or "partid" in origem or "fundo" in nome.lower() or "direção" in nome.lower():
+            c["fundo_publico_e_partido"] += v
+        c["_doadores"][nome] = c["_doadores"].get(nome, 0.0) + v
+    for c in por.values():
+        c["maiores_doadores"] = [{"nome": k, "valor": round(v, 2)} for k, v in sorted(c.pop("_doadores").items(), key=lambda kv: -kv[1])[:10]]
+        c["fonte"] = "TSE Dados Abertos (receitas_candidatos_2026)"
+        c["atualizado_em"] = HOJE
+    return por
+
+
+def fetch_tse_csv(doc, dry_run: bool):
+    print("  API bloqueada (403). Usando os CSVs dos Dados Abertos do TSE.")
+    z = baixar_zip("consulta_cand")
+    if not z:
+        raise SystemExit("não consegui baixar consulta_cand_2026.zip; baixe à mão em dadosabertos.tse.jus.br e salve em data/cache/")
+    bens = {}
+    zb = baixar_zip("bem_candidato")
+    if zb:
+        bens = normalizar_csv_bens(ler_csv_zip(zb, ("_ES.csv", "_BR.csv")))
+    novos = atualizados = vistos = 0
+    for row in ler_csv_zip(z, ("_ES.csv", "_BR.csv")):
+        n = normalizar_csv_candidato(row)
+        if not n:
+            continue
+        if n["cargo"] == "presidente" and (row.get("SG_UF") or "").strip() != "BR":
+            continue
+        if n["cargo"] != "presidente" and (row.get("SG_UF") or "").strip() != "ES":
+            continue
+        vistos += 1
+        alvo = achar(doc["candidatos"], n["cargo"], n["nome_urna"])
+        b = bens.get(n["tse_id"])
+        n["tse_url"] = "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        if alvo:
+            for k in ("numero", "situacao", "situacao_detalhe", "tse_id", "tse_url", "idade", "ocupacao"):
+                if n.get(k) and (k in ("situacao", "situacao_detalhe", "tse_id", "tse_url") or not alvo.get(k)):
+                    alvo[k] = n[k]
+            if b:
+                alvo["bens"] = b
+            atualizados += 1
+        else:
+            doc["candidatos"].append({
+                "id": slug(n["nome_urna"]) + ("-" + n["numero"] if n["numero"] else ""), "cargo": n["cargo"], "nome_urna": n["nome_urna"],
+                "nome_completo": n["nome_completo"], "partido": n["partido"], "numero": n["numero"], "idade": n["idade"], "ocupacao": n["ocupacao"],
+                "situacao": n["situacao"], "situacao_obs": n["situacao_detalhe"], "tipo_historico": "sem_dados", "inicio_politica": None,
+                "resumo": "Importado do TSE (Dados Abertos); histórico ainda não pesquisado." + (f" Federação: {n['federacao']}." if n.get("federacao") else "") + (f" Coligação: {n['coligacao']}." if n.get("coligacao") else ""),
+                "mandatos": [], "projetos": None, "gestao": [], "relatorias": [], "fiscalizacao": [], "processos": [],
+                "bens": b, "certidoes": [], "eleicoes_anteriores": [], "tse_id": n["tse_id"], "tse_url": n["tse_url"],
+                "fontes": ["https://dadosabertos.tse.jus.br/dataset/candidatos-2026"],
+            })
+            novos += 1
+    doc["meta"]["atualizado_em_tse"] = HOJE
+    doc["meta"]["fonte_tse"] = "Dados Abertos (CSV)"
+    print(f"TSE CSV: {vistos} candidatos lidos, {atualizados} atualizados, {novos} novos")
+    salvar(doc, dry_run)
 
 
 def mapear_situacao(txt: str) -> str:
@@ -192,6 +353,8 @@ def normalizar_tse_detalhe(det: dict) -> dict:
 
 def fetch_tse(doc, dry_run: bool):
     id_el = id_eleicao_2026()
+    if not id_el:
+        return fetch_tse_csv(doc, dry_run)
     novos = atualizados = 0
     for cargo, (cod, uf) in CARGOS_TSE.items():
         lista = get_json(f"{TSE_BASE}/candidatura/listar/2026/{uf}/{id_el}/{cod}/candidatos")
@@ -251,8 +414,26 @@ def normalizar_contas(resumo: dict, receitas: list) -> dict:
             "maiores_doadores": [{"nome": k, "valor": v} for k, v in top], "fonte": "TSE DivulgaCandContas", "atualizado_em": HOJE}
 
 
+def fetch_contas_csv(doc, dry_run: bool):
+    print("  API bloqueada. Usando o CSV de prestação de contas dos Dados Abertos (arquivo grande, centenas de MB).")
+    z = baixar_zip("receitas")
+    if not z:
+        return
+    por = normalizar_csv_receitas(ler_csv_zip(z, ("receitas_candidatos_2026_ES.csv", "receitas_candidatos_2026_BR.csv")))
+    n = 0
+    for c in doc["candidatos"]:
+        camp = por.get(str(c.get("tse_id") or ""))
+        if camp:
+            c["campanha"] = camp
+            n += 1
+    print(f"  contas preenchidas para {n} candidatos")
+    salvar(doc, dry_run)
+
+
 def fetch_contas(doc, dry_run: bool):
     id_el = doc["meta"].get("id_eleicao_tse") or id_eleicao_2026()
+    if not id_el:
+        return fetch_contas_csv(doc, dry_run)
     for c in doc["candidatos"]:
         if not c.get("tse_id") or not c.get("numero"):
             continue
