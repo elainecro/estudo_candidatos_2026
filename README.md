@@ -19,7 +19,7 @@ de instalar nada. Se publicar no GitHub Pages, o site é a raiz do repositório.
 
 | Cargo | No guia | Registrados no TSE |
 |---|---|---|
-| Presidente | 12 deferidos + 1 indeferido (Marçal) | 12 aptos |
+| Presidente | 12 deferidos + Leonardo Avalanche (substituto do PRTB, registro a confirmar) + Marçal (indeferido) | 13 pedidos, 12 aptos em 11/09 |
 | Governador | 5 | 5 |
 | Senador | 11 | 11 |
 | Deputado federal | 15 (os 7 que tentam reeleição, o substituto de quem desistiu e nomes com mandato anterior) | 135 |

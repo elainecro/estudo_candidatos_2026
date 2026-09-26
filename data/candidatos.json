@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizado_em": "2026-09-25",
+    "atualizado_em": "2026-09-26",
     "cobertura": {
-      "presidente": "completa (12 registros deferidos + 1 indeferido)",
+      "presidente": "completa: 12 registros deferidos, 1 substituto do PRTB com registro a confirmar (Leonardo Avalanche) e 1 indeferido (Marçal). O TSE recebeu 13 pedidos.",
       "governador": "completa (5 candidatos)",
       "senador": "completa (11 candidatos)",
       "deputado_federal": "parcial: 15 de 135 registrados. Estão aqui os 7 que tentam reeleição, o substituto de quem desistiu e os nomes com mandato anterior mais conhecidos. Para a lista completa, rode scripts/fetch_dados.py --tse.",
@@ -572,6 +572,36 @@
       "processos": []
     },
     {
+      "id": "leonardo-avalanche",
+      "cargo": "presidente",
+      "nome_urna": "Leonardo Avalanche",
+      "nome_completo": "Leonardo Alves de Araújo",
+      "partido": "PRTB",
+      "numero": "28",
+      "idade": null,
+      "ocupacao": "Empresário, presidente nacional do PRTB",
+      "chapa": {
+        "vice": "Silvia Hellen da Silva Pereira",
+        "partido_vice": "PRTB",
+        "coligacao": "PRTB"
+      },
+      "situacao": "aguardando",
+      "situacao_obs": "Entrou no lugar de Pablo Marçal depois de 11/09/2026. Era o vice da chapa original. Não localizei a decisão do TSE sobre o registro dele; confira no DivulgaCand.",
+      "tipo_historico": "sem_mandato",
+      "inicio_politica": 2024,
+      "resumo": "Empresário de Anápolis (GO), filho de pastor evangélico, preside o PRTB desde fevereiro de 2024. Coordenou a campanha de Marçal e assumiu a candidatura quando o registro dele foi negado.",
+      "mandatos": [],
+      "projetos": null,
+      "gestao": [],
+      "relatorias": [],
+      "fiscalizacao": [],
+      "processos": [],
+      "fontes": [
+        "https://www.poder360.com.br/poder-eleicoes-2026/prtb-oficializa-leonardo-avalanche-como-candidato-a-presidencia/",
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-leonardo-avalanche-candidato-a-presidencia-da-republica-pelo-prtb/"
+      ]
+    },
+    {
       "id": "pablo-marcal",
       "cargo": "presidente",
       "nome_urna": "Pablo Marçal",
@@ -586,7 +616,7 @@
         "coligacao": "PRTB"
       },
       "situacao": "indeferido",
-      "situacao_obs": "Registro negado por unanimidade pelo TSE em 11/09/2026: inelegível até 2032 por uso indevido de redes sociais na eleição de 2024 em São Paulo. O número pode aparecer na urna, mas votos nele são anulados salvo reversão judicial.",
+      "situacao_obs": "Registro negado por unanimidade pelo TSE em 11/09/2026: não comprovou filiação ao PRTB no prazo (em abril ainda estava no União Brasil) e é inelegível até 2032 pela condenação de 2024. O TSE autorizou o PRTB a trocar o candidato; Leonardo Avalanche assumiu a chapa com o número 28.",
       "tipo_historico": "sem_mandato",
       "inicio_politica": 2022,
       "resumo": "Terceiro colocado na eleição para prefeito de São Paulo em 2024.",
