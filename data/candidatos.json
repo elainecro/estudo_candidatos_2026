@@ -134,6 +134,16 @@
           "ano": 2021,
           "fonte": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464261&ori=1"
         }
+      ],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Luiz%20In%C3%A1cio%20Lula%20da%20Silva"
+        }
       ]
     },
     {
@@ -204,6 +214,29 @@
           "status": "arquivado",
           "ano": 2022,
           "fonte": "https://www.infomoney.com.br/politica/gilmar-nega-recursos-e-mantem-arquivado-caso-das-rachadinhas-de-flavio-bolsonaro/"
+        }
+      ],
+      "senado_id": 5894,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Senado: página do senador",
+          "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/25894"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Fl%C3%A1vio%20Nantes%20Bolsonaro"
         }
       ]
     },
@@ -280,6 +313,16 @@
           "ano": 2025,
           "fonte": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-04/tre-go-afasta-inelegibilidade-de-governador-ronaldo-caiado"
         }
+      ],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Ronaldo%20Ramos%20Caiado"
+        }
       ]
     },
     {
@@ -345,6 +388,16 @@
           "ano": 2024,
           "fonte": "https://www.em.com.br/politica/2024/04/6844448-oposicao-denuncia-zema-por-improbidade-administrativa.html"
         }
+      ],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Romeu%20Zema%20Neto"
+        }
       ]
     },
     {
@@ -373,7 +426,17 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Augusto%20Jorge%20Cury"
+        }
+      ]
     },
     {
       "id": "renan-santos",
@@ -401,7 +464,17 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Renan%20Ant%C3%B4nio%20da%20Silva%20Santos"
+        }
+      ]
     },
     {
       "id": "clariana-barao",
@@ -429,7 +502,17 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Clariana%20Bar%C3%A3o"
+        }
+      ]
     },
     {
       "id": "samara-martins",
@@ -457,7 +540,17 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Samara%20Martins"
+        }
+      ]
     },
     {
       "id": "wilson-grassi",
@@ -485,7 +578,17 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Wilson%20Grassi%20J%C3%BAnior"
+        }
+      ]
     },
     {
       "id": "edmilson-costa",
@@ -513,7 +616,17 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Edmilson%20Silva%20Costa"
+        }
+      ]
     },
     {
       "id": "hertz-dias",
@@ -541,7 +654,17 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Hertz%20Dias"
+        }
+      ]
     },
     {
       "id": "rui-costa-pimenta",
@@ -569,7 +692,17 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Rui%20Costa%20Pimenta"
+        }
+      ]
     },
     {
       "id": "leonardo-avalanche",
@@ -599,6 +732,16 @@
       "fontes": [
         "https://www.poder360.com.br/poder-eleicoes-2026/prtb-oficializa-leonardo-avalanche-como-candidato-a-presidencia/",
         "https://www.cnnbrasil.com.br/eleicoes/quem-e-leonardo-avalanche-candidato-a-presidencia-da-republica-pelo-prtb/"
+      ],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Leonardo%20Alves%20de%20Ara%C3%BAjo"
+        }
       ]
     },
     {
@@ -634,6 +777,16 @@
           "status": "inelegível até 2032",
           "ano": 2026,
           "fonte": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/9/12/tse-nega-por-unanimidade-registro-de-candidatura-de-pablo-marcal-a-presidencia"
+        }
+      ],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Pablo%20Henrique%20Costa%20Mar%C3%A7al"
         }
       ]
     },
@@ -750,6 +903,33 @@
           "ano": 2018,
           "fonte": "https://www.meon.com.br/noticias/barroso-determina-arquivamento-de-inquerito-da-odebrecht-contra-ferraco-1"
         }
+      ],
+      "camara_id": 74674,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/74674"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/174674"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/ricardo-ferraco"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Ricardo%20de%20Rezende%20Ferra%C3%A7o"
+        }
       ]
     },
     {
@@ -834,6 +1014,24 @@
           "status": "em apuração",
           "ano": 2025,
           "fonte": "https://www.seculodiario.com.br/justiaa/karla-coser-denuncia-cheques-de-pazolini-ao-ministerio-publico/"
+        }
+      ],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "TCE-ES: consulta de processos (contas de prefeito)",
+          "url": "https://www.tcees.tc.br/consultas/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Lorenzo%20Silva%20de%20Pazolini"
         }
       ]
     },
@@ -929,6 +1127,37 @@
           "ano": 2018,
           "fonte": "https://www.seculodiario.com.br/politica/stf-remete-inquerito-de-helder-salomao-para-a-justica-comum/"
         }
+      ],
+      "camara_id": 178873,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/178873"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/1178873"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/helder-salomao"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "TCE-ES: consulta de processos (contas de prefeito)",
+          "url": "https://www.tcees.tc.br/consultas/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Helder%20Ignacio%20Salom%C3%A3o"
+        }
       ]
     },
     {
@@ -957,7 +1186,17 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Breno%20Augusto%20Fagundes%20Barcelos"
+        }
+      ]
     },
     {
       "id": "rafael-demuner",
@@ -985,7 +1224,17 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Rafael%20Ketley%20Demuner"
+        }
+      ]
     },
     {
       "id": "fabiano-contarato",
@@ -1076,7 +1325,26 @@
           "ano": 2025
         }
       ],
-      "processos": []
+      "processos": [],
+      "senado_id": 5953,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Senado: página do senador",
+          "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5953"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/25953"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Fabiano%20Contarato"
+        }
+      ]
     },
     {
       "id": "marcos-do-val",
@@ -1154,6 +1422,25 @@
           "status": "investigação em curso; cautelares parcialmente revogadas",
           "ano": 2023,
           "fonte": "https://noticias.stf.jus.br/postsnoticias/stf-revoga-parte-de-medidas-cautelares-contra-senador-marcos-do-val/"
+        }
+      ],
+      "senado_id": 5942,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Senado: página do senador",
+          "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5942"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/25942"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Marcos%20Ribeiro%20do%20Val"
         }
       ]
     },
@@ -1265,6 +1552,42 @@
           "ano": 2024,
           "fonte": "https://www.gazetadopovo.com.br/republica/moraes-arquiva-investigacao-contra-governador-do-es-casagrande/"
         }
+      ],
+      "camara_id": 74166,
+      "senado_id": 3868,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/74166"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/174166"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/renato-casagrande"
+        },
+        {
+          "nome": "Senado: página do senador",
+          "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3868"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/23868"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Jos%C3%A9%20Renato%20Casagrande"
+        }
       ]
     },
     {
@@ -1345,6 +1668,42 @@
           "status": "rejeitada",
           "ano": 2010,
           "fonte": "https://noticias.stf.jus.br/postsnoticias/supremo-rejeita-denuncia-contra-deputada-rose-de-freitas/"
+        }
+      ],
+      "camara_id": 73507,
+      "senado_id": 2331,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/73507"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/173507"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/rose-de-freitas"
+        },
+        {
+          "nome": "Senado: página do senador",
+          "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/2331"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/22331"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Rose%20de%20Freitas"
         }
       ]
     },
@@ -1433,6 +1792,24 @@
           "status": "em andamento na última notícia",
           "ano": 2021,
           "fonte": "https://www.esfala.com.br/2021/10/23/ministerio-publico-denuncia-sergio-meneguelli-pela-acusacao-de-usar-dinheiro-publico-para-propaganda-pessoal/"
+        }
+      ],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "TCE-ES: consulta de processos (contas de prefeito)",
+          "url": "https://www.tcees.tc.br/consultas/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=S%C3%A9rgio%20Meneguelli"
         }
       ]
     },
@@ -1537,6 +1914,29 @@
           "ano": 2026,
           "fonte": "https://www.plantaobrasil.net/news.asp?nID=155718"
         }
+      ],
+      "camara_id": 178871,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/178871"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/1178871"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/evair-de-melo"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Evair%20Vieira%20de%20Melo"
+        }
       ]
     },
     {
@@ -1564,7 +1964,17 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Magda%20Santos%20Malta"
+        }
+      ]
     },
     {
       "id": "rodney-miranda",
@@ -1647,6 +2057,24 @@
           "ano": 2020,
           "fonte": "https://www.folhavitoria.com.br/politica/noticia/06/2020/inquerito-contra-rodney-miranda-em-goias-e-arquivado"
         }
+      ],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "TCE-ES: consulta de processos (contas de prefeito)",
+          "url": "https://www.tcees.tc.br/consultas/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Rodney%20Rocha%20Miranda"
+        }
       ]
     },
     {
@@ -1691,7 +2119,17 @@
           "ano": 2025
         }
       ],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Leonardo%20Passos%20Monjardim"
+        }
+      ]
     },
     {
       "id": "professor-fabian",
@@ -1714,7 +2152,17 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Carlos%20Fabian"
+        }
+      ]
     },
     {
       "id": "callegari",
@@ -1752,7 +2200,21 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Wellington%20Callegari"
+        }
+      ]
     },
     {
       "id": "amaro-neto",
@@ -1815,6 +2277,33 @@
           "status": "encerrado",
           "ano": 2020,
           "fonte": "https://elimarcortes.com.br/2020/10/16/exclusivo-amaro-neto-confessa-na-justica-ter-tido-caso-amoroso-com-esposa-de-policial-esquece-ter-sido-extorquido-e-casal-e-absolvido/"
+        }
+      ],
+      "camara_id": 204356,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/204356"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/1204356"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/amaro-neto"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Amaro%20Rocha%20Nascimento%20Neto"
         }
       ]
     },
@@ -1880,7 +2369,34 @@
         }
       ],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "camara_id": 204355,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/204355"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/1204355"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/da-vitoria"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Josias%20M%C3%A1rio%20da%20Vit%C3%B3ria"
+        }
+      ]
     },
     {
       "id": "victor-linhalis",
@@ -1952,7 +2468,30 @@
         }
       ],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "camara_id": 220528,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/220528"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/1220528"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/victor-linhalis"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Victor%20Garozi%20Linhalis"
+        }
+      ]
     },
     {
       "id": "gilson-daniel",
@@ -2044,7 +2583,34 @@
         }
       ],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "camara_id": 220529,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/220529"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/1220529"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/gilson-daniel"
+        },
+        {
+          "nome": "TCE-ES: consulta de processos (contas de prefeito)",
+          "url": "https://www.tcees.tc.br/consultas/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Gilson%20Daniel%20Batista"
+        }
+      ]
     },
     {
       "id": "jack-rocha",
@@ -2128,7 +2694,30 @@
           "ano": 2025
         }
       ],
-      "processos": []
+      "processos": [],
+      "camara_id": 220527,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/220527"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/1220527"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/jack-rocha"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Jaqueline%20Rocha"
+        }
+      ]
     },
     {
       "id": "messias-donato",
@@ -2206,7 +2795,30 @@
         }
       ],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "camara_id": 220530,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/220530"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/1220530"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/messias-donato"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Manoel%20Messias%20Donato%20Bezerra"
+        }
+      ]
     },
     {
       "id": "gilvan-da-federal",
@@ -2284,6 +2896,29 @@
           "ano": 2025,
           "fonte": "https://www.camara.leg.br/noticias/1226438-conselho-de-etica-mantem-decisao-e-nao-aplica-novas-penalidades-a-gilvan-da-federal"
         }
+      ],
+      "camara_id": 220526,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/220526"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/1220526"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/gilvan-da-federal"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Gilvan%20Aguiar%20Costa"
+        }
       ]
     },
     {
@@ -2314,7 +2949,17 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Lucas%20Stein%20Casagrande"
+        }
+      ]
     },
     {
       "id": "marcelo-santos",
@@ -2385,6 +3030,20 @@
           "status": "sem desfecho localizado",
           "ano": null,
           "fonte": "https://www.seculodiario.com.br/politica/mp-eleitoral-da-parecerpela-perda-de-mandato-dodeputado-marcelo-santos/"
+        }
+      ],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Marcelo%20Santos"
         }
       ]
     },
@@ -2457,7 +3116,34 @@
           "ano": 2013
         }
       ],
-      "processos": []
+      "processos": [],
+      "camara_id": 74162,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/74162"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/174162"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/iriny"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Iriny%20Nicolau%20Corres%20Lopes"
+        }
+      ]
     },
     {
       "id": "joao-coser",
@@ -2534,6 +3220,37 @@
           "ano": 2019,
           "fonte": "https://www.agazeta.com.br/es/politica/justica-livra-joao-coser-e-mantem-condenacao-a-ex-secretario-0819"
         }
+      ],
+      "camara_id": 74772,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/74772"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/174772"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/joao-coser"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "TCE-ES: consulta de processos (contas de prefeito)",
+          "url": "https://www.tcees.tc.br/consultas/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Jo%C3%A3o%20Carlos%20Coser"
+        }
       ]
     },
     {
@@ -2597,7 +3314,21 @@
       ],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Tyago%20Ribeiro%20Hoffmann"
+        }
+      ]
     },
     {
       "id": "bruno-resende",
@@ -2650,7 +3381,21 @@
         }
       ],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Bruno%20Resende"
+        }
+      ]
     },
     {
       "id": "lucas-polese",
@@ -2700,7 +3445,21 @@
           "ano": 2018
         }
       ],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Lucas%20Polese"
+        }
+      ]
     },
     {
       "id": "nesio-fernandes",
@@ -2765,7 +3524,17 @@
       ],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=N%C3%A9sio%20Fernandes%20de%20Medeiros%20Junior"
+        }
+      ]
     },
     {
       "id": "capitao-assumcao",
@@ -2831,6 +3600,20 @@
           "ano": 2026,
           "fonte": "https://www.folhavitoria.com.br/politica/multas-de-r-50-mil-por-briga-com-pazolini-barram-candidatura-de-capitao-assumcao/"
         }
+      ],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Lucinio%20Castelo%20de%20Assum%C3%A7%C3%A3o"
+        }
       ]
     },
     {
@@ -2877,7 +3660,21 @@
         }
       ],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Danilo%20Bahiense"
+        }
+      ]
     },
     {
       "id": "marcos-madureira",
@@ -2916,7 +3713,21 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Marcos%20Madureira"
+        }
+      ]
     },
     {
       "id": "fabricio-gandini",
@@ -2984,7 +3795,21 @@
         }
       ],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Fabr%C3%ADcio%20Gandini%20Aquino"
+        }
+      ]
     },
     {
       "id": "vandinho-leite",
@@ -3024,7 +3849,21 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Vanderson%20Alonso%20Leite"
+        }
+      ]
     },
     {
       "id": "mazinho-dos-anjos",
@@ -3070,7 +3909,21 @@
         }
       ],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Edmar%20Lorencini%20dos%20Anjos"
+        }
+      ]
     },
     {
       "id": "camila-valadao",
@@ -3136,7 +3989,21 @@
           "ano": 2026
         }
       ],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Camila%20Valad%C3%A3o"
+        }
+      ]
     },
     {
       "id": "dary-pagung",
@@ -3187,7 +4054,21 @@
         }
       ],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Dary%20Pagung"
+        }
+      ]
     },
     {
       "id": "janete-de-sa",
@@ -3249,7 +4130,21 @@
           "ano": 2023
         }
       ],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Janete%20Santos%20de%20S%C3%A1"
+        }
+      ]
     },
     {
       "id": "raquel-lessa",
@@ -3305,7 +4200,25 @@
       ],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "TCE-ES: consulta de processos (contas de prefeito)",
+          "url": "https://www.tcees.tc.br/consultas/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Raquel%20Ferreira%20Mageste%20Lessa"
+        }
+      ]
     },
     {
       "id": "adilson-espindula",
@@ -3345,7 +4258,21 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Adilson%20Espindula"
+        }
+      ]
     },
     {
       "id": "hudson-leal",
@@ -3385,7 +4312,21 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Hudson%20Leal"
+        }
+      ]
     },
     {
       "id": "ze-preto",
@@ -3429,7 +4370,21 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Ademir%20Jos%C3%A9%20Gomes%20Pereira"
+        }
+      ]
     },
     {
       "id": "coronel-weliton",
@@ -3483,7 +4438,25 @@
       ],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "TCE-ES: consulta de processos (contas de prefeito)",
+          "url": "https://www.tcees.tc.br/consultas/"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Weliton%20Virg%C3%ADlio%20Pereira"
+        }
+      ]
     },
     {
       "id": "denninho-silva",
@@ -3542,7 +4515,21 @@
           "ano": 2023
         }
       ],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Denner%20Janu%C3%A1rio%20da%20Silva"
+        }
+      ]
     },
     {
       "id": "alcantaro-filho",
@@ -3581,7 +4568,21 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Alc%C3%A2ntaro%20Filho"
+        }
+      ]
     },
     {
       "id": "pablo-muribeca",
@@ -3628,7 +4629,21 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Pablo%20Muribeca"
+        }
+      ]
     },
     {
       "id": "bispo-alves",
@@ -3680,7 +4695,21 @@
       ],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Bispo%20Alves"
+        }
+      ]
     },
     {
       "id": "allan-ferreira",
@@ -3731,7 +4760,21 @@
         }
       ],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Allan%20Albert%20Louren%C3%A7o%20Ferreira"
+        }
+      ]
     },
     {
       "id": "alexandre-xambinho",
@@ -3789,7 +4832,21 @@
           "ano": 2019
         }
       ],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Alexandre%20Xambinho"
+        }
+      ]
     },
     {
       "id": "jose-esmeraldo",
@@ -3843,7 +4900,21 @@
       ],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Jos%C3%A9%20Esmeraldo%20de%20Freitas"
+        }
+      ]
     },
     {
       "id": "fabio-duarte",
@@ -3888,7 +4959,21 @@
         }
       ],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=F%C3%A1bio%20Duarte"
+        }
+      ]
     },
     {
       "id": "bruno-lamas",
@@ -3947,7 +5032,21 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Bruno%20Lamas%20Silva"
+        }
+      ]
     },
     {
       "id": "paulo-foletto",
@@ -3986,7 +5085,34 @@
       "gestao": [],
       "relatorias": [],
       "fiscalizacao": [],
-      "processos": []
+      "processos": [],
+      "camara_id": 160517,
+      "links": [
+        {
+          "nome": "TSE DivulgaCand (busque o nome)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/#/"
+        },
+        {
+          "nome": "Câmara: página do deputado",
+          "url": "https://www.camara.leg.br/deputados/160517"
+        },
+        {
+          "nome": "Radar do Congresso",
+          "url": "https://radar.congressoemfoco.com.br/parlamentar/1160517"
+        },
+        {
+          "nome": "Comovotou.org",
+          "url": "https://comovotou.org/deputado/paulo-folletto"
+        },
+        {
+          "nome": "Ales: deputados",
+          "url": "https://www.al.es.gov.br/Deputado/Lista"
+        },
+        {
+          "nome": "Jusbrasil (processos pelo nome)",
+          "url": "https://www.jusbrasil.com.br/busca?q=Paulo%20Roberto%20Foletto"
+        }
+      ]
     }
   ]
 }

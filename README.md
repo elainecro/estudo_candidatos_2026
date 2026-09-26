@@ -43,27 +43,77 @@ python3 scripts/build_artifact.py        # gera dist/artifact.html, um arquivo s
 que o Artifact do Claude espera. Para GitHub Pages ou Netlify, use o
 `index.html` normal.
 
-## Atualizar os dados
+## Ver o site na sua máquina
+
+Não precisa de servidor. Clone o repositório e abra o `index.html` no
+navegador (duplo clique, ou `open index.html` no Mac, `xdg-open index.html`
+no Linux, `start index.html` no Windows). Se preferir um endereço local:
 
 ```bash
-# 1. importa a lista completa de candidatos (ES + presidente) do TSE
-python3 scripts/fetch_dados.py --tse --dry-run   # só mostra
-python3 scripts/fetch_dados.py --tse             # grava data/candidatos.json
-
-# 2. puxa projetos de quem é/foi deputado federal ou senador
-python3 scripts/fetch_dados.py --camara --senado
-
-# 3. reempacota para a página
-python3 scripts/build_bundle.py
+python3 -m http.server 8000
+# depois abra http://localhost:8000
 ```
 
-O script usa só a biblioteca padrão do Python (3.9+). Ele **não foi executado**
-no ambiente em que foi escrito, porque a rede estava bloqueada para os
-domínios do TSE, da Câmara e do Senado. Trate a primeira rodada como teste.
+## Coletar os dados (roda na sua máquina)
 
-Para editar à mão (corrigir um número, acrescentar uma lei), edite o JSON e
-rode `python3 scripts/build_bundle.py`. O empacotador valida ids duplicados e
-partidos/cargos que não existem.
+Só precisa de Python 3.9 ou mais novo. Sem pip, sem dependência.
+
+```bash
+git clone https://github.com/elainecro/estudo_candidatos_2026.git
+cd estudo_candidatos_2026
+git checkout claude/es-candidates-page-anan76
+
+# 1. Teste sem gravar nada. Leia o que ele imprime.
+python3 scripts/fetch_dados.py --tse --dry-run
+
+# 2. Rode fonte por fonte, do mais leve para o mais pesado.
+python3 scripts/fetch_dados.py --tse        # lista completa, bens, certidões, eleições anteriores (~5 min)
+python3 scripts/fetch_dados.py --contas     # receitas, despesas e doadores da campanha (~5 min)
+python3 scripts/fetch_dados.py --senado     # autorias, relatorias, filiações e votos-chave dos senadores (~2 min)
+python3 scripts/fetch_dados.py --camara     # projetos, cota, comissões e votos-chave dos deputados (~20 min)
+python3 scripts/fetch_dados.py --links      # links de conferência (instantâneo, sem rede)
+
+# 3. Emendas exigem chave gratuita do Portal da Transparência:
+#    https://portaldatransparencia.gov.br/api-de-dados/cadastrar-email
+export PORTAL_TRANSPARENCIA_KEY=cole_a_chave_aqui
+python3 scripts/fetch_dados.py --emendas
+
+# ou tudo de uma vez (sem emendas se a chave não estiver definida):
+python3 scripts/fetch_dados.py --tudo
+
+# 4. Empacote e veja
+python3 scripts/build_bundle.py
+open index.html
+```
+
+O que cada fonte enche na ficha:
+
+| Fonte | Campos | Cobre |
+|---|---|---|
+| TSE DivulgaCand | número, situação, foto, `bens`, `certidoes`, `eleicoes_anteriores`, `trocas_de_partido`, cria fichas novas | todos os candidatos |
+| TSE contas | `campanha` (receitas, despesas, fundo público, maiores doadores) | todos com registro |
+| Câmara | `projetos`, `gastos` (cota por ano), `comissoes`, `votacoes_chave` | quem é ou foi deputado federal |
+| Senado | `projetos`, `relatorias`, `filiacoes`, `votacoes_chave` | quem é ou foi senador |
+| Portal da Transparência | `emendas` (total, por ano, maiores destinos) | deputados e senadores |
+| links | `links` (DivulgaCand, Câmara, Senado, Radar do Congresso, Comovotou, TCE-ES, Jusbrasil) | todos |
+
+As votações-chave estão em `data/votacoes_chave.json`. Edite a lista se quiser
+medir outros temas. Números de proposição precisam ser conferidos.
+
+Avisos:
+
+- O script **nunca rodou contra as APIs de verdade** (a rede do ambiente em
+  que foi escrito bloqueava esses domínios). Os normalizadores foram testados
+  com respostas de exemplo. É provável que algum campo venha com nome
+  diferente do esperado; nesse caso o valor fica nulo em vez de quebrar.
+  Se algo vier vazio, abra a URL impressa no erro no navegador e compare.
+- O TSE limita requisições. Se começar a falhar com 429, espere alguns
+  minutos e rode de novo; o script atualiza o que já existe sem duplicar.
+- Fichas criadas pelo TSE vêm com histórico vazio (`projetos: null`,
+  `resumo` padrão). O que não tem API continua manual: gestão, fiscalização,
+  processos, TCE-ES e Ales.
+- Para republicar no link do celular: `python3 scripts/build_artifact.py` e
+  me peça para publicar o `dist/artifact.html`.
 
 ## Estrutura de um candidato
 
@@ -94,6 +144,10 @@ Campos extras, todos listas (vazias quando não há nada localizado):
 "fiscalizacao": [{"tipo": "CPI | denúncia | representação | fiscalização", "descricao": "...", "ano": 2026}],
 "processos":    [{"descricao": "...", "status": "arquivado | em andamento | condenado | ...", "ano": 2021, "fonte": "https://..."}]
 ```
+
+Campos preenchidos pelo coletor: `bens`, `certidoes`, `eleicoes_anteriores`,
+`trocas_de_partido`, `campanha`, `gastos`, `comissoes`, `votacoes_chave`,
+`filiacoes`, `emendas`, `links`, além de `camara_id`, `senado_id` e `tse_id`.
 
 `gestao` é a métrica certa para quem foi prefeito, governador ou secretário:
 lei não mede gestão. `processos` lista o que está em fontes públicas com o

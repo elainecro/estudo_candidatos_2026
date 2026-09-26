@@ -124,3 +124,8 @@ code { background: var(--card); border: 1px solid var(--line); padding: 1px 6px;
 .gestao .colunas { margin-top: 8px; }
 .processos li { margin-bottom: 10px; }
 .modal .tag { vertical-align: middle; }
+
+.tabela-wrap { overflow-x: auto; }
+.tabela { border-collapse: collapse; width: 100%; font-size: .92rem; }
+.tabela th, .tabela td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.tabela th { color: var(--muted); font-weight: 600; font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; }

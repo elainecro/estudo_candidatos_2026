@@ -1,0 +1,17 @@
+{
+  "nota": "Votações usadas para medir coerência entre discurso e voto. O script resolve cada proposição pela sigla/número/ano na API da Câmara e do Senado e guarda o voto de cada candidato que era parlamentar na época. Acrescente ou tire itens à vontade.",
+  "camara": [
+    {"tipo": "PEC", "numero": 45, "ano": 2019, "tema": "Reforma tributária do consumo (IVA)", "quando": "2023"},
+    {"tipo": "PLP", "numero": 93, "ano": 2023, "tema": "Novo arcabouço fiscal", "quando": "2023"},
+    {"tipo": "PL", "numero": 2159, "ano": 2021, "tema": "Licenciamento ambiental (chamado de 'PL da devastação' pelos críticos)", "quando": "2025"},
+    {"tipo": "PEC", "numero": 3, "ano": 2021, "tema": "PEC da blindagem: restringe processos criminais contra parlamentares", "quando": "2025"},
+    {"tipo": "PL", "numero": 1087, "ano": 2025, "tema": "Isenção do IR até R$ 5 mil", "quando": "2025"},
+    {"tipo": "PL", "numero": 2253, "ano": 2022, "tema": "Urgência do projeto de anistia aos condenados do 8 de janeiro", "quando": "2025", "obs": "confira o número: o pedido de urgência pode estar em requerimento separado"}
+  ],
+  "senado": [
+    {"tipo": "PEC", "numero": 45, "ano": 2019, "tema": "Reforma tributária do consumo (IVA)", "quando": "2023"},
+    {"tipo": "PLP", "numero": 93, "ano": 2023, "tema": "Novo arcabouço fiscal", "quando": "2023"},
+    {"tipo": "PL", "numero": 2159, "ano": 2021, "tema": "Licenciamento ambiental", "quando": "2025"},
+    {"tipo": "PL", "numero": 1087, "ano": 2025, "tema": "Isenção do IR até R$ 5 mil", "quando": "2025"}
+  ]
+}

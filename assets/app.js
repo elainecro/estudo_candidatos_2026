@@ -184,6 +184,22 @@
     const relatorias = c.relatorias?.length ? `<ul>${c.relatorias.map(r => `<li><b>${esc(r.titulo)}</b>${r.ano ? ` (${r.ano})` : ''}${r.resultado ? `<div class="obs">${esc(r.resultado)}</div>` : ''}</li>`).join('')}</ul>` : '<p class="nota">Nenhuma relatoria ou presidência de comissão registrada aqui.</p>';
     const fiscalizacao = c.fiscalizacao?.length ? `<ul>${c.fiscalizacao.map(f => `<li><span class="tag">${esc(f.tipo)}</span> ${esc(f.descricao)}${f.ano ? ` <i>(${f.ano})</i>` : ''}</li>`).join('')}</ul>` : '<p class="nota">Nenhuma CPI, denúncia ou ação de fiscalização registrada aqui.</p>';
     const processos = c.processos?.length ? `<ul class="processos">${c.processos.map(pr => `<li>${esc(pr.descricao)}<div class="obs"><b>Status:</b> ${esc(pr.status)}${pr.ano ? ` · ${pr.ano}` : ''}${pr.fonte ? ` · <a href="${esc(pr.fonte)}" target="_blank" rel="noopener">fonte</a>` : ''}</div></li>`).join('')}</ul><p class="nota">${esc(D.candidatos.meta.aviso_processos || '')}</p>` : '<p class="nota">Nenhum processo, investigação ou denúncia localizado nas fontes consultadas. Isso não é atestado: procure o nome no MPES, TSE e Jusbrasil.</p>';
+    const brl = v => (v === null || v === undefined) ? '—' : 'R$ ' + Number(v).toLocaleString('pt-BR', { maximumFractionDigits: 0 });
+    const blocos = [];
+    if (c.bens) blocos.push(`<h3>Patrimônio declarado ao TSE</h3><p><b>${brl(c.bens.total)}</b> em ${c.bens.itens?.length ?? 0} bens.</p>${c.bens.itens?.length ? `<ul>${c.bens.itens.slice(0, 8).map(b => `<li>${esc(b.tipo || '')}: ${esc(b.descricao || '')} · ${brl(b.valor)}</li>`).join('')}</ul>` : ''}`);
+    if (c.campanha) blocos.push(`<h3>Financiamento da campanha 2026</h3><p>Recebeu <b>${brl(c.campanha.receitas)}</b>, gastou ${brl(c.campanha.despesas)}. De fundo público e partido: ${brl(c.campanha.fundo_publico_e_partido)}.</p>${c.campanha.maiores_doadores?.length ? `<ul>${c.campanha.maiores_doadores.map(d => `<li>${esc(d.nome)} · ${brl(d.valor)}</li>`).join('')}</ul>` : ''}`);
+    if (c.eleicoes_anteriores?.length || c.filiacoes?.length) {
+      const el = (c.eleicoes_anteriores || []).map(e => `<div class="linha"><div class="per">${esc(e.ano)}</div><div>${esc(e.cargo || '')}${e.partido ? ' · ' + esc(e.partido) : ''}${e.uf ? ' · ' + esc(e.uf) : ''}${e.resultado ? `<div class="obs">${esc(e.resultado)}${e.votos ? ' · ' + Number(e.votos).toLocaleString('pt-BR') + ' votos' : ''}</div>` : ''}</div></div>`).join('');
+      const fl = (c.filiacoes || []).map(f => `<li>${esc(f.partido)} · ${esc(f.inicio || '?')} a ${esc(f.fim || 'atual')}</li>`).join('');
+      blocos.push(`<h3>Histórico eleitoral e partidos</h3>${c.trocas_de_partido !== undefined && c.trocas_de_partido !== null ? `<p><b>${c.trocas_de_partido}</b> ${c.trocas_de_partido === 1 ? 'troca' : 'trocas'} de partido entre as eleições que disputou.</p>` : ''}${el}${fl ? `<p class="nota" style="margin-top:8px">Filiações (Senado):</p><ul>${fl}</ul>` : ''}`);
+    }
+    if (c.votacoes_chave?.length) blocos.push(`<h3>Como votou em temas-chave</h3><div class="tabela-wrap"><table class="tabela"><thead><tr><th>Tema</th><th>Quando</th><th>Voto</th></tr></thead><tbody>${c.votacoes_chave.map(v => `<tr><td>${esc(v.tema)}<div class="obs">${esc(v.descricao || '')}</div></td><td>${esc(v.data || v.quando || '')}</td><td><b>${esc(v.voto || 'sem registro')}</b></td></tr>`).join('')}</tbody></table></div>`);
+    if (c.gastos?.cota_parlamentar_por_ano) blocos.push(`<h3>Cota parlamentar (gastos reembolsados)</h3><ul>${Object.entries(c.gastos.cota_parlamentar_por_ano).map(([a, v]) => `<li>${a}: ${brl(v)}</li>`).join('')}</ul>`);
+    if (c.emendas) blocos.push(`<h3>Emendas parlamentares</h3><p><b>${brl(c.emendas.total_empenhado)}</b> empenhados.</p>${c.emendas.maiores_destinos?.length ? `<ul>${c.emendas.maiores_destinos.map(d => `<li>${esc(d.destino)} · ${brl(d.valor)}</li>`).join('')}</ul>` : ''}`);
+    if (c.comissoes?.length) blocos.push(`<h3>Comissões na Câmara</h3><ul>${c.comissoes.slice(0, 12).map(o => `<li>${esc(o.sigla || '')} ${esc(o.nome || '')}${o.papel ? ' · ' + esc(o.papel) : ''}</li>`).join('')}</ul>`);
+    if (c.certidoes?.length) blocos.push(`<h3>Certidões anexadas ao registro</h3><ul class="fontes">${c.certidoes.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.nome)}</a></li>`).join('')}</ul>`);
+    const links = c.links?.length ? `<h3>Onde conferir</h3><ul>${c.links.map(l => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.nome)}</a></li>`).join('')}</ul>` : '';
+    const cruzamentos = blocos.join('') + links + (blocos.length ? '' : '<p class="nota">Patrimônio, doadores, votações-chave, cota e emendas ainda não foram coletados para esta pessoa. Rode <code>scripts/fetch_dados.py --tudo</code>.</p>');
     abrirModal(`
       <p class="kicker">${esc(cargo.nome)} · ${esc(c.partido)}${p?.federacao ? ' · Federação ' + esc(p.federacao) : ''}</p>
       <h2>${esc(c.nome_urna)} <span class="numero">${c.numero || ''}</span></h2>
@@ -205,6 +221,7 @@
       ${fiscalizacao}
       <h3>Processos e denúncias contra</h3>
       ${processos}
+      ${cruzamentos}
       <h3>Sobre o partido</h3>
       <p>${esc(p?.ideologia || '')} <a href="#" data-partido="${esc(c.partido)}">Ver ficha do ${esc(c.partido)}</a></p>
       <h3>Fontes</h3>
