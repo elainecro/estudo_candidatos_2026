@@ -198,6 +198,11 @@ def baixar_zip(nome: str) -> pathlib.Path | None:
     import shutil
     CACHE.mkdir(parents=True, exist_ok=True)
     dest = CACHE / f"{nome}_2026.zip"
+    # aceita também o nome original do arquivo baixado do portal
+    alternativos = {"receitas": ["prestacao_de_contas_eleitorais_candidatos_2026.zip", "receitas_candidatos_2026.zip"]}
+    for alt in alternativos.get(nome, []):
+        if (CACHE / alt).exists() and (CACHE / alt).stat().st_size > 0:
+            return CACHE / alt
     if dest.exists() and dest.stat().st_size > 0:
         return dest
     url = TSE_CSV[nome]
