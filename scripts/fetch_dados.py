@@ -910,15 +910,37 @@ def fetch_camara(doc, dry_run: bool):
 
 # ============================================================ Senado
 
+TIPOS_LEI = ("PL", "PLS", "PLP", "PEC", "PLC", "MPV")
+
+
+def ident_materia(m: dict) -> tuple:
+    """Devolve (sigla, numero, ano, 'SIGLA N/ANO') a partir de qualquer versão do JSON do Senado."""
+    m = m or {}
+    if m.get("SiglaSubtipoMateria"):
+        sg, nr, ano = m.get("SiglaSubtipoMateria"), str(m.get("NumeroMateria") or ""), str(m.get("AnoMateria") or "")
+        return sg, nr, ano, f"{sg} {nr}/{ano}"
+    ident = m.get("DescricaoIdentificacao") or m.get("Identificacao") or ""
+    mm = re.match(r"^\s*([A-Z]+)\s+(\d+)\s*/\s*(\d{4})", ident)
+    if mm:
+        return mm.group(1), mm.group(2), mm.group(3), f"{mm.group(1)} {mm.group(2)}/{mm.group(3)}"
+    return None, None, None, ident
+
+
+def ementa_materia(m: dict) -> str:
+    m = m or {}
+    return (m.get("Ementa") or m.get("DescricaoEmenta") or m.get("EmentaMateria") or m.get("DescricaoIdentificacao") or "")[:240]
+
+
 def normalizar_senado_autorias(autorias: list, situacoes: dict) -> dict:
     aprovados, tramitando, total = [], [], 0
     for a in autorias:
         m = a.get("Materia") or {}
-        if m.get("SiglaSubtipoMateria") not in ("PL", "PLS", "PLP", "PEC", "PLC"):
+        sg, nr, ano, ident = ident_materia(m)
+        if sg not in TIPOS_LEI:
             continue
         total += 1
-        desc = json.dumps(situacoes.get(m.get("CodigoMateria"), {}), ensure_ascii=False).lower()
-        item = {"id": f"{m.get('SiglaSubtipoMateria')} {m.get('NumeroMateria')}/{m.get('AnoMateria')}", "titulo": (m.get("DescricaoIdentificacaoMateria") or m.get("Ementa") or "")[:240]}
+        desc = json.dumps(situacoes.get(m.get("Codigo") or m.get("CodigoMateria"), {}), ensure_ascii=False).lower()
+        item = {"id": ident, "titulo": ementa_materia(m)}
         if "norma" in desc and ("transformad" in desc or "promulgad" in desc):
             item.update({"norma": "transformado em norma", "ano": ano, "status": "em vigor", "papel": "autor"})
             aprovados.append(item)
