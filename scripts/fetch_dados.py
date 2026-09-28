@@ -920,25 +920,43 @@ def normalizar_senado_autorias(autorias: list, situacoes: dict) -> dict:
         desc = json.dumps(situacoes.get(m.get("CodigoMateria"), {}), ensure_ascii=False).lower()
         item = {"id": f"{m.get('SiglaSubtipoMateria')} {m.get('NumeroMateria')}/{m.get('AnoMateria')}", "titulo": (m.get("DescricaoIdentificacaoMateria") or m.get("Ementa") or "")[:240]}
         if "norma" in desc and ("transformad" in desc or "promulgad" in desc):
-            item.update({"norma": "transformado em norma", "ano": m.get("AnoMateria"), "status": "em vigor", "papel": "autor"})
+            item.update({"norma": "transformado em norma", "ano": ano, "status": "em vigor", "papel": "autor"})
             aprovados.append(item)
-        elif "arquivad" in desc:
+        elif "arquivad" in desc or "prejudicad" in desc or "rejeitad" in desc:
             continue
         else:
+            if not desc or desc == "{}":
+                item["obs"] = "situação não obtida"
             tramitando.append(item)
-    return {"apresentados": {"total": total, "obs": "Só PL, PLS, PLP e PEC de autoria."}, "em_tramitacao": tramitando, "aprovados": aprovados}
+    return {"apresentados": {"total": total, "obs": "Só PL, PLS, PLP, PEC e MPV de autoria."}, "em_tramitacao": tramitando, "aprovados": aprovados}
 
 
 def normalizar_senado_relatorias(rels: list) -> list:
     out = []
     for r in rels:
         m = r.get("Materia") or {}
-        if m.get("SiglaSubtipoMateria") not in ("PL", "PLS", "PLP", "PEC", "PLC", "MPV"):
+        sg, nr, ano, ident = ident_materia(m)
+        if sg not in TIPOS_LEI:
             continue
-        out.append({"titulo": f"{m.get('SiglaSubtipoMateria')} {m.get('NumeroMateria')}/{m.get('AnoMateria')}: {(m.get('Ementa') or '')[:160]}",
-                    "resultado": (r.get("DescricaoTipoRelator") or "relator") + (" · " + (r.get("Comissao") or {}).get("SiglaComissao", "") if r.get("Comissao") else ""),
-                    "ano": m.get("AnoMateria")})
+        com = r.get("Comissao") or {}
+        sigla_com = com.get("SiglaComissao") or com.get("Sigla") or ""
+        out.append({"titulo": f"{ident}: {ementa_materia(m)[:160]}",
+                    "resultado": (r.get("DescricaoTipoRelator") or "relator") + (f" · {sigla_com}" if sigla_com else "") + (f" · designado em {r['DataDesignacao'][:10]}" if r.get("DataDesignacao") else ""),
+                    "ano": ano})
     return out
+
+
+def normalizar_senado_votacoes(vots: list, itens: list) -> list:
+    chaves = []
+    for it in itens:
+        for v in vots:
+            sg, nr, ano, ident = ident_materia(v.get("Materia") or {})
+            if sg == it["tipo"] and str(nr) == str(it["numero"]) and str(ano) == str(it["ano"]):
+                sess = v.get("SessaoPlenaria") or {}
+                chaves.append({"tema": it["tema"], "quando": it["quando"], "data": sess.get("DataSessao") or sess.get("Data"),
+                               "descricao": v.get("DescricaoVotacao") or v.get("Descricao") or ident,
+                               "voto": v.get("DescricaoVoto") or v.get("SiglaDescricaoVoto") or v.get("Voto")})
+    return chaves
 
 
 def normalizar_senado_filiacoes(fil: list) -> list:
@@ -983,8 +1001,10 @@ def fetch_senado(doc, dry_run: bool):
         situacoes = {}
         for a in autorias:
             m = a.get("Materia") or {}
-            if m.get("SiglaSubtipoMateria") in ("PL", "PLS", "PLP", "PEC", "PLC"):
-                situacoes[m.get("CodigoMateria")] = get_json(f"{SENADO_BASE}/materia/situacaoatual/{m.get('CodigoMateria')}.json") or {}
+            sg, nr, ano, ident = ident_materia(m)
+            cod_m = m.get("Codigo") or m.get("CodigoMateria")
+            if sg in TIPOS_LEI and cod_m:
+                situacoes[cod_m] = get_json(f"{SENADO_BASE}/materia/situacaoatual/{cod_m}.json") or {}
                 time.sleep(0.12)
         c["projetos"] = {"fonte": f"Senado Federal, dados abertos (parlamentar {cod})", "atualizado_em": HOJE, **normalizar_senado_autorias(autorias, situacoes)}
         rel = get_json(f"{SENADO_BASE}/senador/{cod}/relatorias.json") or {}
@@ -1000,13 +1020,11 @@ def fetch_senado(doc, dry_run: bool):
         vot = get_json(f"{SENADO_BASE}/senador/{cod}/votacoes.json") or {}
         _debug(f"votacoes {cod}", vot)
         vots = (((vot.get("VotacaoParlamentar") or {}).get("Parlamentar") or {}).get("Votacoes") or {}).get("Votacao") or []
-        chaves = []
-        for it in itens:
-            for v in vots:
-                m = v.get("Materia") or {}
-                if m.get("SiglaSubtipoMateria") == it["tipo"] and str(m.get("NumeroMateria")) == str(it["numero"]) and str(m.get("AnoMateria")) == str(it["ano"]):
-                    chaves.append({"tema": it["tema"], "quando": it["quando"], "data": (v.get("SessaoPlenaria") or {}).get("DataSessao"), "descricao": v.get("DescricaoVotacao"), "voto": v.get("DescricaoVoto")})
-        c["votacoes_chave"] = chaves
+        if vots and os.environ.get("DEBUG"):
+            _debug("primeira votação", vots[0])
+        if autorias and os.environ.get("DEBUG"):
+            _debug("primeira autoria", autorias[0])
+        c["votacoes_chave"] = normalizar_senado_votacoes(vots, itens)
         print(f"  {c['nome_urna']}: {c['projetos']['apresentados']['total']} matérias, {len(auto_rel)} relatorias, {len(chaves)} votos-chave")
     salvar(doc, dry_run)
 
