@@ -1,0 +1,177 @@
+{
+  "sintese": "O plano é de Augusto Cury, psiquiatra e escritor que se apresenta como candidato à Presidência; o texto não cita o partido nem o vice. A tese central é unir o coração social da esquerda com a mente econômica da direita, sair da polarização e usar a gestão da emoção como ferramenta de política pública. As primeiras 35 páginas são reflexão filosófica e psicológica, e o restante traz teses, 3 reformas e 18 projetos sobre empreendedorismo em massa, cooperativismo, industrialização, exportação, telemedicina e segurança. O tom mistura ideologia moderada e texto motivacional com projetos detalhados, alguns com metas numéricas.",
+  "eixos": [
+    {
+      "tema": "Contas públicas, tributos e gestão do Estado",
+      "propostas": [
+        "Buscar déficit público próximo de zero durante o mandato, sem aventuras fiscais.",
+        "Reduzir a dívida pública de forma gradual, por meio de crescimento e equilíbrio das contas.",
+        "Dar a cada ministério metas anuais públicas e avaliar todas as políticas por indicadores, com prestação de contas dos ministros.",
+        "Fazer reforma administrativa: cortar sobreposição de funções, estudar reduzir ministérios, criar o Ministério da Segurança e avaliar o desempenho dos servidores.",
+        "Simplificar tributos, avaliar o efeito da reforma tributária sobre micro e pequenas empresas e buscar uma alíquota de referência menor que a hoje projetada.",
+        "Estimar e divulgar o custo de cada regime tributário diferenciado.",
+        "Propor revisão do pacto federativo tributário para dar mais recursos aos municípios.",
+        "Usar inteligência artificial contra fraude e sobrepreço, abrir os dados do governo e criar a rede de controle social Sociedade Está de Olho (SEO)."
+      ]
+    },
+    {
+      "tema": "Empreendedorismo, cooperativismo e comunidades",
+      "propostas": [
+        "Criar o Ministério (ou Secretaria Executiva) do Empreendedorismo e da Economia Distribuída e elevar o papel do Sebrae.",
+        "Montar Clubes de Empreendedorismo em escolas, universidades, igrejas e comunidades, e uma rede de Escolas de Empreendedorismo.",
+        "Criar o Banco do Empreendedor, com crédito em degraus de R$ 2 mil a R$ 20 mil, juros de 5% a 6% ao ano e sem exigir a casa como garantia.",
+        "Bancar o fundo do banco em parte com lucros de empresas em que a União tem participação.",
+        "Fazer o Bolsa Família deixar de punir a família que assina carteira ou abre microempresa por um tempo determinado, com incentivos e juros menores.",
+        "Regularizar moradias em favelas pela lei da REURB, com Mapa Nacional da Regularização Fundiária, e urbanizar comunidades com conselhos de moradores, sem remoção como regra.",
+        "Criar o Projeto BEE: polos de comércio popular ao longo das rodovias, feitos por parceria público-privada, com licença em até 48 horas.",
+        "Criar a ANCOOP e expandir cooperativas de crédito, consumo, saúde, tecnologia e outras, com crédito, juros reduzidos e incentivos."
+      ]
+    },
+    {
+      "tema": "Indústria, agro e semiárido",
+      "propostas": [
+        "Lançar programa para instalar 10 mil novas indústrias, com destaque para agroindústrias.",
+        "Criar política nacional de semicondutores e apoiar indústria farmacêutica, biotecnologia, robótica e inteligência artificial na indústria.",
+        "Industrializar terras raras e minerais estratégicos no país, com atlas de minerais críticos, polos industriais e contrapartidas de tecnologia nos acordos.",
+        "Estimular 100 usinas de etanol de milho e centros de proteína animal no Nordeste e no Matopiba.",
+        "Dobrar a produção agropecuária, com prazos máximos legais para licenciamento ambiental, sanitário e de outorga de água, em procedimento digital.",
+        "Transformar o semiárido em polo irrigado, com barragens, cisternas, dessalinização e irrigação de precisão, e cadeias como manga, uva, melão e cacau.",
+        "Instalar ou atrair 10 mil agroindústrias de proteína e leite e criar cinturões verdes em torno das cidades do Nordeste e do Norte de Minas.",
+        "Ampliar crédito rural de longo prazo, seguro rural, fundo garantidor e apoio à agricultura familiar."
+      ]
+    },
+    {
+      "tema": "Infraestrutura, energia e meio ambiente",
+      "propostas": [
+        "Ampliar concessões e parcerias público-privadas em infraestrutura.",
+        "Criar programa nacional de integração logística, incentivar armazéns com benefícios fiscais e duplicar as principais rodovias.",
+        "Levar internet de alta velocidade a escolas, hospitais e comunidades rurais.",
+        "Fazer cumprir o Marco Legal do Saneamento como prioridade nacional.",
+        "Ampliar solar, eólica (inclusive no mar), biomassa e energia marítima, e criar o Corredor Nacional do Hidrogênio Verde com polos nos portos do Nordeste.",
+        "Regulamentar o mercado de carbono e criar Pagamento por Serviços Ambientais para o produtor que preserva vegetação nativa.",
+        "Criar o Floresta Viva: satélites com inteligência artificial, drones e sala de comando 24 horas, com União e estados, contra incêndios.",
+        "Criar o Amazônia Viva: microempresas de bioeconomia, saneamento, energia limpa e um Banco Empreendedor Amazônico."
+      ]
+    },
+    {
+      "tema": "Comércio exterior e diplomacia",
+      "propostas": [
+        "Criar cinco Corredores Estratégicos de Exportação, com aduana digital, prazos de liberação e prazo legal máximo para devolver créditos tributários ao exportador.",
+        "Criar cinco Zonas Francas de Exportação (Fortaleza, Bahia, Rio de Janeiro, São Paulo e Rio Grande do Sul), coordenadas por uma Zona Nacional de Exportação (ZONE).",
+        "Modernizar as Zonas de Processamento de Exportação com prazos definidos para autorização.",
+        "Ampliar crédito, garantia e seguro de crédito à exportação, inclusive para pequenas e médias empresas.",
+        "Implantar a Embaixada 4.0, com metas anuais de mercados e investimentos e realocação de diplomatas para Índia, China e Oriente Médio.",
+        "Fazer feiras do Brasil no exterior, programa de influenciadores estrangeiros, duas Black Weeks de turismo por ano e uma rede de Mulheres Embaixadoras.",
+        "Elevar o Itamaraty, com o ministro passando a se chamar Secretário de Estado.",
+        "Defender no exterior um fundo internacional contra a fome, financiado por contribuição sobre comércio global e indústria de armas."
+      ]
+    },
+    {
+      "tema": "Educação",
+      "propostas": [
+        "Tratar a educação básica como prioridade, com alfabetização na idade certa e melhora da aprendizagem.",
+        "Criar escola de tempo integral como clube de desenvolvimento humano, com oratória, teatro, música e esportes.",
+        "Incluir no currículo gestão da emoção, educação financeira, empreendedorismo e cooperativismo.",
+        "Adotar a metodologia em que o professor provoca perguntas, desafia o aluno a pensar e elogia a participação.",
+        "Integrar ensino médio e ensino técnico, com empresas, projetos reais e conteúdos de inteligência artificial.",
+        "Valorizar professores com formação continuada e remuneração ligada também à qualificação.",
+        "Levar às universidades incubadoras, startups e patentes, e ampliar as ações da Capes e do CNPq.",
+        "Criar o Brasil Neuroinclusivo: plano de inclusão em cada escola, formação de professores, rede municipal de apoio e Mapa Nacional da Neurodiversidade."
+      ]
+    },
+    {
+      "tema": "Saúde",
+      "propostas": [
+        "Fortalecer a atenção primária e ampliar equipes multiprofissionais.",
+        "Modernizar o SUS com prontuário digital, integração de sistemas e indicadores de desempenho.",
+        "Criar o Tele Saúde Brasil: plataforma nacional de telemedicina, com triagem por inteligência artificial e pontos públicos de acesso digital.",
+        "Criar Programa Nacional de Saúde Mental em escolas, empresas, universidades e forças de segurança.",
+        "Fazer programas de prevenção da ansiedade, da automutilação e do suicídio, com capacitação de profissionais.",
+        "Criar o Projeto SEA: rede nacional de prevenção do câncer inspirada no Hospital de Amor, com unidades móveis, rastreamento e um comitê em cada município.",
+        "Criar o programa 365 Dias de Saúde Emocional e Prevenção, com conteúdo diário para a população.",
+        "Incentivar cooperativas de compra de medicamentos para baixar preços."
+      ]
+    },
+    {
+      "tema": "Segurança pública",
+      "propostas": [
+        "Recriar o Ministério da Segurança Pública.",
+        "Criar o programa FATO para integrar Polícia Federal, polícias militares, polícias civis e a FOCO, com um centro de inteligência em tempo real.",
+        "Criar a FOCO, força municipal com cerca de 5% da força de trabalho do serviço público de cada município, sem aumentar o efetivo total.",
+        "Cortar o dinheiro das facções, com Receita, Coaf, Polícia Federal e Ministério Público, e implementar o Sistema Único de Segurança Pública.",
+        "Usar câmeras inteligentes, reconhecimento facial, leitura de placas, drones e análise preditiva.",
+        "Escolher o diretor-geral da Polícia Federal em lista tríplice, com mandato de dois anos.",
+        "Reforçar Exército, Marinha e Aeronáutica nas fronteiras, portos e pistas clandestinas.",
+        "Valorizar policiais com plano de carreira, seguro de vida e apoio psicológico, e reformar presídios com foco em trabalho, educação e combate às facções."
+      ]
+    },
+    {
+      "tema": "Mulheres, crianças e juventude",
+      "propostas": [
+        "Criar o Mulheres Vivas, política nacional de prevenção ao feminicídio, que integra União, estados, municípios, polícias e Justiça.",
+        "Ampliar botão de alerta com geolocalização, monitoramento eletrônico de agressores por decisão judicial e resposta prioritária a mulheres de alto risco.",
+        "Dar a vítimas de violência acesso prioritário a qualificação, microcrédito e apoio para empreender.",
+        "Reforçar transparência salarial e fiscalização da igualdade de pagamento.",
+        "Estudar com o Banco Central os juros mais altos para mulheres e propor mudanças nos critérios de risco de crédito.",
+        "Priorizar mulheres qualificadas nas indicações ao Supremo Tribunal Federal.",
+        "Aprovar a Lei Augusto Cury (PL 5815/2025), com acompanhamento anual pediátrico e emocional de crianças e adolescentes.",
+        "Criar programa de primeiro emprego com incentivo fiscal a empresas que contratem jovens, além de atendimento psicológico e educação para o uso das redes."
+      ]
+    },
+    {
+      "tema": "Reformas políticas e institucionais",
+      "propostas": [
+        "Trocar o presidencialismo pelo semipresidencialismo, com um Primeiro-Ministro apoiado pela maioria do Parlamento.",
+        "Reformar o STF: mandato de oito anos, nove ministros e escolha pelas classes de magistrados, Ministério Público e OAB, não pelo presidente.",
+        "Exigir do indicado ao STF idade mínima de 50 anos e cinco anos sem filiação partidária.",
+        "Endurecer as cláusulas de desempenho dos partidos e ampliar a transparência partidária.",
+        "Ampliar consultas públicas e ferramentas digitais de participação popular.",
+        "Criar marco legal e estratégia nacional de inteligência artificial e reforçar a proteção de dados.",
+        "Adotar programas de compliance e integridade no setor público.",
+        "Fazer círculos de diálogo comunitário e formar líderes para a pacificação."
+      ]
+    }
+  ],
+  "mensuraveis": [
+    "Déficit público \"próximo de zero durante o mandato\".",
+    "10 mil Escolas de Empreendedorismo (sem prazo) e 10 milhões de novos empreendedores (\"nos próximos anos\").",
+    "10 mil Clubes de Empreendedorismo em escolas, igrejas e comunidades.",
+    "Banco do Empreendedor: crédito de R$ 2 mil a R$ 20 mil, juros de 5% a 6% ao ano, fundo inicial de R$ 30 bilhões a R$ 50 bilhões e meta de financiar pelo menos 2 milhões de negócios em dez anos.",
+    "Regularizar até 5 milhões de moradias em dez anos, cerca de 500 mil famílias por ano.",
+    "Formar 5 milhões de brasileiros na Escola do Empreendedor em dez anos.",
+    "Custo estimado das Comunidades Empreendedoras: R$ 145 bilhões a R$ 280 bilhões em dez anos.",
+    "Licença de formalização \"em até 48 horas\" e polos de comércio nas rodovias \"a cada dez a quinze quilômetros\" (exemplo do texto).",
+    "10 mil novas indústrias \"ao longo dos próximos anos\" e 10 mil agroindústrias (sem prazo no Projeto 8, em oito anos no Projeto 6).",
+    "100 usinas de etanol de milho, que processariam mais de 100 milhões de toneladas de milho por ano.",
+    "Dobrar a produção de alimentos em 10 anos (tese 8) ou em 8 a 10 anos (Projeto 6).",
+    "Multiplicar por 10 a exportação de frutas em oito anos.",
+    "Dobrar o número de cooperados em 10 anos, de 26 milhões para mais de 50 milhões na tese 8 e de 27 milhões para 54 milhões no Projeto 9, com mais de 10 mil cooperativas.",
+    "Cinco Corredores Estratégicos de Exportação e cinco Zonas Francas de Exportação.",
+    "Dobrar o comércio do Brasil com o mundo em oito anos.",
+    "Deslocar cerca de 20% do efetivo diplomático nos Estados Unidos e cerca de 10% do da Europa; ao menos duas feiras por ano em países prioritários; duas Black Weeks por ano.",
+    "Fundo global contra a fome com 0,5% do comércio mundial e 2% da indústria de armas, entre US$ 177 bilhões e US$ 342 bilhões por ano, dividido em 80%, 10% e 10%.",
+    "Ser TOP 3 global em exportação de hidrogênio verde até 2035.",
+    "90% da matriz energética limpa até 2040.",
+    "Telemedicina para atender cerca de 80% das consultas básicas e meta de atendimento digital em até trinta minutos nos casos compatíveis.",
+    "FOCO com cerca de 5% da força de trabalho municipal; mandato de dois anos, renovável por mais dois, para o diretor da Polícia Federal.",
+    "STF com mandato de 8 anos, 9 ministros (6 da magistratura, 2 do Ministério Público, 1 da advocacia), idade mínima de 50 anos e ao menos 3 mulheres."
+  ],
+  "lacunas": [
+    "Temas grandes ausentes: previdência, salário mínimo, direitos trabalhistas, transporte público, política de drogas, política de armas e povos indígenas não são tratados, ou só aparecem de passagem.",
+    "Não há orçamento geral nem fonte de recursos para a maioria dos projetos. Só o Projeto 5 traz custo estimado. O plano promete déficit próximo de zero e carga tributária menor, mas prevê banco público, incentivos fiscais, rodovias, saneamento e salários maiores sem somar o custo.",
+    "O Banco do Empreendedor cobraria 5% a 6% ao ano, e o próprio plano cita Selic de 14,75%. Não diz quem pagaria a diferença. A única fonte citada é parte dos lucros de empresas com participação da União, sem valor.",
+    "Educação é chamada de prioridade absoluta, mas não há meta de alfabetização, de avaliação (PISA) nem valor de remuneração dos professores. Segurança lista indicadores, mas sem meta de redução de crimes. Duplicar rodovias e saneamento também ficam sem número.",
+    "Meio ambiente: há meta de dobrar a produção e prazos para licenciar, mas não há meta de desmatamento. O texto só fala em redução drástica de incêndios e fiscalização fortalecida.",
+    "Depende do Congresso ou de emenda constitucional: semipresidencialismo, mandato e composição do STF, escolha dos ministros pelas classes, revisão do pacto federativo tributário, cláusulas de desempenho, novos ministérios e órgãos, benefícios fiscais. O plano não diz como obteria essa maioria.",
+    "Depende de estados e municípios: as polícias militares e civis são estaduais, a FOCO só existe se cada prefeitura criar, escolas e SUS são geridos por estados e municípios, e o licenciamento integra os três níveis.",
+    "O fundo mundial contra a fome depende de ONU, G20 e outros países aceitarem uma contribuição sobre comércio e armas. Está fora do alcance do Presidente.",
+    "Contradições e sobreposições: o plano cria vários órgãos (Ministério da Segurança, Ministério do Empreendedorismo, ANCOOP, ZONE) e ao mesmo tempo fala em estudar a redução de ministérios. A meta de cooperados é 26 para 50 milhões em um trecho e 27 para 54 milhões em outro. Dobrar a produção aparece com prazos diferentes. O Ministério da Segurança é criado num trecho e recriado em outro.",
+    "O plano promete indicar mulheres ao STF e, ao mesmo tempo, propõe que o Presidente deixe de escolher os ministros. Propõe também o semipresidencialismo, que reduz a gestão do governo pelo Presidente, mas descreve os projetos como se ele os comandasse.",
+    "Dez mil escolas de empreendedorismo, dez mil clubes, dez mil indústrias e dez mil agroindústrias aparecem em trechos diferentes, sem dizer o que se soma ou se sobrepõe. Corredores de exportação, Zonas Francas e ZPEs têm locais parecidos e funções próximas.",
+    "Diagnósticos sem proposta concreta: o texto descreve por muitas páginas o efeito dos algoritmos e das redes, mas a proposta é educar e regular conteúdo nocivo, sem dizer como. Os 8 milhões de jovens que não estudam nem trabalham e o aumento de suicídio entre jovens recebem medidas genéricas e sem meta.",
+    "Cerca de 35 páginas iniciais e boa parte dos projetos são reflexão e texto motivacional. Conceitos do método do próprio candidato, como gestão da emoção, entram em várias políticas sem custo, carga horária ou forma de avaliação.",
+    "O documento parece ter trechos de rascunho: a numeração das teses pula do 17 para o 19, os Projetos 6 e 11 têm frases de checagem de dados (por exemplo, sobre o número mais atualizado de abertura comercial), e o Tele Saúde aparece com as siglas ZONE e PMD-BR.",
+    "Muitas promessas vêm no condicional (poderá, poderão, estudos) e sem prazo, como o BEE, que fala em polos, sem número, e em mais de um milhão de barracas na expansão nacional."
+  ],
+  "fonte": "Resumo escrito a partir do texto integral do plano registrado no TSE (200 páginas, 304.974 caracteres). Leitura feita por IA, sem checagem humana linha a linha; confira o original no DivulgaCand."
+}
