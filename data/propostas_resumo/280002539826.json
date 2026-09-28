@@ -1,5 +1,5 @@
 {
-  "sintese": "O \"Plano Implacável\" é da campanha de Romeu Zema, candidato do Novo à Presidência (a equipe é coordenada por nomes do partido, como Luiz Felipe D'Ávila e Tiago Mitraud). A tese central é que o Brasil é \"um país roubado\", e não fracassado: a saída seria cortar privilégios, reduzir o Estado, privatizar, abrir a economia e endurecer segurança e leis. O tom é ideológico e liberal, com muitos diagnósticos numéricos e propostas detalhadas em áreas técnicas como infraestrutura, energia e gestão pública. Zema apresenta a gestão em Minas Gerais como prova de que o modelo funciona.",
+  "sintese": "O \"Plano Implacável\" é da campanha de Romeu Zema, candidato à Presidência que, na carta de abertura, diz ter encontrado no partido NOVO a sua casa política (a coordenação-geral do plano é de Carlos Da Costa, Christian Lohbauer, Luiz Felipe D'Ávila e Tiago Mitraud). A tese central é que o Brasil é \"um país roubado\", e não fracassado: a saída seria cortar privilégios, reduzir o Estado, privatizar, abrir a economia e endurecer segurança e leis. O tom é ideológico e liberal, com muitos diagnósticos numéricos e propostas detalhadas em áreas técnicas como infraestrutura, energia e gestão pública. Zema apresenta a gestão em Minas Gerais como prova de que o modelo funciona.",
   "eixos": [
     {
       "tema": "Segurança pública",
@@ -159,7 +159,7 @@
     "O diagnóstico traz números sem proposta correspondente com meta. Exemplos: dívida acima de R$ 10 trilhões e juros de cerca de R$ 1 trilhão por ano (só \"choque fiscal\"), 826 mil crianças na fila de creche, 66% das escolas sem quadra, 5,9 milhões de moradias de déficit, 94,7% dos municípios sem plano de drenagem, 40% do lixo descartado de forma inadequada.",
     "O diagnóstico cita 1,7 milhão de trabalhadores de plataformas digitais, mas não há proposta específica para eles além do regime alternativo à CLT.",
     "Algumas propostas são amplas e sem detalhe de como fazer. Exemplos: \"reformar o Código Penal\", \"reduzir encargos setoriais\" da conta de luz (sem dizer quais), \"reformar a Previdência de forma definitiva\" (sem regras) e \"enxugar a máquina\" (sem número de ministérios). O documento critica os 38 ministérios atuais, mas não diz quantos manteria.",
-    "O plano defende o fim da censura e a liberdade de expressão, mas propõe proibir a moderação de perfis por plataformas mesmo por ordem judicial, o que interfere na decisão de outros Poderes e das empresas. Não explica como isso conviveria com a proteção contra crimes como fraude ou ameaça."
+    "O plano defende o fim da censura e a liberdade de expressão, mas propõe proibir a moderação de perfis por plataformas mesmo por ordem judicial. O texto só diz que isso seria trocado por procedimentos administrativos e judiciais com retratação e indenização, sem detalhar como funcionariam nem como isso depende do Congresso e do Judiciário."
   ],
   "fonte": "Resumo escrito a partir do texto integral do plano registrado no TSE. Leitura feita por IA, sem checagem humana linha a linha; confira o original no DivulgaCand."
 }

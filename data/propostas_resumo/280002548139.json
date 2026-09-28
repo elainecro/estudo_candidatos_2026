@@ -1,0 +1,176 @@
+{
+  "sintese": "O plano de Wilson Grassi, médico veterinário e candidato do Partido Democrata (35) à Presidência, com Suêd Haidar, presidente do partido, como vice, gira em torno de um Imposto Único Federal cobrado sobre a movimentação financeira. Esse imposto trocaria nove tributos federais e desoneraria a folha de pagamento. O documento chama o método de D35: desburocratizar, desonerar, digitalizar, democratizar e desenvolver. O tom é técnico e cheio de ressalvas jurídicas, com quadros de instrumento, medição e prazo em cada eixo, e traz marca pessoal na saúde e na proteção animal. O plano diz que não põe valores orçamentários por medida e que evita prometer o que a Presidência não decide sozinha.",
+  "eixos": [
+    {
+      "tema": "Reforma tributária: Imposto Único Federal (IUF)",
+      "propostas": [
+        "Trocar nove tributos federais (contribuição patronal sobre a folha, Cofins, CSLL, IOF, IPI, salário-educação, Cide, ITR e contribuições ao Sistema S) por um só tributo cobrado pelo banco em cada débito e crédito em conta.",
+        "Manter Imposto de Renda de pessoa física e de empresas, impostos de importação e exportação, FGTS, PIS e taxas, além de ICMS e ISS, que ficam com estados e municípios.",
+        "Fixar a isenção do IRPF em cinco salários mínimos (R$ 8.105,00 em 2026) e deslocar a tabela atual para começar a valer a partir desse valor, com alíquota inicial de 7,5%.",
+        "Reduzir o IRPJ de 34% para 25% com o fim da CSLL.",
+        "Incluir na emenda uma devolução do imposto pago na cadeia exportadora, um regime específico para cadeias longas e a extinção definitiva da contribuição patronal sobre a folha.",
+        "Criar um gatilho automático: se a arrecadação ficar abaixo do previsto por dois exercícios seguidos, a transição é suspensa e o Congresso reavalia.",
+        "Restringir o dinheiro em espécie com alíquota maior sobre saque, teto para pagamento em dinheiro, retirada de cédulas de maior valor e rastreamento de saques altos.",
+        "Fazer transição em três etapas: convivência dos tributos, repactuação das transferências a estados e municípios e desligamento dos tributos antigos e das obrigações acessórias."
+      ]
+    },
+    {
+      "tema": "Trabalho, emprego e simplificação",
+      "propostas": [
+        "Zerar o custo tributário de contratar com carteira assinada, com medição trimestral publicada da formalização.",
+        "Consolidar as declarações trabalhistas e previdenciárias em um envio único, aproveitando o eSocial.",
+        "Fixar prazo legal de resposta da administração, com deferimento automático se o prazo estourar e servidor responsável identificado desde o início do pedido.",
+        "Abrir apuração automática de atraso e punir atraso reiterado, inclusive com efeito sobre a gratificação e o cargo do dirigente do órgão.",
+        "Revisar o degrau tributário do MEI e exigir motivação específica para afastar a reserva de compras públicas a pequenos negócios.",
+        "Abrir, alterar e fechar empresa em ambiente único e digital, com prazo máximo fixado em norma.",
+        "Financiar qualificação profissional com o Sistema S e a rede federal, com oferta de cursos definida pela demanda de contratação da região."
+      ]
+    },
+    {
+      "tema": "Segurança pública",
+      "propostas": [
+        "Ampliar o sistema penitenciário federal de segurança máxima para líderes de facção, com bloqueio de sinal de telefone, rodízio de presos e concurso para o pessoal penal federal.",
+        "Priorizar investigação patrimonial e integrar inteligência financeira, Receita, Polícia Federal e Ministério Público para tomar bens do crime organizado.",
+        "Vigiar fronteiras com sensores, escanear contêineres nos principais portos e controlar a cadeia de armas e munições legais.",
+        "Apoiar a PEC nº 18/2025 no Senado e cortar recursos federais discricionários de estado que não alimentar o Sinesp.",
+        "Criar padrão nacional único de registro de ocorrência e auditoria anual e publicada da qualidade dos dados.",
+        "Integrar as bases de segurança com folha pública, benefícios, registro de empresas e identificação civil, com registro de cada consulta.",
+        "Criar cadastro nacional de infratores por maus-tratos a animais, usado como alerta de risco de violência doméstica.",
+        "Articular no Congresso um plebiscito sobre um modelo de presídio de segurança máxima inspirado em El Salvador, sem suspensão de garantias individuais."
+      ]
+    },
+    {
+      "tema": "Defesa nacional, fronteira e política externa",
+      "propostas": [
+        "Apoiar a PEC nº 55/2023, que fixa piso de 2% do PIB para a defesa e vincula ao menos 35% desse valor à modernização, com subida gradual ao longo do mandato.",
+        "Garantir soldo do praça não inferior ao salário mínimo e recomposição maior para soldado, cabo e sargento.",
+        "Manter bases permanentes nos trechos críticos de fronteira, com monitoramento integrado e patrulhamento fluvial e aéreo.",
+        "Usar as Forças Armadas contra o crime organizado com poder de polícia na faixa de fronteira e Garantia da Lei e da Ordem com missão, prazo e área definidos em decreto.",
+        "Proteger contratos plurianuais de projetos estratégicos, priorizar manutenção e publicar relatório anual de prontidão por Força.",
+        "Exigir conteúdo nacional e meta de exportação na base industrial de defesa e tratar a defesa cibernética como infraestrutura crítica.",
+        "Adotar como regra de negociação externa o que o Brasil ganha: reciprocidade contra barreiras e contrapartida para investimento estrangeiro estratégico."
+      ]
+    },
+    {
+      "tema": "Saúde: Saúde Única, atenção primária e fila",
+      "propostas": [
+        "Criar programa nacional permanente de vigilância de zoonoses, com meta de cobertura por município e rede de laboratórios veterinários integrada à vigilância humana.",
+        "Retomar e ampliar as campanhas de vacinação antirrábica animal, com cobertura publicada por município.",
+        "Induzir com cofinanciamento a presença de médico veterinário nas equipes municipais de vigilância e oferecer atendimento veterinário público a famílias de baixa renda.",
+        "Criar fila nacional única e pública por procedimento, com critério clínico e posição consultável pelo paciente.",
+        "Contratar mutirão diagnóstico e cirúrgico permanente por resultado entregue.",
+        "Expandir equipes de saúde da família com meta por município, carreira para regiões de difícil fixação e prontuário eletrônico integrado.",
+        "Fortalecer a produção nacional de medicamentos e imunizantes estratégicos e revisar a lista de medicamentos gratuitos por critério de evidência.",
+        "Atualizar e testar por simulação o plano de contingência zoossanitário, com estoque estratégico de insumos de diagnóstico e imunizantes veterinários."
+      ]
+    },
+    {
+      "tema": "Proteção animal, agropecuária e sanidade",
+      "propostas": [
+        "Apoiar o projeto em tramitação que cria um sistema nacional de proteção animal, com cadastro de animais, cadastro de infratores e fundo próprio.",
+        "Estruturar a fiscalização federal para cobrar as multas do Decreto nº 12.877/2026, com inscrição em dívida ativa.",
+        "Induzir por cofinanciamento delegacias e núcleos especializados em crimes contra animais, com protocolo veterinário-forense.",
+        "Tornar o cadastro nacional de animais obrigatório de forma progressiva e financiar castração por meta verificada, não por estrutura instalada.",
+        "Implementar a Lei nº 15.355/2026 (Amar) com treinamento de resgate e centros de triagem antes do desastre.",
+        "Recompor o serviço veterinário oficial com concurso e carreira e manter os status sanitários internacionais.",
+        "Apoiar a antecipação da rastreabilidade individual de bovinos em corredores de exportação, com a União pagando parte do custo de brinco e leitura, e apoiar pequenos produtores.",
+        "Dar crédito simplificado e assistência técnica pública à agricultura familiar e priorizar produção local na alimentação escolar."
+      ]
+    },
+    {
+      "tema": "Educação, ciência e esporte",
+      "propostas": [
+        "Manter e condicionar a política federal de alfabetização na idade certa a resultado em avaliação externa, com dados publicados por escola.",
+        "Ampliar a rede federal de educação profissional conforme a demanda produtiva regional.",
+        "Enviar uma PEC da Pesquisa para transformar bolsista qualificado em servidor de carreira federal de pesquisador, com ingresso por processo seletivo e metas avaliadas por pares.",
+        "Garantir financiamento plurianual à pesquisa e fomento a sanidade animal, zoonoses e imunizantes veterinários.",
+        "Fixar padrão mínimo nacional de educação física escolar, com professor formado e avaliação de aptidão física dos alunos.",
+        "Permitir que atleta e paratleta se inscrevam direto na Bolsa Atleta, sem federação, com contrato e pagamento direto da União.",
+        "Rever os valores da bolsa pelo custo real de competir e dar seguro de acidente e cobertura previdenciária ao bolsista.",
+        "Criar centros regionais de treinamento compartilhados, formação de treinadores e apoio à transição de carreira do atleta."
+      ]
+    },
+    {
+      "tema": "Habitação",
+      "propostas": [
+        "Aceitar o histórico de pagamento de aluguel como prova de capacidade de pagamento, validado por comprovante bancário e cadastro público de locação.",
+        "Dar financiamento com parcela inicial equivalente ao aluguel já pago, dentro de tetos de renda e de valor do imóvel.",
+        "Permitir que o beneficiário escolha o imóvel, novo ou usado, em qualquer município.",
+        "Direcionar recursos do FGTS e do SBPE à faixa de renda sem acesso a crédito, com subsídio explícito e orçado, e oferecer garantia pública parcial a quem não tem entrada.",
+        "Reduzir o custo de contratação com análise automatizada, cartório eletrônico e menos exigência de documentos.",
+        "Incentivar tributariamente o uso de imóveis vazios e de imóveis da União sem destino.",
+        "Titular em massa áreas consolidadas e cumprir a assistência técnica pública gratuita para reforma prevista na Lei nº 11.888/2008."
+      ]
+    },
+    {
+      "tema": "Infraestrutura, energia, meio ambiente e mineração",
+      "propostas": [
+        "Retomar e concluir corredores ferroviários de carga prioritários (Brasil nos Trilhos), com cronograma físico publicado e priorização por custo logístico por tonelada.",
+        "Usar o regime de autorização ferroviária, planejar ferrovia e porto em conjunto e tratar hidrovia e cabotagem no mesmo plano.",
+        "Fiscalizar contratos de concessão com penalidade efetivamente aplicada.",
+        "Cobrar as metas de universalização do saneamento do marco legal de 2020, prestador por prestador.",
+        "Dar regras estáveis a leilões de energia e reduzir os encargos setoriais na tarifa, com transparência sobre o que cada consumidor paga.",
+        "Combater o desmatamento ilegal com inteligência, rastreabilidade e responsabilização patrimonial e dar prazo e responsável nomeado a cada licenciamento ambiental.",
+        "Enviar ao Congresso projeto que regulamenta a mineração em terra indígena (art. 231, §3º) com consulta prévia, participação econômica dos indígenas e licenciamento pleno com proibição de mercúrio."
+      ]
+    },
+    {
+      "tema": "Estado digital, transparência e pacto institucional",
+      "propostas": [
+        "Publicar no primeiro ano o grau de cumprimento, órgão por órgão, da lei que faz do CPF o número único e exige interoperabilidade das bases, com responsável nomeado.",
+        "Registrar de forma auditável toda consulta a dado pessoal por agente público e reforçar a autoridade de proteção de dados.",
+        "Acabar na prática com a exigência de documento que a administração já possui, com fiscalização por cliente oculto.",
+        "Revisar periodicamente o estoque regulatório, com revogação por decurso de prazo da norma que não passar na revisão.",
+        "Publicar em formato aberto a execução orçamentária, os contratos e um painel com as metas do plano, cada uma com responsável.",
+        "Divulgar a agenda oficial completa do Presidente e do Vice e o currículo de todo indicado a cargo de direção.",
+        "Enviar no máximo cinco projetos prioritários por semestre ao Congresso e negociar emendas apenas em processo público e rastreável.",
+        "Criar conselho permanente com governadores e entidades municipalistas e não usar a Presidência para fabricar inimigo interno."
+      ]
+    }
+  ],
+  "mensuraveis": [
+    "Isenção do IRPF em 5 salários mínimos, equivalente a R$ 8.105,00 por mês em valores de 2026, contra R$ 5.000,00 hoje.",
+    "IRPJ cai de 34% para 25% com o fim da CSLL (9%).",
+    "Alíquota do IUF de 2% no débito e 2% no crédito de cada lançamento, com menção a 1,2% em cada ponta como piso técnico de discussão. A alíquota definitiva sairá de estudo de impacto.",
+    "Arrecadação que o IUF precisa entregar: R$ 1.828 bilhões por ano (R$ 1.562 bi dos tributos substituídos mais R$ 266 bi de custo da isenção), cerca de 1,4% do volume anual de pagamentos.",
+    "Nove tributos federais extintos e cerca de 9,4 milhões de pessoas que hoje pagam IRPF deixariam de pagar.",
+    "PEC da reforma tributária enviada no primeiro semestre de mandato e transição plena concluída dentro do mandato. No quadro dos primeiros cem dias, envio entre os dias 60 e 100.",
+    "Gatilho de suspensão da transição tributária após dois exercícios seguidos de frustração de arrecadação, com percentual a ser definido em lei complementar.",
+    "Cadastro nacional de infratores por maus-tratos a animais no ar até o fim do primeiro ano de mandato.",
+    "Regulamentação da PEC nº 18/2025 e aplicação da condicionalidade de repasse do Sinesp no primeiro ano.",
+    "Articulação do plebiscito sobre presídio de segurança máxima no primeiro ano, e integração das bases de segurança com bases não policiais em 18 meses.",
+    "Simplificação administrativa nos primeiros 12 meses e interoperabilidade das bases federais em cronograma de 24 meses.",
+    "Painel público de acompanhamento do plano: dias 1 a 30 (primeiros cem dias), primeiros 6 meses (Eixo 11) e primeiro trimestre (compromissos de transparência).",
+    "Fila nacional pública de procedimentos eletivos no primeiro ano, com versão inicial entre os dias 60 e 100.",
+    "Recomposição do serviço veterinário oficial nos primeiros 2 anos e cronograma de rastreabilidade pactuado no primeiro ano.",
+    "PEC da Pesquisa enviada no primeiro ano e primeira etapa de ingresso na carreira até o segundo ano.",
+    "Alfabetização até o fim do segundo ano do ensino fundamental, com resultado de cada escola publicado.",
+    "Plataforma de inscrição individual de atletas no primeiro ano (dias 60 a 100 no quadro inicial) e nova estrutura de valores da bolsa no segundo ano.",
+    "Regra de portabilidade do aluguel e cadastro no primeiro ano, primeira safra de financiamentos no segundo ano.",
+    "Projeto de regulamentação do art. 231, §3º da Constituição enviado no primeiro ano.",
+    "Defesa: piso de 2% do PIB até o fim do mandato, com no mínimo 35% desse valor em modernização.",
+    "Soldo do praça não inferior ao salário mínimo (hoje R$ 1.177,00 contra R$ 1.621,00), com projeto de lei no primeiro ano e bases permanentes de fronteira em 2 anos.",
+    "No máximo 5 projetos prioritários por semestre na agenda legislativa.",
+    "Estimativa de impacto orçamentário e financeiro anexada a todo projeto enviado ao Congresso."
+  ],
+  "lacunas": [
+    "O plano diz que não traz valores orçamentários por medida. Não há custo nem fonte de recursos para carreira federal de pesquisador, piso de 2% do PIB na defesa, reajuste do soldo, fila cirúrgica, atendimento veterinário público, subsídio habitacional, ferrovias e centros de treinamento.",
+    "A alíquota do IUF não está fechada. O texto fala em 2% no débito e 2% no crédito, cita 1,2% como piso técnico e, na conta, exige cerca de 1,4% do volume de pagamentos. Não explica como esses números se encaixam.",
+    "A conta do IUF usa o volume de pagamentos de varejo do Banco Central e admite que a fuga para o dinheiro vivo é o principal risco. Não estima o quanto a base encolheria.",
+    "Não há análise de quem pagaria o IUF por faixa de renda. A resposta à crítica de regressividade é qualitativa. A tabela de distribuição mostra só o efeito no Imposto de Renda.",
+    "O plano extingue a contribuição patronal sobre a folha e deixa em aberto a contribuição do empregado, mas não diz como financia o INSS e os benefícios. A palavra aposentadoria não aparece, e não há proposta para a Previdência.",
+    "O fim do salário-educação e das contribuições ao Sistema S não vem com a indicação de como se financiam essas áreas, embora o Eixo 2 conte com o Sistema S para executar a qualificação profissional.",
+    "As salvaguardas centrais da reforma (devolução na exportação, regime para cadeias longas, limites para dinheiro em espécie) são remetidas ao texto de uma emenda que ainda não existe, sem parâmetros, limites ou prazos.",
+    "O plano não menciona o Simples Nacional nem a reforma tributária já aprovada em 2023 (IBS e CBS), e diz que ICMS e ISS ficam. Não explica como o IUF convive com esse arranjo.",
+    "Quase todas as medidas estruturais dependem de terceiros: PEC tributária, PEC da Pesquisa, PEC nº 55/2023, PEC nº 18/2025, plebiscito por decreto legislativo, leis para cadastro de infratores e integração de bases, projeto de proteção animal, lei do soldo e regulamentação do art. 231. O plano admite parte dessas dependências, mas não diz como aprovaria tudo isso sem maioria.",
+    "A repactuação das transferências para estados e municípios, condição para a reforma passar, é citada sem números nem mecanismo. Segurança, saúde e educação básica dependem também de estados e municípios.",
+    "Temas grandes ausentes ou quase ausentes: Previdência, regra fiscal e dívida pública, inflação e juros, programas de renda e combate à pobreza (Bolsa Família não aparece), mulheres e igualdade racial, cultura, saúde mental e drogas, metas de emissões e mudança do clima, ensino superior e Fundeb, transporte urbano.",
+    "A política externa é omitida de propósito e reduzida a um critério (o que o Brasil ganha). A carta cita o preço do arroz, mas não há proposta específica sobre preço de alimentos.",
+    "O diagnóstico aponta trabalho por aplicativo sem proteção nenhuma, mas o plano não traz proposta para esse grupo.",
+    "Quase nenhuma meta de resultado tem número. Homicídios, informalidade, déficit habitacional, cobertura de saúde e vacinação aparecem como indicadores, sem valor a atingir. Os números são prazos de entrega, não resultados.",
+    "Há inconsistências internas. O texto fala em onze eixos, mas apresenta catorze. O painel público do plano tem três prazos diferentes (dias 1 a 30, seis meses e primeiro trimestre). O deferimento automático é geral no Eixo 2 e limitado a baixo risco no Eixo 11. O total dos tributos substituídos aparece como cerca de 12% e como 12,3% do PIB.",
+    "A regularização de garimpo em terra indígena é apresentada com o próprio plano reconhecendo que falta lei, que o caminho é estreito e que será judicializada. Não há proposta de fiscalização do garimpo ilegal atual além do combate geral ao crime.",
+    "O plebiscito sobre o modelo penitenciário depende de decreto legislativo, e o plano assume só articular. Não diz o que faz se o Congresso não convocar."
+  ],
+  "fonte": "Resumo escrito a partir do texto integral do plano registrado no TSE. Leitura feita por IA, sem checagem humana linha a linha; confira o original no DivulgaCand."
+}
