@@ -1,0 +1,1752 @@
+Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 2 — 
+Sumário 
+ 
+Carta ao eleitor ........................................................................................................................ 3 
+1. Como este plano está organizado ....................................................................................... 4 
+2. Diagnóstico: as cinco travas ................................................................................................ 5 
+3. Método D35 ......................................................................................................................... 7 
+Eixo 1 — Reforma tributária: o Imposto Único Federal ........................................................... 8 
+Eixo 2 — Trabalho, emprego e renda .................................................................................... 19 
+Eixo 3 — Segurança pública .................................................................................................. 21 
+Eixo 4 — Saúde Única ........................................................................................................... 26 
+Eixo 5 — Proteção e direitos animais .................................................................................... 29 
+Eixo 6 — Agropecuária, sanidade e comércio exterior .......................................................... 31 
+Eixo 7 — Saúde: atenção primária e o fim da fila .................................................................. 33 
+Eixo 8 — Educação e formação ............................................................................................ 35 
+Eixo 9 — Esporte: formar atleta, não só premiar medalha .................................................... 37 
+Eixo 10 — Habitação: casa própria onde a pessoa escolhe morar ....................................... 40 
+Eixo 11 — Estado digital, desburocratização e transparência ............................................... 42 
+Eixo 12 — Infraestrutura, energia e meio ambiente .............................................................. 44 
+Eixo 13 — Defesa nacional e guerra ao crime organizado .................................................... 47 
+Eixo 14 — Pacto institucional e superação da polarização ................................................... 51 
+15. Os primeiros cem dias ..................................................................................................... 52 
+16. Painel de indicadores ....................................................................................................... 54 
+17. Compromissos de transparência ..................................................................................... 56 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 3 — 
+ 
+Carta ao eleitor 
+ 
+Documento de campanha tem má fama, e ela é merecida. 
+Você lê vinte páginas e termina sem saber o que o sujeito vai fazer na segunda-feira seguinte à 
+posse. Verbo no infinitivo, adjetivo no lugar de número, promessa sem prazo e sem responsável. 
+Quatro anos depois ninguém cobra nada, porque nunca houve o que cobrar. 
+Montamos este de outro jeito. Cada proposta vem acompanhada do problema que pretende 
+resolver, do instrumento jurídico que a torna possível, seja emenda, lei ou decreto, e da forma de 
+verificar depois se funcionou. Quando o número não existe, dizemos que não existe. 
+Sou médico veterinário. Trabalhei a vida toda entre a prevenção e a emergência, que são o mesmo 
+problema visto em dois momentos. Quem espera a doença se instalar gasta mais e salva menos. 
+O Estado brasileiro age assim quase sempre, e é essa lente que eu trago. 
+Suêd Haidar preside o Democrata e é a candidata a Vice. Ela vai responder pelo governo junto 
+comigo, e isso muda o incentivo de todo mundo dentro do partido. Legenda que só empresta o 
+número desaparece no dia seguinte à eleição. Não é o combinado aqui. 
+Uma palavra sobre o clima do país, porque ela precisa vir do candidato e não da assessoria. 
+Perdemos uma década discutindo dois nomes próprios. Nesse tempo o preço do arroz subiu, a fila 
+da cirurgia não andou e o crime se organizou melhor do que a polícia. Não vou governar contra 
+ninguém. Vou governar sobre imposto, emprego, segurança e saúde, que é do que a vida das 
+pessoas é feita. 
+Se este documento virar peça de museu depois de janeiro, cobre. Ele foi escrito para isso. 
+ 
+Wilson Grassi — candidato a Presidente da República 
+Suêd Haidar — candidata a Vice-Presidente da República 
+Partido Democrata — 35 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 4 — 
+ 
+1. Como este plano está organizado 
+ 
+São três partes. O diagnóstico, que expõe o que trava o país na leitura desta candidatura. Os onze 
+eixos de governo, com as propostas. E a governança do plano no final: os primeiros cem dias, os 
+indicadores e os compromissos de transparência. 
+Ao fim de cada eixo há um quadro com três linhas, dizendo por qual instrumento a coisa se faz, 
+como se mede e em quanto tempo. É pouco a se exigir de quem pede voto, mas quase ninguém 
+entrega. 
+1.1 Três regras que seguimos na redação 
+1. Nenhuma promessa sem instrumento identificado. Se a medida depende de emenda 
+constitucional, isso está dito. Se depende do Congresso, também. 
+2. Nenhum dado sem fonte. Quando a fonte é frágil ou envelheceu, avisamos em vez de 
+esconder. 
+3. Nenhuma meta sem indicador que qualquer pessoa possa conferir por fora. 
+1.2 O que ficou deliberadamente de fora 
+Não há valores orçamentários medida a medida. 
+Poderíamos colocá-los. Ficariam bonitos na página e seriam falsos, porque hoje não temos acesso 
+à execução real nem ao quadro fiscal do exercício em que assumiríamos. O compromisso que 
+substitui isso é verificável: todo projeto enviado ao Congresso irá acompanhado de estimativa de 
+impacto orçamentário e financeiro, na forma que a Lei de Responsabilidade Fiscal exige. 
+Também evitamos prometer o que a Presidência não decide sozinha. Reforma tributária passa por 
+emenda constitucional. Segurança pública é competência dividida com os estados. Escola de 
+ensino fundamental é dos municípios. Nos casos em que a União apenas fin ancia, induz e 
+coordena, os verbos usados são esses. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 5 — 
+ 
+2. Diagnóstico: as cinco travas 
+ 
+Não existe um problema brasileiro. Existem cinco travas que se sustentam mutuamente, e nenhuma 
+delas cede sozinha. 
+2.1 O sistema tributário federal custa caro só para ser obedecido 
+Antes de discutir quanto se paga, é preciso discutir quanto se gasta para conseguir pagar. Existe 
+no Brasil uma indústria inteira de conformidade tributária: apuração, declaração acessória, 
+retificação, autuação, defesa administrativa, litígio judicial, mais alguns anos de recurso. Nada disso 
+produz um parafuso, um quilo de arroz ou uma consulta médica. 
+O número que costuma aparecer nesse debate é o tempo médio anual que uma empresa brasileira 
+gasta com obrigações tributárias, medido pelo relatório Doing Business, do Banco Mundial, que 
+colocava o país isolado no fim do ranking. A pesquisa foi descontinuada em 2021, depois que o 
+próprio Banco Mundial reconheceu problemas de metodologia. Continuamos citando porque nada 
+a substituiu, mas com a ressalva à vista: é dado velho e contestado. 
+O que não depende de ranking nenhum é o efeito social da complexidade. Quem tem contador 
+atravessa o sistema. Quem não tem, vai para a informalidade e fica sem nota, sem crédito e sem 
+direito. 
+2.2 No Brasil, contratar com carteira assinada é o que sai mais caro 
+A principal contribuição previdenciária patronal incide sobre a folha de pagamento. O Estado, 
+portanto, cobra mais de quem gera mais emprego formal. Duas empresas com o mesmo 
+faturamento pagam valores diferentes, e a que paga mais é justamente a que emprega mais gente. 
+O resultado está na paisagem: informalidade, pejotização, terceirização defensiva, trabalho por 
+aplicativo sem proteção nenhuma. Não é falta de vontade de contratar. É preço. 
+2.3 O crime organizado se administra de dentro do sistema prisional 
+As facções brasileiras nasceram dentro de presídios e continuam ali. Da cela se define preço, rota, 
+tribunal do crime e ordem de execução. Enquanto a liderança mantiver linha aberta com a rua, 
+prender o elo do meio da cadeia só abre vaga para o próximo. 
+Tratamos segurança pública como problema de arquitetura, não de indignação: isolar o comando, 
+cortar o dinheiro, fechar a fronteira, integrar a informação, agir antes. 
+2.4 O Estado não conversa consigo mesmo 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 6 — 
+As bases de dados federais foram construídas em silos, cada uma para o seu ministério, cada uma 
+com o seu identificador. O mesmo cidadão é uma pessoa diferente em cada sistema. O mesmo 
+foragido tem mandado num banco e ficha limpa em outro. A mesma empresa recebe benefício de 
+um órgão enquanto é executada por outro. 
+Isso parece assunto de departamento de informática e não é. É a razão pela qual política pública 
+boa no papel chega errada ao destinatário, e pela qual a fraude sobrevive tantos anos antes de 
+alguém notar. 
+2.5 A polarização consumiu a agenda 
+Há uma década a política nacional gira em torno de duas figuras e da pergunta sobre de que lado 
+cada um está. Saneamento, imposto, sanidade animal, fila de cirurgia e alfabetização foram 
+empurrados para o rodapé. 
+Ninguém aqui tem a ilusão de que um plano de governo encerre a polarização. Mas dá para 
+governar sem ser o combustível dela. Este documento não cita adversário pelo nome nenhuma vez, 
+e a omissão é proposital. 
+A escolha tem preço e tem retorno. O preço é manchete: quem não ataca aparece menos. O retorno 
+é governabilidade. Presidente que passa a campanha transformando metade do país em inimigo 
+chega ao Congresso sem ter com quem conversar, e passa quatro anos negociando cargo porque 
+não consegue negociar ideia. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 7 — 
+ 
+3. Método D35 
+ 
+Os onze eixos não são uma lista solta. Saem de cinco verbos, nesta ordem. 
+Desburocratizar 
+Reduzir o número de obrigações que o cidadão e a empresa precisam cumprir só para existir 
+legalmente. Menos formulário, menos declaração, menos exigência criada para justificar o cargo de 
+quem a inventou. 
+Desonerar 
+Tirar o peso de cima do trabalho e da produção e deslocá-lo para uma base mais ampla e mais 
+difícil de sonegar. 
+Digitalizar 
+Automatizar arrecadação, identificação e concessão de direito. Quando o sistema decide sozinho a 
+partir de dado íntegro, cai a fraude, cai o custo e cai a fila. 
+Democratizar 
+Fazer a mesma regra alcançar todo mundo. Sistema com exceção demais vira negociação, e nessa 
+negociação quem tem advogado ganha sempre. 
+Desenvolver 
+Com menos burocracia, menos peso sobre a folha e menos fraude, sobra produção. A aposta 
+econômica desta candidatura está declarada: crescer reduzindo atrito, não expandindo gasto. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 8 — 
+ 
+Eixo 1 — Reforma tributária: o Imposto Único Federal 
+ 
+Esta é a proposta central do Democrata, e é dela que decorre boa parte do resto. 
+1.1 O que propomos 
+Substituir o conjunto de tributos federais que hoje incide sobre folha, faturamento e produção por 
+um único tributo, cobrado automaticamente sobre a movimentação financeira, incidindo em cada 
+lançamento a débito e a crédito em conta. 
+O mecanismo é fácil de descrever, e essa é a intenção. Quem movimenta dinheiro paga. Quem 
+movimenta mais paga mais. Ninguém declara coisa alguma, porque a arrecadação acontece no 
+instante da operação, dentro do sistema bancário, sem apuração, sem guia e sem contador para 
+recolher. 
+1.2 O que sai e o que fica 
+Saem os tributos federais que hoje se empilham sobre a atividade produtiva. A contribuição 
+previdenciária patronal sobre a folha, a Cofins, a CSLL, o IOF, o IPI, o salário-educação, a Cide 
+sobre combustíveis e remessas, o ITR e as contribuições ao Sistema S. Somados, segundo o 
+levantamento dos autores da proposta, esses tributos equivalem a algo em torno de 12% do produto 
+interno bruto. 
+Ficam: 
+▪ O Imposto de Renda da Pessoa Física acima do patamar de isenção tratado no item seguinte. 
+▪ O Imposto de Renda das empresas e o incidente sobre o mercado de capitais. 
+▪ Os impostos de importação e exportação, que têm função extrafiscal. 
+▪ O FGTS e o PIS, que são poupança do trabalhador. 
+▪ As taxas federais cobradas pela prestação de serviço específico. 
+▪ ICMS e ISS, que pertencem a estados e municípios. Esta é uma reforma federal e não invade 
+competência alheia. A contenção é deliberada, porque foi a briga federativa que enterrou as 
+tentativas anteriores. 
+1.3 O Imposto de Renda no novo sistema 
+Este ponto costuma gerar confusão e merece ser respondido sem rodeio: o Imposto de Renda não 
+acaba. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 9 — 
+O que muda é onde ele começa a ser cobrado. O Democrata fixa o limite de isenção do IRPF em 
+cinco salários mínimos. Com o mínimo de 2026 em R$ 1.621,00, definido pelo Decreto nº 
+12.797/2025, isso corresponde a R$ 8.105,00 por mês. 
+Cinco salários mínimos é o patamar da proposta original do Imposto Único Federal. Segundo o autor 
+do estudo, nesse limite cerca de 85% da população brasileira ficaria isenta de pagar Imposto de 
+Renda da Pessoa Física, e os demais continuariam pagando com ajuste nas alíquotas superiores 
+para preservar a arrecadação. 
+A comparação com a regra vigente é direta. A Lei nº 15.270/2025 isentou quem ganha até R$ 
+5.000,00, o equivalente a 3,08 salários mínimos. Nossa proposta leva o limite a 5 salários mínimos, 
+um salto de mais de três mil reais. 
+Respondendo à pergunta que sempre aparece 
+Todos serão isentos? Não, mas pagarão menos. O Imposto de Renda continua existindo e continua 
+progressivo: quem ganha mais continua pagando mais. O que muda é o ponto em que a cobrança 
+começa, e ele sobe de R$ 5.000,00 para R$ 8.105,00. 
+Acima desse valor, o imposto incide apenas sobre a parcela que ultrapassa o limite, e começa pela 
+alíquota mais baixa da tabela. Quem ganha dez mil reais, por exemplo, sai de cerca de R$ 1.674 
+por mês para R$ 272 — uma redução de 84%. 
+Quem ganha oito mil fica isento, e hoje paga R$ 1.153 por mês. Quem ganha seis mil fica isento, e 
+hoje paga R$ 395. Quem ganha quatro mil já é isento agora e assim continua, com uma proteção 
+que hoje não tem: o limite acompanha o salário mínimo, em vez de depender de nova lei a cada 
+ciclo eleitoral. 
+Como fica a tabela acima do limite 
+Elevar o limite não diz, por si só, o que acontece com quem está acima dele. Essa é a segunda 
+metade da decisão. 
+Adotamos o deslocamento da tabela. As quatro alíquotas atuais permanecem, com as mesmas 
+larguras de faixa, e passam a valer a partir de R$ 8.105,00. Quem passa do limite entra pelos 7,5%, 
+e não pelos 27,5%. A alternativa, de cobrar a alíquota máxima já no primeiro real acima da linha, foi 
+descartada por criar um degrau injusto contra exatamente quem este plano quer proteger. 
+O alívio tem uma característica que merece ser dita em voz alta. Ele cresce até o limite e depois 
+trava em R$ 1.428 por mês, não importa o tamanho do salário. Para quem ganha doze mil, isso 
+representa queda de 64% no imposto devido. Para quem ganha cinquenta mil, queda de 11%. O 
+ganho proporcional é grande embaixo e pequeno em cima, que é o oposto do que a tabela 
+congelada produz hoje. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 10 — 
+Cálculos com a tabela progressiva mensal vigente em 2026, desconto simplificado de R$ 607,20 e parcela a deduzir de 
+R$ 908,73, divulgados pela Receita Federal, já considerado o redutor da Lei nº 15.270/2025. 
+A pessoa jurídica 
+Com a extinção da CSLL, cuja alíquota é de 9%, o Imposto de Renda da Pessoa Jurídica cai dos 
+atuais 34% para 25%. Não se trata de renúncia adicional. Aquela parcela apenas passa a ser 
+arrecadada pelo IUF. 
+Por que a fixação em salários mínimos 
+Porque resolve, de uma vez, o problema descrito no diagnóstico. A tabela do IRPF perdeu a 
+correção automática em 1996 e acumulou defasagem que o Sindifisco Nacional estima em 157,22% 
+até o fechamento de 2025. Amarrar o limite ao salário mínimo tira do governo a possibilidade de 
+aumentar imposto pela inércia, sem votar nada. 
+Há um custo nessa escolha, e não vou escondê-lo. O salário mínimo tem ganho real programado 
+por lei, o que significa que a faixa isenta cresce acima da inflação e a renúncia cresce junto. É 
+decisão consciente. Preferimos a renúncia previsível e crescente a o imposto que aumenta em 
+silêncio. 
+Um ponto ainda aberto 
+As fontes disponíveis sobre a proposta divergem quanto à contribuição previdenciária descontada 
+do próprio empregado. O material de divulgação da Fundação Indigo a lista entre os tributos 
+extintos; o artigo dos autores no JOTA sugere a permanência dos trib utos que caracterizam 
+poupança do trabalhador. Como a diferença altera o vínculo do segurado com o benefício 
+previdenciário, ela será definida no estudo de impacto que instrui a emenda, e não neste 
+documento. 
+1.4 A alíquota, e como ela será fixada 
+O parâmetro público do Democrata é de 2% no débito e 2% no crédito de cada lançamento em 
+conta. 
+O estudo técnico que originou a proposta, assinado por Marcos Cintra e Luciano Bivar e publicado 
+no JOTA em 10 de março de 2021, trabalhava com 1,2% em cada ponta. Versões anteriores da 
+mesma família de propostas, ancoradas na PEC nº 474/2001, chegaram a trabalhar com 2,04%. A 
+variação não é descuido dos autores: a alíquota depende do conjunto de tributos que se decide 
+substituir e do volume de movimentação financeira do período. 
+Tratamos o 1,2% como piso técnico da discussão. A alíquota definitiva sai de estudo de impacto 
+orçamentário feito antes do envio da proposta ao Congresso, com critério declarado de neutralidade 
+de arrecadação. Alíquota fixada em palanque não sobrevive à primeira audiência pública. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 11 — 
+1.5 Os números que sustentam a proposta 
+Uma proposta tributária sem cifra é opinião. Aqui estão as que existem, todas de fonte oficial e todas 
+do ciclo mais recente disponível. 
+Quanto circula pelo sistema de pagamentos 
+O Banco Central publica semestralmente as Estatísticas de Pagamentos de Varejo. Em 2025, 
+somados os dois semestres, o Brasil movimentou R$ 127,9 trilhões em 150,9 bilhões de transações 
+— R$ 59,7 trilhões no primeiro semestre e R$ 68,2 trilhões no segundo, com alta de 14,1% sobre o 
+mesmo período do ano anterior. A TED respondeu pela maior fatia do valor, 34,7%, e o Pix pela 
+maior fatia da quantidade, 54,7% das operações. 
+O movimento não parou de acelerar em 2026. Só o Pix cresceu R$ 4,3 trilhões no primeiro semestre 
+em relação ao mesmo período de 2025, alta de 28%, com o número de transações passando de 
+36,8 bilhões para 43,9 bilhões. Junho registrou o maior volume mensal da série, R$ 3,59 trilhões — 
+mais do que o produto interno bruto de um trimestre inteiro, que ficou em R$ 3,3 trilhões no primeiro 
+trimestre de 2026. 
+É essa a base sobre a qual o IUF incide, e é o que explica por que uma alíquota baixa produz 
+arrecadação relevante: o volume transacionado no país supera de longe o valor da produção. 
+Quanto precisa ser substituído 
+Os tributos federais que o IUF substitui equivalem a 12,3% do produto interno bruto. Com o PIB de 
+2025 apurado pelo IBGE em R$ 12,7 trilhões, o alvo de arrecadação é de aproximadamente R$ 
+1,56 trilhão por ano. 
+Para dimensionar: a União arrecadou R$ 2,886 trilhões em 2025, segundo a Receita Federal, o 
+maior valor da série iniciada em 1995. A carga tributária das três esferas somadas foi de 32,40% 
+do PIB, cerca de R$ 4,11 trilhões, conforme o Tesouro Nacional. O a lvo do IUF corresponde, 
+portanto, a 54% do que a União arrecada e a 38% de tudo que se arrecada no país. 
+A relação entre os dois números 
+Colocados lado a lado, os dois valores dizem o essencial. O que precisa ser arrecadado por ano 
+equivale a pouco mais de um por cento de tudo o que circula anualmente pelo sistema de 
+pagamentos brasileiro. 
+É essa desproporção que permite alíquota baixa. Quando a base é o conjunto das transações de 
+um país inteiro, não é preciso cobrar muito de cada uma para chegar ao total. O sistema tributário 
+atual faz o contrário: cobra muito de uma base estreita, formada por quem não consegue escapar. 
+O que se perde hoje para a sonegação 
+O Sonegômetro do Sindicato Nacional dos Procuradores da Fazenda Nacional fechou 2022 em R$ 
+626,8 bilhões de tributos sonegados. O painel da Associação Nacional dos Auditores Fiscais 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 12 — 
+projetava aproximadamente R$ 570 bilhões para 2025, com média diária acima de R$ 1,7 bilhão. O 
+Tribunal de Contas da União estimou em 2023 perda de até R$ 500 bilhões anuais só na União. 
+O autor da proposta acrescenta o dado que fecha o raciocínio: sonegador, economia informal e 
+crime organizado somam, na estimativa dele, cerca de 30% do produto interno bruto e escapam do 
+sistema declaratório. Não escapam de um tributo cobrado no lançamento bancário, porque todos 
+eles usam banco. 
+Fontes: Banco Central do Brasil, Estatísticas de Pagamentos de Varejo e painel do Pix; IBGE, Contas Nacionais; Receita 
+Federal; Tesouro Nacional; Sinprofaz; ANFIP; Tribunal de Contas da União. 
+1.6 Estudo de impacto: o que entra e o que sai 
+Nenhum plano de governo brasileiro que eu tenha lido mostra a conta. Este mostra, com os números 
+que existem e com as premissas à vista. 
+O custo da isenção 
+O cálculo usa a distribuição real de contribuintes por faixa de renda, extraída dos Grandes Números 
+do IRPF publicados pela Receita Federal, referentes ao ano-calendário de 2024. São 41,7 milhões 
+de declarantes classificados por faixa de rendimento em salários mínimos — o que permite aplicar 
+diretamente um limite fixado em salários mínimos. 
+Faixa de renda Contribuintes Alívio mensal Custo anual 
+De 3 a 5 SM (parcela que hoje 
+paga) 
+9,4 milhões R$ 620 R$ 70,3 bi 
+De 5 a 7 SM 4,27 milhões R$ 1.389 R$ 71,1 bi 
+De 7 a 10 SM 2,98 milhões R$ 1.428 R$ 51,1 bi 
+De 10 a 15 SM 2,13 milhões R$ 1.428 R$ 36,5 bi 
+De 15 a 30 SM 1,61 milhão R$ 1.428 R$ 27,6 bi 
+Acima de 30 SM 554 mil R$ 1.428 R$ 9,6 bi 
+TOTAL 20,9 milhões — R$ 266 bi 
+ 
+Cerca de 9,4 milhões de brasileiros que hoje pagam Imposto de Renda deixam de pagar integralmente. Somados aos 
+que já são isentos, a maior parte dos declarantes passa a não ter imposto a recolher. 
+O resultado consolidado 
+Componente Valor anual 
+Tributos federais substituídos, que deixam de ser cobrados − R$ 1.562 bi 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 13 — 
+Componente Valor anual 
+Custo da isenção do IRPF em 5 salários mínimos − R$ 266 bi 
+Arrecadação que o IUF precisa entregar R$ 1.828 bi 
+Equivalente, sobre o volume anual de pagamentos cerca de 1,4% 
+ 
+A conta não depende de crescimento econômico, de aumento de alíquota nem de corte de despesa. 
+O que o IUF precisa entregar equivale a pouco mais de um por cento do que já circula hoje pelo 
+sistema bancário brasileiro, e é sobre esse volume que a alíquota d e 2% em cada lançamento 
+incide. 
+O que aumenta 
+▪ Renda disponível das famílias: R$ 266 bilhões por ano deixam de sair do salário. É mais do 
+que os orçamentos de Saúde e Educação somados na Lei Orçamentária de 2026, que são de 
+R$ 271,3 bilhões e R$ 233,7 bilhões. 
+▪ Base de contribuintes: quem hoje não declara nada passa a contribuir a cada transação, sem 
+precisar ser fiscalizado. 
+▪ Formalização: a contribuição patronal sobre a folha deixa de existir, e contratar com carteira 
+assinada deixa de ser a forma mais cara de organizar trabalho. 
+▪ Custo de conformidade: nove tributos federais e suas obrigações acessórias saem do caminho 
+de quem produz. 
+1.7 As salvaguardas da reforma 
+Toda reforma tributária ampla carrega riscos conhecidos. Ignorá-los é o que faz proposta boa morrer 
+na execução. Estas são as quatro travas que o Democrata leva escritas no texto da emenda, e não 
+em promessa de campanha. 
+Devolução do tributo na exportação 
+Esta é a salvaguarda mais importante e a que menos aparece no debate público. 
+Um imposto sobre valor agregado é ajustável na fronteira: a exportação sai desonerada e a 
+importação é tributada. Um tributo sobre transação não tem esse ajuste automático — ele fica 
+embutido no preço do produto que sai do país e não volta para o exportador. Um país que vive de 
+soja, carne, minério e celulose não pode exportar o próprio imposto junto com a mercadoria. 
+A emenda preverá mecanismo de devolução do IUF incidente ao longo da cadeia exportadora, 
+calculado por coeficiente setorial apurado a partir da matriz insumo -produto e liquidado 
+automaticamente no embarque. Sem isso, a reforma tira competitividade justamente do setor que 
+sustenta a balança comercial brasileira. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 14 — 
+Tratamento das cadeias longas 
+O tributo incide em cada etapa da produção. Numa cadeia curta isso é irrelevante; numa cadeia 
+com muitos elos, acumula. O efeito colateral conhecido é premiar quem faz tudo dentro de casa e 
+punir quem compra de fornecedor especializado — o contrário do que este plano quer para a 
+pequena empresa. 
+A emenda trará regime específico para cadeias com número elevado de etapas, com mecanismo 
+de compensação apurado por setor. O objetivo declarado é que a decisão de terceirizar ou 
+verticalizar volte a ser econômica, e não tributária. 
+Blindagem da desoneração da folha 
+A desoneração da folha de pagamento é a parte da reforma com maior consenso técnico e maior 
+efeito sobre emprego. Ela não pode ficar refém do desempenho do novo tributo. 
+A emenda separará as duas coisas: a extinção da contribuição patronal sobre a folha é definitiva e 
+não retorna, ainda que a arrecadação do IUF fique abaixo do projetado. Se houver frustração de 
+receita, o ajuste se dá pela calibragem da alíquota ou por outra fonte, nunca pelo retorno do tributo 
+sobre o emprego. 
+Cláusula de revisão automática 
+A experiência internacional com tributos sobre movimentação financeira mostra que a arrecadação 
+pode se comportar de forma diferente da projetada ao longo do tempo. Governo sério prevê isso 
+antes, e não depois. 
+A emenda incluirá gatilho objetivo: apurada frustração de arrecadação acima do percentual definido 
+em lei complementar por dois exercícios consecutivos, a transição é suspensa automaticamente e 
+o Congresso reavalia os parâmetros. A suspensão não depende de decisão discricionária do 
+Executivo, o que é justamente o que lhe dá credibilidade. 
+Restrição à circulação de dinheiro em espécie 
+O conjunto de medidas que impede a migração do dinheiro eletrônico para o papel — alíquota 
+majorada sobre saque, teto para pagamento em espécie, retirada de cédulas de maior valor e 
+rastreabilidade de saques elevados — integra o texto da emenda a ser apresentada ao Congresso 
+Nacional, onde será detalhado com os respectivos limites e prazos. 
+1.8 Transição 
+Não se troca o sistema tributário de um país da noite para o dia. São três movimentos. 
+1. Convivência: o novo tributo entra em vigor com alíquota reduzida enquanto os substituídos 
+caem progressivamente, para aferir arrecadação real antes de desligar o sistema antigo. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 15 — 
+2. Repactuação das transferências constitucionais, de modo que nenhum estado e nenhum 
+município perca receita na troca. Sem isso a reforma não passa, e nem deveria passar. 
+3. Desligamento dos tributos substituídos e das obrigações acessórias correspondentes, com 
+prazo fixado na própria lei. 
+1.9 Quatro objeções, quatro respostas 
+“É a volta da CPMF” 
+Não. A CPMF foi somada aos tributos que já existiam; o IUF entra no lugar deles. Somar aumenta 
+a carga, trocar a reorganiza. Dito isso, a experiência da CPMF serve para uma coisa: provou que o 
+sistema bancário brasileiro arrecada sobre transação com custo administrativo baixíssimo. 
+“É cumulativo, incide em cascata” 
+Incide, sim, em cada etapa da cadeia. É a objeção mais séria das quatro e não vamos fingir que ela 
+não existe. A compensação vem por alíquota baixa, base amplíssima e eliminação simultânea de 
+tributos que já são cumulativos na prática hoje. Para as cadeias mais longas há regime específico, 
+descrito no item 1.7, e ele está no texto da emenda — não em promessa verbal de campanha. 
+“Vai empurrar todo mundo para o dinheiro vivo” 
+Risco real, e é o principal ponto de ataque à proposta. Por isso a reforma não vem sozinha: ela é 
+acompanhada de um conjunto de restrições à circulação de dinheiro em espécie, detalhado no texto 
+da emenda que será apresentada ao Congresso, e que abrange alíquota majorada sobre saque, 
+teto legal para pagamento em espécie, retirada de circulação das cédulas de maior valor e 
+rastreabilidade das retiradas de alto valor. 
+Vale registrar que o Brasil de hoje não é o da CPMF. Com Pix universalizado e presente em mais 
+da metade de todas as transações do país, sair do sistema bancário custa caro para quem vende e 
+é incômodo para quem compra. A restrição legal fecha a porta que a conveniência já deixou 
+entreaberta. 
+“É regressivo, o pobre paga proporcionalmente mais” 
+A comparação precisa ser feita contra o sistema que existe, não contra um sistema ideal. Hoje o 
+tributo federal está embutido, invisível, no preço de tudo que se compra, e recai sobre o consumo 
+de quem ganha pouco exatamente da mesma forma. A resposta dest a proposta combina três 
+coisas: o tributo sobre transação, a manutenção da progressividade do Imposto de Renda e a 
+desoneração integral da folha, que é o que chega ao bolso de quem vive de salário. 
+1.10 Metas 
+▪ Enviar a Proposta de Emenda à Constituição no primeiro semestre de mandato, instruída com 
+estudo de impacto. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 16 — 
+▪ Extinguir as obrigações acessórias federais de cada tributo substituído na mesma norma que 
+o substitui, e não numa portaria posterior que nunca sai. 
+▪ Publicar todo mês, em painel aberto, a arrecadação do novo tributo comparada à dos tributos 
+que ele substituiu. 
+1.11 O que muda na vida das pessoas 
+Tudo o que veio até aqui está em linguagem de governo, porque é assim que se cobra depois. Este 
+fecho está em linguagem de gente, porque é assim que se decide o voto. Começa pelo imposto, 
+que é o assunto deste eixo, e segue pelo que os demais entregam. 
+No seu salário 
+Hoje você fica isento do Imposto de Renda se ganha até cinco mil reais por mês. Com a nossa 
+proposta, fica isento quem ganha até cinco salários mínimos, ou seja, R$ 8.105,00 em valores de 
+2026. 
+Na prática, é isto: 
+Se você ganha por mês Paga hoje de Imposto de Renda Passa a pagar 
+R$ 5.000 nada nada 
+R$ 6.000 cerca de R$ 395 nada 
+R$ 7.350 cerca de R$ 946 nada 
+R$ 8.105 cerca de R$ 1.153 nada 
+R$ 10.000 cerca de R$ 1.674 cerca de R$ 272 
+R$ 12.000 cerca de R$ 2.224 cerca de R$ 796 
+ 
+Os valores acima foram calculados com a tabela progressiva mensal vigente em 2026, com o desconto simplificado de 
+R$ 607,20 e a parcela a deduzir de R$ 908,73, e já consideram o redutor criado pela Lei nº 15.270/2025. Quem tem 
+dependentes ou desconta INSS acima daquele valor paga um pouco menos do que o indicado; a ordem de grandeza não 
+muda. 
+ 
+Para quem ganha oito mil e cem, isso significa quase quatorze mil reais por ano que deixam de sair 
+do salário. É um décimo terceiro inteiro, e sobra. 
+Quem ganha acima do limite também paga menos, porque o imposto passa a incidir só sobre a 
+parte que ultrapassa os R$ 8.105,00. Quem recebe dez mil sai de mil seiscentos e setenta e quatro 
+reais por mês para duzentos e setenta e dois. 
+Na sua papelada 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 17 — 
+Nove tributos federais deixam de existir e são trocados por um só, cobrado sozinho pelo banco, 
+sem formulário e sem guia. Cerca de 9,4 milhões de brasileiros que hoje pagam Imposto de Renda 
+deixam de pagar. 
+A maioria dos brasileiros deixa de entregar declaração de Imposto de Renda. Não é simplificação 
+de declaração. É não precisar mais declarar. 
+No seu emprego 
+Hoje o patrão paga imposto sobre a folha de pagamento, ou seja, é taxado por contratar. Esse 
+tributo acaba. Contratar com carteira assinada deixa de ser a forma mais cara de dar trabalho a 
+alguém. 
+Para quem tem uma empresa pequena, o Imposto de Renda da pessoa jurídica cai de 34% para 
+25%, porque a CSLL deixa de existir. 
+Na sua casa 
+Quem paga aluguel e comprova o pagamento passa a ter direito a financiamento com parcela 
+equivalente ao que já paga de aluguel, e escolhe o imóvel onde quiser morar, novo ou usado, em 
+qualquer cidade. O Estado financia; a escolha é sua. 
+No posto de saúde e na fila da cirurgia 
+Fila única e pública por procedimento, com a sua posição consultável por você mesmo. Nada de fila 
+que só anda para quem conhece alguém. 
+Veterinário nas equipes de vigilância dos municípios, castração e vacinação com meta publicada 
+cidade por cidade. Doença que vem de animal custa caro no hospital e é barata de evitar no bairro. 
+Na escola do seu filho 
+Alfabetização até o fim do segundo ano, com o resultado de cada escola publicado. Educação física 
+de verdade, com professor formado e material, no lugar da aula vaga com bola no pátio. 
+E quem tiver talento para o esporte se inscreve sozinho na bolsa federal, sem depender de indicação 
+de federação, com pagamento direto do governo para a conta do atleta. 
+Na sua rua 
+Chefe de facção em presídio federal de segurança máxima, sem telefone e sem comando. Dinheiro 
+do crime rastreado e tomado. Fronteira e porto vigiados de verdade. E a decisão sobre o modelo 
+de presídio de segurança máxima vai a plebiscito, para o país escolher. 
+O que não muda de um dia para o outro 
+Reforma tributária depende de emenda constitucional, e emenda depende do Congresso. A 
+transição leva anos e está descrita no Eixo 1 com as três etapas. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 18 — 
+Nada aqui acontece em janeiro. O que prometemos é o caminho, o prazo e a forma de você conferir 
+se estamos cumprindo. O painel público com todas as metas deste plano entra no ar nos primeiros 
+cem dias. 
+ 
+Origem técnica: Marcos Cintra e Luciano Bivar, “Imposto Único Federal (IUF) garante um sistema tributário mais 
+justo e eficiente”, JOTA, 10 de março de 2021. As projeções de redução de carga por setor que circulam associadas 
+ao IUF são estimativas dos próprios autores, e não medição independente. Apresentamos sempre com essa 
+atribuição. 
+ 
+INSTRUMENTO Proposta de Emenda à Constituição, seguida de lei complementar de 
+regulamentação e do redesenho das transferências federativas. 
+COMO MEDIR Arrecadação federal comparada mês a mês; número de obrigações 
+acessórias federais extintas; taxa de formalização do emprego medida pela 
+PNAD Contínua e pelo Novo Caged. 
+PRAZO PEC no primeiro semestre; transição plena concluída dentro do mandato. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 19 — 
+ 
+Eixo 2 — Trabalho, emprego e renda 
+ 
+Se o eixo anterior é a engenharia, este é o motivo dela. Desonerar a folha não é efeito colateral 
+simpático da reforma tributária. É o objetivo. 
+2.1 Zerar o custo tributário de contratar 
+Substituída a contribuição patronal sobre a folha, contratar com carteira assinada deixa de ser a 
+forma mais cara de organizar trabalho. A aposta é que, caindo o preço do vínculo formal, boa parte 
+da informalidade migra sozinha, sem programa, sem campanha publicitária e sem edital. 
+É uma aposta. Por isso a exigência de medição trimestral publicada: se a formalização não 
+responder, o país fica sabendo pelo próprio governo. 
+2.2 Simplificar as obrigações acessórias 
+▪ Consolidar as declarações trabalhistas e previdenciárias em envio único, aproveitando a base 
+que já existe no eSocial. 
+▪ Acabar com a duplicidade de informação exigida por órgãos federais diferentes sobre o mesmo 
+fato. Informou uma vez, informou para todos. 
+▪ Fixar prazo legal de resposta da administração nos pedidos de regularização, com deferimento 
+automático se o prazo estourar. 
+O deferimento automático resolve o problema do cidadão e não resolve o do Estado. Se a única 
+consequência do atraso for o pedido passar sozinho, o órgão aprende que atrasar não dói. Daí a 
+segunda metade da regra. 
+▪ Toda solicitação sujeita a prazo terá servidor responsável identificado no sistema desde a 
+autuação, e o prazo correrá em relógio público. 
+▪ Descumprimento de prazo gera apuração automática, sem necessidade de reclamação do 
+interessado. O sistema abre o procedimento sozinho. 
+▪ Atraso reiterado e sem justificativa aceita entra na avaliação funcional do servidor e caracteriza 
+infração disciplinar por desídia, na forma da Lei nº 8.112/1990. 
+▪ O dirigente máximo do órgão responde por índice de descumprimento acima do limite fixado 
+em regulamento, com efeito sobre gratificação de desempenho e sobre a permanência no cargo 
+em comissão. 
+▪ Publicação mensal, por órgão, do percentual de pedidos deferidos por decurso de prazo. Quem 
+lidera esse ranking está dizendo em público que não entrega. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 20 — 
+Uma ressalva de método: a apuração é sobre atraso injustificado. Servidor com carga 
+desproporcional ou sem sistema que funcione não é culpado por falha estrutural, e o mesmo 
+indicador que aponta o desleixo aponta a falta de gente. Os dois problemas viram v isíveis pelo 
+mesmo painel. 
+2.3 Microempreendedor individual e pequeno negócio 
+O MEI resolveu a entrada e não resolveu a saída. Quem cresce um pouco encontra um degrau 
+tributário que torna mais racional parar de crescer, ou crescer por fora. Revisar esse enquadramento 
+é o primeiro item. 
+▪ Abertura, alteração e baixa de empresa em ambiente único e digital, com prazo máximo fixado 
+em norma. A Redesim existe desde a Lei nº 11.598/2007 e o registro automático foi reforçado 
+pela Lei nº 14.195/2021; o que falta é integração real com estados e municípios, que é onde o 
+processo ainda emperra. 
+▪ Tratamento favorecido ao pequeno porte nas compras públicas federais aplicado de fato. A Lei 
+Complementar nº 123/2006 já prevê a reserva nos arts. 47 a 49 e ela é rotineiramente afastada 
+por justificativa genérica no edital; a mudança é exigir motivação específica e auditável para 
+afastá-la, e encurtar o prazo de pagamento. 
+2.4 Qualificação com destino 
+Programa de qualificação profissional financiado pela União e executado com o sistema S e com a 
+rede federal de ensino técnico, sob uma regra que hoje falta: a oferta de curso sai da demanda 
+declarada de contratação na região, e não do catálogo pronto da instituição. Curso que não coloca 
+ninguém para trabalhar não é reconduzido no ano seguinte. 
+ 
+INSTRUMENTO Decorre da emenda do Eixo 1 quanto à folha; lei ordinária e ato administrativo 
+quanto à simplificação; convênio e edital quanto à qualificação. 
+COMO MEDIR Taxa de informalidade e saldo de empregos formais (PNAD Contínua e Novo 
+Caged); tempo médio de abertura de empresa; percentual de egressos de 
+qualificação empregados em doze meses. 
+PRAZO Simplificação administrativa nos primeiros doze meses; desoneração 
+conforme o calendário da reforma. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 21 — 
+ 
+Eixo 3 — Segurança pública 
+ 
+O Brasil gasta muito com segurança e prende muito. O que não consegue é desmontar organização 
+criminosa. Prender o vendedor da esquina enquanto a estrutura que o abastece segue intacta é 
+atividade, e atividade não é resultado. 
+A política federal aqui se organiza em cinco pilares, e eles são sequenciais. Cada um perde eficácia 
+se o anterior não estiver funcionando. 
+Pilar 1 — Isolar o comando 
+Enquanto a liderança de facção mantiver linha aberta com a rua, a cadeia funciona como escritório. 
+O centro deste pilar é a expansão e o endurecimento do sistema penitenciário federal de segurança 
+máxima, destinado exclusivamente a lideranças e presos de alta periculosidade. Não é destino de 
+preso comum, nem válvula de escape para superlotação estadual. 
+▪ Ampliar a capacidade federal de custódia de lideranças, com padrão construtivo único e regime 
+rigoroso de contato. 
+▪ Bloquear de fato o sinal de telefonia nas unidades, e responsabilizar administrativamente a 
+operadora que contratar o bloqueio e não entregar. 
+▪ Rodízio nacional de custodiados de alta periculosidade, para impedir que a facção local capture 
+a unidade. 
+▪ Regime disciplinar diferenciado aplicado com controle judicial e revisão periódica. Rigor que cai 
+em segunda instância não é rigor, é encenação cara. 
+▪ Concurso e carreira para o pessoal penal federal. Unidade segura com servidor mal pago e em 
+número insuficiente não existe em lugar nenhum do mundo. 
+Pilar 2 — Asfixiar o dinheiro 
+Organização criminosa não morre de tiro. Morre quando quebra. Este pilar desloca o centro de 
+gravidade da política federal do enfrentamento de rua para a inteligência financeira. 
+▪ Integração operacional permanente entre a unidade de inteligência financeira, a Receita 
+Federal, a Polícia Federal e o Ministério Público, com fluxo padronizado e prazo de resposta. 
+▪ Prioridade de orçamento e de pessoal para investigação patrimonial: laranja, empresa de 
+fachada, posto de combustível, transportadora, clínica, casa de apostas. 
+▪ Uso agressivo dos instrumentos já existentes de sequestro, alienação antecipada e destinação 
+de bens, inclusive para reaparelhar as próprias forças de segurança. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 22 — 
+▪ Cooperação internacional para rastrear ativos remetidos ao exterior e operações com 
+criptoativos. 
+Pilar 3 — Fechar a porta de entrada 
+Arma e droga entram por algum lugar. Fronteira, porto e aeroporto são competência federal, e é aí 
+que a União tem responsabilidade direta e indelegável. 
+▪ Vigilância eletrônica contínua dos trechos críticos de fronteira, com sensoriamento remoto e 
+apoio logístico das Forças Armadas. 
+▪ Escaneamento não invasivo de contêiner nos principais portos, com meta pública de percentual 
+de carga inspecionada. 
+▪ Controle rigoroso da cadeia de armas e munições legais, com marcação e auditoria de estoque. 
+Parte relevante da arma do crime começou a vida legal. 
+Pilar 4 — Fazer funcionar o que já foi criado 
+Aqui é preciso uma honestidade que a maioria dos planos de governo não tem. O Brasil não precisa 
+criar um sistema nacional de informações de segurança pública, porque ele já existe no papel desde 
+2012. 
+O Sinesp foi instituído pela Lei nº 12.681/2012. A Lei nº 13.675/2018 criou o Sistema Único de 
+Segurança Pública e transformou o Sinesp em instrumento da política nacional. A condicionalidade 
+de repasse federal para quem não alimenta as bases também já está prevista nessa arquitetura. E 
+a PEC nº 18/2025, aprovada pela Câmara em março de 2026 e hoje em tramitação no Senado, 
+constitucionaliza o Susp, amplia a competência da União sobre o sistema penitenciário e cria fontes 
+vinculadas para o Fundo Nacional de Segurança Pública e para o Funpen. 
+Prometer a criação de um banco nacional integrado seria vender ao eleitor uma lei de catorze anos 
+atrás embrulhada como novidade. Não vamos fazer isso. 
+O que existe de fato é um sistema desenhado e mal alimentado. Estado que não envia dado 
+continua sem sanção efetiva, o padrão de registro de ocorrência varia por unidade da federação, e 
+a informação criminal do país segue sendo um mosaico de metodologias que não conversam. O 
+que falta, portanto, é executar e responsabilizar. Não é fundar. 
+▪ Apoiar a aprovação da PEC nº 18/2025 no Senado e, aprovada, regulamentá-la integralmente 
+no primeiro ano, sem deixar dispositivo dependendo de norma que nunca sai. 
+▪ Aplicar de verdade a condicionalidade que já está na lei: estado que não alimentar o Sinesp no 
+padrão e no prazo perde acesso a recurso federal discricionário, com a suspensão publicada e 
+não negociada por telefone. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 23 — 
+▪ Padrão nacional único e obrigatório de registro de ocorrência, com prazo de adequação e apoio 
+técnico federal para quem tiver dificuldade de implantar. 
+▪ Auditoria independente e anual da qualidade do dado, publicada, com nota por unidade da 
+federação. Hoje ninguém sabe dizer quanto do que está no sistema é confiável. 
+E há uma parte que é genuinamente nova, porque hoje não existe em lugar nenhum da arquitetura: 
+a integração entre a base de segurança e as bases que não são policiais. Mandado de prisão que 
+não conversa com folha de pagamento pública, com concessão de bene fício, com registro de 
+empresa e com sistema de identificação civil produz a situação absurda de o Estado procurar 
+alguém que ele mesmo está pagando. Essa ponte exige lei, exige registro auditável de cada 
+consulta e exige responsabilização por acesso indevido, porque cruzamento de base sem controle 
+vira instrumento de perseguição. 
+Pilar 5 — Prevenir, com o que a ciência já mostrou 
+A literatura internacional sobre a chamada Teoria do Elo aponta associação entre praticar violência 
+contra animais e praticar depois violência contra pessoas, com destaque para violência doméstica 
+e crimes graves. O achado não é consenso fechado, e não o apresentamos como tal. Mas é sólido 
+o bastante para justificar uma providência barata: registrar quem faz. 
+▪ Cadastro nacional de infratores por maus-tratos a animais no ar até o fim do primeiro ano de 
+mandato, integrado às bases de segurança pública e usado como fator de alerta na avaliação 
+de risco de violência doméstica. Prazo curto porque a medida é barata, n ão depende de 
+emenda constitucional e dá resposta concreta à sociedade sem esperar o ciclo inteiro do 
+governo. 
+▪ Protocolo padronizado de comunicação entre serviços de proteção animal, conselhos tutelares 
+e delegacias especializadas em violência doméstica. 
+▪ Programas territoriais para juventude nas áreas de maior incidência criminal, com avaliação de 
+impacto feita por terceiro. Sem avaliação, programa social vira folha de pagamento. 
+Consulta popular sobre o modelo penitenciário de segurança máxima 
+Há uma decisão que não pretendemos tomar sozinhos nem entregar a uma maioria estreita de 
+plenário: se o Brasil quer adotar, para lideranças de facção e presos de altíssima periculosidade, 
+um modelo de confinamento de segurança máxima nos moldes do que El Salvador implantou a 
+partir de 2023. 
+Levamos a pergunta ao eleitor por plebiscito e governamos conforme a resposta. Se o país disser 
+não, não haverá tentativa de conseguir o mesmo resultado por via oblíqua. Se disser sim, o governo 
+executa com mandato explícito, e ninguém poderá alegar surpresa depois. 
+Por que plebiscito, e não decreto 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 24 — 
+Porque a mudança altera a relação entre o Estado e a liberdade das pessoas. Decisão desse 
+tamanho tomada por canetada nasce sem legitimidade e morre no primeiro habeas corpus. Levada 
+ao voto direto, chega ao Congresso e ao Judiciário com o peso de uma manifestação nacional. 
+Há também uma honestidade institucional a registrar. O Presidente da República não convoca 
+plebiscito. Pelo art. 49, XV, da Constituição e pelo art. 3º da Lei nº 9.709/1998, a convocação se dá 
+por decreto legislativo, mediante proposta de no mínimo um terço dos membros de qualquer das 
+Casas do Congresso. O que o governo assume, portanto, é articular, defender publicamente e 
+sustentar politicamente essa proposta. 
+O que pode e o que não pode ir a voto 
+Pode ir o modelo penitenciário: arquitetura da unidade, escala, regime de custódia, isolamento de 
+liderança, controle de comunicação, critérios de transferência, financiamento federal da obra e da 
+operação. 
+Não pode ir a suspensão de garantias individuais. Direitos e garantias individuais são cláusula 
+pétrea pelo art. 60, §4º, IV, da Constituição, e nem emenda os suprime. O Brasil é parte da 
+Convenção Americana sobre Direitos Humanos, e a proibição da tortura e do tratamento desumano 
+ou degradante não se submete a urna. Situação excepcional tem rito próprio na Constituição, nos 
+arts. 136 a 141, com prazo, controle do Congresso e responsabilização. Se algum dia for necessário, 
+é por ali. 
+Fazer essa separação não enfraquece a proposta. Ela é o que impede a medida de cair no primeiro 
+exame judicial. 
+O que importaríamos e o que não importaríamos 
+Do modelo salvadorenho interessam a engenharia e a disciplina de custódia. Unidade de grande 
+escala erguida em prazo curto, separação física por facção, isolamento efetivo da liderança, 
+bloqueio de comunicação com o exterior, controle rígido de circulação interna, visita restrita e 
+monitorada. 
+Não interessa o regime de exceção que acompanhou aquela política. El Salvador opera sob estado 
+de exceção renovado sucessivamente desde 2022, com prisões em massa e sem devido processo 
+em parcela relevante dos casos. Não é o que se propõe aqui. Prisão cont inua dependendo de 
+decisão judicial fundamentada, e transferência para regime de segurança máxima continua sendo 
+ato judicial motivado e sujeito a revisão. 
+O que se sabe sobre o modelo, e não é pouco dos dois lados 
+A favor: El Salvador registrou queda expressiva na taxa de homicídios no período, e a política tem 
+aprovação popular alta no país. O CECOT, inaugurado em janeiro de 2023, foi projetado para 
+capacidade da ordem de 40 mil detentos, com oito pavilhões, e foi erguido em prazo próximo de 
+sete meses. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 25 — 
+Contra: a Comissão Interamericana de Direitos Humanos emitiu alerta em agosto de 2025 sobre a 
+gestão salvadorenha, com relatos de prisões arbitrárias, tortura e mortes de pessoas sob custódia 
+do Estado. A Anistia Internacional apontou, em novembro de 2024, padrão sistemático de violações. 
+E o país passou a ostentar a maior taxa de encarceramento do mundo. 
+Nada disso é produção de governo brasileiro, e nada disso deve ser usado em debate sem 
+conferência na fonte original. Quem propõe consulta popular tem obrigação de mostrar os dois lados 
+antes da votação. 
+Compromisso de procedimento 
+▪ Articular, no primeiro ano de mandato, junto às lideranças do Congresso, o projeto de decreto 
+legislativo de convocação. 
+▪ Publicar antes da consulta um caderno técnico com custo estimado de construção e operação, 
+projeto arquitetônico de referência, regime jurídico proposto e parecer sobre compatibilidade 
+constitucional e convencional. Consulta popular sem informação prévia é manipulação com 
+aparência de democracia. 
+▪ Realizar a consulta em data que não coincida com eleição geral, para que o tema seja julgado 
+por si mesmo. 
+▪ Acatar o resultado, seja ele qual for. 
+ 
+INSTRUMENTO Decreto legislativo de convocação do plebiscito (CF, art. 49, XV, e Lei nº 
+9.709/1998, art. 3º); apoio à PEC nº 18/2025 e sua regulamentação; lei 
+federal para o cadastro nacional de infratores e para a integração com bases 
+não policiais; aplicação da condi cionalidade já prevista na Lei nº 
+13.675/2018. 
+COMO MEDIR Homicídios por cem mil habitantes (Sinesp e Atlas da Violência); apreensão 
+de armas e ativos; percentual de carga portuária inspecionada; percentual de 
+estados com base alimentada em dia; tramitação e realização da consulta 
+popular. 
+PRAZO Cadastro nacional de infratores e articulação do plebiscito no primeiro ano; 
+regulamentação da PEC nº 18/2025 e aplicação da condicionalidade de 
+repasse no primeiro ano; integração com bases não policiais em dezoito 
+meses; expansão penitenciária federal ao longo do mandato. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 26 — 
+ 
+Eixo 4 — Saúde Única 
+ 
+Saúde humana, saúde animal e saúde ambiental são o mesmo problema visto de ângulos 
+diferentes. A ideia não nasceu em campanha: é a base do trabalho da Organização Mundial da 
+Saúde Animal e da Organização Mundial da Saúde há anos, e organiza a política sanitária de vários 
+países. 
+A vantagem de um veterinário na Presidência, neste tema específico, é técnica e não simbólica. A 
+maior parte das emergências sanitárias que atingiram pessoas começou em animal. 
+4.1 Zoonoses: atacar onde a doença nasce 
+Raiva, leishmaniose visceral, leptospirose, febre maculosa, febre amarela silvestre. Todas circulam 
+entre animal e pessoa. Todas são evitáveis. E todas custam ao SUS muito mais no leito hospitalar 
+do que custariam no território. 
+O caso mais caro dessa lista não está nela. A pandemia de covid-19 parou o país, matou centenas 
+de milhares de brasileiros e custou ao Estado uma cifra que nenhuma política de vigilância chegaria 
+perto de gastar em um século. 
+Sobre a origem, é preciso precisão em vez de slogan. O grupo consultivo da Organização Mundial 
+da Saúde para as origens de novos patógenos concluiu que não há determinação definitiva, mas 
+que a origem zoonótica, com transmissão de animal para humano, permanece a hipótese mais bem 
+sustentada pela evidência disponível. Agências de inteligência norte-americanas divergem e parte 
+delas favorece a hipótese de acidente laboratorial, sem apresentar evidência científica publicada 
+que a sustente. Não há prova conclusiva de nenhum dos dois lados. 
+Do ponto de vista de política pública, a divergência muda menos do que parece. As três 
+emergências sanitárias globais mais recentes antes da covid — H1N1, ebola e zika — têm origem 
+animal estabelecida, e a próxima virá do mesmo lugar, com ou sem o desfecho do debate sobre 
+Wuhan. País que não vigia a interface entre animal e gente descobre a epidemia no pronto-socorro. 
+▪ Programa nacional permanente de vigilância de zoonoses, com financiamento federal pactuado 
+e meta de cobertura por município, começando pelas áreas de maior incidência histórica. 
+▪ Retomada e ampliação das campanhas nacionais de vacinação antirrábica animal, com 
+cobertura publicada município a município. 
+▪ Rede nacional de laboratórios de diagnóstico veterinário integrada à vigilância epidemiológica 
+humana, com prazo máximo de resultado. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 27 — 
+4.2 O veterinário no serviço público de saúde 
+O médico veterinário já integra equipes de vigilância em saúde em muitos municípios, e é o 
+profissional legalmente habilitado a identificar e notificar maus-tratos, conforme a Resolução CFMV 
+nº 1.236/2018. Falta escala e falta financiamento estável. 
+▪ Indução federal à presença de médico veterinário nas equipes municipais de vigilância em 
+saúde, com cofinanciamento e critério populacional. 
+▪ Atendimento veterinário público para famílias de baixa renda, tratado como política de saúde. 
+Animal doente dentro de casa com criança é problema de saúde da criança. 
+▪ Integração dos registros de atendimento veterinário público à vigilância epidemiológica, para 
+detectar surto cedo. 
+4.3 Castração e identificação: o que existe e o que falta 
+Manejo populacional ético de cães e gatos é medida sanitária antes de ser causa. Reduz abandono, 
+reduz agressão, reduz zoonose e reduz internação. 
+E aqui é preciso repetir a honestidade do Pilar 4 do eixo anterior, porque nesta pauta a tentação de 
+vender o existente como novidade é ainda maior. O Cadastro Nacional de Animais Domésticos já 
+existe: foi criado pela Lei nº 15.046, de 17 de dezembro de 2024, regulamentado pelo Decreto nº 
+12.439, de 17 de abril de 2025, e opera desde então na plataforma SinPatinhas, sob o Ministério do 
+Meio Ambiente, com carteirinha, número único e QR Code. O ProPatinhas, programa nacional de 
+proteção e manejo populacional ético, é a política que abriga castração e microchipagem. 
+Prometer criar cadastro nacional de animais, portanto, seria descrever um sistema que está no ar. 
+O que não está resolvido é outra coisa, e é onde o próximo governo tem trabalho. 
+▪ O cadastro é voluntário, com obrigatoriedade apenas para quem usa recurso federal em 
+castração e microchipagem. Cadastro voluntário não permite responsabilizar tutor por 
+abandono, que é justamente o efeito jurídico que a base precisaria produzir. Defendemos a 
+obrigatoriedade progressiva, começando pelo animal atendido com dinheiro público e pelo 
+animal comercializado. 
+▪ Falta escala e falta dinheiro carimbado. Castração depende hoje de adesão de estado e 
+município e de emenda parlamentar, o que faz a cobertura variar conforme a política local. 
+Propomos financiamento federal permanente por meta verificada de castração, e n ão por 
+estrutura instalada. 
+▪ Falta integração. O SinPatinhas não conversa com o cadastro de infratores por maus-tratos 
+previsto no Pilar 5 do Eixo 3, nem com a vigilância epidemiológica. Sem essas duas pontes, a 
+base serve para reencontrar cachorro perdido, o que é bom e é pouco. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 28 — 
+▪ Falta cobertura de espécie e de território. O sistema alcança cães e gatos; o manejo de 
+equídeos abandonados em área urbana, que é problema sanitário e de trânsito em dezenas de 
+cidades, continua sem política federal. 
+4.4 Preparo para emergência sanitária 
+Gripe aviária de alta patogenicidade, febre aftosa, peste suína, arboviroses novas. O custo do 
+despreparo já é conhecido no Brasil: suspensão de exportação, abate sanitário em massa, prejuízo 
+bilionário por atraso de resposta. 
+▪ Plano nacional de contingência zoossanitária atualizado e testado por simulação, não apenas 
+publicado no Diário Oficial. 
+▪ Estoque estratégico de insumos de diagnóstico e de imunizantes veterinários. 
+▪ Protocolo único de comunicação entre o serviço veterinário oficial, a vigilância em saúde e a 
+defesa civil, aplicável também às situações da Lei nº 15.355/2026. 
+ 
+INSTRUMENTO Portaria e programa federal com cofinanciamento; convênio federativo; ato 
+do serviço veterinário oficial. 
+COMO MEDIR Cobertura vacinal antirrábica animal por município; incidência notificada de 
+leishmaniose visceral e de leptospirose; número de castrações realizadas; 
+tempo médio de resposta a emergência zoossanitária. 
+PRAZO Programas estruturados no primeiro ano; metas de cobertura ao longo do 
+mandato. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 29 — 
+ 
+Eixo 5 — Proteção e direitos animais 
+ 
+É uma bandeira pessoal do candidato e uma pauta com base legal sólida, que a maioria dos planos 
+de governo despacha em uma linha protocolar. Aqui ela tem eixo próprio. 
+Com uma advertência de método, dita logo: proteção animal não substitui política econômica, de 
+segurança ou de saúde. Ela se conecta às três, e é assim que aparece neste documento. 
+5.1 O que a lei já garante 
+O ponto de partida não é o vazio. 
+▪ Constituição Federal, art. 225, §1º, VII: incumbe ao poder público proteger a fauna e vedar 
+práticas que submetam animais a crueldade. 
+▪ Lei nº 9.605/1998, art. 32: tipifica os maus-tratos. 
+▪ Lei nº 14.064/2020: acrescentou o §1º-A ao art. 32, levando a pena a reclusão de dois a cinco 
+anos, multa e proibição da guarda quando a vítima for cão ou gato. O agravamento alcança as 
+condutas do caput e não a conduta equiparada do §1º, distinção técnica que costuma passar 
+batido no debate público. 
+▪ Lei nº 15.355/2026, de 11 de março de 2026: institui a Política de Acolhimento e Manejo de 
+Animais Resgatados, a Amar, voltada a animais atingidos por emergências, acidentes e 
+desastres, com incorporação obrigatória aos planos de contingência da defesa civil. 
+▪ Lei nº 15.046/2024 e Decreto nº 12.439/2025: criam o Cadastro Nacional de Animais 
+Domésticos, hoje operado pelo sistema SinPatinhas, e o ProPatinhas, programa nacional de 
+manejo populacional ético. 
+▪ Decreto nº 12.877/2026, de 12 de março de 2026, o “Justiça por Orelha”: altera o Decreto nº 
+6.514/2008 e eleva as multas administrativas por maus -tratos, com critérios objetivos de 
+agravamento. 
+▪ Resolução CFMV nº 1.236/2018: define crueldade, abuso e maus -tratos e fixa a 
+responsabilidade do médico veterinário e do zootecnista em identificar e denunciar. 
+▪ Lei nº 11.794/2008, a Lei Arouca: disciplina o uso científico de animais e institui o Concea. 
+5.2 O gargalo é outro 
+A lei existe e não chega ao território. Multa alta em decreto não vira punição sem fiscal, sem perícia, 
+sem delegacia que registre e sem laudo capaz de sustentar a denúncia. O problema brasileiro em 
+maus-tratos deixou de ser legislativo há algum tempo. É de capacidade operacional. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 30 — 
+5.3 Cinco medidas 
+Sistema nacional de proteção animal 
+Apoiar a aprovação e o aperfeiçoamento do projeto em tramitação que cria um sistema nacional de 
+proteção animal, com cadastro nacional de animais, cadastro nacional de infratores e fundo próprio. 
+A escolha de reforçar o que já caminha no Congresso, em vez de lançar bandeira concorrente, é 
+deliberada: proposta paralela só divide a base parlamentar da causa. Trata-se de projeto, e não de 
+lei em vigor. 
+Fiscalização com poder de sanção efetiva 
+De nada adianta um decreto elevar o valor das multas se o auto de infração não é lavrado, e se o 
+que é lavrado não é cobrado. Estruturar a fiscalização federal para dar efetividade ao Decreto nº 
+12.877/2026 significa três coisas concretas: pessoal e equipamento para que a fiscalização chegue 
+ao local do fato, integração entre órgão ambiental, polícias e serviço veterinário oficial para que a 
+autuação se sustente juridicamente, e inscrição em dívida ativa com cobrança executada de quem 
+não paga. Multa lançada e nunca cobrada ensina ao infrator que não há consequência. 
+Delegacias e núcleos especializados 
+Induzir por cofinanciamento a criação de delegacias e núcleos especializados em crimes contra 
+animais nas capitais e regiões metropolitanas, com protocolo veterinário-forense padronizado. Sem 
+laudo técnico bem feito o inquérito não sustenta denúncia, e o processo morre na porta do fórum. 
+Implementação real da Amar 
+A Lei nº 15.355/2026 distribui competências entre União, estados e municípios e manda incorporar 
+a proteção animal aos planos de contingência. Implementar significa treinar equipe de resgate, 
+credenciar profissional habilitado, prever centro de triagem e pagar por tudo isso antes do desastre. 
+Fortalecimento da estrutura federal existente 
+Consolidar e ampliar a estrutura federal de proteção e direitos animais, com orçamento próprio e 
+transparente. Órgão sem verba executada é organograma. 
+ 
+INSTRUMENTO Apoio a projeto de lei em tramitação; regulamentação e execução do Decreto 
+nº 12.877/2026 e da Lei nº 15.355/2026; convênio federativo para delegacias 
+especializadas. 
+COMO MEDIR Número de autos de infração lavrados e efetivamente cobrados; unidades 
+especializadas em funcionamento; animais cadastrados e identificados; 
+execução orçamentária da política federal de proteção animal. 
+PRAZO Fiscalização e implementação da Amar no primeiro ano; expansão da rede 
+especializada ao longo do mandato. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 31 — 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 32 — 
+ 
+Eixo 6 — Agropecuária, sanidade e comércio exterior 
+ 
+Convém dizer isto sem rodeio, porque é onde esta candidatura mais se distingue. Bem-estar animal 
+e agronegócio não são campos opostos. São a mesma agenda vista do lado de quem compra. 
+Quem compra carne brasileira lá fora exige padrão sanitário, rastreabilidade e, cada ano mais, 
+padrão de bem-estar. Quem trata isso como questão ideológica perde contrato. Nesse tema, um 
+veterinário na Presidência é vantagem competitiva do país, e não risco para o setor. 
+6.1 Defesa sanitária como política de Estado 
+▪ Recompor o serviço veterinário oficial, federal e estadual, com concurso e carreira. A 
+credibilidade sanitária brasileira no exterior depende da assinatura de um fiscal, e hoje faltam 
+fiscais. 
+▪ Manter e ampliar os status sanitários internacionais já conquistados, com vigilância permanente 
+para febre aftosa, influenza aviária e peste suína clássica. 
+▪ Responder rápido a foco sanitário, com protocolo pré-acordado de comunicação ao mercado 
+importador. Boa parte do prejuízo numa crise sanitária vem do improviso na comunicação, e 
+não do foco em si. 
+6.2 Rastreabilidade: o plano existe, o prazo é que não fecha 
+Mais uma vez, o compromisso não é criar. O Plano Nacional de Identificação Individual de Bovinos 
+e Búfalos foi lançado em dezembro de 2024 e teve o cronograma fixado pela Portaria SDA/Mapa nº 
+1.331, de julho de 2025: quatro etapas entre 2025 e 2032, com a Base Central de Dados construída 
+a partir de julho de 2025, adequação dos sistemas estaduais até o fim de 2026, identificação de 
+categorias específicas entre 2027 e 2029, rebanho inteiro entre 2030 e 2032 e proibição de 
+movimentar animal não identificado a partir de 1º de janeiro de 2033. 
+O problema não é a existência do plano. É a data. O regulamento europeu para produtos livres de 
+desmatamento cobra rastreabilidade a partir de 2026, e o cronograma brasileiro só fecha em 2032. 
+Essa defasagem de seis anos é o buraco por onde o país perde co ntrato, e nenhum plano de 
+governo que eu tenha lido a enfrenta. 
+▪ Antecipação voluntária e apoiada nos corredores de exportação sujeitos a exigência 
+internacional, com a União bancando parte do custo de brinco e de leitura para quem antecipar, 
+em vez de esperar 2032 e explicar depois por que o embarque foi barrado. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 33 — 
+▪ Cumprimento da etapa de 2026, que é a adequação e a interoperabilidade dos sistemas 
+estaduais de defesa sanitária com a base federal. Estado que não integrar no prazo trava a 
+cadeia inteira, e hoje não há consequência para isso. 
+▪ Apoio de custo ao pequeno e ao médio produtor, com prioridade para a agricultura familiar de 
+cria, que é onde a identificação começa e onde o custo pesa mais. Rastreabilidade imposta 
+sem apoio exclui quem é pequeno. 
+▪ Uso do dado de rastreabilidade também contra o abigeato e a comercialização de produto de 
+origem ilegal, cruzando a base com registro de ocorrência policial. 
+6.3 Bem-estar animal na cadeia produtiva 
+▪ Programa nacional de boas práticas de manejo, transporte e abate, construído com o setor e 
+com prazo de adequação. A régua é negociada e previsível, não editada por surpresa em 
+véspera de safra. 
+▪ Assistência técnica e crédito em condição melhor para quem adota o padrão. 
+▪ Diplomacia sanitária ativa, com presença técnica permanente nos foros internacionais e nas 
+negociações de acesso a mercado. 
+6.4 Quem produz pouco também produz 
+▪ Crédito simplificado para agricultura familiar, com redução drástica de exigência documental. 
+▪ Assistência técnica pública com meta de cobertura por região, e não por edital. 
+▪ Compras públicas de alimentação escolar com prioridade efetiva à produção local e pagamento 
+em prazo curto. 
+ 
+INSTRUMENTO Ato do serviço veterinário oficial; concurso e plano de carreira; convênio e 
+cronograma pactuado com o setor; atuação diplomática. 
+COMO MEDIR Status sanitários mantidos e conquistados; percentual de rebanho sob 
+rastreabilidade individual; tempo médio de resposta a foco sanitário; número 
+de mercados abertos ou reabertos. 
+PRAZO Recomposição do serviço veterinário oficial nos primeiros dois anos; 
+cronograma de rastreabilidade pactuado no primeiro ano. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 34 — 
+ 
+Eixo 7 — Saúde: atenção primária e o fim da fila 
+ 
+O SUS não precisa ser reinventado. Precisa funcionar na ponta, onde é barato, em vez de funcionar 
+só no hospital, onde é caro e quase sempre tarde. 
+7.1 Atenção primária como prioridade orçamentária declarada 
+▪ Expandir a cobertura de equipes de saúde da família com meta por município e 
+cofinanciamento federal estável, previsível e fora da barganha política. 
+▪ Levar profissional para região de difícil fixação com carreira, e não com contrato precário 
+renovado a cada crise. 
+▪ Integrar o prontuário eletrônico entre os níveis de atenção, de modo que o dado acompanhe o 
+paciente e não o estabelecimento. 
+7.2 Fila cirúrgica e diagnóstico 
+A fila brasileira tem um problema anterior ao tamanho: ninguém sabe onde está. Fila invisível se 
+organiza por conhecido. 
+▪ Fila nacional única e pública por procedimento, com critério clínico de prioridade e posição 
+consultável pelo próprio paciente. 
+▪ Mutirão diagnóstico e cirúrgico permanente, contratualizado por resultado entregue e não por 
+estrutura disponibilizada. 
+▪ Auditoria pública dos tempos de espera, publicada em série histórica. 
+7.3 Medicamento e insumo 
+▪ Fortalecer a produção nacional de medicamentos e imunizantes estratégicos, inclusive de uso 
+veterinário, com política de compras que sustente a base industrial. 
+▪ Revisar a lista de medicamentos de dispensação gratuita por critério de evidência e de 
+internação evitada. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 35 — 
+INSTRUMENTO Portaria e programa federal com cofinanciamento; lei orçamentária; 
+contratualização por resultado. 
+COMO MEDIR Cobertura de atenção primária; tempo mediano de espera por procedimento 
+eletivo; internações por condições sensíveis à atenção primária. 
+PRAZO Fila pública nacional no primeiro ano; metas de cobertura ao longo do 
+mandato. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 36 — 
+ 
+Eixo 8 — Educação e formação 
+ 
+A União não administra escola de ensino fundamental. Vale dizer isso de saída, porque metade das 
+promessas de campanha em educação é feita por quem não tem a caneta. O que a Presidência faz 
+é financiar, avaliar, induzir e formar. É a isso que este eixo se limita. 
+8.1 Alfabetização na idade certa 
+▪ Continuidade e endurecimento da política federal de alfabetização na idade certa, que já existe 
+desde 2023 e cujo mérito não vamos fingir que é nosso. O que acrescentamos é 
+condicionalidade: apoio técnico e financeiro vinculado a resultado aferido em avaliação externa, 
+e não apenas a adesão formal do ente. 
+▪ Transparência total do dado por escola. Rede que melhora precisa ser reconhecida e rede que 
+piora precisa ser socorrida, e nenhuma das duas coisas acontece com dado escondido. 
+8.2 Ensino médio e formação técnica 
+▪ Ampliar a rede federal de educação profissional, com abertura de curso orientada pela 
+demanda produtiva da região. 
+▪ Integrar ensino médio, formação técnica e o programa de qualificação do Eixo 2, acabando 
+com a duplicação de oferta entre programas federais que não se falam. 
+8.3 A PEC da Pesquisa 
+O Brasil forma pesquisador com dinheiro público e entrega o resultado de graça para quem paga 
+melhor. Doutor formado aqui, com anos de bolsa bancada pelo contribuinte, recebe proposta lá fora 
+e vai — porque aqui ele vive de bolsa de valor que não sustenta uma família e sem nenhuma 
+perspectiva de carreira. O país paga a formação e o exterior colhe a produção. É o pior negócio que 
+o Estado brasileiro faz de forma sistemática. 
+Bolsa não é salário. Não gera vínculo, não gera previdência, não gera progressão e acaba quando 
+acaba o edital. Enquanto pesquisa for tratada como estágio prolongado, o país vai continuar 
+exportando cérebro formado com o nosso imposto. 
+O governo enviará ao Congresso a Proposta de Emenda à Constituição da Pesquisa, com um 
+objetivo simples de enunciar: pesquisador que cumprir os requisitos deixa de ser bolsista e passa a 
+ser servidor público, com carreira, com vínculo e com salário compatível com a qualificação que ele 
+tem. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 37 — 
+▪ Carreira federal de pesquisador, com ingresso por processo seletivo público de base curricular 
+e de produção, e não apenas por prova escrita, porque produção científica não se mede em 
+múltipla escolha. 
+▪ Requisitos objetivos de ingresso e de permanência, fixados na regulamentação: titulação, 
+produção verificável, orientação de novos pesquisadores e metas periódicas avaliadas por 
+pares. 
+▪ Vinculação da carreira à instituição de pesquisa e à universidade, com o pesquisador podendo 
+também lecionar, de modo que quem produz conhecimento forme a geração seguinte. 
+▪ Remuneração de entrada compatível com a de carreiras federais de nível equivalente. O 
+parâmetro é essa comparação, e não o valor histórico da bolsa. 
+▪ Fomento em todas as áreas, sem lista de temas privilegiados por conveniência política do 
+momento. Ciência básica também entra, porque ninguém sabe de antemão qual descoberta 
+vira vacina. 
+▪ Cláusula de contrapartida: quem ingressar na carreira com financiamento público de formação 
+assume compromisso de permanência por prazo determinado, com regras claras de 
+desligamento — sem transformar isso em prisão profissional. 
+Duas ressalvas que assumo por dever de honestidade. Criar carreira é despesa obrigatória e 
+continuada, e depende de espaço fiscal e de estimativa de impacto na forma da Lei de 
+Responsabilidade Fiscal. E a implantação será por etapas, começando pelas áreas de maior evasão 
+registrada. Prometer efetivação imediata e universal de todo bolsista do país seria mentira. 
+8.4 Ensino superior e financiamento à ciência 
+▪ Financiamento estável e previsível à pesquisa, com regra plurianual. Ciência não se planeja 
+em ciclo de contingenciamento. 
+▪ Fomento dirigido à pesquisa em sanidade animal, zoonoses e desenvolvimento de imunizantes 
+veterinários. O Brasil tem base instalada nessa área e a subaproveita. 
+ 
+INSTRUMENTO Lei orçamentária; programas federais de indução com condicionalidade; 
+expansão da rede federal; Proposta de Emenda à Constituição da Pesquisa. 
+COMO MEDIR Resultados de alfabetização em avaliação externa; matrículas em educação 
+profissional; execução do orçamento de fomento; número de pesquisadores 
+em carreira e saldo de migração de doutores. 
+PRAZO PEC da Pesquisa enviada no primeiro ano; primeira etapa de ingresso na 
+carreira até o segundo ano; expansão da rede ao longo do mandato. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 38 — 
+ 
+Eixo 9 — Esporte: formar atleta, não só premiar medalha 
+ 
+O Brasil trata esporte como festa de quatro em quatro anos. Aplaude o pódio, esquece o processo 
+e depois estranha que um país de duzentos milhões de pessoas dispute medalha em meia dúzia 
+de modalidades. 
+Quem convive com atleta de alto rendimento fora do futebol sabe do que estou falando. O sujeito 
+treina em dois turnos, disputa campeonato nacional, representa o país lá fora e paga o próprio 
+treinador. Com paratleta é pior. E o modelo de incentivo premia principalmente quem já chegou, o 
+que é uma forma cara de não formar ninguém. 
+9.1 Educação física de verdade na escola 
+Educação física é componente curricular obrigatório na educação básica desde a Lei de Diretrizes 
+e Bases. Na prática, em parte relevante da rede, virou aula vaga com bola no pátio. Não se descobre 
+talento assim, e não se forma criança saudável assim. 
+▪ Padrão nacional mínimo de carga horária, espaço e material para educação física, com 
+cofinanciamento federal condicionado ao cumprimento verificado. 
+▪ Professor de educação física com formação específica em todas as etapas, inclusive nos anos 
+iniciais, onde hoje a lacuna é maior. 
+▪ Avaliação periódica de aptidão física e motora dos escolares, com dado agregado publicado. 
+Quem não mede não descobre talento nem detecta sedentarismo infantil. 
+▪ Jogos escolares estruturados em calendário nacional permanente, com etapa municipal 
+obrigatória para a rede que recebe recurso federal, porque é na etapa municipal que o talento 
+aparece. 
+9.2 A bolsa vai ser do atleta, e o contrato é com a União 
+Aqui está a mudança de fundo. O Programa Bolsa Atleta existe desde 2004 e paga valores que vão 
+de algumas centenas a alguns milhares de reais por mês, conforme a categoria. O problema 
+estrutural não é o valor apenas: é o caminho. 
+Na arquitetura atual, o acesso passa por comprovação junto às entidades de administração do 
+desporto. Quem não está bem com a federação da sua modalidade encontra dificuldade para juntar 
+o documento que o edital exige, e o atleta acaba dependendo de uma relação política que nada tem 
+a ver com o desempenho dele. Não vou acusar entidade nenhuma neste documento; vou consertar 
+o desenho. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 39 — 
+▪ Inscrição individual e direta do atleta e do paratleta na plataforma federal, sem exigência de 
+indicação, anuência ou intermediação de federação ou confederação. 
+▪ Comprovação por resultado oficial verificável em competição reconhecida, extraído de base 
+pública. Se o resultado existe e é auditável, a entidade não precisa carimbar nada. 
+▪ Contrato direto entre o atleta e a União, com pagamento em conta do próprio atleta e sem 
+repasse por terceiro. 
+▪ Metas objetivas de manutenção, avaliadas periodicamente: participação em competição, 
+evolução de marca ou de ranking e cumprimento do plano de treinamento apresentado. Quem 
+não cumpre, sai. Quem cumpre, renova sem depender de simpatia. 
+▪ Recurso administrativo com prazo e resposta fundamentada para quem for indeferido, e 
+publicação da lista completa de contemplados, valores e critérios aplicados. 
+9.3 Bolsa que cobre o custo real de competir 
+Bolsa que não paga treinador, equipamento e viagem não forma atleta de ponta. Forma atleta que 
+sobrevive. 
+▪ Revisão da estrutura de valores por categoria, tomando como referência o custo real de 
+treinamento e de calendário competitivo da modalidade, apurado em estudo técnico publicado 
+antes da fixação. 
+▪ Componente adicional destinado a equipe técnica, equipamento e deslocamento, prestado com 
+comprovação simples, para não transformar o atleta em departamento de contabilidade. 
+▪ Paridade de tratamento entre atleta e paratleta, com reconhecimento do custo adicional de 
+acessibilidade, equipamento adaptado e acompanhamento especializado. 
+▪ Cobertura previdenciária e seguro de acidente para o atleta bolsista de alto rendimento, que 
+hoje se machuca em serviço do país e fica sem nada. 
+▪ Prioridade orçamentária para modalidades não olímpicas de rendimento e para modalidades 
+com base instalada e sem patrocínio privado, que são exatamente as que o mercado não 
+financia. 
+9.4 Estrutura e transição de carreira 
+▪ Rede de centros de treinamento regionais com uso compartilhado entre rede federal de ensino, 
+clubes e seleções, para que o equipamento público não fique fechado onze meses por ano. 
+▪ Programa de qualificação e certificação de treinadores, com fixação em regiões carentes de 
+técnico qualificado. 
+▪ Apoio à transição de carreira do atleta ao fim da vida competitiva, com formação e 
+aproveitamento como treinador na rede pública. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 40 — 
+Uma nota sobre financiamento, para não prometer no escuro. A PEC nº 18/2025, ao redirecionar 
+parte da arrecadação das apostas de quota fixa para os fundos de segurança pública, mexe em 
+receita que hoje também abastece o esporte, e isso foi objeto de audiência pública no Senado em 
+abril de 2026. Um governo que quer as duas coisas precisa dizer de onde sai o dinheiro das duas, 
+e essa conta entra na negociação orçamentária do primeiro ano em vez de ser empurrada com a 
+barriga. 
+ 
+INSTRUMENTO Alteração da Lei nº 10.891/2004 e da legislação do desporto; ato do órgão 
+federal de esporte para a plataforma de inscrição individual; convênio 
+federativo para educação física escolar; lei orçamentária. 
+COMO MEDIR Número de atletas e paratletas bolsistas por modalidade e por região; 
+percentual de bolsas concedidas sem intermediação de entidade; carga 
+horária efetiva de educação física na rede que recebe recurso federal; 
+resultados em competição internacional por modalidade. 
+PRAZO Plataforma de inscrição individual no primeiro ano; nova estrutura de valores 
+no segundo ano; centros regionais ao longo do mandato. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 41 — 
+ 
+Eixo 10 — Habitação: casa própria onde a pessoa escolhe morar 
+ 
+Qualquer inquilino brasileiro já fez esta conta de cabeça. Ele paga todo mês um valor que, se fosse 
+parcela de financiamento, a esta altura já teria comprado o imóvel. Paga e não fica com nada. 
+A política habitacional brasileira envelheceu presa a um formato: o Estado escolhe o terreno, 
+contrata a construtora, ergue o conjunto e sorteia. Quem é contemplado recebe uma casa em um 
+lugar que não escolheu, muitas vezes longe do trabalho, da escola dos filhos e da rede de gente 
+que sustenta a vida dele. Parte relevante dessas unidades acaba vendida, alugada ou abandonada, 
+o que era previsível. 
+A proposta inverte a lógica. Em vez de o governo decidir onde a pessoa vai morar, o governo dá a 
+ela poder de compra e ela decide. 
+10.1 Portabilidade do aluguel para financiamento 
+O centro da proposta: quem paga aluguel e comprova capacidade de pagamento por esse próprio 
+histórico tem acesso automático a financiamento habitacional de parcela equivalente ao aluguel que 
+já paga. 
+▪ Reconhecimento do histórico de pagamento de aluguel como comprovação de capacidade de 
+pagamento, com validação por comprovante bancário e por cadastro público de contratos de 
+locação de adesão voluntária. 
+▪ Direito ao financiamento com parcela inicial equivalente ao valor do aluguel comprovado, dentro 
+do teto de renda e de valor de imóvel definidos em regulamento. 
+▪ Análise automatizada com resposta em prazo fixado, e negativa sempre fundamentada e 
+recorrível. Fila de habitação decidida no balcão é onde mora o clientelismo. 
+▪ Livre escolha do imóvel pelo beneficiário, novo ou usado, em qualquer município, dentro dos 
+parâmetros de valor. O Estado financia; a pessoa decide onde vai viver. 
+10.2 Juros baixos de verdade, e de onde eles saem 
+Prometer juros baixos sem dizer a fonte é conversa de palanque. As fontes que esta proposta 
+identifica são três, e todas já existem. 
+▪ Direcionamento dos recursos do FGTS e do Sistema Brasileiro de Poupança e Empréstimo 
+para a faixa de renda que hoje não acessa financiamento, com subsídio explícito e orçado, e 
+não escondido em taxa. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 42 — 
+▪ Redução do custo de originação por meio da automatização da análise, do cartório eletrônico 
+e da eliminação de exigência documental duplicada. Parte do que o mutuário paga é 
+ineficiência, não risco. 
+▪ Garantia pública parcial para o financiamento de quem tem histórico de aluguel e não tem 
+entrada, reduzindo o prêmio de risco cobrado pelo banco. 
+▪ Uso do imóvel vazio: incentivo tributário à colocação no mercado de unidade retomada e de 
+estoque parado, inclusive imóvel da União sem destinação, que hoje custa manutenção e não 
+abriga ninguém. 
+10.3 Regularização fundiária e o que já está construído 
+▪ Titulação em massa em áreas consolidadas, com procedimento simplificado. Milhões de 
+brasileiros já moram na própria casa e não têm o papel que transforma isso em patrimônio, em 
+garantia e em crédito. 
+▪ Prioridade para requalificação e ocupação de área urbana com infraestrutura já instalada, em 
+vez de novo conjunto na periferia da periferia, que sai barato na planilha e caro na vida das 
+pessoas. 
+▪ Assistência técnica pública gratuita para reforma e ampliação, assegurada pela Lei nº 
+11.888/2008 e nunca executada em escala. Aqui não se cria direito: paga-se um que já existe 
+no papel há quase vinte anos. 
+10.4 A meta, e como ela será cobrada 
+A meta declarada é a redução do déficit habitacional medido pela metodologia da Fundação João 
+Pinheiro, com série publicada anualmente. Não a contagem de unidades entregues, indicador que 
+os governos preferem porque cresce mesmo quando o problema não diminui. 
+Não apresento aqui número de unidades nem valor de subsídio. Fixar isso sem acesso ao caixa do 
+FGTS e ao quadro fiscal do exercício de posse produziria uma promessa bonita e falsa. O que 
+assumo é o indicador e a periodicidade da cobrança. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 43 — 
+INSTRUMENTO Alteração da legislação do Sistema Financeiro da Habitação e do FGTS; 
+regulamentação do cadastro público de locação; lei orçamentária para o 
+subsídio; ato do Conselho Curador do FGTS. 
+COMO MEDIR Déficit habitacional pela metodologia da Fundação João Pinheiro; número de 
+financiamentos concedidos com base em histórico de aluguel; percentual de 
+contratos com imóvel escolhido pelo beneficiário; títulos de regularização 
+emitidos. 
+PRAZO Cadastro e regra de portabilidade do aluguel no primeiro ano; primeira safra 
+de financiamentos no segundo ano; meta de déficit medida anualmente. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 44 — 
+ 
+Eixo 11 — Estado digital, desburocratização e transparência 
+ 
+Este eixo é o que torna os outros exequíveis. Arrecadação automática exige base de dado íntegra. 
+Segurança integrada exige interoperabilidade. Fila pública de cirurgia exige sistema que não caia. 
+11.1 Interoperabilidade obrigatória 
+Este eixo precisa começar com uma constatação incômoda. Quase tudo o que se costuma prometer 
+aqui já é lei, e lei vencida. 
+A Lei nº 14.534, de 11 de janeiro de 2023, estabeleceu o CPF como número único e suficiente de 
+identificação do cidadão nos bancos de dados públicos, vedou a exigência de outro número e fixou 
+dois prazos: doze meses para adequação dos sistemas e vinte e quatro meses para que os órgãos 
+tivessem interoperabilidade entre cadastros e bases a partir do CPF. O segundo prazo venceu em 
+janeiro de 2025. A Lei nº 13.726/2018 já proíbe exigir do cidadão documento que a administração 
+possui, e a Lei nº 14.129/2021 já traz o arcabouço de governo digital. 
+O problema brasileiro em Estado digital não é ausência de norma. É norma descumprida sem que 
+nada aconteça com quem descumpre. Por isso o compromisso deste eixo é de execução com ônus, 
+e não de nova legislação. 
+▪ Auditoria e publicação, no primeiro ano, do grau de cumprimento da Lei nº 14.534/2023 órgão 
+por órgão, com prazo de regularização e responsável nomeado. Hoje ninguém sabe dizer 
+quantas bases federais já interoperam pelo CPF, o que por si só responde à pergunta. 
+▪ Aplicação da regra de ônus do Eixo 2 ao descumprimento: efeito sobre gratificação de 
+desempenho do dirigente e sobre a permanência em cargo de direção, porque prazo legal sem 
+consequência é sugestão. 
+▪ Registro auditável de toda consulta a dado pessoal feita por agente público, com 
+responsabilização por consulta indevida. 
+11.2 Proteção de dados a sério 
+▪ Cumprimento efetivo da Lei nº 13.709/2018 dentro da administração federal, com encarregado 
+designado em cada órgão e relatórios de impacto publicados. 
+▪ Reforço orçamentário e de pessoal para a autoridade nacional de proteção de dados. 
+11.3 Menos exigência, mais resposta 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 45 — 
+▪ Fim, na prática, da exigência de documento que a própria administração já possui — o que a 
+Lei nº 13.726/2018 determina desde 2018 e o balcão continua ignorando. Fiscalização por 
+cliente oculto e canal de denúncia com resposta obrigatória. 
+▪ Prazo legal de resposta com deferimento tácito nos procedimentos de baixo risco. 
+▪ Revisão periódica obrigatória do estoque regulatório, com revogação por decurso de prazo da 
+norma que não passar na revisão. 
+11.4 Transparência ativa 
+▪ Publicação em formato aberto, e em tempo real quando possível, da execução orçamentária, 
+dos contratos e das metas deste plano. 
+▪ Painel público de acompanhamento do plano de governo, com indicador, série histórica e 
+responsável identificado por meta. 
+ 
+INSTRUMENTO Decreto e ato administrativo; lei ordinária para interoperabilidade e para 
+deferimento tácito; lei orçamentária. 
+COMO MEDIR Percentual de bases federais interoperáveis; número de exigências 
+documentais eliminadas; tempo médio de resposta administrativa; 
+disponibilidade do painel público. 
+PRAZO Painel público nos primeiros seis meses; interoperabilidade em cronograma 
+de vinte e quatro meses. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 46 — 
+ 
+Eixo 12 — Infraestrutura, energia e meio ambiente 
+ 
+Sem logística barata, redução de imposto vira desconto que o frete come no caminho. Sem energia 
+previsível, indústria não investe. E sem controle ambiental o Brasil perde mercado, não por pressão 
+ideológica, mas por cláusula contratual de quem compra. 
+12.1 Logística: o Brasil nos trilhos 
+O Brasil escoa a própria safra em cima de caminhão, por rodovia, em distâncias continentais. Isso 
+já é caro hoje. Com o crescimento projetado da produção agrícola e mineral, deixa de ser apenas 
+caro e passa a ser fisicamente inviável: não existe asfalto e não existe frota que absorvam o volume 
+que vem. 
+Convém dizer com todas as letras o que a proposta não é: não se trata de tirar caminhão da estrada. 
+O caminhão continua sendo insubstituível na ponta, na coleta, na entrega e na distância curta. O 
+que não pode continuar é o país mandar soja de Sorriso ao porto de Santos sobre pneu. Ferrovia 
+carrega o volume; caminhão carrega o resto. Onde os dois modais se dividem certo, o frete cai para 
+todo mundo, inclusive para o caminhoneiro, que troca viagem longa mal paga por viagem curta com 
+mais giro. 
+▪ Programa Brasil nos Trilhos: retomada e conclusão dos corredores ferroviários de carga 
+prioritários, com cronograma físico publicado e marco de entrega por trecho. 
+▪ Uso pleno do regime de autorização ferroviária, que permite ao setor privado construir e operar 
+ferrovia própria, com o Estado fazendo o que só ele faz: licenciar rápido, desapropriar faixa e 
+garantir estabilidade regulatória. 
+▪ Integração ferrovia-porto planejada em conjunto, porque trilho que morre a quinze quilômetros 
+do terminal não resolve nada. 
+▪ Hidrovia e cabotagem tratadas no mesmo plano. O Brasil tem litoral e tem rio navegável, e usa 
+mal os dois. 
+▪ Critério de priorização por custo logístico por tonelada transportada, publicado por corredor, em 
+vez de escolha por peso político. 
+▪ Fiscalização real de contrato de concessão, com penalidade aplicada. O problema brasileiro 
+raramente é o modelo; é a fiscalização que não acontece. 
+▪ Saneamento: cobrança da meta de universalização já fixada pelo marco legal de 2020, 
+acompanhada indicador a indicador e por prestador, com transparência sobre quem vai 
+descumprir antes de o prazo vencer. Esgoto tratado é a política de saúde com melhor relação 
+custo-benefício disponível. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 47 — 
+12.2 Energia 
+▪ Previsibilidade regulatória e leilões com regra estável. Investidor não foge de risco; foge de 
+regra que muda no meio. 
+▪ Usar a matriz renovável já existente como fator de atração industrial, sobretudo para setores 
+eletrointensivos que precisam comprovar origem limpa. 
+▪ Reduzir os encargos setoriais embutidos na tarifa, com transparência sobre o que cada 
+consumidor paga e por quê. 
+12.3 Meio ambiente e clima 
+▪ Combater o desmatamento ilegal com inteligência, rastreabilidade da cadeia produtiva e 
+responsabilização patrimonial, com o mesmo instrumental do Pilar 2 do Eixo 3. 
+▪ Licenciamento ambiental com prazo definido e análise técnica de qualidade. Demora não é 
+rigor; costuma ser falta de gente. 
+▪ Responsável nomeado para cada processo de licenciamento e para cada marco de obra, com 
+prazo correndo em painel público e apuração automática ao ser descumprido, na mesma regra 
+de ônus adotada no Eixo 2. Prazo sem responsável identificado é prazo decorativo. 
+▪ Efeito do descumprimento sobre gratificação de desempenho e sobre a permanência em cargo 
+de direção, e, no caso de concessionária, sobre a medição contratual do período. 
+▪ Adaptação climática com foco em defesa civil, incluindo a proteção de animais em desastres 
+prevista na Lei nº 15.355/2026. 
+Mineração em terra indígena: sair da clandestinidade 
+Hoje o garimpo em terra indígena é ilegal e acontece assim mesmo. O resultado dessa combinação 
+é conhecido: mercúrio no rio, pista clandestina, invasão armada, doença e nenhum centavo para a 
+comunidade que mora ali. A proibição no papel não protegeu ninguém; apenas entregou a atividade 
+ao crime. 
+Defendemos abrir o debate sobre um regime legal de aproveitamento mineral em terra indígena 
+com participação econômica dos indígenas e responsabilidade ambiental. E é preciso dizer, com a 
+franqueza que este plano prometeu, que o caminho jurídico é estreito e demorado. 
+▪ A Constituição, no art. 231, §3º, exige autorização do Congresso Nacional caso a caso, oitiva 
+das comunidades afetadas e participação delas nos resultados da lavra, na forma da lei — lei 
+que até hoje não foi editada. 
+▪ O art. 231, §7º afasta das terras indígenas o dispositivo constitucional que manda o Estado 
+favorecer a organização da atividade garimpeira em cooperativas, e o art. 23, alínea “a”, da Lei 
+nº 7.805/1989 exclui expressamente a permissão de lavra garimpeira nessas áreas. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 48 — 
+Regularizar garimpo, e não apenas mineração, exige mexer nesse ponto — o que é matéria do 
+Congresso e provavelmente do Supremo. 
+▪ O Brasil é signatário da Convenção nº 169 da Organização Internacional do Trabalho, que 
+impõe consulta livre, prévia e informada às comunidades. Consulta feita depois da decisão não 
+é consulta. 
+O compromisso que assumo é o de enviar ao Congresso o projeto que regulamenta o art. 231, §3º, 
+com três condições inegociáveis no texto: consentimento da comunidade afetada apurado por 
+consulta na forma da Convenção nº 169; participação econômica dos indígenas nos resultados, 
+paga diretamente e com governança definida pela própria comunidade, e não por intermediário; e 
+licenciamento ambiental pleno, com proibição de mercúrio, garantia financeira prévia para 
+recuperação de área degradada e responsabilidade solidária de quem compra o minério. 
+Sem essas três condições, não é regularização. É legalizar o que já está acontecendo e lavar a 
+assinatura do Estado nisso. Registro também que o tema é um dos mais litigiosos do país e que 
+qualquer marco legal aqui será judicializado no dia seguinte à publicação. 
+ 
+INSTRUMENTO Lei orçamentária; contratos de concessão e regime de autorização 
+ferroviária; regulação setorial; projeto de lei de regulamentação do art. 231, 
+§3º, da Constituição; ato administrativo dos órgãos ambientais. 
+COMO MEDIR Custo logístico por corredor e participação do modal ferroviário na matriz de 
+transporte de carga; quilômetros de ferrovia entregues por trecho; cobertura 
+de coleta e tratamento de esgoto; tarifa média de energia; área de 
+desmatamento ilegal detectada; percentual de licenciamentos concluídos no 
+prazo. 
+PRAZO Critérios de priorização e painel de prazos publicados no primeiro ano; 
+projeto de regulamentação do art. 231, §3º no primeiro ano; metas físicas 
+ferroviárias ao longo do mandato. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 49 — 
+ 
+Eixo 13 — Defesa nacional e guerra ao crime organizado 
+ 
+Comecemos por três números que explicam quase tudo. 
+O Brasil investe cerca de 1,08% do produto interno bruto em defesa, patamar que o coloca entre os 
+últimos do mundo em capacidade militar relativa. Do orçamento da Defesa, aproximadamente 78% 
+vão para pagamento de pessoal da ativa, da reserva e pensionistas, o que sobra pouco para equipar 
+quem serve. E a tabela de soldos vigente desde janeiro de 2026 começa em R$ 1.177,00 para o 
+soldado-recruta e chega a R$ 14.711,00 no topo da hierarquia — uma distância de mais de doze 
+vezes, com o piso abaixo do salário mínimo nacional. 
+Um país com quinze mil quilômetros de fronteira terrestre, pré-sal, Amazônia e a maior reserva de 
+água doce do planeta não pode se defender com esse orçamento nem pagar assim quem carrega 
+o fuzil. 
+13.1 Piso constitucional de 2% do produto interno bruto 
+Apoiamos a aprovação da Proposta de Emenda à Constituição nº 55, de 2023, que destina no 
+mínimo 2% do PIB à defesa e vincula ao menos 35% desse valor à modernização. A emenda está 
+parada no Congresso há três anos. 
+A cláusula dos 35% é a parte que importa e a que menos se comenta. Sem ela, dobrar o orçamento 
+apenas dobraria a folha, e o Brasil continuaria com tropa mal equipada e conta maior. Com ela, 
+cada real adicional tem destino definido em equipamento, manutenção e projeto estratégico. 
+A elevação será gradual, distribuída ao longo do mandato, e não em salto único. Há uma objeção 
+séria a registrar: economistas como Bráulio Borges, do FGV IBRE, alertam que vincular percentual 
+na Constituição reduz a flexibilidade fiscal e pode fazer o gasto militar crescer à custa de saúde e 
+educação. A resposta desta candidatura é o cronograma escalonado e a vinculação dos 35% à 
+modernização, que impede a captura do aumento pela despesa corrente. 
+13.2 O soldo do praça 
+Os militares ficaram cinco anos sem reajuste, de 2020 a 2025. A recomposição de 9%, dividida em 
+duas parcelas pela Lei nº 15.167, de julho de 2025, custou R$ 3 bilhões em 2025 e R$ 5,3 bilhões 
+em 2026, alcançando cerca de 740 mil pessoas entre ativa, reserva e pensionistas. Foi correção 
+parcial de perda antiga, e o próprio relator no Congresso a classificou como insuficiente. 
+Nossa proposta é diferente na direção: a recomposição seguinte será concentrada na base da 
+pirâmide, e não distribuída em percentual igual para todos. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 50 — 
+▪ Piso do soldo não inferior ao salário mínimo nacional. Um recruta com soldo de R$ 1.177 diante 
+de um mínimo de R$ 1.621 é uma distorção que se corrige com uma linha de lei. 
+▪ Recomposição escalonada com percentual maior para soldado, cabo e sargento, que é onde 
+está o maior contingente e a maior rotatividade. Percentual linear preserva a distância de doze 
+vezes entre a base e o topo; percentual diferenciado a reduz. 
+▪ Revisão do escalonamento vertical com estudo publicado, comparando soldo e remuneração 
+média efetivamente paga em cada graduação, dado que as Forças já apuram e quase não 
+divulgam. 
+▪ Enfrentamento da crise de retenção, admitida publicamente por comandantes: sargento 
+formado que sai da Força depois de anos de investimento público é prejuízo duas vezes. 
+13.3 Fronteira com presença permanente 
+A fronteira brasileira é a porta por onde entram a arma e a droga que abastecem a facção na periferia 
+de São Paulo e do Rio. Enquanto ela for vigiada por operação episódica, o resultado será episódico. 
+A Lei Complementar nº 97, de 1999, já atribui às Forças Armadas poder de polícia na faixa de 
+fronteira, com competência para patrulhar, revistar pessoas, veículos, embarcações e aeronaves e 
+efetuar prisões em flagrante. O instrumento existe e é subutilizado. 
+▪ Bases permanentes nos trechos críticos, com efetivo fixo, em lugar de operações de algumas 
+semanas por ano. 
+▪ Conclusão e ampliação do sistema integrado de monitoramento de fronteiras, com radar, 
+sensoriamento remoto, aeronave não tripulada e centro de comando integrado com as polícias. 
+▪ Patrulhamento fluvial e aéreo permanente na Amazônia e na Amazônia Azul, articulado com o 
+controle de rotas do Eixo 3. 
+▪ Cooperação operacional com os países vizinhos, porque fronteira se fecha dos dois lados ou 
+não se fecha. 
+13.4 Guerra ao tráfico: o que isso significa juridicamente 
+A expressão é forte e nós a usamos de propósito, mas ela precisa vir acompanhada do instrumento 
+correto, ou vira frase de efeito que não sobrevive ao primeiro parecer. 
+Declaração de guerra, no sentido do art. 84, XIX, da Constituição, é ato dirigido a agressão 
+estrangeira e depende de autorização do Congresso. Não é disso que se trata. O que propomos é 
+o emprego pleno e permanente dos instrumentos que já existem contra as organizações que hoje 
+disputam território com o Estado brasileiro. 
+▪ Emprego permanente das Forças Armadas na faixa de fronteira, com o poder de polícia da Lei 
+Complementar nº 97/1999, dirigido ao tráfico de armas, drogas e ao contrabando. 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 51 — 
+▪ Apoio de inteligência, logística, transporte aéreo e sensoriamento às polícias estaduais e 
+federal, sem substituí-las no policiamento ostensivo urbano. 
+▪ Garantia da Lei e da Ordem empregada com missão, prazo e área delimitados em decreto, 
+com relatório de execução enviado ao Congresso ao fim de cada emprego. 
+▪ Integração da capacidade militar de inteligência ao trabalho de asfixia financeira descrito no 
+Pilar 2 do Eixo 3. Facção se combate no rio, na pista clandestina e na conta bancária, nessa 
+ordem de dificuldade. 
+E as salvaguardas, porque quem propõe uso da tropa tem obrigação de dizer onde ela para. Regras 
+de engajamento publicadas e treinadas. Responsabilidade penal e disciplinar preservada 
+integralmente. Nenhum emprego por prazo indeterminado. Nenhuma missão de segurança pública 
+sem base legal expressa. Forças Armadas empregadas contra o crime organizado são instrumento 
+de exceção controlada, não substituto permanente da polícia — e é justamente essa contenção que 
+garante que a medida funcione sem desgastar a instituição. 
+13.5 Investir melhor, e não apenas investir mais 
+Dobrar orçamento sem mudar a forma de gastar produz um Ministério da Defesa mais caro e 
+igualmente desaparelhado. 
+▪ Contratos plurianuais de projeto estratégico protegidos de contingenciamento, para que caça, 
+submarino, fragata e blindado deixem de ser interrompidos e reiniciados a cada troca de 
+governo, o que encarece tudo e não entrega nada. 
+▪ Prioridade para manutenção e prontidão. Equipamento parado por falta de peça é dinheiro 
+público em pátio de hangar. 
+▪ Base Industrial de Defesa com exigência de conteúdo nacional e meta de exportação, porque 
+defesa que gera indústria se paga em parte e gera emprego qualificado. 
+▪ Defesa cibernética tratada como infraestrutura crítica, integrada ao Eixo 11 e à proteção das 
+bases de dados do Estado. 
+▪ Publicação anual de relatório de prontidão por Força, com indicadores de disponibilidade de 
+meios. Hoje o país não sabe quanto da sua frota voa, navega ou anda. 
+13.6 O interesse brasileiro em toda negociação externa 
+Este plano não traz doutrina de política externa, e a omissão é deliberada. Doutrina se escreve com 
+o Itamaraty, no gabinete, com o quadro internacional do dia da posse à vista. O que cabe aqui é o 
+critério, e ele é um só. 
+Em toda negociação internacional de que o Brasil participar — comercial, sanitária, ambiental, 
+tecnológica ou de defesa — a pergunta que decide a posição brasileira é o que o Brasil ganha. Não 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 52 — 
+a simpatia por um bloco, não a fidelidade a um alinhamento herdado, não o desconforto de contrariar 
+quem está do outro lado da mesa. 
+▪ Acordo comercial que não abre mercado para produto brasileiro não é assinado. Acesso se 
+troca por acesso. 
+▪ Barreira sanitária ou tarifária imposta ao nosso produto é respondida com reciprocidade, pelos 
+instrumentos que o direito internacional já oferece, e não com nota de repúdio. 
+▪ Investimento estrangeiro em setor estratégico vem acompanhado de contrapartida em 
+conteúdo nacional, transferência de tecnologia e emprego no Brasil. 
+▪ Posição brasileira em foro multilateral definida caso a caso, por conveniência nacional 
+declarada, e não por alinhamento automático. 
+▪ Diplomacia sanitária e comercial a serviço do produtor brasileiro, com presença técnica 
+permanente onde estão os compradores da nossa carne, do nosso grão e do nosso minério. 
+É disso que o nome deste plano trata. Brasil em primeiro lugar não é frase de efeito sobre os outros 
+países. É a regra de decisão da mesa de negociação. 
+ 
+INSTRUMENTO Apoio à PEC nº 55/2023; lei de reestruturação do soldo alterando a Lei nº 
+15.167/2025; emprego das Forças Armadas na forma da Lei Complementar 
+nº 97/1999; decreto de Garantia da Lei e da Ordem com prazo e área 
+definidos; contratos plurianuais de projetos estratégicos. 
+COMO MEDIR Orçamento de defesa em percentual do PIB e percentual efetivamente 
+aplicado em modernização; razão entre o menor e o maior soldo; taxa de 
+evasão de praças; apreensões de arma e droga na faixa de fronteira; índice 
+de disponibilidade de meios por Força. 
+PRAZO Projeto de recomposição do soldo no primeiro ano; bases permanentes de 
+fronteira em dois anos; trajetória de 2% do PIB concluída até o fim do 
+mandato. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 53 — 
+ 
+Eixo 14 — Pacto institucional e superação da polarização 
+ 
+Um governo de partido sem maioria parlamentar governa por acordo ou não governa. Fingir o 
+contrário seria o primeiro item de má-fé deste documento. 
+14.1 Como pretendemos negociar 
+▪ Agenda legislativa pública e priorizada, com no máximo cinco projetos declarados como 
+prioridade por semestre. Governo que quer tudo ao mesmo tempo não aprova nada. 
+▪ Composição ministerial por critério técnico e compromisso programático verificável, com 
+currículo e vinculações de cada indicado publicados no ato da nomeação. 
+▪ Nenhuma negociação de emenda orçamentária fora do processo público e rastreável. 
+14.2 Relação com os outros poderes e com a federação 
+▪ Respeito à decisão judicial, inclusive quando desfavorável ao governo, com uso dos meios 
+processuais em vez do enfrentamento retórico. 
+▪ Conselho permanente de articulação com governadores e com as entidades municipalistas 
+para as políticas de execução compartilhada: segurança, saúde, educação e defesa civil. 
+14.3 Sobre o tom 
+Esta é decisão de governo, e não apenas de campanha. A Presidência da República não será usada 
+para fabricar inimigo interno. 
+Quem governa a partir do ódio precisa dele todo dia. E acaba prisioneiro da própria base, que exige 
+a briga seguinte antes que a anterior tenha terminado. 
+ 
+INSTRUMENTO Prática de governo; ato de nomeação; regimento de conselho federativo. 
+COMO MEDIR Taxa de aprovação da agenda prioritária no Congresso; publicidade das 
+nomeações; funcionamento regular do conselho federativo. 
+PRAZO Desde o primeiro dia de mandato. 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 54 — 
+ 
+15. Os primeiros cem dias 
+ 
+O que depende só do Executivo e não precisa esperar o Congresso. 
+Prazo Entrega Base 
+Dias 1 a 30 Publicação do painel aberto de acompanhamento deste plano, 
+com meta, indicador e responsável nomeado. 
+Decreto 
+Dias 1 a 30 Determinação de interoperabilidade das bases federais de 
+segurança pública, com cronograma e responsável por órgão. 
+Decreto 
+Dias 1 a 30 Instalação do grupo técnico da reforma tributária, com prazo 
+fechado para o estudo de impacto orçamentário. 
+Ato ministerial 
+Dias 30 a 60 Plano nacional de contingência zoossanitária revisado e 
+submetido a simulação. 
+Ato do serviço 
+veterinário oficial 
+Dias 30 a 60 Programa federal de estruturação da fiscalização de maus -
+tratos, com integração entre órgão ambiental, polícias e serviço 
+veterinário. 
+Decreto e 
+convênio 
+Dias 30 a 60 Revisão do estoque de exigências documentais federais, com 
+primeira lista de eliminação publicada. 
+Decreto 
+Dias 60 a 
+100 
+Envio ao Congresso da Proposta de Emenda à Constituição da 
+reforma tributária, instruída com estimativa de impacto. 
+PEC 
+Dias 60 a 
+100 
+Fila nacional pública de procedimentos eletivos no ar, ainda que 
+em versão inicial. 
+Portaria 
+Dias 60 a 
+100 
+Condicionalidade de repasse federal de segurança à 
+alimentação das bases nacionais formalizada. 
+Portaria e 
+convênio 
+Dias 60 a 
+100 
+Caderno técnico do modelo penitenciário de segurança máxima 
+publicado, com custo, projeto de referência e parecer de 
+constitucionalidade, para instruir a consulta popular. 
+Ato do Ministério 
+da Justiça 
+Dias 30 a 60 Painel público de prazos administrativos no ar, com 
+responsável nomeado por processo e apuração automática de 
+descumprimento. 
+Decreto 
+Dias 60 a 
+100 
+Plataforma de inscrição individual do atleta e do paratleta 
+aberta, sem intermediação de entidade. 
+Ato do órgão 
+federal de 
+esporte 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 55 — 
+Prazo Entrega Base 
+Dias 60 a 
+100 
+Regra de aproveitamento do histórico de aluguel como 
+comprovação de capacidade de pagamento aprovada e 
+cadastro público de locação em operação. 
+Resolução do 
+Conselho 
+Curador do 
+FGTS e decreto 
+Dias 60 a 
+100 
+Envio ao Congresso da PEC da Pesquisa e do projeto de 
+regulamentação do art. 231, §3º, da Constituição. 
+PEC e projeto de 
+lei 
+Dias 30 a 60 Determinação de emprego permanente das Forças Armadas 
+nos trechos críticos de fronteira, com poder de polícia da LC nº 
+97/1999. 
+Decreto e 
+diretriz 
+ministerial 
+Dias 60 a 
+100 
+Envio do projeto de recomposição do soldo com prioridade para 
+a base da pirâmide e piso não inferior ao salário mínimo. 
+Projeto de lei 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 56 — 
+ 
+16. Painel de indicadores 
+ 
+Nenhum indicador deste painel é produzido pelo governo de forma isolada. Todos vêm de fonte 
+pública identificável, que é a única maneira de a cobrança ser real. 
+Eixo Indicador Fonte 
+Tributário Arrecadação federal comparada, mês a mês, entre o 
+novo tributo e os substituídos 
+Receita Federal 
+Tributário Número de obrigações acessórias federais extintas Receita Federal 
+Trabalho Taxa de informalidade e saldo de emprego formal PNAD Contínua (IBGE) e 
+Novo Caged 
+Trabalho Tempo médio de abertura de empresa Mapa de Empresas / 
+Redesim 
+Segurança Homicídios por cem mil habitantes Sinesp e Atlas da 
+Violência 
+Segurança Ativos criminais bloqueados e efetivamente 
+destinados 
+Ministério da Justiça e 
+CNJ 
+Segurança Tramitação do decreto legislativo de convocação do 
+plebiscito 
+Congresso Nacional 
+Saúde Única Cobertura vacinal antirrábica animal por município Ministério da Saúde 
+Saúde Única Incidência notificada de leishmaniose visceral e 
+leptospirose 
+Sinan 
+Proteção 
+animal 
+Autos de infração lavrados e efetivamente cobrados Ibama e MMA 
+Agropecuária Status sanitários mantidos e mercados abertos Mapa e OMSA 
+Saúde Tempo mediano de espera por procedimento eletivo Painel público do 
+Ministério da Saúde 
+Educação Resultado de alfabetização em avaliação externa Inep 
+Estado digital Percentual de bases federais interoperáveis Painel do plano de 
+governo 
+Estado digital Pedidos deferidos por decurso de prazo, por órgão Painel de prazos 
+administrativos 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 57 — 
+Eixo Indicador Fonte 
+Esporte Atletas e paratletas bolsistas por modalidade e por 
+região 
+Ministério do Esporte 
+Habitação Déficit habitacional Fundação João Pinheiro 
+Habitação Financiamentos concedidos com base em histórico 
+de aluguel 
+Caixa e Banco Central 
+Educação Pesquisadores em carreira e saldo de migração de 
+doutores 
+CNPq, Capes e RAIS 
+Infraestrutura Participação do modal ferroviário no transporte de 
+carga 
+ANTT e EPL 
+Defesa Orçamento de defesa em percentual do PIB e 
+parcela aplicada em modernização 
+Ministério da Defesa e 
+SIOP 
+Defesa Razão entre o menor e o maior soldo das Forças 
+Armadas 
+Tabela de soldos, Diário 
+Oficial 
+Defesa Apreensões de arma e droga na faixa de fronteira Ministério da Defesa e 
+Polícia Federal 
+ 
+ Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 
+— 58 — 
+ 
+17. Compromissos de transparência 
+ 
+1. Publicar, no primeiro trimestre de mandato, o painel de acompanhamento deste plano, com o 
+estado de cada meta e o nome do responsável. 
+2. Revisar o plano publicamente todo ano, registrando o que foi cumprido, o que foi alterado e 
+por quê. Meta abandonada em silêncio é meta que nunca existiu. 
+3. Divulgar a agenda oficial completa do Presidente e do Vice, com identificação de quem 
+participou de cada reunião. 
+4. Anexar estimativa de impacto orçamentário e financeiro a todo projeto enviado ao Congresso, 
+na forma da Lei Complementar nº 101/2000. 
+5. Publicar currículo e vinculações de todo indicado a cargo de direção na administração federal, 
+no ato da nomeação. 
+ 
+Partido Democrata — 35 
+Brasil em Primeiro Lugar
