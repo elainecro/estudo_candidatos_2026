@@ -1,0 +1,178 @@
+{
+  "sintese": "O plano diz que o Brasil vive sob o domínio do crime e do gasto público sem controle, e organiza as propostas como uma jornada do cidadão: segurança, mulheres, menos fila, preço mais baixo, educação, trabalho, crescimento e contas em ordem. O tom é ideológico e eleitoral, com muitos ataques ao PT e ao governo Lula e muitos elogios ao governo Jair Bolsonaro, mas traz medidas concretas em segurança, infraestrutura e gestão pública. O documento se define como uma alternativa \"liberal, conservadora, reformista\". Cita Flávio Bolsonaro uma única vez, em terceira pessoa, como autor da PEC do fim da reeleição, e não menciona o partido nem o número do candidato.",
+  "eixos": [
+    {
+      "tema": "Segurança pública (Brasil sem Medo)",
+      "propostas": [
+        "Declarar PCC, CV, milícias e outras facções como organizações narcoterroristas e bloquear os ativos e a lavagem de dinheiro delas.",
+        "Apoiar e sancionar a redução da maioridade penal de 18 para 16 anos e punir também maiores de 14 por crimes graves.",
+        "Criar o Sistema Nacional de Fronteira, com Exército, Marinha e Aeronáutica, e manter tropas especiais nos portos e aeroportos.",
+        "Construir 5 presídios de segurança máxima no modelo de El Salvador, que formarão com os 5 federais o complexo chamado TREVA, e criar meio milhão de vagas em 4 anos com os estados.",
+        "Criar o Muralha Brasileira, sistema nacional de reconhecimento facial ligado a bancos de dados criminais, com mais de 1 milhão de novas câmeras.",
+        "Dobrar os investimentos federais em segurança pública ao longo do mandato e fazer consórcios e convênios com estados e municípios.",
+        "Acabar com a progressão de regime em crimes hediondos e aprovar a castração química para estupradores e abusadores de crianças condenados.",
+        "Quadruplicar a pena inicial de quem furta ou revende celular roubado e redirecionar para as famílias das vítimas os recursos hoje pagos às famílias de presos."
+      ]
+    },
+    {
+      "tema": "Mulheres (Brasil por Elas)",
+      "propostas": [
+        "Abrir Centrais da Mulher em todo o país, com estados, municípios e Sistema S, com unidades itinerantes em caminhões e barcos.",
+        "Criar um aplicativo e a assistente virtual ClarIA, com pacotes de internet para as mulheres, para orientar sobre denúncia, exames, emprego e crédito.",
+        "Integrar Ligue 180, delegacias online, botão de emergência e centrais de monitoramento numa plataforma, com sistema nacional de avaliação de risco.",
+        "Monitorar por tornozeleira os agressores sob medida protetiva de maior risco e obrigar o cumprimento integral da pena de quem mata ou agride mulheres.",
+        "Criar o Ganha, Ganha, de adesão voluntária, em que cursos, trabalho regular, poupança e contas em dia geram pontos trocados por juros menores, cashback e crédito.",
+        "Criar a Escola Brasil por Elas, com cursos gratuitos e certificado em áreas como inteligência artificial, programação, marketing digital e finanças.",
+        "Ampliar creches em período integral, dar voucher-creche onde faltar vaga pública e criar a Rede Nacional de Cuidado com centros-dia e atendimento domiciliar.",
+        "Ampliar os espaços de acolhimento para mulheres em situação de violência e ajudar a mulher a obter a escritura da casa no próprio nome."
+      ]
+    },
+    {
+      "tema": "Estado digital e menos burocracia (Brasil sem Fila)",
+      "propostas": [
+        "Digitalizar 100% dos serviços do Governo Federal que puderem ser digitalizados e parar de pedir documentos que o Estado já tem.",
+        "Criar a identidade digital única ligada ao Gov.br, com assistentes automatizados que indicam ao cidadão os serviços e benefícios a que tem direito.",
+        "Implantar o prontuário eletrônico único, ligado ao CPF, que funcione nas redes pública e privada, respeitando consentimento e LGPD.",
+        "Completar a digitalização do SUS e usar inteligência artificial para agendar consultas e exames na primeira vaga disponível.",
+        "Digitalizar os processos do INSS e profissionalizar a gestão do órgão para reduzir a fila de requerimentos.",
+        "Garantir pacotes de conexão e levar internet a escolas, áreas rurais e regiões de fronteira.",
+        "Estender a liberdade econômica a todos os estados e municípios e fazer um amplo revogaço regulatório de normas obsoletas.",
+        "Reeditar um pacote antifraude na Previdência e mudar a governança do consignado do INSS, com dupla checagem dos descontos."
+      ]
+    },
+    {
+      "tema": "Custo de vida, impostos e crédito (Brasil Mais Barato)",
+      "propostas": [
+        "Revisar a reforma tributária para reduzir o IVA, garantir a não cumulatividade e diminuir as exceções.",
+        "Reduzir impostos sobre energia elétrica e combustíveis.",
+        "Simplificar a conta de luz e reduzir gradualmente a CDE e as fontes incentivadas, mantendo a tarifa social.",
+        "Criar Corredores Logísticos Inteligentes para baixar o custo de transporte dos alimentos.",
+        "Ampliar o Seguro Rural e a capacidade de armazenagem de safras.",
+        "Apoiar a produção nacional de fertilizantes, usando o potássio e o fosfato do país.",
+        "Estabilizar e reduzir a dívida pública para levar os juros à média internacional e a inflação ao centro da meta.",
+        "Proibir o uso de recursos de programas sociais em apostas, fazer campanhas educativas e ampliar a orientação financeira pela rede da CAIXA."
+      ]
+    },
+    {
+      "tema": "Educação e formação para o trabalho (Brasil que Prepara)",
+      "propostas": [
+        "Priorizar o método fônico na alfabetização.",
+        "Criar o Programa Acolher, em que aluno com bom desempenho é remunerado para dar reforço aos colegas.",
+        "Gerir as escolas por indicadores de resultado, com repasses ligados a metas de aprendizagem, e dar formação contínua aos professores.",
+        "Ampliar as escolas cívico-militares, apoiar a escola em tempo integral e manter as escolas abertas nas férias com o Escola nas Férias.",
+        "Dar voucher educacional para matricular o filho em outra escola onde faltar vaga na rede pública.",
+        "Ampliar o ensino técnico no ensino médio, com bolsas que o setor produtivo poderá custear, e criar a Política Nacional de Formação de Talentos.",
+        "Transferir o ensino superior para o Ministério da Ciência, Tecnologia e Inovações e orientar CAPES e CNPq para impacto produtivo e inovação.",
+        "Trocar o modelo de financiamento estudantil pelo Empréstimo Contingente à Renda, pago só depois de o estudante estar empregado."
+      ]
+    },
+    {
+      "tema": "Saúde, cuidado, esporte e cultura",
+      "propostas": [
+        "Criar condições para corrigir de fato a tabela SUS, hoje defasada.",
+        "Ampliar a Estratégia Saúde da Família, os exames preventivos e a imunização, manter o incentivo à produção nacional de vacinas e criar unidades móveis de saúde da mulher.",
+        "Contratar exames e serviços da rede privada nos horários ociosos e modernizar os hospitais universitários federais da EBSERH.",
+        "Ampliar a telessaúde, criar entrega de remédio em domicílio e usar inteligência artificial para identificar quem corre mais risco de adoecer.",
+        "Criar o Programa de Atendimento aos Idosos, o Casa Segura para Envelhecer com subsídio de acessibilidade, um aplicativo de companhia e alerta e mais instituições de longa permanência.",
+        "Implantar Centros de Referência em Transtorno do Espectro Autista e ampliar a atenção à saúde mental, como TDAH, depressão, ansiedade e Alzheimer.",
+        "Criar o Programa Escola de Campeões, com parcerias público-privadas para levar o esporte competitivo às escolas, e reservar a categoria feminina a atletas do sexo feminino.",
+        "Aperfeiçoar as leis de incentivo à cultura para favorecer outros polos regionais e preservar o patrimônio histórico."
+      ]
+    },
+    {
+      "tema": "Trabalho, proteção social, empreendedorismo e casa própria (Brasil que Prospera)",
+      "propostas": [
+        "Manter os programas sociais existentes, com melhor gestão, correção de distorções e combate a fraudes.",
+        "Dar prioridade a beneficiários de programas sociais em primeiro emprego, qualificação e intermediação de mão de obra, com um banco nacional de vagas ligado ao RH das empresas, e garantir o retorno sem fila ao benefício após o seguro-desemprego.",
+        "Reduzir gradualmente o custo do trabalho, sem retirar direitos, e criar contrato com menor custo para jovens de 18 a 24 anos e para pessoas com 50 anos ou mais desempregadas há 12 meses.",
+        "Defender o negociado sobre o legislado e a jornada flexível.",
+        "Manter as oportunidades do trabalho por aplicativo e proteger esses trabalhadores sem colocar dirigentes sindicais à frente do processo.",
+        "Criar o Minha Primeira Empresa, com menos burocracia, capacitação pelo Sistema S e crédito da CAIXA, e apoiar a internacionalização de pequenas e médias empresas via BNDES e Apex-Brasil.",
+        "Transformar a CAIXA no Banco da Prosperidade, numa plataforma física e digital com crédito, orientação financeira, apoio a empreendedores e habitação.",
+        "Retomar o Casa Verde e Amarela, com juros o mais baixos possível, e incentivar a regularização fundiária para que a família tenha a escritura."
+      ]
+    },
+    {
+      "tema": "Infraestrutura, energia, agro, minerais e tecnologia (Brasil que Cresce)",
+      "propostas": [
+        "Fixar prazos para o licenciamento ambiental, com licença concedida se o órgão não decidir no prazo, e criar estabilidade de regras de até 20 anos para grandes projetos.",
+        "Financiar a infraestrutura com PPPs, concessões e um fundo lastreado em securitização de ativos e imóveis da União, com BNDES só para obras no Brasil.",
+        "Destravar a Ferrogrão, o trem de cargas entre Mato Grosso, oeste do Paraná e Santa Catarina, a Transnordestina e a Hidrovia do Tapajós, e implantar o Trem do Nordeste.",
+        "Concluir obras hídricas como Ramal do Apodi, Ramal do Salgado, Adutora do Seridó e Canal do Xingó, e ampliar barragens, diques e drenagem contra enchentes.",
+        "Criar o Programa Nacional de Segurança Energética, permitir o gás não convencional (fracking), expandir a transmissão, criar programa de armazenamento em baterias e fortalecer os biocombustíveis.",
+        "Ampliar o Seguro Rural, a área irrigada e a titulação de pequenos proprietários, simplificar outorgas de irrigação e criar um sistema único de rastreabilidade das cadeias produtivas.",
+        "Adotar uma estratégia de minerais críticos para agregar valor no país, com marco regulatório estável, licenciamento ágil e atração de capital e tecnologia.",
+        "Criar a Estratégia Nacional de Inteligência Artificial para micro, pequenas e médias empresas e propor uma lei de liberdade de criar e inovar."
+      ]
+    },
+    {
+      "tema": "Meio ambiente, regiões e política externa",
+      "propostas": [
+        "Zerar o desmatamento ilegal e combater queimadas com satélite, inteligência artificial e bancos de dados integrados.",
+        "Combater grilagem, garimpo ilegal e extração ilegal de madeira na Amazônia e ampliar a cooperação com os países vizinhos.",
+        "Eliminar sobreposições entre Ibama, Funai e ICMBio e exigir transparência de ONGs que recebem recursos internacionais e acionam a União na Justiça.",
+        "Consolidar o mercado regulado de carbono, ampliar o pagamento por serviços ambientais e impulsionar a bioeconomia.",
+        "Dar autonomia a povos indígenas e quilombolas para decidir sobre atividades produtivas em suas terras, com indenização por restrições ao usufruto.",
+        "Aplicar plenamente o Marco Legal do Saneamento, acelerar concessões, priorizar o saneamento rural e acabar com os lixões a céu aberto pelo Programa Lixão Zero.",
+        "Priorizar obras de água no Nordeste, concluir a expansão do Baixio do Irecê e apoiar a bioeconomia no Norte.",
+        "Retomar a adesão à OCDE, com o fim gradual do IOF sobre câmbio, buscar abertura comercial e conduzir a diplomacia por critérios técnicos e não ideológicos."
+      ]
+    },
+    {
+      "tema": "Instituições, gestão pública e contas públicas (Brasil que Cumpre a Constituição e Brasil que Não Volta Atrás)",
+      "propostas": [
+        "Acabar com as competências criminais originárias do STF, para parlamentares serem julgados por instâncias inferiores.",
+        "Limitar as decisões monocráticas do STF, criar quarentena de 1 ano para ministros de Estado serem indicados ao Supremo e impedir a atuação de parentes de magistrados no mesmo tribunal.",
+        "Rever o alcance das ADPFs e quem pode propor ADPFs, ADIs e ADCs e ampliar a participação da sociedade civil no CNJ e no CNMP.",
+        "Fazer uma reforma política e acabar com a reeleição para Presidente da República.",
+        "Extinguir estruturas do governo que funcionem como um \"Ministério da Verdade\" e revogar atos usados para silenciar críticos (Tesouraço na Censura).",
+        "Cortar no mínimo 10 ministérios, reduzir cargos comissionados e despesas administrativas, combater supersalários e continuar a reforma administrativa.",
+        "Reformular as regras fiscais, entregar superávits primários, limitar o crédito subsidiado do Tesouro e criar regra de controle de gastos discricionários dos três Poderes.",
+        "Fortalecer a Lei das Estatais, recrutar dirigentes por regras de mercado, blindar fundos de pensão de estatais e rever o pacto federativo e a liberação de recursos aos municípios."
+      ]
+    }
+  ],
+  "mensuraveis": [
+    "Reduzir a maioridade penal de 18 para 16 anos e punir maiores de 14 por crimes graves.",
+    "Construir 5 novos presídios de segurança máxima, que junto com os 5 federais formam o complexo TREVA.",
+    "Criar meio milhão de novas vagas no sistema prisional em 4 anos e zerar o déficit carcerário.",
+    "Dobrar os investimentos federais em segurança pública ao longo do mandato.",
+    "Instalar mais de 1 milhão de novas câmeras no país.",
+    "Quadruplicar a pena inicial de quem furta ou revende celular.",
+    "Digitalizar 100% dos serviços públicos do Governo Federal passíveis de digitalização.",
+    "Casa Verde e Amarela com meta de 2,5 milhões de residências.",
+    "Nenhuma escola sem água até 2030.",
+    "Levar água e esgoto a praticamente toda a população até 2033, meta do Marco Legal do Saneamento que o plano diz que vai aplicar.",
+    "Crescimento sustentado de 4% ao ano ao longo da próxima década.",
+    "Investir R$ 900 bilhões em quatro anos em rodovias, hidrovias, portos, aeroportos e ferrovias.",
+    "Mecanismos de estabilidade de regras de até 20 anos para grandes projetos.",
+    "Trem do Nordeste com 1.400 km de trilhos ligando Salvador, Aracaju, Maceió, Recife, João Pessoa, Natal e Fortaleza.",
+    "Zerar o desmatamento ilegal até 2029.",
+    "Aplicar as metas legais do combustível sustentável de aviação a partir de 2027.",
+    "Meta para 2030 de colocar o Brasil entre os principais destinos mundiais de investimento em transição energética.",
+    "Cortar no mínimo 10 ministérios.",
+    "Contrato de trabalho com menor custo para jovens de 18 a 24 anos em busca do primeiro emprego.",
+    "Contrato mais atrativo para pessoas com 50 anos ou mais desempregadas há pelo menos 12 meses.",
+    "Quarentena de 1 ano para ministros de Estado serem indicados ao STF."
+  ],
+  "lacunas": [
+    "Não há custo total nem fonte de recursos para as promessas mais caras: meio milhão de vagas prisionais, mais de 1 milhão de câmeras, dobrar o gasto em segurança, 2,5 milhões de moradias, voucher-creche, voucher educacional e subsídio de acessibilidade para idosos.",
+    "Os R$ 900 bilhões em infraestrutura em 4 anos indicam fundo de securitização, PPPs e concessões, mas o plano não diz quanto viria do setor público nem o que entra em cada modal.",
+    "As contas não fecham no texto: o plano promete reduzir o IVA, os impostos sobre energia e combustíveis, o custo do trabalho e a CDE, e ainda entregar superávits primários, sem estimar a perda de arrecadação nem listar cortes além de 10 ministérios e dos supersalários.",
+    "O plano critica a reforma tributária por deixar cerca de R$ 1 trilhão sem fonte nos dois fundos criados, mas não propõe como cobrir esse valor nem diz em quanto o IVA cairia.",
+    "Faltam metas e prazos para vários diagnósticos: a fila do INSS de 3 milhões de requerimentos não tem meta de tempo de espera, e juros, inflação e dívida têm só \"no menor prazo possível\".",
+    "O plano cita 1 policial para cada 100 km de fronteira, mas não diz quantos agentes serão contratados nem o custo do Sistema Nacional de Fronteira.",
+    "Muitas promessas dependem do Congresso ou de emenda constitucional: maioridade penal, fim da progressão de regime, castração química, pena maior para celular, fim da reeleição, mudanças no STF, negociado sobre o legislado, revisão da reforma tributária, novas regras fiscais e reforma administrativa. O plano não explica como conseguirá os votos.",
+    "Várias ações são de estados e municípios: presídios estaduais, policiais e retomada de territórios, creches, escolas, saneamento, lixões e mobilidade urbana. O plano fala em parcerias, mas não diz como vai incentivar ou financiar essa adesão.",
+    "O plano afirma que bandido armado de fuzil \"vai ser abatido\" e que traficante que resistir \"vai virar pó\", sem dizer sob quais regras de uso da força, e diz que o uso do Exército, da Marinha e da Aeronáutica em fronteiras, portos e aeroportos será permanente, sem tratar de custo ou base legal.",
+    "Há inconsistência sobre a tornozeleira: um trecho diz que os agressores das mais de meio milhão de mulheres com medida protetiva serão monitorados, e outro limita o monitoramento aos agressores de maior risco.",
+    "Há tensão entre acelerar licenças (licença automática se o órgão não decidir no prazo) e a promessa de responsabilidade ambiental, e entre a meta de zerar o desmatamento ilegal até 2029 e a promessa de não criar novas obrigações para o produtor rural. O plano não explica como as duas coisas convivem.",
+    "O diagnóstico de \"gasto público sem controle\" convive com muitas promessas de novo gasto ou subsídio, sem indicar o que seria priorizado nem o impacto sobre a dívida.",
+    "A meta de juros menores depende do Banco Central, mas o plano não diz nada sobre a atuação ou a autonomia do Banco Central, e trata os juros só como consequência da dívida.",
+    "Temas grandes ficam de fora ou quase sem proposta: política para o salário mínimo, reforma da Previdência além do combate a fraudes, Imposto de Renda, valor e regras dos programas sociais, tratamento de dependentes químicos, igualdade racial, mudanças do clima além do desmatamento, e financiamento geral do SUS além da tabela.",
+    "Educação básica e saúde têm poucas metas: não há meta de alfabetização, de nota no PISA, de vagas em creche, de tempo de espera no SUS nem de escolas em tempo integral, apesar dos diagnósticos apresentados.",
+    "A promessa de dar autonomia a indígenas e quilombolas para decidir sobre atividades produtivas em suas terras não explica os limites legais nem quem aprova, e a de responsabilizar o Estado por prejuízos de quem obteve licença não estima o custo possível.",
+    "O plano cita os anos do governo Jair Bolsonaro como prova de resultado e muitos dados de conjuntura de 2026, mas quase nunca informa a fonte dos números, o que impede a checagem pelo leitor."
+  ],
+  "fonte": "Resumo escrito a partir do texto integral do plano registrado no TSE. Leitura feita por IA, sem checagem humana linha a linha; confira o original no DivulgaCand."
+}

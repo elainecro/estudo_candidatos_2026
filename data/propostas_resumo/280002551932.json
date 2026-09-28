@@ -1,0 +1,178 @@
+{
+  "sintese": "O plano é do PSD, com Ronaldo Caiado candidato a Presidente e Gilberto Kassab a vice, sob o nome \"Governo Transformador\" e o lema \"Muito pra mostrar, nada pra esconder\". A tese central é que o Brasil tem recursos e potencial, mas falta direção ao Estado: o plano junta pacificação política, responsabilidade fiscal, segurança pública sob comando da Presidência, crescimento por investimento e produtividade e gestão por metas. O tom é técnico e muito extenso, com 26 temas que seguem o mesmo molde (diagnóstico, propostas e indicadores), e fica mais duro e ideológico na segurança. O governo de Goiás é usado várias vezes como prova de que o método funciona.",
+  "eixos": [
+    {
+      "tema": "Governança, sistema político e transparência",
+      "propostas": [
+        "Enviar ao Congresso, no início do mandato, uma PEC para acabar com a reeleição no Poder Executivo, valendo inclusive para o mandato que começa em 2027.",
+        "Formar uma \"maioria de programa\" no Congresso e criar o Pacto Nacional de Governabilidade e Resultados, com as Mesas, líderes partidários e governadores.",
+        "Criar um Centro de Governo e dar a cada ministro uma carta de missão, com metas públicas e avaliação periódica.",
+        "Escolher ministros e dirigentes de estatais e agências por critérios públicos de integridade e competência, com verificação prévia de conflito de interesse.",
+        "Defender o voto distrital misto, mais democracia interna nos partidos e financiamento político totalmente rastreável.",
+        "Criar um painel único das emendas parlamentares, com autor, beneficiário final, licitação e execução física.",
+        "Manter o Painel Brasil 2030 e a avaliação independente dos programas estratégicos, com relatório anual ao Congresso.",
+        "Criar identidade digital e canal único de atendimento, para o cidadão não precisar entregar ao governo dados que ele já tem."
+      ]
+    },
+    {
+      "tema": "Contas públicas e crescimento",
+      "propostas": [
+        "Publicar o Orçamento da Verdade nos primeiros meses, com despesas obrigatórias, passivos, subsídios, benefícios tributários e riscos fiscais.",
+        "Adotar uma estratégia fiscal de vários anos para estabilizar a dívida e recuperar superávits primários, sem aumento da carga tributária.",
+        "Fazer as despesas obrigatórias crescerem abaixo do PIB nominal, com regras de transição e respeito aos direitos adquiridos.",
+        "Rever subsídios e benefícios tributários sem resultado e aplicar o teto constitucional aos supersalários em todos os Poderes.",
+        "Cruzar as bases dos benefícios sociais para corrigir pagamentos indevidos sem criar barreiras a quem tem direito.",
+        "Criar a Estratégia Brasil 2040 e uma carteira nacional de projetos, priorizando a conclusão de obras paradas.",
+        "Reduzir o custo do capital com mercado de capitais, garantias e bancos públicos voltados a projetos de retorno social.",
+        "Executar uma agenda de produtividade, com licenças digitais, prazos definidos e apoio a micro e pequenas empresas."
+      ]
+    },
+    {
+      "tema": "Segurança pública e combate à corrupção",
+      "propostas": [
+        "Criar o Ministério da Segurança Pública e o Sistema Integrado de Proteção à Soberania Nacional, com comandos nacionais de fronteiras e de combate ao terrorismo doméstico.",
+        "Propor a Lei do Terrorismo Doméstico para enquadrar facções e milícias, com penas mínimas de 45 e 35 anos e um regime disciplinar especial (REDAD) nas prisões.",
+        "Atacar as finanças do crime com novo crime de enriquecimento incompatível, perda de bens sem ação penal e um fundo alimentado pelos bens recuperados.",
+        "Criar o Sistema Nacional de Inteligência Criminal e uma rede nacional de presídios de segurança máxima para isolar lideranças de facções.",
+        "Proteger fronteiras, portos e aeroportos com radares, satélites e drones, e propor aos vizinhos a agência policial sul-americana SULPOL.",
+        "Apoiar a PEC da maioridade penal aos 16 anos para crimes graves e equiparar o furto de celular ao roubo.",
+        "Criar o Sistema Nacional Anticorrupção, uma plataforma de análise de risco em gastos públicos com IA e uma Lei do Enriquecimento Ilícito.",
+        "Regulamentar e endurecer as regras de jogos e apostas on-line, com proibição de publicidade em veículos de massa e redes sociais."
+      ]
+    },
+    {
+      "tema": "Indústria, ciência, tecnologia, defesa e relações exteriores",
+      "propostas": [
+        "Adotar uma política industrial permanente, com prioridades transparentes, contrapartidas e prazo definido, sem proteger empresas específicas.",
+        "Aprovar a depreciação acelerada para modernização industrial (PL 473/2026) e ampliar o crédito de longo prazo para investimento produtivo.",
+        "Dar financiamento estável ao FNDCT e modernizar a Lei do Bem, com alcance maior para pequenas e médias empresas.",
+        "Adotar um marco legal de inteligência artificial baseado em risco e um regime tributário estável para data centers, com contrapartidas de energia renovável e água.",
+        "Criar uma autoridade nacional de cibersegurança com mandato e orçamento próprios.",
+        "Levar fibra à Amazônia e ao interior, reduzir a carga tributária do smartphone de entrada e usar o FUST em escolas e unidades de saúde.",
+        "Atualizar a Estratégia Nacional de Defesa, com foco em Amazônia, Amazônia Azul, fronteiras e defesa cibernética.",
+        "Consolidar o acordo Mercosul-União Europeia, abrir mercados na Ásia e na África, retomar a aproximação com a OCDE e dar metas de exportação a embaixadas."
+      ]
+    },
+    {
+      "tema": "Agronegócio, mineração e energia",
+      "propostas": [
+        "Criar um Plano Safra de cinco anos e um fundo garantidor para o crédito agrícola privado.",
+        "Estruturar um sistema nacional de seguro rural, com resseguro, seguro paramétrico e regulamentação do Fundo de Catástrofe.",
+        "Executar o Plano Nacional de Fertilizantes e criar um programa de bioinsumos para reduzir a importação.",
+        "Recuperar pastagens degradadas e ampliar a integração lavoura-pecuária-floresta, para produzir mais nas áreas já abertas.",
+        "Criar a Estratégia Nacional de Minerais Críticos e fortalecer a ANM, condicionando o acesso a recursos a processamento no Brasil.",
+        "Criar cadeia de custódia do ouro e responsabilizar compradores e financiadores do garimpo ilegal.",
+        "Rever de forma gradual os subsídios da conta de luz, passando ao orçamento, por decisão do Congresso, as políticas sociais, e fazer o leilão de armazenamento de energia.",
+        "Ampliar a oferta de gás para a indústria, com leilões do gás da União e preço de referência próximo de US$ 8 por MMBtu."
+      ]
+    },
+    {
+      "tema": "Infraestrutura, mobilidade urbana, Nordeste e turismo",
+      "propostas": [
+        "Criar um Plano Nacional de Infraestrutura com horizonte de 30 anos, carteira única de projetos e uma instância técnica independente.",
+        "Fazer uma triagem das obras paralisadas, com decisão obrigatória e prazo para cada uma: concluir, conceder à iniciativa privada ou encerrar.",
+        "Manter calendário permanente de concessões e PPPs, com as outorgas reinvestidas no próprio setor.",
+        "Acelerar o marco do saneamento e dar autonomia decisória, orçamento e quadros à ANA.",
+        "Enviar ao Congresso, no primeiro ano, uma Política Nacional de Financiamento do transporte coletivo, sem novo imposto geral.",
+        "Regulamentar a Lei nº 15.432/2026 e criar programa nacional de renovação de frotas de ônibus acessíveis e de baixa emissão.",
+        "Construir o Pacto Nordeste 2030 com uma carteira regional de projetos, fortalecer BNB, FNE e Sudene e concluir obras como a Transnordestina e a FIOL.",
+        "Criar a Estratégia Nacional de Turismo 2035, com metas para chegadas internacionais, receita, emprego e dispersão regional."
+      ]
+    },
+    {
+      "tema": "Meio ambiente e Amazônia",
+      "propostas": [
+        "Adotar licenciamento por risco, com prazos públicos e procedimento simplificado para projetos de baixo impacto.",
+        "Fazer um mutirão de regularização ambiental para pequenos produtores e concluir a validação do CAR, sem anistia a dano doloso ou reincidência.",
+        "Operacionalizar o mercado regulado de carbono e ampliar o pagamento por serviços ambientais.",
+        "Combater desmatamento, grilagem e crimes ambientais com inteligência financeira e responsabilização de compradores de produtos ilegais.",
+        "Implantar um sistema nacional integrado de prevenção e combate a incêndios, com brigadas e alertas.",
+        "Criar o programa Água para o Futuro, para proteger nascentes, recuperar matas ciliares, reduzir perdas e recarregar aquíferos.",
+        "Criar uma plataforma integrada de governança fundiária da Amazônia e atualizar o zoneamento territorial e ambiental.",
+        "Substituir aos poucos o diesel nos sistemas isolados da Amazônia e criar uma Estratégia de Saúde Amazônica no SUS, com atenção primária fluvial."
+      ]
+    },
+    {
+      "tema": "Educação, cultura e esporte",
+      "propostas": [
+        "Criar o Pacto Nacional pela Alfabetização e Matemática na Idade Certa, para todas as crianças lerem, escreverem e dominarem fundamentos de matemática até o fim do 2º ano.",
+        "Universalizar a pré-escola e ampliar creches, com prioridade para famílias vulneráveis e territórios com pouca oferta.",
+        "Fazer a recomposição das aprendizagens, com diagnóstico por aluno, tutoria, tempo adicional e acompanhamento público por escola.",
+        "Ampliar a escola em tempo integral e a educação profissional, com institutos federais, redes estaduais, Sistema S e empresas.",
+        "Elevar o padrão das licenciaturas, dar bolsas a bons estudantes que escolham a docência e formar diretores escolares.",
+        "Aperfeiçoar uma bolsa de permanência para estudantes de baixa renda com risco de abandono, ligada a matrícula e frequência.",
+        "Implementar o Plano Nacional de Cultura 2027 a 2030 com metas e fortalecer o Sistema Nacional de Cultura e o Fundo Nacional de Cultura.",
+        "Criar o Plano Nacional do Esporte 2035, com recuperação de quadras e campos, proteção de crianças em clubes e aperfeiçoamento do Bolsa-Atleta."
+      ]
+    },
+    {
+      "tema": "Saúde",
+      "propostas": [
+        "Criar o Sistema Nacional de Acesso e Regulação Inteligente, com fila por prioridade clínica e acompanhamento do pedido pelo próprio cidadão.",
+        "Vincular cada cidadão a uma equipe de Saúde da Família, com busca ativa de doentes crônicos, teleconsultoria e prontuário interoperável.",
+        "Montar uma rede nacional de infarto e AVC, com hemodinâmica 24 horas, centros de AVC, TeleAVC e transporte aeromédico.",
+        "Criar a via rápida do câncer, com relógio digital desde a suspeita e cumprimento dos prazos legais já existentes.",
+        "Criar linhas de cuidado para saúde da mulher (incluindo endometriose e menopausa), infância, idosos, saúde mental e saúde indígena.",
+        "Universalizar a cobertura do SAMU e criar centrais de comando de emergência e de terapia intensiva nas macrorregiões.",
+        "Criar histórico clínico digital interoperável, aplicativo nacional do cidadão e hospitais públicos inteligentes.",
+        "Criar a Aliança Nacional de Ciência e Produção em Saúde, uma rede pública de terapias celulares e gênicas e metas de nacionalização de vacinas e medicamentos."
+      ]
+    },
+    {
+      "tema": "Proteção social, mulheres e igualdade racial",
+      "propostas": [
+        "Criar o Sistema Nacional de Gestão Social Integrada, com diagnóstico, plano e equipe de referência para cada família em alta vulnerabilidade.",
+        "Manter as transferências de renda e criar regra de transição gradual para quem entra no emprego formal, ligada a qualificação e creche.",
+        "Criar o Plano Nacional de Emancipação Social, com parcerias pagas por conclusão de curso e inserção sustentada no trabalho.",
+        "Identificar o orçamento federal da infância e criar uma instância de coordenação na Presidência para a prioridade absoluta a crianças e adolescentes.",
+        "Firmar o Pacto Nacional pelo Fim do Feminicídio, com medida protetiva monitorada, casas de acolhimento e proteção econômica das vítimas.",
+        "Acelerar a oferta de creches e criar o Selo Empresa pela Igualdade, para empresas que promovam equidade de gênero.",
+        "Exigir que programas de educação, saúde, segurança, trabalho, habitação e crédito publiquem resultados por raça, território e gênero.",
+        "Adotar a estratégia de moradia primeiro para a população em situação de rua e ampliar aluguel social e regularização de territórios quilombolas."
+      ]
+    }
+  ],
+  "mensuraveis": [
+    "PEC do fim da reeleição no Executivo enviada \"no início do mandato\", com aplicação ao mandato presidencial iniciado em 2027.",
+    "Orçamento da Verdade publicado \"nos primeiros meses\" de governo.",
+    "Investimento total do país de \"cerca de 17% do PIB\" para \"aproximadamente 25%\" (o texto diz que o país \"deverá trabalhar para\" isso, sem prazo).",
+    "Política Nacional de Financiamento do transporte coletivo enviada ao Congresso \"no primeiro ano de governo\".",
+    "Universalização do saneamento \"até 2033\" (é a meta do marco legal já existente, que o plano promete cumprir e acelerar).",
+    "Preço do gás para a indústria \"próximo de US$ 8 por MMBtu\", como referência de política.",
+    "Penas mínimas de 45 anos (associação ou recrutamento para organização terrorista doméstica) e 35 anos (apoio logístico, financiamento e lavagem de dinheiro).",
+    "Progressão de regime \"somente após cumprimento de 90% da pena\" para membros de organizações enquadradas, feminicídio e estupro de vulnerável menor de 13 anos.",
+    "Pena mínima de 30 anos para estupro de vulnerável menor de 13 anos cometido por adulto.",
+    "Crime de enriquecimento incompatível com \"20 anos de pena\", dobrando para líderes de organizações criminosas.",
+    "Maioridade penal reduzida para 16 anos, para crimes graves listados no plano.",
+    "Planos de longo prazo com prazo no nome ou no texto: Estratégia Brasil 2040, Plano Nacional do Esporte 2035, Estratégia Nacional de Turismo 2035, Pacto Nordeste 2030, planos de energia e de infraestrutura com horizonte de 30 anos e revisão a cada quatro anos, Plano Safra de cinco anos.",
+    "PPA 2028-2031 organizado por missões e resultados.",
+    "Saúde, tempo de espera: \"reduzir em pelo menos 50% o tempo mediano das filas prioritárias nas regiões com maior espera\" e 100% das filas estratégicas com prioridade clínica e indicador público, até 2030, com 2027 como base.",
+    "Saúde, atenção primária: 100% das equipes de Saúde da Família com teleconsultoria e estratificação de risco e redução de 20% nas internações por condições sensíveis à atenção primária, até 2030.",
+    "Saúde, coração: meta indicativa de reduzir em 30% a mortalidade cardiovascular prematura até 2030, com rota formal para infarto e AVC em 100% das regiões.",
+    "Saúde, câncer: 100% dos pacientes com suspeita oncológica relevante rastreáveis por relógio assistencial até 2030, com investigação em até 30 dias e primeiro tratamento em até 60 dias após o diagnóstico (prazos legais já existentes).",
+    "Saúde, mulher: meta indicativa de reduzir em 30% a razão de mortalidade materna até 2030, com referência de alto risco obstétrico em 100% das regiões.",
+    "Saúde, infância: plano de seguimento para 100% dos prematuros de maior risco e suporte pediátrico especializado em 100% das regiões até 2030.",
+    "Saúde, vacinas: pelo menos 95% de cobertura nas vacinas prioritárias em que a meta for tecnicamente indicada, até 2030.",
+    "Saúde mental: 100% das regiões com desenho completo da RAPS e pelo menos 90% dos pacientes de alto risco atendidos em emergência com seguimento estruturado, até 2030.",
+    "Saúde, idosos: 90% dos idosos acompanhados na atenção primária com avaliação funcional atualizada e plano individual para 100% dos frágeis ou de alto risco, até 2030.",
+    "Saúde indígena: 100% dos DSEIs com plano assistencial e logístico atualizado e referência formal para média e alta complexidade até 2030.",
+    "Urgência: 100% de cobertura populacional do SAMU e redução de pelo menos 50% no tempo mediano de espera por UTI nas regiões com maior demora, até 2030.",
+    "Dados e hospitais: 100% dos cidadãos com acesso progressivo a histórico clínico digital e 100% dos hospitais estratégicos do SUS integrados a sistemas digitais de gestão até 2030.",
+    "Saúde, primeiros 100 dias: dez decisões listadas, como o Comitê Nacional das Missões de Saúde, o censo das filas, o mapa de vazios assistenciais e o Painel Público Saúde 2030."
+  ],
+  "lacunas": [
+    "Fora da saúde, quase não há metas com número. O plano não fixa resultado primário, relação dívida/PIB, crescimento, inflação, juros, redução de homicídios ou taxa de alfabetização. Na educação, a meta é \"reduzir drasticamente\" quem está abaixo do básico.",
+    "O plano não traz custo nem fonte de recursos por proposta. Diz que toda proposta com impacto fiscal terá estimativa e fonte, mas não apresenta nenhum valor em reais. A única fonte concreta é o fundo alimentado por bens recuperados do crime.",
+    "Promete ajuste fiscal sem aumento da carga tributária e sem cortes lineares, mas também propõe gastos e menos receita em muitas frentes: ministério novo, presídios de segurança máxima, creches, tempo integral, seguro rural, fundo garantidor, redução de imposto do smartphone, regime especial para data centers e depreciação acelerada. Nada é quantificado.",
+    "O plano não diz quais despesas obrigatórias vai desacelerar. Não há menção a aposentadoria, previdência (só de trabalhadores da cultura), salário mínimo, reforma administrativa, imposto de renda ou Bolsa Família pelo nome. Também não há economia estimada com a revisão de subsídios, supersalários e fraudes.",
+    "Temas grandes ficam de fora ou só aparecem de passagem: regras do trabalho e jornada, privatização ou papel das estatais (só governança da Petrobras), posição sobre armas de fogo, aborto e reforma do Judiciário. Habitação é tratada de forma genérica, sem citar programa nem meta.",
+    "Muitas promessas dependem do Congresso, e o plano reconhece isso em parte: PEC do fim da reeleição, PEC da maioridade penal, voto distrital misto, Lei do Terrorismo Doméstico, penas e regimes prisionais, enriquecimento ilícito, execução da pena em segunda instância, passar encargos da conta de luz ao orçamento e teto de supersalários em todos os Poderes. Não há estratégia de votos nem plano B.",
+    "Várias metas dependem de estados e municípios: polícias e presídios estaduais, educação básica, atenção primária à saúde, transporte urbano (titularidade municipal) e licenciamento. As metas de saúde de 100% em 2030 dependem dessa pactuação e partem de uma linha de base de 2027 que ainda será medida. Algumas metas são só \"indicativas\".",
+    "Há tensões internas. Na educação, uma proposta diz que \"recursos e apoio serão direcionados às escolas com melhor avaliação\", enquanto o resumo do tema e o tema Racismo priorizam os estudantes com maior defasagem. Na segurança, prevê monitoramento obrigatório de todas as conversas de presos com advogados e perda do diploma de Direito, ao lado da promessa de preservar o devido processo e a defesa técnica.",
+    "Outras tensões: propõe usar compras públicas para privilegiar produto nacional e, ao mesmo tempo, abrir a economia e reduzir barreiras, prometendo \"sem proteção permanente\". Na segurança, permite às Forças Armadas atuar contra o crime sem GLO, enquanto o tema Defesa diz que investigação e prisão ficam com os órgãos civis.",
+    "Diagnósticos sem meta correspondente: investimento de 17% para 25% do PIB sem dizer como nem quando, infraestrutura em 2% do PIB contra 4% necessários sem meta, pesquisa em pouco mais de 1% do PIB contra 2,7% na OCDE sem meta, indústria abaixo de 15% do PIB sem meta e sistema tributário complexo sem proposta de simplificação além da citação da reforma tributária.",
+    "O balanço de Goiás é usado como prova (por exemplo, \"uma das mais altas taxas de elucidação de homicídios\"), quase sem números comparáveis. Só esporte e turismo trazem dados de Goiás. Os juros dependem do Banco Central, e o plano só promete reduzir pressões fiscais e respeitar a autonomia.",
+    "Todos os 26 temas aparecem como prioridade, sem ordem entre eles e sem cronograma, exceto saúde e os primeiros 100 dias. Só Nordeste e Amazônia têm capítulo regional próprio. Centro-Oeste, Sudeste e Sul só aparecem em uma frase geral."
+  ],
+  "fonte": "Resumo escrito a partir do texto integral do plano registrado no TSE. Leitura feita por IA, sem checagem humana linha a linha; confira o original no DivulgaCand."
+}
