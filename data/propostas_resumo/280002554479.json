@@ -1,0 +1,163 @@
+{
+  "sintese": "O documento é assinado por Leonardo Alves de Araújo, o Leonardo Avalanche, presidente nacional do PRTB e candidato à Presidência em 2026. A tese central é trocar todos os tributos por um imposto único de 3,5% e, com isso, baratear a vida, atrair indústria e financiar saúde, segurança e infraestrutura. São 19 propostas curtas, cada uma com diagnóstico, exemplos de outros países e um slogan (\"Avalanche neles\"). O tom é mais ideológico e de campanha do que técnico, apoiado em \"Deus, pátria e família\", com muitos números soltos e poucos custos, prazos e fontes de recursos.",
+  "eixos": [
+    {
+      "tema": "Tributação e preço dos veículos",
+      "propostas": [
+        "Trocar ICMS, ISS, PIS, Cofins, IPI, IOF, IRPJ, CSLL, IRPF, INSS, IPVA, ITBI, ITCMD e imposto de importação por um imposto único de 3,5%, cobrado na fonte.",
+        "Aplicar os 3,5% a todo empresário, do pequeno ao grande, e substituir o INSS patronal de 20% para baratear a contratação.",
+        "Trocar o IPVA proporcional ao valor do carro por uma taxa fixa de R$ 50 por mês para todos.",
+        "Isentar de IPVA os caminhoneiros em todo o país.",
+        "Dar desoneração e incentivo à produção nacional de veículos e autopeças, com foco em tecnologia e fornecedores brasileiros.",
+        "Criar lei nacional com redução relevante de imposto federal sobre carros elétricos e híbridos, e desoneração para montadora brasileira que investir em elétrico.",
+        "Investir em infraestrutura de recarga elétrica pelo país."
+      ]
+    },
+    {
+      "tema": "Motoristas de aplicativo",
+      "propostas": [
+        "Criar linha de financiamento facilitado pelo governo para o motorista comprar o próprio carro, com isenção total de imposto sobre o veículo e verificação rigorosa de quem realmente trabalha na atividade.",
+        "Negociar com Uber e outras plataformas a redução da taxa cobrada do motorista para 3,5%.",
+        "Se as empresas não aceitarem, restringir a operação delas no país, com transição organizada, e lançar um aplicativo de transporte do governo com taxa fixa de 3,5%.",
+        "Criar pontos de apoio nas cidades, com água, banheiro, descanso e segurança.",
+        "Reforçar a verificação de identidade no cadastro das plataformas.",
+        "Criar um plano de saúde exclusivo para motoristas de aplicativo.",
+        "Estudar um fundo, financiado pela arrecadação do setor, para ajudar prefeituras e estados a conservar as vias."
+      ]
+    },
+    {
+      "tema": "Emprego, renda e qualificação",
+      "propostas": [
+        "Dar um iPhone de última geração e um ano de internet grátis a quem concluir o curso de empreendedorismo do governo, inclusive quem está no Bolsa Família, sem perder o benefício.",
+        "Oferecer o curso em trilhas: segurança digital para idosos, ofícios com venda pela internet e, por fim, tráfego pago, criação de conteúdo e abertura de MEI.",
+        "Contratar quem se qualificar para divulgar programas do governo em sua região, usando verba hoje gasta com publicidade oficial e grandes emissoras.",
+        "Criar o programa Meu Primeiro Emprego, em que o governo paga parte do salário por seis meses e a empresa mantém a carteira assinada por um ano.",
+        "Criar uma plataforma nacional obrigatória de talentos, alimentada pelas instituições de ensino na formatura, com incentivo fiscal crescente para a empresa conforme o tempo de permanência do jovem.",
+        "Estudar um crédito nacional de qualificação profissional, nos moldes do SkillsFuture de Singapura."
+      ]
+    },
+    {
+      "tema": "Segurança pública e Justiça",
+      "propostas": [
+        "Criar o Sistema Único Nacional de Segurança, integrando em tempo real antecedentes, mandados de prisão, armas, veículos e medidas protetivas de todo o país.",
+        "Investir em câmeras, reconhecimento facial e integração de dados, e em mais policiais por meio de concursos e melhores salários.",
+        "Endurecer as penas para crimes violentos e organizados e fechar brechas jurídicas que soltam criminosos perigosos.",
+        "Isolar de fato os presos de alta periculosidade, fechando canais para dar ordens de dentro do presídio.",
+        "Entregar a coordenação do plano de segurança ao delegado aposentado da Polícia Federal Rodney Miranda.",
+        "Fazer um mutirão nacional para reduzir os processos parados e fixar meta de redução do tempo médio de julgamento.",
+        "Garantir estabilidade das regras econômicas e contratuais e respeito à propriedade privada.",
+        "Investigar influência indevida no sistema de Justiça e punir quem manipular resultado de processo."
+      ]
+    },
+    {
+      "tema": "Saúde",
+      "propostas": [
+        "Zerar a fila do SUS com mutirões nacionais, parceria com hospitais privados ociosos, telemedicina para triagem e gestão por resultado.",
+        "Usar inteligência artificial para monitorar em tempo real o estoque de medicamentos em hospitais, postos e UBS.",
+        "Modernizar os medicamentos do SUS, incluindo versões injetáveis.",
+        "Criar programa nacional para a mulher do climatério à pós-menopausa, com apoio psicológico, medicamentos modernos e estudo de géis hormonais e vitaminas.",
+        "Criar prevenção para jovens, com mais ginecologistas mulheres e oferta de anticoncepcionais adequados a cada perfil.",
+        "Formar e contratar mais geriatras, dar prioridade real ao idoso nas filas e ampliar o acompanhamento de doenças crônicas.",
+        "Bancar tudo com o orçamento atual, combatendo corrupção e desperdício de remédios."
+      ]
+    },
+    {
+      "tema": "Educação e proteção digital de crianças e jovens",
+      "propostas": [
+        "Usar inteligência artificial para personalizar o ensino e incluir educação financeira, tecnologia e empreendedorismo desde o ensino fundamental.",
+        "Levar ensino técnico profissionalizante a toda escola pública a partir dos 14 ou 15 anos, no modelo americano.",
+        "Contratar professores de inglês qualificados, apoiar a especialização dos que já estão na rede e usar IA no celular para treinar conversação.",
+        "Criar uma ficha individual, desde a creche, que registre os talentos de cada aluno, e incluir formação emocional no currículo.",
+        "Criar o Respira, rede nacional de centros de saúde mental para jovens, com psicólogo e psiquiatra no mesmo lugar.",
+        "Exigir das redes sociais transparência sobre o algoritmo de recomendação para usuários até 14 anos e relatório público periódico.",
+        "Apoiar a regulamentação do homeschooling, com fiscalização e avaliação periódica obrigatória."
+      ]
+    },
+    {
+      "tema": "Proteção de mulheres, crianças, idosos e famílias atípicas",
+      "propostas": [
+        "Fiscalizar de verdade as medidas protetivas, garantir resposta rápida da polícia e levar a rede de proteção à mulher ao interior.",
+        "Expandir as casas de acolhimento para todo o país, com apoio jurídico, psicológico e recolocação no trabalho, também para idosos em risco, e dar escala nacional a programas de reeducação de agressores.",
+        "Criar lei nacional que obrigue vagão exclusivo para mulheres no metrô e no trem urbano.",
+        "Criar órgão externo e independente, nos moldes da EEOC americana, para investigar assédio no trabalho em empresas de qualquer tamanho.",
+        "Adotar a partir de 2027 o critério genético (teste) para a categoria feminina no esporte.",
+        "Criar o Abraço Azul, rede nacional com apoio jurídico e psicológico gratuito à mãe atípica e creche especializada, e exigir profissional certificado, contratado de forma efetiva, para cada criança autista na escola.",
+        "Obrigar plataformas a usar um banco nacional de imagens de abuso infantil para retirada imediata, tirar do ar sites e perfis sem prazo de defesa e aplicar multa milionária.",
+        "Lutar para dobrar a pena mínima de exploração sexual infantil e criar o Nunca Mais Sozinha, acompanhamento psicológico e social da criança vítima até a maioridade."
+      ]
+    },
+    {
+      "tema": "Indústria, tecnologia e agro",
+      "propostas": [
+        "Criar um plano nacional de reindustrialização, com desoneração para quem processa matéria-prima no Brasil e crédito facilitado para a indústria.",
+        "Incentivar o beneficiamento mineral, com prioridade para nióbio e terras raras, e investir capital público direto em fábricas de setores estratégicos.",
+        "Tornar o Brasil o maior polo tecnológico do mundo, com incentivo fiscal pesado para empresa brasileira de tecnologia e parcerias internacionais.",
+        "Recompor o orçamento da Capes e do CNPq e equipar universidades federais com laboratórios, bolsas de valor real e carreira científica.",
+        "Investir em fábricas nacionais de fertilizantes, começando por tirar do papel a jazida de potássio de Autazes (AM).",
+        "Criar o Crédito Raiz, que liga a renegociação de dívida rural ao acesso garantido a crédito novo, com linhas separadas para pequeno, médio e grande produtor.",
+        "Dar ao pequeno produtor carência alinhada à safra e juro abaixo dos 6% a 10% ao ano das linhas atuais.",
+        "Incentivar peças de maior valor e montadoras brasileiras de carro elétrico."
+      ]
+    },
+    {
+      "tema": "Infraestrutura e saneamento",
+      "propostas": [
+        "Criar um plano nacional de investimento em rodovias, hidrovias e principalmente ferrovias, para reduzir o peso do transporte rodoviário em longas distâncias.",
+        "Acelerar a aplicação do Marco Legal das Ferrovias e ampliar a malha operada pelo setor privado.",
+        "Investir em portos, terminais e dragagem para usar trechos subutilizados das hidrovias.",
+        "Tornar saneamento e coleta de lixo prioridade nacional de investimento, com estudo técnico para dimensionar o custo e mutirão nacional de obras.",
+        "Montar equipe federal própria para elaborar e credenciar projetos de saneamento de prefeituras pequenas.",
+        "Montar equipe federal para fiscalizar contratos de saneamento, com cruzamento de dados e punição agravada para desvio e superfaturamento.",
+        "Reassentar famílias de áreas irregulares em prazo definido e buscar solução temporária de água e esgoto até lá.",
+        "Levar coleta seletiva, lixeiras separadas e aproveitamento energético do lixo à escala nacional, com educação ambiental e melhoria das condições de catadores."
+      ]
+    },
+    {
+      "tema": "Defesa e Amazônia",
+      "propostas": [
+        "Aumentar de forma real e substancial o orçamento de defesa.",
+        "Substituir armamento e frota defasados nas três Forças.",
+        "Ampliar a vigilância das fronteiras e da Amazônia Azul.",
+        "Instalar uma rede de drones de vigilância cobrindo toda a Amazônia, para monitorar desmatamento, garimpo, contaminação de rios e exploração estrangeira irregular.",
+        "Valorizar os militares e investir mais na carreira militar.",
+        "Modernizar as Forças com produção nacional e estimular a indústria de defesa."
+      ]
+    }
+  ],
+  "mensuraveis": [
+    "Alíquota única de 3,5% no lugar de ICMS, ISS, PIS, Cofins, IPI, IOF, IRPJ, CSLL, IRPF, INSS, IPVA, ITBI, ITCMD e imposto de importação.",
+    "Carro de R$ 100 mil passaria a custar cerca de R$ 51.750, e quem ganha R$ 10 mil passaria a descontar R$ 350 e receber R$ 9.650 líquidos.",
+    "O plano diz que o fim da sonegação faz a arrecadação nacional triplicar.",
+    "IPVA fixo de R$ 50 por mês para todos, com isenção total para caminhoneiros.",
+    "Taxa de 3,5% para o motorista de aplicativo, contra os quase 60% que o plano atribui ao custo atual.",
+    "Motorista de aplicativo financia carro com isenção total de imposto, e um carro de R$ 100 mil sairia por cerca de R$ 50 mil.",
+    "Zerar a fila do SUS, sem prazo e sem número de partida.",
+    "Meu Primeiro Emprego: jovens de 18 a 29 anos, cargos de até R$ 5.000, governo paga parte do salário por seis meses, carteira assinada garantida por um ano.",
+    "Um iPhone de última geração e um ano de internet grátis para quem concluir o curso de empreendedorismo, financiado com cerca de R$ 3,5 bilhões por ano de publicidade oficial.",
+    "Categoria feminina no esporte com critério genético a partir de 2027.",
+    "Dobrar, no mínimo, a pena mínima hoje em vigor para exploração sexual infantil.",
+    "Acompanhamento psicológico e social contínuo da criança vítima até a maioridade.",
+    "Sites e perfis com material de abuso infantil saem do ar imediatamente após identificação confiável.",
+    "Tornar o Brasil o maior polo tecnológico do mundo, sem prazo além de \"ao longo dos próximos anos\".",
+    "Cobrir toda a Amazônia com uma rede de drones de vigilância, sem prazo."
+  ],
+  "lacunas": [
+    "O imposto único de 3,5% sobre tudo exigiria mudar a Constituição e unificar tributos de União, estados e municípios. O plano não diz como isso passaria no Congresso nem como os entes federados aceitariam abrir mão de sua arrecadação.",
+    "O plano não mostra a conta do imposto único. Afirma que a arrecadação triplica pelo fim da sonegação, sem estimativa nem fonte, e não explica como financiar Previdência, saúde, defesa e saneamento com uma alíquota de 3,5% que também substitui o INSS.",
+    "O plano promete gastos grandes, como iPhones, financiamento de carros, complemento de salário, saneamento universal, ferrovias, defesa, Capes e crédito rural, sem custo total nem fonte, ao mesmo tempo em que reduz a receita. A resposta padrão é combater corrupção e desperdício.",
+    "Contradição interna: o IPVA aparece entre os tributos extintos pelo imposto único de 3,5%, mas também vira taxa fixa de R$ 50 por mês e isenção para caminhoneiros. O IPVA é imposto estadual.",
+    "Contradição interna: o imposto único vale \"sem exceção\" para todos, mas o plano prevê isenção para motoristas de aplicativo, desoneração para indústria e redução de imposto para carros elétricos.",
+    "O plano também afirma que, com o imposto único, os preços cairiam pela metade e o poder de compra dobraria, sem considerar se os preços realmente acompanhariam a redução do imposto.",
+    "O diagnóstico do motorista de aplicativo soma taxa da plataforma, aluguel do carro e combustível para chegar a quase 60%, mas a meta de 3,5% se aplica só à taxa da plataforma. Restringir a operação de empresas privadas e criar app estatal não vem com base legal nem custo.",
+    "A fila do SUS tem meta de zero, mas sem prazo, sem tamanho atual da fila e sem estimativa de custo. Parte das propostas de saúde depende de estados e municípios, que gerem hospitais e UBS.",
+    "Educação básica é competência principalmente de estados e municípios, e o plano não diz como a União faria isso valer. Não há metas, custo nem cronograma, e não há proposta sobre alfabetização, valorização geral de professores nem ensino superior além de pesquisa.",
+    "Segurança e Justiça: endurecer penas, dobrar pena mínima, criar vagão exclusivo por lei e regulamentar homeschooling dependem do Congresso. Responsabilizar magistrados envolve o Judiciário, que é outro poder. Integrar bases policiais depende dos estados. O plano não traz meta de redução de crimes.",
+    "A Justiça é criticada por não ter prazo máximo de processos, mas a proposta só cita mutirão e meta sem número. Também há tensão entre pedir estabilidade de regras e propor trocar todo o sistema tributário.",
+    "Isenção de IPVA para caminhoneiros e taxa fixa de IPVA dependem dos estados, que cobram e ficam com o imposto. O plano não diz como compensá-los.",
+    "Várias propostas são condicionadas a estudos futuros, sem valor definido: Crédito Raiz, orçamento do Meu Primeiro Emprego, saneamento, crédito nacional de qualificação, limite de idade nas redes sociais e valor do BPC.",
+    "Diagnóstico sem proposta correspondente: o plano cita queda de 35% do orçamento de defesa e de Capes e CNPq, mas promete só \"aumento real e substancial\" e \"recomposição\", sem percentual ou valor. Fala em \"patrimônio desde cedo\" para jovens sem nenhuma proposta a respeito.",
+    "A jazida de potássio de Autazes é citada como saída sem tratar de licenciamento ambiental, prazo ou custo, e a apresentação promete tratar de meio ambiente sem eixo próprio, com só drones na Amazônia e lixo.",
+    "Temas grandes ausentes: previdência, regras trabalhistas, política fiscal e dívida pública, política externa e comércio, energia, habitação (fora das ocupações irregulares), transporte urbano, povos indígenas, cultura, clima e reforma do Estado."
+  ],
+  "fonte": "Resumo escrito a partir do texto integral do plano registrado no TSE. Leitura feita por IA, sem checagem humana linha a linha; confira o original no DivulgaCand."
+}

@@ -1,0 +1,165 @@
+{
+  "sintese": "O \"Plano Implacável\" é da campanha de Romeu Zema, candidato do Novo à Presidência (a equipe é coordenada por nomes do partido, como Luiz Felipe D'Ávila e Tiago Mitraud). A tese central é que o Brasil é \"um país roubado\", e não fracassado: a saída seria cortar privilégios, reduzir o Estado, privatizar, abrir a economia e endurecer segurança e leis. O tom é ideológico e liberal, com muitos diagnósticos numéricos e propostas detalhadas em áreas técnicas como infraestrutura, energia e gestão pública. Zema apresenta a gestão em Minas Gerais como prova de que o modelo funciona.",
+  "eixos": [
+    {
+      "tema": "Segurança pública",
+      "propostas": [
+        "Classificar as facções criminosas como organizações terroristas, para permitir o uso da Força Nacional e das Forças Armadas, penas maiores e fim da progressão de regime.",
+        "Usar as Forças Armadas junto com as polícias estaduais e a Polícia Federal para retomar territórios dominados por facções.",
+        "Construir presídios de segurança máxima em regiões remotas para isolar membros de facções.",
+        "Sufocar o dinheiro das facções, com mais fiscalização sobre empresas de lavagem e combate a contrabando, garimpo e desmatamento ilegais e receptação.",
+        "Tornar obrigatória a prisão preventiva para quem for preso em flagrante pela terceira vez, sem relaxamento na audiência de custódia.",
+        "Reduzir a maioridade penal para 16 anos, ou menos em crimes graves e reincidência, e reformar o Código Penal com penas mais duras.",
+        "Trocar a progressão de regime por prisão efetiva seguida de liberdade condicional com monitoramento eletrônico.",
+        "Dar aos estados autonomia para criar crimes e agravar penas além da lei federal, e ampliar delegacias da mulher 24 horas, Patrulhas Maria da Penha e Salas Lilás."
+      ]
+    },
+    {
+      "tema": "Corrupção, Judiciário e reforma política",
+      "propostas": [
+        "Limitar o foro privilegiado ao Presidente da República e levar os senadores para a primeira instância.",
+        "Aumentar as penas de corrupção e só permitir progressão de regime após devolver o dinheiro desviado.",
+        "Abrir sindicância patrimonial automática na CGU quando um agente público tiver variação de patrimônio incompatível com a renda.",
+        "Acabar com supersalários, limitar férias a 30 dias, extinguir a aposentadoria compulsória como punição e proibir gastos de luxo com dinheiro público.",
+        "Acabar com decisões monocráticas no STF, fixar prazo para pedido de vista e tirar do tribunal as matérias criminais e tributárias.",
+        "Exigir 60 anos de idade mínima para ministros do STF, criar uma corregedoria independente para o tribunal e proibir parentes de ministros de advogar nos tribunais superiores.",
+        "Adotar o voto distrital misto e extinguir o Fundo Partidário e o Fundo Eleitoral, com financiamento privado de campanhas.",
+        "Tirar injúria e difamação da esfera criminal, revogar o crime de desacato e proibir a exclusão de perfis e a moderação de opiniões pelas plataformas, inclusive por ordem judicial."
+      ]
+    },
+    {
+      "tema": "Finanças públicas, gestão do Estado e federalismo",
+      "propostas": [
+        "Fazer nova reforma da Previdência, incluindo estados, municípios, previdência rural e militar, com idade mínima ajustada automaticamente pela expectativa de vida.",
+        "Rever as despesas obrigatórias que crescem sozinhas e limitar as emendas parlamentares a um percentual reduzido do orçamento discricionário.",
+        "Fazer reforma administrativa que reduza ministérios, cargos comissionados, autarquias e fundações.",
+        "Privatizar todas as empresas estatais e vender imóveis públicos sem uso.",
+        "Ampliar parcerias público-privadas em todos os serviços públicos, inclusive saúde e educação.",
+        "Fixar metas progressivas de redução da carga tributária que obriguem ao corte de gastos.",
+        "Adotar avaliação de desempenho com avaliação 360 graus e curva forçada, com possibilidade de desligar servidor, e criar vínculos públicos sem estabilidade ampla.",
+        "Estimular a união de municípios sem sustentação financeira e ampliar a autonomia dos estados sobre receitas e competências."
+      ]
+    },
+    {
+      "tema": "Economia, trabalho e comércio exterior",
+      "propostas": [
+        "Derrubar os juros por meio de choque fiscal, superávits primários, redução do IOF e corte gradual do crédito direcionado, incluindo linhas subsidiadas do BNDES.",
+        "Facilitar a portabilidade de dívidas com Open Finance e criar o programa Sócios do Brasil, com R$ 1.000 aplicados em fundos de ações para cada brasileiro ao nascer.",
+        "Reduzir o imposto de renda das empresas e reformar o IRPJ, com a Receita calculando o imposto a partir da nota fiscal eletrônica.",
+        "Criar um regime de contratação alternativo à CLT, com prevalência do negociado sobre o legislado e jornada de até 44 horas semanais.",
+        "Zerar encargos sobre o equivalente a um salário mínimo na contratação de quem está há mais de um ano na informalidade e acabar com contribuições como a do INCRA.",
+        "Encerrar o monopólio sindical, limitar o poder dos conselhos profissionais e desregulamentar profissões sem risco à saúde ou segurança.",
+        "Ampliar acordos comerciais, entrar na OCDE, transformar o Mercosul em zona de livre comércio e alinhar gradualmente as tarifas de importação à média dos países em desenvolvimento.",
+        "Atrair data centers e cadeias de inteligência artificial, com regulação pontual só onde houver dano comprovado, e facilitar a exploração privada de terras raras."
+      ]
+    },
+    {
+      "tema": "Infraestrutura, energia e mineração",
+      "propostas": [
+        "Montar um portfólio de projetos de infraestrutura com cronograma previsível, com concessões e PPPs, e apoiar estados e municípios a estruturar os seus.",
+        "Criar o regime de Projetos de Interesse Nacional, com tramitação prioritária, e fazer valer os prazos da nova Lei Geral do Licenciamento Ambiental.",
+        "Reunificar o Ministério da Infraestrutura, fortalecer as agências reguladoras e a ANA e modernizar as leis de concessões e PPPs.",
+        "Dar destino rápido a trechos ferroviários ociosos e priorizar FICO, FIOL e Ferrogrão, além de ampliar concessões de rodovias, portos, aeroportos e hidrovias.",
+        "Acelerar a universalização do saneamento com regionalização, concessões e PPPs, e abrir novas faixas de espectro para o 5G.",
+        "Reduzir encargos e subsídios da conta de luz e mudar a formação de preços de energia para escolher a fonte mais barata.",
+        "Desverticalizar a Petrobras em empresas separadas de produção, refino, transporte e logística, manter leilões regulares e tirar o preço dos combustíveis da política.",
+        "Reduzir a fila de autorizações da Agência Nacional de Mineração, retomar o levantamento geológico e combater o garimpo ilegal com rastreabilidade do ouro."
+      ]
+    },
+    {
+      "tema": "Agronegócio e meio ambiente",
+      "propostas": [
+        "Facilitar a importação de fertilizantes e defensivos e liberar produtos mais modernos, além de reorientar a Embrapa para inovação aplicada.",
+        "Reduzir o custo do frete com rodovias, ferrovias, hidrovias, portos e armazéns feitos com o setor privado.",
+        "Criar um fundo privado de seguro rural, com aportes públicos e privados, e acelerar barragens e irrigação com o setor privado.",
+        "Ampliar o porte de armas para toda a extensão da propriedade rural.",
+        "Emitir títulos de propriedade rural com agilidade e combater a grilagem com monitoramento por satélite.",
+        "Combater o desmatamento ilegal com integração entre forças de segurança, órgãos ambientais e Justiça, e com proteção às comunidades indígenas.",
+        "Permitir e regulamentar a exploração econômica de terras indígenas, como agricultura, pecuária, extrativismo e turismo.",
+        "Criar ambiente para o mercado voluntário de créditos de carbono sem novos tributos e conceder parques nacionais à iniciativa privada."
+      ]
+    },
+    {
+      "tema": "Educação, ciência e tecnologia",
+      "propostas": [
+        "Ampliar vagas em creches e pré-escolas com parcerias privadas e estender a avaliação da educação básica à educação infantil.",
+        "Transformar o Pacto pela Recomposição das Aprendizagens em estratégia nacional, com prioridade para a alfabetização na idade certa, e revisar a BNCC.",
+        "Transferir o ensino superior do MEC para o Ministério de Ciência e Tecnologia, deixando o MEC só com a educação básica.",
+        "Ampliar o ensino técnico ligado ao mercado, vincular o Pé-de-Meia à frequência e a nota mínima no Enem e melhorar sua focalização.",
+        "Dar liberdade de escolha às famílias, com escolas conveniadas, escolas cívico-militares e regulamentação do homeschooling.",
+        "Fazer a progressão da carreira docente depender de desempenho e condicionar parte dos repasses a critérios técnicos para escolha de diretores.",
+        "Trocar a eleição interna de reitores por escolha técnica com conselhos externos e premiar universidades por desempenho e empregabilidade.",
+        "Vincular bolsas da Capes e do CNPq à relevância e à aplicação prática das pesquisas e ampliar vagas e bolsas em ciências, tecnologia, engenharia e matemática."
+      ]
+    },
+    {
+      "tema": "Saúde",
+      "propostas": [
+        "Criar um registro nacional de saúde unificado, sob controle do cidadão, e integrar os sistemas público e privado.",
+        "Expandir a telemedicina e garantir internet de qualidade em todas as unidades públicas de saúde.",
+        "Ampliar a cobertura da Estratégia de Saúde da Família e dar incentivos por resultado no acompanhamento de doenças crônicas.",
+        "Garantir o conjunto completo de consultas e exames de pré-natal para todas as gestantes.",
+        "Reduzir filas do SUS com parcerias com clínicas e hospitais privados, com metas de atendimento e qualidade.",
+        "Expandir hospitais e UPAs por concessões, PPPs e organizações sociais.",
+        "Ampliar as vagas de residência médica e os cuidados paliativos.",
+        "Criar critérios técnicos vinculantes para decisões judiciais em saúde e flexibilizar a regulação da ANS para permitir planos com coberturas e custos compartilhados diferentes."
+      ]
+    },
+    {
+      "tema": "Desenvolvimento social, moradia, esporte, cultura e turismo",
+      "propostas": [
+        "Criar as Casas da Cidadania, com plano de desenvolvimento social por família que integre capacitação, trabalho, renda e moradia.",
+        "Manter adultos aptos no Bolsa Família só se estiverem buscando emprego, estudando ou se qualificando, com suspensão para quem recusar oferta formal de trabalho sem justificativa.",
+        "Pagar prêmio de R$ 5 mil às famílias que saírem do Bolsa Família por superar o limite de renda.",
+        "Unificar os programas de transferência de renda no Bolsa Família e melhorar o CadÚnico com fontes como consumo de energia.",
+        "Proibir barracas e abrigos improvisados em espaços públicos, ampliar o aluguel social (housing first) e apoiar a internação involuntária de dependentes químicos em situação de rua.",
+        "Reformular o Minha Casa, Minha Vida para priorizar áreas com infraestrutura e apoiar municípios na revisão de planos diretores para adensar áreas centrais.",
+        "Condicionar repasses a ILPIs à fiscalização e capacitação e fortalecer o Criança Feliz com foco em resultados.",
+        "Concentrar o financiamento da cultura em artistas regionais, limitar a captação de grandes produtores, conceder parques e melhorar a infraestrutura do turismo com o setor privado e condicionar repasses a federações esportivas à gestão profissional."
+      ]
+    },
+    {
+      "tema": "Política externa e defesa",
+      "propostas": [
+        "Sair do BRICS de forma diplomática, mantendo as relações comerciais com os países do bloco.",
+        "Retomar a adesão à OCDE e flexibilizar o Mercosul para permitir acordos comerciais diretos.",
+        "Reaproximar-se de Mercosul, Argentina e países da bacia do Pacífico e da Amazônia, e guiar a política externa por retorno em mercados, investimentos e tecnologia.",
+        "Isentar de visto turistas de países seguros e abrir caminhos legais para imigração de profissionais qualificados.",
+        "Voltar a participar da Aliança Internacional para a Memória do Holocausto (IHRA).",
+        "Ampliar a presença do Estado nas fronteiras e na Amazônia e cooperar com Estados Unidos e países sul-americanos contra PCC, CV e outras facções.",
+        "Integrar Marinha, Exército e Aeronáutica pelo Estado-Maior Conjunto, racionalizar o gasto de defesa e formar quadros civis para a gestão da Defesa.",
+        "Modernizar o sistema de inteligência e dar segurança jurídica para agentes da Abin portarem armas e usarem identidade de cobertura."
+      ]
+    }
+  ],
+  "mensuraveis": [
+    "Reduzir a maioridade penal para \"16 anos ou menos\".",
+    "Prisão preventiva obrigatória para quem for preso em flagrante pela \"terceira vez\".",
+    "Limitar o foro privilegiado apenas ao Presidente da República.",
+    "Limitar as férias do funcionalismo a \"30 dias anuais\".",
+    "Exigir idade mínima de \"60 anos\" para ministros do STF.",
+    "Proibir que escritórios com parentes de até \"3º grau\" de ministros dos tribunais superiores advoguem nesses tribunais.",
+    "Acabar com o sigilo de \"100 anos\".",
+    "Depositar \"R$1.000\" para cada brasileiro ao nascer, aplicados em fundos de ações, com saque só aos \"18 anos\" (programa Sócios do Brasil).",
+    "Pagar prêmio de \"R$5 mil\" às famílias que deixarem o Bolsa Família após superar o limite de renda.",
+    "Zerar os encargos sobre \"um salário mínimo\" na contratação de quem está \"há mais de um ano\" na informalidade.",
+    "No regime alternativo à CLT, permitir jornada diária acima de 8 horas, respeitado o limite de \"44 horas semanais\".",
+    "Redistribuir as vagas da Câmara pela população de cada estado \"sem aumentar o número de deputados federais\"."
+  ],
+  "lacunas": [
+    "O plano não traz nenhuma meta numérica de resultado para si mesmo, como redução de homicídios, carga tributária, dívida/PIB, Selic, fila do SUS, alfabetização ou déficit habitacional. As metas citadas são \"progressivas\" ou \"anuais\", sem valor.",
+    "Não há cronograma. Nenhuma proposta tem prazo de execução, nem para os primeiros meses de governo.",
+    "Quase não há estimativa de custo nem fonte de recursos. Isso vale para o Sócios do Brasil (R$ 1.000 por nascimento), o prêmio de R$ 5 mil do Bolsa Família, os presídios de segurança máxima, o cofinanciamento de metrôs e o fundo de seguro rural com aportes públicos.",
+    "Há uma tensão interna. O plano promete choque fiscal, corte de gastos e de impostos, mas também novos gastos e renúncias (zerar encargos, novos programas, investimento em infraestrutura e mobilidade) sem mostrar a conta. Também não diz quais estatais seriam privatizadas nem o efeito fiscal da venda.",
+    "Outra tensão: propõe privatizar \"todas\" as estatais e cortar crédito direcionado, mas fala em fortalecer a oferta de garantias pelos bancos públicos. Não explica como isso se encaixa.",
+    "Muitas promessas dependem do Congresso ou de emenda constitucional e o plano não diz como as aprovaria. Exemplos: maioridade penal, foro privilegiado, fim das decisões monocráticas, retirar matérias penais e tributárias do STF, idade mínima no STF, reforma da Previdência, voto distrital misto, fim dos fundos partidário e eleitoral, redistribuição de vagas da Câmara e autonomia penal dos estados.",
+    "Várias propostas exigem ação de estados, municípios ou de outros Poderes, que o Presidente não controla. Segurança, saúde e educação básica são executadas em grande parte por estados e municípios. Corregedoria do STF, fim de privilégios do Judiciário e regras para plataformas também dependem de outros Poderes.",
+    "A saída do BRICS depende só do Executivo, mas a mudança do Mercosul para zona de livre comércio depende dos demais sócios. O plano não trata dessa negociação.",
+    "O plano não fala de imposto de renda de pessoas físicas, da política do salário mínimo, do Banco Central, de superlotação carcerária nem de racismo, mudança climática ou demarcação de terras indígenas. Ao tratar dos indígenas, só propõe liberar a exploração econômica das terras.",
+    "O diagnóstico traz números sem proposta correspondente com meta. Exemplos: dívida acima de R$ 10 trilhões e juros de cerca de R$ 1 trilhão por ano (só \"choque fiscal\"), 826 mil crianças na fila de creche, 66% das escolas sem quadra, 5,9 milhões de moradias de déficit, 94,7% dos municípios sem plano de drenagem, 40% do lixo descartado de forma inadequada.",
+    "O diagnóstico cita 1,7 milhão de trabalhadores de plataformas digitais, mas não há proposta específica para eles além do regime alternativo à CLT.",
+    "Algumas propostas são amplas e sem detalhe de como fazer. Exemplos: \"reformar o Código Penal\", \"reduzir encargos setoriais\" da conta de luz (sem dizer quais), \"reformar a Previdência de forma definitiva\" (sem regras) e \"enxugar a máquina\" (sem número de ministérios). O documento critica os 38 ministérios atuais, mas não diz quantos manteria.",
+    "O plano defende o fim da censura e a liberdade de expressão, mas propõe proibir a moderação de perfis por plataformas mesmo por ordem judicial, o que interfere na decisão de outros Poderes e das empresas. Não explica como isso conviveria com a proteção contra crimes como fraude ou ameaça."
+  ],
+  "fonte": "Resumo escrito a partir do texto integral do plano registrado no TSE. Leitura feita por IA, sem checagem humana linha a linha; confira o original no DivulgaCand."
+}
