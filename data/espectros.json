@@ -1,0 +1,144 @@
+{
+  "nota": "Espectro é uma régua grosseira. Serve para se localizar, não para julgar um candidato. No Brasil os partidos são pouco ideológicos, mudam de lado conforme quem governa, e um candidato pode discordar da linha do próprio partido. O filtro por espectro usa a classificação do partido, não a do candidato. Para saber o que a pessoa pensa de verdade, veja as votações-chave e o plano de governo na ficha dela.",
+  "origem": [
+    "A ideia de esquerda e direita nasceu na Assembleia Nacional francesa, em 1789. Quem defendia manter os poderes do rei sentava à direita do presidente da mesa; quem queria limitar o rei e ampliar direitos sentava à esquerda. Virou atalho para dizer, de um lado, quem quer preservar a ordem e a hierarquia existentes e, do outro, quem quer mudá-las em nome da igualdade.",
+    "No século 20 a briga central passou a ser sobre economia: quanto o Estado deve intervir, regular, tributar e redistribuir. Esquerda quer mais Estado e mais redistribuição; direita quer mais mercado e menos imposto. Depois dos anos 1960 entrou um segundo eixo, o dos costumes: religião, família, drogas, armas, direitos de minorias, com progressistas de um lado e conservadores do outro.",
+    "Por isso hoje se fala em pelo menos dois eixos, e eles não andam juntos. Um partido pode ser liberal na economia e conservador nos costumes (o caso mais comum na direita brasileira), ou o contrário. O 'centro' não é um meio-termo em tudo: em geral é quem prioriza governabilidade e negociação sobre qualquer bandeira."
+  ],
+  "eixos": [
+    {"nome": "Economia", "pergunta": "Quanto o Estado deve intervir, tributar e redistribuir?", "esquerda": "Mais Estado: serviços públicos universais, salário mínimo alto, imposto sobre grandes fortunas, empresas estatais.", "direita": "Mais mercado: menos imposto, menos regulação, privatizações, corte de gastos."},
+    {"nome": "Costumes", "pergunta": "O Estado deve proteger a tradição ou ampliar direitos individuais e de minorias?", "esquerda": "Progressista: cotas, direitos LGBT, descriminalização, laicidade.", "direita": "Conservador: família tradicional, religião na vida pública, restrição a drogas e aborto, direito a armas."},
+    {"nome": "Ordem e segurança", "pergunta": "Como enfrentar o crime?", "esquerda": "Prevenção, políticas sociais, controle da polícia, desencarceramento.", "direita": "Endurecimento penal, mais polícia, mais prisões, menos garantias ao réu."}
+  ],
+  "limites": [
+    "Partido não é candidato. Deputados da mesma legenda votam diferente com frequência. Use o espectro para chegar perto e as votações-chave para decidir.",
+    "As fronteiras são discutíveis. Este guia põe MDB, PSD e PSDB no centro, seguindo a autodefinição deles e o uso comum na imprensa. Em levantamentos com cientistas políticos brasileiros, esses três costumam cair no centro-direita. Nenhuma das duas escolhas é errada; são réguas diferentes.",
+    "Boa parte dos partidos de centro e centro-direita forma o chamado Centrão: um bloco que apoia o governo da vez em troca de cargos e emendas, seja o governo de esquerda ou de direita. Para esses, o espectro diz pouco sobre como votam.",
+    "Federações (PT, PCdoB e PV; PSOL e Rede; PSDB e Cidadania; União e PP; Solidariedade e PRD) juntam partidos que podem estar em pontos diferentes da régua. Nas proporcionais, o voto num deputado ajuda a federação inteira a conquistar cadeiras.",
+    "Um partido pequeno pode ser bem mais radical que o grande do mesmo lado. PSTU e PL são ambos 'do mesmo lado' de algum outro, mas a distância entre eles e o centro não é a mesma."
+  ],
+  "espectros": [
+    {
+      "id": "esquerda radical",
+      "nome": "Esquerda radical",
+      "posicao": 1,
+      "resumo": "Quer romper com o capitalismo, não administrá-lo. Vê a eleição como tribuna para organizar trabalhadores, não como caminho para governar.",
+      "prioriza": [
+        "Estatizar bancos, grandes empresas e setores estratégicos, em geral sem indenização.",
+        "Suspender ou auditar a dívida pública e usar o dinheiro em salário, saúde e educação.",
+        "Aumento forte do salário mínimo e redução da jornada (30 a 36 horas) como bandeiras centrais.",
+        "Revogar reformas trabalhista e da Previdência.",
+        "Organização de base: conselhos populares, greves, ocupações."
+      ],
+      "por_que_existe": "Vem da tradição comunista e trotskista do século 20. No Brasil, o PCB é de 1922; PSTU, PCO e UP nasceram de rachas à esquerda do PT nos anos 1990 e 2000, quando o PT aceitou a via institucional e alianças ao centro. Existem para manter viva a ideia de que o problema é o sistema, não a gestão dele.",
+      "como_reconhecer": [
+        "Fala em socialismo, expropriação, 'poder popular', 'imperialismo'.",
+        "Os planos de governo dizem, às vezes com todas as letras, que não são promessas de campanha.",
+        "Propostas quase sempre de competência federal, mesmo em candidaturas estaduais."
+      ],
+      "no_brasil": "Sem representação no Congresso nas últimas legislaturas. Votação abaixo de 1% para presidente."
+    },
+    {
+      "id": "esquerda",
+      "nome": "Esquerda",
+      "posicao": 2,
+      "resumo": "Estado forte para reduzir desigualdade: transferência de renda, salário mínimo, serviços públicos universais, direitos de minorias. Aceita a economia de mercado, mas quer regulá-la e tributá-la mais.",
+      "prioriza": [
+        "Programas de transferência de renda (Bolsa Família) e valorização real do salário mínimo.",
+        "SUS, escola pública e universidades federais como direitos, com mais orçamento.",
+        "Tributar mais quem ganha mais: imposto sobre lucros e dividendos, grandes fortunas, isenção de IR na base.",
+        "Cotas raciais e sociais, direitos LGBT, política para mulheres e povos indígenas.",
+        "Meio ambiente como política de Estado: desmatamento zero, demarcação de terras.",
+        "Regulação de plataformas digitais e de relações de trabalho por aplicativo."
+      ],
+      "por_que_existe": "Nasce do movimento sindical e das comunidades eclesiais de base durante a ditadura. O PT foi fundado em 1980 no ABC paulista; o PSOL saiu do PT em 2004, contra a reforma da Previdência de Lula; o PCdoB é de 1962. Existem para representar trabalhadores organizados e para defender que o Estado corrija o que o mercado não corrige.",
+      "como_reconhecer": [
+        "Fala em 'redução das desigualdades', 'papel do Estado', 'direitos sociais', 'inclusão'.",
+        "Defende os governos Lula e Dilma e os programas criados por eles.",
+        "Na prática, o PT governa em coalizão com o centro e faz ajuste fiscal quando precisa. A identidade é de esquerda; a gestão fica mais perto do centro-esquerda."
+      ],
+      "no_brasil": "PT: presidência em 2003-2016 e desde 2023. PSOL e PCdoB: bancadas pequenas, com peso no debate."
+    },
+    {
+      "id": "centro-esquerda",
+      "nome": "Centro-esquerda",
+      "posicao": 3,
+      "resumo": "Economia de mercado com Estado ativo em educação, saúde e proteção social. Menos ênfase em luta de classes, mais em desenvolvimento, educação e meio ambiente.",
+      "prioriza": [
+        "Educação em tempo integral e ciência como motor de desenvolvimento.",
+        "Desenvolvimento nacional com indústria, crédito público e infraestrutura.",
+        "Proteção ao trabalhador dentro do mercado (trabalhismo), sem romper com ele.",
+        "Sustentabilidade, transição energética e economia verde (Rede e PV).",
+        "Reforma política e combate à corrupção como pautas próprias."
+      ],
+      "por_que_existe": "Vem do trabalhismo de Vargas e Brizola (PDT, 1979), do socialismo democrático (PSB, refundado em 1985) e do ambientalismo (PV, 1986; Rede, 2015, fundada por Marina Silva ao sair do PT). Existem para quem quer políticas sociais fortes sem a marca do PT ou com prioridade em temas que o PT trata como secundários.",
+      "como_reconhecer": [
+        "Fala em 'desenvolvimento com inclusão', 'escola de tempo integral', 'sustentabilidade', 'nova política'.",
+        "Apoia governos de esquerda, mas com ressalvas e agenda própria.",
+        "Candidatos com perfil de gestor ou de técnico, mais que de militante."
+      ],
+      "no_brasil": "PSB e PDT costumam ter governadores e ministérios em governos do PT. Rede e PV são pequenos."
+    },
+    {
+      "id": "centro",
+      "nome": "Centro",
+      "posicao": 4,
+      "resumo": "Governabilidade acima de bandeira. Prioriza estabilidade, negociação, gestão e reformas graduais. Participa de governos de esquerda e de direita.",
+      "prioriza": [
+        "Equilíbrio fiscal com manutenção de programas sociais: 'responsabilidade fiscal e social'.",
+        "Reformas por consenso: tributária, administrativa, previdenciária.",
+        "Gestão e eficiência do Estado como argumento principal, mais do que ideologia.",
+        "Acordos amplos no Congresso, presidência de comissões e das Casas.",
+        "Obras e infraestrutura regionais, em geral via emendas parlamentares."
+      ],
+      "por_que_existe": "O MDB nasceu em 1966 como a oposição permitida pela ditadura e virou o partido que está em quase todo governo desde então. O PSDB saiu do MDB em 1988 e governou com o Plano Real. O PSD foi criado em 2011 por Gilberto Kassab dizendo não ser 'nem de esquerda, nem de direita, nem de centro'. Existem porque no Brasil ninguém governa sem maioria no Congresso, e esse bloco vende a maioria.",
+      "como_reconhecer": [
+        "Fala em 'diálogo', 'equilíbrio', 'moderação', 'gestão', 'experiência'.",
+        "Mesmo partido apoia Lula num estado e Bolsonaro em outro.",
+        "Marcos do partido são leis de consenso e obras, raramente uma bandeira que divide."
+      ],
+      "no_brasil": "MDB e PSD têm as maiores bancadas de governadores e senadores. Em levantamentos acadêmicos, MDB, PSD e PSDB caem no centro-direita."
+    },
+    {
+      "id": "centro-direita",
+      "nome": "Centro-direita",
+      "posicao": 5,
+      "resumo": "Mercado com pouco Estado, mas sem ruptura. Agronegócio, segurança pública e valores conservadores, com intensidade que varia de partido para partido.",
+      "prioriza": [
+        "Menos imposto e menos burocracia para empresas; marco legal favorável ao agronegócio.",
+        "Segurança pública com endurecimento penal e apoio às polícias.",
+        "Pautas conservadoras nos costumes: família, religião, oposição à descriminalização das drogas e ao aborto.",
+        "Emendas parlamentares e obras locais como método de fazer política.",
+        "Privatizações e concessões, mas com pragmatismo, não como princípio."
+      ],
+      "por_que_existe": "PP e Democrata (ex-Arena, ex-PFL) descendem do partido de sustentação da ditadura. União Brasil nasceu em 2022 da fusão do DEM com o PSL. Republicanos é ligado à Igreja Universal e representa a bancada evangélica. Existem para quem quer conservadorismo e mercado sem o estilo de confronto da direita.",
+      "como_reconhecer": [
+        "Fala em 'família', 'segurança', 'menos imposto', 'agro', 'ordem'.",
+        "Faz parte do Centrão: apoiou Lula, Temer e Bolsonaro conforme o momento.",
+        "Bancadas evangélica, do agro e da segurança (a chamada bancada BBB)."
+      ],
+      "no_brasil": "PP e União têm bancadas grandes e presidiram a Câmara. Republicanos cresce com o voto evangélico."
+    },
+    {
+      "id": "direita",
+      "nome": "Direita",
+      "posicao": 6,
+      "resumo": "Duas correntes que andam juntas desde 2018: a liberal, de Estado mínimo e privatização, e a conservadora ou nacionalista, de valores cristãos, armas e lei e ordem. Confronto com a esquerda como identidade.",
+      "prioriza": [
+        "Corte de gastos, privatização ampla, redução de ministérios e de impostos (linha liberal, Novo).",
+        "Endurecimento penal: redução da maioridade, fim de saídas temporárias, prisão em segunda instância.",
+        "Direito ao porte e à posse de armas.",
+        "Valores cristãos na vida pública, escola sem 'ideologia de gênero', oposição ao aborto.",
+        "Desconfiança de ONGs, organismos internacionais e da imprensa tradicional.",
+        "Reforma do STF e das instituições, vistas como capturadas."
+      ],
+      "por_que_existe": "O liberalismo econômico sempre existiu, mas era minoritário; o Novo (2011) o organizou como partido. A direita conservadora de massa surge da reação aos protestos de 2013, do antipetismo pós-Lava Jato e da eleição de Bolsonaro em 2018, que se abrigou no PL em 2021. Existem para quem acha que o problema do Brasil é o tamanho do Estado, a esquerda no poder, ou os dois.",
+      "como_reconhecer": [
+        "Fala em 'Deus, pátria, família', 'liberdade', 'lei e ordem', 'menos Estado'.",
+        "Confronto direto com o PT e com o STF como eixo de campanha.",
+        "Candidatos com origem militar, policial, religiosa ou de mídia digital."
+      ],
+      "no_brasil": "PL tem a maior bancada da Câmara desde 2022. Novo é pequeno e liberal; DC, PRTB, Missão e PRD são nanicos que disputam o mesmo eleitor."
+    }
+  ]
+}

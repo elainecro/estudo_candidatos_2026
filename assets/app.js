@@ -9,6 +9,11 @@
   const PARTIDOS = D.partidos.partidos;
   const PARTIDO_POR_SIGLA = Object.fromEntries(PARTIDOS.map(p => [p.sigla, p]));
   const CANDS = D.candidatos.candidatos;
+  const ESPECTROS = (D.espectros?.espectros || []).slice().sort((a, b) => a.posicao - b.posicao);
+  const ESPECTRO_POR_ID = Object.fromEntries(ESPECTROS.map(e => [e.id, e]));
+  const ORDEM_ESPECTROS = ESPECTROS.map(e => e.id);
+  const espectroDe = sigla => PARTIDO_POR_SIGLA[sigla]?.espectro || '';
+  const corEsp = id => `--esp: var(--esp-${ESPECTRO_POR_ID[id]?.posicao || 4})`;
   const ORDEM_CARGOS = ['presidente', 'governador', 'senador', 'deputado_federal', 'deputado_estadual'];
   const NOME_CURTO = { presidente: 'Presidente', governador: 'Governador', senador: 'Senador', deputado_federal: 'Dep. Federal', deputado_estadual: 'Dep. Estadual' };
 
@@ -50,10 +55,49 @@
       <a class="pill-link" href="#candidatos" data-filtra-cargo="${c.id}">Ver todos com filtro →</a>`);
   }
 
+  // --------------------------------------------------------------- espectros
+  function renderEspectros() {
+    if (!ESPECTROS.length) { $('#espectros').hidden = true; return; }
+    const E = D.espectros;
+    $('#espectro-origem').innerHTML = E.origem.map(t => `<p>${esc(t)}</p>`).join('') +
+      `<div class="regua">${ESPECTROS.map(e => `<span style="${corEsp(e.id)}" title="${esc(e.nome)}"></span>`).join('')}</div>` +
+      `<p class="regua-rotulos"><span>← esquerda</span><span>direita →</span></p>` +
+      `<div class="eixos">${E.eixos.map(x => `<div class="eixo-caixa"><h4>${esc(x.nome)}</h4><p class="lado"><i>${esc(x.pergunta)}</i></p><p><b>Esquerda:</b> ${esc(x.esquerda)}</p><p><b>Direita:</b> ${esc(x.direita)}</p></div>`).join('')}</div>`;
+    $('#espectro-limites').innerHTML = E.limites.map(t => `<li>${esc(t)}</li>`).join('');
+    const box = $('#lista-espectros');
+    for (const e of ESPECTROS) {
+      const partidos = PARTIDOS.filter(p => p.espectro === e.id).sort((a, b) => a.sigla.localeCompare(b.sigla, 'pt-BR'));
+      const n = CANDS.filter(c => espectroDe(c.partido) === e.id && c.situacao !== 'desistiu').length;
+      box.appendChild(h('button', { class: 'card espectro', type: 'button', style: corEsp(e.id), onclick: () => abrirEspectro(e) }, `
+        <h3>${esc(e.nome)}</h3>
+        <p class="siglas">${partidos.map(p => esc(p.sigla)).join(' · ') || 'nenhum partido'}</p>
+        <p class="resumo">${esc(e.resumo)}</p>
+        <div class="tags"><span class="tag ${n ? 'ok' : ''}">${n} ${n === 1 ? 'candidato' : 'candidatos'} no ES</span></div>`));
+    }
+  }
+  function abrirEspectro(e) {
+    const partidos = PARTIDOS.filter(p => p.espectro === e.id).sort((a, b) => a.sigla.localeCompare(b.sigla, 'pt-BR'));
+    const n = CANDS.filter(c => espectroDe(c.partido) === e.id && c.situacao !== 'desistiu').length;
+    abrirModal(`
+      <p class="kicker">Espectro</p>
+      <h2><span class="esp-dot" style="${corEsp(e.id)}"></span>${esc(e.nome)}</h2>
+      <p class="sub">${esc(e.resumo)}</p>
+      <h3>O que prioriza</h3><ul>${e.prioriza.map(t => `<li>${esc(t)}</li>`).join('')}</ul>
+      <h3>Por que existe</h3><p>${esc(e.por_que_existe)}</p>
+      <h3>Como reconhecer</h3><ul>${e.como_reconhecer.map(t => `<li>${esc(t)}</li>`).join('')}</ul>
+      ${e.no_brasil ? `<h3>Peso hoje</h3><p>${esc(e.no_brasil)}</p>` : ''}
+      <h3>Partidos nesta faixa (${partidos.length})</h3>
+      <ul>${partidos.map(p => `<li><a href="#" data-partido="${esc(p.sigla)}">${esc(p.sigla)}</a> · ${esc(p.nome)}${p.espectro_nota ? ` <span class="obs">(${esc(p.espectro_nota)})</span>` : ''}</li>`).join('') || '<li>nenhum</li>'}</ul>
+      <a class="pill-link" href="#partidos" data-filtra-espectro-partidos="${esc(e.id)}">Ver esses partidos →</a>
+      <a class="pill-link" href="#candidatos" data-filtra-espectro="${esc(e.id)}">Filtrar os ${n} candidatos →</a>
+      <p class="nota">${esc(D.espectros.nota)}</p>`);
+  }
+
   // ---------------------------------------------------------------- partidos
   function renderPartidos() {
     const sel = $('#f-espectro');
-    for (const e of [...new Set(PARTIDOS.map(p => p.espectro))].sort()) sel.appendChild(h('option', { value: e }, esc(e)));
+    const esps = [...new Set(PARTIDOS.map(p => p.espectro))].sort((a, b) => ORDEM_ESPECTROS.indexOf(a) - ORDEM_ESPECTROS.indexOf(b));
+    for (const e of esps) sel.appendChild(h('option', { value: e }, esc(ESPECTRO_POR_ID[e]?.nome || e)));
     sel.addEventListener('change', desenharPartidos);
     $('#f-com-candidato').addEventListener('change', desenharPartidos);
     desenharPartidos();
@@ -69,7 +113,7 @@
       box.appendChild(h('button', { class: 'card partido', type: 'button', onclick: () => abrirPartido(p) }, `
         <h3><span class="num">${p.numero}</span> ${esc(p.sigla)}</h3>
         <p class="sub">${esc(p.nome)} · desde ${p.fundacao}</p>
-        <p class="esp">${esc(p.espectro)}${p.federacao ? ' · federação ' + esc(p.federacao) : ''}</p>
+        <p class="esp"><span class="esp-dot" style="${corEsp(p.espectro)}"></span>${esc(p.espectro)}${p.espectro_nota ? ' (' + esc(p.espectro_nota.split(':')[0].split(';')[0].toLowerCase()) + ')' : ''}${p.federacao ? ' · federação ' + esc(p.federacao) : ''}</p>
         <p class="sub">${esc(p.ideologia.split('. ')[0])}.</p>
         <div class="tags"><span class="tag ${n ? 'ok' : ''}">${n ? n + (n === 1 ? ' candidato neste guia' : ' candidatos neste guia') : 'sem candidato no guia'}</span></div>`));
     }
@@ -80,7 +124,7 @@
     abrirModal(`
       <p class="kicker">Partido · número ${p.numero}</p>
       <h2>${esc(p.sigla)} <small style="font-weight:400;color:var(--muted)">${esc(p.nome)}</small></h2>
-      <p class="sub">Fundado em ${p.fundacao} · ${esc(p.espectro)}${p.federacao ? ' · Federação ' + esc(p.federacao) : ' · sem federação'}</p>
+      <p class="sub">Fundado em ${p.fundacao} · <span class="esp-dot" style="${corEsp(p.espectro)}"></span>${esc(p.espectro)}${p.espectro_nota ? '. ' + esc(p.espectro_nota) : ''}${p.federacao ? ' · Federação ' + esc(p.federacao) : ' · sem federação'}</p>
       <h3>O que defende</h3><p>${esc(p.ideologia)}</p>
       <h3>Marcos: o que fez ou sustentou quando teve poder</h3><ul class="marcos">${p.marcos.map(m => `<li>${esc(m)}</li>`).join('')}</ul>
       <h3>Críticas frequentes</h3><ul class="criticas">${p.criticas.map(m => `<li>${esc(m)}</li>`).join('')}</ul>
@@ -91,7 +135,7 @@
   }
 
   // -------------------------------------------------------------- candidatos
-  const estado = { cargo: 'governador', partido: '', busca: '', reeleicao: false };
+  const estado = { cargo: 'governador', partido: '', espectro: '', busca: '', reeleicao: false };
   function renderCandidatos() {
     const chips = $('#chips-cargo');
     for (const id of ORDEM_CARGOS) {
@@ -101,6 +145,9 @@
     const sel = $('#f-partido');
     for (const s of [...new Set(CANDS.map(c => c.partido))].sort((a, b) => a.localeCompare(b, 'pt-BR'))) sel.appendChild(h('option', { value: s }, `${esc(s)} · ${PARTIDO_POR_SIGLA[s]?.numero ?? ''}`));
     sel.addEventListener('change', e => { estado.partido = e.target.value; desenharCandidatos(); });
+    const selE = $('#f-espectro-cand');
+    for (const e of ESPECTROS) selE.appendChild(h('option', { value: e.id }, esc(e.nome)));
+    selE.addEventListener('change', e => { estado.espectro = e.target.value; if (estado.partido && espectroDe(estado.partido) !== estado.espectro) estado.partido = ''; desenharCandidatos(); });
     $('#f-busca').addEventListener('input', e => { estado.busca = e.target.value.trim().toLowerCase(); desenharCandidatos(); });
     $('#f-reeleicao').addEventListener('change', e => { estado.reeleicao = e.target.checked; desenharCandidatos(); });
     desenharCandidatos();
@@ -109,16 +156,19 @@
   function desenharCandidatos() {
     document.querySelectorAll('#chips-cargo button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.cargo === estado.cargo)));
     $('#f-partido').value = estado.partido;
+    $('#f-espectro-cand').value = estado.espectro;
+    for (const o of $('#f-partido').options) o.hidden = !!(estado.espectro && o.value && espectroDe(o.value) !== estado.espectro);
     const cob = D.candidatos.meta.cobertura[estado.cargo];
     $('#cobertura').innerHTML = `<b>${esc(CARGO_POR_ID[estado.cargo].nome)}</b>: ${esc(cob)}`;
     const busca = normal(estado.busca);
     const lista = CANDS.filter(c => c.cargo === estado.cargo)
       .filter(c => !estado.partido || c.partido === estado.partido)
+      .filter(c => !estado.espectro || espectroDe(c.partido) === estado.espectro)
       .filter(c => !estado.reeleicao || (c.mandatos && c.mandatos.length))
       .filter(c => !busca || normal(c.nome_urna).includes(busca) || normal(c.nome_completo).includes(busca) || (c.numero || '').startsWith(busca) || normal(c.partido).includes(busca))
       .sort((a, b) => (a.situacao === 'desistiu') - (b.situacao === 'desistiu') || (a.numero || '99999').localeCompare(b.numero || '99999') || a.nome_urna.localeCompare(b.nome_urna, 'pt-BR'));
     const box = $('#lista-candidatos'); box.innerHTML = '';
-    $('#contagem').textContent = `${lista.length} ${lista.length === 1 ? 'candidato' : 'candidatos'}${estado.partido ? ' do ' + estado.partido : ''}${busca ? ' para "' + estado.busca + '"' : ''}`;
+    $('#contagem').textContent = `${lista.length} ${lista.length === 1 ? 'candidato' : 'candidatos'}${estado.partido ? ' do ' + estado.partido : (estado.espectro ? ' de partidos de ' + (ESPECTRO_POR_ID[estado.espectro]?.nome || estado.espectro).toLowerCase() : '')}${busca ? ' para "' + estado.busca + '"' : ''}`;
     for (const c of lista) box.appendChild(cardCandidato(c));
     if (!lista.length) box.innerHTML = '<p class="nota">Ninguém com esses filtros. Se o nome que você procura não está aqui, ele pode estar entre os candidatos ainda não importados do TSE (veja o aviso de cobertura acima).</p>';
   }
@@ -278,15 +328,17 @@
   function fecharModal() { modal.hidden = true; document.body.style.overflow = ''; ultimoFoco?.focus?.(); }
   modal.addEventListener('click', e => {
     if (e.target.closest('[data-fechar]')) return fecharModal();
-    const a = e.target.closest('a[data-cand],a[data-partido],a[data-filtra-cargo],a[data-filtra-partido]');
+    const a = e.target.closest('a[data-cand],a[data-partido],a[data-filtra-cargo],a[data-filtra-partido],a[data-filtra-espectro],a[data-filtra-espectro-partidos]');
     if (!a) return;
     e.preventDefault();
     if (a.dataset.cand) { const c = CANDS.find(x => x.id === a.dataset.cand); if (c) abrirCandidato(c); }
     else if (a.dataset.partido) { const p = PARTIDO_POR_SIGLA[a.dataset.partido]; if (p) abrirPartido(p); }
-    else if (a.dataset.filtraCargo) { estado.cargo = a.dataset.filtraCargo; estado.partido = ''; desenharCandidatos(); fecharModal(); location.hash = 'candidatos'; }
-    else if (a.dataset.filtraPartido) { estado.partido = a.dataset.filtraPartido; const c = CANDS.find(x => x.partido === estado.partido && x.situacao !== 'desistiu'); if (c && !CANDS.some(x => x.partido === estado.partido && x.cargo === estado.cargo)) estado.cargo = c.cargo; desenharCandidatos(); fecharModal(); location.hash = 'candidatos'; }
+    else if (a.dataset.filtraEspectroPartidos) { $('#f-espectro').value = a.dataset.filtraEspectroPartidos; $('#f-com-candidato').checked = false; desenharPartidos(); fecharModal(); location.hash = 'partidos'; }
+    else if (a.dataset.filtraEspectro) { estado.espectro = a.dataset.filtraEspectro; estado.partido = ''; if (!CANDS.some(x => x.cargo === estado.cargo && espectroDe(x.partido) === estado.espectro && x.situacao !== 'desistiu')) { const c = CANDS.find(x => espectroDe(x.partido) === estado.espectro && x.situacao !== 'desistiu'); if (c) estado.cargo = c.cargo; } desenharCandidatos(); fecharModal(); location.hash = 'candidatos'; }
+    else if (a.dataset.filtraCargo) { estado.cargo = a.dataset.filtraCargo; estado.partido = ''; estado.espectro = ''; desenharCandidatos(); fecharModal(); location.hash = 'candidatos'; }
+    else if (a.dataset.filtraPartido) { estado.partido = a.dataset.filtraPartido; estado.espectro = ''; const c = CANDS.find(x => x.partido === estado.partido && x.situacao !== 'desistiu'); if (c && !CANDS.some(x => x.partido === estado.partido && x.cargo === estado.cargo)) estado.cargo = c.cargo; desenharCandidatos(); fecharModal(); location.hash = 'candidatos'; }
   });
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && !modal.hidden) fecharModal(); });
 
-  renderCargos(); renderPartidos(); renderCandidatos(); renderUrna();
+  renderCargos(); renderEspectros(); renderPartidos(); renderCandidatos(); renderUrna();
 })();

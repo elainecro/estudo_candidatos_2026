@@ -17,6 +17,7 @@
     <p class="lead">Um guia para estudar antes de votar: o que cada cargo faz, o que cada partido defende e o que cada candidato já fez (ou não fez) na vida pública.</p>
     <nav class="abas" aria-label="Seções">
       <a href="#cargos">Cargos</a>
+      <a href="#espectros">Espectros</a>
       <a href="#partidos">Partidos</a>
       <a href="#candidatos">Candidatos</a>
       <a href="#urna">Na urna</a>
@@ -36,8 +37,22 @@
     </details>
   </section>
 
+  <section id="espectros" class="secao">
+    <h2>2. Esquerda, centro, direita</h2>
+    <p class="intro">Antes dos partidos, a régua em que eles se distribuem. Cada faixa abaixo diz o que aquele lado prioriza, de onde veio e como reconhecê-lo num discurso. Toque numa faixa para ver os partidos e os candidatos dela.</p>
+    <details class="glossario" open>
+      <summary>De onde vem essa régua e por que ela não explica tudo</summary>
+      <div id="espectro-origem"></div>
+    </details>
+    <div id="lista-espectros" class="grade espectros"></div>
+    <details class="glossario">
+      <summary>Limites: o que o espectro não diz</summary>
+      <ul id="espectro-limites" class="limites"></ul>
+    </details>
+  </section>
+
   <section id="partidos" class="secao">
-    <h2>2. Os partidos</h2>
+    <h2>3. Os partidos</h2>
     <p class="intro">Trinta partidos têm registro no TSE. Aqui está o que cada um diz defender, o que fez quando teve poder e o que costumam cobrar dele. Cuidado com o campo "marcos": ele lista o que o partido sustentou em governos, não garante que o candidato local pense igual.</p>
     <div class="filtros">
       <label>Espectro
@@ -51,10 +66,13 @@
   </section>
 
   <section id="candidatos" class="secao">
-    <h2>3. Os candidatos</h2>
+    <h2>4. Os candidatos</h2>
     <p class="intro" id="cobertura"></p>
     <div class="filtros filtros-cand">
       <div class="chips" id="chips-cargo" role="tablist" aria-label="Cargo"></div>
+      <label>Espectro
+        <select id="f-espectro-cand"><option value="">todos</option></select>
+      </label>
       <label>Partido
         <select id="f-partido"><option value="">todos</option></select>
       </label>
@@ -68,7 +86,7 @@
   </section>
 
   <section id="urna" class="secao">
-    <h2>4. Na urna</h2>
+    <h2>5. Na urna</h2>
     <p class="intro">A ordem em que a urna vai pedir os votos e quantos dígitos cada um tem. Leve uma "cola" com os números; é permitido.</p>
     <ol id="ordem-urna" class="ordem"></ol>
     <p class="nota">Voto em branco e nulo não vão para ninguém. Nas eleições proporcionais (deputados), votar só no número do partido (voto de legenda) ajuda a legenda a conquistar cadeiras, mas não escolhe quem senta nelas.</p>

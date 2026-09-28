@@ -13,6 +13,7 @@ de instalar nada. Se publicar no GitHub Pages, o site é a raiz do repositório.
 |---|---|---|
 | Cargos | o que cada cargo decide, o que não decide, como avaliar um candidato, glossário, ordem dos votos na urna | `data/cargos.json` |
 | Partidos | 30 partidos registrados: espectro, ideologia, marcos (o que fizeram quando tiveram poder), críticas frequentes, quem lançaram no ES | `data/partidos.json` |
+| Espectros | as seis faixas de esquerda a direita: o que priorizam, por que existem, como reconhecer; origem da régua e seus limites | `data/espectros.json` |
 | Candidatos | filtro por cargo, partido, busca e "só quem já tem mandato"; ficha com chapa, mandatos, gestão (para quem governou), projetos, relatorias, fiscalização e denúncias que fez, processos e denúncias contra, e fontes | `data/candidatos.json` |
 
 ## Cobertura dos dados (25/09/2026)

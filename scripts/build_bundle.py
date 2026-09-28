@@ -10,7 +10,7 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-FILES = {"cargos": "cargos.json", "partidos": "partidos.json", "candidatos": "candidatos.json"}
+FILES = {"cargos": "cargos.json", "partidos": "partidos.json", "candidatos": "candidatos.json", "espectros": "espectros.json"}
 
 
 def main() -> int:
@@ -90,6 +90,10 @@ def validar(bundle: dict) -> None:
     siglas = {p["sigla"] for p in bundle["partidos"]["partidos"]}
     for c in bundle["candidatos"]["candidatos"]:
         c["partido"] = SIGLAS.get(str(c.get("partido") or "").upper(), c.get("partido"))
+    espectros = {e["id"] for e in bundle["espectros"]["espectros"]}
+    for p in bundle["partidos"]["partidos"]:
+        if p["espectro"] not in espectros:
+            raise SystemExit(f"{p['sigla']}: espectro '{p['espectro']}' não está em espectros.json ({sorted(espectros)})")
     cargos = {c["id"] for c in bundle["cargos"]["cargos"]}
     ids = set()
     for c in bundle["candidatos"]["candidatos"]:

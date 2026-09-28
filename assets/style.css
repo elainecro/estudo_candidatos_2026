@@ -14,6 +14,8 @@
   --ok-ink: #0b6e4f;
   --shadow: 0 1px 2px rgba(0,0,0,.06), 0 6px 20px rgba(0,0,0,.05);
   --radius: 14px;
+  /* cores das faixas do espectro, da esquerda (1) para a direita (6) */
+  --esp-1: #b3261e; --esp-2: #d9534f; --esp-3: #e08a3c; --esp-4: #8a8578; --esp-5: #4f7fb8; --esp-6: #2f4f9e;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -21,6 +23,7 @@
     --accent: #4fc39a; --accent-ink: #0b1f18;
     --warn-bg: #3a2d10; --warn-ink: #ffd27a; --bad-bg: #3d1b1b; --bad-ink: #ff9d9d; --ok-bg: #143126; --ok-ink: #7fe0b8;
     --shadow: 0 1px 2px rgba(0,0,0,.4);
+    --esp-1: #ff8a80; --esp-2: #ff9e94; --esp-3: #ffb570; --esp-4: #b5b0a3; --esp-5: #8fb4e6; --esp-6: #7f9de0;
   }
 }
 * { box-sizing: border-box; }
@@ -48,6 +51,21 @@ h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 10px; line-height: 1.1; }
 .cargos { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
 .partidos { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
 .candidatos { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+.espectros { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+.card.espectro { border-top: 5px solid var(--esp); }
+.card.espectro .siglas { font-size: .8rem; color: var(--muted); margin: 0; }
+.card.espectro .resumo { font-size: .92rem; margin: 0; }
+.regua { display: grid; grid-template-columns: repeat(6, 1fr); gap: 3px; margin: 12px 0 4px; }
+.regua span { height: 8px; border-radius: 4px; background: var(--esp); }
+.regua-rotulos { display: flex; justify-content: space-between; font-size: .78rem; color: var(--muted); margin: 0 0 14px; }
+.eixos { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin: 12px 0 4px; }
+.eixo-caixa { background: var(--bg); border-radius: 12px; padding: 12px 14px; font-size: .92rem; }
+.eixo-caixa h4 { margin: 0 0 4px; font-size: .95rem; }
+.eixo-caixa p { margin: 4px 0; }
+.eixo-caixa .lado { color: var(--muted); }
+.limites { margin: 10px 0 0; padding-left: 20px; color: var(--muted); font-size: .92rem; }
+.limites li { margin: 4px 0; }
+.esp-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--esp); vertical-align: middle; margin-right: 6px; }
 
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); text-align: left; color: inherit; font: inherit; cursor: pointer; display: flex; flex-direction: column; gap: 6px; }
 .card:hover { border-color: var(--accent); }
