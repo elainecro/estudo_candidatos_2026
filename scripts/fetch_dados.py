@@ -1047,7 +1047,7 @@ def fetch_senado(doc, dry_run: bool):
         if autorias and os.environ.get("DEBUG"):
             _debug("primeira autoria", autorias[0])
         c["votacoes_chave"] = normalizar_senado_votacoes(vots, itens)
-        print(f"  {c['nome_urna']}: {c['projetos']['apresentados']['total']} matérias, {len(auto_rel)} relatorias, {len(chaves)} votos-chave")
+        print(f"  {c['nome_urna']}: {c['projetos']['apresentados']['total']} matérias, {len(auto_rel)} relatorias, {len(c['votacoes_chave'])} votos-chave, {len(c['filiacoes'])} filiações")
     salvar(doc, dry_run)
 
 

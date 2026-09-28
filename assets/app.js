@@ -146,6 +146,7 @@
     const p = PARTIDO_POR_SIGLA[c.partido];
     return h('button', { class: 'card candidato', type: 'button', onclick: () => abrirCandidato(c) }, `
       <div class="cabeca">
+        ${c.foto ? `<img class="foto" src="${esc(c.foto)}" alt="" loading="lazy" onerror="this.remove()">` : ''}
         <div><h3>${esc(c.nome_urna)}</h3><p class="sub">${esc(c.partido)}${p?.federacao ? ' · ' + esc(p.federacao) : ''}${c.ocupacao ? ' · ' + esc(c.ocupacao) : ''}</p></div>
         <div class="numero ${c.numero ? '' : 'pendente'}">${c.numero || 'nº a confirmar'}</div>
       </div>
@@ -210,7 +211,7 @@
     const cruzamentos = blocos.join('') + links + (blocos.length ? '' : '<p class="nota">Patrimônio, doadores, votações-chave, cota e emendas ainda não foram coletados para esta pessoa. Rode <code>scripts/fetch_dados.py --tudo</code>.</p>');
     abrirModal(`
       <p class="kicker">${esc(cargo.nome)} · ${esc(c.partido)}${p?.federacao ? ' · Federação ' + esc(p.federacao) : ''}</p>
-      <h2>${esc(c.nome_urna)} <span class="numero">${c.numero || ''}</span></h2>
+      <div class="modal-cabeca">${c.foto ? `<img class="foto grande" src="${esc(c.foto)}" alt="Foto de urna de ${esc(c.nome_urna)}" onerror="this.remove()">` : ''}<h2>${esc(c.nome_urna)} <span class="numero">${c.numero || ''}</span></h2></div>
       <p class="sub">${esc(c.nome_completo || '')}${c.idade ? ' · ' + c.idade + ' anos' : ''}${c.ocupacao ? ' · ' + esc(c.ocupacao) : ''}</p>
       <div class="tags">${tagSituacao(c)}${!c.numero ? '<span class="tag warn">número não confirmado</span>' : ''}${c.reeleicao ? '<span class="tag">tenta reeleição</span>' : ''}</div>
       ${c.situacao_obs ? `<p class="aviso">${esc(c.situacao_obs)}</p>` : ''}

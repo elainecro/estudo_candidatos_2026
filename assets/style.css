@@ -129,3 +129,9 @@ code { background: var(--card); border: 1px solid var(--line); padding: 1px 6px;
 .tabela { border-collapse: collapse; width: 100%; font-size: .92rem; }
 .tabela th, .tabela td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .tabela th { color: var(--muted); font-weight: 600; font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; }
+
+.foto { width: 48px; height: 60px; object-fit: cover; border-radius: 8px; background: var(--bg); flex: none; }
+.foto.grande { width: 72px; height: 90px; border-radius: 10px; }
+.card.candidato .cabeca { align-items: flex-start; }
+.card.candidato .cabeca > div:nth-child(2) { flex: 1; min-width: 0; }
+.modal-cabeca { display: flex; gap: 14px; align-items: center; margin-bottom: 4px; }

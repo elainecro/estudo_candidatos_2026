@@ -17,6 +17,26 @@ css = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
 js = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
 data = (ROOT / "data" / "bundle.js").read_text(encoding="utf-8")
 
+# fotos: o arquivo único não pode referenciar data/fotos/, então embute miniaturas como data URI
+import base64
+import json
+prefixo = "window.ESTUDO_2026 = "
+ini = data.index(prefixo) + len(prefixo)
+bundle = json.loads(data[ini:].rstrip().rstrip(";"))
+embutidas = 0
+for c in bundle["candidatos"]["candidatos"]:
+    f = c.get("foto")
+    if f and not str(f).startswith(("http", "data:")):
+        caminho = ROOT / f
+        if caminho.exists():
+            c["foto"] = "data:image/jpeg;base64," + base64.b64encode(caminho.read_bytes()).decode()
+            embutidas += 1
+        else:
+            c["foto"] = None
+data = data[:ini] + json.dumps(bundle, ensure_ascii=False) + ";\n"
+if embutidas:
+    print(f"{embutidas} fotos embutidas")
+
 title = re.search(r"<title>(.*?)</title>", html).group(1)
 body = re.search(r"<body>(.*)</body>", html, re.S).group(1)
 body = body.replace('<script src="data/bundle.js"></script>', "").replace('<script src="assets/app.js"></script>', "")
