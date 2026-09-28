@@ -1,0 +1,140 @@
+{
+  "sintese": "O plano defende que o Brasil tem um enorme potencial que não vira renda por causa de um Estado grande, burocrático e caro, e propõe a \"empresarização da sociedade\": fazer cada brasileiro virar empreendedor e trocar dependência do Estado por autonomia. O tom é ideológico e de marketing, com muito slogan e uma lista longa de programas em tópicos curtos, quase sem detalhe. O documento se apresenta como plano de Pablo Marçal, candidato a Presidente, organizado em 7 missões. O nome do partido não aparece no texto extraído.",
+  "eixos": [
+    {
+      "tema": "Família, educação, saúde e cultura (Missão 1)",
+      "propostas": [
+        "Lançar o Programa Nacional de Fortalecimento da Família e o Programa Nacional de Paternidade Responsável.",
+        "Universalizar creches para famílias vulneráveis e garantir alfabetização plena até o 2º ano.",
+        "Ensinar empreendedorismo e educação financeira desde o ensino fundamental e fortalecer computação e IA nas escolas (Alphabyte).",
+        "Criar a Universidade Federal Digital (UFD) e bolsas de estudo para engenharia, ciências, matemática e TIC.",
+        "Criar prontuário único nacional, telemedicina integrada ao SUS, Programa Nacional de Saúde Mental e polos tecnológicos de saúde.",
+        "Reduzir filas e ampliar o acesso à atenção básica.",
+        "Lançar programa nacional de combate à violência doméstica e ampliar a mediação familiar.",
+        "Massificar o esporte de base e apoiar esportistas profissionais e a cultura regional."
+      ]
+    },
+    {
+      "tema": "Empreendedorismo e economia (Missão 2)",
+      "propostas": [
+        "Criar o Ministério da Empresarização e o Programa Nacional de Empresarização da Periferia.",
+        "Abrir empresa automaticamente pelo CPF Digital em 24 horas e criar regime simplificado nacional.",
+        "Dar isenção tributária progressiva para novos negócios e criar um Código de Defesa do Empreendedor.",
+        "Criar o programa Renegocia Brasil para dívidas de quase 70 milhões de negativados e de empresas negativadas.",
+        "Criar o Fundo Nacional de Inovação Tecnológica, o Marco Nacional das Empresas Inovadoras e um fundo público-privado de coinvestimento.",
+        "Lançar o Programa Nacional de Cooperativas Produtivas.",
+        "Criar o programa Sementes para Governar, que dá crédito social a beneficiários de programas assistenciais que avançarem em \"mudança de mentalidade\".",
+        "Reduzir barreiras regulatórias ao e-commerce e criar um marco legal da economia de plataformas."
+      ]
+    },
+    {
+      "tema": "Reforma do Estado, finanças e meio ambiente (Missão 3 e blocos iniciais)",
+      "propostas": [
+        "Adotar a regra \"one in, one out\" (uma norma nova só se outra for revogada) e fazer mutirão anual de revogação de normas obsoletas.",
+        "Digitalizar 100% dos serviços federais e criar portal único de licenças e imposto de renda eletrônico automático.",
+        "Lançar programa de desestatização prioritária, com gestão profissional das estatais e abertura de capital.",
+        "Implantar gestão por resultados: painel de KPIs em todos os órgãos, contratos de desempenho ministerial e governança PDCA.",
+        "Contratar executivos do mercado para cargos de gestão e criar conselhos com maioria independente.",
+        "Usar IA contra fraudes em licitações e criar marketplace nacional de compras governamentais.",
+        "Manter tripé econômico (câmbio flutuante, metas de inflação, responsabilidade fiscal), reduzir gradualmente a dívida/PIB e reduzir a carga tributária sobre produção, investimento e emprego.",
+        "Regulamentar o mercado de carbono, combater o desmatamento ilegal e remunerar serviços ambientais das florestas em pé."
+      ]
+    },
+    {
+      "tema": "Tecnologia e soberania digital (Missão 4)",
+      "propostas": [
+        "Lançar a Estratégia Nacional de IA e criar o Laboratório Nacional de IA.",
+        "Aplicar IA no SUS e na educação pública.",
+        "Levar cobertura 5G a todos os municípios e internet a 100% das escolas públicas.",
+        "Criar o Programa Amazônia Conectada.",
+        "Criar o Comando Nacional de Defesa Digital para proteger a infraestrutura nacional.",
+        "Atrair datacenters com regime tributário competitivo e energia dedicada.",
+        "Oferecer graduação tecnológica online nacional e reorientar o Sistema S para a indústria do futuro.",
+        "Incentivar a produção de jogos digitais e criar um polo nacional de games."
+      ]
+    },
+    {
+      "tema": "Infraestrutura, energia, indústria e agro (Missão 5)",
+      "propostas": [
+        "Lançar o Plano Nacional de Infraestrutura Integrada e modernizar o modelo de concessões.",
+        "Completar o Corredor Ferroviário Norte-Sul e integrar as ferrovias à agroindústria.",
+        "Promover a finalização de mais de 20 mil obras públicas federais inacabadas.",
+        "Universalizar o acesso a água e esgoto.",
+        "Elaborar modelo de exploração da Margem Equatorial e criar novo marco de minerais críticos e programa de terras raras.",
+        "Criar Plano Nacional de Irrigação, seguro rural universal e ampliar a armazenagem agrícola.",
+        "Lançar a Nova Política Industrial Brasileira e a Estratégia Nacional de Microeletrônica.",
+        "Criar o programa LAR (Liberdade para Adquirir Residência) para corrigir falhas dos programas habitacionais."
+      ]
+    },
+    {
+      "tema": "Segurança pública e sistema prisional (Missão 6)",
+      "propostas": [
+        "Lançar o Plano Nacional de Combate às Facções, com integração de inteligência financeira.",
+        "Criar sistema integrado de vigilância de fronteiras com drones e satélites.",
+        "Modernizar as leis penais contra organizações criminosas e ampliar o confisco de patrimônio criminoso.",
+        "Criar programa nacional de combate ao furto e roubo de veículos e celulares.",
+        "Proteger a propriedade produtiva (segurança rural) e criar a Rede Nacional de Proteção da mulher.",
+        "Transformar presídios em centros de ressocialização, com trabalho remunerado e ensino técnico obrigatório.",
+        "Fazer parcerias público-privadas na gestão prisional.",
+        "Ampliar comunidades terapêuticas para dependência química."
+      ]
+    },
+    {
+      "tema": "Comércio exterior e política externa (Missão 7)",
+      "propostas": [
+        "Destravar o acordo Mercosul-União Europeia.",
+        "Dobrar as exportações brasileiras e dar foco comercial ao Itamaraty.",
+        "Criar uma Janela Única de Comércio Exterior e ampliar a atuação da Apex Brasil.",
+        "Dobrar o fluxo comercial na América Latina e harmonizar regras e certificações na região.",
+        "Fazer agenda com os EUA em minerais raros, energia limpa, tecnologia, agro e hidrogênio verde.",
+        "Desenhar estratégia Brasil-Índia e ampliar o comércio com a ASEAN.",
+        "Atrair cadeias produtivas que saem da China e atualizar o relacionamento com a China.",
+        "Criar novo modelo de integração com a África."
+      ]
+    },
+    {
+      "tema": "Direitos, proteção social e povos tradicionais",
+      "propostas": [
+        "Manter o Bolsa Família.",
+        "Respeitar os direitos constitucionais de indígenas, quilombolas e povos tradicionais, com regularização fundiária de territórios reconhecidos.",
+        "Criar programa de bioeconomia e conectividade digital para comunidades tradicionais.",
+        "Promover acessibilidade e inclusão de pessoas com deficiência.",
+        "Combater a pobreza por emancipação econômica e não por dependência permanente."
+      ]
+    }
+  ],
+  "mensuraveis": [
+    "Abertura de empresa \"pelo CPF Digital em 24h\".",
+    "\"Digitalizar 100% dos serviços federais\" (sem prazo).",
+    "\"Internet em 100% das escolas públicas\" (sem prazo).",
+    "\"Cobertura 5G em todos os municípios\" (sem prazo).",
+    "\"Dobrar as exportações brasileiras\" (sem prazo).",
+    "\"Dobrar fluxo comercial na região\" (sem prazo).",
+    "\"Dobrar fluxo turístico internacional\" e \"Dobrar conectividade internacional\" (sem prazo).",
+    "\"Promover a finalização das mais de 20 mil obras públicas federais inacabadas\" (sem prazo).",
+    "\"Garantir a alfabetização plena até o 2º ano\" (sem prazo de implantação).",
+    "\"Presidente e ministros em movimento em cada região do país por quadrimestre\".",
+    "\"Mutirão anual de revogação de normas obsoletas\".",
+    "\"Programa Brasil Mobilidade 2035\" (único prazo com ano explícito, sem meta detalhada).",
+    "\"Salário mínimo como o melhor da América do Sul\" (meta comparativa, sem valor nem prazo).",
+    "Renegociação de dívidas dos \"quase 70 milhões de brasileiros com nome no SPC\" e de \"mais de 30% das empresas\" negativadas (o número descreve o público, não uma meta de resultado).",
+    "\"Universalização de creches para famílias vulneráveis\" e \"Universalizar o acesso a água e esgoto\" (sem prazo)."
+  ],
+  "lacunas": [
+    "Quase nenhuma promessa tem prazo, linha de base ou indicador. Metas como \"dobrar\" e \"100%\" não dizem quando nem a partir de quê.",
+    "O plano não diz quanto custa nada nem de onde sairia o dinheiro. Não há estimativa de custo, cálculo de impacto fiscal ou fonte de receita.",
+    "Há tensão interna nas contas: promete âncora fiscal e queda da dívida/PIB, mas também reduzir a carga tributária, dar isenções a novos negócios e startups, criar fundos públicos, universalizar creches, 5G, água e esgoto e finalizar 20 mil obras, sem dizer como fecha a conta.",
+    "Diz que quer um Estado enxuto e o fim de subsídios sem retorno, mas cria Ministério da Empresarização, Universidade Federal Digital, Comando Nacional de Defesa Digital, vários fundos e dezenas de programas nacionais. Não diz quais órgãos ou gastos seriam cortados.",
+    "Promete reduzir a carga tributária e fazer simplificação tributária, mas o texto não diz quais tributos, em quanto nem como. Isso depende do Congresso.",
+    "Muitas promessas dependem do Congresso ou de mudança de lei: reforma tributária, modernização das leis penais, marcos legais (plataformas, startups, minerais críticos, empresas inovadoras), regime simplificado nacional e isenção tributária. O plano não fala em articulação política.",
+    "Parte das promessas cabe a estados e municípios, ou a eles em conjunto com a União, e o plano não explica a coordenação: segurança pública, polícia, sistema prisional, creches, atenção básica de saúde, água e esgoto, alfabetização.",
+    "A promessa de \"salário mínimo o melhor da América do Sul\" não traz valor, prazo, regra de reajuste nem impacto na Previdência e nas contas públicas.",
+    "Não há proposta para Previdência, mercado de trabalho e direitos trabalhistas, ou para o financiamento do SUS e da educação (piso, percentual do orçamento). Também não há posição sobre armas, nem detalhe sobre política de clima e transição energética além de mercado de carbono e combate ao desmatamento.",
+    "O tema \"empresarização\" é o eixo do plano, mas não é definido com precisão. Propostas como o \"crédito social\" por \"mudança de mentalidade\" para beneficiários de programas assistenciais (Sementes para Governar) não têm critérios, regras nem salvaguardas descritas, e convivem com a promessa de manter o Bolsa Família sem dizer como os dois se combinam.",
+    "Programas de saúde, educação e segurança são listados só pelo nome (Pró-Saúde, ForSuper, V.E.M., MBVES, Alphabyte). O plano não explica o que cada um faz, para quem nem com que instrumentos.",
+    "A proposta de \"valorização dos professores: salário, segurança e capacitação\" não traz valor, piso ou meta.",
+    "O plano mistura promessas de Estado (ferrovias, concessões, venda de estatais) sem dizer quais estatais seriam privatizadas nem que critério seria usado.",
+    "O nome do partido do candidato não aparece no texto do plano."
+  ],
+  "fonte": "Resumo escrito a partir do texto integral do plano registrado no TSE. Leitura feita por IA, sem checagem humana linha a linha; confira o original no DivulgaCand."
+}
