@@ -34,8 +34,15 @@ def main() -> int:
     return 0
 
 
+SIGLAS = {"AVANTE": "Avante", "PODE": "Podemos", "PODEMOS": "Podemos", "REPUBLICANOS": "Republicanos", "UNIÃO": "União", "UNIAO": "União",
+          "NOVO": "Novo", "SOLIDARIEDADE": "Solidariedade", "CIDADANIA": "Cidadania", "REDE": "Rede", "MISSÃO": "Missão", "MISSAO": "Missão",
+          "DEMOCRATA": "Democrata", "MOBILIZA": "Mobiliza", "PC DO B": "PCdoB", "PCDOB": "PCdoB", "AGIR": "Agir"}
+
+
 def validar(bundle: dict) -> None:
     siglas = {p["sigla"] for p in bundle["partidos"]["partidos"]}
+    for c in bundle["candidatos"]["candidatos"]:
+        c["partido"] = SIGLAS.get(str(c.get("partido") or "").upper(), c.get("partido"))
     cargos = {c["id"] for c in bundle["cargos"]["cargos"]}
     ids = set()
     for c in bundle["candidatos"]["candidatos"]:

@@ -141,6 +141,32 @@ def get_json(url: str, headers: dict | None = None, tentativas: int = 3, pausa: 
     return None
 
 
+SIGLAS = {"AVANTE": "Avante", "PODE": "Podemos", "PODEMOS": "Podemos", "REPUBLICANOS": "Republicanos", "UNIÃO": "União", "UNIAO": "União",
+          "NOVO": "Novo", "SOLIDARIEDADE": "Solidariedade", "CIDADANIA": "Cidadania", "REDE": "Rede", "MISSÃO": "Missão", "MISSAO": "Missão",
+          "DEMOCRATA": "Democrata", "MOBILIZA": "Mobiliza", "PC DO B": "PCdoB", "PCDOB": "PCdoB", "AGIR": "Agir", "PATRIOTA": "Patriota", "PROS": "PROS"}
+CONECTIVOS = {"da", "de", "do", "das", "dos", "e", "o", "a", "os", "as", "d'", "di", "del", "von", "van"}
+
+
+def normalizar_sigla(sg) -> str | None:
+    if not sg:
+        return None
+    t = str(sg).strip()
+    return SIGLAS.get(t.upper(), t)
+
+
+def titulo_pt(txt: str) -> str:
+    """Capitaliza nome mantendo conectivos em minúsculas: 'GILVAN O FEDERAL DA DIREITA' -> 'Gilvan o Federal da Direita'."""
+    if not txt:
+        return ""
+    if txt != txt.upper():
+        return txt.strip()
+    partes = txt.strip().lower().split()
+    out = []
+    for i, w in enumerate(partes):
+        out.append(w if (w in CONECTIVOS and i > 0) else w.capitalize())
+    return " ".join(out)
+
+
 def slug(txt: str) -> str:
     txt = unicodedata.normalize("NFKD", str(txt or "")).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]+", "-", txt.lower()).strip("-")
@@ -151,7 +177,11 @@ def sem_titulo(nome: str) -> str:
 
 
 def carregar():
-    return json.loads(CAND_PATH.read_text(encoding="utf-8"))
+    doc = json.loads(CAND_PATH.read_text(encoding="utf-8"))
+    for c in doc["candidatos"]:
+        c["partido"] = normalizar_sigla(c.get("partido"))
+        c["nome_urna"] = titulo_pt(c.get("nome_urna") or "")
+    return doc
 
 
 def salvar(doc, dry_run: bool):
@@ -258,10 +288,10 @@ def normalizar_csv_candidato(row: dict) -> dict | None:
     idade = row.get("NR_IDADE_DATA_POSSE")
     return {
         "cargo": cargo,
-        "nome_urna": (row.get("NM_URNA_CANDIDATO") or "").strip().title() if (row.get("NM_URNA_CANDIDATO") or "").isupper() else (row.get("NM_URNA_CANDIDATO") or "").strip(),
-        "nome_completo": (row.get("NM_CANDIDATO") or "").strip().title(),
+        "nome_urna": titulo_pt(row.get("NM_URNA_CANDIDATO") or ""),
+        "nome_completo": titulo_pt(row.get("NM_CANDIDATO") or ""),
         "numero": (row.get("NR_CANDIDATO") or "").strip() or None,
-        "partido": (row.get("SG_PARTIDO") or "").strip() or None,
+        "partido": normalizar_sigla(row.get("SG_PARTIDO")),
         "situacao": mapear_situacao(detalhe),
         "situacao_detalhe": detalhe.strip().capitalize() or None,
         "idade": int(idade) if idade and idade.strip().isdigit() and int(idade) > 0 else None,
@@ -329,8 +359,8 @@ def normalizar_csv_historico(rows) -> dict:
         if not sq or not ano or ano == limpo(r.get("ANO_ELEICAO_ATUAL")):
             continue
         chave = (ano, limpo(r.get("DS_CARGO")), limpo(r.get("NM_UE")))
-        item = {"ano": ano, "cargo": (limpo(r.get("DS_CARGO")) or "").title(), "partido": limpo(r.get("SG_PARTIDO")),
-                "uf": (limpo(r.get("NM_UE")) or "").title(), "resultado": limpo(r.get("DS_SIT_TOT_TURNO")), "turno": limpo(r.get("NR_TURNO")),
+        item = {"ano": ano, "cargo": titulo_pt(limpo(r.get("DS_CARGO")) or ""), "partido": normalizar_sigla(limpo(r.get("SG_PARTIDO"))),
+                "uf": titulo_pt(limpo(r.get("NM_UE")) or ""), "resultado": limpo(r.get("DS_SIT_TOT_TURNO")), "turno": limpo(r.get("NR_TURNO")),
                 "situacao": limpo(r.get("DS_SITUACAO_CANDIDATURA"))}
         d = por.setdefault(sq, {})
         atual = d.get(chave)
@@ -563,8 +593,58 @@ def fetch_tse_csv(doc, dry_run: bool):
         print(f"  fichas já existentes que NÃO casaram com nenhum nome do TSE ({len(orfaos)}): {', '.join(orfaos)}")
         print("  -> confira o nome de urna no CSV e ajuste 'nome_urna' no JSON, ou preencha 'tse_id' à mão")
     aplicar_extras_csv(doc)
+    fundir_orfaos(doc)
     _atualizar_cobertura(doc)
     salvar(doc, dry_run)
+
+
+AUTO_CAMPOS = ("tse_id", "tse_url", "numero", "situacao", "bens", "certidoes", "certidoes_arquivos", "proposta_governo_arquivos", "eleicoes_anteriores",
+               "trocas_de_partido", "vezes_eleito", "campanha", "redes", "tse_complementar", "motivos_registro", "gastos", "comissoes", "votacoes_chave",
+               "filiacoes", "emendas", "camara_id", "senado_id", "idade", "ocupacao", "foto", "reeleicao")
+PALAVRAS_FRACAS = {"dr", "dra", "prof", "professor", "professora", "delegado", "delegada", "capitao", "coronel", "cabo", "sargento", "pastor", "bispo",
+                   "engenheiro", "escritor", "da", "de", "do", "das", "dos", "e", "o", "a", "junior", "filho", "neto", "santos", "silva", "souza", "oliveira", "federal", "direita"}
+
+
+def _tokens(*textos):
+    out = set()
+    for t in textos:
+        for w in slug(t or "").split("-"):
+            if len(w) >= 4 and w not in PALAVRAS_FRACAS:
+                out.add(w)
+    return out
+
+
+def fundir_orfaos(doc):
+    """Casa fichas escritas à mão (sem tse_id) com fichas importadas do TSE cujo nome de urna é diferente.
+    Regra: mesmo cargo, ao menos um sobrenome/apelido distintivo em comum, e só uma candidata possível."""
+    importadas = [c for c in doc["candidatos"] if c.get("tse_id") and (c.get("resumo") or "").startswith("Importado do TSE")]
+    orfaos = [c for c in doc["candidatos"] if not c.get("tse_id")]
+    removidos = []
+    for o in orfaos:
+        tk = _tokens(o["nome_urna"], o.get("nome_completo"))
+        cands = [i for i in importadas if i["cargo"] == o["cargo"] and tk & _tokens(i["nome_urna"], i.get("nome_completo"))]
+        if len(cands) != 1:
+            if cands:
+                print(f"  {o['nome_urna']}: ambíguo entre {[c['nome_urna'] for c in cands]}; preencha 'tse_id' à mão")
+            else:
+                print(f"  {o['nome_urna']}: não achei correspondente no TSE (pode ter saído da disputa ou o nome mudou)")
+            continue
+        i = cands[0]
+        for k, v in i.items():
+            if k in AUTO_CAMPOS or k not in o or o.get(k) in (None, "", [], {}):
+                if k == "situacao" and o.get("situacao_obs") and v != o.get("situacao"):
+                    o["situacao_obs"] = f"TSE registra '{v}'. " + o["situacao_obs"]
+                o[k] = v
+        # projetos vindos da API são mais completos que a lista manual
+        if i.get("projetos") and "API" in (i["projetos"].get("fonte") or ""):
+            o["projetos"] = i["projetos"]
+        if i.get("nome_urna") != o["nome_urna"]:
+            o["nome_urna_tse"] = i["nome_urna"]
+        removidos.append(i["id"])
+        importadas.remove(i)
+        print(f"  fundido: '{o['nome_urna']}' <- '{i['nome_urna']}' ({i['tse_id']})")
+    doc["candidatos"] = [c for c in doc["candidatos"] if c["id"] not in removidos]
+    print(f"  {len(removidos)} duplicatas removidas")
 
 
 def _atualizar_cobertura(doc):
@@ -725,12 +805,16 @@ def fetch_contas(doc, dry_run: bool):
 # ============================================================ Câmara
 
 def camara_id_por_nome(c):
-    for nome in (c.get("nome_completo"), c["nome_urna"], sem_titulo(c["nome_urna"])):
+    tentativas = [(c.get("nome_completo"), ""), (c["nome_urna"], "&siglaUf=ES"), (sem_titulo(c["nome_urna"]), "&siglaUf=ES"), (sem_titulo(c["nome_urna"]), "")]
+    for nome, uf in tentativas:
         if not nome:
             continue
-        data = get_json(f"{CAMARA_BASE}/deputados?nome={urllib.parse.quote(nome)}&siglaUf=ES&ordem=ASC&ordenarPor=nome")
-        if data and data.get("dados"):
-            return data["dados"][0]["id"]
+        data = get_json(f"{CAMARA_BASE}/deputados?nome={urllib.parse.quote(nome)}{uf}&ordem=ASC&ordenarPor=nome")
+        dados = (data or {}).get("dados") or []
+        if not dados:
+            continue
+        es = [d for d in dados if d.get("siglaUf") == "ES"]
+        return (es or dados)[0]["id"]
     return None
 
 
@@ -861,20 +945,40 @@ def normalizar_senado_filiacoes(fil: list) -> list:
     return [{"partido": (f.get("Partido") or {}).get("SiglaPartido"), "inicio": f.get("DataFiliacao"), "fim": f.get("DataDesfiliacao")} for f in fil]
 
 
+def _senadores_por_nome():
+    por_nome = {}
+    fontes = [f"{SENADO_BASE}/senador/lista/atual.json"] + [f"{SENADO_BASE}/senador/lista/legislatura/{n}/{n}.json" for n in (57, 56, 55, 54, 53)]
+    for url in fontes:
+        data = get_json(url) or {}
+        raiz = data.get("ListaParlamentarEmExercicio") or data.get("ListaParlamentarLegislatura") or {}
+        parl = ((raiz.get("Parlamentares") or {}).get("Parlamentar")) or []
+        for p in parl:
+            ident = p.get("IdentificacaoParlamentar") or {}
+            for nome in (ident.get("NomeParlamentar"), ident.get("NomeCompletoParlamentar")):
+                if nome and slug(nome) not in por_nome:
+                    por_nome[slug(nome)] = ident.get("CodigoParlamentar")
+    return por_nome
+
+
+def _debug(rotulo, data):
+    if os.environ.get("DEBUG"):
+        txt = json.dumps(data, ensure_ascii=False)
+        print(f"  [debug] {rotulo}: {txt[:700]}")
+
+
 def fetch_senado(doc, dry_run: bool):
-    atuais = get_json(f"{SENADO_BASE}/senador/lista/atual.json") or {}
-    parl = (((atuais.get("ListaParlamentarEmExercicio") or {}).get("Parlamentares") or {}).get("Parlamentar")) or []
-    por_nome = {slug(p["IdentificacaoParlamentar"]["NomeParlamentar"]): p["IdentificacaoParlamentar"]["CodigoParlamentar"] for p in parl}
+    por_nome = _senadores_por_nome()
     itens = json.loads(VOT_PATH.read_text(encoding="utf-8"))["senado"]
     for c in doc["candidatos"]:
         if not any("senador" in (m.get("cargo") or "").lower() for m in c.get("mandatos", [])) and not c.get("senado_id"):
             continue
-        cod = c.get("senado_id") or por_nome.get(slug(c["nome_urna"]))
+        cod = c.get("senado_id") or por_nome.get(slug(c["nome_urna"])) or por_nome.get(slug(c.get("nome_completo") or ""))
         if not cod:
             print(f"  {c['nome_urna']}: não está em exercício; informe 'senado_id' no JSON", file=sys.stderr)
             continue
         c["senado_id"] = cod
         data = get_json(f"{SENADO_BASE}/senador/{cod}/autorias.json") or {}
+        _debug(f"autorias {cod}", data)
         autorias = (((data.get("MateriasAutoriaParlamentar") or {}).get("Parlamentar") or {}).get("Autorias") or {}).get("Autoria") or []
         situacoes = {}
         for a in autorias:
@@ -884,14 +988,17 @@ def fetch_senado(doc, dry_run: bool):
                 time.sleep(0.12)
         c["projetos"] = {"fonte": f"Senado Federal, dados abertos (parlamentar {cod})", "atualizado_em": HOJE, **normalizar_senado_autorias(autorias, situacoes)}
         rel = get_json(f"{SENADO_BASE}/senador/{cod}/relatorias.json") or {}
+        _debug(f"relatorias {cod}", rel)
         rels = (((rel.get("MateriasRelatoriaParlamentar") or {}).get("Parlamentar") or {}).get("Relatorias") or {}).get("Relatoria") or []
         auto_rel = normalizar_senado_relatorias(rels)
         manuais = [r for r in c.get("relatorias", []) if not re.match(r"^(PL|PLS|PLP|PEC|PLC|MPV) ", r.get("titulo", ""))]
         c["relatorias"] = manuais + auto_rel
         fil = get_json(f"{SENADO_BASE}/senador/{cod}/filiacoes.json") or {}
+        _debug(f"filiacoes {cod}", fil)
         fils = (((fil.get("FiliacaoParlamentar") or {}).get("Parlamentar") or {}).get("Filiacoes") or {}).get("Filiacao") or []
         c["filiacoes"] = normalizar_senado_filiacoes(fils)
         vot = get_json(f"{SENADO_BASE}/senador/{cod}/votacoes.json") or {}
+        _debug(f"votacoes {cod}", vot)
         vots = (((vot.get("VotacaoParlamentar") or {}).get("Parlamentar") or {}).get("Votacoes") or {}).get("Votacao") or []
         chaves = []
         for it in itens:
@@ -981,16 +1088,16 @@ def fetch_links(doc, dry_run: bool):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    for f in ("tse", "contas", "camara", "senado", "emendas", "links", "tudo"):
+    for f in ("tse", "contas", "camara", "senado", "emendas", "links", "fundir", "tudo"):
         ap.add_argument(f"--{f}", action="store_true")
     ap.add_argument("--dry-run", action="store_true", help="não grava o JSON")
     a = ap.parse_args()
-    if not any([a.tse, a.contas, a.camara, a.senado, a.emendas, a.links, a.tudo]):
+    if not any([a.tse, a.contas, a.camara, a.senado, a.emendas, a.links, a.fundir, a.tudo]):
         ap.error("escolha ao menos uma fonte (ou --tudo)")
     doc = carregar()
     passos = [("TSE", a.tse or a.tudo, fetch_tse), ("Contas de campanha", a.contas or a.tudo, fetch_contas),
               ("Câmara", a.camara or a.tudo, fetch_camara), ("Senado", a.senado or a.tudo, fetch_senado),
-              ("Emendas", a.emendas or a.tudo, fetch_emendas), ("Links", a.links or a.tudo, fetch_links)]
+              ("Emendas", a.emendas or a.tudo, fetch_emendas), ("Fusão de duplicatas", a.fundir, lambda d, dr: (fundir_orfaos(d), salvar(d, dr))), ("Links", a.links or a.tudo, fetch_links)]
     for nome, ligado, fn in passos:
         if ligado:
             print(f"== {nome}")
