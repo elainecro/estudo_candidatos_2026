@@ -1,0 +1,88 @@
+{
+  "sintese": "O plano se chama \"Proteger Hoje, Transformar o Amanhã\" e tem como tese central a proteção de mulheres e crianças como eixo transversal, com os demais capítulos (economia, educação, segurança, saúde e Estado) tratados como meios para dar autonomia e oportunidade. O tom é técnico e de gestão, com foco em indicadores, painéis e avaliação, mas bem genérico: quase não há metas numéricas, e o próprio texto diz que elas serão definidas depois. O documento não cita o nome da candidata nem o partido; só traz o título e a nota de que é uma versão estruturada para debate técnico.",
+  "eixos": [
+    {
+      "tema": "Mulheres e crianças em primeiro lugar",
+      "propostas": [
+        "Criar uma rede nacional de proteção contra a violência, integrando saúde, assistência, segurança e justiça.",
+        "Adotar protocolos de risco e acompanhamento de reincidência da violência.",
+        "Tratar a primeira infância como prioridade, com pré-natal, nutrição, vacinação, creches e apoio a famílias vulneráveis.",
+        "Ampliar a autonomia econômica das mulheres com qualificação, reinserção profissional, crédito responsável e rede de cuidado.",
+        "Proteger crianças e adolescentes com prevenção de abuso e exploração, ambiente digital seguro e busca ativa de quem está fora da escola.",
+        "Fazer orçamento orientado a resultados, painel público de indicadores e avaliação de impacto das políticas sobre mulheres e crianças."
+      ]
+    },
+    {
+      "tema": "Economia",
+      "propostas": [
+        "Simplificar regras e digitalizar a abertura de empresas, com segurança jurídica e avaliação de normas.",
+        "Dar crédito produtivo, garantias e capacitação a pequenos negócios e abrir as compras públicas a eles.",
+        "Manter rodovias com contratos baseados em desempenho e investir em ferrovias, hidrovias, portos e cabotagem.",
+        "Usar concessões, PPPs e planejamento de longo prazo na infraestrutura.",
+        "Garantir confiabilidade da energia, ampliar a conectividade e criar ambiente para indústria, inovação e economia digital.",
+        "Rever gastos e subsídios, adotar planejamento plurianual por metas e dar transparência aos benefícios."
+      ]
+    },
+    {
+      "tema": "Educação",
+      "propostas": [
+        "Melhorar a qualidade pedagógica da educação infantil e organizar a transição para a alfabetização.",
+        "Alfabetizar na idade adequada, recompor a aprendizagem e aplicar avaliação frequente com intervenção pedagógica.",
+        "Valorizar o professor com formação baseada em evidências, carreira, liderança escolar e menos burocracia.",
+        "Usar tecnologia e inteligência artificial de forma responsável e ensinar pensamento crítico, ciência, educação financeira e competências digitais.",
+        "Expandir a formação técnica ligada às vocações regionais, com orientação de carreira e parcerias com o setor produtivo e o ensino superior."
+      ]
+    },
+    {
+      "tema": "Segurança",
+      "propostas": [
+        "Monitorar fronteiras com sensores, radares, drones e centros integrados de comando, dentro do marco legal.",
+        "Combater o narcotráfico e o tráfico de armas com inteligência sobre rotas e redes e cooperação interestadual e internacional.",
+        "Sufocar financeiramente as facções com inteligência patrimonial, rastreamento de lavagem de dinheiro e recuperação de ativos com devido processo.",
+        "Adotar policiamento baseado em evidências, mapas de risco e proteção específica a mulheres, escolas e áreas vulneráveis.",
+        "No sistema prisional, separar lideranças criminosas conforme a lei, oferecer trabalho e educação e controlar comunicações ilícitas."
+      ]
+    },
+    {
+      "tema": "Saúde",
+      "propostas": [
+        "Fortalecer a atenção primária com equipes completas, prontuário interoperável e acompanhamento de doenças crônicas.",
+        "Ampliar vacinação, rastreamento e diagnóstico precoce, com foco na saúde da mulher e da criança.",
+        "Criar uma via transparente para avaliar novas tecnologias e incorporá-las ao SUS por segurança, eficácia e custo-efetividade.",
+        "Estimular pesquisa clínica e produção nacional.",
+        "Promover atividade física, com programas comunitários, uso de espaços escolares e encaminhamento quando indicado.",
+        "Integrar telemedicina à rede, regular filas com apoio de sistemas e usar IA como apoio clínico e administrativo, com auditoria e privacidade."
+      ]
+    },
+    {
+      "tema": "Estado que funciona",
+      "propostas": [
+        "Integrar identidade e serviços digitais, pedir dados uma única vez e manter atendimento para quem está offline.",
+        "Fixar objetivos anuais públicos, painéis de desempenho e encerrar ou reformular programas ineficazes.",
+        "Tornar compras públicas rastreáveis, abrir dados e prevenir fraude com gestão de riscos.",
+        "Orientar o serviço público à entrega, com formação, avaliação de desempenho por critérios objetivos e equipes de missão.",
+        "Fazer pactos com estados e municípios e vincular transferências a indicadores quando juridicamente cabível."
+      ]
+    }
+  ],
+  "mensuraveis": [
+    "O plano não traz nenhuma meta numérica. A nota inicial diz que as metas numéricas finais devem ser calibradas depois, com diagnóstico oficial, linha de base, estimativa fiscal, competências federativas e avaliação jurídica.",
+    "Primeiros 100 dias: diagnóstico de linha de base, desenho de governança, revisão de programas existentes, seleção de entregas rápidas e pactos federativos iniciais (prazo, mas sem meta de resultado).",
+    "Ano 1: implantação dos painéis de indicadores, pilotos, ajustes regulatórios, primeiras contratações e integrações, com avaliação trimestral (prazo, mas sem meta de resultado).",
+    "Anos 2 a 3: escala nacional dos programas com evidência de resultado. Ano 4: consolidação, avaliação independente e publicação de resultados (prazos, mas sem meta de resultado)."
+  ],
+  "lacunas": [
+    "O documento não identifica a candidata nem o partido. Só o registro no TSE permite ligar o texto a ela.",
+    "Não há nenhuma meta quantitativa. Os \"indicadores sugeridos\" só listam o que medir, sem valor de partida nem valor a alcançar. O próprio plano admite que as metas ficam para depois.",
+    "Não diz quanto custa nem de onde vem o dinheiro. O capítulo fiscal cita revisão de gastos e subsídios, mas não diz quais nem quanto se economizaria. Também não fala de impostos, tributação ou dívida além de citar os indicadores.",
+    "Todos os objetivos de item repetem o mesmo texto padrão (\"transformar o eixo em uma agenda executável\"). Não há responsáveis, órgãos, programas nem prazos por proposta.",
+    "Temas grandes não aparecem: meio ambiente e clima, previdência, reforma tributária, moradia e saneamento, emprego e salário, combate à pobreza e à fome como programa, transporte urbano, cultura, política externa e defesa, igualdade racial, povos indígenas e agricultura.",
+    "Várias promessas dependem de estados e municípios, que executam boa parte de segurança pública, sistema prisional, educação básica e atenção primária. O plano fala em pactos e transferências por indicadores \"quando juridicamente cabível\", sem dizer como o governo federal faria isso.",
+    "Recuperação de ativos, condenações e separação de lideranças criminosas dependem também do Judiciário, do Ministério Público e de leis. O plano diz \"conforme a lei\" e \"devido processo\", mas não propõe mudanças legais nem explica o papel do Presidente.",
+    "Fala em \"carreira\" de professores, creches e valorização docente sem citar piso salarial, financiamento da educação ou papel da União frente a municípios.",
+    "A observação final sobre peptídeos e terapias inovadoras no SUS não tem proposta correspondente no texto além do item genérico de avaliação de tecnologias. O plano diz que não presume a incorporação de nenhuma substância.",
+    "Contradição de forma: o plano se apresenta como agenda \"executável\" e ao mesmo tempo como versão para \"posterior definição de metas quantitativas\".",
+    "Diz que a proteção de mulheres e crianças é eixo transversal, mas os capítulos de economia, infraestrutura, energia e Estado quase não trazem medidas específicas para esse público. Só o critério final exige explicitar o impacto sobre mulheres, crianças e famílias."
+  ],
+  "fonte": "Resumo escrito a partir do texto integral do plano registrado no TSE. Leitura feita por IA, sem checagem humana linha a linha; confira o original no DivulgaCand."
+}
