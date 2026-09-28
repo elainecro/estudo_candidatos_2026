@@ -135,3 +135,6 @@ code { background: var(--card); border: 1px solid var(--line); padding: 1px 6px;
 .card.candidato .cabeca { align-items: flex-start; }
 .card.candidato .cabeca > div:nth-child(2) { flex: 1; min-width: 0; }
 .modal-cabeca { display: flex; gap: 14px; align-items: center; margin-bottom: 4px; }
+
+.eixo { margin: 12px 0 4px; font-size: 1rem; }
+pre.plano { white-space: pre-wrap; font: .88rem/1.5 inherit; background: var(--bg); padding: 12px; border-radius: 10px; max-height: 60vh; overflow: auto; }

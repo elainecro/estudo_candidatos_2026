@@ -184,8 +184,25 @@
         </div>`).join('') : (c.tipo_historico === 'executivo' || c.tipo_historico === 'misto' ? '<h3>Gestão</h3><p class="nota">Teve cargo executivo, mas ainda não consolidamos o balanço.</p>' : '');
     const relatorias = c.relatorias?.length ? `<ul>${c.relatorias.map(r => `<li><b>${esc(r.titulo)}</b>${r.ano ? ` (${r.ano})` : ''}${r.resultado ? `<div class="obs">${esc(r.resultado)}</div>` : ''}</li>`).join('')}</ul>` : '<p class="nota">Nenhuma relatoria ou presidência de comissão registrada aqui.</p>';
     const fiscalizacao = c.fiscalizacao?.length ? `<ul>${c.fiscalizacao.map(f => `<li><span class="tag">${esc(f.tipo)}</span> ${esc(f.descricao)}${f.ano ? ` <i>(${f.ano})</i>` : ''}</li>`).join('')}</ul>` : '<p class="nota">Nenhuma CPI, denúncia ou ação de fiscalização registrada aqui.</p>';
-    const processos = c.processos?.length ? `<ul class="processos">${c.processos.map(pr => `<li>${esc(pr.descricao)}<div class="obs"><b>Status:</b> ${esc(pr.status)}${pr.ano ? ` · ${pr.ano}` : ''}${pr.fonte ? ` · <a href="${esc(pr.fonte)}" target="_blank" rel="noopener">fonte</a>` : ''}</div></li>`).join('')}</ul><p class="nota">${esc(D.candidatos.meta.aviso_processos || '')}</p>` : '<p class="nota">Nenhum processo, investigação ou denúncia localizado nas fontes consultadas. Isso não é atestado: procure o nome no MPES, TSE e Jusbrasil.</p>';
+    const cert = c.certidoes_resumo?.length ? (() => {
+      const grupos = {};
+      for (const x of c.certidoes_resumo) { const k = x.orgao + (x.grau ? ' · ' + x.grau : '') + (x.tipo === 'quitação eleitoral' ? ' · quitação' : ''); (grupos[k] = grupos[k] || []).push(x); }
+      const chip = st => st === 'nada consta' ? 'ok' : st === 'com apontamentos' ? 'bad' : 'warn';
+      const linhas = Object.entries(grupos).map(([k, xs]) => `<li><b>${esc(k)}</b>: ${xs.map(x => `<span class="tag ${chip(x.status)}">${esc(x.status)}</span>`).join(' ')}${xs.flatMap(x => x.processos || []).length ? `<div class="obs">Processos: ${xs.flatMap(x => x.processos).map(esc).join(', ')}</div>` : ''}${xs.filter(x => x.trecho).map(x => `<div class="obs">“${esc(x.trecho)}”</div>`).join('')}</li>`).join('');
+      return `<p><span class="tag ${chip(c.certidoes_flag)}">certidões do registro: ${esc(c.certidoes_flag || '')}</span> ${c.certidoes_resumo.length} certidões anexadas ao TSE, lidas automaticamente.</p><ul>${linhas}</ul><p class="nota">Leitura automática do texto das certidões. "Com apontamentos" quer dizer que a certidão lista processo; pode ser arquivado ou a pessoa pode não ser ré. Os PDFs originais estão na página do candidato no DivulgaCand.</p>`;
+    })() : '';
+    const processos = (c.processos?.length ? `<ul class="processos">${c.processos.map(pr => `<li>${esc(pr.descricao)}<div class="obs"><b>Status:</b> ${esc(pr.status)}${pr.ano ? ` · ${pr.ano}` : ''}${pr.fonte ? ` · <a href="${esc(pr.fonte)}" target="_blank" rel="noopener">fonte</a>` : ''}</div></li>`).join('')}</ul><p class="nota">${esc(D.candidatos.meta.aviso_processos || '')}</p>` : '<p class="nota">Nenhum processo, investigação ou denúncia localizado na imprensa. Isso não é atestado: veja as certidões abaixo e procure o nome no MPES, TSE e Jusbrasil.</p>') + cert;
     const brl = v => (v === null || v === undefined) ? '—' : 'R$ ' + Number(v).toLocaleString('pt-BR', { maximumFractionDigits: 0 });
+    let plano = '';
+    if (c.proposta_resumo || c.proposta_governo) {
+      const r = c.proposta_resumo;
+      const pg = c.proposta_governo || {};
+      const resumo = r ? `${r.sintese ? `<p>${esc(r.sintese)}</p>` : ''}${r.eixos?.length ? r.eixos.map(e => `<h4 class="eixo">${esc(e.tema)}</h4><ul>${(e.propostas || []).map(x => `<li>${esc(x)}</li>`).join('')}</ul>`).join('') : ''}${r.mensuraveis?.length ? `<h4 class="eixo">Promessas com número ou prazo</h4><ul>${r.mensuraveis.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${r.lacunas?.length ? `<h4 class="eixo">O que o plano não diz</h4><ul>${r.lacunas.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${r.fonte ? `<p class="nota">${esc(r.fonte)}</p>` : ''}` : '<p class="nota">Resumo ainda não escrito. O texto integral está abaixo.</p>';
+      const texto = pg.texto ? `<details><summary class="nota">Texto integral extraído do PDF (${pg.paginas || '?'} páginas, ${Number(pg.caracteres || 0).toLocaleString('pt-BR')} caracteres)</summary><pre class="plano">${esc(pg.texto)}</pre></details>` : (pg.arquivo ? `<p class="nota">Texto extraído em <code>${esc(pg.arquivo)}</code>.</p>` : '');
+      plano = `<h3>Plano de governo registrado no TSE</h3>${pg.legivel === false ? '<p class="aviso">O PDF entregue ao TSE não tem texto legível (imagem). Abra o original no DivulgaCand.</p>' : ''}${resumo}${texto}`;
+    } else if (c.cargo === 'presidente' || c.cargo === 'governador') {
+      plano = '<h3>Plano de governo registrado no TSE</h3><p class="nota">Ainda não extraído. Rode <code>scripts/ler_pdfs.py --propostas</code> com o zip de propostas em data/cache/.</p>';
+    }
     const blocos = [];
     if (c.bens) blocos.push(`<h3>Patrimônio declarado ao TSE</h3><p><b>${brl(c.bens.total)}</b> em ${c.bens.itens?.length ?? 0} bens.</p>${c.bens.itens?.length ? `<ul>${c.bens.itens.slice(0, 8).map(b => `<li>${esc(b.tipo || '')}: ${esc(b.descricao || '')} · ${brl(b.valor)}</li>`).join('')}</ul>` : ''}`);
     if (c.campanha) blocos.push(`<h3>Financiamento da campanha 2026</h3><p>Recebeu <b>${brl(c.campanha.receitas)}</b>, gastou ${brl(c.campanha.despesas)}. De fundo público e partido: ${brl(c.campanha.fundo_publico_e_partido)}.</p>${c.campanha.maiores_doadores?.length ? `<ul>${c.campanha.maiores_doadores.map(d => `<li>${esc(d.nome)} · ${brl(d.valor)}</li>`).join('')}</ul>` : ''}`);
@@ -230,6 +247,7 @@
       ${fiscalizacao}
       <h3>Processos e denúncias contra</h3>
       ${processos}
+      ${plano}
       ${cruzamentos}
       <h3>Sobre o partido</h3>
       <p>${esc(p?.ideologia || '')} <a href="#" data-partido="${esc(c.partido)}">Ver ficha do ${esc(c.partido)}</a></p>

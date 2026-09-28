@@ -23,6 +23,7 @@ def main() -> int:
             print(f"JSON inválido em {path}: {exc}", file=sys.stderr)
             return 1
     validar(bundle)
+    embutir_propostas(bundle)
     out = DATA / "bundle.js"
     out.write_text(
         "// Gerado por scripts/build_bundle.py. Não edite à mão; edite os JSON em data/.\n"
@@ -37,6 +38,22 @@ def main() -> int:
 SIGLAS = {"AVANTE": "Avante", "PODE": "Podemos", "PODEMOS": "Podemos", "REPUBLICANOS": "Republicanos", "UNIÃO": "União", "UNIAO": "União",
           "NOVO": "Novo", "SOLIDARIEDADE": "Solidariedade", "CIDADANIA": "Cidadania", "REDE": "Rede", "MISSÃO": "Missão", "MISSAO": "Missão",
           "DEMOCRATA": "Democrata", "MOBILIZA": "Mobiliza", "PC DO B": "PCdoB", "PCDOB": "PCdoB", "AGIR": "Agir"}
+
+
+def embutir_propostas(bundle: dict, limite: int = 200_000) -> None:
+    """Coloca o texto extraído do plano de governo (data/propostas/*.txt) dentro da ficha."""
+    n = 0
+    for c in bundle["candidatos"]["candidatos"]:
+        pg = c.get("proposta_governo")
+        if not pg or not pg.get("arquivo"):
+            continue
+        arq = ROOT / pg["arquivo"]
+        if arq.exists():
+            txt = arq.read_text(encoding="utf-8")
+            pg["texto"] = txt[:limite] + ("\n\n[texto cortado; veja o PDF original no DivulgaCand]" if len(txt) > limite else "")
+            n += 1
+    if n:
+        print(f"{n} planos de governo embutidos")
 
 
 def validar(bundle: dict) -> None:
