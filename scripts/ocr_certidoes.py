@@ -26,13 +26,16 @@ O texto OCR de cada PDF fica em data/cache/ocr/ (fora do git), então rodar de n
 é rápido. Depois: python3 scripts/build_bundle.py
 
 Tempo: umas 3.800 certidões com 1 a 3 páginas cada dá algo entre 20 e 60 minutos
-no Vision. Pode interromper com Ctrl+C: o que já foi lido fica salvo.
+no Vision. Pode interromper com Ctrl+C: o que já foi lido fica salvo, e a rodada
+seguinte pula o que já está em data/cache/ocr/. Se parecer travado, rode com
+OCR_VERBOSE=1 na frente para ver qual arquivo está sendo lido.
 
 A leitura é heurística. "Com apontamentos" quer dizer que a certidão lista processo;
 pode ser arquivado, ou a pessoa pode ser vítima ou testemunha. Sempre confira o PDF.
 """
 import argparse
 import io
+import os
 import pathlib
 import subprocess
 import sys
@@ -42,8 +45,10 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from ler_pdfs import CACHE, CAND, ROOT, RE_SQ, carregar, classificar_certidao, salvar, texto_pdf  # noqa: E402
 
 OCR_CACHE = CACHE / "ocr"
+VERBOSE = bool(os.environ.get("OCR_VERBOSE"))  # OCR_VERBOSE=1 imprime cada arquivo antes de ler
 DPI = 200            # 200 dpi costuma bastar para certidão impressa; 300 é mais lento e raramente melhora
 MAX_PAGINAS = 4      # certidões têm 1 a 3 páginas; o resto costuma ser assinatura digital
+MAX_LADO_PX = 2600   # teto para o maior lado da imagem renderizada
 MIN_CARACTERES = 200  # abaixo disso o pypdf provavelmente só pegou cabeçalho; vai para o OCR
 
 
@@ -68,6 +73,14 @@ class MotorVision:
         self.falhas[motivo] = self.falhas.get(motivo, 0) + 1
 
     def ocr_pdf(self, dados: bytes, debug: bool = False) -> str:
+        import objc
+
+        # Sem isso, cada TIFF de ~15 MB fica retido até o fim do processo e a
+        # memória explode depois de umas centenas de certidões.
+        with objc.autorelease_pool():
+            return self._ocr_pdf(dados, debug)
+
+    def _ocr_pdf(self, dados: bytes, debug: bool = False) -> str:
         import Quartz
         from Foundation import NSData, NSMakeSize
 
@@ -84,6 +97,9 @@ class MotorVision:
             pagina = doc.pageAtIndex_(i)
             box = pagina.boundsForBox_(0)  # 0 = kPDFDisplayBoxMediaBox
             escala = DPI / 72.0
+            maior = max(box.size.width, box.size.height) * escala
+            if maior > MAX_LADO_PX:  # página gigante (scan em resolução alta): reduz
+                escala *= MAX_LADO_PX / maior
             tamanho = NSMakeSize(box.size.width * escala, box.size.height * escala)
             img = pagina.thumbnailOfSize_forBox_(tamanho, 0)
             if img is None:
@@ -277,6 +293,8 @@ def main() -> int:
                     antigo = existentes.get(chave)
                     if antigo and antigo.get("status") != "indeterminada" and not a.todas:
                         continue
+                    if VERBOSE:
+                        print(f"    {nome}", flush=True)
                     texto, origem = texto_da_certidao(motor, zp, zp_path.stem, nome, a.todas)
                     novo = classificar_certidao(texto)
                     novo["arquivo"] = chave
@@ -295,7 +313,7 @@ def main() -> int:
                         if len(texto.strip()) < 20:
                             vazios += 1
                         if ocrs % 25 == 0:
-                            print(f"  {ocrs} OCRs feitos ({feitos} certidões revistas)")
+                            print(f"  {ocrs} OCRs feitos ({feitos} certidões revistas)", flush=True)
                             salvar(doc)   # checkpoint
                     if a.limite and ocrs >= a.limite:
                         raise KeyboardInterrupt
