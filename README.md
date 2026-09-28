@@ -139,6 +139,20 @@ python3 scripts/build_bundle.py
 Fora do macOS o `ocr_certidoes.py` usa `tesseract` + `pymupdf` (veja o cabeçalho
 do script). O texto OCR fica em `data/cache/ocr/` e não vai para o git.
 
+Para saber em que polo o candidato está (réu, autor, vítima) e em que pé o processo
+está, o `interpretar_certidoes.py` manda o texto das certidões com apontamento para um
+modelo de linguagem via OpenRouter (só uns 75 documentos no ES; custa centavos):
+
+```bash
+export OPENROUTER_API_KEY=sk-or-...
+python3 scripts/interpretar_certidoes.py --dry-run     # mostra o que iria, sem gastar
+python3 scripts/interpretar_certidoes.py               # grava data/certidoes_interpretacao.json
+python3 scripts/build_bundle.py
+```
+
+CPF, RG, filiação, endereço e telefone são removidos antes do envio. O resultado entra na
+ficha como "interpretação automática", com o número de cada processo para conferência.
+
 Os resumos estruturados dos planos ficam em `data/propostas_resumo/<tse_id>.json`
 (síntese, eixos, promessas mensuráveis, lacunas). Foram escritos por IA a partir
 do texto integral, e o `build_bundle.py` os mescla na ficha como `proposta_resumo`.

@@ -156,3 +156,9 @@ code { background: var(--card); border: 1px solid var(--line); padding: 1px 6px;
 
 .eixo { margin: 12px 0 4px; font-size: 1rem; }
 pre.plano { white-space: pre-wrap; font: .88rem/1.5 inherit; background: var(--bg); padding: 12px; border-radius: 10px; max-height: 60vh; overflow: auto; }
+
+.tabela-proc { width: 100%; border-collapse: collapse; font-size: .85rem; margin: 8px 0; }
+.tabela-proc th { text-align: left; font-weight: 600; color: var(--muted); border-bottom: 1px solid var(--line); padding: 4px 6px; }
+.tabela-proc td { vertical-align: top; border-bottom: 1px dashed var(--line); padding: 6px; }
+.tabela-proc code { font-size: .78rem; white-space: nowrap; }
+@media (max-width: 600px) { .tabela-proc thead { display: none; } .tabela-proc tr { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 8px; padding: 6px 0; border-bottom: 1px dashed var(--line); } .tabela-proc td { border: 0; padding: 2px 0; } .tabela-proc td:first-child { grid-column: 1 / -1; } }

@@ -26,6 +26,7 @@ def main() -> int:
     embutir_propostas(bundle)
     embutir_resumos(bundle)
     sanear_certidoes(bundle)
+    embutir_interpretacoes(bundle)
     out = DATA / "bundle.js"
     out.write_text(
         "// Gerado por scripts/build_bundle.py. Não edite à mão; edite os JSON em data/.\n"
@@ -85,6 +86,22 @@ def embutir_resumos(bundle: dict) -> None:
         n += 1
     if n:
         print(f"{n} resumos de plano de governo embutidos")
+
+
+def embutir_interpretacoes(bundle: dict) -> None:
+    """Mescla data/certidoes_interpretacao.json (saída do interpretar_certidoes.py) na ficha."""
+    arq = DATA / "certidoes_interpretacao.json"
+    if not arq.exists():
+        return
+    interp = json.loads(arq.read_text(encoding="utf-8"))
+    n = 0
+    for c in bundle["candidatos"]["candidatos"]:
+        it = interp.get(str(c.get("tse_id")))
+        if it and c.get("certidoes_resumo"):
+            c["certidoes_interpretacao"] = it
+            n += 1
+    if n:
+        print(f"{n} interpretações de certidões embutidas")
 
 
 def sanear_certidoes(bundle: dict) -> None:
