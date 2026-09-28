@@ -18,6 +18,7 @@ Uso (na pasta do projeto, com certidao_criminal_2026_ES.zip em data/cache/):
 
     python3 scripts/ocr_certidoes.py                     # só as certidões ainda 'indeterminada'
     python3 scripts/ocr_certidoes.py --cargo governador  # começa pelos majoritários
+    python3 scripts/ocr_certidoes.py --debug             # uma certidão, passo a passo (comece por aqui)
     python3 scripts/ocr_certidoes.py --limite 50         # teste rápido
     python3 scripts/ocr_certidoes.py --todas             # refaz até as que já tinham texto
 
@@ -53,40 +54,51 @@ class MotorVision:
     nome = "vision"
 
     def __init__(self):
+        if sys.platform != "darwin":
+            raise RuntimeError("Vision só existe no macOS")
         try:
             import Quartz  # noqa: F401
             import Vision  # noqa: F401
             from Foundation import NSData  # noqa: F401
         except ImportError as exc:
             raise RuntimeError("pip3 install pyobjc-framework-Vision pyobjc-framework-Quartz") from exc
-        if sys.platform != "darwin":
-            raise RuntimeError("Vision só existe no macOS")
+        self.falhas: dict[str, int] = {}
 
-    def ocr_pdf(self, dados: bytes) -> str:
+    def _falha(self, motivo: str) -> None:
+        self.falhas[motivo] = self.falhas.get(motivo, 0) + 1
+
+    def ocr_pdf(self, dados: bytes, debug: bool = False) -> str:
         import Quartz
-        import Vision
-        from Foundation import NSData
+        from Foundation import NSData, NSMakeSize
 
-        doc = Quartz.PDFDocument.alloc().initWithData_(NSData.dataWithBytes_length_(dados, len(dados)))
+        nsdata = NSData.dataWithBytes_length_(dados, len(dados))
+        doc = Quartz.PDFDocument.alloc().initWithData_(nsdata)
         if doc is None:
+            self._falha("PDFDocument não abriu o PDF")
             return ""
+        n = doc.pageCount()
+        if debug:
+            print(f"    páginas no PDF: {n}")
         partes = []
-        for i in range(min(doc.pageCount(), MAX_PAGINAS)):
+        for i in range(min(n, MAX_PAGINAS)):
             pagina = doc.pageAtIndex_(i)
-            box = pagina.boundsForBox_(Quartz.kPDFDisplayBoxMediaBox)
+            box = pagina.boundsForBox_(0)  # 0 = kPDFDisplayBoxMediaBox
             escala = DPI / 72.0
-            tamanho = Quartz.NSMakeSize(box.size.width * escala, box.size.height * escala)
-            img = pagina.thumbnailOfSize_forBox_(tamanho, Quartz.kPDFDisplayBoxMediaBox)
+            tamanho = NSMakeSize(box.size.width * escala, box.size.height * escala)
+            img = pagina.thumbnailOfSize_forBox_(tamanho, 0)
             if img is None:
+                self._falha("thumbnailOfSize devolveu None")
                 continue
-            cg = img.CGImageForProposedRect_context_hints_(None, None, None)
-            if cg is None:
+            tiff = img.TIFFRepresentation()
+            if tiff is None or tiff.length() == 0:
+                self._falha("TIFFRepresentation vazio")
                 continue
-            partes.append(self._ocr_cgimage(cg))
+            if debug:
+                print(f"    página {i + 1}: {int(tamanho.width)}x{int(tamanho.height)} px, tiff {tiff.length() // 1024} KB")
+            partes.append(self._ocr_data(tiff, debug))
         return "\n".join(partes)
 
-    @staticmethod
-    def _ocr_cgimage(cg) -> str:
+    def _ocr_data(self, nsdata, debug: bool = False) -> str:
         import Vision
 
         req = Vision.VNRecognizeTextRequest.alloc().init()
@@ -95,16 +107,25 @@ class MotorVision:
         try:
             req.setRecognitionLanguages_(["pt-BR"])
         except Exception:  # noqa: BLE001  (versões antigas do macOS não têm pt-BR)
-            pass
-        handler = Vision.VNImageRequestHandler.alloc().initWithCGImage_options_(cg, None)
+            self._falha("setRecognitionLanguages pt-BR não aceito")
+        handler = Vision.VNImageRequestHandler.alloc().initWithData_options_(nsdata, None)
+        if handler is None:
+            self._falha("VNImageRequestHandler não aceitou a imagem")
+            return ""
         ok, erro = handler.performRequests_error_([req], None)
         if not ok:
+            self._falha(f"performRequests falhou: {erro}")
             return ""
+        resultados = req.results() or []
+        if debug:
+            print(f"    Vision: {len(resultados)} linhas reconhecidas")
         linhas = []
-        for obs in req.results() or []:
+        for obs in resultados:
             cand = obs.topCandidates_(1)
             if cand:
                 linhas.append(str(cand[0].string()))
+        if not linhas:
+            self._falha("Vision não reconheceu nenhuma linha")
         return "\n".join(linhas)
 
 
@@ -123,10 +144,11 @@ class MotorTesseract:
             raise RuntimeError("instale o tesseract (brew install tesseract tesseract-lang)") from exc
         langs = subprocess.run(["tesseract", "--list-langs"], capture_output=True, text=True).stdout
         self.lang = "por" if "por" in langs.split() else "eng"
+        self.falhas: dict[str, int] = {}
         if self.lang == "eng":
             print("aviso: tesseract sem o pacote 'por'; usando inglês, acentos podem sair errados", file=sys.stderr)
 
-    def ocr_pdf(self, dados: bytes) -> str:
+    def ocr_pdf(self, dados: bytes, debug: bool = False) -> str:
         import fitz
 
         partes = []
@@ -164,7 +186,10 @@ def texto_da_certidao(motor, zp: zipfile.ZipFile, zip_nome: str, nome: str, forc
     """Devolve (texto, origem). Usa o cache em data/cache/ocr/ quando existe."""
     cache = OCR_CACHE / zip_nome / (pathlib.Path(nome).name + ".txt")
     if cache.exists() and not forcar:
-        return cache.read_text(encoding="utf-8"), "cache"
+        t = cache.read_text(encoding="utf-8")
+        if len(t.strip()) >= 20:
+            return t, "cache"
+        # cache vazio: OCR anterior falhou, tenta de novo
     dados = zp.read(nome)
     texto, _ = texto_pdf(dados, max_paginas=MAX_PAGINAS)
     if len(texto.strip()) >= MIN_CARACTERES and not forcar:
@@ -188,12 +213,36 @@ def reflag(c: dict) -> None:
         c["certidoes_flag"] = "indeterminada"
 
 
+def depurar(motor, zp_path: pathlib.Path, por_sq: dict) -> int:
+    """OCR de uma única certidão, com cada etapa impressa. Não grava nada."""
+    with zipfile.ZipFile(zp_path) as zp:
+        for nome in zp.namelist():
+            m = RE_SQ.search(nome)
+            if nome.lower().endswith(".pdf") and m and m.group(1) in por_sq:
+                break
+        else:
+            print("nenhum PDF do zip bate com um candidato"); return 1
+        c = por_sq[m.group(1)]
+        dados = zp.read(nome)
+        print(f"arquivo: {nome} ({len(dados) // 1024} KB), candidato: {c.get('nome_urna')} ({c.get('cargo')})")
+        texto_pdf_, _ = texto_pdf(dados, max_paginas=MAX_PAGINAS)
+        print(f"texto embutido no PDF (pypdf): {len(texto_pdf_.strip())} caracteres")
+        texto = motor.ocr_pdf(dados, debug=True)
+        print(f"texto do OCR: {len(texto)} caracteres")
+        print("-" * 60); print(texto[:1500]); print("-" * 60)
+        print("classificação:", classificar_certidao(texto))
+        if getattr(motor, "falhas", None):
+            print("falhas registradas:", motor.falhas)
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--motor", choices=["vision", "tesseract"])
     ap.add_argument("--todas", action="store_true", help="refaz também as certidões que já tinham texto ou OCR")
     ap.add_argument("--cargo", help="só candidatos a esse cargo (ex: governador, senador)")
     ap.add_argument("--limite", type=int, help="para depois de N certidões processadas por OCR")
+    ap.add_argument("--debug", action="store_true", help="faz OCR de UMA certidão, imprimindo cada etapa e o texto lido, e sai sem gravar")
     a = ap.parse_args()
 
     zips = sorted(CACHE.glob("certidao_criminal_2026_*.zip"))
@@ -211,7 +260,9 @@ def main() -> int:
             existentes[item.get("arquivo")] = item
 
     motor = escolher_motor(a.motor)
-    feitos = ocrs = mudaram = 0
+    if a.debug:
+        return depurar(motor, zips[0], por_sq)
+    feitos = ocrs = mudaram = vazios = 0
     try:
         for zp_path in zips:
             with zipfile.ZipFile(zp_path) as zp:
@@ -241,6 +292,8 @@ def main() -> int:
                     feitos += 1
                     if origem == "ocr":
                         ocrs += 1
+                        if len(texto.strip()) < 20:
+                            vazios += 1
                         if ocrs % 25 == 0:
                             print(f"  {ocrs} OCRs feitos ({feitos} certidões revistas)")
                             salvar(doc)   # checkpoint
@@ -257,6 +310,11 @@ def main() -> int:
     for c in por_sq.values():
         flags[c.get("certidoes_flag", "sem certidão")] = flags.get(c.get("certidoes_flag", "sem certidão"), 0) + 1
     print(f"\n{feitos} certidões revistas, {ocrs} por OCR, {mudaram} mudaram de status.")
+    if vazios:
+        print(f"ATENÇÃO: {vazios} OCRs devolveram texto vazio. Motivos registrados pelo motor:")
+        for motivo, n in sorted(getattr(motor, "falhas", {}).items(), key=lambda kv: -kv[1]):
+            print(f"  {n:5d}  {motivo}")
+        print("Rode com --debug para ver uma certidão passo a passo.")
     print("Candidatos por situação: " + ", ".join(f"{k}: {v}" for k, v in sorted(flags.items())))
     print(f"gravado: {CAND.relative_to(ROOT)}. Agora rode: python3 scripts/build_bundle.py")
     return 0
