@@ -20,7 +20,8 @@ Uso (na pasta do projeto, com certidao_criminal_2026_ES.zip em data/cache/):
     python3 scripts/ocr_certidoes.py --cargo governador  # começa pelos majoritários
     python3 scripts/ocr_certidoes.py --debug             # uma certidão, passo a passo (comece por aqui)
     python3 scripts/ocr_certidoes.py --limite 50         # teste rápido
-    python3 scripts/ocr_certidoes.py --todas             # refaz até as que já tinham texto
+    python3 scripts/ocr_certidoes.py --todas             # reclassifica tudo a partir do cache (rápido)
+    python3 scripts/ocr_certidoes.py --refazer-ocr       # ignora o cache e refaz o OCR (lento)
 
 O texto OCR de cada PDF fica em data/cache/ocr/ (fora do git), então rodar de novo
 é rápido. Depois: python3 scripts/build_bundle.py
@@ -242,7 +243,8 @@ def depurar(motor, zp_path: pathlib.Path, por_sq: dict) -> int:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--motor", choices=["vision", "tesseract"])
-    ap.add_argument("--todas", action="store_true", help="refaz também as certidões que já tinham texto ou OCR")
+    ap.add_argument("--todas", action="store_true", help="reclassifica todas as certidões (usa o cache de OCR; rápido)")
+    ap.add_argument("--refazer-ocr", action="store_true", help="ignora o cache e passa tudo pelo OCR de novo (lento)")
     ap.add_argument("--cargo", help="só candidatos a esse cargo (ex: governador, senador)")
     ap.add_argument("--limite", type=int, help="para depois de N certidões processadas por OCR")
     ap.add_argument("--debug", action="store_true", help="faz OCR de UMA certidão, imprimindo cada etapa e o texto lido, e sai sem gravar")
@@ -278,11 +280,11 @@ def main() -> int:
                         continue
                     chave = f"data/cache/{zp_path.name}:{nome}"
                     antigo = existentes.get(chave)
-                    if antigo and antigo.get("status") != "indeterminada" and not a.todas:
+                    if antigo and antigo.get("status") != "indeterminada" and not (a.todas or a.refazer_ocr):
                         continue
                     if VERBOSE:
                         print(f"    {nome}", flush=True)
-                    texto, origem = texto_da_certidao(motor, zp, zp_path.stem, nome, a.todas)
+                    texto, origem = texto_da_certidao(motor, zp, zp_path.stem, nome, a.refazer_ocr)
                     novo = classificar_certidao(texto)
                     novo["arquivo"] = chave
                     novo["leitura"] = origem
