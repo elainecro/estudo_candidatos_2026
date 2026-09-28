@@ -241,7 +241,7 @@
     const cert = c.certidoes_resumo?.length ? (() => {
       const grupos = {};
       for (const x of c.certidoes_resumo) { const k = x.orgao + (x.grau ? ' · ' + x.grau : '') + (x.tipo === 'quitação eleitoral' ? ' · quitação' : ''); (grupos[k] = grupos[k] || []).push(x); }
-      const chip = st => st === 'nada consta' ? 'ok' : st === 'com apontamentos' ? 'bad' : 'warn';
+      const chip = st => st === 'nada consta' ? 'ok' : st === 'com apontamentos' ? 'bad' : st === 'só eleitoral' ? '' : 'warn';
       const linhas = Object.entries(grupos).map(([k, xs]) => `<li><b>${esc(k)}</b>: ${xs.map(x => `<span class="tag ${chip(x.status)}">${esc(x.status)}</span>`).join(' ')}${xs.flatMap(x => x.processos || []).length ? `<div class="obs">Processos: ${xs.flatMap(x => x.processos).map(esc).join(', ')}</div>` : ''}${xs.filter(x => x.trecho).map(x => `<div class="obs">“${esc(x.trecho)}”</div>`).join('')}</li>`).join('');
       return `<p><span class="tag ${chip(c.certidoes_flag)}">certidões do registro: ${esc(c.certidoes_flag || '')}</span> ${c.certidoes_resumo.length} certidões anexadas ao TSE, lidas automaticamente.</p><ul>${linhas}</ul><p class="nota">Leitura automática do texto das certidões. "Com apontamentos" quer dizer que a certidão lista processo; pode ser arquivado ou a pessoa pode não ser ré. Os PDFs originais estão na página do candidato no DivulgaCand.</p>`;
     })() : '';

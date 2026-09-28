@@ -49,6 +49,21 @@ ORGAOS = [
     (re.compile(r"tribunal\s+de\s+justi[çc]a|justi[çc]a\s+estadual|poder\s+judici[áa]rio\s+do\s+estado|comarca", re.I), "Justiça Estadual"),
 ]
 RE_QUITACAO = re.compile(r"quita[çc][ãa]o\s+eleitoral", re.I)
+# CPF inteiro ou rabo de CPF cortado pela janela do trecho (ex.: ".087.427-15")
+RE_CPF = re.compile(r"\d{0,3}\.\d{3}\.\d{3}-\d{2}\b")
+RE_NASC = re.compile(r"(nascimento|nascid[oa]\s+em)\s*:?\s*\d{2}/\d{2}/\d{4}", re.I)
+
+
+def mascarar_pessoais(t: str) -> str:
+    """Tira CPF e data de nascimento de um trecho que vai para a página."""
+    t = RE_CPF.sub("[CPF omitido]", t or "")
+    return RE_NASC.sub(lambda m: m.group(1) + " [omitida]", t)
+
+
+def justica_eleitoral(numero_cnj: str) -> bool:
+    """No padrão CNJ NNNNNNN-DD.AAAA.J.TR.OOOO, J=6 é Justiça Eleitoral."""
+    m = re.match(r"\d{7}-\d{2}\.\d{4}\.(\d)\.", numero_cnj)
+    return bool(m and m.group(1) == "6")
 RE_GRAU = re.compile(r"(1[ºo°]|primeiro)\s+grau|(2[ºo°]|segundo)\s+grau|segunda\s+inst[âa]ncia|primeira\s+inst[âa]ncia", re.I)
 
 
@@ -83,12 +98,18 @@ def classificar_certidao(texto: str) -> dict:
         grau = "2º grau" if re.search(r"2|segund", mg.group(0), re.I) else "1º grau"
     tipo = "quitação eleitoral" if RE_QUITACAO.search(t) and "crim" not in t.lower() else "criminal"
     processos = sorted(set(RE_CNJ.findall(t)))
+    criminais = [x for x in processos if not justica_eleitoral(x)]
     if not t.strip():
         status = "indeterminada"
         obs = "PDF sem texto (provavelmente imagem escaneada)"
-    elif processos:
+    elif processos and not criminais:
+        # só números da Justiça Eleitoral: registro de candidatura, multa, prestação de contas
+        status = "só eleitoral"
+        obs = "só processos da Justiça Eleitoral (registro de candidatura, multa, contas); não é apontamento criminal"
+    elif criminais:
         status = "com apontamentos"
-        obs = f"{len(processos)} processo(s) listado(s)"
+        obs = f"{len(criminais)} processo(s) listado(s)"
+        processos = criminais
     elif RE_POSITIVA.search(t) and not RE_LIMPA.search(t):
         status = "com apontamentos"
         obs = "texto indica certidão positiva, sem número de processo legível"
@@ -100,11 +121,31 @@ def classificar_certidao(texto: str) -> dict:
         obs = "não achei 'nada consta' nem processo; conferir o PDF"
     trecho = None
     if status == "com apontamentos":
-        m = RE_CNJ.search(t) or RE_POSITIVA.search(t)
+        m = next((RE_CNJ.search(t, pos) for pos in [0]), None)
+        # primeiro número que NÃO é da Justiça Eleitoral
+        for mm in RE_CNJ.finditer(t):
+            if not justica_eleitoral(mm.group(0)):
+                m = mm
+                break
+        m = m or RE_POSITIVA.search(t)
         if m:
             a = max(0, m.start() - 160)
-            trecho = t[a:m.end() + 220]
+            trecho = mascarar_pessoais(t[a:m.end() + 220])
     return {"orgao": orgao, "grau": grau, "tipo": tipo, "status": status, "processos": processos, "obs": obs, "trecho": trecho}
+
+
+def reflag(c: dict) -> None:
+    """Resume as certidões de um candidato em certidoes_flag."""
+    r = c.get("certidoes_resumo") or []
+    if not r:
+        c.pop("certidoes_flag", None)
+        return
+    if any(x["status"] == "com apontamentos" for x in r):
+        c["certidoes_flag"] = "com apontamentos"
+    elif all(x["status"] in ("nada consta", "só eleitoral") or x["tipo"] == "quitação eleitoral" for x in r):
+        c["certidoes_flag"] = "nada consta"
+    else:
+        c["certidoes_flag"] = "indeterminada"
 
 
 def carregar():
@@ -173,19 +214,12 @@ def ler_certidoes(doc):
                     print(f"    {i}/{len(nomes)}")
     limpas = apont = indet = 0
     for c in por_sq.values():
-        r = c.get("certidoes_resumo") or []
-        if not r:
+        if not c.get("certidoes_resumo"):
             c.pop("certidoes_resumo", None)
             continue
-        if any(x["status"] == "com apontamentos" for x in r):
-            c["certidoes_flag"] = "com apontamentos"
-            apont += 1
-        elif all(x["status"] == "nada consta" or x["tipo"] == "quitação eleitoral" for x in r):
-            c["certidoes_flag"] = "nada consta"
-            limpas += 1
-        else:
-            c["certidoes_flag"] = "indeterminada"
-            indet += 1
+        reflag(c)
+        f = c["certidoes_flag"]
+        limpas += f == "nada consta"; apont += f == "com apontamentos"; indet += f == "indeterminada"
     print(f"{total} certidões lidas. Candidatos: {limpas} só 'nada consta', {apont} com apontamentos, {indet} com alguma certidão ilegível.")
 
 

@@ -42,7 +42,7 @@ import sys
 import zipfile
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from ler_pdfs import CACHE, CAND, ROOT, RE_SQ, carregar, classificar_certidao, salvar, texto_pdf  # noqa: E402
+from ler_pdfs import CACHE, CAND, ROOT, RE_SQ, carregar, classificar_certidao, reflag, salvar, texto_pdf  # noqa: E402
 
 OCR_CACHE = CACHE / "ocr"
 VERBOSE = bool(os.environ.get("OCR_VERBOSE"))  # OCR_VERBOSE=1 imprime cada arquivo antes de ler
@@ -214,19 +214,6 @@ def texto_da_certidao(motor, zp: zipfile.ZipFile, zip_nome: str, nome: str, forc
     cache.parent.mkdir(parents=True, exist_ok=True)
     cache.write_text(texto, encoding="utf-8")
     return texto, "ocr"
-
-
-def reflag(c: dict) -> None:
-    r = c.get("certidoes_resumo") or []
-    if not r:
-        c.pop("certidoes_flag", None)
-        return
-    if any(x["status"] == "com apontamentos" for x in r):
-        c["certidoes_flag"] = "com apontamentos"
-    elif all(x["status"] == "nada consta" or x["tipo"] == "quitação eleitoral" for x in r):
-        c["certidoes_flag"] = "nada consta"
-    else:
-        c["certidoes_flag"] = "indeterminada"
 
 
 def depurar(motor, zp_path: pathlib.Path, por_sq: dict) -> int:

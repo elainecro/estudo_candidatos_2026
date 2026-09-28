@@ -25,6 +25,7 @@ def main() -> int:
     validar(bundle)
     embutir_propostas(bundle)
     embutir_resumos(bundle)
+    sanear_certidoes(bundle)
     out = DATA / "bundle.js"
     out.write_text(
         "// Gerado por scripts/build_bundle.py. Não edite à mão; edite os JSON em data/.\n"
@@ -84,6 +85,27 @@ def embutir_resumos(bundle: dict) -> None:
         n += 1
     if n:
         print(f"{n} resumos de plano de governo embutidos")
+
+
+def sanear_certidoes(bundle: dict) -> None:
+    """Mascara CPF/data de nascimento nos trechos e reclassifica certidões geradas por versões antigas."""
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from ler_pdfs import justica_eleitoral, mascarar_pessoais, reflag
+    n = 0
+    for c in bundle["candidatos"]["candidatos"]:
+        for x in c.get("certidoes_resumo") or []:
+            if x.get("trecho"):
+                novo = mascarar_pessoais(x["trecho"])
+                n += novo != x["trecho"]
+                x["trecho"] = novo
+            if x.get("status") == "com apontamentos" and x.get("processos") and all(justica_eleitoral(p) for p in x["processos"]):
+                x["status"] = "só eleitoral"
+                x["obs"] = "só processos da Justiça Eleitoral (registro de candidatura, multa, contas); não é apontamento criminal"
+                x["trecho"] = None
+        if c.get("certidoes_resumo"):
+            reflag(c)
+    if n:
+        print(f"{n} trechos de certidão com dado pessoal mascarado")
 
 
 def validar(bundle: dict) -> None:
