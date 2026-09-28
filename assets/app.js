@@ -182,7 +182,11 @@
             <div class="col"><h4>Críticas e problemas <span>${g.criticas?.length ?? 0}</span></h4>${g.criticas?.length ? `<ul>${g.criticas.map(r => `<li>${esc(r)}</li>`).join('')}</ul>` : '<p class="vazio">Nenhuma registrada aqui.</p>'}</div>
           </div>
         </div>`).join('') : (c.tipo_historico === 'executivo' || c.tipo_historico === 'misto' ? '<h3>Gestão</h3><p class="nota">Teve cargo executivo, mas ainda não consolidamos o balanço.</p>' : '');
-    const relatorias = c.relatorias?.length ? `<ul>${c.relatorias.map(r => `<li><b>${esc(r.titulo)}</b>${r.ano ? ` (${r.ano})` : ''}${r.resultado ? `<div class="obs">${esc(r.resultado)}</div>` : ''}</li>`).join('')}</ul>` : '<p class="nota">Nenhuma relatoria ou presidência de comissão registrada aqui.</p>';
+    const LIM_REL = 15;
+    const liRel = r => `<li><b>${esc(r.titulo)}</b>${r.ano ? ` (${r.ano})` : ''}${r.resultado ? `<div class="obs">${esc(r.resultado)}</div>` : ''}</li>`;
+    const relatorias = c.relatorias?.length
+      ? `<ul>${c.relatorias.slice(0, LIM_REL).map(liRel).join('')}</ul>${c.relatorias.length > LIM_REL ? `<details><summary class="nota">Ver as outras ${c.relatorias.length - LIM_REL} relatorias</summary><ul>${c.relatorias.slice(LIM_REL).map(liRel).join('')}</ul></details>` : ''}`
+      : '<p class="nota">Nenhuma relatoria ou presidência de comissão registrada aqui.</p>';
     const fiscalizacao = c.fiscalizacao?.length ? `<ul>${c.fiscalizacao.map(f => `<li><span class="tag">${esc(f.tipo)}</span> ${esc(f.descricao)}${f.ano ? ` <i>(${f.ano})</i>` : ''}</li>`).join('')}</ul>` : '<p class="nota">Nenhuma CPI, denúncia ou ação de fiscalização registrada aqui.</p>';
     const cert = c.certidoes_resumo?.length ? (() => {
       const grupos = {};

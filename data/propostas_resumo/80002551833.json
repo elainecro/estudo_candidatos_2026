@@ -1,0 +1,163 @@
+{
+  "sintese": "O plano diz que o Espírito Santo vive o esgotamento de um ciclo econômico iniciado nos anos 1960 e propõe um novo ciclo a partir de 2027, com um Estado que planeja, reduz desigualdades e diversifica a economia. O tom é ideológico e programático, com muitos dados de diagnóstico e forte alinhamento ao governo federal de Lula. O documento é assinado por Helder Salomão e Valdirene Bernadino, em nome da Federação Brasil da Esperança (PT, PCdoB e PV). Ele foi construído em plenárias e escutas entre novembro de 2025 e julho de 2026, segundo o próprio texto.",
+  "eixos": [
+    {
+      "tema": "Gestão pública e controle social",
+      "propostas": [
+        "Revisar planos de cargos e carreiras do funcionalismo e elaborar plano de recomposição de pessoal, com escuta das entidades dos servidores.",
+        "Criar a Mesa Permanente de Negociação Coletiva com os sindicatos, respeitando os limites orçamentários do Estado.",
+        "Instituir o Saber Servir, plano estadual de capacitação continuada dos servidores, sob a Escola de Serviço Público (ESESP).",
+        "Instituir o Conta Aberta, programa que reúne os canais de participação (portal do orçamento, audiências, conselhos, E-Ouv).",
+        "Criar o Observatório Estadual de Dados para apoiar as políticas públicas.",
+        "Expandir o Governo Digital, enfrentando a desigualdade de conectividade entre territórios.",
+        "Reestruturar Incaper, IDAF e IEMA.",
+        "Manter Banestes e Cesan como empresas públicas."
+      ]
+    },
+    {
+      "tema": "Agricultura familiar e meio ambiente",
+      "propostas": [
+        "Ampliar o FUNSAF, fundo de apoio à agricultura familiar, com recursos do orçamento estadual, priorizando projetos coletivos, pescadores, indígenas e povos tradicionais.",
+        "Instituir o Raiz Capixaba, programa de moradia camponesa, em parceria com o governo federal.",
+        "Revisar o Programa Estadual de Agroecologia e torná-lo política estruturante.",
+        "Regularizar territórios tradicionais com órgãos federais e criar o CAR-Quilombola, operado pelo IDAF.",
+        "Reestruturar o Incaper com recursos financeiros e humanos e implementar a Pedagogia da Alternância na educação do campo.",
+        "Revisar a Lei Complementar 1.073/2023 para integrar IEMA, AGERH e IDAF e reforçar a fiscalização do desmatamento por satélite e drones.",
+        "Criar o Conselho Estadual da Bacia do Rio Doce e revisar, com os atingidos, o papel da Secretaria de Recuperação do Rio Doce (SERD).",
+        "Fortalecer a infraestrutura hídrica rural contra estiagem e intrusão salina e ampliar o pagamento por serviços ambientais a quem protege nascentes."
+      ]
+    },
+    {
+      "tema": "Saúde, assistência e proteção social",
+      "propostas": [
+        "Fazer parcerias com os municípios para reformar e ampliar UBS e UPAs e concluir as obras de hospitais em andamento.",
+        "Garantir cofinanciamento do SAMU, da atenção primária e da média complexidade.",
+        "Ampliar consultas e exames especializados pelo SUS e fortalecer o programa federal Agora Tem Especialistas, com foco na saúde da mulher.",
+        "Implementar a rede de oncologia de forma regionalizada e estruturar a rede de saúde mental, com novos CAPS.",
+        "Intensificar auditorias e fiscalização dos contratos com Organizações Sociais.",
+        "Reestruturar a Bolsa Capixaba e ampliar a rede de CRAS, CREAS e acolhimento.",
+        "Aumentar gradativamente o orçamento do Fundo Estadual de Assistência Social e criar o SUAS Digital.",
+        "Trabalhar com o governo federal por um Instituto de Tecnologia e Patentes em Saúde no Estado."
+      ]
+    },
+    {
+      "tema": "Educação, ciência e tecnologia",
+      "propostas": [
+        "Garantir o cumprimento integral do piso salarial nacional, com plano de carreira e valorização dos profissionais.",
+        "Reduzir a burocracia escolar e criar política de saúde mental para os profissionais da educação.",
+        "Expandir a educação integral em tempo integral, com foco em estudantes vulneráveis e crescimento gradual conforme o PNE.",
+        "Fortalecer as escolas do campo, quilombolas e Escolas Família Agrícola, incluindo o apoio ao MEPES.",
+        "Fortalecer permanência estudantil, inclusão digital e o preparatório para Enem e vestibulares.",
+        "Implantar laboratórios maker e de programação nas escolas e expandir feiras de ciência e clubes de robótica.",
+        "Articular com o governo federal a expansão do Ifes e criar um grupo de trabalho para estudar uma Universidade Estadual.",
+        "Garantir licenças para professores fazerem mestrado e doutorado."
+      ]
+    },
+    {
+      "tema": "Cultura, turismo e esporte",
+      "propostas": [
+        "Consolidar a Secretaria de Cultura como órgão formulador e executor, com recursos garantidos para a circulação da produção cultural.",
+        "Estudar a substituição do modelo da Lei de Incentivo à Cultura Capixaba (LICC) por um modelo que evite concentração nos grandes centros.",
+        "Ampliar Territórios Rurais da Cultura, Pontos e Pontões de Cultura e polos culturais no interior.",
+        "Acelerar a reforma do Centro de Convenções de Carapina.",
+        "Buscar parcerias para marinas públicas e para a volta de cruzeiros aos portos capixabas.",
+        "Criar roteiros turísticos quilombolas (Viva Quilombo) e apoiar o turismo de base comunitária.",
+        "Revisar e implementar o Plano Estadual do Esporte, fortalecer o Bolsa-Atleta e criar programas de paradesporto.",
+        "Criar o projeto Espírito Santo de Todos os Esportes para atletas de 18 a 20 anos vindos dos jogos escolares."
+      ]
+    },
+    {
+      "tema": "Mobilidade, infraestrutura, habitação e saneamento",
+      "propostas": [
+        "Criar o Comitê de Mobilidade Urbana com Estado, universidades, municípios e sociedade civil.",
+        "Elaborar o Plano Integrado de Mobilidade Metropolitana da Grande Vitória, começando no início do governo, com implantação ao longo de décadas.",
+        "Aprofundar o estudo do BNDES sobre corredores de BRT e transporte de alta capacidade, como VLT.",
+        "Estudar fontes de financiamento do transporte fora da tarifa e avaliar a viabilidade da Tarifa Zero.",
+        "Instituir o Programa Capixaba de Transição Energética no Transporte Público.",
+        "Apoiar moradia popular com o Minha Casa, Minha Vida e revisar o programa habitacional estadual (PHSES).",
+        "Avançar nas metas do saneamento, com prioridade para a zona rural, fortalecendo a Cesan.",
+        "Reforçar a Defesa Civil estadual e as ações de drenagem contra enchentes e alagamentos."
+      ]
+    },
+    {
+      "tema": "Juventudes e diversidades",
+      "propostas": [
+        "Instituir o Sistema Estadual para Juventudes, previsto no plano estadual mas não implementado, e institucionalizar os Centros de Referência das Juventudes.",
+        "Aprofundar o Plano Juventude Negra Viva para reduzir a mortalidade de jovens negros.",
+        "Criar os programas Juventude Tech Capixaba e Juventude Viva Bem (saúde mental).",
+        "Ampliar casas-abrigo regionais, Casas da Mulher Brasileira e o atendimento integrado à mulher no interior.",
+        "Criar auxílio financeiro emergencial temporário para mulheres em situação de violência e ampliar o Crédito Mulher.",
+        "Enviar projeto de lei que impeça condenados por violência doméstica, feminicídio, estupro ou assédio de ocupar cargos públicos estaduais.",
+        "Estudar transformar o Plano Estadual para a Equidade Racial em lei e apoiar a titulação de terras quilombolas.",
+        "Implantar casas de acolhimento LGBTQIAPN+, criar rede para pessoas neurodivergentes e ampliar a acessibilidade e o programa Viver Bem para idosos."
+      ]
+    },
+    {
+      "tema": "Segurança pública e direitos humanos",
+      "propostas": [
+        "Incorporar as tarefas estaduais do Sistema Único de Segurança Pública (SUSP) e adotar metas públicas com foco em preservar vidas.",
+        "Mirar a base financeira das facções, com inteligência financeira junto a COAF, Receita e Ministério Público, e controle de armas e munições.",
+        "Implantar câmeras corporais em todos os policiais e agentes penais, com gravação contínua.",
+        "Criar a Ouvidoria Externa de Segurança e adotar protocolo de uso da força alinhado ao Decreto 12.341/2024, com investigação independente de mortes em intervenção policial.",
+        "Criar delegacias especializadas em combate ao racismo e à violência contra LGBTQIA+ e o Comitê de Prevenção de Homicídios de Adolescentes.",
+        "Valorizar as carreiras policiais, fortalecer a Polícia Científica e a Polícia Civil e reformular a formação policial com direitos humanos.",
+        "Adotar policiamento de proximidade, ampliar as Patrulhas Rurais e levar delegacias e perícia a municípios sem atendimento.",
+        "Estruturar a Defensoria Pública com presença em todos os municípios e fortalecer o sistema de combate à tortura."
+      ]
+    },
+    {
+      "tema": "Desenvolvimento econômico, reforma tributária e pequenos negócios",
+      "propostas": [
+        "Criar o Conselho de Desenvolvimento Econômico Social Sustentável e o Comitê de Avaliação Estratégica dos planos de desenvolvimento (ES 500 Anos e Projeto DRS).",
+        "Instituir o Comitê Gestor Estadual da Reforma Tributária e ampliar o cashback do IBS para famílias do CadÚnico.",
+        "Criar o Programa Capixaba de Incubadoras de Economia Solidária em cada microrregião e fortalecer bancos comunitários e microcrédito.",
+        "Expandir a qualificação profissional com Senai, Senac, Ifes e Ufes, com bolsa-qualificação para desempregados, e ampliar o Primeiro Emprego.",
+        "Implementar Centros Regionais de Competência em IA para juventude e periferias e uma política de empreendedorismo inovador com sandboxes regulatórios.",
+        "Instituir a Política Estadual da Economia Azul e o Programa Capixaba de Bioeconomia e fortalecer associações de catadores.",
+        "Ampliar as Salas do Empreendedor em todas as regiões e fortalecer a ADERES.",
+        "Criar o programa de valorização do artesanato capixaba e o selo Sou Capixaba."
+      ]
+    },
+    {
+      "tema": "Petróleo, logística e portos",
+      "propostas": [
+        "Instituir o Comitê Gestor de Desenvolvimento Portuário e Logístico.",
+        "Formular política estadual integrada para portos, aeroportos, ferrovias e rodovias.",
+        "Melhorar os acessos viários aos terminais portuários da Grande Vitória e de Aracruz.",
+        "Buscar com o governo federal a Rota 4 (gás natural) e a instalação da fábrica de fertilizantes UFN-4 em Linhares.",
+        "Cobrar a duplicação da BR-262 e o cronograma de duplicação da BR-101.",
+        "Liderar o debate nacional pela repactuação dos royalties do petróleo.",
+        "Debater com a sociedade o uso do Fundo Soberano para a transição energética e a diversificação produtiva.",
+        "Criar governança tripartite para a Zona de Atividades Logísticas e Industriais e um Plano Diretor Integrado do retroporto."
+      ]
+    }
+  ],
+  "mensuraveis": [
+    "Novo ciclo de desenvolvimento com início em 2027.",
+    "Transição do modelo econômico em cerca de duas décadas.",
+    "Toda proposta com impacto orçamentário recorrente terá implementação escalonada ao longo dos quatro anos de mandato.",
+    "Revisar e implementar o Plano Estadual do Esporte, com suas 72 metas e 63 projetos e cronograma decenal já pactuado.",
+    "Aplicar o mínimo constitucional de 12% do orçamento em saúde.",
+    "Programa Capixaba de Incubadoras de Economia Solidária em cada uma das microrregiões.",
+    "Salas do Empreendedor em todas as regiões do Estado.",
+    "Câmeras corporais em todos os profissionais da segurança, com gravação contínua.",
+    "Videomonitoramento eletrônico em todas as unidades prisionais.",
+    "Defensoria Pública Estadual com presença em todos os municípios.",
+    "Delegacias de Defesa da Mulher em todas as regiões do estado.",
+    "Elaboração do Plano Integrado de Mobilidade Metropolitana a partir do início do governo, para implantação nas próximas décadas."
+  ],
+  "lacunas": [
+    "O plano não traz nenhuma meta numérica de resultado para o governo, como queda de homicídios, redução de filas na saúde, vagas em tempo integral, unidades habitacionais ou cobertura de saneamento. Os números do texto são quase só diagnóstico.",
+    "Não há custo estimado de nenhuma proposta nem orçamento total. A fonte de recursos aparece só de forma genérica, no eixo econômico: orçamento estadual, Fundo Soberano, royalties, programas federais e recursos internacionais.",
+    "Há tensão entre as promessas de gasto e o compromisso fiscal. O plano promete concursos, recomposição salarial, piso integral do magistério, mais assistência social e expansão da saúde, mas diz apenas que a implantação será escalonada em quatro anos e que não haverá impacto sobre a capacidade fiscal.",
+    "Muitas propostas dependem da União ou de outros entes e não são decisão de um governador: Rota 4, fábrica UFN-4, duplicação da BR-262 e BR-101, privatizações de polos de petróleo, repactuação de royalties, PEC 27/2024, Agora Tem Especialistas e o Sistema Único de Segurança Pública.",
+    "Boa parte dos verbos é fraca: fortalecer, buscar, articular, estudar, debater, cobrar. Itens como Tarifa Zero, Universidade Estadual, Instituto Cultural e a troca da LICC são só estudos ou grupos de trabalho, sem prazo.",
+    "Na mobilidade, o plano admite que não existe projeto executável no curto prazo. A proposta é elaborar estudos e um plano para décadas, sem obra prevista no mandato.",
+    "O diagnóstico critica pontos que não viram proposta clara. O texto condena os agrotóxicos e a aprovação automática na escola, mas não propõe restringir agrotóxicos nem mudar a aprovação. Também critica a terceirização na saúde, mas propõe apenas auditar os contratos com Organizações Sociais.",
+    "Sobre o Fundo Soberano, o plano reclama que não há ação para a agricultura, mas no eixo econômico propõe só debater com a sociedade o seu uso.",
+    "Sobre gestão democrática das escolas, o texto de abertura defende eleição direta de diretores, mas o compromisso fala apenas em avaliar e atualizar o sistema e garantir a escolha dos gestores, sem dizer como.",
+    "Há itens repetidos ao longo do documento, como a rede de oncologia, a Defesa Civil, a Ouvidoria Externa e o controle de armas, o que sugere revisão editorial incompleta.",
+    "Faltam temas relevantes: não há política de emprego e renda com metas, análise da dívida e da receita estadual, posição sobre ICMS e incentivos fiscais além do fim em 2033, ou plano detalhado de reparação do Rio Doce com valores."
+  ],
+  "fonte": "Resumo escrito a partir do texto integral do plano registrado no TSE (63 páginas, 103.926 caracteres). Leitura feita por IA, sem checagem humana linha a linha; confira o original no DivulgaCand."
+}

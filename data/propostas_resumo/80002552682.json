@@ -1,0 +1,153 @@
+{
+  "sintese": "O plano de Lorenzo Pazolini, candidato ao governo do Espírito Santo, tem o lema \"Paz, trabalha e confia\" e propõe um \"novo ciclo de paz e prosperidade\". A tese é levar para o estado a gestão que o candidato diz ter feito em Vitória, organizada em quatro partes: pessoas, competitividade, sustentabilidade e um Estado que entrega. O tom mistura diagnóstico técnico, com dados e rankings, e discurso político, com críticas diretas à gestão atual. O documento não cita o nome do partido.",
+  "eixos": [
+    {
+      "tema": "Educação",
+      "propostas": [
+        "Apoiar os municípios com dinheiro, formação e material para alfabetizar as crianças até o final do 2º ano.",
+        "Ampliar escolas de tempo integral, priorizando territórios vulneráveis, e consolidar o Novo Ensino Médio com projeto de vida e orientação profissional.",
+        "Criar um sistema estadual de prevenção às violências nas escolas, com protocolo de avaliação de ameaças.",
+        "Tornar a carreira docente mais atrativa, com melhora em condições de trabalho, remuneração e formação.",
+        "Criar um programa permanente de reforma das escolas estaduais, com climatização, banheiros, cozinhas, quadras e conectividade.",
+        "Oferecer mais uma refeição na merenda da rede estadual, como já é feito em Vitória.",
+        "Criar um painel público com indicadores de aprendizagem, permanência e equidade.",
+        "Fortalecer a educação especial, com atendimento educacional especializado e educação bilíngue para surdos."
+      ]
+    },
+    {
+      "tema": "Segurança Pública",
+      "propostas": [
+        "Criar um sistema estadual de videomonitoramento com inteligência artificial, integrando câmeras públicas e privadas, tornozeleiras e botões de pânico.",
+        "Elevar a taxa de esclarecimento de homicídios com mais inteligência policial, perícia e reforço das delegacias de homicídios.",
+        "Expandir e modernizar o sistema prisional, com programas de educação e trabalho para os presos condenados.",
+        "Combinar com o Judiciário, o Ministério Público e a Defensoria mais rapidez nas audiências de custódia e nos julgamentos de presos provisórios.",
+        "Criar uma política estadual de segurança rural, com patrulhamento por inteligência.",
+        "Criar uma força-tarefa e um centro de combate aos crimes virtuais.",
+        "Estruturar unidades contra o crime organizado, a corrupção e a lavagem de dinheiro, com forças-tarefa entre instituições.",
+        "Apoiar a expansão da \"Casa Rosa\", modelo de Vitória contra o feminicídio, para municípios polo e de grande porte."
+      ]
+    },
+    {
+      "tema": "Saúde",
+      "propostas": [
+        "Criar uma Central Estadual Integrada de Regulação, com painel público das filas e regulação digital em tempo real.",
+        "Fazer mutirões regionais e teleconsultas para reduzir filas de consultas, exames e cirurgias eletivas.",
+        "Concluir o Hospital Geral de Cariacica e o Complexo de Saúde Norte, em São Mateus, e iniciar o novo Hospital Infantil Estadual.",
+        "Ter CAPS em todos os municípios polo e equipes de saúde mental na atenção primária.",
+        "Levar equipes multiprofissionais itinerantes (Consultório nas Escolas) às escolas estaduais.",
+        "Estruturar uma rede regional para autismo e neurodiversidade, com diagnóstico precoce e terapias.",
+        "Descentralizar exames como tomografia e ressonância com centros regionais e telelaudos.",
+        "Criar cofinanciamento estadual da atenção primária ligado a resultados e metas."
+      ]
+    },
+    {
+      "tema": "Assistência Social e Cidadania",
+      "propostas": [
+        "Estruturar uma rede de Bancos de Alimentos e Cozinhas Solidárias e apoiar Restaurantes Populares nos municípios.",
+        "Implantar o programa Vila do Idoso, com moradia adaptada e apoio especializado.",
+        "Adotar o modelo Moradia Primeiro, com acompanhamento intensivo, para reduzir a população em situação de rua.",
+        "Ampliar casas-abrigo e moradia segura para mulheres vítimas de violência.",
+        "Criar o programa Crescer de inclusão produtiva por meio de empreendedorismo e emprego.",
+        "Criar uma agenda para proteger crianças e adolescentes de violência sexual, aliciamento digital e cyberbullying.",
+        "Instituir um comitê intersetorial permanente e sistemas de dados integrados entre os cadastros sociais.",
+        "Garantir vagas e emissão rápida de carteira de identidade."
+      ]
+    },
+    {
+      "tema": "Esporte e Lazer",
+      "propostas": [
+        "Garantir oferta de prática esportiva em todos os municípios e ampliar as modalidades.",
+        "Investir em quadras e equipamentos esportivos, priorizando as regiões com menos espaços.",
+        "Criar polos regionais de desenvolvimento esportivo (Norte, Sul, Oeste e Metropolitano).",
+        "Criar um sistema estadual de identificação e acompanhamento de talentos.",
+        "Criar o programa Praça Inclusiva, com apoio aos municípios por edital ou transferência.",
+        "Modernizar a Lei de Incentivo ao Esporte Capixaba, com critérios objetivos e transparentes."
+      ]
+    },
+    {
+      "tema": "Economia, Emprego e Agro",
+      "propostas": [
+        "Criar um Conselho Estratégico para a Transição Tributária, com governo e setor privado, para reduzir o impacto da reforma tributária.",
+        "Criar o Fundo para Desenvolvimento Regional Equilibrado, para investimentos no interior fora da área da Sudene.",
+        "Reduzir o \"Custo Espírito Santo\" com simplificação de licenças, aprovação por decurso de prazo e mais transparência.",
+        "Criar um sandbox regulatório e um programa de competitividade para empresas de base tecnológica.",
+        "Fortalecer a atuação do Estado na recuperação do Vale do Rio Doce, com governança junto à União, a Minas Gerais e aos municípios.",
+        "Recuperar estradas rurais e ampliar conectividade, energia e infraestrutura hídrica para o agronegócio.",
+        "Facilitar crédito e compras públicas da agricultura familiar e apoiar cooperativas.",
+        "Tratar o Fundo Soberano com seleção de empresas por licitação pública e sem privilégios."
+      ]
+    },
+    {
+      "tema": "Turismo, Cultura e Inovação",
+      "propostas": [
+        "Estruturar os principais destinos turísticos e criar a marca turística Espírito Santo.",
+        "Promover o turismo rural e o turismo cultural.",
+        "Apoiar os arranjos produtivos locais da economia criativa e valorizar o artesanato capixaba.",
+        "Expandir e qualificar as bibliotecas municipais e oferecer cursos técnicos de artes e cultura.",
+        "Desenvolver o Cais das Artes como porta de saída e de entrada de espetáculos e exposições.",
+        "Fomentar inovação nas vocações regionais, como logística, rochas ornamentais, agronegócio, petróleo e gás e economia azul.",
+        "Alinhar o ensino técnico e superior à economia digital e à inteligência artificial."
+      ]
+    },
+    {
+      "tema": "Infraestrutura e Mobilidade",
+      "propostas": [
+        "Ampliar a malha rodoviária estadual, com duplicação de gargalos críticos e parcerias público-privadas.",
+        "Fazer ações educativas e de fiscalização e mapear pontos críticos para reduzir mortes no trânsito.",
+        "Modernizar os terminais do Transcol, com acessibilidade e conforto.",
+        "Coordenar com todos os municípios da Grande Vitória a integração de ônibus, transporte aquaviário e ciclovias.",
+        "Monitorar o transporte coletivo por indicadores de espera, frequência, lotação e pontualidade, com inteligência artificial.",
+        "Apoiar aeroportos regionais e a ampliação de voos internacionais no Aeroporto de Vitória.",
+        "Articular com a União as obras das BR 101 e BR 262 e da Estrada de Ferro EF 118."
+      ]
+    },
+    {
+      "tema": "Habitação, Saneamento e Meio Ambiente",
+      "propostas": [
+        "Fazer da regularização fundiária uma política contínua, com entrega de títulos.",
+        "Apoiar programas de habitação social e locação social nos moldes do \"Casa Feliz e Segura\" de Vitória.",
+        "Promover um \"choque ético e de gestão\" na Cesan e garantir a independência da agência reguladora.",
+        "Apoiar os municípios não atendidos pela Cesan na expansão de água e esgoto.",
+        "Criar um programa permanente de reservação de água, com barragens públicas e pequenas barragens rurais.",
+        "Criar um protocolo estadual de emergência climática para El Niño e La Niña, com níveis de alerta.",
+        "Expandir o Pagamento por Serviços Ambientais e o reflorestamento de matas ciliares e nascentes.",
+        "Criar uma plataforma estadual de inteligência territorial com IA para licenciamento e monitoramento."
+      ]
+    },
+    {
+      "tema": "Governança e Governo Digital",
+      "propostas": [
+        "Transformar a Secretaria de Controle e Transparência em Controladoria-Geral do Estado, com trabalho público.",
+        "Exigir declaração de vínculos e impedir decisões em caso de conflito de interesse em contratos, fundos e concessões.",
+        "Adotar planejamento e orçamento por resultados e cortar gastos ineficientes.",
+        "Centralizar compras e contratos, passando da lógica de insumos para contratos de resultados.",
+        "Digitalizar serviços públicos para acesso pelo celular e usar inteligência artificial na gestão.",
+        "Rever gastos e modernizar a receita sem aumentar a carga tributária.",
+        "Criar laboratórios vivos de políticas públicas e um sandbox regulatório para inovação.",
+        "Defender no plano nacional a duplicação das BR-262, BR-259 e BR-101 e a ampliação da malha ferroviária."
+      ]
+    }
+  ],
+  "mensuraveis": [
+    "Alfabetização com qualidade até o final do 2º ano do Ensino Fundamental (o plano cita que hoje 23% das crianças chegam ao fim do 2º ano sem estar alfabetizadas, mas não fixa meta em percentual).",
+    "CAPS em 100% dos municípios polo.",
+    "Oferta de prática esportiva em 100% dos municípios capixabas, ampliando as 25 modalidades atuais (sem número final).",
+    "Equipamentos esportivos de qualidade nos 78 municípios.",
+    "Mais uma refeição na merenda escolar da rede estadual.",
+    "Concluir o Hospital Geral de Cariacica e o Complexo de Saúde Norte, em São Mateus, e iniciar o novo Hospital Infantil Estadual (obras nomeadas, sem data).",
+    "Governar sem aumentar a carga tributária."
+  ],
+  "lacunas": [
+    "Quase não há metas numéricas nem prazos. O plano cita dados ruins, como taxa de mortes violentas de 23,9 contra 20,8 no Brasil, déficit de 6.141 vagas prisionais, 40% de perda de água e 57% de esgoto coletado, mas não diz até quanto pretende melhorar.",
+    "Não informa quanto custam as promessas nem de onde vem o dinheiro. Ao mesmo tempo, o próprio texto prevê queda de receita com a reforma tributária a partir de 2029 e promete não aumentar a carga tributária.",
+    "Há tensão entre prometer cortar gastos e privilégios e prometer muitas obras, hospitais, mais uma refeição na merenda, melhora salarial de professores e novos programas, sem detalhar o tamanho da economia prevista.",
+    "Várias promessas dependem da União ou dos municípios: duplicação das BR 101, 262 e 259, a ferrovia EF 118, a reforma tributária, a reparação do Rio Doce e a educação infantil e fundamental. O plano reconhece parte disso e fala em articular e apoiar.",
+    "Boa parte das propostas usa verbos como apoiar, fortalecer, promover e estimular, sem dizer quanto, quando e com que instrumento.",
+    "A valorização docente não traz valor de reajuste, piso ou prazo. O plano de segurança não traz número de vagas prisionais novas nem de policiais.",
+    "O Fundo para Desenvolvimento Regional Equilibrado e o Fundo Soberano são citados sem valor, origem dos recursos ou regra de funcionamento.",
+    "O diagnóstico aponta desigualdade racial na educação, mas não há proposta específica para isso. Povos indígenas e comunidades quilombolas e tradicionais, previdência dos servidores, dívida e situação fiscal do estado também não têm seção própria.",
+    "Os resultados de Vitória são usados como prova de que o modelo funciona, mas o plano não mostra dados nem explica como replicar em 78 municípios com realidades diferentes.",
+    "As críticas à gestão atual (gastos que ficaram mais caros, corrupção, falta de transparência) não vêm acompanhadas de fontes ou de casos citados no texto."
+  ],
+  "fonte": "Resumo escrito a partir do texto integral do plano registrado no TSE (54 páginas, 81.294 caracteres). Leitura feita por IA, sem checagem humana linha a linha; confira o original no DivulgaCand."
+}

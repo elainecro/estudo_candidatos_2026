@@ -1,0 +1,119 @@
+{
+  "sintese": "O plano \"Por um futuro glorioso\" é assinado por Breno Barcelos, 41 anos, engenheiro civil, candidato a governador do Espírito Santo pelo partido Missão, que também tem candidato próprio à Presidência (Renan Santo). A tese central é que o estado precisa retomar os territórios dominados por facções para então desfavelizar, e ampliar logística e indústria para crescer. O tom é ideológico e combativo na segurança e na desfavelização, e mais técnico em saúde, mobilidade e educação. O candidato diz que quer gerir por métricas de resultado e cita Bloomberg e Lee Kuan Yew como inspiração.",
+  "eixos": [
+    {
+      "tema": "Segurança Pública",
+      "propostas": [
+        "Reocupar pela força policial os territórios controlados por facções, com início logo após a posse e meta de recuperar os principais já no primeiro ano.",
+        "Atacar o dinheiro do crime organizado, com metas permanentes de identificação, bloqueio e recuperação de patrimônio e integração entre Polícia Civil, Polícia Militar, Receita Estadual e Ministério Público.",
+        "Dar assistência jurídica gratuita a policiais civis e militares, e o governador assumir a responsabilidade por atos legítimos das polícias nas reocupações.",
+        "Construir um presídio de segurança máxima para membros de facções, inspirado no CECOT de El Salvador.",
+        "Trazer o modelo do Smart Sampa (videomonitoramento com inteligência artificial) e integrar e expandir os totens de reconhecimento facial e de placas em todo o estado.",
+        "Criar uma política de valorização da PM e dos Bombeiros com referência salarial clara e proporcional entre postos e graduações, com estudos junto à Assembleia Legislativa.",
+        "Trocar militares em funções administrativas por servidores civis concursados, para colocar mais policiais e bombeiros na atividade operacional.",
+        "Compartilhar inteligência com outros estados por consórcios interestaduais, com base no Projeto Arco (ES, RJ e CE), criado no partido Missão."
+      ]
+    },
+    {
+      "tema": "Desfavelização",
+      "propostas": [
+        "Mapear todas as favelas do estado e classificá-las para planejar as ações junto com os municípios.",
+        "Realocar moradores de favelas em encosta, manancial ou área de risco para bairros planejados próximos.",
+        "Reurbanizar as favelas que puderem virar bairros funcionais, com regularização fundiária e títulos de propriedade.",
+        "Dotar os novos bairros de infraestrutura completa (saneamento, calçadas, ciclovias, arborização, praças) e de escolas, creches e postos de saúde.",
+        "Transformar essas áreas em zonas econômicas especiais para atrair empresas e gerar emprego local.",
+        "Financiar com recursos do estado, PPPs, BNDES ou outros meios, e reaproveitar prédios públicos abandonados como moradia popular.",
+        "Criar um Sistema Estadual de Monitoramento Territorial Permanente, com satélite, drones e inteligência artificial, para impedir novas ocupações irregulares."
+      ]
+    },
+    {
+      "tema": "Infraestrutura Logística",
+      "propostas": [
+        "Eliminar gargalos logísticos, com foco em garantir financiamento para projetos que já existem e concluí-los no prazo.",
+        "Buscar PPPs, consórcios com outros entes e crédito do BNDES, do Banco Mundial e do Novo Banco de Desenvolvimento.",
+        "Fazer paradiplomacia para atrair investidores estrangeiros para a infraestrutura do estado.",
+        "Trocar o pavimento de asfalto por concreto nos trechos de tráfego pesado e construir trechos alternativos para desviar caminhões de áreas urbanas densas.",
+        "Expandir a malha ferroviária tendo a Estrada de Ferro Vitória a Minas como modelo, citando a EF-118 como projeto atrasado.",
+        "Inspecionar todas as obras entregues e em execução, com responsabilização se houver irregularidades, a partir do caso do Contorno do Mestre Álvaro."
+      ]
+    },
+    {
+      "tema": "Indústria",
+      "propostas": [
+        "Criar hubs industriais perto dos portos, começando pelo Porto Central, com terreno e infraestrutura básica bancados pelo estado ou por PPP.",
+        "Criar um cadastro de profissionais habilitados, com histórico de licenças obtidas, como únicos autorizados a fazer licenciamento ambiental dentro do hub.",
+        "Definir antes quais indústrias entram no hub, para antecipar medidas de mitigação e simplificar o licenciamento.",
+        "Investir em linhas de transmissão e distribuição ligadas a termelétricas despacháveis perto do consumo.",
+        "Exigir das empresas do hub planos energéticos com metas de redução de consumo e estudar uma planta central de água quente.",
+        "Priorizar os recursos do Fundo Nacional de Desenvolvimento Regional, previstos a partir de 2029, para o desenvolvimento industrial, ouvindo o setor."
+      ]
+    },
+    {
+      "tema": "Mobilidade Urbana na Grande Vitória",
+      "propostas": [
+        "Implantar uma rede integrada de VLT e BRT ligando Serra, Vitória, Vila Velha e Cariacica, com o VLT como eixo principal.",
+        "Modernizar gradualmente a frota do Transcol e integrar ônibus, BRT e VLT.",
+        "Fazer estudo de viabilidade de um metrô metropolitano, com possível ligação entre os terminais de Carapina e de Vila Velha.",
+        "Buscar parcerias com o governo federal, o BNDES, organismos internacionais e investidores privados se o metrô se mostrar viável.",
+        "Incentivar, junto às prefeituras, a descentralização de serviços públicos simples, seguindo a ideia da Cidade de 15 Minutos.",
+        "Ampliar ciclovias, integrar bicicleta e transporte público e construir bicicletários."
+      ]
+    },
+    {
+      "tema": "Educação",
+      "propostas": [
+        "Criar uma força-tarefa com os municípios para identificar alunos com déficit em português e matemática e garantir alfabetização plena até o 3º ano.",
+        "Criar um programa permanente de reforço e cursos profissionalizantes nas escolas em horários ociosos, aberto também a jovens adultos.",
+        "Integrar o Ensino Médio ao Ensino Técnico com universidades, setor produtivo e Sistema S.",
+        "Expandir as escolas cívico-militares para todos os locais de alta vulnerabilidade social.",
+        "Criar auxílio financeiro a alunos ligado ao desempenho em exames semestrais, premiar professores e diretores e substituir a gestão de escolas abaixo do mínimo.",
+        "Adotar método fônico, abordagem CPA em matemática, soroban e o modelo RTI de apoio em três camadas.",
+        "Acabar com a aprovação automática, retendo o aluno que não atingir 60% por área de conhecimento após passar ao menos pela camada 2 do RTI.",
+        "Elevar para 50% a parte da jornada docente para planejamento, proibir celular em sala, criar o Coordenador de Disciplina e Convivência Escolar, reativar o Escola Aberta e criar a Universidade Estadual do Espírito Santo, limitada a ciências exatas e biológicas."
+      ]
+    },
+    {
+      "tema": "Saúde",
+      "propostas": [
+        "Implantar o Prontuário Único de Saúde do Espírito Santo (PUS-ES), com custo integral do estado na rede pública, para ser o primeiro estado com a rede toda conectada.",
+        "Integrar depois as redes privadas ao PUS-ES, sem obrigatoriedade imediata, e abrir dados anonimizados para pesquisa.",
+        "Criar bonificação por desempenho para profissionais da Atenção Primária, com avaliação individual e de equipe e parâmetros ajustados por região.",
+        "Instalar salas de coleta de exames em todas as Unidades Básicas de Saúde do interior, com logística diária de transporte das amostras.",
+        "Reservar duas a três salas em hospitais do interior para consultas de especialistas e criar incentivos para fixá-los.",
+        "Criar programa de telemedicina com salas de telessaúde nas UBS e atendimento por tablet no domicílio em localidades pequenas, com profissional mediador.",
+        "Condicionar emendas estaduais não impositivas em saúde à aprovação do Conselho Municipal de Saúde, dar aos conselhos direito de manifestação nas impositivas e reforçar o financiamento regular do Executivo."
+      ]
+    }
+  ],
+  "mensuraveis": [
+    "Recuperar os principais territórios dominados por facções já no primeiro ano de governo.",
+    "Iniciar a reocupação territorial imediatamente após a posse.",
+    "Alfabetização plena até o 3º ano do Ensino Fundamental.",
+    "Reter o aluno que não atingir 60% de aproveitamento por área de conhecimento (após passar ao menos pela camada 2 do RTI).",
+    "Meta de que pelo menos 50% do tempo de trabalho do professor seja dedicado a planejamento, formação, correção e materiais (hoje a lei garante um terço).",
+    "PUS-ES: primeira fase nos anos 1 e 2 (integração da rede estadual e das municipais) e segunda fase a partir do ano 2 (integração gradual das redes privadas).",
+    "Tornar o Espírito Santo o primeiro estado brasileiro com toda a rede pública de saúde plenamente conectada.",
+    "RTI, camada 2: sessões 2 vezes por semana, em grupos de 3 a 5 alunos, com turno de reforço de 5 horas.",
+    "RTI, camada 3: sessões individuais ou em duplas 3 vezes por semana, com turno de reforço de 5 horas.",
+    "Reservar de duas a três salas de atendimento ambulatorial em hospitais existentes do interior para especialistas.",
+    "Exames de desempenho aplicados pelo governo a cada semestre para definir o auxílio financeiro aos alunos.",
+    "Fundo Nacional de Desenvolvimento Regional: repasses da União previstos a partir de 2029, a serem priorizados para a indústria."
+  ],
+  "lacunas": [
+    "O plano não traz nenhum valor de custo, orçamento ou fonte de recursos para as obras mais caras: presídio de segurança máxima, VLT e BRT, metrô, hubs industriais, desfavelização e auxílio a alunos.",
+    "A fonte de financiamento citada é genérica (recursos do estado, PPP, BNDES, Banco Mundial, \"qualquer outro meio legítimo\"), sem estimativa de endividamento nem impacto fiscal.",
+    "Não há metas numéricas de resultado para segurança, como redução de homicídios ou de roubos, número de policiais, vagas no novo presídio ou câmeras. O plano cita um déficit de cerca de dez mil vagas prisionais, mas não diz quantas o novo presídio criaria.",
+    "A promessa de reocupar os principais territórios em um ano não diz quais são, com qual efetivo, com que equipamento nem como proteger a população durante as operações.",
+    "Não há meta nem prazo estadual para acabar com as favelas. O prazo de dez anos citado é do plano nacional do partido, e o texto diz apenas \"o mais rápido possível\". Também não estima quantas moradias seriam necessárias para os 600.000 moradores citados.",
+    "Boa parte das propostas de segurança depende do Congresso e da União: prisão em segunda instância, fim do auxílio-reclusão, da progressão de regime, das audiências de custódia e do juiz de garantias, e direito penal do inimigo. Um governador não pode alterar essas leis.",
+    "A desfavelização e o metrô dependem em parte de parcerias federais e municipais. O próprio plano reconhece que mobilidade urbana é competência municipal, e as rodovias BR-101 e BR-262 e a EF-118 são federais, sem dizer como o estado destravaria esses projetos.",
+    "Temas grandes não aparecem: meio ambiente e mudanças climáticas, agricultura e agropecuária, geração de emprego e renda fora da indústria, cultura, assistência social, turismo, mulheres e proteção contra violência doméstica, saneamento e abastecimento de água fora das favelas, e a situação do funcionalismo em geral.",
+    "Na saúde não há metas de redução de filas, construção de hospitais, saúde mental, farmácia e medicamentos ou financiamento próprio do estado. As filas em ortopedia, neurologia, oftalmologia e cirurgia vascular são citadas como problema, mas sem meta para reduzi-las.",
+    "Na educação, o plano afirma sem fonte o resultado dos métodos que propõe (soroban, CPA) e a eficácia das escolas cívico-militares. Não diz quantos alunos seriam atendidos, quanto custaria o auxílio financeiro nem quais seriam os patamares mínimos que levariam à troca da gestão escolar.",
+    "A descrição do RTI é ambígua: fala em sessões 2 ou 3 vezes por semana e também em um turno de reforço de 5 horas por dia, e o plano não explica como isso cabe na jornada escolar.",
+    "A proposta de que só profissionais de um cadastro possam fazer licenciamento ambiental no hub industrial não explica o critério de entrada nem como isso conviveria com a livre concorrência.",
+    "O plano não traz prazos para a Universidade Estadual (diz apenas que será gradual), para o metrô (apenas estudos) nem para a maior parte das obras de infraestrutura.",
+    "O plano defende responsabilidade fiscal, mas acumula compromissos de alto custo sem apresentar cálculo de quanto cabe no orçamento estadual."
+  ],
+  "fonte": "Resumo escrito a partir do texto integral do plano registrado no TSE (61 páginas, 78.752 caracteres). Leitura feita por IA, sem checagem humana linha a linha; confira o original no DivulgaCand."
+}

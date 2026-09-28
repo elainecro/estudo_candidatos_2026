@@ -24,6 +24,7 @@ def main() -> int:
             return 1
     validar(bundle)
     embutir_propostas(bundle)
+    embutir_resumos(bundle)
     out = DATA / "bundle.js"
     out.write_text(
         "// Gerado por scripts/build_bundle.py. Não edite à mão; edite os JSON em data/.\n"
@@ -54,6 +55,35 @@ def embutir_propostas(bundle: dict, limite: int = 200_000) -> None:
             n += 1
     if n:
         print(f"{n} planos de governo embutidos")
+
+
+def embutir_resumos(bundle: dict) -> None:
+    """Mescla data/propostas_resumo/<tse_id>.json (resumo estruturado do plano) na ficha.
+
+    Fica em arquivo separado de propostas de candidatos.json para o resumo poder ser
+    versionado sem mexer no JSON que os coletores reescrevem.
+    """
+    pasta = DATA / "propostas_resumo"
+    if not pasta.is_dir():
+        return
+    por_sq = {str(c.get("tse_id")): c for c in bundle["candidatos"]["candidatos"] if c.get("tse_id")}
+    n = 0
+    for arq in sorted(pasta.glob("*.json")):
+        c = por_sq.get(arq.stem)
+        if not c:
+            print(f"aviso: {arq.name} não bate com nenhum tse_id em candidatos.json", file=sys.stderr)
+            continue
+        try:
+            r = json.loads(arq.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            raise SystemExit(f"JSON inválido em {arq}: {exc}")
+        for k in ("sintese", "eixos"):
+            if k not in r:
+                raise SystemExit(f"{arq.name}: falta o campo '{k}'")
+        c["proposta_resumo"] = r
+        n += 1
+    if n:
+        print(f"{n} resumos de plano de governo embutidos")
 
 
 def validar(bundle: dict) -> None:

@@ -114,6 +114,36 @@ Avisos:
   processos, TCE-ES e Ales.
 - Para republicar no link do celular: `python3 scripts/build_artifact.py` e
   me peça para publicar o `dist/artifact.html`.
+- Fluxo do git: os dados (`data/candidatos.json`, `data/bundle.js`, fotos)
+  vêm da sua máquina; scripts, página e resumos vêm daqui. Sempre `git pull`
+  antes de commitar dados, e rode `build_bundle.py` depois do pull.
+
+## Ler os PDFs do TSE (planos de governo e certidões)
+
+Precisa dos zips `proposta_governo_2026_ES.zip` e `certidao_criminal_2026_ES.zip`
+em `data/cache/` (baixe no navegador, em dadosabertos.tse.jus.br).
+
+```bash
+pip3 install pypdf
+python3 scripts/ler_pdfs.py --propostas    # texto dos planos -> data/propostas/<tse_id>.txt
+python3 scripts/ler_pdfs.py --certidoes    # lê as certidões com texto embutido (poucas)
+
+# Quase todas as certidões do ES são imagem escaneada. Para essas, OCR:
+pip3 install pyobjc-framework-Vision pyobjc-framework-Quartz   # macOS, usa o OCR do sistema
+python3 scripts/ocr_certidoes.py --cargo governador             # comece pelos majoritários
+python3 scripts/ocr_certidoes.py                                # todas as 'indeterminada' (20 a 60 min)
+python3 scripts/build_bundle.py
+```
+
+Fora do macOS o `ocr_certidoes.py` usa `tesseract` + `pymupdf` (veja o cabeçalho
+do script). O texto OCR fica em `data/cache/ocr/` e não vai para o git.
+
+Os resumos estruturados dos planos ficam em `data/propostas_resumo/<tse_id>.json`
+(síntese, eixos, promessas mensuráveis, lacunas). Foram escritos por IA a partir
+do texto integral, e o `build_bundle.py` os mescla na ficha como `proposta_resumo`.
+Ficam em arquivo separado de `candidatos.json` de propósito: os coletores
+reescrevem o `candidatos.json`, e o resumo não pode ser perdido nisso. Para
+escrever um novo, copie o formato de um dos cinco existentes.
 
 ## Estrutura de um candidato
 

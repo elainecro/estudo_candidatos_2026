@@ -22,10 +22,14 @@ pessoa não é ré. Serve para saber onde olhar, não para condenar.
 import argparse
 import io
 import json
+import logging
 import pathlib
 import re
 import sys
 import zipfile
+
+# O pypdf avisa "fontTools is required" em cada PDF sem fonte embutida; não afeta a extração.
+logging.getLogger("pypdf").setLevel(logging.ERROR)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CACHE = ROOT / "data" / "cache"
