@@ -1,0 +1,2511 @@
+{
+  "80002551833": {
+    "nome_urna": "Helder Salomão",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "Existe 1 processo criminal em que o candidato é réu, acusado de crimes como falsidade ideológica, corrupção ativa e passiva, lavagem de dinheiro, organização criminosa e outros. O processo está em andamento no Tribunal de Justiça do Espírito Santo. Alguns crimes já foram extintos por prescrição em agosto de 2026, mas o processo continua tramitando quanto aos demais crimes.",
+    "processos_como_reu": 1,
+    "processos_ativos_como_reu": 1,
+    "condenacao": null,
+    "confianca": "média",
+    "atencao": [
+      "Verifique no site do TJES qual foi o resultado do julgamento em primeira instância, pois a certidão não informa se houve condenação ou absolvição.",
+      "Confira quais crimes ainda estão sendo julgados após a extinção parcial por prescrição ocorrida em agosto de 2026.",
+      "Acompanhe a fase atual do processo após o julgamento do agravo em julho de 2026 para saber se há previsão de julgamento final."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão positiva geral",
+        "orgao_emissor": "TJES 2º grau",
+        "processos": [
+          {
+            "numero": "0018179-59.2014.8.08.0012",
+            "classe": "ação penal",
+            "assunto": null,
+            "orgao": null,
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o crime imputado",
+          "se o candidato é réu ou tem outro papel no processo",
+          "qual a situação atual do processo (em andamento, arquivado, condenado, absolvido)",
+          "em que vara ou câmara tramita",
+          "datas de distribuição ou movimentação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão apenas lista o número do processo sem informar detalhes essenciais sobre o polo do candidato, crime ou desfecho",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002551833_80017105859.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - 1ª Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0018179-59.2014.8.08.0012",
+            "classe": "ação penal - procedimento ordinário",
+            "assunto": "falsidade ideológica, corrupção ativa, crimes contra a ordem tributária, usurpação de função pública, quadrilha ou bando, falsificação de documento público, lavagem de dinheiro, corrupção passiva, organização criminosa",
+            "orgao": "1ª Câmara Criminal - Relatora Des. Rachel Durão Correia Lima",
+            "polo_candidato": "réu",
+            "situacao": "em andamento",
+            "data": "04/05/2026",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se houve condenação ou absolvição em primeira instância",
+          "qual a fase atual do processo após o julgamento do agravo em 08/07/2026",
+          "se há previsão de julgamento do mérito da ação penal"
+        ],
+        "qualidade_ocr": "média",
+        "observacao": "Houve extinção da punibilidade de Helder Salomão quanto a alguns crimes (arts. 297, 299, 288 CP, art. 89 Lei 8666/93 e arts. 1º II e 2º II Lei 8137/90) por prescrição em 03/08/2026, mas o processo continua em andamento quanto aos demais crimes. Agravo inominado da defesa foi negado por unanimidade em 08/07/2026.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002551833_80017105858.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  },
+  "80002541008": {
+    "nome_urna": "Tyago Hoffmann",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "O candidato não possui processos criminais como réu. Ele aparece como vítima ou autor em 5 processos criminais (queixas-crime por calúnia, difamação, injúria e ameaça), dos quais 4 já foram extintos ou arquivados e 1 está em andamento. Há também 1 ação civil pública na Justiça Federal em que o candidato figura como réu, processo não criminal que está em andamento desde 2022.",
+    "processos_como_reu": 1,
+    "processos_ativos_como_reu": 1,
+    "condenacao": null,
+    "confianca": "média",
+    "atencao": [
+      "Verifique no site da Justiça Federal o andamento e objeto da ação civil pública 5005958-56.2022.4.02.5001, movida pela OAB-ES, para saber do que trata e qual a situação atual.",
+      "Confirme se o processo 5005938-56.2022.4.02.5001 no TRF2 é o mesmo da ação civil pública ou se é processo distinto, pois a certidão não esclarece o polo do candidato nem o objeto.",
+      "Consulte o andamento da queixa-crime 0003048-03.2021.8.08.0011 no TJES para saber se houve sentença ou arquivamento após 2021, já que o candidato é autor e não réu neste processo."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão positiva geral",
+        "orgao_emissor": "Justiça Federal da 2ª Região - Seção Judiciária do Espírito Santo - 8ª Vara Federal Cível de Vitória",
+        "processos": [
+          {
+            "numero": "5005958-56.2022.4.02.5001",
+            "classe": "ação civil pública",
+            "assunto": null,
+            "orgao": "8ª Vara Federal Cível de Vitória",
+            "polo_candidato": "réu",
+            "situacao": "em andamento",
+            "data": "25/02/2022",
+            "criminal": false
+          }
+        ],
+        "nao_diz": [
+          "qual o objeto da ação civil pública",
+          "se há pedido de condenação ou inelegibilidade",
+          "se há decisão liminar ou tutela provisória deferida contra o candidato",
+          "qual a fase atual do processo (após junho de 2023)"
+        ],
+        "qualidade_ocr": "média",
+        "observacao": "Ação civil pública movida pela OAB-ES contra consórcio de radares e outros réus, incluindo o candidato Tyago Ribeiro Hoffmann. Processo cível em andamento na Justiça Federal. Houve declaração de incompetência em 20/09/2022 e recurso de agravo de instrumento. Texto extenso com muitas movimentações processuais até junho de 2023.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541008_80016999628.pdf.pdf",
+        "status_heuristica": "indeterminada"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES - 4ª Vara Criminal de Cachoeiro de Itapemirim",
+        "processos": [
+          {
+            "numero": "0019821-60.2020.8.08.0011",
+            "classe": "ação penal privada (queixa-crime)",
+            "assunto": "calúnia e difamação",
+            "orgao": "4ª Vara Criminal de Cachoeiro de Itapemirim",
+            "polo_candidato": "autor ou querelante",
+            "situacao": "extinta a punibilidade",
+            "data": "10/08/2025",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "detalhes do acordo extrajudicial que levou à extinção da punibilidade",
+          "se houve trânsito em julgado da sentença extintiva"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato foi vítima e autor da queixa-crime por calúnia e difamação; processo extinto por acordo extrajudicial em agosto de 2025",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541008_80016999639. Certidao Tyago  001982160.2020.8.08.0011.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES - 4ª Vara Criminal de Cachoeiro de Itapemirim",
+        "processos": [
+          {
+            "numero": "0017592-30.2020.8.08.0011",
+            "classe": "ação penal privada (queixa-crime)",
+            "assunto": "difamação e calúnia",
+            "orgao": "4ª Vara Criminal de Cachoeiro de Itapemirim",
+            "polo_candidato": "autor ou querelante",
+            "situacao": "extinta a punibilidade",
+            "data": "28/08/2020",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "motivo específico da extinção da punibilidade (prescrição, decadência, renúncia ou outro)",
+          "se houve condenação dos querelados antes da extinção",
+          "detalhes dos fatos que motivaram a queixa-crime"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato figura como vítima/querelante em ação penal privada por crimes contra a honra; processo extinto pela prescrição (art. 107, IV c/c art. 60, I do CP) e arquivado em 05/08/2025",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541008_80016999637. Certidao Tyago  001759230.2020.8.08.0011.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES - 4ª Vara Criminal de Cachoeiro de Itapemirim",
+        "processos": [
+          {
+            "numero": "0007930-42.2020.8.08.0011",
+            "classe": "ação penal privada (queixa-crime)",
+            "assunto": "calúnia",
+            "orgao": "4ª Vara Criminal de Cachoeiro de Itapemirim",
+            "polo_candidato": "autor ou querelante",
+            "situacao": "extinta a punibilidade",
+            "data": "06/04/2020",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual foi o fato que motivou a queixa-crime",
+          "se houve condenação dos querelados antes da extinção da punibilidade",
+          "o motivo específico da extinção (prescrição, decadência, renúncia ou perdão)"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato figura como VÍTIMA/QUERELANTE em queixa-crime por calúnia contra três pessoas. Processo arquivado em 05/08/2025 por extinção da punibilidade (art. 107, IV c/c art. 60, I do CP). Certidão solicitada para registro de candidatura a Deputado Federal 2026.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541008_80016999638. Certidao Tyago  000793042.2020.8.08.0011.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão positiva geral",
+        "orgao_emissor": "Justiça Federal - Tribunal Regional Federal da 2ª Região",
+        "processos": [
+          {
+            "numero": "5005938-56.2022.4.02.5001",
+            "classe": "ação civil pública",
+            "assunto": null,
+            "orgao": "5ª Vara Federal Cível de Vitória - Seção Judiciária do Espírito Santo",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          }
+        ],
+        "nao_diz": [
+          "qual o polo do candidato na ação (réu, autor ou terceiro interessado)",
+          "qual o objeto ou assunto da ação civil pública",
+          "qual a situação atual do processo (em andamento, julgado, arquivado)",
+          "se há sentença ou decisão condenatória",
+          "se há trânsito em julgado"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão positiva indicando processo com potencial de gerar inelegibilidade, mas sem detalhes sobre o polo do candidato ou a natureza da ação civil pública",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541008_80016999635.pdf.pdf",
+        "status_heuristica": "indeterminada"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "1º Juizado Especial Criminal e Fazenda Pública de Cachoeiro de Itapemirim - TJES",
+        "processos": [
+          {
+            "numero": "0003515-45.2022.8.08.0011",
+            "classe": "termo circunstanciado",
+            "assunto": "ameaça",
+            "orgao": "1º Juizado Especial Criminal e Fazenda Pública de Cachoeiro de Itapemirim",
+            "polo_candidato": "vítima",
+            "situacao": "arquivado ou baixado",
+            "data": "18/10/2023",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [],
+        "qualidade_ocr": "média",
+        "observacao": "Candidato figurou como vítima de crime de ameaça; processo arquivado definitivamente em 08/04/2026",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541008_80016999636. Certidao Tyago  000351545.2022.8.08.0011.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES - 4ª Vara Criminal de Cachoeiro de Itapemirim",
+        "processos": [
+          {
+            "numero": "0003048-03.2021.8.08.0011",
+            "classe": "ação penal privada (queixa-crime)",
+            "assunto": "crimes de calúnia, injúria e difamação",
+            "orgao": "4ª Vara Criminal de Cachoeiro de Itapemirim",
+            "polo_candidato": "autor ou querelante",
+            "situacao": "em andamento",
+            "data": "27/04/2021",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual foi a conduta que motivou a queixa-crime",
+          "se houve sentença ou qual o andamento processual recente",
+          "se o querelado foi citado e apresentou defesa"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Tyago Hoffmann figura como querelante (vítima) em ação penal privada por crimes contra a honra, movida contra Jackson Rangel Vieira. Processo em fase de diligências a serem realizadas pelos querelantes desde 2021.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541008_80016999640. Certidao Tyago  000304803.2021.8.08.0011.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  },
+  "80002549698": {
+    "nome_urna": "Lucas Polese",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "Existe 1 processo criminal contra Lucas Polese na Justiça Federal do Espírito Santo por crimes contra a honra e injúria racial. O candidato foi absolvido em primeira instância em julho de 2026, mas a acusação recorreu da absolvição e o recurso aguarda julgamento. Não há registro de condenação até o momento.",
+    "processos_como_reu": 1,
+    "processos_ativos_como_reu": 1,
+    "condenacao": false,
+    "confianca": "média",
+    "atencao": [
+      "Confira no site do TRF2 se o recurso contra a absolvição já foi julgado, pois as certidões não informam o andamento atual.",
+      "Verifique no processo 5035116-16.2023.4.02.5001 os detalhes dos fatos que motivaram a denúncia por crimes contra a honra e injúria racial."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "1ª Vara Federal Criminal de Vitória - Justiça Federal ES",
+        "processos": [
+          {
+            "numero": "5035116-16.2023.4.02.5001",
+            "classe": "ação penal",
+            "assunto": "arts. 139 e 140 c/c art. 71 do CP e art. 20, §2º, da Lei 7.716/1989 (crimes contra a honra e injúria racial)",
+            "orgao": "1ª Vara Federal Criminal de Vitória",
+            "polo_candidato": "réu",
+            "situacao": "em andamento",
+            "data": "01/09/2023",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o teor específico da denúncia e dos fatos imputados",
+          "se há outras medidas cautelares em vigor",
+          "prazo para julgamento do recurso de apelação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato foi absolvido em 1ª instância em 08/07/2026, mas o assistente de acusação Fabio Contarato interpôs recurso de apelação contra a sentença absolutória, que aguarda apreciação pelo juiz federal",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549698_80017095323.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "1ª Vara Federal Criminal de Vitória - Justiça Federal ES",
+        "processos": [
+          {
+            "numero": "5035116-16.2023.4.02.5001",
+            "classe": "ação penal",
+            "assunto": "arts. 139 e 140 c/c art. 71 do CP e art. 20, §2º, da Lei 7.716/1989 (crimes contra a honra e injúria racial)",
+            "orgao": "1ª Vara Federal Criminal de Vitória",
+            "polo_candidato": "réu",
+            "situacao": "em andamento",
+            "data": "01/09/2023",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o teor específico da denúncia e dos fatos imputados",
+          "se há outras medidas cautelares em vigor",
+          "prazo para julgamento do recurso de apelação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato foi absolvido em 1ª instância em 08/07/2026, mas o assistente de acusação Fabio Contarato interpôs recurso de apelação contra a sentença absolutória, que aguarda apreciação pelo juiz federal",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549698_80017095326.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão positiva geral",
+        "orgao_emissor": "Tribunal Regional Federal da 2ª Região (TRF2) - abrange Justiça Federal do ES e RJ",
+        "processos": [
+          {
+            "numero": "5035116-16.2023.4.02.5001",
+            "classe": "ação penal",
+            "assunto": null,
+            "orgao": "1ª Vara Federal Criminal de Vitória - Seção Judiciária do Espírito Santo",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o crime imputado",
+          "se o candidato é réu, denunciado ou tem outro papel no processo",
+          "qual a fase processual atual (recebimento da denúncia, instrução, sentença, recurso)",
+          "se há condenação ou absolvição",
+          "data de distribuição ou movimentações do processo"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão positiva indica processo com potencial de gerar inelegibilidade, mas não detalha a situação processual nem o polo do candidato na ação penal",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549698_80017095318.PDF.pdf",
+        "status_heuristica": "indeterminada"
+      }
+    ]
+  },
+  "80002549430": {
+    "nome_urna": "Capitão Assumção",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "O candidato aparece como réu em pelo menos 6 processos criminais. Um deles (0025363-58.2021.8.08.0000) teve extinção da punibilidade por cumprimento de transação penal em 2022. Há uma apelação criminal (0016850-68.2017.8.08.0024) em andamento desde 2020, sem informação sobre o crime ou resultado. Outros 4 processos militares (incitamento, aliciação para motim) foram arquivados entre 2019 e 2024, mas as certidões não informam se houve absolvição ou condenação antes do arquivamento. Há também 3 habeas corpus (todos denegados ou não conhecidos) e diversos processos cíveis onde o candidato figura como autor ou parte.",
+    "processos_como_reu": 6,
+    "processos_ativos_como_reu": 1,
+    "condenacao": null,
+    "confianca": "média",
+    "atencao": [
+      "Verificar no site do TJES o resultado da apelação criminal 0016850-68.2017.8.08.0024, que está em andamento desde 2020, para saber qual o crime e se houve condenação em primeira instância.",
+      "Conferir nos processos militares arquivados (0003957-45.2017.8.08.0024, 0020979-19.2017.8.08.0024, 0020976-64.2017.8.08.0024 e 0021369-86.2017.8.08.0024) se houve absolvição, condenação ou outro motivo para o arquivamento.",
+      "Consultar o processo 0025363-58.2021.8.08.0000 para saber qual foi o crime objeto da transação penal cumprida em 2022.",
+      "Verificar a certidão geral do TJES que lista 33 processos, pois ela não informa o polo do candidato nem a situação atual de cada um, incluindo possíveis novos processos criminais de 2023 e 2024."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Tribunal Pleno",
+        "processos": [
+          {
+            "numero": "0025363-58.2021.8.08.0000",
+            "classe": "ação penal - procedimento ordinário",
+            "assunto": null,
+            "orgao": "Tribunal Pleno - Relatora Des. Janete Vargas Simões",
+            "polo_candidato": "réu",
+            "situacao": "extinta a punibilidade por cumprimento da transação penal, transitado em julgado em 19/09/2022, arquivado definitivamente em 12/05/2023",
+            "data": "06/10/2021",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual foi o crime imputado ao candidato",
+          "quais foram as condições da transação penal cumprida",
+          "qual o valor ou natureza das prestações cumpridas"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Ação penal originária no Tribunal de Justiça (foro por prerrogativa de função). Candidato era réu, houve transação penal cumprida, extinção da punibilidade com trânsito em julgado e arquivamento definitivo.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083136.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Quarta Câmara Cível",
+        "processos": [
+          {
+            "numero": "0008193-35.2020.8.08.0024",
+            "classe": "remessa necessária cível",
+            "assunto": null,
+            "orgao": "Quarta Câmara Cível - TJES, originário da 3ª Vara da Fazenda Pública Estadual de Vitória",
+            "polo_candidato": "não diz",
+            "situacao": "transitado em julgado",
+            "data": "21/05/2021",
+            "criminal": false
+          }
+        ],
+        "nao_diz": [
+          "qual o objeto da ação cível",
+          "se o candidato era autor ou réu na ação originária",
+          "o resultado do julgamento (favorável ou desfavorável ao candidato)",
+          "qual a pretensão discutida"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Remessa necessária não provida, transitou em julgado em 21/05/2021 e teve baixa definitiva em 08/06/2021. Processo cível envolvendo o Estado do Espírito Santo, sem indicação clara do polo do candidato.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083128.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Primeira Câmara Cível",
+        "processos": [
+          {
+            "numero": "0042389-41.2014.8.08.0024",
+            "classe": "apelação cível",
+            "assunto": null,
+            "orgao": "Primeira Câmara Cível, relator Des. Annibal de Rezende Lima",
+            "polo_candidato": "apelado",
+            "situacao": "transitado em julgado",
+            "data": "21/11/2019",
+            "criminal": false
+          }
+        ],
+        "nao_diz": [
+          "qual o objeto da ação cível originária",
+          "se houve condenação ou obrigação imposta ao candidato",
+          "qual foi o resultado na primeira instância"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Apelação cível interposta pelo Banestes contra o candidato foi conhecida e não provida por unanimidade, mantendo decisão favorável ao candidato",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083130.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Segunda Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0016131-86.2017.8.08.0024",
+            "classe": "exceção de suspeição",
+            "assunto": null,
+            "orgao": "Segunda Câmara Criminal do TJES, originário da Vara de Auditoria Militar de Vitória",
+            "polo_candidato": "exceptante",
+            "situacao": "transitado em julgado",
+            "data": "28/06/2017",
+            "criminal": false
+          }
+        ],
+        "nao_diz": [
+          "qual o processo principal ao qual esta exceção de suspeição se refere",
+          "se o candidato é réu em alguma ação penal subjacente",
+          "o resultado da exceção (se foi acolhida ou rejeitada)",
+          "a natureza do crime ou acusação do processo principal"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Exceção de suspeição é incidente processual para afastar juiz suspeito, não é processo criminal em si; candidato figura como exceptante (quem alega a suspeição); transitou em julgado em 2017-2018 e foi baixado definitivamente em 2019",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083124.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "print do PJe ou de sistema",
+        "orgao_emissor": "TJES - Vara de Auditoria Militar de Vitória",
+        "processos": [
+          {
+            "numero": "0003957-45.2017.8.08.0024",
+            "classe": "ação penal militar - procedimento ordinário",
+            "assunto": "aliciação para motim ou revolta",
+            "orgao": "Vara de Auditoria Militar - Vitória",
+            "polo_candidato": "réu",
+            "situacao": "arquivado ou baixado",
+            "data": "03/05/2024",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se houve condenação ou absolvição antes do arquivamento",
+          "motivo do arquivamento",
+          "se houve trânsito em julgado"
+        ],
+        "qualidade_ocr": "média",
+        "observacao": "Ofício comunicando arquivamento de múltiplos processos da Justiça Militar; candidato aparece como réu junto com outro acusado (Nero Walker) no processo 0003957-45.2017.8.08.0024, relacionado ao IPM 0038/2017",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083131.45.2017.8.08.0024 e outros.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Segunda Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0016467-65.2017.8.08.0000",
+            "classe": "habeas corpus",
+            "assunto": null,
+            "orgao": "Segunda Câmara Criminal do TJES, relator Des. Sérgio Luiz Teixeira Gama",
+            "polo_candidato": "paciente",
+            "situacao": "transitado em julgado",
+            "data": "26/06/2017",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o crime ou acusação que motivou o habeas corpus",
+          "se o HC foi concedido ou denegado",
+          "qual era a autoridade coatora e o processo de origem",
+          "se houve condenação ou absolvição no processo principal"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "HC julgado prejudicado em decisão monocrática, transitou em julgado em 25/08/2017 e foi arquivado definitivamente em 23/10/2017. A liminar foi negada em 14/07/2017. Autoridade coatora era o Juiz de Direito da Vara de Auditoria Militar de Vitória, indicando possível processo criminal militar de origem.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083138.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "ofício ou petição",
+        "orgao_emissor": "Vara de Auditoria Militar de Vitória - TJES",
+        "processos": [
+          {
+            "numero": "0020979-19.2017.8.08.0024",
+            "classe": "ação penal militar - procedimento ordinário",
+            "assunto": "incitamento",
+            "orgao": "Vara de Auditoria Militar - Vitória",
+            "polo_candidato": "réu",
+            "situacao": "arquivado ou baixado",
+            "data": "04/03/2024",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual foi o resultado final da ação penal (absolvição, condenação ou extinção da punibilidade)",
+          "se houve trânsito em julgado",
+          "detalhes sobre o crime de incitamento imputado"
+        ],
+        "qualidade_ocr": "média",
+        "observacao": "Ofício comunicando arquivamento de múltiplos processos da Justiça Militar; o candidato aparece como réu em IPM 038/2017 por crime de incitamento, processo arquivado em maio de 2025",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083119.64.2017.8.08.0024 e outros.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Primeira Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0008487-67.2017.8.08.0000",
+            "classe": "habeas corpus",
+            "assunto": null,
+            "orgao": "Primeira Câmara Criminal do TJES",
+            "polo_candidato": "impetrante ou paciente",
+            "situacao": "transitado em julgado",
+            "data": "06/04/2017",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o crime ou acusação que motivou o habeas corpus",
+          "qual a vara de origem (apenas menciona Auditoria Militar como autoridade coatora)",
+          "se há processo criminal de origem em andamento"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Habeas corpus DENEGADO para Lucinio Castelo de Assumção por unanimidade em 31/05/2017, transitado em julgado em 19/06/2017 e arquivado definitivamente em 05/12/2017",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083133.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Tribunal Pleno",
+        "processos": [
+          {
+            "numero": "0021369-86.2017.8.08.0024",
+            "classe": "ação penal - procedimento ordinário",
+            "assunto": null,
+            "orgao": "Tribunal Pleno - Relator Des. Fernando Zardini Antonio",
+            "polo_candidato": "réu",
+            "situacao": "baixado",
+            "data": "24/09/2019",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o crime imputado",
+          "se houve condenação ou absolvição",
+          "motivo da baixa definitiva",
+          "por que foi remetido à Vara de Auditoria Militar"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Processo baixado definitivamente em 24/09/2019 e remetido à Vara de Auditoria Militar de Vitória, sugerindo competência da Justiça Militar",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083120.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "ofício ou petição",
+        "orgao_emissor": "Vara de Auditoria Militar de Vitória - TJES",
+        "processos": [
+          {
+            "numero": "0020976-64.2017.8.08.0024",
+            "classe": "ação penal militar - procedimento ordinário",
+            "assunto": "Incitamento, Publicação ou crítica indevida",
+            "orgao": "Vara de Auditoria Militar - Vitória",
+            "polo_candidato": "réu",
+            "situacao": "arquivado ou baixado",
+            "data": "04/03/2024",
+            "criminal": true
+          },
+          {
+            "numero": "0021369-86.2017.8.08.0024",
+            "classe": "ação penal militar - procedimento ordinário",
+            "assunto": null,
+            "orgao": "Vara de Auditoria Militar - Vitória",
+            "polo_candidato": "réu",
+            "situacao": "arquivado ou baixado",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "resultado final dos processos (absolvição ou condenação)",
+          "detalhes dos fatos que motivaram as ações penais militares",
+          "se houve trânsito em julgado antes do arquivamento"
+        ],
+        "qualidade_ocr": "média",
+        "observacao": "Ofício comunicando arquivamento de múltiplos processos da Vara de Auditoria Militar; candidato aparece como réu em dois processos militares arquivados (IPM 0404/2017 e IPM 0038/2017)",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083121. 0020976.64.2017.8.08.0024 e outros.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Tribunal Pleno",
+        "processos": [
+          {
+            "numero": "0009599-66.2020.8.08.0000",
+            "classe": "mandado de segurança cível",
+            "assunto": null,
+            "orgao": "Tribunal Pleno",
+            "polo_candidato": "requerente",
+            "situacao": "arquivado ou baixado",
+            "data": "22/04/2020",
+            "criminal": false
+          }
+        ],
+        "nao_diz": [
+          "qual era o pedido do mandado de segurança",
+          "se houve concessão ou denegação da segurança",
+          "qual o objeto da controvérsia com o Governador"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Mandado de segurança transitou em julgado em 11/11/2020 e foi arquivado definitivamente em 05/03/2021; candidato figurou como impetrante contra ato do Governador do Estado",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083125.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Primeira Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0016233-49.2018.8.08.0000",
+            "classe": "habeas corpus",
+            "assunto": null,
+            "orgao": "Primeira Câmara Criminal, relator Des. Pedro Valls Feu Rosa",
+            "polo_candidato": "paciente",
+            "situacao": "não conhecido, transitado em julgado",
+            "data": "19/11/2018",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o crime ou acusação que motivou o habeas corpus",
+          "qual era a situação do candidato na ação penal de origem (4ª Vara Criminal de Vitória)",
+          "se há condenação ou absolvição no processo principal"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Habeas corpus impetrado contra decisão do Juiz da 4ª Vara Criminal de Vitória não foi conhecido pelo Tribunal (questão processual), transitou em julgado em 19/11/2018 e foi arquivado definitivamente. Não informa o mérito da acusação criminal subjacente.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083126.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Câmaras Criminais Reunidas",
+        "processos": [
+          {
+            "numero": "0000776-40.2019.8.08.0000",
+            "classe": "conselho de justificação",
+            "assunto": null,
+            "orgao": "Câmaras Criminais Reunidas",
+            "polo_candidato": "representado",
+            "situacao": "extinto sem julgamento do mérito por perda superveniente do objeto, transitado em julgado e arquivado definitivamente",
+            "data": "14/01/2019",
+            "criminal": false
+          }
+        ],
+        "nao_diz": [
+          "qual era o objeto do conselho de justificação",
+          "por que houve perda superveniente do objeto",
+          "se havia alguma acusação ou falta disciplinar em análise"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Conselho de justificação é procedimento administrativo militar para avaliar conduta de oficial; foi extinto sem julgamento de mérito em abril/2019, transitou em julgado em maio/2019 e arquivado em dezembro/2019",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083127.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Primeira Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0016850-68.2017.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": null,
+            "orgao": "Primeira Câmara Criminal, relator Des. Pedro Valls Feu Rosa",
+            "polo_candidato": "apelante",
+            "situacao": "em andamento",
+            "data": "12/05/2022",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o crime imputado",
+          "se houve condenação em primeira instância",
+          "qual a pena aplicada",
+          "se há prisão decretada",
+          "qual o resultado final da apelação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Apelação criminal distribuída em 18/11/2020, com múltiplos apelantes e apelados, processo apenso 0015457-74.2018.8.08.0024, última movimentação em maio/2022 ainda em tramitação no tribunal",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017083134.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão positiva geral",
+        "orgao_emissor": "TJES 2º grau",
+        "processos": [
+          {
+            "numero": "0042389-41.2014.8.08.0024",
+            "classe": "apelação cível",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "0016131-86.2017.8.08.0024",
+            "classe": "exceção de suspeição",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "0008193-35.2020.8.08.0024",
+            "classe": "remessa necessária cível",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "0008487-67.2017.8.08.0000",
+            "classe": "habeas corpus",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "impetrante ou paciente",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0016467-65.2017.8.08.0000",
+            "classe": "habeas corpus",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "impetrante ou paciente",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0016233-49.2018.8.08.0000",
+            "classe": "habeas corpus",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "impetrante ou paciente",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0000776-40.2019.8.08.0000",
+            "classe": "conselho de justificação",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "0009599-66.2020.8.08.0000",
+            "classe": "mandado de segurança",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "0025363-58.2021.8.08.0000",
+            "classe": "ação penal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0006001-95.2021.8.08.0024",
+            "classe": "apelação cível",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "5033454-43.2022.8.08.0024",
+            "classe": "apelação cível",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "0001750-04.2024.8.08.0000",
+            "classe": "ação penal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0007459-84.2020.8.08.0024",
+            "classe": "apelação cível",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "0021369-86.2017.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0007016-41.2017.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0020979-19.2017.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0020976-64.2017.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0003957-45.2017.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0003395-98.2023.8.08.0000",
+            "classe": "ação penal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0003405-45.2023.8.08.0000",
+            "classe": "procedimento investigatório criminal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0002027-54.2023.8.08.0000",
+            "classe": "ação penal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "5003644-61.2023.8.08.0000",
+            "classe": "notificação para explicações",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0012117-20.2021.8.08.0024",
+            "classe": "representação criminal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "5000304-97.2022.8.08.9101",
+            "classe": "petição cível",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "5002604-78.2022.8.08.0000",
+            "classe": "mandado de segurança",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "5006749-17.2021.8.08.0000",
+            "classe": "agravo de instrumento",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "0012033-19.2021.8.08.0024",
+            "classe": "ação penal",
+            "assunto": "crimes de calúnia, injúria e difamação",
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "5005849-93.2020.8.08.0024",
+            "classe": "recurso inominado cível",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "5002411-34.2020.8.08.0000",
+            "classe": "agravo de instrumento",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "5001516-73.2020.8.08.0000",
+            "classe": "agravo de instrumento",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "5000804-83.2020.8.08.0000",
+            "classe": "agravo de instrumento",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          },
+          {
+            "numero": "0016850-68.2017.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0000163-06.2008.8.08.0000",
+            "classe": "procedimento comum cível",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": false
+          }
+        ],
+        "nao_diz": [
+          "se o candidato é réu, autor ou vítima em cada processo",
+          "qual a situação atual de cada processo (em andamento, arquivado, condenado, absolvido)",
+          "datas de distribuição ou movimentação",
+          "detalhes sobre os crimes ou assuntos da maioria dos processos",
+          "se há condenações transitadas em julgado"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão lista 33 processos de 2ª instância, sendo 16 criminais (incluindo 6 apelações criminais, 3 habeas corpus, 4 ações penais e outros procedimentos criminais), mas não informa o polo do candidato nem a situação de nenhum processo",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549430_80017131361.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  },
+  "80002538197": {
+    "nome_urna": "Daniel Cloves",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "Existe 1 processo criminal em que o candidato foi réu por violência doméstica contra mulher. O processo foi extinto pela prescrição da pretensão punitiva estatal em janeiro de 2025, com trânsito em julgado e arquivamento definitivo em abril de 2026. A certidão não informa se houve condenação antes da extinção nem qual foi a conduta específica imputada.",
+    "processos_como_reu": 1,
+    "processos_ativos_como_reu": 0,
+    "condenacao": null,
+    "confianca": "média",
+    "atencao": [
+      "Verifique no site do Tribunal de Justiça do Espírito Santo se houve sentença condenatória antes da extinção pela prescrição no processo 0004839-68.2020.8.08.9047.",
+      "Consulte os detalhes da conduta imputada ao réu no processo, pois a certidão não especifica qual foi a acusação concreta de violência doméstica."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "3ª Vara Criminal de São Mateus",
+        "processos": [
+          {
+            "numero": "0004839-68.2020.8.08.9047",
+            "classe": "ação penal - procedimento ordinário",
+            "assunto": "violência doméstica contra mulher",
+            "orgao": "3ª Vara Criminal de São Mateus",
+            "polo_candidato": "réu",
+            "situacao": "extinta a punibilidade",
+            "data": "05/11/2020",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual foi a conduta específica imputada ao réu",
+          "se houve condenação antes da extinção da punibilidade",
+          "qual foi o fundamento da prescrição (antes ou depois da sentença)"
+        ],
+        "qualidade_ocr": "média",
+        "observacao": "Processo extinto pela prescrição da pretensão punitiva estatal em 07/01/2025, com trânsito em julgado para o MP em 10/11/2025 e arquivamento definitivo em 15/04/2026, nos termos do art. 107, IV e art. 109, VI do CP",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002538197_80016892609.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  },
+  "80002541011": {
+    "nome_urna": "Freitas",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "O candidato foi réu em 1 processo criminal na Justiça Federal por crimes tributários e sonegação de contribuição previdenciária. Foi absolvido por falta de provas suficientes para condenação, com decisão definitiva em julho de 2023. O processo está encerrado desde setembro de 2023.",
+    "processos_como_reu": 1,
+    "processos_ativos_como_reu": 0,
+    "condenacao": false,
+    "confianca": "alta",
+    "atencao": [
+      "Confirme no site da Justiça Federal se o processo 5000244-71.2020.4.02.5003 está realmente encerrado e se não há recursos pendentes."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "1ª Vara Federal de São Mateus/ES",
+        "processos": [
+          {
+            "numero": "5000244-71.2020.4.02.5003",
+            "classe": "ação penal",
+            "assunto": "crimes do art. 1º, I e II, da Lei 8.137/90 e art. 337-A do Código Penal (crimes tributários e sonegação de contribuição previdenciária)",
+            "orgao": "1ª Vara Federal de São Mateus/ES",
+            "polo_candidato": "réu",
+            "situacao": "absolvido",
+            "data": "04/02/2020",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [],
+        "qualidade_ocr": "boa",
+        "observacao": "Sentença absolutória transitou em julgado em 24/07/2023, com fundamento no art. 386, IV, do CPP (prova insuficiente para condenação). Autos baixados em 28/09/2023.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541011_80016999670.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "1ª Vara Federal de São Mateus/ES",
+        "processos": [
+          {
+            "numero": "5000244-71.2020.4.02.5003",
+            "classe": "ação penal",
+            "assunto": "crimes do art. 1º, I e II, da Lei 8.137/90 e art. 337-A do Código Penal (crimes tributários e sonegação fiscal)",
+            "orgao": "1ª Vara Federal de São Mateus/ES",
+            "polo_candidato": "réu",
+            "situacao": "absolvido",
+            "data": "04/02/2020",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [],
+        "qualidade_ocr": "boa",
+        "observacao": "Sentença absolutória transitada em julgado em 24/07/2023, com fundamento no art. 386, IV, do CPP (prova de inexistência do fato). Autos baixados em 28/09/2023.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541011_80017125185.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "1ª Vara Federal de São Mateus/ES",
+        "processos": [
+          {
+            "numero": "5000244-71.2020.4.02.5003",
+            "classe": "ação penal",
+            "assunto": "crimes do art. 1º, I e II, da Lei 8.137/90 e art. 337-A do Código Penal (crimes tributários e sonegação de contribuição previdenciária)",
+            "orgao": "1ª Vara Federal de São Mateus/ES",
+            "polo_candidato": "réu",
+            "situacao": "absolvido",
+            "data": "04/02/2020",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [],
+        "qualidade_ocr": "boa",
+        "observacao": "Sentença absolutória transitou em julgado em 24/07/2023, com fundamento no art. 386, IV, do CPP (prova insuficiente para condenação). Autos baixados em 28/09/2023.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541011_80016999669.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  },
+  "80002537480": {
+    "nome_urna": "Leandro Da Feira",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "Há 1 processo criminal arquivado desde 2019 no 2º Juizado Especial Criminal de Vila Velha, sobre ameaça e dano. O documento não informa se o candidato era réu, vítima ou testemunha. Não há informação sobre outros processos criminais nas certidões apresentadas.",
+    "processos_como_reu": null,
+    "processos_ativos_como_reu": 0,
+    "condenacao": null,
+    "confianca": "baixa",
+    "atencao": [
+      "Consulte o processo 0087457-57.2015.8.08.0035 no site do TJES para verificar se o candidato era réu, vítima ou testemunha.",
+      "Verifique no site do tribunal o motivo do arquivamento do processo em 2019.",
+      "Confira se existem outras certidões criminais de 1º e 2º grau no Espírito Santo que não foram apresentadas."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "print do PJe ou de sistema",
+        "orgao_emissor": "2º Juizado Especial Criminal de Vila Velha - TJES",
+        "processos": [
+          {
+            "numero": "0087457-57.2015.8.08.0035",
+            "classe": "termo circunstanciado",
+            "assunto": "crimes contra a liberdade pessoal (ameaça) e crimes contra o patrimônio (dano)",
+            "orgao": "2º Juizado Especial Criminal de Vila Velha",
+            "polo_candidato": "não diz",
+            "situacao": "arquivado ou baixado",
+            "data": "02/08/2019",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se o candidato era réu, vítima ou testemunha",
+          "motivo do arquivamento (composição civil, transação penal, falta de justa causa)",
+          "se houve homologação de acordo ou arquivamento por ausência de elementos"
+        ],
+        "qualidade_ocr": "ruim",
+        "observacao": "Processo arquivado definitivamente em 02/08/2019; houve audiência de conciliação em 05/05/2016; candidato solicitou certidão de objeto e pé em 03/08/2026 para fins eleitorais",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537480_80016886572.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  },
+  "80002549433": {
+    "nome_urna": "Armandinho Fontoura",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "O candidato responde como réu em 5 processos criminais: 1 por coação no curso do processo (condenado em 1ª instância, apelação em andamento), 1 por falsidade ideológica e denunciação caluniosa (absolvido em 1ª instância, mas MP recorreu e 2ª instância deu parcial provimento, aguardando embargos), 1 por calúnia e difamação (condenado, mas punibilidade extinta por prescrição), 1 por difamação (em andamento) e 1 por perseguição (fase inicial). Há também 1 processo de violência doméstica sem informação sobre seu polo. Nos demais processos, o candidato aparece como vítima ou autor de ações. Há ainda 1 ação de improbidade administrativa em andamento contra ele.",
+    "processos_como_reu": 5,
+    "processos_ativos_como_reu": 4,
+    "condenacao": true,
+    "confianca": "média",
+    "atencao": [
+      "Confira no TJES o resultado dos embargos de declaração no processo 0003791-08.2020.8.08.0024 (falsidade ideológica e denunciação caluniosa), pois a 2ª instância reformou a absolvição e o desfecho ainda não está definido.",
+      "Verifique no TJES o andamento da apelação no processo 0000011-55.2023.8.08.0024 (coação no curso do processo), pois há condenação em 1ª instância pendente de julgamento em 2ª instância.",
+      "Consulte no TJES o processo 0014219-54.2017.8.08.0024 (violência doméstica) para saber se o candidato é réu, vítima ou outra parte, pois a certidão não informa.",
+      "Acompanhe no TJES o processo 5031816-33.2026.8.08.0024 (perseguição), distribuído em julho de 2026 e ainda em fase inicial."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES - 10ª Vara Criminal de Vitória",
+        "processos": [
+          {
+            "numero": "5036872-81.2025.8.08.0024",
+            "classe": "ação penal privada",
+            "assunto": "calúnia e difamação",
+            "orgao": "10ª Vara Criminal de Vitória",
+            "polo_candidato": "autor ou querelante",
+            "situacao": "em andamento",
+            "data": "16/09/2025",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se houve recebimento da queixa-crime",
+          "se o querelado foi citado",
+          "se há audiência designada",
+          "qual o teor da manifestação ministerial pendente"
+        ],
+        "qualidade_ocr": "média",
+        "observacao": "Candidato é o querelante (vítima que move ação penal privada), não o réu. Processo em fase inicial aguardando manifestação do Ministério Público.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083173.2025.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "10ª Vara Criminal de Vitória/ES - TJES 1º grau",
+        "processos": [
+          {
+            "numero": "0010006-97.2020.8.08.0024",
+            "classe": "ação penal privada (queixa-crime)",
+            "assunto": "calúnia e crimes contra a honra",
+            "orgao": "10ª Vara Criminal de Vitória",
+            "polo_candidato": "réu",
+            "situacao": "transitado em julgado",
+            "data": "29/02/2024",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "resultado final da condenação ou absolvição",
+          "se houve condenação, qual foi a pena aplicada",
+          "teor do acórdão que transitou em julgado em 12/03/2026"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Processo transitou em julgado em 12/03/2026 após apelação, mas a certidão não informa se o candidato foi condenado ou absolvido; candidato figura como 'AUTOR DO FATO' e 'Pólo Passivo/Réu' em queixa-crime por calúnia movida por Wagner Ramos Andrada",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083174.2020.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES - 4ª Vara Criminal de Vitória",
+        "processos": [
+          {
+            "numero": "5050238-27.2024.8.08.0024",
+            "classe": "ação penal - procedimento ordinário (queixa-crime)",
+            "assunto": "difamação simples (art. 139 CP) e injúria (art. 140 CP, extinta por decadência)",
+            "orgao": "4ª Vara Criminal de Vitória",
+            "polo_candidato": "réu",
+            "situacao": "em andamento",
+            "data": "04/04/2025",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se houve condenação ou absolvição em primeira instância",
+          "se há previsão de audiência de instrução e julgamento",
+          "se o candidato possui antecedentes criminais além deste processo"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Processo criminal em andamento por difamação; candidato foi citado em maio/2026 e aguarda apresentação de resposta à acusação; crime de injúria foi extinto por decadência em março/2026",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083160.2024.8.08.00241.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES - 2ª Vara Criminal de Vitória",
+        "processos": [
+          {
+            "numero": "5035433-35.2025.8.08.0024",
+            "classe": "crimes de calúnia, injúria e difamação de competência do juiz singular",
+            "assunto": "ameaça simples e difamação",
+            "orgao": "2ª Vara Criminal de Vitória",
+            "polo_candidato": "autor ou querelante",
+            "situacao": "em andamento",
+            "data": "05/09/2025",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se houve recebimento da denúncia ou queixa-crime",
+          "se há decisão sobre a medida liminar/tutela de urgência solicitada",
+          "qual a fase atual do processo após redistribuição ao Juiz de Garantias",
+          "se há audiências designadas"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato figura como vítima/querelante que apresentou representação criminal contra terceiro, não como réu; processo redistribuído ao Juiz de Garantias em 05/09/2025 e aguarda deliberações",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083179.2025.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES - 8ª Vara Criminal de Vitória",
+        "processos": [
+          {
+            "numero": "0006619-40.2021.8.08.0024",
+            "classe": "inquérito policial",
+            "assunto": "calúnia e difamação (arts. 139 e 140, c/c art. 141, §2º, do Código Penal)",
+            "orgao": "8ª Vara Criminal de Vitória",
+            "polo_candidato": "vítima",
+            "situacao": "em andamento",
+            "data": "08/04/2021",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se houve denúncia oferecida pelo MP",
+          "se o investigado Wellington Wallace Ribeiro foi denunciado ou absolvido",
+          "prazo estimado para conclusão das diligências policiais"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato é a vítima de crime contra a honra; inquérito aguarda diligências policiais requisitadas pelo MP desde maio/2026",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083180.2021.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES - 10ª Vara Criminal de Vitória",
+        "processos": [
+          {
+            "numero": "0006951-07.2021.8.08.0024",
+            "classe": "ação penal privada (queixa-crime)",
+            "assunto": "difamação (crimes contra a honra: calúnia, injúria e difamação - arts. 138, 139 e 140 do CP)",
+            "orgao": "10ª Vara Criminal de Vitória",
+            "polo_candidato": "autor ou querelante",
+            "situacao": "extinta a punibilidade",
+            "data": "14/04/2021 (distribuição); 23/02/2024 (sentença de extinção da punibilidade); 27/07/2026 (última movimentação)",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "motivo da extinção da punibilidade (prescrição, decadência, renúncia, perdão, outro)",
+          "se houve condenação antes da extinção ou se o querelado foi absolvido",
+          "detalhes sobre os fatos que motivaram a queixa-crime"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato figura como vítima e querelante (autor) em ação penal privada por crimes contra a honra; processo extinto pela punibilidade do querelado em 2024; certidão solicitada para registro de candidatura eleitoral 2026",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083181.2021.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "3º Juizado Especial Criminal e Fazenda Pública de Vitória/ES",
+        "processos": [
+          {
+            "numero": "5031816-33.2026.8.08.0024",
+            "classe": "representação criminal/notícia de crime",
+            "assunto": "perseguição",
+            "orgao": "3º Juizado Especial Criminal e Fazenda Pública de Vitória",
+            "polo_candidato": "representado",
+            "situacao": "em andamento",
+            "data": "09/07/2026",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual a natureza exata da acusação de perseguição",
+          "se houve denúncia oferecida pelo MP",
+          "se o candidato prestou depoimento ou foi ouvido",
+          "qual a pena prevista ou se há medidas cautelares"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Processo recente (distribuído em 09/07/2026), ainda em fase inicial, concluso para decisão, sem despacho até a data da certidão (29/07/2026). Há outro representado no mesmo processo (Luiz Emanuel Zouain da Rocha).",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083184.2026.8.08.00241.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão positiva geral",
+        "orgao_emissor": "TJES 2º grau",
+        "processos": [
+          {
+            "numero": "0003791-08.2020.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": null,
+            "orgao": "TJES 2º grau",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0014219-54.2017.8.08.0024",
+            "classe": "recurso em sentido estrito",
+            "assunto": null,
+            "orgao": "TJES 2º grau",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se o candidato é réu, apelante ou apelado",
+          "qual o crime ou assunto de cada processo",
+          "se há condenação ou absolvição",
+          "se os processos estão em andamento ou já foram julgados",
+          "datas de distribuição ou movimentação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão lista apenas números e classes dos processos em 2ª instância, sem informar polo do candidato, situação processual ou assunto; necessário consultar certidões de objeto e pé de cada processo para detalhes",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017133039.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "2ª Vara de Fazenda Pública e Registros Públicos da Comarca de Vitória/ES",
+        "processos": [
+          {
+            "numero": "0011758-70.2021.8.08.0024",
+            "classe": "ação popular",
+            "assunto": null,
+            "orgao": "2ª Vara de Fazenda Pública Estadual, Municipal, Registros Públicos, Meio Ambiente, Saúde e Acidentes de Trabalho",
+            "polo_candidato": "autor ou querelante",
+            "situacao": "em andamento",
+            "data": "25/06/2021",
+            "criminal": false
+          }
+        ],
+        "nao_diz": [
+          "qual o objeto específico da ação popular",
+          "se houve sentença ou decisão de mérito",
+          "qual a fase processual detalhada além de 'tramitando'"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato figura como autor de ação popular contra associação de municípios e outras pessoas, processo em tramitação desde 2021",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083163.2021.8.08.00241compressed.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES - 2ª Vara Criminal de Vitória",
+        "processos": [
+          {
+            "numero": "0000011-55.2023.8.08.0024",
+            "classe": "ação penal - procedimento ordinário",
+            "assunto": "coação no curso do processo (art. 344, caput, c/c art. 61, II, 'g', na forma do art. 69, CP)",
+            "orgao": "2ª Vara Criminal de Vitória",
+            "polo_candidato": "réu",
+            "situacao": "condenado",
+            "data": "10/01/2023",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se a condenação já transitou em julgado",
+          "qual o resultado da apelação em andamento",
+          "qual a pena aplicada",
+          "se há outras condenações ou processos criminais"
+        ],
+        "qualidade_ocr": "média",
+        "observacao": "Candidato condenado em 1ª instância por coação no curso do processo (art. 344 CP) com agravante, em concurso material e continuidade delitiva. Processo em segredo de justiça. Apelação em andamento desde a sentença de 16/06/2025.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083182.2023.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "3ª Vara de Fazenda Pública Estadual, Municipal, Registros Públicos, Meio Ambiente, Saúde e Acidentes de Trabalho de Vitória/ES",
+        "processos": [
+          {
+            "numero": "5047203-59.2024.8.08.0024",
+            "classe": "ação civil de improbidade administrativa",
+            "assunto": "improbidade administrativa",
+            "orgao": "3ª Vara de Fazenda Pública e Registros Públicos da Comarca de Vitória/ES",
+            "polo_candidato": "requerido",
+            "situacao": "em andamento",
+            "data": "12/11/2024",
+            "criminal": false
+          }
+        ],
+        "nao_diz": [
+          "qual ato de improbidade é imputado ao candidato",
+          "se houve sentença ou qual a fase processual específica",
+          "se há medidas cautelares ou indisponibilidade de bens",
+          "qual o fundamento da ação (enriquecimento ilícito, dano ao erário, violação de princípios)"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Ação de improbidade com valor de causa de R$ 382.563,02, movida pelo Ministério Público Estadual, em tramitação desde novembro de 2024",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083175.2024.8.08.0024compactado.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - 1ª Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0003791-08.2020.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": "falsidade ideológica (art. 299 CP) e denunciação caluniosa (art. 339 CP)",
+            "orgao": "1ª Câmara Criminal do TJES",
+            "polo_candidato": "apelado",
+            "situacao": "em andamento",
+            "data": "17/06/2026",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual foi exatamente a conduta imputada ao candidato",
+          "qual o conteúdo do acórdão que deu parcial provimento ao recurso do MP",
+          "se houve condenação parcial ou apenas reforma da absolvição para outro fundamento",
+          "resultado dos embargos de declaração que serão julgados em agosto/2026"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato foi absolvido em 1º grau (art. 386, III CPP) em fev/2025, mas o MP apelou e a Câmara deu parcial provimento ao recurso em jun/2026. Defesa opôs embargos declaratórios pendentes de julgamento (pauta 12-18/ago/2026). Situação processual indefinida quanto à condenação.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083177.2020.8.08.00241.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2ª Turma Recursal",
+        "processos": [
+          {
+            "numero": "5024454-14.2025.8.08.0024",
+            "classe": "recurso inominado cível",
+            "assunto": "transporte terrestre, indenização por dano material, indenização por dano moral",
+            "orgao": "2ª Turma Recursal - Gabinete 2",
+            "polo_candidato": "recorrido",
+            "situacao": "em andamento",
+            "data": "16/06/2026",
+            "criminal": false
+          }
+        ],
+        "nao_diz": [
+          "qual foi o resultado da ação de origem no juizado",
+          "se houve condenação ou absolvição em primeira instância",
+          "qual o pedido específico do recurso da empresa"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato é parte recorrida em recurso cível sobre transporte e indenizações, movido por locadora de veículos; processo aguarda julgamento colegiado desde junho/2026",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083178.2025.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2ª Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0021889-41.2020.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": "calúnia e difamação",
+            "orgao": "2ª Vara Criminal de Vitória (origem), 2ª Câmara Criminal (recurso)",
+            "polo_candidato": "réu",
+            "situacao": "extinta a punibilidade",
+            "data": "26/06/2026",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato foi condenado em 1ª instância a 1 ano de detenção por calúnia e difamação. Em 2ª instância, após embargos de declaração, foi reconhecida prescrição retroativa e declarada extinta a punibilidade em junho/2026.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083176.2020.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES - 8ª Vara Criminal de Vitória",
+        "processos": [
+          {
+            "numero": "0007698-20.2022.8.08.0024",
+            "classe": "representação criminal/notícia de crime",
+            "assunto": "difamação, injúria e desacato",
+            "orgao": "8ª Vara Criminal de Vitória",
+            "polo_candidato": "autor ou querelante",
+            "situacao": "em andamento",
+            "data": "18/10/2022",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "identidade real do investigado SANDRODUARTE27",
+          "se houve denúncia oferecida pelo Ministério Público",
+          "prazo estimado para conclusão das diligências policiais"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato é a vítima que apresentou notícia de crime contra usuário de rede social; processo aguarda conclusão de inquérito policial desde 2024",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083183.2022.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 1º grau - 10ª Vara Criminal de Vitória",
+        "processos": [
+          {
+            "numero": "5047963-71.2025.8.08.0024",
+            "classe": "exceção da verdade",
+            "assunto": "calúnia",
+            "orgao": "10ª Vara Criminal de Vitória",
+            "polo_candidato": "autor ou querelante",
+            "situacao": "em andamento",
+            "data": "26/11/2025",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual foi a imputação original que motivou a exceção da verdade",
+          "se há condenação ou absolvição no processo principal (ação penal 5017961-21.2025.8.08.0024)",
+          "qual o desfecho esperado ou provável da exceção"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Exceção da verdade é incidente defensivo em ação penal por calúnia; candidato busca provar veracidade do que disse sobre Fabiana Tostes de Souza; processo principal é 5017961-21.2025.8.08.0024",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083159.2025.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES - 2ª Vara Criminal de Vitória",
+        "processos": [
+          {
+            "numero": "5030592-33.2025.8.08.0012",
+            "classe": "ação penal privada",
+            "assunto": "calúnia e difamação",
+            "orgao": "2ª Vara Criminal de Vitória",
+            "polo_candidato": "réu",
+            "situacao": "em andamento",
+            "data": "01/04/2026",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se houve recebimento da queixa-crime",
+          "se há sentença ou decisão de mérito",
+          "qual a fase processual específica após a redistribuição",
+          "prazo estimado para conclusão"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Processo redistribuído do 1º Juizado Especial Criminal de Cariacica para a 2ª Vara Criminal de Vitória em abril/2026, encontra-se em fase inicial",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083162.2025.8.08.0012.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "4ª Vara Criminal de Vitória/ES",
+        "processos": [
+          {
+            "numero": "0007699-05.2022.8.08.0024",
+            "classe": "representação criminal/notícia de crime",
+            "assunto": "difamação e desacato",
+            "orgao": "4ª Vara Criminal de Vitória",
+            "polo_candidato": "autor ou querelante",
+            "situacao": "em andamento",
+            "data": "29/08/2024",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "quem é exatamente a pessoa representada (apenas cargo genérico)",
+          "se houve recebimento da representação ou arquivamento",
+          "se o Ministério Público já se manifestou",
+          "qual a fase processual específica além de aguardar manifestação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato é o representante/noticiante (quem apresentou a notícia-crime), não o investigado; processo recente aguardando manifestação dos órgãos competentes",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083164.2022.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "8ª Vara Criminal de Vitória/ES - TJES",
+        "processos": [
+          {
+            "numero": "0006945-97.2021.8.08.0024",
+            "classe": "queixa-crime (crimes de calúnia, injúria e difamação)",
+            "assunto": "calúnia, difamação e desacato (arts. 139, 140 e 331 do CP)",
+            "orgao": "8ª Vara Criminal de Vitória",
+            "polo_candidato": "autor ou querelante",
+            "situacao": "em andamento",
+            "data": "05/08/2024",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se houve audiência ou julgamento",
+          "se a querelada foi condenada ou absolvida",
+          "prazo estimado para conclusão"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato é vítima e querelante em ação criminal contra terceiro por crimes contra a honra; processo aguarda deliberações do juízo após diligências policiais",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083161.2021.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 1º grau - 10ª Vara Criminal de Vitória",
+        "processos": [
+          {
+            "numero": "5017961-21.2025.8.08.0024",
+            "classe": "ação penal privada (queixa-crime)",
+            "assunto": "calúnia, injúria e difamação",
+            "orgao": "10ª Vara Criminal de Vitória",
+            "polo_candidato": "réu",
+            "situacao": "em andamento",
+            "data": "16/05/2025",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se houve sentença ou qual o resultado da audiência de instrução agendada para 16/04/2025",
+          "se o candidato possui antecedentes criminais ou outras condenações",
+          "se há medidas cautelares impostas ao querelado"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Processo criminal em fase de instrução, com audiência agendada e intimações cumpridas; candidato figura como querelado (réu) em queixa-crime por crimes contra a honra",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017083165.2025.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão negativa geral",
+        "orgao_emissor": "TJES 1ª instância",
+        "processos": [
+          {
+            "numero": "0014219-54.2017.8.08.0024",
+            "classe": "não diz",
+            "assunto": "violência doméstica e familiar contra a mulher",
+            "orgao": "1ª Vara Especializada em Violência Doméstica e Familiar Contra a Mulher de Vitória",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o polo do candidato no processo (réu, vítima ou outro)",
+          "qual a classe da ação (ação penal, medida protetiva, etc.)",
+          "qual a situação atual do processo (em andamento, arquivado, condenado, absolvido)",
+          "data de distribuição ou última movimentação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão negativa COM RESSALVA exceto quanto aos juízos de Vitória. Aparece um processo na 1ª Vara de Violência Doméstica de Vitória, mas a certidão não detalha se o candidato é réu, vítima ou outra parte, nem a situação do processo.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549433_80017133038.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  },
+  "80002549461": {
+    "nome_urna": "Daniel Santana",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "Existe 1 processo criminal (ação penal) no Tribunal Regional Federal da 2ª Região. As certidões não informam se o candidato é réu, qual o crime, nem a situação atual do processo. Não é possível saber se há condenação ou se o processo está ativo. O mesmo processo aparece em duas certidões idênticas.",
+    "processos_como_reu": null,
+    "processos_ativos_como_reu": null,
+    "condenacao": null,
+    "confianca": "baixa",
+    "atencao": [
+      "Consulte o processo 5014125-16.2025.4.02.0000 no site do TRF2 para verificar se o candidato é réu ou tem outro papel no processo.",
+      "Verifique no site do TRF2 qual o crime imputado e a situação atual do processo (em andamento, julgado ou arquivado).",
+      "Confira se há condenação transitada em julgado ou absolvição no processo."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão positiva geral",
+        "orgao_emissor": "Tribunal Regional Federal da 2ª Região (TRF2)",
+        "processos": [
+          {
+            "numero": "5014125-16.2025.4.02.0000",
+            "classe": "ação penal",
+            "assunto": null,
+            "orgao": "1ª Seção Especializada",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o crime imputado",
+          "se o candidato é réu, denunciado ou tem outro papel no processo",
+          "a situação atual do processo (em andamento, julgado, arquivado)",
+          "se há condenação ou absolvição",
+          "datas de distribuição ou movimentação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão positiva indicando processo criminal na Justiça Federal com potencial de gerar inelegibilidade, mas sem detalhes sobre o polo do candidato, crime ou fase processual",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549461_80017083444.pdf.pdf",
+        "status_heuristica": "indeterminada"
+      },
+      {
+        "tipo_documento": "certidão positiva geral",
+        "orgao_emissor": "Tribunal Regional Federal da 2ª Região (TRF2)",
+        "processos": [
+          {
+            "numero": "5014125-16.2025.4.02.0000",
+            "classe": "ação penal",
+            "assunto": null,
+            "orgao": "1ª Seção Especializada",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o crime imputado",
+          "se o candidato é réu, denunciado ou tem outro papel no processo",
+          "a situação atual do processo (em andamento, julgado, arquivado)",
+          "se há condenação ou absolvição",
+          "datas de distribuição ou movimentação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão positiva indicando processo criminal na Justiça Federal com potencial de gerar inelegibilidade, mas sem detalhes sobre o polo do candidato, crime ou fase processual",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549461_80017083445.pdf.pdf",
+        "status_heuristica": "indeterminada"
+      }
+    ]
+  },
+  "80002549123": {
+    "nome_urna": "Cabo Vidal",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "Existe 1 processo criminal em que o candidato figura como réu, referente ao artigo 149, inciso I, do Código Penal Militar (relacionado à greve da PM-ES de 2017). O candidato foi absolvido em primeira instância em setembro de 2023, mas o Ministério Público recorreu e o processo aguarda julgamento no Tribunal de Justiça do Espírito Santo desde agosto de 2026. Não há condenação registrada até o momento.",
+    "processos_como_reu": 1,
+    "processos_ativos_como_reu": 1,
+    "condenacao": false,
+    "confianca": "alta",
+    "atencao": [
+      "Verifique no site do TJES se o recurso do Ministério Público no processo 0038090-16.2017.8.08.0024 já foi julgado.",
+      "Confira se há informações sobre a ADI no STF mencionada no processo, que pode afetar o julgamento.",
+      "Consulte qual foi a conduta específica pela qual o candidato foi processado no contexto da greve da PM-ES de 2017."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Primeira Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0038090-16.2017.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": "artigo 149, inciso I, na forma dos artigos 53 e 80, todos do Código Penal Militar",
+            "orgao": "Primeira Câmara Criminal do TJES",
+            "polo_candidato": "apelado",
+            "situacao": "em andamento",
+            "data": "05/08/2026",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual a conduta específica imputada ao candidato",
+          "se há outros réus além do candidato",
+          "prazo estimado para julgamento do recurso",
+          "se há medidas cautelares vigentes"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato foi absolvido em 1ª instância em 06/09/2023, mas o Ministério Público recorreu. O processo aguarda julgamento de ADI no STF e foi redistribuído em agosto/2026 para novo relator (Des. Pedro Valls Feu Rosa) por conexão com outros processos relacionados à greve da PM-ES de 2017.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549123_80017136110.2017.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Primeira Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0038090-16.2017.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": "artigo 149, inciso I, na forma dos artigos 53 e 80, todos do Código Penal Militar",
+            "orgao": "Primeira Câmara Criminal do TJES",
+            "polo_candidato": "apelado",
+            "situacao": "em andamento",
+            "data": "05/08/2026",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual a conduta específica imputada ao candidato",
+          "se há outros réus além do candidato",
+          "prazo estimado para julgamento do recurso",
+          "se há medidas cautelares vigentes"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato foi absolvido em 1ª instância em 06/09/2023, mas o Ministério Público recorreu. O processo aguarda julgamento de ADI no STF e foi redistribuído em agosto/2026 para novo relator (Des. Pedro Valls Feu Rosa) por conexão com outros processos relacionados à greve da PM-ES de 2017.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549123_80017133040.2017.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Primeira Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0038090-16.2017.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": "artigo 149, inciso I, na forma dos artigos 53 e 80, todos do Código Penal Militar",
+            "orgao": "Primeira Câmara Criminal do TJES",
+            "polo_candidato": "apelado",
+            "situacao": "em andamento",
+            "data": "05/08/2026",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual a conduta específica imputada ao candidato",
+          "se há outros processos relacionados aos mesmos fatos além dos mencionados por conexão",
+          "previsão de julgamento do recurso"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato foi absolvido em 1ª instância em 06/09/2023, mas o Ministério Público recorreu. O processo aguarda julgamento de ADI no STF e foi redistribuído em razão de conexão com outros processos relacionados à greve da PM-ES de 2017.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549123_80017081762.2017.8.08.0024.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão positiva geral",
+        "orgao_emissor": "TJES 2º grau",
+        "processos": [
+          {
+            "numero": "0038090-16.2017.8.08.0024",
+            "classe": "apelação criminal",
+            "assunto": null,
+            "orgao": "TJES 2º grau",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se o candidato é apelante ou apelado",
+          "qual o crime ou assunto da apelação",
+          "se houve condenação ou absolvição",
+          "a situação atual do processo",
+          "se transitou em julgado"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão lista apenas o número do processo sem informar detalhes sobre polo, crime, resultado ou fase processual",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549123_80017136109.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  },
+  "80002549073": {
+    "nome_urna": "Tininho Batista",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "O candidato é réu em 2 processos criminais em andamento no Tribunal de Justiça do Espírito Santo. O primeiro processo (0013578-02.2021.8.08.0069) trata de crimes da Lei de Licitações, crime do Decreto-Lei 201/1967 e formação de quadrilha, com denúncia recebida e instrução probatória em curso na Comarca de Marataízes. O segundo processo (0035659-13.2019.8.08.0000) não informa qual crime é investigado e a última movimentação registrada foi em janeiro de 2022. Não há registro de condenação nas certidões apresentadas.",
+    "processos_como_reu": 2,
+    "processos_ativos_como_reu": 2,
+    "condenacao": false,
+    "confianca": "média",
+    "atencao": [
+      "Consulte no site do TJES o processo 0035659-13.2019.8.08.0000 para saber qual crime está sendo apurado e se houve movimentações após janeiro de 2022.",
+      "Verifique no processo 0013578-02.2021.8.08.0069 se já houve sentença em primeiro grau e qual o andamento atual da instrução probatória.",
+      "Confirme se existem medidas cautelares ou outras restrições impostas ao candidato em qualquer dos processos."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2ª Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0013578-02.2021.8.08.0069",
+            "classe": "ação penal - procedimento ordinário",
+            "assunto": "crimes da Lei de licitações (art. 90 da Lei 8.666/93), crime do Decreto-Lei 201/1967 (art. 19, §1º), formação de quadrilha (art. 288 do CP)",
+            "orgao": "2ª Câmara Criminal do TJES, Relator Des. Walace Pandolpho Kiffer",
+            "polo_candidato": "réu",
+            "situacao": "em andamento",
+            "data": "11/07/2025",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se houve sentença condenatória ou absolutória em 1º grau",
+          "qual a pena eventualmente aplicada",
+          "se há prisão decretada ou medidas cautelares",
+          "qual o estágio atual da instrução probatória no 1º grau",
+          "previsão de julgamento"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Denúncia recebida; processo retornou ao 1º grau (Comarca de Marataízes) em agosto/2025 para prosseguimento da instrução probatória; aguarda cumprimento de diligências determinadas pelo relator",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549073_80017081281.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Segunda Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0035659-13.2019.8.08.0000",
+            "classe": "ação penal - procedimento ordinário",
+            "assunto": null,
+            "orgao": "Segunda Câmara Criminal",
+            "polo_candidato": "réu",
+            "situacao": "em andamento",
+            "data": "11/01/2022",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o crime imputado",
+          "se houve sentença condenatória ou absolutória em 1º grau",
+          "se o candidato está preso ou solto",
+          "qual a fase atual do processo (a certidão termina abruptamente em 11/01/2022)"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Ação penal em 2º grau (TJES) com três réus, incluindo o candidato Robertino Batista da Silva. Última movimentação registrada em 11/01/2022. Certidão incompleta (página 4 de 15).",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549073_80017081274.2019.8.08.0000  certidao objeto e pe.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão positiva geral",
+        "orgao_emissor": "TJES 2º grau",
+        "processos": [
+          {
+            "numero": "0013578-02.2021.8.08.0000",
+            "classe": "ação penal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0035659-13.2019.8.08.0000",
+            "classe": "ação penal",
+            "assunto": null,
+            "orgao": "TJES 2ª instância",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "se o candidato é réu, apelante ou apelado",
+          "qual o crime imputado em cada processo",
+          "se há condenação ou absolvição",
+          "a situação atual dos processos",
+          "se houve trânsito em julgado"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão lista apenas números de processos criminais em 2ª instância, sem informar polo processual, crimes ou desfecho. Para saber detalhes é necessário consultar certidão de objeto e pé de cada processo.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549073_80017081280.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  },
+  "80002535798": {
+    "nome_urna": "Brizola Corteletti",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "Existe 1 processo criminal em andamento contra o candidato como réu no Tribunal de Justiça do Espírito Santo. Ele é acusado de corrupção ativa, uso de documento falso, falsidade ideológica, falso testemunho e corrupção passiva. O processo tramita no Tribunal Pleno desde abril de 2026, a denúncia foi recebida, mas ainda não houve julgamento de mérito até julho de 2026.",
+    "processos_como_reu": 1,
+    "processos_ativos_como_reu": 1,
+    "condenacao": false,
+    "confianca": "alta",
+    "atencao": [
+      "O processo tramita em segredo de justiça, o que impede acesso público aos detalhes dos fatos.",
+      "Verifique no site do TJES se houve movimentações recentes no processo 0000366-97.2022.8.08.0057.",
+      "Confirme se já foi designada data para julgamento no Tribunal Pleno."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão positiva geral",
+        "orgao_emissor": "TJES 2º grau",
+        "processos": [
+          {
+            "numero": "0000366-97.2022.8.08.0057",
+            "classe": "ação penal",
+            "assunto": null,
+            "orgao": null,
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o crime imputado",
+          "se o candidato é réu ou vítima",
+          "qual a situação atual do processo (em andamento, arquivado, condenado, absolvido)",
+          "em que vara ou câmara tramita",
+          "data de distribuição ou última movimentação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão apenas lista o número do processo sem informar detalhes essenciais como polo processual, crime, situação ou fase processual",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002535798_80016951750.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Tribunal Pleno",
+        "processos": [
+          {
+            "numero": "0000366-97.2022.8.08.0057",
+            "classe": "ação penal - procedimento ordinário",
+            "assunto": "corrupção passiva (art. 317), uso de documento falso (art. 304), corrupção ativa (art. 333), falsidade ideológica (art. 299), falso testemunho (art. 342)",
+            "orgao": "Tribunal Pleno, relatoria Des. Dair José Bregunce de Oliveira",
+            "polo_candidato": "réu",
+            "situacao": "em andamento",
+            "data": "20/05/2026",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "fase processual atual (se há instrução, alegações finais, julgamento marcado)",
+          "se o candidato está preso ou solto",
+          "detalhes dos fatos imputados ao candidato especificamente"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato Angelo Antonio Corteletti é acusado de corrupção ativa (art. 333, parágrafo único c/c art. 29 CP). Processo remetido ao Tribunal Pleno em abril/2026 por prerrogativa de foro. Denúncia recebida em 1º grau. Sem sentença ou julgamento de mérito até 30/07/2026. Processo em segredo de justiça.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002535798_80016868398.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  },
+  "80002535612": {
+    "nome_urna": "Alessandro Broedel",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "Existe 1 processo criminal em que o candidato é réu, em andamento no Tribunal de Justiça do Espírito Santo (segunda instância). A certidão não informa qual é o crime imputado nem o resultado do julgamento ocorrido em novembro de 2024. Não há informação sobre condenação ou absolvição.",
+    "processos_como_reu": 1,
+    "processos_ativos_como_reu": 1,
+    "condenacao": null,
+    "confianca": "baixa",
+    "atencao": [
+      "Consulte o processo 0001392-39.2024.8.08.0000 no site do TJES para saber qual crime é imputado ao candidato.",
+      "Verifique no site do tribunal o resultado do julgamento de 27/11/2024 e o conteúdo do acórdão publicado em 13/02/2025."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão de objeto e pé",
+        "orgao_emissor": "TJES 2º grau - Primeira Câmara Criminal",
+        "processos": [
+          {
+            "numero": "0001392-39.2024.8.08.0000",
+            "classe": "ação penal - procedimento ordinário",
+            "assunto": null,
+            "orgao": "Primeira Câmara Criminal",
+            "polo_candidato": "réu",
+            "situacao": "em andamento",
+            "data": "25/03/2025",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o crime imputado ao candidato",
+          "se houve condenação ou absolvição em primeira instância",
+          "qual foi a decisão do acórdão julgado em 27/11/2024"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Ação penal em segundo grau com denúncia recebida contra o candidato como réu; processo julgado em 27/11/2024 com acórdão publicado em 13/02/2025, mas a certidão não informa o resultado do julgamento",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002535612_80016887010.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  },
+  "80002549693": {
+    "nome_urna": "Cabo Bonadiman",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "Rodrigo Bonadiman aparece como réu em 6 processos criminais. Há 3 processos em andamento: um no Juizado Especial Criminal por calúnia, injúria ou difamação, e dois processos militares (ações penais militares). Outros 3 processos já foram arquivados ou baixados: um inquérito policial e duas ações penais. As certidões não informam se houve condenação em algum processo.",
+    "processos_como_reu": 6,
+    "processos_ativos_como_reu": 3,
+    "condenacao": null,
+    "confianca": "média",
+    "atencao": [
+      "As certidões não informam qual o crime ou acusação específica nas duas ações penais militares em andamento.",
+      "Não há informação sobre o resultado final dos processos arquivados (se houve absolvição, extinção da punibilidade ou outro motivo).",
+      "Não consta se algum processo teve condenação ou se há trânsito em julgado."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão positiva geral",
+        "orgao_emissor": "Comarca de Linhares - ES (abrange todo o Estado do Espírito Santo)",
+        "processos": [
+          {
+            "numero": "5000968-45.2026.8.08.0030",
+            "classe": "crimes de calúnia, injúria e difamação de competência do juiz singular",
+            "assunto": "calúnia, injúria ou difamação",
+            "orgao": "Linhares - Juizado Especial Criminal e Fazenda Pública",
+            "polo_candidato": "requerido",
+            "situacao": "em andamento",
+            "data": "23/01/2026",
+            "criminal": true
+          },
+          {
+            "numero": "5010243-70.2025.8.08.0024",
+            "classe": "ação penal militar - procedimento ordinário",
+            "assunto": null,
+            "orgao": "Vitória - Comarca da Capital - Vara de Auditoria Militar",
+            "polo_candidato": "requerido",
+            "situacao": "em andamento",
+            "data": "20/03/2025",
+            "criminal": true
+          },
+          {
+            "numero": "0035745-43.2018.8.08.0024",
+            "classe": "ação penal militar - procedimento ordinário",
+            "assunto": null,
+            "orgao": "Vitória - Comarca da Capital - Vara de Auditoria Militar",
+            "polo_candidato": "requerido",
+            "situacao": "em andamento",
+            "data": "30/11/2018",
+            "criminal": true
+          },
+          {
+            "numero": "0002611-31.2013.8.08.0014",
+            "classe": "inquérito policial",
+            "assunto": null,
+            "orgao": "Colatina - 3ª Vara Criminal",
+            "polo_candidato": "réu",
+            "situacao": "arquivado ou baixado",
+            "data": "19/03/2013",
+            "criminal": true
+          },
+          {
+            "numero": "0016401-19.2012.8.08.0014",
+            "classe": "ação penal - procedimento sumaríssimo",
+            "assunto": null,
+            "orgao": "Colatina - 3º Juizado Especial Cível",
+            "polo_candidato": "réu",
+            "situacao": "arquivado ou baixado",
+            "data": "13/07/2013",
+            "criminal": true
+          },
+          {
+            "numero": "0033284-98.2018.8.08.0024",
+            "classe": "ação penal - procedimento ordinário",
+            "assunto": null,
+            "orgao": "Vitória - Vara de Auditoria Militar",
+            "polo_candidato": "réu",
+            "situacao": "arquivado ou baixado",
+            "data": "07/11/2018",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o crime ou acusação nas ações penais militares",
+          "resultado final dos processos arquivados (absolvição, extinção da punibilidade, etc)",
+          "se houve condenação em algum processo",
+          "se há trânsito em julgado",
+          "fase atual do processo remetido ao Tribunal (busca 03)"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Candidato figura como requerido/réu em 6 processos criminais: 3 em andamento (1 no Juizado Especial Criminal por calúnia/injúria/difamação e 2 ações penais militares, sendo uma com recurso no Tribunal) e 3 arquivados (1 inquérito policial e 2 ações penais)",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549693_80017095278.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  },
+  "80002550829": {
+    "nome_urna": "Almir Lorenzon",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "As certidões mostram 2 processos no 2º Juizado Especial Criminal de Vila Velha (processos 0020937-43.2021.8.08.0035 e 0020937-83.2007.8.08.0035), mas não informam se o candidato é réu, vítima ou autor. Também não dizem qual o crime, se há condenação ou se os processos estão em andamento. A certidão é negativa com ressalva apenas para esses dois processos.",
+    "processos_como_reu": null,
+    "processos_ativos_como_reu": null,
+    "condenacao": null,
+    "confianca": "baixa",
+    "atencao": [
+      "Consultar no site do TJES os processos 0020937-43.2021.8.08.0035 e 0020937-83.2007.8.08.0035 para saber se o candidato é réu, vítima ou autor.",
+      "Verificar qual o crime ou assunto de cada processo.",
+      "Conferir se os processos estão em andamento, arquivados ou se houve condenação ou absolvição."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão negativa geral",
+        "orgao_emissor": "TJES 1ª instância",
+        "processos": [
+          {
+            "numero": "0020937-43.2021.8.08.0035",
+            "classe": "não diz",
+            "assunto": null,
+            "orgao": "2º Juizado Especial Criminal/Faz. Pública de Vila Velha",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          },
+          {
+            "numero": "0020937-83.2007.8.08.0035",
+            "classe": "não diz",
+            "assunto": null,
+            "orgao": "2º Juizado Especial Criminal/Faz. Pública de Vila Velha",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual o polo do candidato nos processos (réu, vítima, autor)",
+          "qual a classe e assunto dos processos",
+          "qual a situação atual dos processos (em andamento, arquivado, condenado, absolvido)",
+          "datas de distribuição ou movimentação dos processos"
+        ],
+        "qualidade_ocr": "média",
+        "observacao": "Certidão negativa COM RESSALVA exceto quanto aos juízos de Vila Velha, onde constam dois processos no 2º Juizado Especial Criminal, mas sem detalhes sobre classe, assunto, polo ou situação",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002550829_80017133026. 01 - Certidão Criminal - Justiça Estadual - 1º Grau.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  },
+  "80002535776": {
+    "nome_urna": "Douglas Bertazo Musso",
+    "modelo": "anthropic/claude-sonnet-4.5",
+    "data": "2026-09-28",
+    "resumo": "Existe 1 processo criminal em que o candidato foi réu, referente ao artigo 14 da Lei 10.826/2003 (Estatuto do Desarmamento), na 3ª Vara Criminal de Colatina. O candidato foi absolvido em 27/08/2009, com trânsito em julgado em 15/03/2010, e o processo está arquivado. Não há processos criminais ativos.",
+    "processos_como_reu": 1,
+    "processos_ativos_como_reu": 0,
+    "condenacao": false,
+    "confianca": "alta",
+    "atencao": [
+      "Verifique no site do TJES se há processos em 2º grau relacionados ao candidato que não constam nas certidões de 1ª instância.",
+      "Confirme se não há outros processos criminais em comarcas diferentes de Colatina no Espírito Santo."
+    ],
+    "certidoes": [
+      {
+        "tipo_documento": "certidão negativa geral",
+        "orgao_emissor": "TJES 1ª instância",
+        "processos": [
+          {
+            "numero": "0008027-19.2009.8.08.0014",
+            "classe": "ação penal",
+            "assunto": "art. 14 da Lei 10.826/2003 (Estatuto do Desarmamento)",
+            "orgao": "3ª Vara Criminal de Colatina",
+            "polo_candidato": "réu",
+            "situacao": "absolvido",
+            "data": "27/08/2009",
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual foi exatamente a conduta imputada ao candidato no processo criminal",
+          "quem eram os outros dois réus absolvidos junto com o candidato",
+          "se há processos em 2º grau (TJES) relacionados a este ou outros fatos"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão negativa COM RESSALVA quanto aos juízos de Colatina, mas a certidão de objeto e pé do processo de Colatina mostra absolvição transitada em julgado em 15/03/2010 e processo arquivado",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002535776_80016868200.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão negativa geral",
+        "orgao_emissor": "TJES 1ª instância",
+        "processos": [
+          {
+            "numero": "0008027-19.2009.8.08.0014",
+            "classe": "não diz",
+            "assunto": null,
+            "orgao": "3ª Vara Criminal de Colatina",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual a classe do processo 0008027-19.2009.8.08.0014",
+          "qual o crime ou assunto do processo",
+          "se o candidato é réu, vítima ou outra posição",
+          "qual a situação atual do processo (em andamento, arquivado, condenado, absolvido)",
+          "data de distribuição ou última movimentação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão negativa COM RESSALVA: exceto quanto ao Juízo de Colatina. Há um processo criminal na 3ª Vara Criminal de Colatina (distribuído em 2009), mas a certidão não fornece detalhes sobre classe, assunto, polo do candidato ou situação processual.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002535776_80017134615.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão negativa geral",
+        "orgao_emissor": "TJES 1ª instância",
+        "processos": [
+          {
+            "numero": "0008027-19.2009.8.08.0014",
+            "classe": "não diz",
+            "assunto": null,
+            "orgao": "3ª Vara Criminal de Colatina",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual a classe do processo 0008027-19.2009.8.08.0014",
+          "qual o crime ou assunto do processo",
+          "se o candidato é réu, vítima ou outra posição",
+          "qual a situação atual do processo (em andamento, arquivado, condenado, absolvido)",
+          "data de distribuição ou última movimentação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão negativa COM RESSALVA: exceto quanto aos juízos de Colatina. Aparece um processo criminal na 3ª Vara Criminal de Colatina (0008027-19.2009.8.08.0014) sem qualquer informação sobre classe, assunto, polo do candidato ou situação. A certidão não esclarece se este processo envolve o candidato como réu, vítima ou outra parte.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002535776_80017126695.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão negativa geral",
+        "orgao_emissor": "TJES 1ª instância",
+        "processos": [
+          {
+            "numero": "0008027-19.2009.8.08.0014",
+            "classe": "não diz",
+            "assunto": null,
+            "orgao": "3ª Vara Criminal de Colatina",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual a classe do processo 0008027-19.2009.8.08.0014",
+          "qual o assunto ou crime do processo",
+          "se o candidato é réu, vítima ou outra posição",
+          "qual a situação atual do processo (em andamento, arquivado, condenado, absolvido)",
+          "data de distribuição ou última movimentação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão negativa COM RESSALVA: exceto quanto ao Juízo de Colatina. Há menção ao processo 0008027-19.2009.8.08.0014 da 3ª Vara Criminal de Colatina, mas sem detalhes sobre classe, polo, situação ou assunto.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002535776_80017133752.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      },
+      {
+        "tipo_documento": "certidão negativa geral",
+        "orgao_emissor": "TJES 1ª instância",
+        "processos": [
+          {
+            "numero": "0008027-19.2009.8.08.0014",
+            "classe": "não diz",
+            "assunto": null,
+            "orgao": "3ª Vara Criminal de Colatina",
+            "polo_candidato": "não diz",
+            "situacao": "não diz",
+            "data": null,
+            "criminal": true
+          }
+        ],
+        "nao_diz": [
+          "qual a classe do processo 0008027-19.2009.8.08.0014",
+          "qual o assunto ou crime do processo",
+          "se o candidato é réu, vítima ou outra posição",
+          "qual a situação atual do processo (em andamento, arquivado, condenado, absolvido)",
+          "data de distribuição ou última movimentação"
+        ],
+        "qualidade_ocr": "boa",
+        "observacao": "Certidão negativa COM RESSALVA: exceto quanto aos juízos de Colatina. Aparece um processo criminal na 3ª Vara Criminal de Colatina, mas a certidão não fornece detalhes sobre classe, assunto, polo do candidato ou situação processual.",
+        "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002535776_80016955978.pdf.pdf",
+        "status_heuristica": "com apontamentos"
+      }
+    ]
+  }
+}
