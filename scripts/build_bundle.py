@@ -137,7 +137,7 @@ def sanear_tse(bundle: dict) -> None:
     """Tira marcadores de vazio do TSE (#NULO, #NE) que coletas antigas deixaram nos textos."""
     n = 0
     for c in bundle["candidatos"]["candidatos"]:
-        for k in ("situacao_detalhe", "federacao", "coligacao", "ocupacao"):
+        for k in ("situacao_detalhe", "situacao_obs", "federacao", "coligacao", "ocupacao"):
             v = c.get(k)
             if isinstance(v, str) and RE_MARCADOR.fullmatch(v.strip()):
                 c[k] = None
