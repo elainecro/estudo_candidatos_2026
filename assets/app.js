@@ -278,11 +278,11 @@
       const k = c.campanha;
       const gastou = k.despesas === null || k.despesas === undefined
         ? 'gastos ainda não consolidados (o TSE publica despesas em arquivo separado)'
-        : `gastou <b>${brl(k.despesas)}</b>${k.despesas_pagas !== null && k.despesas_pagas !== undefined ? ` (pagos: ${brl(k.despesas_pagas)})` : ''}`;
+        : `contratou <b>${brl(k.despesas)}</b> em despesas${k.despesas_pagas !== null && k.despesas_pagas !== undefined ? ` (${brl(k.despesas_pagas)} já pagos)` : ''}${k.despesas > k.receitas * 1.05 ? ' <span class="tag warn">contratou mais do que recebeu</span>' : ''}`;
       const doadores = k.maiores_doadores?.length ? `<h4 class="eixo">Maiores doadores</h4><ul>${k.maiores_doadores.map(d => `<li>${esc(d.nome)} · ${brl(d.valor)}</li>`).join('')}</ul>` : '';
       const forn = k.maiores_fornecedores?.length ? `<h4 class="eixo">Maiores fornecedores</h4><ul>${k.maiores_fornecedores.slice(0, 6).map(d => `<li>${esc(d.nome)} · ${brl(d.valor)}</li>`).join('')}</ul>` : '';
       const tipos = k.despesas_por_tipo?.length ? `<h4 class="eixo">Em que gastou</h4><ul>${k.despesas_por_tipo.map(d => `<li>${esc(d.tipo)} · ${brl(d.valor)}</li>`).join('')}</ul>` : '';
-      blocos.push(`<h3>Financiamento da campanha 2026</h3><p>Recebeu <b>${brl(k.receitas)}</b>, ${gastou}. De fundo público e partido: ${brl(k.fundo_publico_e_partido)}.</p>${doadores}${tipos}${forn}<p class="nota">Prestação de contas parcial, informada pelo candidato ao TSE. Valores mudam até a prestação final, depois da eleição.</p>`);
+      blocos.push(`<h3>Financiamento da campanha 2026</h3><p>Recebeu <b>${brl(k.receitas)}</b>, ${gastou}. De fundo público e partido: ${brl(k.fundo_publico_e_partido)}.</p>${doadores}${tipos}${forn}<p class="nota">Prestação de contas parcial, informada pelo candidato ao TSE. "Contratou" é o valor dos contratos declarados, pagos ou não; por isso pode passar do que foi recebido até aqui. Tudo muda até a prestação final, depois da eleição.</p>`);
     }
     if (c.eleicoes_anteriores?.length || c.filiacoes?.length) {
       const el = (c.eleicoes_anteriores || []).map(e => `<div class="linha"><div class="per">${esc(e.ano)}</div><div>${esc(e.cargo || '')}${e.partido ? ' · ' + esc(e.partido) : ''}${e.uf ? ' · ' + esc(e.uf) : ''}${e.resultado ? `<div class="obs">${esc(e.resultado)}${e.votos ? ' · ' + Number(e.votos).toLocaleString('pt-BR') + ' votos' : ''}</div>` : ''}</div></div>`).join('');
