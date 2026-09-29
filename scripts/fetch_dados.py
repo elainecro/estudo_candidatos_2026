@@ -128,6 +128,11 @@ def get_json(url: str, headers: dict | None = None, tentativas: int = 3, pausa: 
             with urllib.request.urlopen(req, timeout=60) as resp:
                 return json.loads(resp.read().decode("utf-8"))
         except urllib.error.HTTPError as exc:
+            if exc.code in (400, 404, 422):
+                # erro de pedido: repetir não ajuda
+                if os.environ.get("DEBUG"):
+                    print(f"  HTTP {exc.code}: {url}", file=sys.stderr)
+                return None
             if exc.code == 403:
                 raw = _curl(url, h)
                 if raw:
@@ -1228,6 +1233,8 @@ def fetch_sancoes(doc, dry_run: bool):
     h = {"chave-api-dados": key} if key else None
     sem_cpf = 0
     achados = 0
+    respostas = {"ceis": 0, "cnep": 0, "ceaf": 0, "servidores": 0}
+    servidores = 0
     for c in doc["candidatos"]:
         cpf = c.get("cpf")
         if not cpf:
@@ -1243,6 +1250,8 @@ def fetch_sancoes(doc, dry_run: bool):
         if key:
             for lista, param in (("ceis", "nomeSancionado"), ("cnep", "nomeSancionado"), ("ceaf", "nomeSancionado")):
                 data = get_json(f"{PORTAL_BASE}/{lista}?{param}={urllib.parse.quote(nome)}&pagina=1", headers=h)
+                if data is not None:
+                    respostas[lista] += 1
                 res["fontes_consultadas"].append(f"Portal da Transparência {lista.upper()}")
                 for item in data or []:
                     pessoa = item.get("pessoa") or item.get("sancionado") or item.get("servidor") or {}
@@ -1257,8 +1266,11 @@ def fetch_sancoes(doc, dry_run: bool):
                             "fundamentacao": (item.get("fundamentacao") or [{}])[0].get("descricao") if isinstance(item.get("fundamentacao"), list) else item.get("fundamentacao"),
                         })
                 time.sleep(0.7)
-            serv = get_json(f"{PORTAL_BASE}/servidores?nome={urllib.parse.quote(nome)}&pagina=1", headers=h)
+            # /servidores exige CPF (busca por nome devolve 400)
+            serv = get_json(f"{PORTAL_BASE}/servidores?cpf={cpf}&pagina=1", headers=h)
             time.sleep(0.7)
+            if serv is not None:
+                respostas["servidores"] += 1
             vinculos = []
             for item in serv or []:
                 pessoa = item.get("servidor") or item.get("pessoa") or {}
@@ -1270,13 +1282,17 @@ def fetch_sancoes(doc, dry_run: bool):
                                  "situacao": fv.get("situacaoVinculo") or item.get("situacao"),
                                  "tipo": (item.get("tipoServidor") or {}).get("descricao") or item.get("tipoVinculo")})
             if vinculos:
+                servidores += 1
                 c["servidor_federal"] = {"vinculos": vinculos[:5], "fonte": "Portal da Transparência (servidores)", "consultado_em": HOJE}
+                print(f"  servidor federal: {c['nome_urna']} ({vinculos[0].get('cargo') or '?'} · {vinculos[0].get('orgao') or '?'})")
         hits = sum(len(res[k]) for k in ("tcu", "ceis", "cnep", "ceaf"))
         c["sancoes"] = res
         if hits:
             achados += 1
             print(f"  ATENÇÃO {c['nome_urna']}: " + ", ".join(f"{k} {len(res[k])}" for k in ("tcu", "ceis", "cnep", "ceaf") if res[k]))
-    print(f"  sanções: {achados} candidatos com ocorrência; {sem_cpf} sem CPF (rode --tse de novo para preencher)")
+    print(f"  sanções: {achados} candidatos com ocorrência; {servidores} servidores federais; {sem_cpf} sem CPF (rode --tse de novo para preencher)")
+    if key:
+        print("  respostas válidas do Portal por lista: " + ", ".join(f"{k} {v}" for k, v in respostas.items()) + "  (zero em alguma = endpoint ou parâmetro errado; rode com DEBUG=1)")
     salvar(doc, dry_run)
 
 
