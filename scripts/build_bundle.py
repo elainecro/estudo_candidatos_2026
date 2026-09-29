@@ -122,9 +122,18 @@ def sanear_tse(bundle: dict) -> None:
             r = __import__("re").sub(r"\s*(Federação|Coligação): (#NULO#?|#NE#?)\.", "", r, flags=__import__("re").I)
             c["resumo"] = RE_MARCADOR.sub("", r).strip()
             n += 1
-        for d in (c.get("campanha") or {}).get("maiores_doadores") or []:
+        camp = c.get("campanha") or {}
+        for d in camp.get("maiores_doadores") or []:
             if RE_MARCADOR.fullmatch((d.get("nome") or "").strip()):
                 d["nome"] = "doador não identificado"
+                n += 1
+        for d in camp.get("maiores_fornecedores") or []:
+            if RE_MARCADOR.fullmatch((d.get("nome") or "").strip()):
+                d["nome"] = "fornecedor não identificado"
+                n += 1
+        for d in camp.get("despesas_por_tipo") or []:
+            if RE_MARCADOR.fullmatch((d.get("tipo") or "").strip()):
+                d["tipo"] = "Outros"
                 n += 1
     if n:
         print(f"{n} marcadores de vazio do TSE limpos")
