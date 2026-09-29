@@ -127,7 +127,9 @@ Avisos:
   me peça para publicar o `dist/artifact.html`.
 - Fluxo do git: os dados (`data/candidatos.json`, `data/bundle.js`, fotos)
   vêm da sua máquina; scripts, página e resumos vêm daqui. Sempre `git pull`
-  antes de commitar dados, e rode `build_bundle.py` depois do pull.
+  antes de commitar dados, e rode `build_bundle.py` depois do pull. Com dados
+  modificados e ainda não commitados, use `git pull --rebase --autostash`
+  (ou uma vez só: `git config rebase.autoStash true` e `git config pull.rebase true`).
 
 ## Ler os PDFs do TSE (planos de governo e certidões)
 
