@@ -92,7 +92,7 @@ O que cada fonte enche na ficha:
 | Fonte | Campos | Cobre |
 |---|---|---|
 | TSE DivulgaCand | número, situação, foto, `bens`, `certidoes`, `eleicoes_anteriores`, `trocas_de_partido`, cria fichas novas | todos os candidatos |
-| TSE contas | `campanha` (receitas, despesas, fundo público, maiores doadores) | todos com registro |
+| TSE contas | `campanha` (receitas, despesas contratadas e pagas, fundo público, maiores doadores, fornecedores, tipos de gasto) | todos com registro |
 | Câmara | `projetos`, `gastos` (cota por ano), `comissoes`, `votacoes_chave` | quem é ou foi deputado federal |
 | Senado | `projetos`, `relatorias`, `filiacoes`, `votacoes_chave` | quem é ou foi senador |
 | Portal da Transparência | `emendas` (total, por ano, maiores destinos) | deputados e senadores |

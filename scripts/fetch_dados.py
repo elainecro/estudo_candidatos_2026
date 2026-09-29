@@ -345,6 +345,36 @@ def normalizar_csv_receitas(rows) -> dict:
     return por
 
 
+def normalizar_csv_despesas(contratadas, pagas) -> dict:
+    """Linhas de despesas_contratadas_candidatos e despesas_pagas_candidatos -> {SQ_CANDIDATO: {...}}"""
+    por = {}
+    for r in contratadas:
+        sq = (r.get("SQ_CANDIDATO") or "").strip()
+        if not sq:
+            continue
+        v = brl(r.get("VR_DESPESA_CONTRATADA") or r.get("VR_DESPESA"))
+        forn = (r.get("NM_FORNECEDOR") or r.get("NM_FORNECEDOR_RFB") or "não identificado").strip()
+        tipo = (r.get("DS_ORIGEM_DESPESA") or r.get("DS_DESPESA") or "outros").strip().capitalize()
+        c = por.setdefault(sq, {"despesas": 0.0, "despesas_pagas": None, "_forn": {}, "_tipo": {}})
+        c["despesas"] += v
+        c["_forn"][forn] = c["_forn"].get(forn, 0.0) + v
+        c["_tipo"][tipo] = c["_tipo"].get(tipo, 0.0) + v
+    for r in pagas:
+        sq = (r.get("SQ_CANDIDATO") or "").strip()
+        if not sq:
+            continue
+        v = brl(r.get("VR_PAGTO_DESPESA") or r.get("VR_PAGAMENTO") or r.get("VR_DESPESA"))
+        c = por.setdefault(sq, {"despesas": 0.0, "despesas_pagas": None, "_forn": {}, "_tipo": {}})
+        c["despesas_pagas"] = (c["despesas_pagas"] or 0.0) + v
+    for c in por.values():
+        c["despesas"] = round(c["despesas"], 2)
+        if c["despesas_pagas"] is not None:
+            c["despesas_pagas"] = round(c["despesas_pagas"], 2)
+        c["maiores_fornecedores"] = [{"nome": k, "valor": round(v, 2)} for k, v in sorted(c.pop("_forn").items(), key=lambda kv: -kv[1])[:10]]
+        c["despesas_por_tipo"] = [{"tipo": k, "valor": round(v, 2)} for k, v in sorted(c.pop("_tipo").items(), key=lambda kv: -kv[1])[:6]]
+    return por
+
+
 ID_ELEICAO = {"BR": "6257", "ES": "6259"}  # CD_ELEICAO de 2026 nos CSVs; é o id que o DivulgaCand usa na URL
 
 
@@ -776,13 +806,27 @@ def fetch_contas_csv(doc, dry_run: bool):
     if not z:
         return
     por = normalizar_csv_receitas(ler_csv_zip(z, ("receitas_candidatos_2026_ES.csv", "receitas_candidatos_2026_BR.csv")))
-    n = 0
+    desp = normalizar_csv_despesas(
+        ler_csv_zip(z, ("despesas_contratadas_candidatos_2026_ES.csv", "despesas_contratadas_candidatos_2026_BR.csv")),
+        ler_csv_zip(z, ("despesas_pagas_candidatos_2026_ES.csv", "despesas_pagas_candidatos_2026_BR.csv")),
+    )
+    n = nd = 0
     for c in doc["candidatos"]:
-        camp = por.get(str(c.get("tse_id") or ""))
-        if camp:
-            c["campanha"] = camp
-            n += 1
-    print(f"  contas preenchidas para {n} candidatos")
+        sq = str(c.get("tse_id") or "")
+        camp = por.get(sq)
+        d = desp.get(sq)
+        if not camp and not d:
+            continue
+        camp = camp or {"receitas": 0.0, "despesas": None, "fundo_publico_e_partido": 0.0, "maiores_doadores": [],
+                        "fonte": "TSE Dados Abertos (prestação de contas 2026)", "atualizado_em": HOJE}
+        if d:
+            camp.update(d)
+            nd += 1
+        c["campanha"] = camp
+        n += 1
+    print(f"  contas preenchidas para {n} candidatos ({nd} com despesas)")
+    if not nd:
+        print("  aviso: nenhum CSV despesas_contratadas_candidatos_2026_*.csv no zip; o TSE atualiza esse arquivo separadamente")
     salvar(doc, dry_run)
 
 
