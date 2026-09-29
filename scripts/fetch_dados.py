@@ -914,12 +914,17 @@ def paginar_camara(url):
 
 
 def normalizar_proposicoes(props: list, detalhes: dict) -> dict:
-    aprovados, tramitando, arquivados = [], [], 0
+    aprovados, tramitando, arquivados, pecs = [], [], 0, []
     for p in props:
         det = detalhes.get(p["id"]) or {}
         st = det.get("statusProposicao", {})
         desc = (st.get("descricaoSituacao") or "").lower()
         item = {"id": f"{p['siglaTipo']} {p['numero']}/{p['ano']}", "titulo": (det.get("ementa") or p.get("ementa") or "")[:240]}
+        if p.get("siglaTipo") == "PEC":
+            # PEC na Câmara exige 171 assinaturas; a API lista todo signatário como autor
+            item["situacao"] = st.get("descricaoSituacao")
+            pecs.append(item)
+            continue
         if "transformad" in desc and "norma" in desc:
             item.update({"norma": st.get("despacho") or "transformado em norma jurídica", "ano": p["ano"], "status": "em vigor", "papel": "autor"})
             aprovados.append(item)
@@ -928,8 +933,9 @@ def normalizar_proposicoes(props: list, detalhes: dict) -> dict:
         else:
             item["obs"] = st.get("descricaoSituacao") or st.get("descricaoTramitacao")
             tramitando.append(item)
-    return {"apresentados": {"total": len(props), "obs": f"{arquivados} arquivadas. Só PL, PLP e PEC de autoria própria."},
-            "em_tramitacao": tramitando, "aprovados": aprovados}
+    return {"apresentados": {"total": len(props) - len(pecs), "obs": f"{arquivados} arquivadas. Só PL e PLP de autoria; PECs contadas à parte."},
+            "em_tramitacao": tramitando, "aprovados": aprovados,
+            "pecs_assinadas": pecs, "pecs_obs": "PEC precisa de 171 assinaturas na Câmara; cada signatário aparece como autor nos dados abertos."}
 
 
 def normalizar_despesas(desp: list) -> dict:
@@ -1014,15 +1020,22 @@ def ementa_materia(m: dict) -> str:
 
 
 def normalizar_senado_autorias(autorias: list, situacoes: dict) -> dict:
-    aprovados, tramitando, total = [], [], 0
+    aprovados, tramitando, total, pecs = [], [], 0, []
     for a in autorias:
         m = a.get("Materia") or {}
         sg, nr, ano, ident = ident_materia(m)
         if sg not in TIPOS_LEI:
             continue
-        total += 1
         desc = json.dumps(situacoes.get(m.get("Codigo") or m.get("CodigoMateria"), {}), ensure_ascii=False).lower()
         item = {"id": ident, "titulo": ementa_materia(m)}
+        # PEC no Senado exige 27 assinaturas; os dados abertos listam todo signatário como autor.
+        # Se a API disser explicitamente que é autor principal, mantém como projeto dele.
+        principal = str(a.get("IndicadorAutorPrincipal") or a.get("AutorPrincipal") or m.get("IndicadorAutorPrincipal") or "").strip().lower()
+        if sg == "PEC" and principal not in ("sim", "s", "true"):
+            item["situacao"] = "em vigor" if ("norma" in desc and ("transformad" in desc or "promulgad" in desc)) else ("arquivada" if "arquivad" in desc else "em tramitação")
+            pecs.append(item)
+            continue
+        total += 1
         if "norma" in desc and ("transformad" in desc or "promulgad" in desc):
             item.update({"norma": "transformado em norma", "ano": ano, "status": "em vigor", "papel": "autor"})
             aprovados.append(item)
@@ -1032,7 +1045,8 @@ def normalizar_senado_autorias(autorias: list, situacoes: dict) -> dict:
             if not desc or desc == "{}":
                 item["obs"] = "situação não obtida"
             tramitando.append(item)
-    return {"apresentados": {"total": total, "obs": "Só PL, PLS, PLP, PEC e MPV de autoria."}, "em_tramitacao": tramitando, "aprovados": aprovados}
+    return {"apresentados": {"total": total, "obs": "Só PL, PLS, PLP e MPV de autoria; PECs contadas à parte."}, "em_tramitacao": tramitando, "aprovados": aprovados,
+            "pecs_assinadas": pecs, "pecs_obs": "PEC precisa de 27 assinaturas no Senado; cada signatário aparece como autor nos dados abertos."}
 
 
 def normalizar_senado_relatorias(rels: list) -> list:

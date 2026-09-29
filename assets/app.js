@@ -223,6 +223,7 @@
           <div class="col"><h4>Apresentados <span>${pj.apresentados?.total ?? '?'}</span></h4><p class="vazio">${esc(pj.apresentados?.obs || '')}</p></div>
           <div class="col"><h4>Em tramitação <span>${pj.em_tramitacao?.length ?? 0}</span></h4>${lista(pj.em_tramitacao, 'Nenhum registrado aqui.')}</div>
           <div class="col"><h4>Aprovados e em vigor <span>${pj.aprovados?.length ?? 0}</span></h4>${lista(pj.aprovados, 'Nenhum registrado aqui.')}</div>
+          ${pj.pecs_assinadas?.length ? `<div class="col"><h4>PECs assinadas com outros <span>${pj.pecs_assinadas.length}</span></h4><p class="vazio">${esc(pj.pecs_obs || '')} Não conta como projeto próprio.</p><details><summary class="nota">Ver as PECs</summary>${lista(pj.pecs_assinadas, '')}</details></div>` : ''}
         </div>
         <p class="nota">Fonte: ${esc(pj.fonte)} · atualizado em ${esc(pj.atualizado_em)}.</p>`;
     }

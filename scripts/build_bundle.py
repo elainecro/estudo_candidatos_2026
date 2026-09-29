@@ -26,6 +26,7 @@ def main() -> int:
     embutir_propostas(bundle)
     embutir_resumos(bundle)
     sanear_tse(bundle)
+    separar_pecs(bundle)
     sanear_certidoes(bundle)
     embutir_interpretacoes(bundle)
     embutir_biografias(bundle)
@@ -131,6 +132,37 @@ def embutir_biografias(bundle: dict) -> None:
         n += 1
     if n:
         print(f"{n} biografias embutidas")
+
+
+def separar_pecs(bundle: dict) -> None:
+    """Dados coletados antes desta regra: tira as PECs de 'apresentados/em_tramitacao/aprovados' e põe em 'pecs_assinadas'."""
+    n = 0
+    for c in bundle["candidatos"]["candidatos"]:
+        pj = c.get("projetos")
+        if not isinstance(pj, dict) or "pecs_assinadas" in pj:
+            continue
+        pecs = []
+        for chave in ("em_tramitacao", "aprovados"):
+            lista = pj.get(chave) or []
+            ficam = []
+            for it in lista:
+                if str(it.get("id") or "").upper().startswith("PEC "):
+                    it = dict(it)
+                    it["situacao"] = it.pop("status", None) or "em tramitação"
+                    pecs.append(it)
+                else:
+                    ficam.append(it)
+            pj[chave] = ficam
+        if pecs:
+            pj["pecs_assinadas"] = pecs
+            pj["pecs_obs"] = "PEC precisa de 27 assinaturas no Senado (171 na Câmara); cada signatário aparece como autor nos dados abertos."
+            ap = pj.get("apresentados")
+            if isinstance(ap, dict) and isinstance(ap.get("total"), int):
+                ap["total"] = max(0, ap["total"] - len(pecs))
+                ap["obs"] = (ap.get("obs") or "").replace(", PEC", "").replace(" e PEC", "").replace("PEC e ", "") + " PECs contadas à parte."
+            n += 1
+    if n:
+        print(f"{n} fichas com PECs separadas dos projetos próprios")
 
 
 def sanear_tse(bundle: dict) -> None:
