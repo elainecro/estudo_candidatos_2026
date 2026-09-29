@@ -1,0 +1,49 @@
+{
+  "texto": "Renan Antônio da Silva Santos nasceu em São Paulo em 14 de fevereiro de 1984 e cresceu na Mooca. Entrou no curso de Direito da USP em 2003, onde atuou na política estudantil do Centro Acadêmico XI de Agosto. Não concluiu o curso e saiu para trabalhar no grupo empresarial do pai.\n\nFundou o Movimento Brasil Livre (MBL) em novembro de 2014. O grupo participou de protestos contra o governo do PT e defendeu o impeachment de Dilma Rousseff. Apoiou Jair Bolsonaro em 2018 e rompeu com ele pouco depois do início do governo, por divergências sobre economia e combate à corrupção. Renan atuou nos bastidores e nunca havia disputado eleição.\n\nO TSE aprovou o registro do partido Missão, que ele preside, em 4 de novembro de 2025. Em 2026 é candidato à Presidência por essa legenda e critica Lula e Flávio Bolsonaro. Ele é cobrado por decisões judiciais por ofensas nas redes e por dívidas de empresas ligadas a ele.",
+  "marcos": [
+    "1984: nasce em São Paulo, em 14 de fevereiro.",
+    "2003: ingressa no curso de Direito da USP e atua no Centro Acadêmico XI de Agosto.",
+    "2014: funda o MBL, em novembro.",
+    "2014: o MBL passa a atuar em protestos contra o governo do PT e a defender o impeachment de Dilma Rousseff.",
+    "2018: o MBL apoia Bolsonaro na primeira campanha presidencial e rompe com ele depois, no início do governo.",
+    "2025: o TSE aprova o registro do partido Missão em 4 de novembro; Renan é o primeiro presidente.",
+    "2026: é lançado candidato do Missão à Presidência."
+  ],
+  "controversias": [
+    "Ano não identificado na fonte: condenado a pagar R$ 4 mil em danos morais ao deputado estadual Gil Diniz (PL-SP) por publicações nas redes sociais (Revista Oeste).",
+    "Ano não identificado na fonte: condenado a pagar R$ 30 mil à escritora Djamila Ribeiro por posts no X em que a associou ao crime (Migalhas).",
+    "Reportagem apontou mais de 60 processos e cobranças de R$ 4,9 milhões, ligadas a empresas de que ele foi sócio, com acusações de fechamento fraudulento de empresas, dívidas fiscais e trabalhistas (Instituto Humanitas Unisinos, a partir de reportagem)."
+  ],
+  "fontes": [
+    {
+      "titulo": "Renan Santos, candidato à presidente pelo Missão - Correio Braziliense",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/08/7489612-renan-santos-candidato-a-presidente-pelo-missao.html"
+    },
+    {
+      "titulo": "Conheça Renan Santos, fundador do MBL e candidato do Missão à Presidência - Jovem Pan",
+      "url": "https://jovempan.com.br/politica/conheca-renan-santos-fundador-do-mbl-e-candidato-do-missao-a-presidencia/"
+    },
+    {
+      "titulo": "Quem é Renan Santos, candidato do partido Missão à Presidência - CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/quem-e-renan-santos-candidato-do-partido-missao-a-presidencia/"
+    },
+    {
+      "titulo": "Partido Missão: o projeto de poder de Renan Santos e do MBL - Agência Pública",
+      "url": "https://apublica.org/2026/07/partido-missao-o-projeto-de-poder-de-renan-santos-e-do-mbl/"
+    },
+    {
+      "titulo": "Líder do MBL responde a mais de 60 processos e sofre cobrança de R$ 4,9 mi - IHU Unisinos",
+      "url": "https://www.ihu.unisinos.br/noticias/554735-lider-do-mbl-responde-a-mais-de-60-processos-e-sofre-cobranca-de-r-49-mi"
+    },
+    {
+      "titulo": "Fundador do MBL indenizará Djamila Ribeiro por associá-la ao crime - Migalhas",
+      "url": "https://www.migalhas.com.br/quentes/449594/fundador-do-mbl-indenizara-djamila-ribeiro-por-associa-la-ao-crime"
+    },
+    {
+      "titulo": "Ferro no rabo: líder do MBL é condenado a indenizar deputado do PL - Revista Oeste",
+      "url": "https://revistaoeste.com/politica/ferro-no-rabo-lider-do-mbl-e-condenado-a-indenizar-deputado-do-pl/"
+    }
+  ],
+  "confianca": "média",
+  "escrito_em": "2026-09-29"
+}

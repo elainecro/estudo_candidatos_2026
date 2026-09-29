@@ -1,0 +1,54 @@
+{
+  "texto": "Luiz Inácio Lula da Silva é candidato à reeleição pelo PT e ocupa a Presidência da República. Foi eleito pela terceira vez em 2022, no segundo turno, com 60.345.999 votos, ou 50,90% dos votos válidos, contra 49,10% de Jair Bolsonaro.\n\nEm 2018, o TRF-4 confirmou a condenação dele na Lava Jato, com pena de 12 anos e 1 mês, no caso do triplex do Guarujá. Ele foi preso em abril de 2018 e ficou 580 dias detido em Curitiba, até 8 de novembro de 2019. Em 2021, o ministro Edson Fachin anulou as condenações por questão de competência do juízo, e o STF confirmou a anulação por 8 votos a 3.\n\nNo terceiro mandato, o governo sancionou em novembro de 2025 a isenção do Imposto de Renda para quem ganha até R$ 5 mil por mês, em vigor desde janeiro de 2026. Também aprovou a reforma tributária e criou o Pé-de-Meia em 2024. Um balanço de junho de 2026 diz que 26 de 36 compromissos de campanha foram cumpridos integralmente, 4 em parte e 6 não. Ele é cobrado pelo caso dos descontos irregulares em aposentadorias do INSS, investigado por uma CPMI.",
+  "marcos": [
+    "2018: TRF-4 confirma condenação na Lava Jato, com pena de 12 anos e 1 mês; Lula é preso em abril.",
+    "2019: é solto em 8 de novembro, após 580 dias em Curitiba, um dia depois de o STF considerar inconstitucional a prisão em segunda instância.",
+    "2021: Fachin anula as condenações da Lava Jato em 8 de março; o plenário do STF confirma a anulação em abril, por 8 votos a 3.",
+    "2022: é eleito presidente pela terceira vez, com 50,90% dos votos válidos no segundo turno.",
+    "2024: governo cria o Pé-de-Meia, poupança para estudantes do ensino médio da rede pública.",
+    "2025: sanciona em novembro a isenção do Imposto de Renda para renda mensal até R$ 5 mil, com desconto parcial até R$ 7,3 mil.",
+    "2026: isenção do IR passa a valer em janeiro; balanço de 30 de junho aponta 26 de 36 promessas de campanha cumpridas integralmente.",
+    "2026: é candidato à reeleição pelo PT."
+  ],
+  "controversias": [
+    "2025: descontos não autorizados em aposentadorias e pensões do INSS geraram mais de 1,9 milhão de reclamações entre 2023 e 2024; Lula demitiu o presidente do INSS, Alessandro Stefanutto, e o caso é investigado por uma CPMI (Gazeta do Povo; CNN Brasil).",
+    "2026: a CPMI do INSS aprovou em fevereiro a quebra de sigilos de Fábio Luís Lula da Silva, filho do presidente, após pedido da PF para investigar a relação dele com o lobista Antônio Camilo Antunes, o Careca do INSS (Senado Notícias; Gazeta do Povo).",
+    "2026: o balanço de governo registra 6 dos 36 compromissos de campanha como não cumpridos (News Rondônia)."
+  ],
+  "fontes": [
+    {
+      "titulo": "Prisão de Luiz Inácio Lula da Silva – Wikipédia",
+      "url": "https://pt.wikipedia.org/wiki/Pris%C3%A3o_de_Luiz_In%C3%A1cio_Lula_da_Silva"
+    },
+    {
+      "titulo": "Depois de 580 dias, Lula deixa a detenção em Curitiba - Consultor Jurídico",
+      "url": "https://conjur.com.br/2019-nov-08/580-dias-detencao-juiz-determina-soltura-lula/"
+    },
+    {
+      "titulo": "STF confirma anulação de condenações do ex-presidente Lula na Lava Jato",
+      "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464261"
+    },
+    {
+      "titulo": "100% das seções totalizadas: confira como ficou o quadro eleitoral após o 2º turno — TSE",
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2022/Outubro/100-das-secoes-totalizadas-confira-como-ficou-o-quadro-eleitoral-apos-o-2o-turno"
+    },
+    {
+      "titulo": "Balanço de governo de Lula aponta 26 promessas cumpridas - News Rondônia",
+      "url": "https://newsrondonia.com.br/politica/2026/07/22/balanco-de-governo-de-lula-aponta-26-promessas-cumpridas"
+    },
+    {
+      "titulo": "Propaganda de Lula destaca isenção do IR e fim da taxa das blusinhas - Poder360",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/propaganda-de-lula-destaca-isencao-do-ir-e-fim-da-taxa-das-blusinhas/"
+    },
+    {
+      "titulo": "Sob protestos, CPMI aprova quebra de sigilos de Lulinha — Senado Notícias",
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/02/26/sob-protestos-cpmi-aprova-quebra-de-sigilos-de-lulinha"
+    },
+    {
+      "titulo": "Apuração da PF sobre Lulinha reaquece CPMI do INSS - Gazeta do Povo",
+      "url": "https://www.gazetadopovo.com.br/republica/pedido-da-pf-para-investigar-lulinha-dara-novo-folego-a-cpmi-do-inss-em-2026/"
+    }
+  ],
+  "confianca": "alta",
+  "escrito_em": "2026-09-29"
+}

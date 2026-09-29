@@ -1,0 +1,53 @@
+{
+  "texto": "Flávio Nantes Bolsonaro nasceu em Resende (RJ) em 30 de abril de 1981. É advogado, formado pela Universidade Cândido Mendes, e filho mais velho do ex-presidente Jair Bolsonaro. Declarou ao TSE R$ 8,2 milhões em bens.\n\nFoi deputado estadual no Rio de Janeiro por quatro mandatos, entre 2003 e 2018. Em 2018 foi eleito senador pelo RJ, com mais de 4,3 milhões de votos, cerca de 31% dos válidos. Assumiu a liderança do PL no Senado em 2022. Lançou a pré-candidatura à Presidência em dezembro de 2025, com apoio do pai, e o PL oficializou o nome em julho de 2026.\n\nNo Senado, apresentou 57 projetos de lei. Segundo o Brasil de Fato, apenas um foi aprovado nas duas casas: o PL 3.190/2023, sobre o microcrédito produtivo orientado. Ele é cobrado por duas frentes: o caso da rachadinha na Alerj, arquivado em 2022 após decisão do STJ, e as negociações com o banqueiro Daniel Vorcaro para financiar o filme Dark Horse, reveladas em 2026.",
+  "marcos": [
+    "2003: aos 22 anos, assume mandato de deputado estadual na Alerj, o mais jovem da legislatura.",
+    "2018: é eleito senador pelo Rio de Janeiro, com mais de 4,3 milhões de votos.",
+    "2019: assume o mandato de senador, que vai até 2027.",
+    "2022: torna-se líder do PL no Senado.",
+    "2022: TJ-RJ arquiva em maio a denúncia da rachadinha, após o STJ anular decisões que quebraram sigilos.",
+    "2025: em dezembro, anuncia pré-candidatura à Presidência com apoio de Jair Bolsonaro.",
+    "2026: PL oficializa a candidatura em julho, com número 22."
+  ],
+  "controversias": [
+    "2022: o MP-RJ havia denunciado Flávio e Fabrício Queiroz por peculato, lavagem de dinheiro e organização criminosa, em suposta rachadinha no gabinete entre 2007 e 2018; o STJ anulou as decisões de quebra de sigilo e o TJ-RJ arquivou a denúncia em maio (Consultor Jurídico; CNN Brasil).",
+    "2026: o Intercept Brasil revelou em maio que Flávio negociou com Daniel Vorcaro, ex-dono do Banco Master, R$ 134 milhões para o filme Dark Horse sobre Jair Bolsonaro, dos quais ao menos R$ 63,7 milhões foram pagos (The Intercept Brasil).",
+    "2026: em agosto, Flávio chamou o caso Dark Horse de página virada e não apresentou prestação de contas detalhada do dinheiro (Brasil de Fato)."
+  ],
+  "fontes": [
+    {
+      "titulo": "Flavio Bolsonaro 22 (PL): candidato a Presidente em 2026 - Gazeta do Povo",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/br/presidente/flavio-bolsonaro-pl-22/"
+    },
+    {
+      "titulo": "Flávio Bolsonaro: trajetória e polêmicas do senador - ND Mais",
+      "url": "https://ndmais.com.br/politica/flavio-bolsonaro-trajetoria-do-senador-polemicas/"
+    },
+    {
+      "titulo": "TJ-RJ arquiva denúncia contra Flávio Bolsonaro por rachadinha - Consultor Jurídico",
+      "url": "https://conjur.com.br/2022-mai-16/tj-rj-arquiva-denuncia-flavio-bolsonaro-rachadinha/"
+    },
+    {
+      "titulo": "STJ anula decisões contra Flávio Bolsonaro no caso das rachadinhas - CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/politica/stj-anula-decisoes-contra-flavio-bolsonaro-no-caso-das-rachadinhas/"
+    },
+    {
+      "titulo": "ÁUDIO: Flávio Bolsonaro negociou com Daniel Vorcaro R$ 134 milhões para bancar filme sobre Jair - The Intercept Brasil",
+      "url": "https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/"
+    },
+    {
+      "titulo": "Sem explicar dinheiro de Vorcaro e do banco Master, Flávio Bolsonaro diz que Dark Horse é página virada - Brasil de Fato",
+      "url": "https://www.brasildefato.com.br/2026/08/20/sem-explicar-dinheiro-de-vorcaro-e-do-banco-master-flavio-bolsonaro-diz-que-dark-horse-e-pagina-virada/"
+    },
+    {
+      "titulo": "Em sete anos, Flávio Bolsonaro teve apenas um projeto de lei aprovado no Congresso - Brasil de Fato",
+      "url": "https://www.brasildefato.com.br/2026/04/02/em-sete-anos-flavio-bolsonaro-teve-apenas-um-projeto-de-lei-aprovado-no-congresso/"
+    },
+    {
+      "titulo": "Flavio Bolsonaro enters Brazil's 2026 presidential race with father's nod - Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2025/12/6/flavio-bolsonaro-enters-brazils-2026-presidential-race-with-fathers-nod"
+    }
+  ],
+  "confianca": "alta",
+  "escrito_em": "2026-09-29"
+}
