@@ -345,13 +345,33 @@ def normalizar_csv_receitas(rows) -> dict:
     return por
 
 
+def linhas_contas(zip_path: pathlib.Path, base: str):
+    """Linhas do CSV estadual (_ES) mais as do nacional (_BRASIL, que tem o país todo) só com SG_UF=BR.
+
+    Sem esse filtro os candidatos do ES seriam contados duas vezes; sem o nacional,
+    os presidenciáveis ficariam de fora.
+    """
+    yield from ler_csv_zip(zip_path, (f"{base}_2026_ES.csv",))
+    for r in ler_csv_zip(zip_path, (f"{base}_2026_BRASIL.csv", f"{base}_2026_BR.csv")):
+        if (r.get("SG_UF") or "").strip().upper() == "BR":
+            yield r
+
+
 def normalizar_csv_despesas(contratadas, pagas) -> dict:
-    """Linhas de despesas_contratadas_candidatos e despesas_pagas_candidatos -> {SQ_CANDIDATO: {...}}"""
+    """Linhas de despesas_contratadas_candidatos e despesas_pagas_candidatos -> {SQ_CANDIDATO: {...}}
+
+    O arquivo de pagas não tem SQ_CANDIDATO, só SQ_PRESTADOR_CONTAS; o de contratadas
+    tem os dois e serve de tradução.
+    """
     por = {}
+    prestador_para_cand = {}
     for r in contratadas:
         sq = (r.get("SQ_CANDIDATO") or "").strip()
         if not sq:
             continue
+        prest = (r.get("SQ_PRESTADOR_CONTAS") or "").strip()
+        if prest:
+            prestador_para_cand[prest] = sq
         v = brl(r.get("VR_DESPESA_CONTRATADA") or r.get("VR_DESPESA"))
         forn = (r.get("NM_FORNECEDOR") or r.get("NM_FORNECEDOR_RFB") or "não identificado").strip()
         tipo = (r.get("DS_ORIGEM_DESPESA") or r.get("DS_DESPESA") or "outros").strip().capitalize()
@@ -360,7 +380,7 @@ def normalizar_csv_despesas(contratadas, pagas) -> dict:
         c["_forn"][forn] = c["_forn"].get(forn, 0.0) + v
         c["_tipo"][tipo] = c["_tipo"].get(tipo, 0.0) + v
     for r in pagas:
-        sq = (r.get("SQ_CANDIDATO") or "").strip()
+        sq = (r.get("SQ_CANDIDATO") or "").strip() or prestador_para_cand.get((r.get("SQ_PRESTADOR_CONTAS") or "").strip(), "")
         if not sq:
             continue
         v = brl(r.get("VR_PAGTO_DESPESA") or r.get("VR_PAGAMENTO") or r.get("VR_DESPESA"))
@@ -805,11 +825,9 @@ def fetch_contas_csv(doc, dry_run: bool):
     z = baixar_zip("receitas")
     if not z:
         return
-    por = normalizar_csv_receitas(ler_csv_zip(z, ("receitas_candidatos_2026_ES.csv", "receitas_candidatos_2026_BR.csv")))
-    desp = normalizar_csv_despesas(
-        ler_csv_zip(z, ("despesas_contratadas_candidatos_2026_ES.csv", "despesas_contratadas_candidatos_2026_BR.csv")),
-        ler_csv_zip(z, ("despesas_pagas_candidatos_2026_ES.csv", "despesas_pagas_candidatos_2026_BR.csv")),
-    )
+    por = normalizar_csv_receitas(linhas_contas(z, "receitas_candidatos"))
+    desp = normalizar_csv_despesas(linhas_contas(z, "despesas_contratadas_candidatos"),
+                                   linhas_contas(z, "despesas_pagas_candidatos"))
     n = nd = 0
     for c in doc["candidatos"]:
         sq = str(c.get("tse_id") or "")
