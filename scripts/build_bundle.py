@@ -25,6 +25,7 @@ def main() -> int:
     validar(bundle)
     embutir_propostas(bundle)
     embutir_resumos(bundle)
+    sanear_tse(bundle)
     sanear_certidoes(bundle)
     embutir_interpretacoes(bundle)
     out = DATA / "bundle.js"
@@ -102,6 +103,31 @@ def embutir_interpretacoes(bundle: dict) -> None:
             n += 1
     if n:
         print(f"{n} interpretações de certidões embutidas")
+
+
+RE_MARCADOR = __import__("re").compile(r"#NULO#?|#NE#?", __import__("re").I)
+
+
+def sanear_tse(bundle: dict) -> None:
+    """Tira marcadores de vazio do TSE (#NULO, #NE) que coletas antigas deixaram nos textos."""
+    n = 0
+    for c in bundle["candidatos"]["candidatos"]:
+        for k in ("situacao_detalhe", "federacao", "coligacao", "ocupacao"):
+            v = c.get(k)
+            if isinstance(v, str) and RE_MARCADOR.fullmatch(v.strip()):
+                c[k] = None
+                n += 1
+        r = c.get("resumo")
+        if isinstance(r, str) and RE_MARCADOR.search(r):
+            r = __import__("re").sub(r"\s*(Federação|Coligação): (#NULO#?|#NE#?)\.", "", r, flags=__import__("re").I)
+            c["resumo"] = RE_MARCADOR.sub("", r).strip()
+            n += 1
+        for d in (c.get("campanha") or {}).get("maiores_doadores") or []:
+            if RE_MARCADOR.fullmatch((d.get("nome") or "").strip()):
+                d["nome"] = "doador não identificado"
+                n += 1
+    if n:
+        print(f"{n} marcadores de vazio do TSE limpos")
 
 
 def sanear_certidoes(bundle: dict) -> None:

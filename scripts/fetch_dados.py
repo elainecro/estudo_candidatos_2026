@@ -267,6 +267,10 @@ def baixar_zip(nome: str) -> pathlib.Path | None:
     return None
 
 
+# O TSE escreve isso quando o campo não se aplica ou não foi informado.
+MARCADORES_VAZIO_TSE = {"#NULO#", "#NULO", "#NE#", "#NE", "-1", "-4", "NÃO INFORMADO", "NAO INFORMADO", "NÃO DIVULGÁVEL", "NAO DIVULGAVEL"}
+
+
 def ler_csv_zip(zip_path: pathlib.Path, sufixos: tuple[str, ...]):
     """Itera as linhas (dict) dos CSVs do zip cujo nome termina com um dos sufixos (ex.: _ES.csv, _BR.csv)."""
     import csv
@@ -279,7 +283,7 @@ def ler_csv_zip(zip_path: pathlib.Path, sufixos: tuple[str, ...]):
             with z.open(nome) as fh:
                 texto = io.TextIOWrapper(fh, encoding="latin-1", newline="")
                 for row in csv.DictReader(texto, delimiter=";"):
-                    yield row
+                    yield {k: ("" if (v or "").strip().upper() in MARCADORES_VAZIO_TSE else v) for k, v in row.items()}
 
 
 def normalizar_csv_candidato(row: dict) -> dict | None:
