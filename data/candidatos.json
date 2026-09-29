@@ -1131,7 +1131,125 @@
         "fonte": "TSE DivulgaCand (proposta de governo anexada ao registro)",
         "legivel": true
       },
-      "foto": "data/fotos/280002542548.jpg"
+      "foto": "data/fotos/280002542548.jpg",
+      "campanha": {
+        "receitas": 67050839.04000001,
+        "despesas": 65682712.27,
+        "fundo_publico_e_partido": 65150000.0,
+        "maiores_doadores": [
+          {
+            "nome": "Direção Nacional - PT",
+            "valor": 65150000.0
+          },
+          {
+            "nome": "Erasmo Carlos Battistella",
+            "valor": 500000.0
+          },
+          {
+            "nome": "UM A MAIS SERVICOS DE TECNOLOGIA E CONSULTORIA LTDA",
+            "valor": 282718.35
+          },
+          {
+            "nome": "PEDRO PEREIRA DE FREITAS",
+            "valor": 90000.0
+          },
+          {
+            "nome": "MARCO AURELIO DE CARVALHO",
+            "valor": 50000.0
+          },
+          {
+            "nome": "Jones Alexandre Barros Soares",
+            "valor": 40000.0
+          },
+          {
+            "nome": "Mayra Cristina da Luz Padua Guimaraes",
+            "valor": 40000.0
+          },
+          {
+            "nome": "Kleber Lucas Costa",
+            "valor": 30000.0
+          },
+          {
+            "nome": "Miriam Aparecida Belchior",
+            "valor": 27955.09
+          },
+          {
+            "nome": "ALEXANDRE ROCHA SANTOS PADILHA",
+            "valor": 25000.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 35753024.01,
+        "maiores_fornecedores": [
+          {
+            "nome": "DELTA3 COMUNICACAO E PROJETOS LTDA",
+            "valor": 31000000.0
+          },
+          {
+            "nome": "LOG PRODUCOES   FILMES LTDA",
+            "valor": 4268716.0
+          },
+          {
+            "nome": "GRAFICA NMC LTDA",
+            "valor": 2756360.11
+          },
+          {
+            "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+            "valor": 2590000.0
+          },
+          {
+            "nome": "FERRARO E NOVAES ADVOGADOS",
+            "valor": 1521000.0
+          },
+          {
+            "nome": "OMA - ASSESSORIA EM PESQUISA DE OPINIAO, MERCADO E AVALIACAO DE POLITICAS PUBLICAS LTDA",
+            "valor": 1500000.0
+          },
+          {
+            "nome": "KAOS PRODUZ LTDA",
+            "valor": 1200000.0
+          },
+          {
+            "nome": "LPL LIGHTING PRODUCTIONS LTDA",
+            "valor": 1047000.0
+          },
+          {
+            "nome": "WEL SOLUCOES E EVENTOS LTDA",
+            "valor": 950000.0
+          },
+          {
+            "nome": "AVANZATO TECNOLOGIA E INFORMATICA LTDA",
+            "valor": 851487.36
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Serviços prestados por terceiros",
+            "valor": 40779095.36
+          },
+          {
+            "tipo": "Eventos de promoção da candidatura",
+            "valor": 6346856.22
+          },
+          {
+            "tipo": "Serviços advocatícios",
+            "valor": 4028600.0
+          },
+          {
+            "tipo": "Publicidade por adesivos",
+            "valor": 3830468.96
+          },
+          {
+            "tipo": "Publicidade por materiais impressos",
+            "valor": 3134405.48
+          },
+          {
+            "tipo": "Despesa com impulsionamento de conteúdos",
+            "valor": 2690000.0
+          }
+        ]
+      }
     },
     {
       "id": "flavio-bolsonaro",
@@ -2584,7 +2702,125 @@
         "fonte": "TSE DivulgaCand (proposta de governo anexada ao registro)",
         "legivel": true
       },
-      "foto": "data/fotos/280002551544.jpg"
+      "foto": "data/fotos/280002551544.jpg",
+      "campanha": {
+        "receitas": 59152021.44,
+        "despesas": 57203065.32,
+        "fundo_publico_e_partido": 53915280.07,
+        "maiores_doadores": [
+          {
+            "nome": "Direção Nacional - PL",
+            "valor": 53900000.0
+          },
+          {
+            "nome": "Luiz da Rocha Salles Filho",
+            "valor": 1000000.0
+          },
+          {
+            "nome": "Erasmo Carlos Battistella",
+            "valor": 500000.0
+          },
+          {
+            "nome": "Walter Schlatter",
+            "valor": 300000.0
+          },
+          {
+            "nome": "Ernst Ferter",
+            "valor": 285100.0
+          },
+          {
+            "nome": "Peter Ferter",
+            "valor": 285100.0
+          },
+          {
+            "nome": "Alexandre Ribeiro Chequer",
+            "valor": 240000.0
+          },
+          {
+            "nome": "Waldemar Verdi Junior",
+            "valor": 180000.0
+          },
+          {
+            "nome": "Flavio Gurgel Rocha",
+            "valor": 170000.0
+          },
+          {
+            "nome": "Marco Antonio Branquinho Junior",
+            "valor": 125000.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 38999287.96,
+        "maiores_fornecedores": [
+          {
+            "nome": "F.A.R.O PROPAGANDA E PUBLICIDADE LTDA",
+            "valor": 13100000.0
+          },
+          {
+            "nome": "PARANOA DIGITAL PRODUCAO CINEMATOGRAFICA, DE VIDEOS E PROGRAMAS LTDA",
+            "valor": 5030000.0
+          },
+          {
+            "nome": "AUREA TECNOLOGIA E SOLUCOES LTDA",
+            "valor": 3700000.0
+          },
+          {
+            "nome": "ALGORITMO DADOS ESTRATEGIA E COMUNICACAO LTDA",
+            "valor": 3600000.0
+          },
+          {
+            "nome": "RMR CONSULTORIA DE INTELIGENCIA LTDA",
+            "valor": 3400000.0
+          },
+          {
+            "nome": "BUCCHIANERI ADVOCACIA",
+            "valor": 3150000.0
+          },
+          {
+            "nome": "MIOLO COMUNICACAO GRAFICA E EDITORA LTDA",
+            "valor": 2255837.0
+          },
+          {
+            "nome": "ALLJET TAXI AEREO LTDA",
+            "valor": 2250000.0
+          },
+          {
+            "nome": "STRIDE AGENCIA LTDA",
+            "valor": 2000000.0
+          },
+          {
+            "nome": "JMARTELO SOLUCOES EM COMUNICACAO LTDA",
+            "valor": 1600000.0
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Serviços prestados por terceiros",
+            "valor": 41655476.69
+          },
+          {
+            "tipo": "Serviços advocatícios",
+            "valor": 3335000.0
+          },
+          {
+            "tipo": "Despesas com transporte ou deslocamento",
+            "valor": 3156653.35
+          },
+          {
+            "tipo": "Publicidade por adesivos",
+            "valor": 3132080.0
+          },
+          {
+            "tipo": "Despesa com impulsionamento de conteúdos",
+            "valor": 1900000.0
+          },
+          {
+            "tipo": "Serviços contábeis",
+            "valor": 1025000.0
+          }
+        ]
+      }
     },
     {
       "id": "ronaldo-caiado",
@@ -3882,7 +4118,125 @@
         "fonte": "TSE DivulgaCand (proposta de governo anexada ao registro)",
         "legivel": true
       },
-      "foto": "data/fotos/280002551932.jpg"
+      "foto": "data/fotos/280002551932.jpg",
+      "campanha": {
+        "receitas": 9856000.0,
+        "despesas": 24541783.48,
+        "fundo_publico_e_partido": 7331000.0,
+        "maiores_doadores": [
+          {
+            "nome": "Direção Nacional - PSD",
+            "valor": 7331000.0
+          },
+          {
+            "nome": "CARLOS E F MATTOS BARROSO",
+            "valor": 2300000.0
+          },
+          {
+            "nome": "JOSÉ ALDO REBELO FIGUEIREDO",
+            "valor": 25000.0
+          },
+          {
+            "nome": "ARNALDO CALIL PEREIRA JARDIM",
+            "valor": 25000.0
+          },
+          {
+            "nome": "HIDEO AUGUSTO DENDINI",
+            "valor": 25000.0
+          },
+          {
+            "nome": "ROBERTO LÚCIO ROCHA BRANT",
+            "valor": 25000.0
+          },
+          {
+            "nome": "CRISTIANE ALKIMIN JUNQUEIRA SCHMIDT RESENDE",
+            "valor": 25000.0
+          },
+          {
+            "nome": "EVERALDO TEIXEIRA DOURADO JUNIOR",
+            "valor": 20000.0
+          },
+          {
+            "nome": "JOSÉ EDUARDO MARTELLI",
+            "valor": 20000.0
+          },
+          {
+            "nome": "CARLOS KOJI TAKAHASHI",
+            "valor": 20000.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 9529783.48,
+        "maiores_fornecedores": [
+          {
+            "nome": "EPOS BRASIL ESTRATEGIA, COMUNICACAO E TECNOLOGIA LTDA",
+            "valor": 20000000.0
+          },
+          {
+            "nome": "2026 COMUNICACAO SPE LTDA",
+            "valor": 1000000.0
+          },
+          {
+            "nome": "AMARO AVIATION S.A.",
+            "valor": 551900.0
+          },
+          {
+            "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+            "valor": 546700.0
+          },
+          {
+            "nome": "MALHEIROS, PENTEADO E TOLEDO - ADVOGADOS",
+            "valor": 500000.0
+          },
+          {
+            "nome": "FERNANDES BOVERIO SOCIEDADE DE ADVOGADOS",
+            "valor": 425000.0
+          },
+          {
+            "nome": "ESSENT INOVACAO CONTABIL LTDA",
+            "valor": 270000.0
+          },
+          {
+            "nome": "UPSTAR AVIATION S/A",
+            "valor": 232900.0
+          },
+          {
+            "nome": "ROTORFLY TAXI AEREO E SERVICOS AEREOS ESPECIALIZADOS LTDA",
+            "valor": 206686.4
+          },
+          {
+            "nome": "FUNDACAO ESPACO DEMOCRATICO",
+            "valor": 199488.0
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Serviços prestados por terceiros",
+            "valor": 11195000.0
+          },
+          {
+            "tipo": "Produção de programas de rádio, televisão ou vídeo",
+            "valor": 10000000.0
+          },
+          {
+            "tipo": "Despesas com transporte ou deslocamento",
+            "valor": 1132469.73
+          },
+          {
+            "tipo": "Serviços advocatícios",
+            "valor": 925000.0
+          },
+          {
+            "tipo": "Despesa com impulsionamento de conteúdos",
+            "valor": 546700.0
+          },
+          {
+            "tipo": "Serviços contábeis",
+            "valor": 270000.0
+          }
+        ]
+      }
     },
     {
       "id": "romeu-zema",
@@ -4081,7 +4435,113 @@
         "fonte": "TSE DivulgaCand (proposta de governo anexada ao registro)",
         "legivel": true
       },
-      "foto": "data/fotos/280002539826.jpg"
+      "foto": "data/fotos/280002539826.jpg",
+      "campanha": {
+        "receitas": 5296568.610000033,
+        "despesas": 4325102.8,
+        "fundo_publico_e_partido": 4996558.110000033,
+        "maiores_doadores": [
+          {
+            "nome": "Direção Nacional - NOVO",
+            "valor": 4900000.0
+          },
+          {
+            "nome": "RENATO RIBEIRO MACHADO",
+            "valor": 200000.0
+          },
+          {
+            "nome": "Direção Estadual/Distrital - NOVO - MINAS GERAIS",
+            "valor": 96558.11
+          },
+          {
+            "nome": "SALO DAVI SEIBEL",
+            "valor": 50000.0
+          },
+          {
+            "nome": "HELIO SEIBEL",
+            "valor": 50000.0
+          },
+          {
+            "nome": "FELIPE ANTONIO GRANERO PEIXOTO",
+            "valor": 9.5
+          },
+          {
+            "nome": "RAUL GHISLERI RAMOS",
+            "valor": 1.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 3433952.36,
+        "maiores_fornecedores": [
+          {
+            "nome": "REFRAME IT CONSULTORIA E INTERMEDIACAO LTDA",
+            "valor": 930000.0
+          },
+          {
+            "nome": "TRITON CONSULTORIA LTDA",
+            "valor": 450000.0
+          },
+          {
+            "nome": "JONATHAS ALPOIM SEVERINO DA SILVA BEZERRA CARVALHO LTDA",
+            "valor": 323930.0
+          },
+          {
+            "nome": "BESSONI   FORTES SOCIEDADE DE ADVOGADOS",
+            "valor": 300000.0
+          },
+          {
+            "nome": "VOLL S.A.",
+            "valor": 275093.97
+          },
+          {
+            "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+            "valor": 170000.0
+          },
+          {
+            "nome": "V+ COMUNICACAO VISUAL LTDA",
+            "valor": 167083.0
+          },
+          {
+            "nome": "VERSAO DOIS PEC CONTABILIDADE LTDA",
+            "valor": 100000.0
+          },
+          {
+            "nome": "SANTANA SANTOS - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+            "valor": 100000.0
+          },
+          {
+            "nome": "FLAPPER TECNOLOGIA S.A.",
+            "valor": 98300.0
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Serviços prestados por terceiros",
+            "valor": 2678182.68
+          },
+          {
+            "tipo": "Serviços advocatícios",
+            "valor": 300000.0
+          },
+          {
+            "tipo": "Produção de programas de rádio, televisão ou vídeo",
+            "valor": 196500.0
+          },
+          {
+            "tipo": "Despesas com hospedagem",
+            "valor": 194323.28
+          },
+          {
+            "tipo": "Despesa com impulsionamento de conteúdos",
+            "valor": 185000.0
+          },
+          {
+            "tipo": "Publicidade por adesivos",
+            "valor": 179623.0
+          }
+        ]
+      }
     },
     {
       "id": "augusto-cury",
@@ -4242,7 +4702,125 @@
         "fonte": "TSE DivulgaCand (proposta de governo anexada ao registro)",
         "legivel": true
       },
-      "foto": "data/fotos/280002551547.jpg"
+      "foto": "data/fotos/280002551547.jpg",
+      "campanha": {
+        "receitas": 3121247.8499999987,
+        "despesas": 440166.67,
+        "fundo_publico_e_partido": 2359185.849999998,
+        "maiores_doadores": [
+          {
+            "nome": "Direção Nacional - AVANTE",
+            "valor": 2354185.85
+          },
+          {
+            "nome": "AUGUSTO JORGE CURY",
+            "valor": 550000.0
+          },
+          {
+            "nome": "JOSE JANGUIE BEZERRA DINIZ",
+            "valor": 100000.0
+          },
+          {
+            "nome": "WILSON DE MATOS SILVA",
+            "valor": 60000.0
+          },
+          {
+            "nome": "SERGIO ADRIANO SOARES VITA",
+            "valor": 35000.0
+          },
+          {
+            "nome": "NORALDINO LUCIO DIAS JUNIOR",
+            "valor": 15000.0
+          },
+          {
+            "nome": "Direção Estadual/Distrital - AVANTE - RIO DE JANEIRO",
+            "valor": 5000.0
+          },
+          {
+            "nome": "ALESSANDRO LARA DE CARVALHO",
+            "valor": 2000.0
+          },
+          {
+            "nome": "RODRIGO FERREIRA V M AQUINO",
+            "valor": 50.0
+          },
+          {
+            "nome": "CRISTIANO REZENDE DE SANTANA",
+            "valor": 10.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 422166.67,
+        "maiores_fornecedores": [
+          {
+            "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+            "valor": 240000.0
+          },
+          {
+            "nome": "FERNANDA MESTRINER FERREIRA",
+            "valor": 36000.0
+          },
+          {
+            "nome": "ESCRITORIO COMERCIAL DE BARRETOS - SOCIEDADE SIMPLES LTDA",
+            "valor": 35000.0
+          },
+          {
+            "nome": "TRINTA DEZESSETE CAPTACAO DE CONTEUDO LTDA",
+            "valor": 27300.0
+          },
+          {
+            "nome": "TRIADE GESTAO E PROJETOS LTDA",
+            "valor": 18000.0
+          },
+          {
+            "nome": "RIBEIRO CONSULTORIA E MARKETING LTDA",
+            "valor": 18000.0
+          },
+          {
+            "nome": "69.146.733 DAMARIS FERREIRA SANTOS",
+            "valor": 18000.0
+          },
+          {
+            "nome": "XR GLOBAL BRASIL LTDA",
+            "valor": 7049.0
+          },
+          {
+            "nome": "PATRICIA DOS REIS VIEIRA DE ARAUJO 01418553638",
+            "valor": 6000.0
+          },
+          {
+            "nome": "34.266.870 MARIA VICTORIA GONZALES RODRIGUEZ",
+            "valor": 6000.0
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Despesa com impulsionamento de conteúdos",
+            "valor": 240000.0
+          },
+          {
+            "tipo": "Serviços prestados por terceiros",
+            "valor": 102000.0
+          },
+          {
+            "tipo": "Serviços contábeis",
+            "valor": 35000.0
+          },
+          {
+            "tipo": "Produção de programas de rádio, televisão ou vídeo",
+            "valor": 34349.0
+          },
+          {
+            "tipo": "Despesas com hospedagem",
+            "valor": 17257.2
+          },
+          {
+            "tipo": "Diversas a especificar",
+            "valor": 4719.0
+          }
+        ]
+      }
     },
     {
       "id": "renan-santos",
@@ -4352,7 +4930,125 @@
         "fonte": "TSE DivulgaCand (proposta de governo anexada ao registro)",
         "legivel": true
       },
-      "foto": "data/fotos/280002540694.jpg"
+      "foto": "data/fotos/280002540694.jpg",
+      "campanha": {
+        "receitas": 2515582.4300000053,
+        "despesas": 1284828.56,
+        "fundo_publico_e_partido": 20000.0,
+        "maiores_doadores": [
+          {
+            "nome": "QueroApoiar.com.br",
+            "valor": 2223373.55
+          },
+          {
+            "nome": "JOSE ANTONI",
+            "valor": 50000.0
+          },
+          {
+            "nome": "DANILO JULIO GATTO",
+            "valor": 50000.0
+          },
+          {
+            "nome": "Jose Thomaz Is",
+            "valor": 50000.0
+          },
+          {
+            "nome": "Direção Nacional - MISSÃO",
+            "valor": 20000.0
+          },
+          {
+            "nome": "ROMULO COUTO A",
+            "valor": 4014.14
+          },
+          {
+            "nome": "Leonardo Schonhorst",
+            "valor": 4000.0
+          },
+          {
+            "nome": "CARLOS TEIXEIR",
+            "valor": 4000.0
+          },
+          {
+            "nome": "CLAUDIO ROB",
+            "valor": 2498.8
+          },
+          {
+            "nome": "Jun Sing Yoo",
+            "valor": 2000.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 1284828.56,
+        "maiores_fornecedores": [
+          {
+            "nome": "WBL GRAFICA E EDITORA LTDA",
+            "valor": 292645.41
+          },
+          {
+            "nome": "MARELLA   ROLLO SOCIEDADE DE ADVOGADOS",
+            "valor": 125000.0
+          },
+          {
+            "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+            "valor": 100000.0
+          },
+          {
+            "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+            "valor": 90000.0
+          },
+          {
+            "nome": "GRAFICA E EDITORA REVELACAO LTDA",
+            "valor": 89600.0
+          },
+          {
+            "nome": "HASHTAG TURSHOWS VIAGENS E TRANSPORTES LTDA",
+            "valor": 85800.0
+          },
+          {
+            "nome": "DECOLAR. COM LTDA.",
+            "valor": 80101.82
+          },
+          {
+            "nome": "INDEX AUDITORIA, CONTABILIDADE E CONSULTORIA LTDA",
+            "valor": 65000.0
+          },
+          {
+            "nome": "QueroApoiar.com.br",
+            "valor": 28985.66
+          },
+          {
+            "nome": "MPCAST PRODUCOES LTDA",
+            "valor": 15093.75
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Publicidade por adesivos",
+            "valor": 228427.95
+          },
+          {
+            "tipo": "Despesa com impulsionamento de conteúdos",
+            "valor": 190000.0
+          },
+          {
+            "tipo": "Despesas com transporte ou deslocamento",
+            "valor": 179463.99
+          },
+          {
+            "tipo": "Publicidade por materiais impressos",
+            "valor": 165777.45
+          },
+          {
+            "tipo": "Serviços prestados por terceiros",
+            "valor": 125870.0
+          },
+          {
+            "tipo": "Serviços advocatícios",
+            "valor": 125000.0
+          }
+        ]
+      }
     },
     {
       "id": "clariana-barao",
@@ -4464,7 +5160,101 @@
         "fonte": "TSE DivulgaCand (proposta de governo anexada ao registro)",
         "legivel": true
       },
-      "foto": "data/fotos/280002552484.jpg"
+      "foto": "data/fotos/280002552484.jpg",
+      "campanha": {
+        "receitas": 1513500.0,
+        "despesas": 998569.68,
+        "fundo_publico_e_partido": 1500000.0,
+        "maiores_doadores": [
+          {
+            "nome": "Direção Nacional - DC",
+            "valor": 1500000.0
+          },
+          {
+            "nome": "Eudo Morais Freire Filho",
+            "valor": 6000.0
+          },
+          {
+            "nome": "CLARIANA ZACARKIM BARAO",
+            "valor": 5000.0
+          },
+          {
+            "nome": "Lara de Araújo Amorim",
+            "valor": 2500.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 301297.18,
+        "maiores_fornecedores": [
+          {
+            "nome": "ELLA COMUNICACAO LTDA",
+            "valor": 374000.0
+          },
+          {
+            "nome": "CLAUDIA NOGUEIRA GUIMARAES LTDA",
+            "valor": 220000.0
+          },
+          {
+            "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+            "valor": 178000.0
+          },
+          {
+            "nome": "Lara de Araújo Amorim",
+            "valor": 100000.0
+          },
+          {
+            "nome": "AV COMUNICACAO MULTIMIDIA LTDA",
+            "valor": 40000.0
+          },
+          {
+            "nome": "M S B DA SILVA VIAGENS E TURISMO",
+            "valor": 30797.18
+          },
+          {
+            "nome": "CLAUDIONOR DE BRITO",
+            "valor": 20000.0
+          },
+          {
+            "nome": "NEVES SINALIZACAO LTDA",
+            "valor": 17500.0
+          },
+          {
+            "nome": "MELO ROSA E SOUSA - ADVOGADOS ASSOCIADOS",
+            "valor": 10000.0
+          },
+          {
+            "nome": "Catiane Oliveira e Silva Almeida",
+            "valor": 6000.0
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Diversas a especificar",
+            "valor": 634000.0
+          },
+          {
+            "tipo": "Despesa com impulsionamento de conteúdos",
+            "valor": 178000.0
+          },
+          {
+            "tipo": "Serviços prestados por terceiros",
+            "valor": 106000.0
+          },
+          {
+            "tipo": "Despesas com transporte ou deslocamento",
+            "valor": 30797.18
+          },
+          {
+            "tipo": "Serviços contábeis",
+            "valor": 20000.0
+          },
+          {
+            "tipo": "Publicidade por materiais impressos",
+            "valor": 19770.0
+          }
+        ]
+      }
     },
     {
       "id": "samara-martins",
@@ -4566,7 +5356,93 @@
         "fonte": "TSE DivulgaCand (proposta de governo anexada ao registro)",
         "legivel": true
       },
-      "foto": "data/fotos/280002538811.jpg"
+      "foto": "data/fotos/280002538811.jpg",
+      "campanha": {
+        "receitas": 443921.93999999994,
+        "despesas": 642953.76,
+        "fundo_publico_e_partido": 361701.93999999994,
+        "maiores_doadores": [
+          {
+            "nome": "Direção Nacional - UP",
+            "valor": 361701.94
+          },
+          {
+            "nome": "QueroApoiar.com.br",
+            "valor": 82220.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 233176.42,
+        "maiores_fornecedores": [
+          {
+            "nome": "A VERDADE - SOCIEDADE DE COMUNICACAO",
+            "valor": 150000.0
+          },
+          {
+            "nome": "SSG SOLUCOES EM SERVICOS GRAFICOS LTDA",
+            "valor": 61000.0
+          },
+          {
+            "nome": "FACTOR COMUNICACAO VISUAL LTDA",
+            "valor": 58448.75
+          },
+          {
+            "nome": "Luiz Antônio Alencar Marinho Falcão",
+            "valor": 40000.0
+          },
+          {
+            "nome": "RAQUEL OLIVEIRA DE BRITO",
+            "valor": 30000.0
+          },
+          {
+            "nome": "AJT CONTABILIDADE LTDA",
+            "valor": 25000.0
+          },
+          {
+            "nome": "DIGRAF GRAFICA E EDITORA LTDA",
+            "valor": 20060.0
+          },
+          {
+            "nome": "Felipe Annunziata dos Santos",
+            "valor": 20000.0
+          },
+          {
+            "nome": "Thiago de Oliveira Santos",
+            "valor": 20000.0
+          },
+          {
+            "nome": "Antonio A F Santos",
+            "valor": 20000.0
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Despesas com pessoal",
+            "valor": 195000.0
+          },
+          {
+            "tipo": "Serviços prestados por terceiros",
+            "valor": 151500.0
+          },
+          {
+            "tipo": "Publicidade por adesivos",
+            "valor": 102876.25
+          },
+          {
+            "tipo": "Publicidade por materiais impressos",
+            "valor": 94305.0
+          },
+          {
+            "tipo": "Serviços advocatícios",
+            "valor": 30000.0
+          },
+          {
+            "tipo": "Serviços contábeis",
+            "valor": 25000.0
+          }
+        ]
+      }
     },
     {
       "id": "wilson-grassi",
@@ -4653,7 +5529,93 @@
         "fonte": "TSE DivulgaCand (proposta de governo anexada ao registro)",
         "legivel": true
       },
-      "foto": "data/fotos/280002548139.jpg"
+      "foto": "data/fotos/280002548139.jpg",
+      "campanha": {
+        "receitas": 810150.0,
+        "despesas": 860019.66,
+        "fundo_publico_e_partido": 0.0,
+        "maiores_doadores": [
+          {
+            "nome": "WILSON GRASSI JUNIOR",
+            "valor": 810000.0
+          },
+          {
+            "nome": "SUELY NOGUEIRA",
+            "valor": 150.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 806019.66,
+        "maiores_fornecedores": [
+          {
+            "nome": "SFLJ CONSULTORIA E ASSESSORAMENTO LTDA",
+            "valor": 450000.0
+          },
+          {
+            "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+            "valor": 220000.0
+          },
+          {
+            "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+            "valor": 115000.0
+          },
+          {
+            "nome": "SHIHARA FREIRE PEREIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+            "valor": 54000.0
+          },
+          {
+            "nome": "ROYAL IMPRESSOES E MANUSEIO LTDA",
+            "valor": 10000.0
+          },
+          {
+            "nome": "13.475.110 CLAUDIO LUCAS DIAS",
+            "valor": 4747.83
+          },
+          {
+            "nome": "FLY PRINT GRAFICA EDITORA LTDA",
+            "valor": 2120.0
+          },
+          {
+            "nome": "ARY AUGUSTO SIRNA - ARTIGOS ESPORTIVOS",
+            "valor": 1950.0
+          },
+          {
+            "nome": "56.224.316 ANDRE LUIS PASSOS FREIRE",
+            "valor": 1100.0
+          },
+          {
+            "nome": "61.996.497 CARLEOMAR CAVALCANTE",
+            "valor": 1000.0
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Diversas a especificar",
+            "valor": 450000.0
+          },
+          {
+            "tipo": "Despesa com impulsionamento de conteúdos",
+            "valor": 335000.0
+          },
+          {
+            "tipo": "Serviços advocatícios",
+            "valor": 54000.0
+          },
+          {
+            "tipo": "Publicidade por materiais impressos",
+            "valor": 12120.0
+          },
+          {
+            "tipo": "Passagem aérea",
+            "valor": 4747.83
+          },
+          {
+            "tipo": "Serviços prestados por terceiros",
+            "valor": 2100.0
+          }
+        ]
+      }
     },
     {
       "id": "edmilson-costa",
@@ -4770,7 +5732,121 @@
         "fonte": "TSE DivulgaCand (proposta de governo anexada ao registro)",
         "legivel": true
       },
-      "foto": "data/fotos/280002551975.jpg"
+      "foto": "data/fotos/280002551975.jpg",
+      "campanha": {
+        "receitas": 25971.0,
+        "despesas": 22531.22,
+        "fundo_publico_e_partido": 0.0,
+        "maiores_doadores": [
+          {
+            "nome": "QueroApoiar.com.br",
+            "valor": 13171.0
+          },
+          {
+            "nome": "RICARDO GAMA ROSA COSTA",
+            "valor": 5040.0
+          },
+          {
+            "nome": "Francisco Raimundo Malta de Araújo",
+            "valor": 2000.0
+          },
+          {
+            "nome": "Eduardo Gustavo Viana Grandi",
+            "valor": 1680.0
+          },
+          {
+            "nome": "JOSÉ CARLOS VASCONCELOS",
+            "valor": 1000.0
+          },
+          {
+            "nome": "Gabriel Remígio Ferreira",
+            "valor": 1000.0
+          },
+          {
+            "nome": "Maria Inês de Oliveira Santos",
+            "valor": 1000.0
+          },
+          {
+            "nome": "TATIANE PRADO PAULUCCI",
+            "valor": 630.0
+          },
+          {
+            "nome": "Atenágoras Oliveira Duarte",
+            "valor": 450.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 19531.22,
+        "maiores_fornecedores": [
+          {
+            "nome": "THIAGO MENEZES GRANZOTTI SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+            "valor": 6000.0
+          },
+          {
+            "nome": "ALAMIA CAMBIO TURISMO LTDA",
+            "valor": 4187.5
+          },
+          {
+            "nome": "GRAFICA IRMAOS MIRANDA DE FRIBURGO LTDA",
+            "valor": 4110.0
+          },
+          {
+            "nome": "ARTE VISUAL GRAFICA E EDITORA LTDA",
+            "valor": 3600.0
+          },
+          {
+            "nome": "GRAFICA E EDITORA CAPPELER LTDA",
+            "valor": 1680.0
+          },
+          {
+            "nome": "PAVUNAO DA LAPA COMERCIO E SERVICOS LTDA",
+            "valor": 1290.0
+          },
+          {
+            "nome": "AM SOLUCOES DIGITAIS LTDA",
+            "valor": 750.0
+          },
+          {
+            "nome": "MARANATA COM DE MATERIAIS E EQUIPAMENTOS GRAFICOS LTDA",
+            "valor": 490.0
+          },
+          {
+            "nome": "QueroApoiar.com.br",
+            "valor": 279.72
+          },
+          {
+            "nome": "D. VIRGINIO ROCHA- COMERCIO DE ADESIVOS E PRESTACAO DE SERVICOS DESIGN",
+            "valor": 140.0
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Publicidade por materiais impressos",
+            "valor": 11920.0
+          },
+          {
+            "tipo": "Serviços advocatícios",
+            "valor": 6000.0
+          },
+          {
+            "tipo": "Passagem aérea",
+            "valor": 4187.5
+          },
+          {
+            "tipo": "Taxa de administração de financiamento coletivo",
+            "valor": 279.72
+          },
+          {
+            "tipo": "Publicidade por adesivos",
+            "valor": 140.0
+          },
+          {
+            "tipo": "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito",
+            "valor": 4.0
+          }
+        ]
+      }
     },
     {
       "id": "hertz-dias",
@@ -4862,7 +5938,109 @@
         "fonte": "TSE DivulgaCand (proposta de governo anexada ao registro)",
         "legivel": true
       },
-      "foto": "data/fotos/280002541457.jpg"
+      "foto": "data/fotos/280002541457.jpg",
+      "campanha": {
+        "receitas": 1082389.16,
+        "despesas": 1050122.62,
+        "fundo_publico_e_partido": 1074389.0,
+        "maiores_doadores": [
+          {
+            "nome": "Direção Nacional - PSTU",
+            "valor": 1074389.0
+          },
+          {
+            "nome": "JOSE MARIA DE ALMEIDA",
+            "valor": 3000.0
+          },
+          {
+            "nome": "VERA LUCIA PEREIRA DA SILVA SALGADO",
+            "valor": 3000.0
+          },
+          {
+            "nome": "EMMANUEL OLIVEIRA DA SILVA",
+            "valor": 1500.0
+          },
+          {
+            "nome": "Orlando Cariello Filho",
+            "valor": 500.0
+          },
+          {
+            "nome": "LUIS FERNANDO",
+            "valor": 0.16
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 655122.62,
+        "maiores_fornecedores": [
+          {
+            "nome": "OPINIAO SOCIALISTA LTDA",
+            "valor": 190000.0
+          },
+          {
+            "nome": "PROJETO IP GRAFIS SOLUCOES GRAFICAS LTDA",
+            "valor": 178000.0
+          },
+          {
+            "nome": "MULTIDAO COMUNICACAO E PRODUCAO LTDA",
+            "valor": 170000.0
+          },
+          {
+            "nome": "FRANCISCO DE ASSIS SILVA FILHO",
+            "valor": 135000.0
+          },
+          {
+            "nome": "ILAESE MG",
+            "valor": 125000.0
+          },
+          {
+            "nome": "OPUS CONSULTORIA E PESQUISA LTDA",
+            "valor": 40000.0
+          },
+          {
+            "nome": "BASE LAB CONSULTORIA POLITICA LTDA",
+            "valor": 35000.0
+          },
+          {
+            "nome": "DW CONTABILIDADE E ASSESSORIA LTDA",
+            "valor": 35000.0
+          },
+          {
+            "nome": "REJANE SILVA DE OLIVEIRA",
+            "valor": 28000.0
+          },
+          {
+            "nome": "ASTERUS VIAGENS LTDA",
+            "valor": 27408.26
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Serviços prestados por terceiros",
+            "valor": 520000.0
+          },
+          {
+            "tipo": "Publicidade por adesivos",
+            "valor": 141500.0
+          },
+          {
+            "tipo": "Serviços advocatícios",
+            "valor": 135000.0
+          },
+          {
+            "tipo": "Doações financeiras a outros candidatos/partidos",
+            "valor": 75000.0
+          },
+          {
+            "tipo": "Publicidade por materiais impressos",
+            "valor": 42700.0
+          },
+          {
+            "tipo": "Pesquisas ou testes eleitorais",
+            "valor": 40000.0
+          }
+        ]
+      }
     },
     {
       "id": "rui-costa-pimenta",
@@ -4963,7 +6141,33 @@
         "fonte": "TSE DivulgaCand (proposta de governo anexada ao registro)",
         "legivel": true
       },
-      "foto": "data/fotos/280002552487.jpg"
+      "foto": "data/fotos/280002552487.jpg",
+      "campanha": {
+        "receitas": 6271.0,
+        "despesas": 137.3,
+        "fundo_publico_e_partido": 0.0,
+        "maiores_doadores": [
+          {
+            "nome": "QueroApoiar.com.br",
+            "valor": 6271.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 137.3,
+        "maiores_fornecedores": [
+          {
+            "nome": "QueroApoiar.com.br",
+            "valor": 137.3
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Taxa de administração de financiamento coletivo",
+            "valor": 137.3
+          }
+        ]
+      }
     },
     {
       "id": "leonardo-avalanche",
@@ -5249,7 +6453,69 @@
         "fonte": "TSE DivulgaCand (proposta de governo anexada ao registro)",
         "legivel": true
       },
-      "foto": "data/fotos/280002553884.jpg"
+      "foto": "data/fotos/280002553884.jpg",
+      "campanha": {
+        "receitas": 9621.529999999999,
+        "despesas": 0.0,
+        "fundo_publico_e_partido": 0.0,
+        "maiores_doadores": [
+          {
+            "nome": "CARLOS EDUARDO DOS SANTOS PORFIRIO",
+            "valor": 500.0
+          },
+          {
+            "nome": "RAFAEL MARCOS DE SOUZA",
+            "valor": 500.0
+          },
+          {
+            "nome": "BRUNO TURTERA PIERRO",
+            "valor": 459.0
+          },
+          {
+            "nome": "JOSIVALDO R BESERRA",
+            "valor": 200.0
+          },
+          {
+            "nome": "DANILO MARTINS BARBOZA DA SILVA",
+            "valor": 200.0
+          },
+          {
+            "nome": "MAICON JOSE INACIO",
+            "valor": 200.0
+          },
+          {
+            "nome": "CARLOS HENRIQUE LOPES BASONI",
+            "valor": 200.0
+          },
+          {
+            "nome": "IGOR GENTIL RAMOS BELCHIOR",
+            "valor": 150.0
+          },
+          {
+            "nome": "RHANNA YUMI MOREIRA TAMOTI",
+            "valor": 128.0
+          },
+          {
+            "nome": "LUIS GUSTAVO PRIA DE OLIVEIRA CAMPOS",
+            "valor": 100.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": null,
+        "maiores_fornecedores": [
+          {
+            "nome": "#NULO",
+            "valor": 0.0
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "#nulo",
+            "valor": 0.0
+          }
+        ]
+      }
     },
     {
       "id": "ricardo-ferraco",
@@ -7962,7 +9228,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 616620.36,
         "maiores_fornecedores": [
           {
             "nome": "ON CONTENT FILMES LTDA",
@@ -8426,7 +9692,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2941637.45,
         "maiores_fornecedores": [
           {
             "nome": "ACROPOLE ESTRATEGIA LTDA",
@@ -10762,7 +12028,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1790367.21,
         "maiores_fornecedores": [
           {
             "nome": "CANDELA ESTRATEGIA E COMUNICACAO LTDA",
@@ -11059,7 +12325,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 61662.0,
         "maiores_fornecedores": [
           {
             "nome": "53.641.003HENRIQUEBARBOSADEOLIVEIRA",
@@ -14975,7 +16241,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 968836.02,
         "maiores_fornecedores": [
           {
             "nome": "FELIPE GABURRO BARBOSA",
@@ -16991,7 +18257,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 21132.53,
         "maiores_fornecedores": [
           {
             "nome": "FONTANA ARTES GRAFICAS LTDA",
@@ -18794,7 +20060,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1779647.87,
         "maiores_fornecedores": [
           {
             "nome": "ON CONTENT FILMES LTDA",
@@ -20280,7 +21546,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 735237.5,
         "maiores_fornecedores": [
           {
             "nome": "MARCHESI COMUNICACAO VISUAL LTDA",
@@ -20751,7 +22017,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 42490.0,
         "maiores_fornecedores": [
           {
             "nome": "VT GARGARO FILMES LTDA",
@@ -23494,7 +24760,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 883031.69,
         "maiores_fornecedores": [
           {
             "nome": "MEGA COMERCIO E SERVICOS LTDA",
@@ -23829,7 +25095,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2342655.41,
         "maiores_fornecedores": [
           {
             "nome": "ROCK JONES FILMES LTDA",
@@ -24226,7 +25492,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 68412.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -24540,7 +25806,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 45370.0,
         "maiores_fornecedores": [
           {
             "nome": "FONTANA ARTES GRAFICAS LTDA",
@@ -24797,7 +26063,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 19795.3,
         "maiores_fornecedores": [
           {
             "nome": "ANDERSON SOUZA DOS SANTOS",
@@ -25118,7 +26384,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 47958.49,
         "maiores_fornecedores": [
           {
             "nome": "MARCHESI COMUNICACAO VISUAL LTDA",
@@ -26486,7 +27752,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1069733.92,
         "maiores_fornecedores": [
           {
             "nome": "MAXXI VIX COMERCIO ATACADISTA E REPRESENTACAO LTDA",
@@ -28016,7 +29282,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 149907.66,
         "maiores_fornecedores": [
           {
             "nome": "FERNANDO CARREIRO CONSULTORES ASSOCIADOS S/S LTDA",
@@ -29114,7 +30380,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 298900.0,
         "maiores_fornecedores": [
           {
             "nome": "EXB SOLUCOES CONTABEIS LTDA",
@@ -30575,7 +31841,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 191839.33,
         "maiores_fornecedores": [
           {
             "nome": "SOM PRA DEDEL LTDA",
@@ -31631,7 +32897,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 294049.04,
         "maiores_fornecedores": [
           {
             "nome": "THAYS LARA DIAS RAMOS",
@@ -33134,7 +34400,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 25000.0,
         "maiores_fornecedores": [
           {
             "nome": "TIAGO BATISTA CARDOSO",
@@ -34381,7 +35647,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 302558.87,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA E EDITORA JEP LTDA",
@@ -35079,7 +36345,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 437959.81,
         "maiores_fornecedores": [
           {
             "nome": "A G M VAGO AGV - GRAFICA E EDITORA  LTDA",
@@ -35574,7 +36840,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 202693.15,
         "maiores_fornecedores": [
           {
             "nome": "REZENDE GESTAO DE COMUNICACAO ESTRATEGICA LTDA",
@@ -35924,7 +37190,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 591079.81,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -36351,7 +37617,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 687018.31,
         "maiores_fornecedores": [
           {
             "nome": "REPUBLICA MARKETING E CONSULTORIA LTDA",
@@ -36694,7 +37960,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 49296.65,
         "maiores_fornecedores": [
           {
             "nome": "LANNES COMERCIO E SERVICOS LTDA",
@@ -37065,7 +38331,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1261351.78,
         "maiores_fornecedores": [
           {
             "nome": "PUBLICACOES CONECTADAS LTDA",
@@ -37485,7 +38751,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5000.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -37993,7 +39259,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 29400.0,
         "maiores_fornecedores": [
           {
             "nome": "JORNAL CANELA VERDE LTDA",
@@ -38293,7 +39559,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 30500.0,
         "maiores_fornecedores": [
           {
             "nome": "COPIGRAFICA GRAFICA E EDITORA LTDA",
@@ -38727,7 +39993,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 64197.89,
         "maiores_fornecedores": [
           {
             "nome": "PUMA TRANSPORTES E SERVICOS LTDA",
@@ -39108,7 +40374,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 4409.81,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -39462,7 +40728,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 774382.54,
         "maiores_fornecedores": [
           {
             "nome": "EVAG COMUNICACAO E TECNOLOGIA LTDA.",
@@ -39844,7 +41110,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 140463.5,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -40249,7 +41515,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 293139.22,
         "maiores_fornecedores": [
           {
             "nome": "FAZ TUDO PROMOCIONAL LTDA",
@@ -40621,7 +41887,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 146082.0,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA E PAPELARIA CRICARE LTDA",
@@ -40990,7 +42256,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 167003.7,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA E EDITORA FOLLADOR LTDA",
@@ -41356,7 +42622,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 46385.0,
         "maiores_fornecedores": [
           {
             "nome": "BREDA IMPRESSAO DIGITAL LTDA",
@@ -41699,7 +42965,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 17146.62,
         "maiores_fornecedores": [
           {
             "nome": "FABIO LUBE RANGEL 03194198785",
@@ -42046,7 +43312,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 41008.5,
         "maiores_fornecedores": [
           {
             "nome": "24.517.444 FABIO BRUNO ALVES DE ALMEIDA",
@@ -42415,7 +43681,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 199503.22,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -42836,7 +44102,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 53329.37,
         "maiores_fornecedores": [
           {
             "nome": "MARLENE GUZZO",
@@ -43188,7 +44454,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 48816.25,
         "maiores_fornecedores": [
           {
             "nome": "ROZANE GIL GOMES PIFFER 04211024701",
@@ -43499,7 +44765,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 9791.23,
         "maiores_fornecedores": [
           {
             "nome": "W.C. PEREIRA SERVICOS GRAFICOS",
@@ -43812,7 +45078,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 61654.98,
         "maiores_fornecedores": [
           {
             "nome": "CACHOEIRO COMUNICACAO VISUAL INDUSTRIA COMERCIO E SERVICOS LTDA",
@@ -44180,7 +45446,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 74784.3,
         "maiores_fornecedores": [
           {
             "nome": "PERFIL LOCACAO E SERVICOS LTDA",
@@ -44595,7 +45861,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 48268.1,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA E EDITORA JEP LTDA",
@@ -44982,7 +46248,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 23426.28,
         "maiores_fornecedores": [
           {
             "nome": "CORPEL GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
@@ -45397,7 +46663,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 106722.74,
         "maiores_fornecedores": [
           {
             "nome": "PW MARKETING E PUBLICIDADE LTDA",
@@ -46511,7 +47777,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 155333.44,
         "maiores_fornecedores": [
           {
             "nome": "CAMPOS LIRIO   SOUZA ADVOGADOS ASSOCIADOS",
@@ -46782,7 +48048,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 55040.0,
         "maiores_fornecedores": [
           {
             "nome": "GUILHERME REICHERT",
@@ -47711,7 +48977,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 8500.0,
         "maiores_fornecedores": [
           {
             "nome": "Eli de Oliveira Pereira",
@@ -47949,7 +49215,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 491985.48,
         "maiores_fornecedores": [
           {
             "nome": "MARCELO NUNES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
@@ -48374,7 +49640,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 39072.0,
         "maiores_fornecedores": [
           {
             "nome": "MICHELLE LOUISE DA SILVA",
@@ -48654,7 +49920,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 23400.5,
         "maiores_fornecedores": [
           {
             "nome": "GENIVALDO GOREL",
@@ -48904,7 +50170,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 80000.0,
         "maiores_fornecedores": [
           {
             "nome": "ALMIR NERES DE SOUZA",
@@ -49235,7 +50501,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 14600.0,
         "maiores_fornecedores": [
           {
             "nome": "CHARLES BATISTA VIEIRA",
@@ -49418,7 +50684,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2.0,
         "maiores_fornecedores": [
           {
             "nome": "#NULO",
@@ -49714,7 +50980,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7666.7,
         "maiores_fornecedores": [
           {
             "nome": "CELULA MASTER LTDA",
@@ -50147,7 +51413,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 67000.47,
         "maiores_fornecedores": [
           {
             "nome": "EDWALDO GONÇALVES MUNIZ",
@@ -50372,7 +51638,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1504.0,
         "maiores_fornecedores": [
           {
             "nome": "58.742.456 MICHAEL JUNIO SANTOS DE SOUZA",
@@ -50551,7 +51817,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 22454.7,
         "maiores_fornecedores": [
           {
             "nome": "PROPAGARE CONSULTORIA EM PUBLICIDADE LTDA",
@@ -50755,7 +52021,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7000.0,
         "maiores_fornecedores": [
           {
             "nome": "GABRIEL GUSTAVO SOUZA COSTA",
@@ -50944,7 +52210,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 9382.12,
         "maiores_fornecedores": [
           {
             "nome": "A G M VAGO AGV - GRAFICA E EDITORA  LTDA",
@@ -51159,7 +52425,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1100.0,
         "maiores_fornecedores": [
           {
             "nome": "HUGO PARAIZO",
@@ -51354,7 +52620,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 29441.31,
         "maiores_fornecedores": [
           {
             "nome": "PROPAGARE CONSULTORIA EM PUBLICIDADE LTDA",
@@ -51629,7 +52895,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 42330.75,
         "maiores_fornecedores": [
           {
             "nome": "V. P. SOLUCAO E IMPRESSAO LTDA",
@@ -52105,7 +53371,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7616.5,
         "maiores_fornecedores": [
           {
             "nome": "51.607.813 RODRIGO DA SILVA CONCEICAO",
@@ -52855,7 +54121,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 383121.73,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -53113,7 +54379,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 34621.5,
         "maiores_fornecedores": [
           {
             "nome": "C.F.S GRAFICA LTDA",
@@ -53340,7 +54606,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2938.98,
         "maiores_fornecedores": [
           {
             "nome": "STEPHANO OLVIEIRA CICARINI CAMPOS",
@@ -53577,7 +54843,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 18847.0,
         "maiores_fornecedores": [
           {
             "nome": "MARCO AURELIO MEIRELES GUILHERMINO",
@@ -54179,7 +55445,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 931.0,
         "maiores_fornecedores": [
           {
             "nome": "LUZ E ACO COM E SERVICOS LTDA",
@@ -54818,7 +56084,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1400.0,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA VENDA NOVA LTDA",
@@ -55084,7 +56350,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 46824.71,
         "maiores_fornecedores": [
           {
             "nome": "ISABELLI SERRA GALVÃO",
@@ -55353,7 +56619,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 36289.28,
         "maiores_fornecedores": [
           {
             "nome": "LOCALIZA RENT A CAR SA",
@@ -55910,7 +57176,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 103964.08,
         "maiores_fornecedores": [
           {
             "nome": "A CASA COMUNICACAO LTDA",
@@ -56214,7 +57480,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 16375.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -56461,7 +57727,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2281.08,
         "maiores_fornecedores": [
           {
             "nome": "28.814.856 KENEDY COSTA",
@@ -56698,7 +57964,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1640.69,
         "maiores_fornecedores": [
           {
             "nome": "ML COMUNICACAO VISUAL E EVENTOS LTDA",
@@ -56938,7 +58204,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 3112.89,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -57402,7 +58668,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 3180.0,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA COMERCIAL LTDA",
@@ -57654,7 +58920,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 81900.5,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -58049,7 +59315,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2161.5,
         "maiores_fornecedores": [
           {
             "nome": "JEFERSON LOPES PERES",
@@ -58821,7 +60087,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 11201.0,
         "maiores_fornecedores": [
           {
             "nome": "ANA BEATRIZ BATISTA VIDAL",
@@ -59109,7 +60375,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 44254.23,
         "maiores_fornecedores": [
           {
             "nome": "GILBERTO JOSE COSMO",
@@ -59377,7 +60643,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7287.5,
         "maiores_fornecedores": [
           {
             "nome": "RICHARD DA SILVA SOARES",
@@ -59985,7 +61251,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 22025.0,
         "maiores_fornecedores": [
           {
             "nome": "AGENCIA FHER LTDA",
@@ -60620,7 +61886,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 3098855.47,
         "maiores_fornecedores": [
           {
             "nome": "MAR PRODUCOES GRAFICAS LTDA",
@@ -61051,7 +62317,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 44160.56,
         "maiores_fornecedores": [
           {
             "nome": "PATRIK GONCALVES DE MENEZES",
@@ -61312,7 +62578,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 157768.49,
         "maiores_fornecedores": [
           {
             "nome": "PLOTTEC IMPRESSOES E PROJETOS LTDA",
@@ -61798,7 +63064,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 42503.5,
         "maiores_fornecedores": [
           {
             "nome": "ALMIR NERES DE SOUZA",
@@ -62007,7 +63273,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 8500.0,
         "maiores_fornecedores": [
           {
             "nome": "DAVID DE OLIVEIRA GOMES",
@@ -62443,7 +63709,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1327.65,
         "maiores_fornecedores": [
           {
             "nome": "GRACAL GRAFICA E EDITORA LTDA",
@@ -62977,7 +64243,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 187293.45,
         "maiores_fornecedores": [
           {
             "nome": "PETTERSON FERREIRA",
@@ -63225,7 +64491,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 429.0,
         "maiores_fornecedores": [
           {
             "nome": "Quero Apoiar",
@@ -63469,7 +64735,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1002.07,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -63827,7 +65093,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 155244.0,
         "maiores_fornecedores": [
           {
             "nome": "AUDIFAX CHARLES PIMENTEL BARCELOS",
@@ -64107,7 +65373,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 467290.44,
         "maiores_fornecedores": [
           {
             "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
@@ -64545,7 +65811,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5114.7,
         "maiores_fornecedores": [
           {
             "nome": "LUZ E ACO COM E SERVICOS LTDA",
@@ -64831,7 +66097,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 57263.65,
         "maiores_fornecedores": [
           {
             "nome": "Cláudio César Mattos Paiva",
@@ -65093,7 +66359,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7304.0,
         "maiores_fornecedores": [
           {
             "nome": "JOSE GUMS",
@@ -65369,7 +66635,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 26893.3,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -65658,7 +66924,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 28450.0,
         "maiores_fornecedores": [
           {
             "nome": "GM GRAFICA   EDITORA LTDA",
@@ -66317,7 +67583,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7620.16,
         "maiores_fornecedores": [
           {
             "nome": "ABDON CONTABILIDADE E CONSULTORIA LTDA",
@@ -66621,7 +67887,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 37000.0,
         "maiores_fornecedores": [
           {
             "nome": "CONTABILIDADE MACIEL LTDA",
@@ -66871,7 +68137,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7269.5,
         "maiores_fornecedores": [
           {
             "nome": "JAILSON NASCIMENTO",
@@ -67120,7 +68386,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 38668.0,
         "maiores_fornecedores": [
           {
             "nome": "NP SOUND BRASIL LTDA",
@@ -67358,7 +68624,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 6350.0,
         "maiores_fornecedores": [
           {
             "nome": "67.858.588 MATHEUS ERBISTE PINTO",
@@ -67530,7 +68796,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 20596.0,
         "maiores_fornecedores": [
           {
             "nome": "49.181.846 JOYLSON RICARDO ZANOTTI",
@@ -67793,7 +69059,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 25696.0,
         "maiores_fornecedores": [
           {
             "nome": "MASTER LOCADORA DE VEICULOS LTDA",
@@ -68265,7 +69531,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 4000.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -68470,7 +69736,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7000.0,
         "maiores_fornecedores": [
           {
             "nome": "BREDA IMPRESSAO DIGITAL LTDA",
@@ -68733,7 +69999,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 29000.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -69127,7 +70393,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 3000.0,
         "maiores_fornecedores": [
           {
             "nome": "GENESIS SOLUCOES OPERACIONAIS LTDA",
@@ -69334,7 +70600,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7246.5,
         "maiores_fornecedores": [
           {
             "nome": "DUETTO MARKETING LTDA",
@@ -69947,7 +71213,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 6375.0,
         "maiores_fornecedores": [
           {
             "nome": "30.771.132 ANA PAULA DEBRUEM CACHUBA",
@@ -70340,7 +71606,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 134.28,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -70775,7 +72041,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5855.0,
         "maiores_fornecedores": [
           {
             "nome": "50.554.672 LEONARDO PLAZZI ZAPPI",
@@ -71017,7 +72283,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2100.0,
         "maiores_fornecedores": [
           {
             "nome": "65.387.097 MORGANA COUTINHO DE FREITAS GOLDNER",
@@ -71890,7 +73156,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 219802.28,
         "maiores_fornecedores": [
           {
             "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
@@ -72134,7 +73400,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 38568.0,
         "maiores_fornecedores": [
           {
             "nome": "JHONATA RUBI ALVES DOS SANTOS",
@@ -72356,7 +73622,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 56146.0,
         "maiores_fornecedores": [
           {
             "nome": "RODRIGO ALVES NARCIZO",
@@ -72874,7 +74140,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2000.0,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA E EDITORA JEP LTDA",
@@ -73158,7 +74424,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2045.89,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA CENTRAL LTDA",
@@ -73410,7 +74676,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 4820.0,
         "maiores_fornecedores": [
           {
             "nome": "CORPEL GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
@@ -73753,7 +75019,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 22900.0,
         "maiores_fornecedores": [
           {
             "nome": "HIGH QUALITY COMUNICACAO VISUAL LTDA",
@@ -74189,7 +75455,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7342.5,
         "maiores_fornecedores": [
           {
             "nome": "DEVANIR TEODORO",
@@ -74388,7 +75654,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5000.0,
         "maiores_fornecedores": [
           {
             "nome": "NEWERA INTERMEDIACOES E SERVICOS LTDA",
@@ -74544,7 +75810,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2417.54,
         "maiores_fornecedores": [
           {
             "nome": "RENATO SOUZA FERNANDES",
@@ -75845,7 +77111,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 31274.45,
         "maiores_fornecedores": [
           {
             "nome": "LORE COMUNICACAO LTDA",
@@ -76099,7 +77365,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 9999.5,
         "maiores_fornecedores": [
           {
             "nome": "IMPRINT 2001 GRAFICA E EDITORA LTDA",
@@ -76317,7 +77583,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7601.0,
         "maiores_fornecedores": [
           {
             "nome": "LUIZ GOMES",
@@ -76600,7 +77866,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 16000.0,
         "maiores_fornecedores": [
           {
             "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
@@ -78412,7 +79678,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 113681.01,
         "maiores_fornecedores": [
           {
             "nome": "PLOTTEC IMPRESSOES E PROJETOS LTDA",
@@ -78662,7 +79928,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 549375.07,
         "maiores_fornecedores": [
           {
             "nome": "MARCHESI COMUNICACAO VISUAL LTDA",
@@ -78902,7 +80168,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 24144.0,
         "maiores_fornecedores": [
           {
             "nome": "29.298.763 LUANA DOS SANTOS CARVALHO",
@@ -79171,7 +80437,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 15439.5,
         "maiores_fornecedores": [
           {
             "nome": "LINDEMBERG ALVES VITORIANO",
@@ -79460,7 +80726,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 243031.76,
         "maiores_fornecedores": [
           {
             "nome": "RAFAELA CORREIA DANTAS - COMERCIAL E GRAFICA DANTAS LTDA",
@@ -79720,7 +80986,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 39500.0,
         "maiores_fornecedores": [
           {
             "nome": "T J INTELIGENCIA EMPRESARIAL LTDA",
@@ -79940,7 +81206,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 26110.5,
         "maiores_fornecedores": [
           {
             "nome": "Maicon Dias da Silva",
@@ -80390,7 +81656,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2509.21,
         "maiores_fornecedores": [
           {
             "nome": "Ailton Antonio Dos Santos Junior",
@@ -80709,7 +81975,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 363569.2,
         "maiores_fornecedores": [
           {
             "nome": "LUCAS CALAZANS TURINI 14886615708",
@@ -81154,7 +82420,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 370.0,
         "maiores_fornecedores": [
           {
             "nome": "BRAZIL BOLSAS LTDA",
@@ -81460,7 +82726,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 179712.5,
         "maiores_fornecedores": [
           {
             "nome": "BREDA IMPRESSAO DIGITAL LTDA",
@@ -81727,7 +82993,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 401.0,
         "maiores_fornecedores": [
           {
             "nome": "VIX PLOTTER SERVICOS LTDA",
@@ -82005,7 +83271,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 129485.64,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA E PAPELARIA CRICARE LTDA",
@@ -82236,7 +83502,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 6501.0,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA BOROTO LTDA",
@@ -82453,7 +83719,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 8575.0,
         "maiores_fornecedores": [
           {
             "nome": "S.I AGENCIA DE PUBLICIDADE COMUNICACAO E TECNOLOGIA LTDA",
@@ -82742,7 +84008,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 123004.5,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -83039,7 +84305,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 317435.11,
         "maiores_fornecedores": [
           {
             "nome": "CORPEL GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
@@ -83326,7 +84592,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 14420.0,
         "maiores_fornecedores": [
           {
             "nome": "PAULO CESAR PEREIRA DA SILVA",
@@ -83552,7 +84818,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 11200.0,
         "maiores_fornecedores": [
           {
             "nome": "ADRIANO PIRES",
@@ -83775,7 +85041,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 15000.0,
         "maiores_fornecedores": [
           {
             "nome": "EDUARDO SERGIO DA SILVA SODRÉ MONSTANS",
@@ -84009,7 +85275,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 4300.0,
         "maiores_fornecedores": [
           {
             "nome": "MATHEUS FREIRE PEREIRA DOS SANTOS",
@@ -84271,7 +85537,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 121918.85,
         "maiores_fornecedores": [
           {
             "nome": "MIRYAN C. R. DA SILVA VIGUINI",
@@ -84505,7 +85771,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10000.0,
         "maiores_fornecedores": [
           {
             "nome": "MARCIA ASSIS DE JESUS",
@@ -84755,7 +86021,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 36820.99,
         "maiores_fornecedores": [
           {
             "nome": "ADRIANA CRISTINA BAIA EDUARDO",
@@ -84985,7 +86251,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 19820.0,
         "maiores_fornecedores": [
           {
             "nome": "LEANDRO COSTA DA SILVA",
@@ -85218,7 +86484,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 33397.25,
         "maiores_fornecedores": [
           {
             "nome": "60.950.741 LUANA RIBEIRO DANTAS",
@@ -85679,7 +86945,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 202.64,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -85889,7 +87155,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 13808.4,
         "maiores_fornecedores": [
           {
             "nome": "LOCALIZA RENT A CAR SA",
@@ -86133,7 +87399,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 15000.0,
         "maiores_fornecedores": [
           {
             "nome": "FILMM MIDIA E MARKETING LTDA",
@@ -86401,7 +87667,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 27417.65,
         "maiores_fornecedores": [
           {
             "nome": "FAZ TUDO PROMOCIONAL LTDA",
@@ -86677,7 +87943,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5841.5,
         "maiores_fornecedores": [
           {
             "nome": "IDEIA SERVICOS PERSONALIZADOS LTDA",
@@ -86886,7 +88152,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 9195.01,
         "maiores_fornecedores": [
           {
             "nome": "WESLEU PEREIRA DE SOUSA",
@@ -87223,7 +88489,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 51100.0,
         "maiores_fornecedores": [
           {
             "nome": "MARCHESI COMUNICACAO VISUAL LTDA",
@@ -87601,7 +88867,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 55328.5,
         "maiores_fornecedores": [
           {
             "nome": "Cleuma Mota",
@@ -87918,7 +89184,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 19159.0,
         "maiores_fornecedores": [
           {
             "nome": "TARDIN   RODRIGUES ADVOGADOS ASSOCIADOS",
@@ -88154,7 +89420,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 99936.2,
         "maiores_fornecedores": [
           {
             "nome": "LUIZ PAULO DE SOUZA VIANNA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
@@ -88547,7 +89813,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 90953.0,
         "maiores_fornecedores": [
           {
             "nome": "FILMM MIDIA E MARKETING LTDA",
@@ -89628,7 +90894,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 21948.36,
         "maiores_fornecedores": [
           {
             "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
@@ -89857,7 +91123,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 400.0,
         "maiores_fornecedores": [
           {
             "nome": "BREDA IMPRESSAO DIGITAL LTDA",
@@ -90837,7 +92103,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 149283.22,
         "maiores_fornecedores": [
           {
             "nome": "Dhiangelis Rian Silva Santos",
@@ -91094,7 +92360,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10000.0,
         "maiores_fornecedores": [
           {
             "nome": "65.613.215 LUCAS BARBOSA SANTOS DA SILVA",
@@ -91495,7 +92761,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 12002.0,
         "maiores_fornecedores": [
           {
             "nome": "VALERIA MEIRA DE SOUZA",
@@ -91722,7 +92988,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 30000.0,
         "maiores_fornecedores": [
           {
             "nome": "LOOPING PUBLICIDADE MARKETING   NEGOCIOS LTDA",
@@ -91940,7 +93206,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 21784.94,
         "maiores_fornecedores": [
           {
             "nome": "WELBERTY GOMES DOMICIANO",
@@ -92157,7 +93423,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 32403.0,
         "maiores_fornecedores": [
           {
             "nome": "MARIA ALCIRENE ALTOÉ MULLER",
@@ -92539,7 +93805,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 169938.0,
         "maiores_fornecedores": [
           {
             "nome": "FONTANA ARTES GRAFICAS LTDA",
@@ -93943,7 +95209,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 441964.0,
         "maiores_fornecedores": [
           {
             "nome": "ALCANTARO VICTOR LAZZARINI CAMPOS",
@@ -94417,7 +95683,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7263.5,
         "maiores_fornecedores": [
           {
             "nome": "Luciano Rodrigo Falcao",
@@ -94653,7 +95919,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 99700.0,
         "maiores_fornecedores": [
           {
             "nome": "RUTE CLEMENTINO CRUZ",
@@ -94894,7 +96160,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 15562.0,
         "maiores_fornecedores": [
           {
             "nome": "REPROGIL SERVICOS E TECNOLOGIA LTDA",
@@ -95098,7 +96364,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 52854.0,
         "maiores_fornecedores": [
           {
             "nome": "DANIELLE MODENEZI NUNES",
@@ -95407,7 +96673,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 102652.01,
         "maiores_fornecedores": [
           {
             "nome": "MARCOS RIBEIRO DO VAL",
@@ -96476,7 +97742,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 4552.5,
         "maiores_fornecedores": [
           {
             "nome": "PRINTESPAÇO SERVIÇOS GRÁFICOS LTDA",
@@ -96847,7 +98113,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1329.37,
         "maiores_fornecedores": [
           {
             "nome": "Uemerson Lucas de Oliveira",
@@ -97243,7 +98509,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5000.0,
         "maiores_fornecedores": [
           {
             "nome": "GENESIS SOLUCOES OPERACIONAIS LTDA",
@@ -97441,7 +98707,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 62117.43,
         "maiores_fornecedores": [
           {
             "nome": "PROPAGARE CONSULTORIA EM PUBLICIDADE LTDA",
@@ -98194,7 +99460,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 25183.0,
         "maiores_fornecedores": [
           {
             "nome": "FABRIZ E DILEN ADVOGADOS ASSOCIADOS",
@@ -98465,7 +99731,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 201414.02,
         "maiores_fornecedores": [
           {
             "nome": "CACHOEIRO COMUNICACAO VISUAL INDUSTRIA COMERCIO E SERVICOS LTDA",
@@ -98707,7 +99973,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1800.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -98880,7 +100146,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 8447.53,
         "maiores_fornecedores": [
           {
             "nome": "HENRIQUE DORNELES PIFER",
@@ -99108,7 +100374,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10000.0,
         "maiores_fornecedores": [
           {
             "nome": "RAYANE QUEIROZ BARBOSA",
@@ -99275,7 +100541,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 14000.0,
         "maiores_fornecedores": [
           {
             "nome": "VINICIUS PHILIP",
@@ -99539,7 +100805,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 4431.13,
         "maiores_fornecedores": [
           {
             "nome": "XPOINT MALHARIA LTDA",
@@ -99754,7 +101020,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 34615.69,
         "maiores_fornecedores": [
           {
             "nome": "PMZ LTDA",
@@ -99984,7 +101250,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 59280.59,
         "maiores_fornecedores": [
           {
             "nome": "CONECTA BRAND ESTRATEGIA E PERFORMANCE LTDA",
@@ -100271,7 +101537,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5000.0,
         "maiores_fornecedores": [
           {
             "nome": "AUTO POSTO TORRES LTDA",
@@ -100553,7 +101819,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 28998.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -100797,7 +102063,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 25000.0,
         "maiores_fornecedores": [
           {
             "nome": "RODOLPHO LYRA AMM",
@@ -101380,7 +102646,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 19845.32,
         "maiores_fornecedores": [
           {
             "nome": "MIRYAN C. R. DA SILVA VIGUINI",
@@ -102253,7 +103519,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 136651.0,
         "maiores_fornecedores": [
           {
             "nome": "RODRIGO ALVES NARCIZO",
@@ -102485,7 +103751,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 36654.5,
         "maiores_fornecedores": [
           {
             "nome": "FABIANO SONEGHETI",
@@ -102787,7 +104053,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 91527.96,
         "maiores_fornecedores": [
           {
             "nome": "LUIZ PAULO DE SOUZA VIANNA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
@@ -103158,7 +104424,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 46432.3,
         "maiores_fornecedores": [
           {
             "nome": "PW MARKETING E PUBLICIDADE LTDA",
@@ -103655,7 +104921,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 6288.0,
         "maiores_fornecedores": [
           {
             "nome": "LOCALIZA RENT A CAR SA",
@@ -104236,7 +105502,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 27898.0,
         "maiores_fornecedores": [
           {
             "nome": "RAFAELA CORREIA DANTAS - COMERCIAL E GRAFICA DANTAS LTDA",
@@ -104778,7 +106044,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 46117.59,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA E EDITORA JEP LTDA",
@@ -105036,7 +106302,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 3625.0,
         "maiores_fornecedores": [
           {
             "nome": "SAMIRA TEIXEIRA DA SILVA",
@@ -105285,7 +106551,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 11310.0,
         "maiores_fornecedores": [
           {
             "nome": "MUNICIPIO DE NOVA VENECIA",
@@ -105537,7 +106803,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 500.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -105741,7 +107007,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 155683.17,
         "maiores_fornecedores": [
           {
             "nome": "Karina Solar de Almeida Gomes Bergmann",
@@ -105985,7 +107251,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 4000.5,
         "maiores_fornecedores": [
           {
             "nome": "QUINELATO GIUSEPPE SOLUCOES WEB E TECNOLOGICAS LTDA",
@@ -106271,7 +107537,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 73472.6,
         "maiores_fornecedores": [
           {
             "nome": "AGENCIA GONDOLA DIGITAL - PLANOS INTEGRADOS DE COMUNICACAO LTDA",
@@ -106832,7 +108098,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 8252.0,
         "maiores_fornecedores": [
           {
             "nome": "ELVANIO DE SOUZA CRUZ",
@@ -107199,7 +108465,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 8840.5,
         "maiores_fornecedores": [
           {
             "nome": "AUGUSTO MARVILA DA SILVA 07394788776",
@@ -107919,7 +109185,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 505313.0,
         "maiores_fornecedores": [
           {
             "nome": "MARCHESI COMUNICACAO VISUAL LTDA",
@@ -108207,7 +109473,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 309942.53,
         "maiores_fornecedores": [
           {
             "nome": "CORPEL GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
@@ -108499,7 +109765,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 417123.46,
         "maiores_fornecedores": [
           {
             "nome": "Heydner Leonardo Rodrigues",
@@ -108770,7 +110036,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 6193.0,
         "maiores_fornecedores": [
           {
             "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
@@ -109058,7 +110324,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 386575.15,
         "maiores_fornecedores": [
           {
             "nome": "CORPEL GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
@@ -109329,7 +110595,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 295414.34,
         "maiores_fornecedores": [
           {
             "nome": "CLAUDIO A TOSTA LTDA",
@@ -109545,7 +110811,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 30.0,
         "maiores_fornecedores": [
           {
             "nome": "55.625.213 MILENI DARC PORTUGAL GOMES",
@@ -109712,7 +110978,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 53386.0,
         "maiores_fornecedores": [
           {
             "nome": "RODRIGO DO NASCIMENTO FERNANDES 14883952762",
@@ -109984,7 +111250,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 48000.0,
         "maiores_fornecedores": [
           {
             "nome": "FONTANA ARTES GRAFICAS LTDA",
@@ -110227,7 +111493,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 3450.0,
         "maiores_fornecedores": [
           {
             "nome": "JOÃO PEDRO PRUCOLI CÔRTES",
@@ -110413,7 +111679,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 300.5,
         "maiores_fornecedores": [
           {
             "nome": "Lucas Gabriel Henrique da Silva",
@@ -110603,7 +111869,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 3750.0,
         "maiores_fornecedores": [
           {
             "nome": "PROPAGARE CONSULTORIA EM PUBLICIDADE LTDA",
@@ -110795,7 +112061,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 598.5,
         "maiores_fornecedores": [
           {
             "nome": "66.408.302 EDUARDA DE MELLO MOURA DOS SANTOS",
@@ -110963,7 +112229,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 8985.0,
         "maiores_fornecedores": [
           {
             "nome": "FONTANA ARTES GRAFICAS LTDA",
@@ -111149,7 +112415,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2296.5,
         "maiores_fornecedores": [
           {
             "nome": "LUCIANA PIMENTEL DA SILVA",
@@ -111493,7 +112759,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 67363.71,
         "maiores_fornecedores": [
           {
             "nome": "MEGA COMERCIO E SERVICOS LTDA",
@@ -111846,7 +113112,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 131468.55,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA E EDITORA JEP LTDA",
@@ -112654,7 +113920,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2350.0,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA PONTO COM EDITORA LTDA",
@@ -113110,7 +114376,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 66357.83,
         "maiores_fornecedores": [
           {
             "nome": "62.834.483 YURI KATRIEL MACHADO ALICIO",
@@ -113343,7 +114609,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 29830.89,
         "maiores_fornecedores": [
           {
             "nome": "EM OFF NOTICIAS AGENCIA E PRODUTORA LTDA",
@@ -113556,7 +114822,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5000.0,
         "maiores_fornecedores": [
           {
             "nome": "57.975.219 ENIVALDO MONTEIRO",
@@ -113909,7 +115175,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 4891.5,
         "maiores_fornecedores": [
           {
             "nome": "PIRULITO COMERCIO E SERVICOS DE AUTOMOVEIS LTDA",
@@ -114111,7 +115377,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 11440.0,
         "maiores_fornecedores": [
           {
             "nome": "FONTANA ARTES GRAFICAS LTDA",
@@ -114301,7 +115567,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 114631.95,
         "maiores_fornecedores": [
           {
             "nome": "PMZ LTDA",
@@ -114577,7 +115843,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 4160.0,
         "maiores_fornecedores": [
           {
             "nome": "Andre Luis de Matos Silva",
@@ -115183,7 +116449,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 30301.5,
         "maiores_fornecedores": [
           {
             "nome": "MARCELO NUNES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
@@ -115444,7 +116710,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 3320.0,
         "maiores_fornecedores": [
           {
             "nome": "BREDA IMPRESSAO DIGITAL LTDA",
@@ -116243,7 +117509,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 25048.6,
         "maiores_fornecedores": [
           {
             "nome": "45.822.779 MARCIO ROBERTO BRAVIM JUNIOR",
@@ -116480,7 +117746,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 4740.49,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -116959,7 +118225,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 73052.6,
         "maiores_fornecedores": [
           {
             "nome": "FACILITTA CONTABILIDADE CONSULTORIA E NEGOCIOS LTDA",
@@ -117223,7 +118489,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10000.0,
         "maiores_fornecedores": [
           {
             "nome": "NEW AGE PRODUTORA LTDA",
@@ -117563,7 +118829,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 50040.16,
         "maiores_fornecedores": [
           {
             "nome": "DANILDO DE OLIVEIRA",
@@ -118392,7 +119658,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10411.5,
         "maiores_fornecedores": [
           {
             "nome": "BREDA IMPRESSAO DIGITAL LTDA",
@@ -118688,7 +119954,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 25605.0,
         "maiores_fornecedores": [
           {
             "nome": "BREDA IMPRESSAO DIGITAL LTDA",
@@ -119210,7 +120476,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 153818.96,
         "maiores_fornecedores": [
           {
             "nome": "J MORO SERVICOS",
@@ -119435,7 +120701,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 11354.54,
         "maiores_fornecedores": [
           {
             "nome": "VLS CAR LOCADORA DE VEICULOS LTDA",
@@ -120510,7 +121776,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 59102.06,
         "maiores_fornecedores": [
           {
             "nome": "64.883.469 GUILHERME DA SILVA SABINO",
@@ -120971,7 +122237,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 21535.51,
         "maiores_fornecedores": [
           {
             "nome": "JOÃO PEREIRA SESARIO NETO",
@@ -121288,7 +122554,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 15001.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -121589,7 +122855,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 9486.69,
         "maiores_fornecedores": [
           {
             "nome": "11.787.170 EMERSON ROGERIO REBULI",
@@ -122178,7 +123444,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 206359.99,
         "maiores_fornecedores": [
           {
             "nome": "JV A MARKETING E CONSULTORIA LTDA",
@@ -122440,7 +123706,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 241319.22,
         "maiores_fornecedores": [
           {
             "nome": "LS NEVES COMERCIAL LTDA",
@@ -122827,7 +124093,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 174219.4,
         "maiores_fornecedores": [
           {
             "nome": "MARCELO NUNES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
@@ -123052,7 +124318,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10002.5,
         "maiores_fornecedores": [
           {
             "nome": "CARLOS ALVES DE JESUS",
@@ -123303,7 +124569,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 24999.0,
         "maiores_fornecedores": [
           {
             "nome": "MIL PAPEIS SERVICOS LTDA",
@@ -123598,7 +124864,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 290881.0,
         "maiores_fornecedores": [
           {
             "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
@@ -123864,7 +125130,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 349162.96,
         "maiores_fornecedores": [
           {
             "nome": "FORTE AUTOMOVEIS LTDA",
@@ -124154,7 +125420,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 568587.37,
         "maiores_fornecedores": [
           {
             "nome": "MIDIA VISIONARIA PAGAMENTOS LTDA",
@@ -124665,7 +125931,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 95020.27,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA ATITUDE LTDA",
@@ -124943,7 +126209,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 129035.47,
         "maiores_fornecedores": [
           {
             "nome": "LIONS MIDIAS OUTDOORS LTDA",
@@ -125187,7 +126453,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 61602.74,
         "maiores_fornecedores": [
           {
             "nome": "47.381.726 ANA CAROLINA LUZ DA SILVA",
@@ -125454,7 +126720,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 59981.08,
         "maiores_fornecedores": [
           {
             "nome": "PROPAGARE CONSULTORIA EM PUBLICIDADE LTDA",
@@ -125706,7 +126972,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 74058.39,
         "maiores_fornecedores": [
           {
             "nome": "PULSO CONTEUDO, PUBLICIDADE, MARKETING E PROPAGANDA LTDA.",
@@ -125980,7 +127246,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 96855.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -126222,7 +127488,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 240205.0,
         "maiores_fornecedores": [
           {
             "nome": "C.F.S GRAFICA LTDA",
@@ -126457,7 +127723,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1302.47,
         "maiores_fornecedores": [
           {
             "nome": "61.338.555 ELIZEU LUCAS VIEIRA DIAS",
@@ -126849,7 +128115,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 240686.23,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -127307,7 +128573,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 16555.5,
         "maiores_fornecedores": [
           {
             "nome": "Devani Carvalho Batista",
@@ -127562,7 +128828,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7501.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -127817,7 +129083,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 8133.7,
         "maiores_fornecedores": [
           {
             "nome": "A G M VAGO AGV - GRAFICA E EDITORA  LTDA",
@@ -128020,7 +129286,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5000.0,
         "maiores_fornecedores": [
           {
             "nome": "ROSANGELA SA SILVA SOUZA",
@@ -128233,7 +129499,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2770.7,
         "maiores_fornecedores": [
           {
             "nome": "TREND. CRIATIVO COLETIVO PRODUCOES DE MIDIA LTDA.",
@@ -128414,7 +129680,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 32205.0,
         "maiores_fornecedores": [
           {
             "nome": "11.787.170 EMERSON ROGERIO REBULI",
@@ -128791,7 +130057,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5000.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -129181,7 +130447,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 74889.5,
         "maiores_fornecedores": [
           {
             "nome": "59.889.168 EDMAR LINO GOMES DIAS",
@@ -129471,7 +130737,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10000.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -130368,7 +131634,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1.18,
         "maiores_fornecedores": [
           {
             "nome": "QueroApoiar.com.br",
@@ -130907,7 +132173,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 4213.19,
         "maiores_fornecedores": [
           {
             "nome": "ARTE E MARCA LTDA",
@@ -131349,7 +132615,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 75960.0,
         "maiores_fornecedores": [
           {
             "nome": "CONTARTE ORGANIZACAO CONTABIL LTDA",
@@ -131884,7 +133150,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 37806.4,
         "maiores_fornecedores": [
           {
             "nome": "ALDO PEREIRA DA SILVA",
@@ -132172,7 +133438,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 21458.33,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA E EDITORA JEP LTDA",
@@ -132503,7 +133769,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 63283.5,
         "maiores_fornecedores": [
           {
             "nome": "CORPEL GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
@@ -132748,7 +134014,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2800.0,
         "maiores_fornecedores": [
           {
             "nome": "65.142.539 BIANCA GOMES GIANNINI DA COSTA",
@@ -132983,7 +134249,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 23086.8,
         "maiores_fornecedores": [
           {
             "nome": "MARKA PRINT LTDA",
@@ -133228,7 +134494,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 9250.0,
         "maiores_fornecedores": [
           {
             "nome": "Deivid Rogerio da Penha Almeida",
@@ -134060,7 +135326,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 3490.0,
         "maiores_fornecedores": [
           {
             "nome": "VIX ASSESSORIA E CONSULTORIA EMPRESARIAL LTDA",
@@ -134331,7 +135597,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 6750.5,
         "maiores_fornecedores": [
           {
             "nome": "RAFAELA CORREIA DANTAS - COMERCIAL E GRAFICA DANTAS LTDA",
@@ -134729,7 +135995,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5000.0,
         "maiores_fornecedores": [
           {
             "nome": "RHAMON DA SILVA MACEDO 07971166729",
@@ -134937,7 +136203,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10713.97,
         "maiores_fornecedores": [
           {
             "nome": "NP SOUND BRASIL LTDA",
@@ -135158,7 +136424,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 20335.81,
         "maiores_fornecedores": [
           {
             "nome": "JECONIAS ROCHA BARBOSA",
@@ -135430,7 +136696,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 19606.77,
         "maiores_fornecedores": [
           {
             "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
@@ -135777,7 +137043,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 7200.0,
         "maiores_fornecedores": [
           {
             "nome": "RUY WILKER DANTAS TOLENTINO MARQUES",
@@ -135984,7 +137250,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 6146.64,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -137177,7 +138443,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 259486.0,
         "maiores_fornecedores": [
           {
             "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
@@ -138113,7 +139379,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 550.5,
         "maiores_fornecedores": [
           {
             "nome": "SOUTO COMUNICACAO CENOGRAFICA LTDA",
@@ -138541,7 +139807,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 223274.81,
         "maiores_fornecedores": [
           {
             "nome": "MAGIC STUDIOS SOLUCOES EMPRESARIAIS LTDA",
@@ -138814,7 +140080,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 9.95,
         "maiores_fornecedores": [
           {
             "nome": "QueroApoiar.com.br",
@@ -139061,7 +140327,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 180420.11,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -139304,7 +140570,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 16001.0,
         "maiores_fornecedores": [
           {
             "nome": "JOICE RODRIGUES PEREIRA",
@@ -139672,7 +140938,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 80583.0,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA E EDITORA QUATRO I LTDA",
@@ -140187,7 +141453,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 167.29,
         "maiores_fornecedores": [
           {
             "nome": "38.322.986 BRENDA ALMEIDA DALBEM PAGANOTTE",
@@ -140380,7 +141646,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 700.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -140755,7 +142021,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 203.7,
         "maiores_fornecedores": [
           {
             "nome": "LWSA S/A",
@@ -140955,7 +142221,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2183.63,
         "maiores_fornecedores": [
           {
             "nome": "21.357.977 ERINEIA AMANCIO DE DEUS",
@@ -141264,7 +142530,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 99935.9,
         "maiores_fornecedores": [
           {
             "nome": "WETRADE DIGITAL LTDA",
@@ -141621,7 +142887,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 339615.1,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA E EDITORA JEP LTDA",
@@ -141917,7 +143183,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 88662.0,
         "maiores_fornecedores": [
           {
             "nome": "MATEUS QUEIROZ BASTOS",
@@ -142314,7 +143580,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 63770.89,
         "maiores_fornecedores": [
           {
             "nome": "FAZ TUDO PROMOCIONAL LTDA",
@@ -142583,7 +143849,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2800.0,
         "maiores_fornecedores": [
           {
             "nome": "11.787.170 EMERSON ROGERIO REBULI",
@@ -142792,7 +144058,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 26918.89,
         "maiores_fornecedores": [
           {
             "nome": "LYCIA SILVA SIQUEIRA COUTINHO",
@@ -143018,7 +144284,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 11941.29,
         "maiores_fornecedores": [
           {
             "nome": "A G M VAGO AGV - GRAFICA E EDITORA  LTDA",
@@ -143273,7 +144539,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 40172.5,
         "maiores_fornecedores": [
           {
             "nome": "KINSLER EMPREENDIMENTOS IMOBILIARIOS LTDA",
@@ -143602,7 +144868,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10000.0,
         "maiores_fornecedores": [
           {
             "nome": "BREDA SUBLIMACAO LTDA",
@@ -143804,7 +145070,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 31891.66,
         "maiores_fornecedores": [
           {
             "nome": "A G M VAGO AGV - GRAFICA E EDITORA  LTDA",
@@ -144011,7 +145277,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10000.0,
         "maiores_fornecedores": [
           {
             "nome": "MIGUEL BINDA",
@@ -144238,7 +145504,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 20000.0,
         "maiores_fornecedores": [
           {
             "nome": "JEFFERSON GALOTE DE AMORIM",
@@ -144455,7 +145721,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2900.0,
         "maiores_fornecedores": [
           {
             "nome": "AQUARELA PERSONAL PRINT LTDA",
@@ -144827,7 +146093,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2349.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -145053,7 +146319,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 3400.0,
         "maiores_fornecedores": [
           {
             "nome": "FONTANA ARTES GRAFICAS LTDA",
@@ -145470,7 +146736,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10874.7,
         "maiores_fornecedores": [
           {
             "nome": "CELULA MASTER LTDA",
@@ -146029,7 +147295,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 52835.5,
         "maiores_fornecedores": [
           {
             "nome": "PINTO LIMA TRANSPORTES LTDA",
@@ -146319,7 +147585,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 48598.79,
         "maiores_fornecedores": [
           {
             "nome": "CACHOEIRO COMUNICACAO VISUAL INDUSTRIA COMERCIO E SERVICOS LTDA",
@@ -146577,7 +147843,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 19500.0,
         "maiores_fornecedores": [
           {
             "nome": "CELULA MASTER LTDA",
@@ -146864,7 +148130,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 34361.67,
         "maiores_fornecedores": [
           {
             "nome": "LEANDRO BOCHOU TEIXEIRA",
@@ -147330,7 +148596,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 11600.0,
         "maiores_fornecedores": [
           {
             "nome": "LUZ COMUNIC LTDA",
@@ -147586,7 +148852,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1850.5,
         "maiores_fornecedores": [
           {
             "nome": "A L R COELHO LTDA",
@@ -147775,7 +149041,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 8500.0,
         "maiores_fornecedores": [
           {
             "nome": "LUDMILLA P SILVA",
@@ -147952,7 +149218,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 12000.0,
         "maiores_fornecedores": [
           {
             "nome": "ANDRE LUIZ DE MARTINS SOUZA",
@@ -148133,7 +149399,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 12000.0,
         "maiores_fornecedores": [
           {
             "nome": "VERA LUCIA ALVES",
@@ -148501,7 +149767,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 8499.5,
         "maiores_fornecedores": [
           {
             "nome": "RIO MARINHO COMERCIO E SERVICOS LTDA",
@@ -148908,7 +150174,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2449.7,
         "maiores_fornecedores": [
           {
             "nome": "47.580.804 WESLEY SOUZA CHAVES",
@@ -149284,7 +150550,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 39331.0,
         "maiores_fornecedores": [
           {
             "nome": "CANDELA ESTRATEGIA E COMUNICACAO LTDA",
@@ -149516,7 +150782,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5000.0,
         "maiores_fornecedores": [
           {
             "nome": "28.282.261 IZALINA MERICK SCHERRES ROCHA SILVEIRA",
@@ -149779,7 +151045,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 15980.57,
         "maiores_fornecedores": [
           {
             "nome": "PULSO CONTEUDO, PUBLICIDADE, MARKETING E PROPAGANDA LTDA.",
@@ -150038,7 +151304,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 36699.28,
         "maiores_fornecedores": [
           {
             "nome": "RAFAEL COSTA",
@@ -151549,7 +152815,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 43367.1,
         "maiores_fornecedores": [
           {
             "nome": "JESSICA SANTOS ASSIS",
@@ -152323,7 +153589,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 622104.62,
         "maiores_fornecedores": [
           {
             "nome": "PRODCOM PRODUCAO COMERCIAL LTDA",
@@ -152581,7 +153847,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 146060.67,
         "maiores_fornecedores": [
           {
             "nome": "51.294.728 SAMARA CRUZ MAXIMO",
@@ -152939,7 +154205,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 531646.82,
         "maiores_fornecedores": [
           {
             "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
@@ -153257,7 +154523,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 605987.71,
         "maiores_fornecedores": [
           {
             "nome": "EBANX PAGAMENTOS LTDA",
@@ -153514,7 +154780,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 37756.88,
         "maiores_fornecedores": [
           {
             "nome": "GRAFCOLOR SOLUCOES GRAFICAS LTDA",
@@ -153789,7 +155055,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2495.79,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -153983,7 +155249,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 0.5,
         "maiores_fornecedores": [
           {
             "nome": "#NULO",
@@ -154287,7 +155553,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 453093.5,
         "maiores_fornecedores": [
           {
             "nome": "BUMERANGUE COMUNICACAO INTEGRADA LTDA",
@@ -154589,7 +155855,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 217782.0,
         "maiores_fornecedores": [
           {
             "nome": "MARCELO NUNES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
@@ -154877,7 +156143,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 58001.19,
         "maiores_fornecedores": [
           {
             "nome": "PROPAGARE CONSULTORIA EM PUBLICIDADE LTDA",
@@ -155240,7 +156506,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 249996.0,
         "maiores_fornecedores": [
           {
             "nome": "INSTITUTO INTERAMERICANO DE TECNOLOGIA E DESENVOLVIMENTO HUMANO",
@@ -155499,7 +156765,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 77552.85,
         "maiores_fornecedores": [
           {
             "nome": "61.643.697 RONIERICK RODRIGUES BRITO",
@@ -155758,7 +157024,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 885.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -155942,7 +157208,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 2526.0,
         "maiores_fornecedores": [
           {
             "nome": "INGRAL INDUSTRIA GRAFICA LTDA",
@@ -156363,7 +157629,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1200.0,
         "maiores_fornecedores": [
           {
             "nome": "AMANDA CONCEICAO DOS SANTOS",
@@ -156960,7 +158226,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 1681.6,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -157422,7 +158688,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 13843.0,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA SANTO ANTONIO LTDA",
@@ -157675,7 +158941,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 6854.98,
         "maiores_fornecedores": [
           {
             "nome": "N. C. RIBEIRO VIEIRA - REVENDA DE VEICULOS",
@@ -157956,7 +159222,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10791.6,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -158468,7 +159734,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 126565.73,
         "maiores_fornecedores": [
           {
             "nome": "BREDA IMPRESSAO DIGITAL LTDA",
@@ -158747,7 +160013,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 24020.5,
         "maiores_fornecedores": [
           {
             "nome": "RAUNEY A PEREIRA",
@@ -158991,7 +160257,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 23699.0,
         "maiores_fornecedores": [
           {
             "nome": "13.955.009 REGINALDO ANDRADE",
@@ -159457,7 +160723,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 4000.0,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -159945,7 +161211,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 78973.63,
         "maiores_fornecedores": [
           {
             "nome": "AQUARELA PERSONAL PRINT LTDA",
@@ -160188,7 +161454,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10489.8,
         "maiores_fornecedores": [
           {
             "nome": "GOTA DE SONHO LTDA",
@@ -160382,7 +161648,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 56.0,
         "maiores_fornecedores": [
           {
             "nome": "FONTANA ARTES GRAFICAS LTDA",
@@ -160542,7 +161808,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 185.0,
         "maiores_fornecedores": [
           {
             "nome": "CORPEL GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
@@ -161164,7 +162430,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 116822.56,
         "maiores_fornecedores": [
           {
             "nome": "LUCIA HELENA FERNANDES LIMA",
@@ -161485,7 +162751,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 62124.96,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -161763,7 +163029,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 95720.92,
         "maiores_fornecedores": [
           {
             "nome": "GRAFICA CENTRAL LTDA",
@@ -162065,7 +163331,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 8666.0,
         "maiores_fornecedores": [
           {
             "nome": "LILIAN KELLY DO NASCIMENTO CARDOZO",
@@ -162335,7 +163601,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 43300.0,
         "maiores_fornecedores": [
           {
             "nome": "ALESSANDRO ALVES PEREIRA",
@@ -162598,7 +163864,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 139786.0,
         "maiores_fornecedores": [
           {
             "nome": "R H FASSARELLA JUNIOR",
@@ -163181,7 +164447,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 32810.41,
         "maiores_fornecedores": [
           {
             "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
@@ -163454,7 +164720,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 34370.18,
         "maiores_fornecedores": [
           {
             "nome": "65.028.324 MARCUS VINICIUS DOS ANJOS FONTENELLE",
@@ -164029,7 +165295,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 760.0,
         "maiores_fornecedores": [
           {
             "nome": "64.382.202 FERNANDA DE BRUIN BILUCAS",
@@ -164750,7 +166016,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 49604.75,
         "maiores_fornecedores": [
           {
             "nome": "Igor Rocha Amorim",
@@ -165049,7 +166315,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 82616.5,
         "maiores_fornecedores": [
           {
             "nome": "PULSO CONTEUDO, PUBLICIDADE, MARKETING E PROPAGANDA LTDA.",
@@ -165560,7 +166826,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 52698.92,
         "maiores_fornecedores": [
           {
             "nome": "FONTANA ARTES GRAFICAS LTDA",
@@ -165845,7 +167111,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5000.0,
         "maiores_fornecedores": [
           {
             "nome": "FABIANO SONEGHETI",
@@ -166071,7 +167337,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 5400.0,
         "maiores_fornecedores": [
           {
             "nome": "FABIANO SONEGHETI",
@@ -166304,7 +167570,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 18776.0,
         "maiores_fornecedores": [
           {
             "nome": "BREDA IMPRESSAO DIGITAL LTDA",
@@ -166610,7 +167876,7 @@
         ],
         "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
         "atualizado_em": "2026-09-28",
-        "despesas_pagas": null,
+        "despesas_pagas": 10236.17,
         "maiores_fornecedores": [
           {
             "nome": "FABIANO SONEGHETI",
