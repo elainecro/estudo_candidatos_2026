@@ -1293,16 +1293,24 @@ def fetch_sancoes(doc, dry_run: bool, so_servidores: bool = False):
             if os.environ.get("DEBUG") and serv:
                 print(f"  DEBUG servidores {c['nome_urna']}: {json.dumps(serv[0], ensure_ascii=False)[:600]}", file=sys.stderr)
             for item in serv or []:
-                # a consulta já é por CPF: o que volta é o próprio candidato
-                fv = item.get("fichaVinculo") or item
-                vinculos.append({"orgao": (fv.get("orgaoServidorLotacao") or {}).get("nome") or fv.get("orgaoLotacao") or (item.get("orgaoServidorExercicio") or {}).get("nome"),
-                                 "cargo": fv.get("cargo") or (item.get("cargo") or {}).get("descricao") or item.get("descricaoCargo"),
-                                 "situacao": fv.get("situacaoVinculo") or item.get("situacao"),
-                                 "tipo": (item.get("tipoServidor") or {}).get("descricao") or item.get("tipoVinculo")})
+                # a consulta já é por CPF: o que volta é o próprio candidato.
+                # Formato observado: {"servidor": {"pessoa": {...}, "situacao": "Ativo", "orgaoServidorLotacao": {"nome": ...},
+                #   "orgaoServidorExercicio": {...}, "nomeOrgaoVinculado": ...}, ...}
+                sv = item.get("servidor") or item
+                fv = item.get("fichaVinculo") or {}
+                lot = (sv.get("orgaoServidorLotacao") or {}).get("nome")
+                exe = (sv.get("orgaoServidorExercicio") or {}).get("nome")
+                orgao = lot if lot and lot != "Não se aplica" else exe
+                vinc = sv.get("nomeOrgaoVinculado")
+                if vinc and vinc not in ("Sem informação", orgao):
+                    orgao = f"{orgao} ({vinc})" if orgao else vinc
+                cargo = (fv.get("cargo") or (item.get("cargo") or {}).get("descricao") if isinstance(item.get("cargo"), dict) else item.get("cargo")) or sv.get("cargo") or item.get("descricaoCargo")
+                tipo = (item.get("tipoServidor") or {}).get("descricao") if isinstance(item.get("tipoServidor"), dict) else item.get("tipoServidor")
+                vinculos.append({"orgao": orgao, "cargo": cargo, "situacao": sv.get("situacao") or fv.get("situacaoVinculo"), "tipo": tipo or (sv.get("pessoa") or {}).get("tipo")})
             if vinculos:
                 servidores += 1
                 c["servidor_federal"] = {"vinculos": vinculos[:5], "fonte": "Portal da Transparência (servidores)", "consultado_em": HOJE}
-                print(f"  servidor federal: {c['nome_urna']} ({vinculos[0].get('cargo') or '?'} · {vinculos[0].get('orgao') or '?'})")
+                print(f"  servidor federal: {c['nome_urna']} ({vinculos[0].get('situacao') or '?'} · {vinculos[0].get('orgao') or '?'}{' · ' + vinculos[0]['cargo'] if vinculos[0].get('cargo') else ''})")
         hits = sum(len(res[k]) for k in ("tcu", "ceis", "cnep", "ceaf"))
         c["sancoes"] = res
         if hits:
