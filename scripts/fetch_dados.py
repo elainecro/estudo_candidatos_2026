@@ -46,6 +46,9 @@ import os
 import pathlib
 import re
 import sys
+
+sys.path.insert(0, str(__import__('pathlib').Path(__file__).resolve().parent))
+import _chaves  # noqa: E402,F401  (lê chaves.env: PORTAL_TRANSPARENCIA_KEY)
 import time
 import unicodedata
 import urllib.parse

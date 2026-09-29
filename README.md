@@ -76,7 +76,7 @@ python3 scripts/fetch_dados.py --links      # links de conferência (instantâne
 
 # 3. Emendas exigem chave gratuita do Portal da Transparência:
 #    https://portaldatransparencia.gov.br/api-de-dados/cadastrar-email
-export PORTAL_TRANSPARENCIA_KEY=cole_a_chave_aqui
+#    Cole em chaves.env (PORTAL_TRANSPARENCIA_KEY=...) ou exporte no shell.
 python3 scripts/fetch_dados.py --emendas
 
 # ou tudo de uma vez (sem emendas se a chave não estiver definida):
@@ -144,7 +144,7 @@ está, o `interpretar_certidoes.py` manda o texto das certidões com apontamento
 modelo de linguagem via OpenRouter (só uns 75 documentos no ES; custa centavos):
 
 ```bash
-export OPENROUTER_API_KEY=sk-or-...
+cp chaves.env.exemplo chaves.env                       # preencha OPENROUTER_API_KEY (fica fora do git)
 python3 scripts/interpretar_certidoes.py --dry-run     # mostra o que iria, sem gastar
 python3 scripts/interpretar_certidoes.py               # grava data/certidoes_interpretacao.json
 python3 scripts/build_bundle.py

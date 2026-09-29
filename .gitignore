@@ -4,3 +4,7 @@ __pycache__/
 dist/
 !data/fotos/
 data/cache/
+chaves.env
+.env/
+.venv/
+venv/

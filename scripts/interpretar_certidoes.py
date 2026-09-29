@@ -19,7 +19,7 @@ data de nascimento, filiação, endereço, e-mail e telefone. O nome do candidat
 porque sem ele não dá para saber o polo.
 
 Uso:
-    export OPENROUTER_API_KEY=sk-or-...
+    cp chaves.env.exemplo chaves.env   # e preencha OPENROUTER_API_KEY
     python3 scripts/interpretar_certidoes.py --dry-run          # mostra o que seria enviado, sem gastar
     python3 scripts/interpretar_certidoes.py                    # todos os candidatos com apontamentos
     python3 scripts/interpretar_certidoes.py --candidato helder # só um (busca por parte do nome)
@@ -47,6 +47,7 @@ import urllib.request
 import zipfile
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import _chaves  # noqa: E402,F401  (lê chaves.env)
 from ler_pdfs import CACHE, CAND, ROOT, RE_SQ, mascarar_pessoais, texto_pdf  # noqa: E402
 
 SAIDA = ROOT / "data" / "certidoes_interpretacao.json"
@@ -254,7 +255,7 @@ def main() -> int:
 
     chave = os.environ.get("OPENROUTER_API_KEY")
     if not chave and not a.dry_run:
-        raise SystemExit("defina OPENROUTER_API_KEY (ou use --dry-run)")
+        raise SystemExit("falta OPENROUTER_API_KEY: preencha em chaves.env (modelo em chaves.env.exemplo) ou use --dry-run")
     if a.refazer and INTERP_CACHE.exists():
         for f in INTERP_CACHE.glob("*.json"):
             f.unlink()
