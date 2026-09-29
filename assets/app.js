@@ -180,6 +180,7 @@
     return '<span class="tag warn">registro em análise</span>';
   }
   function resumoProjetos(c) {
+    if (!c.projetos && c.camara_municipal) return `${c.camara_municipal.projetos?.length || 0} projetos na Câmara de ${esc((c.camara_municipal.casa || '').replace('Câmara Municipal de ', ''))}`;
     if (!c.projetos) return c.tipo_historico === 'sem_mandato' ? 'nunca teve mandato' : 'sem dados de projetos';
     const a = c.projetos.aprovados?.length || 0, t = c.projetos.em_tramitacao?.length || 0;
     if (!a && !t) return 'projetos: sem consolidação';
@@ -296,6 +297,19 @@
       const tabela = rows => `<div class="tabela-wrap"><table class="tabela"><thead><tr><th>Tema</th><th>Quando</th><th>Voto</th></tr></thead><tbody>${rows.map(linha).join('')}</tbody></table></div>`;
       const vp = c.votacoes_chave.filter(principal), vo = c.votacoes_chave.filter(v => !principal(v));
       blocos.push(`<h3>Como votou em temas-chave</h3>${vp.length ? tabela(vp) : '<p class="nota">Nenhuma votação principal identificada; veja todas abaixo.</p>'}${vo.length ? `<details><summary class="nota">Ver as outras ${vo.length} votações (destaques, emendas, requerimentos)</summary>${tabela(vo)}</details>` : ''}<p class="nota">Votações escolhidas em data/votacoes_chave.json. "Principal" é a votação do texto; o resto são destaques e emendas.</p>`);
+    }
+    if (c.camara_municipal) {
+      const cm = c.camara_municipal;
+      const tipos = Object.entries(cm.por_tipo || {}).slice(0, 6).map(([k, v]) => `<li>${esc(k)}: <b>${v}</b></li>`).join('');
+      const sits = Object.entries(cm.por_situacao || {}).slice(0, 5).map(([k, v]) => `${esc(k)} ${v}`).join(' · ');
+      const li = pr => `<li>${pr.url ? `<a href="${esc(pr.url)}" target="_blank" rel="noopener">${esc(pr.tipo || '')} ${esc(pr.numero || '')}</a>` : `<b>${esc(pr.tipo || '')} ${esc(pr.numero || '')}</b>`}${pr.situacao ? ` <span class="tag ${/aprovad|sancion|promulg/i.test(pr.situacao) ? 'ok' : /arquiv|rejeit|retirad/i.test(pr.situacao) ? 'bad' : ''}">${esc(pr.situacao)}</span>` : ''}${pr.data ? ` <i class="obs">${esc(pr.data)}</i>` : ''}${pr.ementa ? `<div class="obs">${esc(pr.ementa.length > 220 ? pr.ementa.slice(0, 220) + '…' : pr.ementa)}</div>` : ''}</li>`;
+      blocos.push(`<h3>Na ${esc(cm.casa || 'Câmara Municipal')}</h3>
+        <p><b>${Number(cm.total_declarado || cm.total_lido || 0).toLocaleString('pt-BR')}</b> proposições de autoria registradas no portal da Câmara${cm.total_lido && cm.total_declarado && cm.total_lido < cm.total_declarado ? ` (${cm.total_lido} lidas)` : ''}. ${sits ? 'Situação: ' + sits + '.' : ''}</p>
+        ${tipos ? `<ul>${tipos}</ul>` : ''}
+        ${cm.temas?.length ? `<p class="obs"><b>Palavras mais frequentes nas ementas:</b> ${cm.temas.map(esc).join(', ')}.</p>` : ''}
+        ${cm.projetos?.length ? `<h4 class="eixo">Projetos (lei, resolução, emenda)</h4><ul>${cm.projetos.slice(0, 15).map(li).join('')}</ul>${cm.projetos.length > 15 ? `<details><summary class="nota">Ver os outros ${cm.projetos.length - 15} projetos</summary><ul>${cm.projetos.slice(15).map(li).join('')}</ul></details>` : ''}` : '<p class="nota">Nenhum projeto de lei, resolução ou emenda localizado; a produção é de indicações e requerimentos.</p>'}
+        ${cm.recentes?.length ? `<details><summary class="nota">Indicações e requerimentos mais recentes (${cm.recentes.length})</summary><ul>${cm.recentes.map(li).join('')}</ul></details>` : ''}
+        <p class="nota">Fonte: <a href="${esc(cm.url)}" target="_blank" rel="noopener">${esc(cm.fonte || cm.casa)}</a>, consultado em ${esc(cm.consultado_em || '')}. Indicação é pedido à prefeitura, sem força de lei; o que vira lei é o projeto aprovado e sancionado.</p>`);
     }
     if (c.gastos?.cota_parlamentar_por_ano) blocos.push(`<h3>Cota parlamentar (gastos reembolsados)</h3><ul>${Object.entries(c.gastos.cota_parlamentar_por_ano).map(([a, v]) => `<li>${a}: ${brl(v)}</li>`).join('')}</ul>`);
     if (c.emendas) blocos.push(`<h3>Emendas parlamentares</h3><p><b>${brl(c.emendas.total_empenhado)}</b> empenhados.</p>${c.emendas.maiores_destinos?.length ? `<ul>${c.emendas.maiores_destinos.map(d => `<li>${esc(d.destino)} · ${brl(d.valor)}</li>`).join('')}</ul>` : ''}`);

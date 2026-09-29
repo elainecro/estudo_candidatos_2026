@@ -670,7 +670,7 @@ def fetch_tse_csv(doc, dry_run: bool):
 AUTO_CAMPOS = ("tse_id", "tse_url", "numero", "situacao", "bens", "certidoes", "certidoes_arquivos", "proposta_governo_arquivos", "eleicoes_anteriores",
                "trocas_de_partido", "vezes_eleito", "campanha", "redes", "tse_complementar", "motivos_registro", "gastos", "comissoes", "votacoes_chave",
                "filiacoes", "emendas", "camara_id", "senado_id", "idade", "ocupacao", "foto", "reeleicao", "escolaridade", "cpf", "sancoes",
-               "servidor_federal", "noticias")
+               "servidor_federal", "noticias", "camara_municipal")
 PALAVRAS_FRACAS = {"dr", "dra", "prof", "professor", "professora", "delegado", "delegada", "capitao", "coronel", "cabo", "sargento", "pastor", "bispo",
                    "engenheiro", "escritor", "da", "de", "do", "das", "dos", "e", "o", "a", "junior", "filho", "neto", "santos", "silva", "souza", "oliveira", "federal", "direita"}
 
