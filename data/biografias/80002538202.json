@@ -1,0 +1,56 @@
+{
+  "texto": "Marcos Ribeiro do Val nasceu em Vitória em 15 de junho de 1971. Segundo o Senado, tem ensino médio completo. Serviu no 38º Batalhão de Infantaria do Exército, em Vila Velha, e é mestre em aikido. No início dos anos 1990 fundou a CATI, empresa de treinamento de policiais em contenção tática não letal. A empresa e o próprio instrutor citam entre os clientes forças policiais do Brasil e do exterior.\n\nFoi eleito senador pelo Espírito Santo em 2018, pelo PPS (hoje Cidadania), com 863.359 votos. Em 2019 mudou para o Podemos e, em abril de 2026, para o Avante. Integra as comissões de Segurança Pública, de Relações Exteriores e Defesa Nacional e a de Constituição e Justiça. Em janeiro de 2025 foi candidato à presidência do Senado.\n\nO Senado registra 112 projetos de sua autoria, quase todos ainda em tramitação. Entre eles estão o PL 82/2023, que destina recursos do Fundo Nacional de Segurança Pública a recompensas por apreensão de armas ilegais, e o PL 1001/2024, que qualifica o homicídio cometido por integrante de facção criminosa. A Comissão de Segurança Pública aprovou projeto seu que cria o Pacto Nacional de Valorização dos Profissionais de Segurança Pública. Desde 2023 responde a medidas do Supremo Tribunal Federal, descritas abaixo. Ele afirma que não é réu nem foi condenado em nenhum processo.",
+  "marcos": [
+    "1971: nasce em Vitória (ES).",
+    "Início dos anos 1990: funda a CATI, empresa de treinamento de policiais.",
+    "2018: eleito senador pelo PPS, com 863.359 votos.",
+    "2019: deixa o PPS e se filia ao Podemos.",
+    "2023: Moraes manda abrir investigação sobre suas declarações a respeito de um suposto plano de golpe.",
+    "2024: Moraes determina bloqueio de R$ 50 milhões por descumprimento de decisões do STF.",
+    "2025: candidata-se à presidência do Senado (janeiro).",
+    "2025: volta dos Estados Unidos após viagem sem autorização e passa a usar tornozeleira (agosto); o STF revoga parte das cautelares no mesmo mês.",
+    "2026: filia-se ao Avante (abril)."
+  ],
+  "controversias": [
+    "2023: Alexandre de Moraes determinou investigação contra o senador por falso testemunho, denunciação caluniosa e coação no curso do processo, depois de ele apresentar versões diferentes sobre uma reunião com Jair Bolsonaro em dezembro de 2022 (Agência Brasil; STF).",
+    "2024: Moraes determinou o bloqueio de R$ 50 milhões em contas do senador por descumprimento de medidas cautelares em inquérito sobre tentativa de golpe. Ele diz que não tem esse valor (Aqui Notícias; Gazeta do Povo).",
+    "2025: voltou dos Estados Unidos em agosto depois de viajar sem autorização judicial, e o STF impôs tornozeleira eletrônica e bloqueio do salário. O senador diz que avisou as autoridades e foi passear com a filha (CNN Brasil; STF).",
+    "2025: em agosto o STF revogou parte das cautelares, como a tornozeleira e o recolhimento noturno, e manteve restrições ao uso de redes sociais (STF)."
+  ],
+  "fontes": [
+    {
+      "titulo": "Quem é Marcos do Val, candidato ao Senado pelo Avante no ES - Folha Vitória",
+      "url": "https://www.folhavitoria.com.br/eleicoes/quem-e-marcos-do-val-candidato-ao-senado-pelo-avante-no-es/"
+    },
+    {
+      "titulo": "Senador Marcos do Val - Senado Federal",
+      "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5942"
+    },
+    {
+      "titulo": "Marcos do Val (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Marcos_do_Val"
+    },
+    {
+      "titulo": "Ministro Alexandre de Moraes determina abertura de investigação contra senador Marcos do Val - STF",
+      "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-determina-abertura-de-investigacao-contra-senador-marcos-do-val/"
+    },
+    {
+      "titulo": "Decisão imputa multa de R$ 50 milhões a Marcos do Val - Aqui Notícias",
+      "url": "https://aquinoticias.com/2024/08/decisao-imputa-multa-de-r-50-milhoes-a-marcos-do-val/"
+    },
+    {
+      "titulo": "Marcos do Val é alvo de operação da PF e colocará tornozeleira eletrônica - CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/politica/marcos-do-val-e-alvo-de-operacao-da-pf-e-coloca-tornozeleira-eletronica/"
+    },
+    {
+      "titulo": "STF revoga parte de medidas cautelares contra senador Marcos do Val",
+      "url": "https://noticias.stf.jus.br/postsnoticias/stf-revoga-parte-de-medidas-cautelares-contra-senador-marcos-do-val/"
+    },
+    {
+      "titulo": "PL 82/2023 - Senado Federal",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/155740"
+    }
+  ],
+  "escrito_em": "2026-09-29",
+  "confianca": "média"
+}
