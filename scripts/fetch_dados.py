@@ -1235,7 +1235,13 @@ def fetch_sancoes(doc, dry_run: bool):
     achados = 0
     respostas = {"ceis": 0, "cnep": 0, "ceaf": 0, "servidores": 0}
     servidores = 0
-    for c in doc["candidatos"]:
+    total = len(doc["candidatos"])
+    if key:
+        print(f"  {total} candidatos x 4 consultas com pausa de 0,7 s: uns {total * 4 * 0.75 / 60:.0f} minutos. Só imprime quando acha algo.")
+    for i, c in enumerate(doc["candidatos"], 1):
+        if i % 50 == 0:
+            print(f"  {i}/{total} consultados ({achados} com sanção, {servidores} servidores)", flush=True)
+            salvar(doc, dry_run)
         cpf = c.get("cpf")
         if not cpf:
             sem_cpf += 1
