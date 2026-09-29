@@ -1218,12 +1218,19 @@ def carregar_tcu() -> list[dict]:
     return linhas
 
 
-def fetch_sancoes(doc, dry_run: bool):
+def fetch_servidores(doc, dry_run: bool):
+    """Só a consulta de servidores federais por CPF (1 pedido por candidato, ~7 min)."""
+    return fetch_sancoes(doc, dry_run, so_servidores=True)
+
+
+def fetch_sancoes(doc, dry_run: bool, so_servidores: bool = False):
     """Cruza cada candidato (por CPF) com: lista do TCU de contas irregulares (CSV local) e, com a chave do
     Portal da Transparência, CEIS, CNEP e CEAF (sanções a empresas, pessoas e servidores) e cadastro de
     servidores federais."""
-    tcu = carregar_tcu()
-    if tcu:
+    tcu = [] if so_servidores else carregar_tcu()
+    if so_servidores:
+        pass
+    elif tcu:
         print(f"  TCU: {len(tcu)} responsáveis na lista local")
     else:
         print("  TCU: nenhum data/cache/tcu_contas_irregulares*.csv; baixe a 'lista de responsáveis com contas julgadas irregulares' em portal.tcu.gov.br e salve com esse nome")
@@ -1236,8 +1243,9 @@ def fetch_sancoes(doc, dry_run: bool):
     respostas = {"ceis": 0, "cnep": 0, "ceaf": 0, "servidores": 0}
     servidores = 0
     total = len(doc["candidatos"])
+    n_cons = 1 if so_servidores else 4
     if key:
-        print(f"  {total} candidatos x 4 consultas com pausa de 0,7 s: uns {total * 4 * 0.75 / 60:.0f} minutos. Só imprime quando acha algo.")
+        print(f"  {total} candidatos x {n_cons} consulta(s) com pausa de 0,7 s: uns {total * n_cons * 0.75 / 60:.0f} minutos. Só imprime quando acha algo.")
     inicio = time.time()
     for i, c in enumerate(doc["candidatos"], 1):
         if i % 10 == 0:
@@ -1251,14 +1259,14 @@ def fetch_sancoes(doc, dry_run: bool):
             sem_cpf += 1
             continue
         nome = c.get("nome_completo") or c["nome_urna"]
-        res = {"verificado_em": HOJE, "tcu": [], "ceis": [], "cnep": [], "ceaf": [], "fontes_consultadas": []}
+        res = c.get("sancoes") if so_servidores and c.get("sancoes") else {"verificado_em": HOJE, "tcu": [], "ceis": [], "cnep": [], "ceaf": [], "fontes_consultadas": []}
         if tcu:
             res["fontes_consultadas"].append("TCU contas irregulares (lista local)")
             for t in tcu:
                 if cpf_bate(cpf, t["cpf"]) or (_nome_normal(t["nome"]) == _nome_normal(nome) and not _so_digitos(t["cpf"])):
                     res["tcu"].append({k: v for k, v in t["linha"].items() if v and "CPF" not in k.upper()})
         if key:
-            for lista, param in (("ceis", "nomeSancionado"), ("cnep", "nomeSancionado"), ("ceaf", "nomeSancionado")):
+            for lista, param in ([] if so_servidores else (("ceis", "nomeSancionado"), ("cnep", "nomeSancionado"), ("ceaf", "nomeSancionado"))):
                 data = get_json(f"{PORTAL_BASE}/{lista}?{param}={urllib.parse.quote(nome)}&pagina=1", headers=h)
                 if data is not None:
                     respostas[lista] += 1
@@ -1412,16 +1420,17 @@ def fetch_links(doc, dry_run: bool):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    for f in ("tse", "contas", "camara", "senado", "emendas", "sancoes", "noticias", "links", "fundir", "tudo"):
+    for f in ("tse", "contas", "camara", "senado", "emendas", "sancoes", "servidores", "noticias", "links", "fundir", "tudo"):
         ap.add_argument(f"--{f}", action="store_true")
     ap.add_argument("--dry-run", action="store_true", help="não grava o JSON")
     a = ap.parse_args()
-    if not any([a.tse, a.contas, a.camara, a.senado, a.emendas, a.sancoes, a.noticias, a.links, a.fundir, a.tudo]):
+    if not any([a.tse, a.contas, a.camara, a.senado, a.emendas, a.sancoes, a.servidores, a.noticias, a.links, a.fundir, a.tudo]):
         ap.error("escolha ao menos uma fonte (ou --tudo)")
     doc = carregar()
     passos = [("TSE", a.tse or a.tudo, fetch_tse), ("Contas de campanha", a.contas or a.tudo, fetch_contas),
               ("Câmara", a.camara or a.tudo, fetch_camara), ("Senado", a.senado or a.tudo, fetch_senado),
               ("Emendas", a.emendas or a.tudo, fetch_emendas), ("Listas de sanção", a.sancoes or a.tudo, fetch_sancoes),
+              ("Servidores federais", a.servidores, fetch_servidores),
               ("Notícias", a.noticias or a.tudo, fetch_noticias),
               ("Fusão de duplicatas", a.fundir, lambda d, dr: (fundir_orfaos(d), salvar(d, dr))), ("Links", a.links or a.tudo, fetch_links)]
     for nome, ligado, fn in passos:
