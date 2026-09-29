@@ -93,18 +93,25 @@ def _normal(s: str) -> str:
     return re.sub(r"[^a-z0-9 ]", " ", s.lower()).split()
 
 
-def listar_autores(html: str) -> dict[str, int]:
-    """'Professor Jocelino(8868)' + primeiro link consulta-producao.aspx?autor=391 -> {'professor jocelino': 391}"""
+def listar_autores(html: str) -> dict[str, dict]:
+    """'Professor Jocelino(8868)' + links consulta-producao.aspx?autor=391&ano=2025 -> {'professor jocelino': {'id': 391, 'anos': [2025, 2026]}}"""
     autores = {}
-    # cada card: título com nome(matrícula) seguido dos links por ano
-    for m in re.finditer(r"class=['\"]card-title collapsed['\"][^>]*>\s*([^<]+?)\s*\(\s*\d+\s*\)\s*<.*?consulta-producao\.aspx\?autor=(\d+)", html, re.S):
+    cards = re.split(r"class=['\"]card-title collapsed['\"]", html)[1:]
+    for card in cards:
+        m = re.match(r"[^>]*>\s*([^<]+?)\s*\(\s*\d+\s*\)\s*<", card, re.S)
+        if not m:
+            continue
         nome = htmlmod.unescape(m.group(1)).strip()
-        autores[" ".join(_normal(nome))] = int(m.group(2))
+        ids = re.findall(r"consulta-producao\.aspx\?autor=(\d+)", card)
+        if not ids:
+            continue
+        anos = sorted({int(a) for a in re.findall(r"consulta-producao\.aspx\?autor=\d+&(?:amp;)?ano=(\d{4})", card)})
+        autores[" ".join(_normal(nome))] = {"id": int(ids[0]), "anos": anos}
     return autores
 
 
 def total_localizado(html: str) -> int | None:
-    m = re.search(r"Localizada\(s\)\s*([\d.]+)\s*proposi", html)
+    m = re.search(r"Localizada\(s\)\s*(?:<[^>]+>\s*)*([\d.]+)\s*(?:<[^>]+>\s*)*proposi", html)
     return int(m.group(1).replace(".", "")) if m else None
 
 
@@ -178,9 +185,9 @@ def itens_csv(texto: str, base: str) -> list[dict]:
 
 # ------------------------------------------------------------------ coleta
 
-def baixar_producao(base: str, autor_id: int) -> tuple[list[dict], int | None, str]:
+def baixar_producao(base: str, autor_id: int, ano: int | None = None) -> tuple[list[dict], int | None, str]:
     """Tenta o CSV; se vier HTML, pagina. Devolve (itens, total_declarado, modo)."""
-    url = f"{base}/spl/consulta-producao.aspx?autor={autor_id}"
+    url = f"{base}/spl/consulta-producao.aspx?autor={autor_id}" + (f"&ano={ano}" if ano else "")
     raw, _ = _req(url)
     html = decodificar(raw)
     if DEBUG:
@@ -279,15 +286,37 @@ def candidatos_do_municipio(doc: dict, municipio: str) -> list[dict]:
     return out
 
 
-def casar(c: dict, autores: dict[str, int]) -> int | None:
+def casar(c: dict, autores: dict[str, dict]) -> dict | None:
     for nome in (c.get("nome_urna"), c.get("nome_completo")):
         k = " ".join(_normal(nome or ""))
         if k and k in autores:
             return autores[k]
     # nome de urna contido no nome do autor (ex.: 'Karla Coser' em 'Karla Coser (Vereadora)')
     ku = " ".join(_normal(c.get("nome_urna") or ""))
-    cands = [aid for nome, aid in autores.items() if ku and len(ku) >= 8 and (ku in nome or nome in ku)]
+    cands = [a for nome, a in autores.items() if ku and len(ku) >= 8 and (ku in nome or nome in ku)]
     return cands[0] if len(cands) == 1 else None
+
+
+ANOS_MAX = 8   # lê ano a ano os últimos N anos com produção; cada ano cabe no teto de páginas
+
+
+def baixar_autor(base: str, autor: dict) -> tuple[list[dict], int | None, str]:
+    anos = sorted(autor.get("anos") or [])[-ANOS_MAX:]
+    if not anos:
+        return baixar_producao(base, autor["id"])
+    itens, total, modos = [], 0, set()
+    vistos = set()
+    for ano in reversed(anos):
+        its, tot, modo = baixar_producao(base, autor["id"], ano)
+        modos.add(modo)
+        total += tot or len(its)
+        for i in its:
+            if i.get("url") in vistos:
+                continue
+            vistos.add(i.get("url"))
+            itens.append(i)
+        print(f"    {ano}: {len(its)} lidas de {tot or '?'}", flush=True)
+    return itens, total, "+".join(sorted(modos))
 
 
 def main() -> int:
@@ -315,20 +344,22 @@ def main() -> int:
     print(f"{len(alvo)} candidatos com passagem por vereador em {a.municipio}")
     feitos = sem = 0
     for c in alvo:
-        aid = casar(c, autores)
-        if not aid:
+        autor = casar(c, autores)
+        if not autor:
             sem += 1
             print(f"  sem autor no portal: {c['nome_urna']}")
             continue
+        aid = autor["id"]
+        print(f"  {c['nome_urna']} (autor {aid}, anos {', '.join(map(str, autor.get('anos') or [])) or '?'})", flush=True)
         try:
-            itens, total, modo = baixar_producao(base, aid)
+            itens, total, modo = baixar_autor(base, autor)
         except Exception as exc:  # noqa: BLE001
             print(f"  falhou {c['nome_urna']} (autor {aid}): {exc}", file=sys.stderr)
             continue
         c["camara_municipal"] = resumir(itens, total, base, aid, casa)
         r = c["camara_municipal"]
         feitos += 1
-        print(f"  {c['nome_urna']} (autor {aid}, {modo}): {r['total_lido']} lidas de {total or '?'}; projetos {len(r['projetos'])}; "
+        print(f"    => {modo}: {r['total_lido']} lidas de {total or '?'}; projetos {len(r['projetos'])}; "
               + ", ".join(f"{k} {v}" for k, v in list(r["por_tipo"].items())[:4]))
         if not a.dry_run:
             CAND.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
