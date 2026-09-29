@@ -191,6 +191,7 @@
     if (c.relatorias?.length) partes.push(`<b>${c.relatorias.length}</b> relatoria${c.relatorias.length === 1 ? '' : 's'}`);
     return partes.join(' · ');
   }
+  function temSancao(c) { const s = c.sancoes; return !!(s && ['tcu', 'ceis', 'cnep', 'ceaf'].some(k => s[k]?.length)); }
   function cardCandidato(c) {
     const anos = anosPolitica(c);
     const p = PARTIDO_POR_SIGLA[c.partido];
@@ -201,7 +202,7 @@
         <div class="numero ${c.numero ? '' : 'pendente'}">${c.numero || 'nº a confirmar'}</div>
       </div>
       <p class="resumo">${esc(c.resumo)}</p>
-      <div class="tags">${tagSituacao(c)}${c.reeleicao ? '<span class="tag">tenta reeleição</span>' : ''}${c.tipo_historico === 'sem_mandato' ? '<span class="tag">estreante</span>' : ''}${c.processos?.length ? `<span class="tag warn">${c.processos.length} ${c.processos.length === 1 ? 'processo/denúncia' : 'processos/denúncias'}</span>` : ''}</div>
+      <div class="tags">${tagSituacao(c)}${c.reeleicao ? '<span class="tag">tenta reeleição</span>' : ''}${c.tipo_historico === 'sem_mandato' ? '<span class="tag">estreante</span>' : ''}${c.processos?.length ? `<span class="tag warn">${c.processos.length} ${c.processos.length === 1 ? 'processo/denúncia' : 'processos/denúncias'}</span>` : ''}${temSancao(c) ? '<span class="tag bad">em lista de sanção</span>' : ''}${c.certidoes_flag === 'com apontamentos' ? '<span class="tag warn">certidão com processo</span>' : ''}</div>
       <div class="rodape-card"><span>${anos !== null && c.tipo_historico !== 'sem_mandato' ? `<b>${anos}</b> anos de vida pública` : 'sem mandato anterior'}</span><span>${resumoHistorico(c)}</span></div>`);
   }
   function abrirCandidato(c) {
@@ -303,14 +304,22 @@
     const redes = c.redes?.length ? `<h3>Redes sociais declaradas ao TSE</h3><ul class="fontes">${c.redes.map(u => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, ''))}</a></li>`).join('')}</ul>` : '';
     const comp = c.tse_complementar ? `<p class="nota">${[c.tse_complementar.nascimento ? 'Nascimento: ' + esc(c.tse_complementar.nascimento) : '', c.tse_complementar.limite_gastos ? 'Limite de gastos da campanha: ' + brl(c.tse_complementar.limite_gastos) : '', c.tse_complementar.declarou_bens === false ? 'Não declarou bens' : '', c.tse_complementar.substituido ? 'Foi substituído na chapa' : ''].filter(Boolean).join(' · ')}</p>` : '';
     const links = (c.links?.length ? `<h3>Onde conferir</h3><ul>${c.links.map(l => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.nome)}</a></li>`).join('')}</ul>` : '') + redes + comp;
+    const t = c.trajetoria;
+    const trajetoria = t ? `<h3>Trajetória</h3>${(t.texto || '').split(/\n\s*\n/).map(x => `<p>${esc(x)}</p>`).join('')}${t.marcos?.length ? `<ul>${t.marcos.map(m => `<li>${esc(m)}</li>`).join('')}</ul>` : ''}${t.controversias?.length ? `<p><b>Controvérsias noticiadas</b></p><ul>${t.controversias.map(m => `<li>${esc(m)}</li>`).join('')}</ul>` : ''}<p class="nota">Pesquisa feita com ajuda de IA em ${esc(t.escrito_em || '')} a partir de fontes públicas (confiança ${esc(t.confianca || '?')}). ${t.fontes?.length ? 'Fontes: ' + t.fontes.map(f => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.titulo || f.url)}</a>`).join(' · ') : ''}</p>` : '';
+    const sc = c.sancoes;
+    const listas = [['tcu', 'TCU: contas julgadas irregulares'], ['ceis', 'CEIS: empresas e pessoas inidôneas'], ['cnep', 'CNEP: punidas pela Lei Anticorrupção'], ['ceaf', 'CEAF: servidores expulsos']];
+    const sancoes = sc ? `<h4 class="eixo">Listas de sanção (por CPF)</h4><ul>${listas.map(([k, nome]) => `<li><span class="tag ${sc[k]?.length ? 'bad' : 'ok'}">${sc[k]?.length ? sc[k].length + ' ocorrência' + (sc[k].length > 1 ? 's' : '') : 'nada'}</span> ${esc(nome)}${sc[k]?.length ? `<div class="obs">${sc[k].map(x => esc(Object.entries(x).filter(([, v]) => v).map(([kk, v]) => `${kk}: ${v}`).join(' · '))).join('<br>')}</div>` : ''}</li>`).join('')}</ul><p class="nota">Cruzamento exato por CPF em ${esc(sc.verificado_em || '')}: ${esc((sc.fontes_consultadas || []).join(', ') || 'nenhuma lista consultada ainda')}.</p>${c.servidor_federal?.vinculos?.length ? `<p class="obs"><b>Servidor federal:</b> ${c.servidor_federal.vinculos.map(v => esc([v.cargo, v.orgao, v.situacao].filter(Boolean).join(' · '))).join('; ')} <i>(${esc(c.servidor_federal.fonte)})</i></p>` : ''}` : '';
+    const nt = c.noticias;
+    const noticias = nt?.itens?.length ? `<h3>Na imprensa</h3><ul class="noticias">${nt.itens.map(n => `<li><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.titulo)}</a><div class="obs">${[n.fonte, n.data ? fmtData(n.data) : ''].filter(Boolean).map(esc).join(' · ')}</div></li>`).join('')}</ul><p class="nota">Manchetes do Google Notícias para a busca <code>${esc(nt.busca || '')}</code> em ${esc(nt.consultado_em || '')}. Pode incluir homônimos. Não é avaliação, é o que foi publicado.</p>` : (nt ? '<h3>Na imprensa</h3><p class="nota">Nenhuma manchete encontrada no Google Notícias para este nome.</p>' : '');
     const cruzamentos = blocos.join('') + links + (blocos.length ? '' : '<p class="nota">Patrimônio, doadores, votações-chave, cota e emendas ainda não foram coletados para esta pessoa. Rode <code>scripts/fetch_dados.py --tudo</code>.</p>');
     abrirModal(`
       <p class="kicker">${esc(cargo.nome)} · ${esc(c.partido)}${p?.federacao ? ' · Federação ' + esc(p.federacao) : ''}</p>
       <div class="modal-cabeca">${c.foto ? `<img class="foto grande" src="${esc(c.foto)}" alt="Foto de urna de ${esc(c.nome_urna)}" onerror="this.remove()">` : ''}<h2>${esc(c.nome_urna)} <span class="numero">${c.numero || ''}</span></h2></div>
-      <p class="sub">${esc(c.nome_completo || '')}${c.idade ? ' · ' + c.idade + ' anos' : ''}${c.ocupacao ? ' · ' + esc(c.ocupacao) : ''}</p>
+      <p class="sub">${esc(c.nome_completo || '')}${c.idade ? ' · ' + c.idade + ' anos' : ''}${c.ocupacao ? ' · ' + esc(c.ocupacao) : ''}${c.escolaridade ? ' · ' + esc(c.escolaridade.toLowerCase()) : ''}</p>
       <div class="tags">${tagSituacao(c)}${!c.numero ? '<span class="tag warn">número não confirmado</span>' : ''}${c.reeleicao ? '<span class="tag">tenta reeleição</span>' : ''}</div>
       ${c.situacao_obs ? `<p class="aviso">${esc(c.situacao_obs)}</p>` : ''}
       <p>${esc(c.resumo)}</p>
+      ${trajetoria}
       ${chapa}${supl}
       <h3>Tempo de política</h3>
       <p>${c.tipo_historico === 'sem_mandato' ? 'Primeira candidatura registrada. ' : ''}${anos !== null && c.inicio_politica ? `Na vida pública desde <b>${c.inicio_politica}</b> (${anos} anos).` : 'Sem data de início registrada.'}</p>
@@ -325,7 +334,9 @@
       ${fiscalizacao}
       <h3>Processos e denúncias contra</h3>
       ${processos}
+      ${sancoes}
       ${plano}
+      ${noticias}
       ${cruzamentos}
       <h3>Sobre o partido</h3>
       <p>${esc(p?.ideologia || '')} <a href="#" data-partido="${esc(c.partido)}">Ver ficha do ${esc(c.partido)}</a></p>

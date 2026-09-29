@@ -28,6 +28,7 @@ def main() -> int:
     sanear_tse(bundle)
     sanear_certidoes(bundle)
     embutir_interpretacoes(bundle)
+    embutir_biografias(bundle)
     out = DATA / "bundle.js"
     out.write_text(
         "// Gerado por scripts/build_bundle.py. Não edite à mão; edite os JSON em data/.\n"
@@ -106,6 +107,30 @@ def embutir_interpretacoes(bundle: dict) -> None:
 
 
 RE_MARCADOR = __import__("re").compile(r"#NULO#?|#NE#?", __import__("re").I)
+
+
+def embutir_biografias(bundle: dict) -> None:
+    """Mescla data/biografias/<tse_id>.json (trajetória pesquisada na web) na ficha como 'trajetoria'."""
+    pasta = DATA / "biografias"
+    if not pasta.is_dir():
+        return
+    por_sq = {str(c.get("tse_id")): c for c in bundle["candidatos"]["candidatos"] if c.get("tse_id")}
+    n = 0
+    for arq in sorted(pasta.glob("*.json")):
+        c = por_sq.get(arq.stem)
+        if not c:
+            print(f"aviso: biografia {arq.name} não bate com nenhum tse_id", file=sys.stderr)
+            continue
+        try:
+            b = json.loads(arq.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            raise SystemExit(f"JSON inválido em {arq}: {exc}")
+        if not b.get("texto"):
+            continue
+        c["trajetoria"] = b
+        n += 1
+    if n:
+        print(f"{n} biografias embutidas")
 
 
 def sanear_tse(bundle: dict) -> None:

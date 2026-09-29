@@ -74,6 +74,9 @@ python3 scripts/fetch_dados.py --senado     # autorias, relatorias, filiações 
 python3 scripts/fetch_dados.py --camara     # projetos, cota, comissões e votos-chave dos deputados (~20 min)
 python3 scripts/fetch_dados.py --links      # links de conferência (instantâneo, sem rede)
 
+python3 scripts/fetch_dados.py --sancoes    # CPF x TCU (CSV local), CEIS/CNEP/CEAF e servidores (chave do Portal)
+python3 scripts/fetch_dados.py --noticias   # manchetes do Google Notícias por candidato (~15 min)
+
 # 3. Emendas exigem chave gratuita do Portal da Transparência:
 #    https://portaldatransparencia.gov.br/api-de-dados/cadastrar-email
 #    Cole em chaves.env (PORTAL_TRANSPARENCIA_KEY=...) ou exporte no shell.
@@ -96,7 +99,14 @@ O que cada fonte enche na ficha:
 | Câmara | `projetos`, `gastos` (cota por ano), `comissoes`, `votacoes_chave` | quem é ou foi deputado federal |
 | Senado | `projetos`, `relatorias`, `filiacoes`, `votacoes_chave` | quem é ou foi senador |
 | Portal da Transparência | `emendas` (total, por ano, maiores destinos) | deputados e senadores |
+| TCU + Portal da Transparência | `sancoes` (contas irregulares, CEIS, CNEP, CEAF, cruzados por CPF), `servidor_federal` | todos com CPF |
+| Google Notícias | `noticias` (últimas 8 manchetes, com fonte e data; pode ter homônimo) | todos |
+| pesquisa na web (IA) | `trajetoria` via `data/biografias/<tse_id>.json`: texto, marcos, controvérsias, fontes | presidente, governador, senador |
 | links | `links` (DivulgaCand, Câmara, Senado, Radar do Congresso, Comovotou, TCE-ES, Jusbrasil) | todos |
+
+Para a lista do TCU: baixe em portal.tcu.gov.br a "lista de responsáveis com contas julgadas
+irregulares" (CSV) e salve como `data/cache/tcu_contas_irregulares.csv`. O cruzamento aceita CPF
+mascarado (***.123.456-**).
 
 As votações-chave estão em `data/votacoes_chave.json`. Edite a lista se quiser
 medir outros temas. Números de proposição precisam ser conferidos.

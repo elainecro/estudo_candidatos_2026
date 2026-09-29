@@ -14,6 +14,10 @@ Fontes e o que cada uma enche na ficha:
               foto, vice/suplentes, BENS declarados (com total), CERTIDÕES anexadas
               ao registro e ELEIÇÕES ANTERIORES (histórico eleitoral e trocas de
               partido). Cria ficha para quem ainda não está no JSON.
+  --sancoes   CPF do candidato x lista do TCU (contas irregulares, CSV local em
+              data/cache/tcu_contas_irregulares*.csv), CEIS/CNEP/CEAF e servidores
+              federais do Portal da Transparência (precisa da chave em chaves.env).
+  --noticias  últimas manchetes do Google Notícias por candidato (RSS, sem chave, ~15 min).
   --contas    DivulgaCandContas: total de receitas e despesas da campanha 2026 e
               maiores doadores.
   --camara    API da Câmara: projetos de autoria (situação), gastos da cota
@@ -303,6 +307,8 @@ def normalizar_csv_candidato(row: dict) -> dict | None:
         "situacao_detalhe": detalhe.strip().capitalize() or None,
         "idade": int(idade) if idade and idade.strip().isdigit() and int(idade) > 0 else None,
         "ocupacao": (row.get("DS_OCUPACAO") or "").strip().capitalize() or None,
+        "escolaridade": (row.get("DS_GRAU_INSTRUCAO") or "").strip().capitalize() or None,
+        "cpf": re.sub(r"\D", "", row.get("NR_CPF_CANDIDATO") or "") or None,
         "tse_id": (row.get("SQ_CANDIDATO") or "").strip() or None,
         "federacao": (row.get("NM_FEDERACAO") or "").strip() if (row.get("NM_FEDERACAO") or "").strip() not in ("", "#NULO#", "#NE#") else None,
         "coligacao": (row.get("NM_COLIGACAO") or "").strip() if (row.get("NM_COLIGACAO") or "").strip() not in ("", "#NULO#", "#NE#") else None,
@@ -625,8 +631,8 @@ def fetch_tse_csv(doc, dry_run: bool):
         uf_link = "BR" if n["cargo"] == "presidente" else "ES"
         n["tse_url"] = f"https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/{ID_ELEICAO[uf_link]}/{uf_link}/{n['tse_id']}"
         if alvo:
-            for k in ("numero", "situacao", "situacao_detalhe", "tse_id", "tse_url", "idade", "ocupacao"):
-                if n.get(k) and (k in ("situacao", "situacao_detalhe", "tse_id", "tse_url") or not alvo.get(k)):
+            for k in ("numero", "situacao", "situacao_detalhe", "tse_id", "tse_url", "idade", "ocupacao", "escolaridade", "cpf"):
+                if n.get(k) and (k in ("situacao", "situacao_detalhe", "tse_id", "tse_url", "cpf", "escolaridade") or not alvo.get(k)):
                     alvo[k] = n[k]
             if b:
                 alvo["bens"] = b
@@ -635,6 +641,7 @@ def fetch_tse_csv(doc, dry_run: bool):
             doc["candidatos"].append({
                 "id": slug(n["nome_urna"]) + ("-" + n["numero"] if n["numero"] else ""), "cargo": n["cargo"], "nome_urna": n["nome_urna"],
                 "nome_completo": n["nome_completo"], "partido": n["partido"], "numero": n["numero"], "idade": n["idade"], "ocupacao": n["ocupacao"],
+                "escolaridade": n["escolaridade"], "cpf": n["cpf"],
                 "situacao": n["situacao"], "situacao_obs": n["situacao_detalhe"], "tipo_historico": "sem_dados", "inicio_politica": None,
                 "resumo": "Importado do TSE (Dados Abertos); histórico ainda não pesquisado." + (f" Federação: {n['federacao']}." if n.get("federacao") else "") + (f" Coligação: {n['coligacao']}." if n.get("coligacao") else ""),
                 "mandatos": [], "projetos": None, "gestao": [], "relatorias": [], "fiscalizacao": [], "processos": [],
@@ -657,7 +664,8 @@ def fetch_tse_csv(doc, dry_run: bool):
 
 AUTO_CAMPOS = ("tse_id", "tse_url", "numero", "situacao", "bens", "certidoes", "certidoes_arquivos", "proposta_governo_arquivos", "eleicoes_anteriores",
                "trocas_de_partido", "vezes_eleito", "campanha", "redes", "tse_complementar", "motivos_registro", "gastos", "comissoes", "votacoes_chave",
-               "filiacoes", "emendas", "camara_id", "senado_id", "idade", "ocupacao", "foto", "reeleicao")
+               "filiacoes", "emendas", "camara_id", "senado_id", "idade", "ocupacao", "foto", "reeleicao", "escolaridade", "cpf", "sancoes",
+               "servidor_federal", "noticias")
 PALAVRAS_FRACAS = {"dr", "dra", "prof", "professor", "professora", "delegado", "delegada", "capitao", "coronel", "cabo", "sargento", "pastor", "bispo",
                    "engenheiro", "escritor", "da", "de", "do", "das", "dos", "e", "o", "a", "junior", "filho", "neto", "santos", "silva", "souza", "oliveira", "federal", "direita"}
 
@@ -1163,6 +1171,187 @@ def fetch_emendas(doc, dry_run: bool):
     salvar(doc, dry_run)
 
 
+# ============================================================ listas de sanção (TCU, Portal da Transparência)
+
+def _so_digitos(v) -> str:
+    return re.sub(r"\D", "", str(v or ""))
+
+
+def cpf_bate(cpf: str | None, mascarado) -> bool:
+    """Compara um CPF completo com um valor que pode vir mascarado (***.123.456-**) ou completo."""
+    if not cpf:
+        return False
+    m = str(mascarado or "")
+    d = _so_digitos(m)
+    if len(d) == 11:
+        return d == cpf
+    # mascarado: sobram os 6 do meio
+    meio = re.sub(r"\D", "", m.replace("*", ""))
+    return len(meio) >= 6 and cpf[3:9] == meio[:6]
+
+
+def _nome_normal(n: str) -> str:
+    import unicodedata
+    n = "".join(ch for ch in unicodedata.normalize("NFD", n or "") if unicodedata.category(ch) != "Mn")
+    return re.sub(r"\s+", " ", n).strip().upper()
+
+
+def carregar_tcu() -> list[dict]:
+    """Lê data/cache/tcu_contas_irregulares*.csv (baixado à mão do TCU). Aceita qualquer cabeçalho com CPF e NOME."""
+    import csv
+    linhas = []
+    for arq in sorted(CACHE.glob("tcu_contas_irregulares*.csv")):
+        raw = arq.read_bytes()
+        texto = raw.decode("utf-8-sig") if b"\xef\xbb\xbf" in raw[:3] or b"\xc3" in raw[:2000] else raw.decode("latin-1")
+        dialeto = ";" if texto.count(";") > texto.count(",") else ","
+        for r in csv.DictReader(io.StringIO(texto), delimiter=dialeto):
+            col_cpf = next((k for k in r if k and "CPF" in k.upper()), None)
+            col_nome = next((k for k in r if k and "NOME" in k.upper()), None)
+            if not (col_cpf and col_nome):
+                continue
+            linhas.append({"cpf": r.get(col_cpf), "nome": r.get(col_nome), "linha": {k: v for k, v in r.items() if k}})
+    return linhas
+
+
+def fetch_sancoes(doc, dry_run: bool):
+    """Cruza cada candidato (por CPF) com: lista do TCU de contas irregulares (CSV local) e, com a chave do
+    Portal da Transparência, CEIS, CNEP e CEAF (sanções a empresas, pessoas e servidores) e cadastro de
+    servidores federais."""
+    tcu = carregar_tcu()
+    if tcu:
+        print(f"  TCU: {len(tcu)} responsáveis na lista local")
+    else:
+        print("  TCU: nenhum data/cache/tcu_contas_irregulares*.csv; baixe a 'lista de responsáveis com contas julgadas irregulares' em portal.tcu.gov.br e salve com esse nome")
+    key = os.environ.get("PORTAL_TRANSPARENCIA_KEY")
+    if not key:
+        print("  Portal da Transparência: sem PORTAL_TRANSPARENCIA_KEY em chaves.env; pulando CEIS/CNEP/CEAF e servidores")
+    h = {"chave-api-dados": key} if key else None
+    sem_cpf = 0
+    achados = 0
+    for c in doc["candidatos"]:
+        cpf = c.get("cpf")
+        if not cpf:
+            sem_cpf += 1
+            continue
+        nome = c.get("nome_completo") or c["nome_urna"]
+        res = {"verificado_em": HOJE, "tcu": [], "ceis": [], "cnep": [], "ceaf": [], "fontes_consultadas": []}
+        if tcu:
+            res["fontes_consultadas"].append("TCU contas irregulares (lista local)")
+            for t in tcu:
+                if cpf_bate(cpf, t["cpf"]) or (_nome_normal(t["nome"]) == _nome_normal(nome) and not _so_digitos(t["cpf"])):
+                    res["tcu"].append({k: v for k, v in t["linha"].items() if v and "CPF" not in k.upper()})
+        if key:
+            for lista, param in (("ceis", "nomeSancionado"), ("cnep", "nomeSancionado"), ("ceaf", "nomeSancionado")):
+                data = get_json(f"{PORTAL_BASE}/{lista}?{param}={urllib.parse.quote(nome)}&pagina=1", headers=h)
+                res["fontes_consultadas"].append(f"Portal da Transparência {lista.upper()}")
+                for item in data or []:
+                    pessoa = item.get("pessoa") or item.get("sancionado") or item.get("servidor") or {}
+                    cpf_item = pessoa.get("cpfFormatado") or pessoa.get("cpf") or item.get("cpfFormatado") or item.get("cpf")
+                    nome_item = pessoa.get("nome") or item.get("nome") or item.get("nomeSancionado") or ""
+                    if cpf_bate(cpf, cpf_item) or (not cpf_item and _nome_normal(nome_item) == _nome_normal(nome)):
+                        res[lista].append({
+                            "orgao": (item.get("orgaoSancionador") or {}).get("nome") or item.get("orgaoSancionador") or item.get("orgaoLotacao"),
+                            "tipo": (item.get("tipoSancao") or {}).get("descricaoResumida") or item.get("tipoSancao") or item.get("tipoPunicao") or item.get("descricaoPunicao"),
+                            "inicio": item.get("dataInicioSancao") or item.get("dataPublicacao") or item.get("dataPublicacaoPunicao"),
+                            "fim": item.get("dataFimSancao"),
+                            "fundamentacao": (item.get("fundamentacao") or [{}])[0].get("descricao") if isinstance(item.get("fundamentacao"), list) else item.get("fundamentacao"),
+                        })
+                time.sleep(0.7)
+            serv = get_json(f"{PORTAL_BASE}/servidores?nome={urllib.parse.quote(nome)}&pagina=1", headers=h)
+            time.sleep(0.7)
+            vinculos = []
+            for item in serv or []:
+                pessoa = item.get("servidor") or item.get("pessoa") or {}
+                if not cpf_bate(cpf, pessoa.get("cpfFormatado") or pessoa.get("cpf")):
+                    continue
+                fv = item.get("fichaVinculo") or item
+                vinculos.append({"orgao": (fv.get("orgaoServidorLotacao") or {}).get("nome") or fv.get("orgaoLotacao") or (item.get("orgaoServidorExercicio") or {}).get("nome"),
+                                 "cargo": fv.get("cargo") or (item.get("cargo") or {}).get("descricao") or item.get("descricaoCargo"),
+                                 "situacao": fv.get("situacaoVinculo") or item.get("situacao"),
+                                 "tipo": (item.get("tipoServidor") or {}).get("descricao") or item.get("tipoVinculo")})
+            if vinculos:
+                c["servidor_federal"] = {"vinculos": vinculos[:5], "fonte": "Portal da Transparência (servidores)", "consultado_em": HOJE}
+        hits = sum(len(res[k]) for k in ("tcu", "ceis", "cnep", "ceaf"))
+        c["sancoes"] = res
+        if hits:
+            achados += 1
+            print(f"  ATENÇÃO {c['nome_urna']}: " + ", ".join(f"{k} {len(res[k])}" for k in ("tcu", "ceis", "cnep", "ceaf") if res[k]))
+    print(f"  sanções: {achados} candidatos com ocorrência; {sem_cpf} sem CPF (rode --tse de novo para preencher)")
+    salvar(doc, dry_run)
+
+
+# ============================================================ notícias (Google Notícias, RSS)
+
+NOTICIAS_URL = "https://news.google.com/rss/search?q={q}&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+
+
+def consulta_noticias(c: dict) -> str:
+    nome = c["nome_urna"] if len(c["nome_urna"].split()) >= 2 else (c.get("nome_completo") or c["nome_urna"])
+    if c["cargo"] == "presidente":
+        return f'"{nome}" (candidato OR presidente OR eleição)'
+    return f'"{nome}" ("Espírito Santo" OR ES OR capixaba OR candidato OR deputado OR senador OR governador)'
+
+
+def ler_rss(xml_bytes: bytes) -> list[dict]:
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime
+    itens = []
+    try:
+        root = ET.fromstring(xml_bytes)
+    except ET.ParseError:
+        return itens
+    for it in root.iter("item"):
+        titulo = (it.findtext("title") or "").strip()
+        fonte = it.find("source")
+        fonte_nome = (fonte.text or "").strip() if fonte is not None else ""
+        if fonte_nome and titulo.endswith(" - " + fonte_nome):
+            titulo = titulo[: -len(" - " + fonte_nome)].strip()
+        data = None
+        try:
+            data = parsedate_to_datetime(it.findtext("pubDate") or "").date().isoformat()
+        except Exception:  # noqa: BLE001
+            pass
+        itens.append({"titulo": titulo, "link": (it.findtext("link") or "").strip(), "data": data, "fonte": fonte_nome or None})
+    return itens
+
+
+def fetch_noticias(doc, dry_run: bool, limite: int = 8):
+    """Últimas manchetes do Google Notícias para cada candidato. Não interpreta; só guarda título, fonte, data e link."""
+    pasta = CACHE / "noticias"
+    pasta.mkdir(parents=True, exist_ok=True)
+    feitos = com = 0
+    for c in doc["candidatos"]:
+        if c.get("situacao") == "desistiu":
+            continue
+        q = consulta_noticias(c)
+        cache = pasta / f"{c.get('tse_id') or c['id']}.xml"
+        if cache.exists() and (time.time() - cache.stat().st_mtime) < 86400 * 3:
+            xml_bytes = cache.read_bytes()
+        else:
+            url = NOTICIAS_URL.format(q=urllib.parse.quote(q))
+            try:
+                req = urllib.request.Request(url, headers=UA)
+                with urllib.request.urlopen(req, timeout=60) as resp:
+                    xml_bytes = resp.read()
+            except Exception as exc:  # noqa: BLE001
+                print(f"  falhou {c['nome_urna']}: {exc}", file=sys.stderr)
+                time.sleep(3)
+                continue
+            cache.write_bytes(xml_bytes)
+            time.sleep(1.2)
+        itens = ler_rss(xml_bytes)
+        itens = sorted(itens, key=lambda x: x["data"] or "", reverse=True)[:limite]
+        c["noticias"] = {"consultado_em": HOJE, "busca": q, "itens": itens,
+                         "fonte": "Google Notícias (RSS); pode incluir homônimos"}
+        feitos += 1
+        com += bool(itens)
+        if feitos % 50 == 0:
+            print(f"  {feitos} consultados ({com} com notícia)")
+            salvar(doc, dry_run)
+    print(f"  notícias: {feitos} candidatos consultados, {com} com pelo menos uma manchete")
+    salvar(doc, dry_run)
+
+
 # ============================================================ links de conferência (sem rede)
 
 def gerar_links(c: dict) -> list:
@@ -1197,16 +1386,18 @@ def fetch_links(doc, dry_run: bool):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    for f in ("tse", "contas", "camara", "senado", "emendas", "links", "fundir", "tudo"):
+    for f in ("tse", "contas", "camara", "senado", "emendas", "sancoes", "noticias", "links", "fundir", "tudo"):
         ap.add_argument(f"--{f}", action="store_true")
     ap.add_argument("--dry-run", action="store_true", help="não grava o JSON")
     a = ap.parse_args()
-    if not any([a.tse, a.contas, a.camara, a.senado, a.emendas, a.links, a.fundir, a.tudo]):
+    if not any([a.tse, a.contas, a.camara, a.senado, a.emendas, a.sancoes, a.noticias, a.links, a.fundir, a.tudo]):
         ap.error("escolha ao menos uma fonte (ou --tudo)")
     doc = carregar()
     passos = [("TSE", a.tse or a.tudo, fetch_tse), ("Contas de campanha", a.contas or a.tudo, fetch_contas),
               ("Câmara", a.camara or a.tudo, fetch_camara), ("Senado", a.senado or a.tudo, fetch_senado),
-              ("Emendas", a.emendas or a.tudo, fetch_emendas), ("Fusão de duplicatas", a.fundir, lambda d, dr: (fundir_orfaos(d), salvar(d, dr))), ("Links", a.links or a.tudo, fetch_links)]
+              ("Emendas", a.emendas or a.tudo, fetch_emendas), ("Listas de sanção", a.sancoes or a.tudo, fetch_sancoes),
+              ("Notícias", a.noticias or a.tudo, fetch_noticias),
+              ("Fusão de duplicatas", a.fundir, lambda d, dr: (fundir_orfaos(d), salvar(d, dr))), ("Links", a.links or a.tudo, fetch_links)]
     for nome, ligado, fn in passos:
         if ligado:
             print(f"== {nome}")
