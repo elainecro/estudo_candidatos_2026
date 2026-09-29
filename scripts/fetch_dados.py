@@ -1282,10 +1282,10 @@ def fetch_sancoes(doc, dry_run: bool):
             if serv is not None:
                 respostas["servidores"] += 1
             vinculos = []
+            if os.environ.get("DEBUG") and serv:
+                print(f"  DEBUG servidores {c['nome_urna']}: {json.dumps(serv[0], ensure_ascii=False)[:600]}", file=sys.stderr)
             for item in serv or []:
-                pessoa = item.get("servidor") or item.get("pessoa") or {}
-                if not cpf_bate(cpf, pessoa.get("cpfFormatado") or pessoa.get("cpf")):
-                    continue
+                # a consulta já é por CPF: o que volta é o próprio candidato
                 fv = item.get("fichaVinculo") or item
                 vinculos.append({"orgao": (fv.get("orgaoServidorLotacao") or {}).get("nome") or fv.get("orgaoLotacao") or (item.get("orgaoServidorExercicio") or {}).get("nome"),
                                  "cargo": fv.get("cargo") or (item.get("cargo") or {}).get("descricao") or item.get("descricaoCargo"),
