@@ -18,7 +18,8 @@ Uso:
     python3 scripts/fetch_camara_municipal.py --base https://camarasempapel.<outra>.es.gov.br --municipio "Vila Velha"
     DEBUG=1 ...                                               # imprime cada pedido e salva o HTML em data/cache/cmv/
 
-Respeita o site: uma pausa de 1 s entre pedidos, e no máximo 10 páginas de 100 por autor no modo HTML.
+Respeita o site: uma pausa de 1 s entre pedidos. Lê ano a ano, até 100 páginas de 100 por ano (--max-paginas).
+Quem tem milhares de proposições por ano (votos de louvor, indicações) leva alguns minutos.
 """
 import argparse
 import csv
@@ -45,7 +46,7 @@ UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0) AppleWebKit/53
       "Accept-Language": "pt-BR,pt;q=0.9"}
 DEBUG = bool(os.environ.get("DEBUG"))
 PAUSA = 1.0
-MAX_PAGINAS = 10
+MAX_PAGINAS = 100   # páginas de 100 por ano; --max-paginas muda
 
 TIPOS_PROJETO = ("projeto de lei", "projeto de emenda", "projeto de resolução", "projeto de resolucao", "projeto de decreto", "p. de lei", "pl ")
 
@@ -226,6 +227,8 @@ def baixar_producao(base: str, autor_id: int, ano: int | None = None) -> tuple[l
         pagina = 1
         vistos = {i.get("url") for i in itens}
         while "lbNext" in html and pagina < MAX_PAGINAS and "__VIEWSTATE" in ocultos:
+            if pagina % 10 == 0:
+                print(f"      página {pagina}, {len(itens)} lidas até agora", flush=True)
             form = dict(ocultos)
             form["__EVENTTARGET"] = "ctl00$ContentPlaceHolder1$lbNext"
             form["__EVENTARGUMENT"] = ""
@@ -315,18 +318,22 @@ def baixar_autor(base: str, autor: dict) -> tuple[list[dict], int | None, str]:
                 continue
             vistos.add(i.get("url"))
             itens.append(i)
-        print(f"    {ano}: {len(its)} lidas de {tot or '?'}", flush=True)
+        aviso = "  (bateu no teto de páginas; suba --max-paginas)" if tot and len(its) < tot and len(its) >= MAX_PAGINAS * 100 - 100 else ""
+        print(f"    {ano}: {len(its)} lidas de {tot or '?'}{aviso}", flush=True)
     return itens, total, "+".join(sorted(modos))
 
 
 def main() -> int:
+    global MAX_PAGINAS
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--base", default="https://camarasempapel.cmv.es.gov.br")
     ap.add_argument("--municipio", default="Vitória")
     ap.add_argument("--casa", default=None, help="nome da casa (padrão: Câmara Municipal de <municipio>)")
     ap.add_argument("--candidato", help="parte do nome, para testar um só")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--max-paginas", type=int, default=MAX_PAGINAS, help="teto de páginas de 100 por ano (padrão %(default)s)")
     a = ap.parse_args()
+    MAX_PAGINAS = a.max_paginas
     casa = a.casa or f"Câmara Municipal de {a.municipio}"
     base = a.base.rstrip("/")
 

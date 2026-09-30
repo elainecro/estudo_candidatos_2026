@@ -91,6 +91,7 @@ TSE_CSV = {
 }
 CD_CARGO = {"1": "presidente", "3": "governador", "5": "senador", "6": "deputado_federal", "7": "deputado_estadual"}
 HOJE = time.strftime("%Y-%m-%d")
+HOJE_ANO = int(HOJE[:4])
 
 
 # ============================================================ utilidades
@@ -895,19 +896,53 @@ def _nome_cabe(nome_api: str, c: dict) -> bool:
     return bool(palavras) and all(t in alvo for t in palavras)
 
 
+def legislatura_da_eleicao(ano: int) -> int:
+    """Eleição de 2022 -> 57ª legislatura (2023-2027); 2018 -> 56ª; e assim por diante."""
+    return 57 + (ano - 2022) // 4
+
+
+def legislaturas_de(c: dict) -> list[int]:
+    """Legislaturas em que a pessoa foi deputado federal, pelo histórico do TSE e pelos mandatos manuais.
+    Sem isso a API da Câmara só devolve quem está em exercício agora (quem foi deputado até 2022 some)."""
+    legs = set()
+    for e in c.get("eleicoes_anteriores") or []:
+        if "deputado federal" in (e.get("cargo") or "").lower() and re.search(r"eleit", (e.get("resultado") or "").lower()) \
+                and "não" not in (e.get("resultado") or "").lower() and str(e.get("ano") or "").isdigit():
+            legs.add(legislatura_da_eleicao(int(e["ano"])))
+    for m in c.get("mandatos") or []:
+        cargo = (m.get("cargo") or "").lower()
+        if "federal" not in cargo or "deputad" not in cargo:
+            continue
+        per = m.get("periodo") or ""
+        em = re.search(r"eleit[oa] em (\d{4})", per)
+        if em:
+            legs.add(legislatura_da_eleicao(int(em.group(1))))
+        for ini, fim in re.findall(r"(\d{4})\s*[-–a]+\s*(\d{4}|atual)", per):
+            ano_fim = HOJE_ANO if fim == "atual" else int(fim)
+            for ano in range(int(ini) - 1, ano_fim - 1, 4):   # posse é no ano seguinte à eleição; o mandato acaba antes da eleição seguinte
+                legs.add(legislatura_da_eleicao(ano))
+    return sorted(legs, reverse=True)
+
+
 def camara_id_por_nome(c):
-    """Devolve (id, nome parlamentar) ou (None, None). Só aceita quando o nome da API cabe no do candidato."""
+    """Devolve (id, nome parlamentar) ou (None, None). Só aceita quando o nome da API cabe no do candidato.
+    Procura primeiro nas legislaturas em que a pessoa foi deputado (a API, sem idLegislatura, só lista
+    quem está em exercício agora), depois sem filtro de legislatura."""
     tentativas = [(c.get("nome_completo"), ""), (c["nome_urna"], "&siglaUf=ES"), (sem_titulo(c["nome_urna"]), "&siglaUf=ES"), (sem_titulo(c["nome_urna"]), "")]
-    for nome, uf in tentativas:
-        if not nome:
-            continue
-        data = get_json(f"{CAMARA_BASE}/deputados?nome={urllib.parse.quote(nome)}{uf}&ordem=ASC&ordenarPor=nome")
-        dados = [d for d in (data or {}).get("dados") or [] if _nome_cabe(d.get("nome") or "", c)]
-        if not dados:
-            continue
-        es = [d for d in dados if d.get("siglaUf") == "ES"]
-        d = (es or dados)[0]
-        return d["id"], d.get("nome")
+    filtros = [f"&idLegislatura={l}" for l in legislaturas_de(c)] + [""]
+    vistos = set()
+    for filtro in filtros:
+        for nome, uf in tentativas:
+            if not nome or (nome, uf, filtro) in vistos:
+                continue
+            vistos.add((nome, uf, filtro))
+            data = get_json(f"{CAMARA_BASE}/deputados?nome={urllib.parse.quote(nome)}{uf}{filtro}&ordem=ASC&ordenarPor=nome")
+            dados = [d for d in (data or {}).get("dados") or [] if _nome_cabe(d.get("nome") or "", c)]
+            if not dados:
+                continue
+            es = [d for d in dados if d.get("siglaUf") == "ES"]
+            d = (es or dados)[0]
+            return d["id"], d.get("nome")
     return None, None
 
 

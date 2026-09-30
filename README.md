@@ -77,7 +77,7 @@ python3 scripts/fetch_dados.py --links      # links de conferência (instantâne
 python3 scripts/fetch_dados.py --sancoes    # CPF x TCU (CSV local), CEIS/CNEP/CEAF e servidores (chave do Portal)
 python3 scripts/fetch_dados.py --noticias   # manchetes do Google Notícias por candidato (~15 min)
 
-python3 scripts/fetch_camara_municipal.py   # produção dos vereadores de Vitória (portal Câmara sem Papel)
+python3 scripts/fetch_camara_municipal.py   # produção dos vereadores de Vitória (portal Câmara sem Papel); lê ano a ano, até 100 páginas de 100 por ano (--max-paginas)
 
 # 3. Emendas exigem chave gratuita do Portal da Transparência:
 #    https://portaldatransparencia.gov.br/api-de-dados/cadastrar-email
@@ -102,7 +102,7 @@ O que cada fonte enche na ficha:
 | Senado | `projetos`, `relatorias`, `filiacoes`, `votacoes_chave` | quem é ou foi senador |
 | Portal da Transparência | `emendas` (total, por ano, maiores destinos) | deputados e senadores |
 | TCU + Portal da Transparência | `sancoes` (contas irregulares, CEIS, CNEP, CEAF, cruzados por CPF), `servidor_federal` | todos com CPF |
-| Câmara de Vitória (Câmara sem Papel) | `camara_municipal`: total, por tipo e situação, projetos de lei, indicações recentes, palavras mais frequentes | quem disputou vereador em Vitória |
+| Câmara de Vitória (Câmara sem Papel) | `camara_municipal`: total, por tipo e situação, projetos de lei, indicações recentes, palavras mais frequentes | quem disputou vereador em Vitória | Para quem tem milhares de proposições por ano a leitura demora alguns minutos; se aparecer "bateu no teto", suba `--max-paginas`. Quem foi deputado federal em legislaturas passadas é procurado na Câmara pela legislatura (`--camara`). 
 | Google Notícias | `noticias` (últimas 8 manchetes, com fonte e data; pode ter homônimo) | todos |
 | pesquisa na web (IA) | `trajetoria` via `data/biografias/<tse_id>.json`: texto, marcos, controvérsias, fontes | presidente, governador, senador |
 | links | `links` (DivulgaCand, Câmara, Senado, Radar do Congresso, Comovotou, TCE-ES, Jusbrasil) | todos |
