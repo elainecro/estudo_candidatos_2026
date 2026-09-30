@@ -15,15 +15,18 @@
     <p class="kicker">Espírito Santo · 1º turno em 4 de outubro de 2026</p>
     <h1>Em quem votar no ES?</h1>
     <p class="lead">Um guia para estudar antes de votar: o que cada cargo faz, o que cada partido defende e o que cada candidato já fez (ou não fez) na vida pública.</p>
-    <nav class="abas" aria-label="Seções">
-      <a href="#cargos">Cargos</a>
-      <a href="#espectros">Espectros</a>
-      <a href="#partidos">Partidos</a>
-      <a href="#candidatos">Candidatos</a>
-      <a href="#urna">Na urna</a>
-    </nav>
   </div>
 </header>
+
+<div class="abas-barra">
+  <nav class="abas wrap" aria-label="Seções">
+    <a href="#cargos">Cargos</a>
+    <a href="#espectros">Espectros</a>
+    <a href="#partidos">Partidos</a>
+    <a href="#candidatos">Candidatos</a>
+    <a href="#urna">Na urna</a>
+  </nav>
+</div>
 
 <main class="wrap">
 
@@ -102,7 +105,10 @@
 <div id="modal" class="modal" hidden>
   <div class="modal-fundo" data-fechar></div>
   <article class="modal-caixa" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
-    <button class="fechar" data-fechar aria-label="Fechar">×</button>
+    <div class="modal-barra">
+      <button class="voltar" id="modal-voltar" data-voltar hidden>← Voltar</button>
+      <button class="fechar" data-fechar aria-label="Fechar">×</button>
+    </div>
     <div id="modal-conteudo"></div>
   </article>
 </div>

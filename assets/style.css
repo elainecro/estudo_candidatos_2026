@@ -38,7 +38,12 @@ a { color: var(--accent); }
 .kicker { text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; color: var(--muted); margin: 0 0 6px; }
 h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 10px; line-height: 1.1; }
 .lead { font-size: 1.1rem; max-width: 62ch; color: var(--muted); margin: 0 0 18px; }
-.abas { display: flex; gap: 8px; flex-wrap: wrap; }
+.abas-barra { position: sticky; top: 0; z-index: 30; background: var(--bg); border-bottom: 1px solid var(--line); box-shadow: 0 4px 14px rgba(0,0,0,.06); }
+.abas { display: flex; gap: 8px; flex-wrap: nowrap; overflow-x: auto; padding-top: 8px; padding-bottom: 8px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.abas::-webkit-scrollbar { display: none; }
+.abas a { white-space: nowrap; flex: 0 0 auto; }
+.abas a[aria-current="true"] { border-color: var(--accent); background: var(--accent); color: var(--accent-ink); }
+.secao { scroll-margin-top: 64px; }
 .abas a { text-decoration: none; padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--ink); font-weight: 600; }
 .abas a:hover { border-color: var(--accent); }
 
@@ -116,9 +121,13 @@ code { background: var(--card); border: 1px solid var(--line); padding: 1px 6px;
 .modal[hidden] { display: none; }
 .modal { position: fixed; inset: 0; z-index: 40; display: flex; align-items: flex-end; justify-content: center; }
 .modal-fundo { position: absolute; inset: 0; background: rgba(0,0,0,.45); }
-.modal-caixa { position: relative; background: var(--card); color: var(--ink); width: min(900px, 100%); max-height: 92vh; overflow: auto; border-radius: 20px 20px 0 0; padding: 22px 20px 40px; box-shadow: 0 -10px 40px rgba(0,0,0,.25); }
-@media (min-width: 700px) { .modal { align-items: center; } .modal-caixa { border-radius: 20px; padding: 28px 30px 34px; } }
-.fechar { position: sticky; top: 0; float: right; font-size: 1.6rem; line-height: 1; border: 0; background: var(--bg); color: var(--ink); width: 36px; height: 36px; border-radius: 50%; cursor: pointer; }
+.modal-caixa { position: relative; background: var(--card); color: var(--ink); width: min(900px, 100%); max-height: 92vh; overflow: auto; border-radius: 20px 20px 0 0; padding: 0 20px 40px; box-shadow: 0 -10px 40px rgba(0,0,0,.25); }
+.modal-barra { position: sticky; top: 0; z-index: 2; display: flex; justify-content: space-between; align-items: center; gap: 8px; margin: 0 -20px 12px; padding: 10px 14px; background: var(--card); border-bottom: 1px solid var(--line); }
+.modal-barra:has(#modal-voltar[hidden]) { justify-content: flex-end; }
+.fechar { font-size: 1.6rem; line-height: 1; border: 0; background: var(--bg); color: var(--ink); width: 36px; height: 36px; border-radius: 50%; cursor: pointer; flex: 0 0 auto; }
+.voltar { border: 1px solid var(--line); background: var(--bg); color: var(--ink); font-weight: 600; padding: 8px 14px; border-radius: 999px; cursor: pointer; }
+.voltar:hover, .fechar:hover { border-color: var(--accent); color: var(--accent); }
+@media (min-width: 700px) { .modal { align-items: center; } .modal-caixa { border-radius: 20px; padding: 0 30px 34px; } .modal-barra { margin: 0 -30px 14px; padding: 12px 18px; } }
 .modal h2 { margin: 0 0 4px; font-size: 1.6rem; }
 .modal .sub { color: var(--muted); margin: 0 0 14px; }
 .modal h3 { font-size: 1.05rem; margin: 22px 0 8px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }

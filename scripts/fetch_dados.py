@@ -746,6 +746,8 @@ def fundir_orfaos(doc):
             continue
         i = cands[0]
         for k, v in i.items():
+            if k == "situacao" and o.get("situacao") == "desistiu":
+                continue   # quem escreveu a ficha sabe que a pessoa saiu; o CSV do TSE pode estar atrasado
             if k in AUTO_CAMPOS or k not in o or o.get(k) in (None, "", [], {}):
                 if k == "situacao" and o.get("situacao_obs") and v != o.get("situacao"):
                     o["situacao_obs"] = f"TSE registra '{v}'. " + o["situacao_obs"]

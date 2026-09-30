@@ -373,25 +373,64 @@
 
   // ------------------------------------------------------------------- modal
   const modal = $('#modal'), conteudo = $('#modal-conteudo'); let ultimoFoco = null;
-  function abrirModal(html) {
-    ultimoFoco = document.activeElement;
+  // Modais empilham: abrir um candidato a partir da ficha do cargo guarda a ficha do cargo para o "Voltar".
+  // Cada nível entra no histórico do navegador, então o botão físico de voltar do celular também volta um nível.
+  const caixa = $('.modal-caixa'); const btnVoltar = $('#modal-voltar');
+  let pilha = []; let nivel = 0; let depoisDeFechar = null;
+  function mostrar(html, scroll) {
     conteudo.innerHTML = html; modal.hidden = false; document.body.style.overflow = 'hidden';
-    $('.modal-caixa').scrollTop = 0; $('.fechar').focus();
+    btnVoltar.hidden = pilha.length === 0; caixa.scrollTop = scroll || 0;
   }
-  function fecharModal() { modal.hidden = true; document.body.style.overflow = ''; ultimoFoco?.focus?.(); }
+  function abrirModal(html) {
+    if (modal.hidden) { ultimoFoco = document.activeElement; pilha = []; nivel = 0; }
+    else pilha.push({ html: conteudo.innerHTML, scroll: caixa.scrollTop });
+    nivel += 1; history.pushState({ modal: nivel }, '');
+    mostrar(html, 0); $('.fechar').focus({ preventScroll: true });
+  }
+  function esconder() {
+    modal.hidden = true; document.body.style.overflow = ''; pilha = []; nivel = 0; btnVoltar.hidden = true;
+    ultimoFoco?.focus?.(); const f = depoisDeFechar; depoisDeFechar = null; f?.();
+  }
+  function voltar() { if (pilha.length) history.back(); else fecharModal(); }
+  function fecharModal(depois) {
+    depoisDeFechar = depois || null;
+    if (nivel > 0 && history.state?.modal === nivel) history.go(-nivel); else esconder();
+  }
+  window.addEventListener('popstate', e => {
+    const alvo = e.state?.modal || 0;
+    if (modal.hidden) return;
+    if (alvo === 0 || alvo > nivel) { esconder(); return; }
+    while (pilha.length > alvo - 1) {
+      const p = pilha.pop();
+      if (pilha.length === alvo - 1) { nivel = alvo; mostrar(p.html, p.scroll); }
+    }
+  });
   modal.addEventListener('click', e => {
+    if (e.target.closest('[data-voltar]')) return voltar();
     if (e.target.closest('[data-fechar]')) return fecharModal();
     const a = e.target.closest('a[data-cand],a[data-partido],a[data-filtra-cargo],a[data-filtra-partido],a[data-filtra-espectro],a[data-filtra-espectro-partidos]');
     if (!a) return;
     e.preventDefault();
     if (a.dataset.cand) { const c = CANDS.find(x => x.id === a.dataset.cand); if (c) abrirCandidato(c); }
     else if (a.dataset.partido) { const p = PARTIDO_POR_SIGLA[a.dataset.partido]; if (p) abrirPartido(p); }
-    else if (a.dataset.filtraEspectroPartidos) { $('#f-espectro').value = a.dataset.filtraEspectroPartidos; $('#f-com-candidato').checked = false; desenharPartidos(); fecharModal(); location.hash = 'partidos'; }
-    else if (a.dataset.filtraEspectro) { estado.espectro = a.dataset.filtraEspectro; estado.partido = ''; if (!CANDS.some(x => x.cargo === estado.cargo && espectroDe(x.partido) === estado.espectro && x.situacao !== 'desistiu')) { const c = CANDS.find(x => espectroDe(x.partido) === estado.espectro && x.situacao !== 'desistiu'); if (c) estado.cargo = c.cargo; } desenharCandidatos(); fecharModal(); location.hash = 'candidatos'; }
-    else if (a.dataset.filtraCargo) { estado.cargo = a.dataset.filtraCargo; estado.partido = ''; estado.espectro = ''; desenharCandidatos(); fecharModal(); location.hash = 'candidatos'; }
-    else if (a.dataset.filtraPartido) { estado.partido = a.dataset.filtraPartido; estado.espectro = ''; const c = CANDS.find(x => x.partido === estado.partido && x.situacao !== 'desistiu'); if (c && !CANDS.some(x => x.partido === estado.partido && x.cargo === estado.cargo)) estado.cargo = c.cargo; desenharCandidatos(); fecharModal(); location.hash = 'candidatos'; }
+    else if (a.dataset.filtraEspectroPartidos) { $('#f-espectro').value = a.dataset.filtraEspectroPartidos; $('#f-com-candidato').checked = false; desenharPartidos(); fecharModal(() => { location.hash = 'partidos'; }); }
+    else if (a.dataset.filtraEspectro) { estado.espectro = a.dataset.filtraEspectro; estado.partido = ''; if (!CANDS.some(x => x.cargo === estado.cargo && espectroDe(x.partido) === estado.espectro && x.situacao !== 'desistiu')) { const c = CANDS.find(x => espectroDe(x.partido) === estado.espectro && x.situacao !== 'desistiu'); if (c) estado.cargo = c.cargo; } desenharCandidatos(); fecharModal(() => { location.hash = 'candidatos'; }); }
+    else if (a.dataset.filtraCargo) { estado.cargo = a.dataset.filtraCargo; estado.partido = ''; estado.espectro = ''; desenharCandidatos(); fecharModal(() => { location.hash = 'candidatos'; }); }
+    else if (a.dataset.filtraPartido) { estado.partido = a.dataset.filtraPartido; estado.espectro = ''; const c = CANDS.find(x => x.partido === estado.partido && x.situacao !== 'desistiu'); if (c && !CANDS.some(x => x.partido === estado.partido && x.cargo === estado.cargo)) estado.cargo = c.cargo; desenharCandidatos(); fecharModal(() => { location.hash = 'candidatos'; }); }
   });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !modal.hidden) fecharModal(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !modal.hidden) voltar(); });
+  // destaca no menu fixo a seção que está na tela
+  const abas = [...document.querySelectorAll('.abas a')];
+  const marcar = id => abas.forEach(a => a.setAttribute('aria-current', a.getAttribute('href') === '#' + id ? 'true' : 'false'));
+  if ('IntersectionObserver' in window) {
+    const visiveis = new Map();
+    const io = new IntersectionObserver(ents => {
+      ents.forEach(en => visiveis.set(en.target.id, en.isIntersecting ? en.intersectionRatio : 0));
+      const top = [...visiveis.entries()].filter(([, r]) => r > 0).sort((a, b) => b[1] - a[1])[0];
+      if (top) marcar(top[0]);
+    }, { rootMargin: '-64px 0px -60% 0px', threshold: [0, .1, .25, .5, 1] });
+    abas.forEach(a => { const sec = document.querySelector(a.getAttribute('href')); if (sec) io.observe(sec); });
+  }
 
   renderCargos(); renderEspectros(); renderPartidos(); renderCandidatos(); renderUrna();
 })();
