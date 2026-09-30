@@ -22,6 +22,7 @@ def main() -> int:
         except json.JSONDecodeError as exc:
             print(f"JSON inválido em {path}: {exc}", file=sys.stderr)
             return 1
+    fundir_duplicatas(bundle)
     validar(bundle)
     embutir_propostas(bundle)
     embutir_resumos(bundle)
@@ -240,6 +241,31 @@ def sanear_certidoes(bundle: dict) -> None:
             reflag(c)
     if n:
         print(f"{n} trechos de certidão com dado pessoal mascarado")
+
+
+def fundir_duplicatas(bundle: dict) -> None:
+    """Rede de segurança: duas fichas com o mesmo tse_id (manual + importada do TSE) viram uma no site.
+    A correção definitiva é no JSON: python3 scripts/fetch_dados.py --fundir."""
+    importada = lambda c: (c.get("resumo") or "").startswith("Importado do TSE")
+    por, fora = {}, set()
+    for c in bundle["candidatos"]["candidatos"]:
+        t = str(c.get("tse_id") or "")
+        if not t:
+            continue
+        if t not in por:
+            por[t] = c
+            continue
+        a, b = por[t], c
+        if importada(a) and not importada(b):
+            a, b = b, a
+            por[t] = a
+        for k, v in b.items():
+            if k != "id" and a.get(k) in (None, "", [], {}):
+                a[k] = v
+        fora.add(b["id"])
+        print(f"aviso: '{a['nome_urna']}' e '{b['nome_urna']}' têm o mesmo tse_id {t}; ficou uma só. Rode fetch_dados.py --fundir", file=sys.stderr)
+    if fora:
+        bundle["candidatos"]["candidatos"] = [c for c in bundle["candidatos"]["candidatos"] if c["id"] not in fora]
 
 
 def validar(bundle: dict) -> None:

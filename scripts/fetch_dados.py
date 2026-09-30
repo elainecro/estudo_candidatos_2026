@@ -205,7 +205,12 @@ def salvar(doc, dry_run: bool):
     print(f"gravado: {CAND_PATH.relative_to(ROOT)}")
 
 
-def achar(cands, cargo, nome_urna):
+def achar(cands, cargo, nome_urna, tse_id=None):
+    if tse_id:
+        # ficha escrita à mão que já ganhou tse_id numa fusão: não pode virar duplicata quando o nome de urna difere
+        for c in cands:
+            if str(c.get("tse_id") or "") == str(tse_id):
+                return c
     alvo = slug(nome_urna)
     alvo2 = slug(sem_titulo(nome_urna))
     for c in cands:
@@ -632,7 +637,7 @@ def fetch_tse_csv(doc, dry_run: bool):
         if n["cargo"] != "presidente" and (row.get("SG_UF") or "").strip() != "ES":
             continue
         vistos += 1
-        alvo = achar(doc["candidatos"], n["cargo"], n["nome_urna"])
+        alvo = achar(doc["candidatos"], n["cargo"], n["nome_urna"], n["tse_id"])
         b = bens.get(n["tse_id"])
         uf_link = "BR" if n["cargo"] == "presidente" else "ES"
         n["tse_url"] = f"https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/{ID_ELEICAO[uf_link]}/{uf_link}/{n['tse_id']}"
@@ -658,6 +663,7 @@ def fetch_tse_csv(doc, dry_run: bool):
     doc["meta"]["atualizado_em_tse"] = HOJE
     doc["meta"]["fonte_tse"] = "Dados Abertos (CSV)"
     print(f"TSE CSV: {vistos} candidatos lidos, {atualizados} atualizados, {novos} novos")
+    fundir_por_tse_id(doc)
     orfaos = [c["nome_urna"] for c in doc["candidatos"] if not c.get("tse_id")]
     if orfaos:
         print(f"  fichas já existentes que NÃO casaram com nenhum nome do TSE ({len(orfaos)}): {', '.join(orfaos)}")
@@ -685,15 +691,53 @@ def _tokens(*textos):
     return out
 
 
+def _importada(c: dict) -> bool:
+    return (c.get("resumo") or "").startswith("Importado do TSE")
+
+
+def fundir_por_tse_id(doc) -> int:
+    """Duas fichas com o mesmo tse_id viram uma. Fica a escrita à mão (a importada só empresta o que falta
+    e os campos automáticos). Acontecia quando a fusão dava tse_id à ficha manual e o --tse seguinte,
+    procurando só pelo nome de urna, criava a importada de novo."""
+    por, removidos = {}, []
+    for c in doc["candidatos"]:
+        t = str(c.get("tse_id") or "")
+        if not t:
+            continue
+        if t not in por:
+            por[t] = c
+            continue
+        a, b = por[t], c
+        if _importada(a) and not _importada(b):
+            a, b = b, a
+            por[t] = a
+        for k, v in b.items():
+            if k != "id" and (k in AUTO_CAMPOS or a.get(k) in (None, "", [], {})):
+                a[k] = v
+        if b.get("projetos") and "API" in ((b.get("projetos") or {}).get("fonte") or ""):
+            a["projetos"] = b["projetos"]
+        removidos.append(b["id"])
+        print(f"  fundido por tse_id: '{a['nome_urna']}' <- '{b['nome_urna']}' ({t})")
+    doc["candidatos"] = [c for c in doc["candidatos"] if c["id"] not in removidos]
+    return len(removidos)
+
+
 def fundir_orfaos(doc):
     """Casa fichas escritas à mão (sem tse_id) com fichas importadas do TSE cujo nome de urna é diferente.
     Regra: mesmo cargo, ao menos um sobrenome/apelido distintivo em comum, e só uma candidata possível."""
+    fundir_por_tse_id(doc)
     importadas = [c for c in doc["candidatos"] if c.get("tse_id") and (c.get("resumo") or "").startswith("Importado do TSE")]
     orfaos = [c for c in doc["candidatos"] if not c.get("tse_id")]
     removidos = []
     for o in orfaos:
         tk = _tokens(o["nome_urna"], o.get("nome_completo"))
         cands = [i for i in importadas if i["cargo"] == o["cargo"] and tk & _tokens(i["nome_urna"], i.get("nome_completo"))]
+        if len(cands) > 1:
+            # vários com uma palavra em comum (um sobrenome frequente, um primeiro nome): fica quem tem
+            # nitidamente mais palavras em comum ('Gilvan Aguiar Costa' x 'Gilvan O Federal Da Direita' = 3; 'Adalto Costa' = 1)
+            pontos = sorted(((len(tk & _tokens(i["nome_urna"], i.get("nome_completo"))), i) for i in cands), key=lambda x: -x[0])
+            if pontos[0][0] >= 2 and pontos[0][0] > pontos[1][0]:
+                cands = [pontos[0][1]]
         if len(cands) != 1:
             if cands:
                 print(f"  {o['nome_urna']}: ambíguo entre {[c['nome_urna'] for c in cands]}; preencha 'tse_id' à mão")
@@ -787,7 +831,7 @@ def fetch_tse(doc, dry_run: bool):
             continue
         for c in lista["candidatos"]:
             nome_urna = c.get("nomeUrna") or c.get("nomeCompleto")
-            alvo = achar(doc["candidatos"], cargo, nome_urna)
+            alvo = achar(doc["candidatos"], cargo, nome_urna, c.get("id"))
             det = get_json(f"{TSE_BASE}/candidatura/buscar/2026/{uf}/{id_el}/candidato/{c.get('id')}") or {}
             n = normalizar_tse_detalhe(det) if det else {"situacao": mapear_situacao(c.get("descricaoSituacao") or ""), "numero": str(c.get("numero")) if c.get("numero") else None, "partido": (c.get("partido") or {}).get("sigla"), "foto": c.get("fotoUrl")}
             n["tse_id"] = c.get("id")

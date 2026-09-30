@@ -227,6 +227,8 @@ def baixar_producao(base: str, autor_id: int, ano: int | None = None) -> tuple[l
         pagina = 1
         vistos = {i.get("url") for i in itens}
         while "lbNext" in html and pagina < MAX_PAGINAS and "__VIEWSTATE" in ocultos:
+            if total and len(itens) >= total:
+                break   # o botão "próxima" continua na última página e dá erro 500 se clicado
             if pagina % 10 == 0:
                 print(f"      página {pagina}, {len(itens)} lidas até agora", flush=True)
             form = dict(ocultos)
