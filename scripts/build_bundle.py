@@ -26,6 +26,7 @@ def main() -> int:
     embutir_propostas(bundle)
     embutir_resumos(bundle)
     sanear_tse(bundle)
+    descartar_camara_homonima(bundle)
     separar_pecs(bundle)
     sanear_certidoes(bundle)
     embutir_interpretacoes(bundle)
@@ -132,6 +133,30 @@ def embutir_biografias(bundle: dict) -> None:
         n += 1
     if n:
         print(f"{n} biografias embutidas")
+
+
+def descartar_camara_homonima(bundle: dict) -> None:
+    """Coletas antigas casavam o nome de urna com qualquer deputado da API (ex.: 'Lula' -> Lula da Fonte).
+    Sem 'camara_nome' validado, um id da legislatura atual (>= 200000) só vale se a pessoa foi deputada
+    federal a partir de 2019; senão os dados da Câmara são de homônimo e saem da ficha."""
+    n = 0
+    for c in bundle["candidatos"]["candidatos"]:
+        cid = c.get("camara_id")
+        if not cid or c.get("camara_nome") or int(cid) < 200000:
+            continue
+        recente = any("deputad" in (m.get("cargo") or "").lower() and "federal" in (m.get("cargo") or "").lower()
+                      and any(a in (m.get("periodo") or "") for a in ("2019", "202")) for m in c.get("mandatos") or [])
+        recente = recente or any((e.get("cargo") or "").lower().startswith("deputado federal") and str(e.get("ano")) >= "2018" for e in c.get("eleicoes_anteriores") or [])
+        if recente or c.get("cargo") == "deputado_federal":
+            continue
+        for k in ("camara_id", "gastos", "comissoes", "votacoes_chave"):
+            c.pop(k, None)
+        if isinstance(c.get("projetos"), dict) and "Câmara" in (c["projetos"].get("fonte") or ""):
+            c["projetos"] = None
+        n += 1
+        print(f"aviso: dados da Câmara descartados para {c['nome_urna']} (id {cid} é de homônimo); rode fetch_dados.py --camara", file=sys.stderr)
+    if n:
+        print(f"{n} ficha(s) com dados de deputado homônimo removidos")
 
 
 def separar_pecs(bundle: dict) -> None:
