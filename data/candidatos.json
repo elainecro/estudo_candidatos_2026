@@ -3965,7 +3965,7 @@
       },
       "noticias": {
         "consultado_em": "2026-09-28",
-        "busca": "\"Romeu Zema\" (candidato OR presidente OR eleição)",
+        "busca": "\"Romeu Zema Neto\" (candidato OR presidente OR eleição)",
         "itens": [
           {
             "titulo": "Confira como foi a segunda-feira (28) dos candidatos a presidente",
@@ -4017,6 +4017,20 @@
           }
         ],
         "fonte": "Google Notícias (RSS); pode incluir homônimos"
+      },
+      "escolaridade": "Superior completo",
+      "cpf": "44906161634",
+      "sancoes": {
+        "verificado_em": "2026-09-28",
+        "tcu": [],
+        "ceis": [],
+        "cnep": [],
+        "ceaf": [],
+        "fontes_consultadas": [
+          "Portal da Transparência CEIS",
+          "Portal da Transparência CNEP",
+          "Portal da Transparência CEAF"
+        ]
       }
     },
     {
@@ -4299,7 +4313,7 @@
       },
       "noticias": {
         "consultado_em": "2026-09-28",
-        "busca": "\"Augusto Cury\" (candidato OR presidente OR eleição)",
+        "busca": "\"Escritor Augusto Cury\" (candidato OR presidente OR eleição)",
         "itens": [
           {
             "titulo": "As ideias de Augusto Cury",
@@ -4351,6 +4365,20 @@
           }
         ],
         "fonte": "Google Notícias (RSS); pode incluir homônimos"
+      },
+      "escolaridade": "Superior completo",
+      "cpf": "02162936852",
+      "sancoes": {
+        "verificado_em": "2026-09-28",
+        "tcu": [],
+        "ceis": [],
+        "cnep": [],
+        "ceaf": [],
+        "fontes_consultadas": [
+          "Portal da Transparência CEIS",
+          "Portal da Transparência CNEP",
+          "Portal da Transparência CEAF"
+        ]
       }
     },
     {
@@ -5114,7 +5142,7 @@
       },
       "noticias": {
         "consultado_em": "2026-09-28",
-        "busca": "\"Samara Martins\" (candidato OR presidente OR eleição)",
+        "busca": "\"Samara Martins da Silva Feitosa\" (candidato OR presidente OR eleição)",
         "itens": [
           {
             "titulo": "Samara Martins propõe dobrar salário mínimo e criar escala 4×3",
@@ -5166,6 +5194,20 @@
           }
         ],
         "fonte": "Google Notícias (RSS); pode incluir homônimos"
+      },
+      "escolaridade": "Superior completo",
+      "cpf": "07787166606",
+      "sancoes": {
+        "verificado_em": "2026-09-28",
+        "tcu": [],
+        "ceis": [],
+        "cnep": [],
+        "ceaf": [],
+        "fontes_consultadas": [
+          "Portal da Transparência CEIS",
+          "Portal da Transparência CNEP",
+          "Portal da Transparência CEAF"
+        ]
       }
     },
     {
@@ -34638,14 +34680,6 @@
         "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016999648. Federal Criminal  2 Grau.pdf.pdf",
         "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016999650. Estadual  1 grau.pdf.pdf",
         "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80017005919.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016996992.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016997000.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016999642.2.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016999649. Estadual  2 grau.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016999643.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016999648. Federal Criminal  2 Grau.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016999650. Estadual  1 grau.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80017005919.pdf.pdf",
         "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016996992.pdf.pdf"
       ],
       "campanha": {
@@ -34846,7 +34880,7 @@
       "certidoes_flag": "nada consta",
       "noticias": {
         "consultado_em": "2026-09-28",
-        "busca": "\"Dr. Victor Linhalis\" (\"Espírito Santo\" OR ES OR capixaba OR candidato OR deputado OR senador OR governador)",
+        "busca": "\"Dr. Victor\" (\"Espírito Santo\" OR ES OR capixaba OR candidato OR deputado OR senador OR governador)",
         "itens": [
           {
             "titulo": "A 15 dias das eleições, Dr. Victor intensifica campanha nas ruas",
@@ -34899,7 +34933,21 @@
         ],
         "fonte": "Google Notícias (RSS); pode incluir homônimos"
       },
-      "camara_nome": "Dr. Victor Linhalis"
+      "camara_nome": "Dr. Victor Linhalis",
+      "escolaridade": "Superior completo",
+      "cpf": "10204305756",
+      "sancoes": {
+        "verificado_em": "2026-09-28",
+        "tcu": [],
+        "ceis": [],
+        "cnep": [],
+        "ceaf": [],
+        "fontes_consultadas": [
+          "Portal da Transparência CEIS",
+          "Portal da Transparência CNEP",
+          "Portal da Transparência CEAF"
+        ]
+      }
     },
     {
       "id": "gilson-daniel",
@@ -39182,8 +39230,8 @@
       "nome_completo": "Gilvan Aguiar Costa",
       "partido": "PL",
       "numero": "2222",
-      "idade": 50,
-      "ocupacao": "Policial federal, deputado federal",
+      "idade": null,
+      "ocupacao": "Servidor público federal",
       "situacao": "desistiu",
       "situacao_obs": "Desistiu da reeleição em setembro de 2026. O PL colocou no lugar o vereador de Viana Lucas Stein Casagrande, que herdou o número 2222.",
       "tipo_historico": "legislativo",
@@ -39887,7 +39935,345 @@
           "voto": "Sim"
         }
       ],
-      "camara_nome": "Gilvan da Federal"
+      "camara_nome": "Gilvan da Federal",
+      "bens": {
+        "total": 420505.5,
+        "itens": [
+          {
+            "tipo": "Caderneta de poupança",
+            "descricao": "POUPANÇA",
+            "valor": 420505.5
+          }
+        ],
+        "fonte": "TSE Dados Abertos (bem_candidato_2026)",
+        "atualizado_em": "2026-09-28"
+      },
+      "certidoes": [],
+      "eleicoes_anteriores": [
+        {
+          "ano": "2018",
+          "cargo": "Deputado Estadual",
+          "partido": "PSL",
+          "uf": "Espírito Santo",
+          "resultado": "Suplente",
+          "turno": "1",
+          "situacao": "Apto"
+        },
+        {
+          "ano": "2020",
+          "cargo": "Vereador",
+          "partido": "Patriota",
+          "uf": "Vitória",
+          "resultado": "Eleito por média",
+          "turno": "1",
+          "situacao": "Apto"
+        },
+        {
+          "ano": "2022",
+          "cargo": "Deputado Federal",
+          "partido": "PL",
+          "uf": "Espírito Santo",
+          "resultado": "Eleito por QP",
+          "turno": "1",
+          "situacao": "Apto"
+        }
+      ],
+      "tse_id": "80002549700",
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/ES/80002549700",
+      "trocas_de_partido": 2,
+      "vezes_eleito": 2,
+      "tse_complementar": {
+        "limite_gastos": 3176572.53,
+        "situacao_julgamento": "RENÚNCIA",
+        "na_urna": false,
+        "destinacao_votos": null,
+        "substituido": true,
+        "sq_substituido": null,
+        "nascimento": "Araioses",
+        "genero": "Masculino",
+        "cor_raca": "Parda",
+        "declarou_bens": true,
+        "processo_registro": "06007180920266080000"
+      },
+      "redes": [
+        "https://www.instagram.com/gilvandafederal",
+        "https://x.com/gilvandafederal"
+      ],
+      "certidoes_arquivos": [
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095345.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017091505.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095336.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095337.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017093871.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095340.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095543.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095344.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095345.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017091505.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095336.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095337.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017093871.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095340.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095543.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095344.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095345.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017091505.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095336.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095337.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017093871.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095340.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095543.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095344.pdf.pdf"
+      ],
+      "campanha": {
+        "receitas": 3106665.0,
+        "despesas": 3106857.83,
+        "fundo_publico_e_partido": 3100000.0,
+        "maiores_doadores": [
+          {
+            "nome": "Direção Nacional - PL",
+            "valor": 3100000.0
+          },
+          {
+            "nome": "MAGDA SANTOS MALTA",
+            "valor": 6665.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 3098855.47,
+        "maiores_fornecedores": [
+          {
+            "nome": "MAR PRODUCOES GRAFICAS LTDA",
+            "valor": 400000.0
+          },
+          {
+            "nome": "EVANDRO DE SOUZA FERREIRA BRAGA",
+            "valor": 400000.0
+          },
+          {
+            "nome": "DEVACIR RABELLO DA SILVA",
+            "valor": 350000.0
+          },
+          {
+            "nome": "FABRICIO DA SILVA MARTINS",
+            "valor": 327000.0
+          },
+          {
+            "nome": "VITOR SOARES LOUZADA",
+            "valor": 310000.0
+          },
+          {
+            "nome": "EMERSON CARDOZO",
+            "valor": 160000.0
+          },
+          {
+            "nome": "RESOLVI - SERVICOS PRODUCOES E EVENTOS LTDA",
+            "valor": 150000.0
+          },
+          {
+            "nome": "ANTONIO EMILIO ABREU DIAS BORGES",
+            "valor": 150000.0
+          },
+          {
+            "nome": "CORPEL GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
+            "valor": 136492.5
+          },
+          {
+            "nome": "BRUNO ZANELLATO COELHO",
+            "valor": 120000.0
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Doações financeiras a outros candidatos/partidos",
+            "valor": 1897000.0
+          },
+          {
+            "tipo": "Publicidade por materiais impressos",
+            "valor": 536492.5
+          },
+          {
+            "tipo": "Serviços advocatícios",
+            "valor": 230000.0
+          },
+          {
+            "tipo": "Cessão ou locação de veículos",
+            "valor": 183806.47
+          },
+          {
+            "tipo": "Serviços prestados por terceiros",
+            "valor": 120000.0
+          },
+          {
+            "tipo": "Despesa com impulsionamento de conteúdos",
+            "valor": 61002.36
+          }
+        ]
+      },
+      "situacao_detalhe": "#ne",
+      "foto": "data/fotos/80002549700.jpg",
+      "certidoes_resumo": [
+        {
+          "orgao": "Justiça Estadual",
+          "grau": "2º grau",
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095345.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Federal",
+          "grau": null,
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017091505.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "STF",
+          "grau": null,
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095336.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Federal",
+          "grau": null,
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095337.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Estadual",
+          "grau": "2º grau",
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017093871.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Estadual",
+          "grau": "1º grau",
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095340.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Estadual",
+          "grau": "1º grau",
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095543.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Federal",
+          "grau": null,
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095344.pdf.pdf",
+          "leitura": "cache"
+        }
+      ],
+      "certidoes_flag": "nada consta",
+      "escolaridade": "Superior completo",
+      "cpf": "08449011728",
+      "sancoes": {
+        "verificado_em": "2026-09-28",
+        "tcu": [],
+        "ceis": [],
+        "cnep": [],
+        "ceaf": [],
+        "fontes_consultadas": [
+          "Portal da Transparência CEIS",
+          "Portal da Transparência CNEP",
+          "Portal da Transparência CEAF"
+        ]
+      },
+      "noticias": {
+        "consultado_em": "2026-09-28",
+        "busca": "\"Gilvan O Federal Da Direita\" (\"Espírito Santo\" OR ES OR capixaba OR candidato OR deputado OR senador OR governador)",
+        "itens": [
+          {
+            "titulo": "Candidatos a deputado federal no Espírito Santo (ES): veja a lista atualizada das eleições 2026",
+            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc0tPZHoxcENhYmxVQm0zeXpFX2FyTTBxSTBBUDdqUktoNmo4Y2tJTXhNZkdDTi1SRTJ6cm9QM3RlM3NDMkRtd1dJTTVKRkhTcU5MU0NUZ2Vkc09veml4WGdvUy1qX3VpUi1PeHdqQWNrMlRvSF9nNEZDV2d2UUNIbDB5ckVkY3hFRE9JOUhOVEVGbjAtTnFXY0J6UlJFQ0MzNHg5b3lmVms2TUs0Skt6VGdiRkQtSmFsM0V6WDZXZUJTbzJNeU1oMWlMNk9mVGhqbUFUUzFRX3YyNVFQa1d6NzN6aGtvZjhkcHpTQlhTTy1rUGw1d2dF0gGGAkFVX3lxTE5kSlo4ZmJfNkNSQThfUXVvVERNOEMtQ1ZiZElFb1lEc3RKTU9ySVdBc0pNZWFuaVRybWFmSFNyTEs3TDF0WHNyRlcxMUlXRHFmZGMzdkdsVy1sWVk3dlI2dTBJTE9Razh2bDlpcUxDVTFvaEhNLTV1QVl6ZWdteko4NEc1S1VZMVpTb3NIU3A5a2xCMmE4NVMxZzFtUEhvams1em85MU8xNlBUa09ROVl5MFI1dmo2R1U1dXM5RWRWck1mVjZGZFlVenRkUldQNFVzMERBejRnM0M4UnJIRlFFUHM2TmpyY3FjMlZLcmVhRUFnWlZoU2NsRzJHZExkdzVKVHRwX2c?oc=5",
+            "data": "2026-09-25",
+            "fonte": "Valor Econômico"
+          },
+          {
+            "titulo": "Veja a lista dos candidatos a deputado federal no Espírito Santo",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdlREUThScmMweDV6UW9VbHJsdTVsYUNRRGZnald1UzFtMkZwSFVNb3AzaXNTSk84cTAyNXQzTjl1c19HcXpSUFVjai1rSDV1WmlPNmFKNFJORDFqc2VfUEQzamZSMjdWLU1NSi1hb3VwQmdFY3ZmQWR4ekVwNVBrU0lsb19wMTA4X09HX3prVWJuTVpQWGZxeHZJWEwwSTBjOW1uSzR3?oc=5",
+            "data": "2026-09-24",
+            "fonte": "CNN Brasil"
+          },
+          {
+            "titulo": "Quem são os candidatos a deputado federal pelo Espírito Santo (ES) nas eleições 2026",
+            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdlYwNEN3a21uNzgwZmNJVU5BLUlJV0djaERObmxRWXFkYU05WDNkT2JHMml6ZlNsSUZIbEJOY1NMZktSWmpoTE95Y1VYZy1UMU40QjJQM0UxUDc2YmQ4Q1BjOXNESHpkM01pYTZPNlE3bW9yTWpJYjhxRTh5dXdaNUVKVXU0S3hnYWQyWjctM2trRjVxOHZ4U3hLaW5HN3kxZVNFNjdwb19hLWxfSEd0S0E1aThBT2hkY1cxUjdTZ1FCOTFwWWc?oc=5",
+            "data": "2026-09-18",
+            "fonte": "JOTA Info"
+          },
+          {
+            "titulo": "Gilvan O Federal Da Direita Candidato a Deputado Federal no Espírito Santo nas eleições 2026",
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaE1qRkJUWDZaUHoxb2NGdUEwaWhJSURrNXdjaFJxMC1vem0xQzliSHBnbUpwdi1OQU55bkdNcEVkQTRieWkwczc4dTNJUkFwRlozakw4OVhKYnZyOGV3djgtSDhBTkRWRWpXVmlTNXN3NE92blZRNVB3TlBMczc4LTVhY0Q5akZNU1I0N1FoYzg4c3BrUWQ0TkhpV2hsUVYtdkx2bV83bw?oc=5",
+            "data": "2026-09-18",
+            "fonte": "g1.globo.com"
+          },
+          {
+            "titulo": "GILVAN O FEDERAL DA DIREITA",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbm9EZGgwQUp6aTdnUFgxMG5veVBwNjVuTjgxY3ZkN1dhX0M1RjNTQWdkbWZnMFotM1dJck1KTUVwT2pWVE4zbHh6QTBEd05jb0lMdVhpX0pnUFkzQklkNDFGSnlpc0NRNGRlbmlfMTkzZjdrY1drQkRmd3BGSjFYQzgtUXJCVUt4cURSWF9sZ0xINWtOWTlVZGFFWEpxSzVPYVI4SEcwQWlyTms5c3JN?oc=5",
+            "data": "2026-09-18",
+            "fonte": "CNN Brasil"
+          },
+          {
+            "titulo": "Lucas O Federal da Direita 2222 - Candidato a deputado federal do ES pelo PL | Eleições 2026",
+            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbkx2OXFzakFlbW1iYVlVcGNNOHMxdHI5OFM3UFNRMHNRa05WdS1mSHVWODk3MlN5SG16SEd5YjBmWWY3RVVTbEVlUVF0b3dFekNPcmRyUVFrV0dxSGk5SURBR2xIV1JXUkplRzY1ZkRZelZ4Z19yUmE5WmlWa0l5ckJVRDMtbEZTMGpURVF6Vlk5VGh0YUIzc3RrMlF3OU5l?oc=5",
+            "data": "2026-09-15",
+            "fonte": "ND Mais"
+          },
+          {
+            "titulo": "Gilvan o Federal da Direita 2222 (PL): candidato a Deputado Federal pelo ES",
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUjdWc0VjbU5KZjI2LW9aRmc0d0UyT2tHbzFMMmNZV2tycERqN3NuM2YxdnE0MXlLb3JqLUlWSVRxUlNmRnRoUlVob3R1aXE2cWNzUER5LTVOZ1U3a2ZqRXZMakstV21tLUtCSE9iTklPV0RhQzR4cDdPZWtqN2UzNTRncDFLSTBzOV96aGJ0ZWpwNHhwdmpNQWlTV1BVdnoxWFhSQkt2dTBoUWdHdGh5T1NoZw?oc=5",
+            "data": "2026-09-05",
+            "fonte": "Gazeta do Povo"
+          },
+          {
+            "titulo": "ES: Veja quem são os candidatos mais votados no estado",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTUVuNm1aaFQ0NHZYZTU5bmxEYl9LMkJQbUhEZDFoejVCVEJpcWtmVUJsV0FTQ1lUQkZwS0dQMldrcTAxSUhuNmxoZzNDcmZIbUx3NW9DZnpCY3FuS1dlTnF6ZVJ6X0dkdWpvZGR5Z3lueE5fOEpCSVg3MEZ6bEtMWllmYU53MjBXbWFTZmpjUWtCemVwdDcyelhNRjV3SXpIaFh1WWdiMFpfcjlLbzRCTTREQ3V3Umdx?oc=5",
+            "data": "2026-09-05",
+            "fonte": "band.com.br"
+          }
+        ],
+        "fonte": "Google Notícias (RSS); pode incluir homônimos"
+      },
+      "nome_urna_tse": "Gilvan O Federal Da Direita"
     },
     {
       "id": "lucas-stein-casagrande",
@@ -39897,9 +40283,9 @@
       "partido": "PL",
       "numero": "2222",
       "idade": null,
-      "ocupacao": "Vereador de Viana",
-      "situacao": "deferido",
-      "situacao_obs": "Entrou na chapa no lugar de Gilvan da Federal em setembro de 2026.",
+      "ocupacao": "Vereador",
+      "situacao": "aguardando",
+      "situacao_obs": "TSE registra 'aguardando'. Entrou na chapa no lugar de Gilvan da Federal em setembro de 2026.",
       "tipo_historico": "legislativo",
       "inicio_politica": 2024,
       "resumo": "Vereador de Viana, substituto de Gilvan da Federal na chapa do PL.",
@@ -39930,13 +40316,37 @@
       ],
       "noticias": {
         "consultado_em": "2026-09-28",
-        "busca": "\"Lucas Stein Casagrande\" (\"Espírito Santo\" OR ES OR capixaba OR candidato OR deputado OR senador OR governador)",
+        "busca": "\"Lucas O Federal Da Direita\" (\"Espírito Santo\" OR ES OR capixaba OR candidato OR deputado OR senador OR governador)",
         "itens": [
+          {
+            "titulo": "Veja lista dos candidatos a deputado federal pelo Espírito Santo em 2026",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZXRQTUR3dGEzVWFaT3ZsVzVlVXVFNldIUlE4bU9mOERwTDlwdHlfZHVzcWNJQ3EzWGZGSlp4UGU1Zkdsck1wZzFBRzAtTnhVWWdMUDF0bkxCTFBCc3Uxenl0WjFDZGdZZW1PemZMU01LSHRfNGE5dGs3SE1QbU5mWnF5ZExWRGtSUlEtcHQtZC1ZdkNaQkl4SmRXdEtEMTEwWEZoTGZPV2RjYlgwMlFYejhqMHp3S1BCT2VNeGw2YzM5N28?oc=5",
+            "data": "2026-09-28",
+            "fonte": "UOL Notícias"
+          },
+          {
+            "titulo": "Candidatos a deputado federal no Espírito Santo (ES): veja a lista atualizada das eleições 2026",
+            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc0tPZHoxcENhYmxVQm0zeXpFX2FyTTBxSTBBUDdqUktoNmo4Y2tJTXhNZkdDTi1SRTJ6cm9QM3RlM3NDMkRtd1dJTTVKRkhTcU5MU0NUZ2Vkc09veml4WGdvUy1qX3VpUi1PeHdqQWNrMlRvSF9nNEZDV2d2UUNIbDB5ckVkY3hFRE9JOUhOVEVGbjAtTnFXY0J6UlJFQ0MzNHg5b3lmVms2TUs0Skt6VGdiRkQtSmFsM0V6WDZXZUJTbzJNeU1oMWlMNk9mVGhqbUFUUzFRX3YyNVFQa1d6NzN6aGtvZjhkcHpTQlhTTy1rUGw1d2dF0gGGAkFVX3lxTE5kSlo4ZmJfNkNSQThfUXVvVERNOEMtQ1ZiZElFb1lEc3RKTU9ySVdBc0pNZWFuaVRybWFmSFNyTEs3TDF0WHNyRlcxMUlXRHFmZGMzdkdsVy1sWVk3dlI2dTBJTE9Razh2bDlpcUxDVTFvaEhNLTV1QVl6ZWdteko4NEc1S1VZMVpTb3NIU3A5a2xCMmE4NVMxZzFtUEhvams1em85MU8xNlBUa09ROVl5MFI1dmo2R1U1dXM5RWRWck1mVjZGZFlVenRkUldQNFVzMERBejRnM0M4UnJIRlFFUHM2TmpyY3FjMlZLcmVhRUFnWlZoU2NsRzJHZExkdzVKVHRwX2c?oc=5",
+            "data": "2026-09-25",
+            "fonte": "Valor Econômico"
+          },
           {
             "titulo": "Lucas O Federal da Direita (PL) — Deputado Federal de Espírito Santo 2026",
             "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xTzRTWFdsUF9uMjFieHFGMGFMSVhiTFQ3aTQwYVpBMFlNWjQyUVZyLWRadjRvVXBlcTBwSFdLS2ZtUV94RTFVWmk4MF8zVkwxUE9SQXJ2NkZYb291VVFEN3Y5eTNvUWkwLUdSQTVUU2c0dkk?oc=5",
             "data": "2026-09-23",
             "fonte": "tmc.com.br"
+          },
+          {
+            "titulo": "Quem são os candidatos a deputado federal pelo Espírito Santo (ES) nas eleições 2026",
+            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdlYwNEN3a21uNzgwZmNJVU5BLUlJV0djaERObmxRWXFkYU05WDNkT2JHMml6ZlNsSUZIbEJOY1NMZktSWmpoTE95Y1VYZy1UMU40QjJQM0UxUDc2YmQ4Q1BjOXNESHpkM01pYTZPNlE3bW9yTWpJYjhxRTh5dXdaNUVKVXU0S3hnYWQyWjctM2trRjVxOHZ4U3hLaW5HN3kxZVNFNjdwb19hLWxfSEd0S0E1aThBT2hkY1cxUjdTZ1FCOTFwWWc?oc=5",
+            "data": "2026-09-18",
+            "fonte": "JOTA Info"
+          },
+          {
+            "titulo": "Lucas O Federal Da Direita",
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUU9vS2RyUVJMNF81eGl1WFlBa2V3R0dIV1lWdTJZMndheUR6cXRCcjYwQjdMUjMtRElYRTZxT3NtWDEtV25aSURqZlU4YkFZc0l1QnIxcUtYT2w5YWEwalFycl9Pb0NYU0h1cl9jdGwwVHJzTHdta1dvamtFS1htNy05VXZmdElsa193ZFE1dHpGWVZhUm1icTZwYnhZb2E5bFlENzc1aw?oc=5",
+            "data": "2026-09-17",
+            "fonte": "g1.globo.com"
           },
           {
             "titulo": "Lucas o Federal da Direita 2222 (PL): candidato a Deputado Federal pelo ES",
@@ -39955,34 +40365,199 @@
             "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT3g4MXNwblhsV2tDQ0k4QVVUclpjMEVaYUsyVnZ1WlJnZFVyRGRldFZXSXJVaDdvOXp5MDcyQk9Dd1dKSzFFOVFCV2VfdEN0Xzl5dVUxeXVtd2VnVGE0Z3J3UDdYMEhzamVXT3ZkR3MtWE5OdlUyWG90UmtOWDMzRzBmWkdETlQ4eTc3WExZS24wQ2V6NG52ZkZMMXZaQVN0VGRrWjUzekYyZlRXZHc?oc=5",
             "data": "2026-09-13",
             "fonte": "Tribuna do Paraná"
-          },
-          {
-            "titulo": "Gilvan da Federal está fora das eleições 2026 e já tem substituto no PL",
-            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWkpBQW05R1ZzcmppZnlJSVdnc3VKYm13bVNmUFppWmo0Q3BDSVpHcXFWU0ZtWVZTNFlyM2E1YlFkdGMtWkFzRFVqS1J2XzdDcmI5MmNXblJiSF9jLUhvenh2OExMei1kVGdGaHhhQzNKalVGdEp6ZjVZbkJMRkVhR0RrUnMtVERXZi1vakFKb293Z0M0d3NBeHptaXA0eG1ua0R4SVY2M3J2RUZaUFQxTVJBZ2VZWGR0LThXTEFHbGEzY2ppTm5sQw?oc=5",
-            "data": "2026-09-12",
-            "fonte": "A Gazeta"
-          },
-          {
-            "titulo": "Gilvan cai, e Lucas Casagrande assume seu lugar no PL",
-            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUU45RlBOVzJfQ0M5bWhFNTBvVEx1QjQ0UEtvVDRRMHR5WnpSam53b0tOTHJ2dFpDRlNDZlpJbzlUSmFBYW5sLThQVUlmNFI4OGtBQWNOMVpUdTRLSEhmcW9hbWtaVVRBbmNCLS1raVBCanZfV2czaDZHUC12TW5wc1lMMTFIMWs4a3R0MFF2MlZWU2RfOG5MR2NINThJYms?oc=5",
-            "data": "2026-09-12",
-            "fonte": "simnoticias.com.br"
-          },
-          {
-            "titulo": "José Renato Casagrande — senador ES 2026",
-            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BckdkZldoVjVLcjJfeHgtSGhwYVJNUmIzTzJUZkt1T2dzdkFwekxtQ2tXdnJ5WWhPQUVNcVJNeUhnZ1I5N2JOZV9BNU03cTBmcTNkdk1IeXVEQlpCZWc?oc=5",
-            "data": "2026-08-15",
-            "fonte": "plural.jor.br"
-          },
-          {
-            "titulo": "Lucas da Re Polese — dep. federal ES 2026",
-            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9wcGZfVXFma1dadlIzbnlRQUIzVFJhZkoxbkc0clZVazVlNFJxV3k5Zy0wQWcwUUprM09TWUtsWjZqelJJRlIyZlBNMTVJTzRla0NCUDBFZE4?oc=5",
-            "data": "2026-08-13",
-            "fonte": "plural.jor.br"
           }
         ],
         "fonte": "Google Notícias (RSS); pode incluir homônimos"
-      }
+      },
+      "bens": {
+        "total": 30382.690000000002,
+        "itens": [
+          {
+            "tipo": "Outras aplicações e investimentos",
+            "descricao": "INVESTIMENTO FUNDO IMOBILIARIO",
+            "valor": 14624.0
+          },
+          {
+            "tipo": "Depósito bancário em conta corrente no país",
+            "descricao": "CONTA BANCÁRIA  BANESTES",
+            "valor": 10961.7
+          },
+          {
+            "tipo": "Depósito bancário em conta corrente no país",
+            "descricao": "CONTA BANCÁRIA  NUBANK",
+            "valor": 4796.99
+          }
+        ],
+        "fonte": "TSE Dados Abertos (bem_candidato_2026)",
+        "atualizado_em": "2026-09-28"
+      },
+      "certidoes": [],
+      "eleicoes_anteriores": [
+        {
+          "ano": "2020",
+          "cargo": "Vereador",
+          "partido": "PSL",
+          "uf": "Viana",
+          "resultado": "Não eleito",
+          "turno": "1",
+          "situacao": "Apto"
+        },
+        {
+          "ano": "2024",
+          "cargo": "Vereador",
+          "partido": "PL",
+          "uf": "Viana",
+          "resultado": "Eleito por média",
+          "turno": "1",
+          "situacao": null
+        }
+      ],
+      "tse_id": "80002554483",
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/ES/80002554483",
+      "trocas_de_partido": 1,
+      "vezes_eleito": 1,
+      "tse_complementar": {
+        "limite_gastos": 3176572.53,
+        "situacao_julgamento": "PENDENTE DE JULGAMENTO",
+        "na_urna": true,
+        "destinacao_votos": "Válido",
+        "substituido": false,
+        "sq_substituido": "80002549700",
+        "nascimento": "Vila Velha",
+        "genero": null,
+        "cor_raca": null,
+        "declarou_bens": true,
+        "processo_registro": "06013607920266080000"
+      },
+      "redes": [
+        "https://www.instagram.com/lucasofederaldadireita?stkn=dmwxdWEwYWQ1MXJk",
+        "https://www.facebook.com/share/1HadY2CVXF/",
+        "https://TIKTOK: https://www.tiktok.com/@lucas.casagrandepl",
+        "https://www.tiktok.com/@lucas.casagrandepl?_r=1&_t=ZS-99mjBzuZatT",
+        "https://www.instagram.com/lucascasagrandebr?utm_source=qr&stkn=azk5bXNsYzZrOGZv",
+        "https://FACEBOOK: https://www.facebook.com/share/19q2JKkYeF/",
+        "https://KWAI: https://k.kwai.com/u/@LSC-ES/3HOFiAC9"
+      ],
+      "certidoes_arquivos": [
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142178.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142937.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142148.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142155.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142149.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142197.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142151.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142178.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142937.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142148.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142155.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142149.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142197.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142151.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142178.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142937.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142148.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142155.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142149.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142197.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142151.pdf.pdf"
+      ],
+      "situacao_detalhe": "#ne",
+      "foto": "data/fotos/80002554483.jpg",
+      "certidoes_resumo": [
+        {
+          "orgao": "Justiça Federal",
+          "grau": null,
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142178.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Estadual",
+          "grau": "2º grau",
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142937.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Federal",
+          "grau": null,
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142148.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Estadual",
+          "grau": "2º grau",
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142155.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Federal",
+          "grau": null,
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142149.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Estadual",
+          "grau": "1º grau",
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142197.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Estadual",
+          "grau": "1º grau",
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142151.pdf.pdf",
+          "leitura": "cache"
+        }
+      ],
+      "certidoes_flag": "nada consta",
+      "escolaridade": "Superior completo",
+      "cpf": "12170517758",
+      "sancoes": {
+        "verificado_em": "2026-09-28",
+        "tcu": [],
+        "ceis": [],
+        "cnep": [],
+        "ceaf": [],
+        "fontes_consultadas": [
+          "Portal da Transparência CEIS",
+          "Portal da Transparência CNEP",
+          "Portal da Transparência CEAF"
+        ]
+      },
+      "nome_urna_tse": "Lucas O Federal Da Direita"
     },
     {
       "id": "marcelo-santos",
@@ -45757,8 +46332,8 @@
       "nome_completo": "Fabrício Gandini Aquino",
       "partido": "Podemos",
       "numero": "20000",
-      "idade": 46,
-      "ocupacao": "Deputado estadual, gestor público",
+      "idade": null,
+      "ocupacao": "Deputado",
       "situacao": "deferido",
       "tipo_historico": "legislativo",
       "inicio_politica": 2008,
@@ -45833,17 +46408,412 @@
       ],
       "noticias": {
         "consultado_em": "2026-09-28",
-        "busca": "\"Fabrício Gandini Aquino\" (\"Espírito Santo\" OR ES OR capixaba OR candidato OR deputado OR senador OR governador)",
+        "busca": "\"Fabrício Gandini\" (\"Espírito Santo\" OR ES OR capixaba OR candidato OR deputado OR senador OR governador)",
         "itens": [
+          {
+            "titulo": "Fabrício Gandini (PODE) — Deputado Estadual de Espírito Santo 2026",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RamszRmQ4Y0xsNmcwZEcxRHo5SnJRcW1raFRwZC1XSVhhblhERVp1Nk5TZ0gzQ1F4VjI3UnZYN1dKYWJZQXdhdjFFbWczWjQ3OTgzZ0hmdzloV0RSOUV2R3R4d1RDZw?oc=5",
+            "data": "2026-09-24",
+            "fonte": "tmc.com.br"
+          },
+          {
+            "titulo": "Ales aprova projeto que garante alimentação escolar a professores da rede estadual",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdFo4YUl5Qkl6cHlwbE9rUW84ZE02bDFfOXkyV0xjYjlmNGVBVnB5NEd4djN2d3NDVDlaZXZPNk1CaFIwd1BRTjI2eFhuZkhGcE9hb3VyMTE3V1JiZ1NVdjRrbTQtTTRUZU90Wk0wMGF3Y1RLLTEtNy15UGM0ekw4VU50UXFic1ZmOGdGUXdMQUtEYzZqQmRrSlpIR0gtaVowQ1doMzRRWGFFWmU0LUlnd3NScTlQSElobHZLWFhiQkJTckE?oc=5",
+            "data": "2026-09-21",
+            "fonte": "ES 24 Horas"
+          },
+          {
+            "titulo": "FABRÍCIO GANDINI",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYktTSkNLV0otRGFSNDFFeVI1YlNUcS1fakhIUkZNNWs5QnpDcm9GRjlucnoyTlhmV185VW55RDdmeTlkd0dwS0Nicm16YzhrTlU4OEh5aHNqdlpaTF9LbDNwck5IUFJtbENqNk5LSFZNYThBWjllY0FHbjJvUW9PM2xxVmxBeVgybnBNZ3BMMzZ6YWhsVWVsT3gxUS1RQ3FTWUNUMElB?oc=5",
+            "data": "2026-09-20",
+            "fonte": "CNN Brasil"
+          },
+          {
+            "titulo": "Fabrício Gandini Candidato a Deputado Estadual no Espírito Santo nas eleições 2026",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcmdOcUxTVmptS3ZrZmxnY1h4Y0xzbnhtWGtSTzBPM2NmX2l0dERKeExicVRzX1VqeEFTQWdHNW1hdkJkZlpUcmtjOVlzZVF6OHlVMjVHdnM0elh2ZHNYZjlkZjIwOFh3VmtNNGlRYkNnQkl3UFdfZmZiLU80Skl3MU04UG93YW5CSEIyRmF5NkgwSHJ5aGczSnc2b255REtGZm9SY1RPOWE?oc=5",
+            "data": "2026-09-01",
+            "fonte": "g1.globo.com"
+          },
+          {
+            "titulo": "Fabrício Gandini, PODE, veja o número do candidato a Deputado Estadual no Espírito Santo",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeXlsdnNMbWd4WERxbXdCbWE1bGx3ZWZQeTBjTzJWQ085aXpoRndDTmhWUGtaSjZNNVVwdG55ZTcxTFN0UWFpMUdDbGZTOVAxTFM3R0JDeDg4M3ZJOEk0YkpWUUdzQ2tNOXNFc0UwWEVRX25sRk1OOTJsMGl0Z1JxTVdERkNZNTZzY0NTLXRDQnFLSjkxak8tRmxKS2YzbTBIa0lPQTVuLVdKd2t5cW9LRw?oc=5",
+            "data": "2026-09-01",
+            "fonte": "Rádio Itatiaia"
+          },
           {
             "titulo": "Fabrício Gandini",
             "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRXZCNTlFaDlNR1lzN01oM3lKeUZNc0p0TVljejlISUNNVGFiRlFJZ01tMGEwbmZhb0VsSVFzNzlZMjBIbVN0czdZeHhKVEd0c1hDRWNZY0hTRmV3aUJEZXRnNGRSOU1vVDREX1V6MTF2QVJlN2ZobXREYUkzdUFmdjdn?oc=5",
             "data": "2026-08-25",
             "fonte": "operamundi.uol.com.br"
+          },
+          {
+            "titulo": "candidato fabrício gandini | eleiçoes 2026",
+            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNnNYd2ROdWV5M1QwTkRpcWM3MndQVmZ4RnpGOVhKUHRtMnk1cVBuTmtUMWZMSGg2TktYcWRTOGljQ3VmNFN4bVJrSkFvMTg4N2RCblNVTGkzLXhsdnRSUnIybUhPTzk3TDVvSGZSbVM4ZFdHcm9PbkNUYTJoVzdRdjFCN1hWeGNUaU1tX0h2dGhpOXlnM1FrNFotbzRmNWJvNWR1bw?oc=5",
+            "data": "2026-08-16",
+            "fonte": "GZH"
+          },
+          {
+            "titulo": "Fabrício Gandini 20000 - Candidato a deputado estadual do ES pelo PODE | Eleições 2026",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNS0F0VVlTVUZ1dUJHXzdGZkhJZ3k4d0pFdXRVSmt3MGNzcDN2ZUkxOUFwM3MyT3l0NUhRVzhOV0tXSy1GRGRETTdZcjdIazNOVS1tUVR1VUVqWVdWR094c3RXYUhCOHFjdEhJYnVxSzYybW45alNVdmRoamFsSGR4M3gybl9fQ2JoNXcxMzJheDhQYnM4cWc?oc=5",
+            "data": "2026-08-11",
+            "fonte": "ND Mais"
           }
         ],
         "fonte": "Google Notícias (RSS); pode incluir homônimos"
-      }
+      },
+      "situacao_obs": "#ne",
+      "bens": {
+        "total": 970701.0,
+        "itens": [
+          {
+            "tipo": "Apartamento",
+            "descricao": "RESIDENCIAL",
+            "valor": 741034.0
+          },
+          {
+            "tipo": "Aplicação de renda fixa (cdb, rdb e outros)",
+            "descricao": "APLICAÇÕES",
+            "valor": 164667.0
+          },
+          {
+            "tipo": "Dinheiro em espécie - moeda nacional",
+            "descricao": "DINHEIRO",
+            "valor": 45000.0
+          },
+          {
+            "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+            "descricao": "CARRO",
+            "valor": 20000.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (bem_candidato_2026)",
+        "atualizado_em": "2026-09-28"
+      },
+      "certidoes": [],
+      "eleicoes_anteriores": [
+        {
+          "ano": "2004",
+          "cargo": "Vereador",
+          "partido": "PSDB",
+          "uf": "Vitoria",
+          "resultado": "Suplente",
+          "turno": "1",
+          "situacao": "Apto"
+        },
+        {
+          "ano": "2008",
+          "cargo": "Vereador",
+          "partido": "PPS",
+          "uf": "Vitória",
+          "resultado": "Eleito",
+          "turno": "1",
+          "situacao": "Apto"
+        },
+        {
+          "ano": "2012",
+          "cargo": "Vereador",
+          "partido": "PPS",
+          "uf": "Vitória",
+          "resultado": "Eleito por QP",
+          "turno": "1",
+          "situacao": "Apto"
+        },
+        {
+          "ano": "2014",
+          "cargo": "Vice-governador",
+          "partido": "PPS",
+          "uf": "Espírito Santo",
+          "resultado": "Não eleito",
+          "turno": "1",
+          "situacao": "Apto"
+        },
+        {
+          "ano": "2016",
+          "cargo": "Vereador",
+          "partido": "PPS",
+          "uf": "Vitória",
+          "resultado": "Eleito por QP",
+          "turno": "1",
+          "situacao": "Apto"
+        },
+        {
+          "ano": "2018",
+          "cargo": "Deputado Estadual",
+          "partido": "PPS",
+          "uf": "Espírito Santo",
+          "resultado": "Eleito por QP",
+          "turno": "1",
+          "situacao": "Apto"
+        },
+        {
+          "ano": "2020",
+          "cargo": "Prefeito",
+          "partido": "Cidadania",
+          "uf": "Vitória",
+          "resultado": "Não eleito",
+          "turno": "1",
+          "situacao": "Apto"
+        },
+        {
+          "ano": "2022",
+          "cargo": "Deputado Estadual",
+          "partido": "Cidadania",
+          "uf": "Espírito Santo",
+          "resultado": "Eleito por média",
+          "turno": "1",
+          "situacao": "Apto"
+        }
+      ],
+      "tse_id": "80002537485",
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/ES/80002537485",
+      "trocas_de_partido": 2,
+      "vezes_eleito": 5,
+      "tse_complementar": {
+        "limite_gastos": 1270629.01,
+        "situacao_julgamento": "DEFERIDO",
+        "na_urna": true,
+        "destinacao_votos": "Válido",
+        "substituido": false,
+        "sq_substituido": null,
+        "nascimento": "Vitória",
+        "genero": "Masculino",
+        "cor_raca": "Branca",
+        "declarou_bens": true,
+        "processo_registro": "06003206220266080000"
+      },
+      "redes": [
+        "https://timegandini.ai.studio",
+        "https://www.fgandini.com.br",
+        "https://youtube.com/fabriciogandini",
+        "https://instagram: https://www.instagram.com/fgandini/",
+        "https://facebook: https://www.facebook.com/fgandini",
+        "https://linkedin: https://br.linkedin.com/in/fgandini",
+        "https://tiktok: https://www.tiktok.com/@fgandini"
+      ],
+      "certidoes_arquivos": [
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016985475.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886731.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886613.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886612.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016995621.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886610.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016985475.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886731.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886613.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886612.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016995621.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886610.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016985475.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886731.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886613.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886612.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016995621.pdf.pdf",
+        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886610.pdf.pdf"
+      ],
+      "campanha": {
+        "receitas": 179285.5,
+        "despesas": 147460.96,
+        "fundo_publico_e_partido": 50000.0,
+        "maiores_doadores": [
+          {
+            "nome": "Direção Nacional - PODE",
+            "valor": 50000.0
+          },
+          {
+            "nome": "ALMIR AQUINO RODRIGUES JR",
+            "valor": 30000.0
+          },
+          {
+            "nome": "EDSON DA SILVA COSTA NETO",
+            "valor": 25000.0
+          },
+          {
+            "nome": "FABRICIO GANDINE AQUINO",
+            "valor": 24348.5
+          },
+          {
+            "nome": "Jurema O. D. Silva",
+            "valor": 21000.0
+          },
+          {
+            "nome": "Morgana de Assis Malani Gandini",
+            "valor": 13578.5
+          },
+          {
+            "nome": "ALEXANDRE MARCELO COUTINHO SANTOS",
+            "valor": 7260.0
+          },
+          {
+            "nome": "SOLANGE GANDINE AQUINO",
+            "valor": 4000.0
+          },
+          {
+            "nome": "BRUNO SILVA TRAVEZANI",
+            "valor": 2098.5
+          },
+          {
+            "nome": "JOSIAS MARIO DA VITORIA",
+            "valor": 2000.0
+          }
+        ],
+        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
+        "atualizado_em": "2026-09-28",
+        "despesas_pagas": 126565.73,
+        "maiores_fornecedores": [
+          {
+            "nome": "BREDA IMPRESSAO DIGITAL LTDA",
+            "valor": 36000.0
+          },
+          {
+            "nome": "GRAFICA E EDITORA JEP LTDA",
+            "valor": 32325.0
+          },
+          {
+            "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+            "valor": 20000.0
+          },
+          {
+            "nome": "MORED ASSESSORIA CONTABIL LTDA",
+            "valor": 5000.0
+          },
+          {
+            "nome": "JOSE NETO ROSSONI TORRES",
+            "valor": 4267.23
+          },
+          {
+            "nome": "JOSÉ RICARDO BARBOSA",
+            "valor": 3500.0
+          },
+          {
+            "nome": "MAXSUEL DA SILVA PESSOA",
+            "valor": 3000.0
+          },
+          {
+            "nome": "ROBERTO LEONARDO SILVA CASTRO 11601267711",
+            "valor": 2500.0
+          },
+          {
+            "nome": "PATRICIA NEVES PATROCINIO",
+            "valor": 2500.0
+          },
+          {
+            "nome": "ADRIANA SECONDINO FERREIRA CORREA",
+            "valor": 2500.0
+          }
+        ],
+        "despesas_por_tipo": [
+          {
+            "tipo": "Publicidade por materiais impressos",
+            "valor": 70125.0
+          },
+          {
+            "tipo": "Atividades de militância e mobilização de rua",
+            "valor": 41468.0
+          },
+          {
+            "tipo": "Despesa com impulsionamento de conteúdos",
+            "valor": 20000.0
+          },
+          {
+            "tipo": "Serviços contábeis",
+            "valor": 5000.0
+          },
+          {
+            "tipo": "Locação/cessão de bens imóveis",
+            "valor": 4267.23
+          },
+          {
+            "tipo": "Locação/cessão de bens móveis (exceto veículos)",
+            "valor": 3000.0
+          }
+        ]
+      },
+      "situacao_detalhe": "#ne",
+      "foto": "data/fotos/80002537485.jpg",
+      "certidoes_resumo": [
+        {
+          "orgao": "Justiça Estadual",
+          "grau": "2º grau",
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016985475.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Federal",
+          "grau": null,
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886731.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Federal",
+          "grau": null,
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886613.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Estadual",
+          "grau": "2º grau",
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886612.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Estadual",
+          "grau": "1º grau",
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016995621.pdf.pdf",
+          "leitura": "cache"
+        },
+        {
+          "orgao": "Justiça Estadual",
+          "grau": "1º grau",
+          "tipo": "criminal",
+          "status": "nada consta",
+          "processos": [],
+          "obs": null,
+          "trecho": null,
+          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886610.pdf.pdf",
+          "leitura": "cache"
+        }
+      ],
+      "certidoes_flag": "nada consta",
+      "escolaridade": "Superior completo",
+      "cpf": "05473878733",
+      "sancoes": {
+        "verificado_em": "2026-09-28",
+        "tcu": [],
+        "ceis": [],
+        "cnep": [],
+        "ceaf": [],
+        "fontes_consultadas": [
+          "Portal da Transparência CEIS",
+          "Portal da Transparência CNEP",
+          "Portal da Transparência CEAF"
+        ]
+      },
+      "nome_urna_tse": "Fabrício Gandini"
     },
     {
       "id": "vandinho-leite",
@@ -74359,654 +75329,6 @@
             "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOWFhURnBaVTdBRjkwTWNSLWhVWFN5NUNXUVNrTElRY0w3UmpFcjNQQl9OYjg2NWJnNEN3X2tsN0YwbkNwZE11V0pUWjZRS3kzNFY0Rmo0cndjS2pZUS1rLVVqc2ZMTzF1LVdsSll3elhXZXdFbVcwRF9ERmVCRmJMMC02QklDRkJUQVJkcXpyTUFGYnhJTTlCRkVnWHlaOVY0VjVDbk5wRHBEQVBCXzIwaEpLcGhvWjh0YThqRTFRV2ppdi1PWmYxZTMydktfVmtWdHdueE9VMWk5TVJKamZUU2hJemZBOEFHYXczNXhQY25uU3BDNmpTNHhFOHpZeHdpVUZPWDhjQnVFLVJiR1hQcTlDalhuUk5wdVl5ZVRTTXNhcjQ?oc=5",
             "data": "2026-08-16",
             "fonte": "GZH"
-          }
-        ],
-        "fonte": "Google Notícias (RSS); pode incluir homônimos"
-      }
-    },
-    {
-      "id": "lucas-o-federal-da-direita-2222",
-      "cargo": "deputado_federal",
-      "nome_urna": "Lucas O Federal Da Direita",
-      "nome_completo": "Lucas Stein Casagrande",
-      "partido": "PL",
-      "numero": "2222",
-      "idade": null,
-      "ocupacao": "Vereador",
-      "situacao": "aguardando",
-      "situacao_obs": "#ne Pendente de julgamento",
-      "tipo_historico": "legislativo",
-      "inicio_politica": 2020,
-      "resumo": "Importado do TSE (Dados Abertos); histórico ainda não pesquisado. Federação: #NULO. Coligação: PARTIDO ISOLADO.",
-      "mandatos": [
-        {
-          "cargo": "Vereador (Viana)",
-          "periodo": "eleito em 2024",
-          "partido": "PL",
-          "obs": "importado do histórico do TSE; período e detalhes a confirmar"
-        }
-      ],
-      "projetos": null,
-      "gestao": [],
-      "relatorias": [],
-      "fiscalizacao": [],
-      "processos": [],
-      "bens": {
-        "total": 30382.690000000002,
-        "itens": [
-          {
-            "tipo": "Outras aplicações e investimentos",
-            "descricao": "INVESTIMENTO FUNDO IMOBILIARIO",
-            "valor": 14624.0
-          },
-          {
-            "tipo": "Depósito bancário em conta corrente no país",
-            "descricao": "CONTA BANCÁRIA  BANESTES",
-            "valor": 10961.7
-          },
-          {
-            "tipo": "Depósito bancário em conta corrente no país",
-            "descricao": "CONTA BANCÁRIA  NUBANK",
-            "valor": 4796.99
-          }
-        ],
-        "fonte": "TSE Dados Abertos (bem_candidato_2026)",
-        "atualizado_em": "2026-09-28"
-      },
-      "certidoes": [],
-      "eleicoes_anteriores": [
-        {
-          "ano": "2020",
-          "cargo": "Vereador",
-          "partido": "PSL",
-          "uf": "Viana",
-          "resultado": "Não eleito",
-          "turno": "1",
-          "situacao": "Apto"
-        },
-        {
-          "ano": "2024",
-          "cargo": "Vereador",
-          "partido": "PL",
-          "uf": "Viana",
-          "resultado": "Eleito por média",
-          "turno": "1",
-          "situacao": null
-        }
-      ],
-      "tse_id": "80002554483",
-      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/ES/80002554483",
-      "fontes": [
-        "https://dadosabertos.tse.jus.br/dataset/candidatos-2026"
-      ],
-      "trocas_de_partido": 1,
-      "vezes_eleito": 1,
-      "tse_complementar": {
-        "limite_gastos": 3176572.53,
-        "situacao_julgamento": "PENDENTE DE JULGAMENTO",
-        "na_urna": true,
-        "destinacao_votos": "Válido",
-        "substituido": false,
-        "sq_substituido": "80002549700",
-        "nascimento": "Vila Velha",
-        "genero": null,
-        "cor_raca": null,
-        "declarou_bens": true,
-        "processo_registro": "06013607920266080000"
-      },
-      "redes": [
-        "https://www.instagram.com/lucasofederaldadireita?stkn=dmwxdWEwYWQ1MXJk",
-        "https://www.facebook.com/share/1HadY2CVXF/",
-        "https://TIKTOK: https://www.tiktok.com/@lucas.casagrandepl",
-        "https://www.tiktok.com/@lucas.casagrandepl?_r=1&_t=ZS-99mjBzuZatT",
-        "https://www.instagram.com/lucascasagrandebr?utm_source=qr&stkn=azk5bXNsYzZrOGZv",
-        "https://FACEBOOK: https://www.facebook.com/share/19q2JKkYeF/",
-        "https://KWAI: https://k.kwai.com/u/@LSC-ES/3HOFiAC9"
-      ],
-      "certidoes_arquivos": [
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142178.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142937.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142148.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142155.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142149.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142197.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142151.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142178.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142937.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142148.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142155.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142149.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142197.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142151.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142178.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142937.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142148.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142155.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142149.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142197.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142151.pdf.pdf"
-      ],
-      "situacao_detalhe": "#ne",
-      "foto": "data/fotos/80002554483.jpg",
-      "certidoes_resumo": [
-        {
-          "orgao": "Justiça Federal",
-          "grau": null,
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142178.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Estadual",
-          "grau": "2º grau",
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142937.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Federal",
-          "grau": null,
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142148.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Estadual",
-          "grau": "2º grau",
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142155.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Federal",
-          "grau": null,
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142149.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Estadual",
-          "grau": "1º grau",
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142197.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Estadual",
-          "grau": "1º grau",
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002554483_80017142151.pdf.pdf",
-          "leitura": "cache"
-        }
-      ],
-      "certidoes_flag": "nada consta",
-      "escolaridade": "Superior completo",
-      "cpf": "12170517758",
-      "sancoes": {
-        "verificado_em": "2026-09-28",
-        "tcu": [],
-        "ceis": [],
-        "cnep": [],
-        "ceaf": [],
-        "fontes_consultadas": [
-          "Portal da Transparência CEIS",
-          "Portal da Transparência CNEP",
-          "Portal da Transparência CEAF"
-        ]
-      },
-      "noticias": {
-        "consultado_em": "2026-09-28",
-        "busca": "\"Lucas O Federal Da Direita\" (\"Espírito Santo\" OR ES OR capixaba OR candidato OR deputado OR senador OR governador)",
-        "itens": [
-          {
-            "titulo": "Veja lista dos candidatos a deputado federal pelo Espírito Santo em 2026",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZXRQTUR3dGEzVWFaT3ZsVzVlVXVFNldIUlE4bU9mOERwTDlwdHlfZHVzcWNJQ3EzWGZGSlp4UGU1Zkdsck1wZzFBRzAtTnhVWWdMUDF0bkxCTFBCc3Uxenl0WjFDZGdZZW1PemZMU01LSHRfNGE5dGs3SE1QbU5mWnF5ZExWRGtSUlEtcHQtZC1ZdkNaQkl4SmRXdEtEMTEwWEZoTGZPV2RjYlgwMlFYejhqMHp3S1BCT2VNeGw2YzM5N28?oc=5",
-            "data": "2026-09-28",
-            "fonte": "UOL Notícias"
-          },
-          {
-            "titulo": "Candidatos a deputado federal no Espírito Santo (ES): veja a lista atualizada das eleições 2026",
-            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc0tPZHoxcENhYmxVQm0zeXpFX2FyTTBxSTBBUDdqUktoNmo4Y2tJTXhNZkdDTi1SRTJ6cm9QM3RlM3NDMkRtd1dJTTVKRkhTcU5MU0NUZ2Vkc09veml4WGdvUy1qX3VpUi1PeHdqQWNrMlRvSF9nNEZDV2d2UUNIbDB5ckVkY3hFRE9JOUhOVEVGbjAtTnFXY0J6UlJFQ0MzNHg5b3lmVms2TUs0Skt6VGdiRkQtSmFsM0V6WDZXZUJTbzJNeU1oMWlMNk9mVGhqbUFUUzFRX3YyNVFQa1d6NzN6aGtvZjhkcHpTQlhTTy1rUGw1d2dF0gGGAkFVX3lxTE5kSlo4ZmJfNkNSQThfUXVvVERNOEMtQ1ZiZElFb1lEc3RKTU9ySVdBc0pNZWFuaVRybWFmSFNyTEs3TDF0WHNyRlcxMUlXRHFmZGMzdkdsVy1sWVk3dlI2dTBJTE9Razh2bDlpcUxDVTFvaEhNLTV1QVl6ZWdteko4NEc1S1VZMVpTb3NIU3A5a2xCMmE4NVMxZzFtUEhvams1em85MU8xNlBUa09ROVl5MFI1dmo2R1U1dXM5RWRWck1mVjZGZFlVenRkUldQNFVzMERBejRnM0M4UnJIRlFFUHM2TmpyY3FjMlZLcmVhRUFnWlZoU2NsRzJHZExkdzVKVHRwX2c?oc=5",
-            "data": "2026-09-25",
-            "fonte": "Valor Econômico"
-          },
-          {
-            "titulo": "Lucas O Federal da Direita (PL) — Deputado Federal de Espírito Santo 2026",
-            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xTzRTWFdsUF9uMjFieHFGMGFMSVhiTFQ3aTQwYVpBMFlNWjQyUVZyLWRadjRvVXBlcTBwSFdLS2ZtUV94RTFVWmk4MF8zVkwxUE9SQXJ2NkZYb291VVFEN3Y5eTNvUWkwLUdSQTVUU2c0dkk?oc=5",
-            "data": "2026-09-23",
-            "fonte": "tmc.com.br"
-          },
-          {
-            "titulo": "Quem são os candidatos a deputado federal pelo Espírito Santo (ES) nas eleições 2026",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdlYwNEN3a21uNzgwZmNJVU5BLUlJV0djaERObmxRWXFkYU05WDNkT2JHMml6ZlNsSUZIbEJOY1NMZktSWmpoTE95Y1VYZy1UMU40QjJQM0UxUDc2YmQ4Q1BjOXNESHpkM01pYTZPNlE3bW9yTWpJYjhxRTh5dXdaNUVKVXU0S3hnYWQyWjctM2trRjVxOHZ4U3hLaW5HN3kxZVNFNjdwb19hLWxfSEd0S0E1aThBT2hkY1cxUjdTZ1FCOTFwWWc?oc=5",
-            "data": "2026-09-18",
-            "fonte": "JOTA Info"
-          },
-          {
-            "titulo": "Lucas O Federal Da Direita",
-            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUU9vS2RyUVJMNF81eGl1WFlBa2V3R0dIV1lWdTJZMndheUR6cXRCcjYwQjdMUjMtRElYRTZxT3NtWDEtV25aSURqZlU4YkFZc0l1QnIxcUtYT2w5YWEwalFycl9Pb0NYU0h1cl9jdGwwVHJzTHdta1dvamtFS1htNy05VXZmdElsa193ZFE1dHpGWVZhUm1icTZwYnhZb2E5bFlENzc1aw?oc=5",
-            "data": "2026-09-17",
-            "fonte": "g1.globo.com"
-          },
-          {
-            "titulo": "Lucas o Federal da Direita 2222 (PL): candidato a Deputado Federal pelo ES",
-            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVGtIMjZOUm1NNXV2UWVHUkoyNWRnR1dWNHV1S1NrZDF0Q1l0U3FDUk5fbFhUU0VsTmRKbGtPTmQ3cnU3bXYyOFlnSll3czVlVmVEblA5U1NLcGZaZEZDR1o1TkdRMUZ0aU1lXzNzb2M3aGtSUzdwR3JZMUxESGhMckJ3a29ydWJvN3hYamx5RUpMUl9kSDAxMXE0UEdveEx6WXlXYUlnakM0YXc2VUQ3cTNB?oc=5",
-            "data": "2026-09-16",
-            "fonte": "Gazeta do Povo"
-          },
-          {
-            "titulo": "Lucas O Federal da Direita 2222 - Candidato a deputado federal do ES pelo PL | Eleições 2026",
-            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbkx2OXFzakFlbW1iYVlVcGNNOHMxdHI5OFM3UFNRMHNRa05WdS1mSHVWODk3MlN5SG16SEd5YjBmWWY3RVVTbEVlUVF0b3dFekNPcmRyUVFrV0dxSGk5SURBR2xIV1JXUkplRzY1ZkRZelZ4Z19yUmE5WmlWa0l5ckJVRDMtbEZTMGpURVF6Vlk5VGh0YUIzc3RrMlF3OU5l?oc=5",
-            "data": "2026-09-15",
-            "fonte": "ND Mais"
-          },
-          {
-            "titulo": "Lucas o Federal da Direita (PL) 2222: Candidato a Deputado Federal no Espírito Santo | Eleições 2026",
-            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT3g4MXNwblhsV2tDQ0k4QVVUclpjMEVaYUsyVnZ1WlJnZFVyRGRldFZXSXJVaDdvOXp5MDcyQk9Dd1dKSzFFOVFCV2VfdEN0Xzl5dVUxeXVtd2VnVGE0Z3J3UDdYMEhzamVXT3ZkR3MtWE5OdlUyWG90UmtOWDMzRzBmWkdETlQ4eTc3WExZS24wQ2V6NG52ZkZMMXZaQVN0VGRrWjUzekYyZlRXZHc?oc=5",
-            "data": "2026-09-13",
-            "fonte": "Tribuna do Paraná"
-          }
-        ],
-        "fonte": "Google Notícias (RSS); pode incluir homônimos"
-      }
-    },
-    {
-      "id": "gilvan-o-federal-da-direita-2222",
-      "cargo": "deputado_federal",
-      "nome_urna": "Gilvan O Federal Da Direita",
-      "nome_completo": "Gilvan Aguiar Costa",
-      "partido": "PL",
-      "numero": "2222",
-      "idade": null,
-      "ocupacao": "Servidor público federal",
-      "situacao": "aguardando",
-      "situacao_obs": "#ne",
-      "tipo_historico": "legislativo",
-      "inicio_politica": 2018,
-      "resumo": "Importado do TSE (Dados Abertos); histórico ainda não pesquisado. Federação: #NULO. Coligação: PARTIDO ISOLADO.",
-      "mandatos": [
-        {
-          "cargo": "Vereador (Vitória)",
-          "periodo": "eleito em 2020",
-          "partido": "PATRIOTA",
-          "obs": "importado do histórico do TSE; período e detalhes a confirmar"
-        },
-        {
-          "cargo": "Deputado Federal (Espírito Santo)",
-          "periodo": "eleito em 2022",
-          "partido": "PL",
-          "obs": "importado do histórico do TSE; período e detalhes a confirmar"
-        }
-      ],
-      "projetos": null,
-      "gestao": [],
-      "relatorias": [],
-      "fiscalizacao": [],
-      "processos": [],
-      "bens": {
-        "total": 420505.5,
-        "itens": [
-          {
-            "tipo": "Caderneta de poupança",
-            "descricao": "POUPANÇA",
-            "valor": 420505.5
-          }
-        ],
-        "fonte": "TSE Dados Abertos (bem_candidato_2026)",
-        "atualizado_em": "2026-09-28"
-      },
-      "certidoes": [],
-      "eleicoes_anteriores": [
-        {
-          "ano": "2018",
-          "cargo": "Deputado Estadual",
-          "partido": "PSL",
-          "uf": "Espírito Santo",
-          "resultado": "Suplente",
-          "turno": "1",
-          "situacao": "Apto"
-        },
-        {
-          "ano": "2020",
-          "cargo": "Vereador",
-          "partido": "Patriota",
-          "uf": "Vitória",
-          "resultado": "Eleito por média",
-          "turno": "1",
-          "situacao": "Apto"
-        },
-        {
-          "ano": "2022",
-          "cargo": "Deputado Federal",
-          "partido": "PL",
-          "uf": "Espírito Santo",
-          "resultado": "Eleito por QP",
-          "turno": "1",
-          "situacao": "Apto"
-        }
-      ],
-      "tse_id": "80002549700",
-      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/ES/80002549700",
-      "fontes": [
-        "https://dadosabertos.tse.jus.br/dataset/candidatos-2026"
-      ],
-      "trocas_de_partido": 2,
-      "vezes_eleito": 2,
-      "tse_complementar": {
-        "limite_gastos": 3176572.53,
-        "situacao_julgamento": "RENÚNCIA",
-        "na_urna": false,
-        "destinacao_votos": null,
-        "substituido": true,
-        "sq_substituido": null,
-        "nascimento": "Araioses",
-        "genero": "Masculino",
-        "cor_raca": "Parda",
-        "declarou_bens": true,
-        "processo_registro": "06007180920266080000"
-      },
-      "redes": [
-        "https://www.instagram.com/gilvandafederal",
-        "https://x.com/gilvandafederal"
-      ],
-      "certidoes_arquivos": [
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095345.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017091505.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095336.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095337.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017093871.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095340.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095543.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095344.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095345.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017091505.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095336.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095337.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017093871.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095340.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095543.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095344.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095345.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017091505.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095336.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095337.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017093871.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095340.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095543.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095344.pdf.pdf"
-      ],
-      "campanha": {
-        "receitas": 3106665.0,
-        "despesas": 3106857.83,
-        "fundo_publico_e_partido": 3100000.0,
-        "maiores_doadores": [
-          {
-            "nome": "Direção Nacional - PL",
-            "valor": 3100000.0
-          },
-          {
-            "nome": "MAGDA SANTOS MALTA",
-            "valor": 6665.0
-          }
-        ],
-        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
-        "atualizado_em": "2026-09-28",
-        "despesas_pagas": 3098855.47,
-        "maiores_fornecedores": [
-          {
-            "nome": "MAR PRODUCOES GRAFICAS LTDA",
-            "valor": 400000.0
-          },
-          {
-            "nome": "EVANDRO DE SOUZA FERREIRA BRAGA",
-            "valor": 400000.0
-          },
-          {
-            "nome": "DEVACIR RABELLO DA SILVA",
-            "valor": 350000.0
-          },
-          {
-            "nome": "FABRICIO DA SILVA MARTINS",
-            "valor": 327000.0
-          },
-          {
-            "nome": "VITOR SOARES LOUZADA",
-            "valor": 310000.0
-          },
-          {
-            "nome": "EMERSON CARDOZO",
-            "valor": 160000.0
-          },
-          {
-            "nome": "RESOLVI - SERVICOS PRODUCOES E EVENTOS LTDA",
-            "valor": 150000.0
-          },
-          {
-            "nome": "ANTONIO EMILIO ABREU DIAS BORGES",
-            "valor": 150000.0
-          },
-          {
-            "nome": "CORPEL GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
-            "valor": 136492.5
-          },
-          {
-            "nome": "BRUNO ZANELLATO COELHO",
-            "valor": 120000.0
-          }
-        ],
-        "despesas_por_tipo": [
-          {
-            "tipo": "Doações financeiras a outros candidatos/partidos",
-            "valor": 1897000.0
-          },
-          {
-            "tipo": "Publicidade por materiais impressos",
-            "valor": 536492.5
-          },
-          {
-            "tipo": "Serviços advocatícios",
-            "valor": 230000.0
-          },
-          {
-            "tipo": "Cessão ou locação de veículos",
-            "valor": 183806.47
-          },
-          {
-            "tipo": "Serviços prestados por terceiros",
-            "valor": 120000.0
-          },
-          {
-            "tipo": "Despesa com impulsionamento de conteúdos",
-            "valor": 61002.36
-          }
-        ]
-      },
-      "situacao_detalhe": "#ne",
-      "foto": "data/fotos/80002549700.jpg",
-      "certidoes_resumo": [
-        {
-          "orgao": "Justiça Estadual",
-          "grau": "2º grau",
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095345.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Federal",
-          "grau": null,
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017091505.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "STF",
-          "grau": null,
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095336.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Federal",
-          "grau": null,
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095337.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Estadual",
-          "grau": "2º grau",
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017093871.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Estadual",
-          "grau": "1º grau",
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095340.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Estadual",
-          "grau": "1º grau",
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095543.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Federal",
-          "grau": null,
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002549700_80017095344.pdf.pdf",
-          "leitura": "cache"
-        }
-      ],
-      "certidoes_flag": "nada consta",
-      "escolaridade": "Superior completo",
-      "cpf": "08449011728",
-      "sancoes": {
-        "verificado_em": "2026-09-28",
-        "tcu": [],
-        "ceis": [],
-        "cnep": [],
-        "ceaf": [],
-        "fontes_consultadas": [
-          "Portal da Transparência CEIS",
-          "Portal da Transparência CNEP",
-          "Portal da Transparência CEAF"
-        ]
-      },
-      "noticias": {
-        "consultado_em": "2026-09-28",
-        "busca": "\"Gilvan O Federal Da Direita\" (\"Espírito Santo\" OR ES OR capixaba OR candidato OR deputado OR senador OR governador)",
-        "itens": [
-          {
-            "titulo": "Candidatos a deputado federal no Espírito Santo (ES): veja a lista atualizada das eleições 2026",
-            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc0tPZHoxcENhYmxVQm0zeXpFX2FyTTBxSTBBUDdqUktoNmo4Y2tJTXhNZkdDTi1SRTJ6cm9QM3RlM3NDMkRtd1dJTTVKRkhTcU5MU0NUZ2Vkc09veml4WGdvUy1qX3VpUi1PeHdqQWNrMlRvSF9nNEZDV2d2UUNIbDB5ckVkY3hFRE9JOUhOVEVGbjAtTnFXY0J6UlJFQ0MzNHg5b3lmVms2TUs0Skt6VGdiRkQtSmFsM0V6WDZXZUJTbzJNeU1oMWlMNk9mVGhqbUFUUzFRX3YyNVFQa1d6NzN6aGtvZjhkcHpTQlhTTy1rUGw1d2dF0gGGAkFVX3lxTE5kSlo4ZmJfNkNSQThfUXVvVERNOEMtQ1ZiZElFb1lEc3RKTU9ySVdBc0pNZWFuaVRybWFmSFNyTEs3TDF0WHNyRlcxMUlXRHFmZGMzdkdsVy1sWVk3dlI2dTBJTE9Razh2bDlpcUxDVTFvaEhNLTV1QVl6ZWdteko4NEc1S1VZMVpTb3NIU3A5a2xCMmE4NVMxZzFtUEhvams1em85MU8xNlBUa09ROVl5MFI1dmo2R1U1dXM5RWRWck1mVjZGZFlVenRkUldQNFVzMERBejRnM0M4UnJIRlFFUHM2TmpyY3FjMlZLcmVhRUFnWlZoU2NsRzJHZExkdzVKVHRwX2c?oc=5",
-            "data": "2026-09-25",
-            "fonte": "Valor Econômico"
-          },
-          {
-            "titulo": "Veja a lista dos candidatos a deputado federal no Espírito Santo",
-            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdlREUThScmMweDV6UW9VbHJsdTVsYUNRRGZnald1UzFtMkZwSFVNb3AzaXNTSk84cTAyNXQzTjl1c19HcXpSUFVjai1rSDV1WmlPNmFKNFJORDFqc2VfUEQzamZSMjdWLU1NSi1hb3VwQmdFY3ZmQWR4ekVwNVBrU0lsb19wMTA4X09HX3prVWJuTVpQWGZxeHZJWEwwSTBjOW1uSzR3?oc=5",
-            "data": "2026-09-24",
-            "fonte": "CNN Brasil"
-          },
-          {
-            "titulo": "Quem são os candidatos a deputado federal pelo Espírito Santo (ES) nas eleições 2026",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdlYwNEN3a21uNzgwZmNJVU5BLUlJV0djaERObmxRWXFkYU05WDNkT2JHMml6ZlNsSUZIbEJOY1NMZktSWmpoTE95Y1VYZy1UMU40QjJQM0UxUDc2YmQ4Q1BjOXNESHpkM01pYTZPNlE3bW9yTWpJYjhxRTh5dXdaNUVKVXU0S3hnYWQyWjctM2trRjVxOHZ4U3hLaW5HN3kxZVNFNjdwb19hLWxfSEd0S0E1aThBT2hkY1cxUjdTZ1FCOTFwWWc?oc=5",
-            "data": "2026-09-18",
-            "fonte": "JOTA Info"
-          },
-          {
-            "titulo": "Gilvan O Federal Da Direita Candidato a Deputado Federal no Espírito Santo nas eleições 2026",
-            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaE1qRkJUWDZaUHoxb2NGdUEwaWhJSURrNXdjaFJxMC1vem0xQzliSHBnbUpwdi1OQU55bkdNcEVkQTRieWkwczc4dTNJUkFwRlozakw4OVhKYnZyOGV3djgtSDhBTkRWRWpXVmlTNXN3NE92blZRNVB3TlBMczc4LTVhY0Q5akZNU1I0N1FoYzg4c3BrUWQ0TkhpV2hsUVYtdkx2bV83bw?oc=5",
-            "data": "2026-09-18",
-            "fonte": "g1.globo.com"
-          },
-          {
-            "titulo": "GILVAN O FEDERAL DA DIREITA",
-            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbm9EZGgwQUp6aTdnUFgxMG5veVBwNjVuTjgxY3ZkN1dhX0M1RjNTQWdkbWZnMFotM1dJck1KTUVwT2pWVE4zbHh6QTBEd05jb0lMdVhpX0pnUFkzQklkNDFGSnlpc0NRNGRlbmlfMTkzZjdrY1drQkRmd3BGSjFYQzgtUXJCVUt4cURSWF9sZ0xINWtOWTlVZGFFWEpxSzVPYVI4SEcwQWlyTms5c3JN?oc=5",
-            "data": "2026-09-18",
-            "fonte": "CNN Brasil"
-          },
-          {
-            "titulo": "Lucas O Federal da Direita 2222 - Candidato a deputado federal do ES pelo PL | Eleições 2026",
-            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbkx2OXFzakFlbW1iYVlVcGNNOHMxdHI5OFM3UFNRMHNRa05WdS1mSHVWODk3MlN5SG16SEd5YjBmWWY3RVVTbEVlUVF0b3dFekNPcmRyUVFrV0dxSGk5SURBR2xIV1JXUkplRzY1ZkRZelZ4Z19yUmE5WmlWa0l5ckJVRDMtbEZTMGpURVF6Vlk5VGh0YUIzc3RrMlF3OU5l?oc=5",
-            "data": "2026-09-15",
-            "fonte": "ND Mais"
-          },
-          {
-            "titulo": "Gilvan o Federal da Direita 2222 (PL): candidato a Deputado Federal pelo ES",
-            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUjdWc0VjbU5KZjI2LW9aRmc0d0UyT2tHbzFMMmNZV2tycERqN3NuM2YxdnE0MXlLb3JqLUlWSVRxUlNmRnRoUlVob3R1aXE2cWNzUER5LTVOZ1U3a2ZqRXZMakstV21tLUtCSE9iTklPV0RhQzR4cDdPZWtqN2UzNTRncDFLSTBzOV96aGJ0ZWpwNHhwdmpNQWlTV1BVdnoxWFhSQkt2dTBoUWdHdGh5T1NoZw?oc=5",
-            "data": "2026-09-05",
-            "fonte": "Gazeta do Povo"
-          },
-          {
-            "titulo": "ES: Veja quem são os candidatos mais votados no estado",
-            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTUVuNm1aaFQ0NHZYZTU5bmxEYl9LMkJQbUhEZDFoejVCVEJpcWtmVUJsV0FTQ1lUQkZwS0dQMldrcTAxSUhuNmxoZzNDcmZIbUx3NW9DZnpCY3FuS1dlTnF6ZVJ6X0dkdWpvZGR5Z3lueE5fOEpCSVg3MEZ6bEtMWllmYU53MjBXbWFTZmpjUWtCemVwdDcyelhNRjV3SXpIaFh1WWdiMFpfcjlLbzRCTTREQ3V3Umdx?oc=5",
-            "data": "2026-09-05",
-            "fonte": "band.com.br"
           }
         ],
         "fonte": "Google Notícias (RSS); pode incluir homônimos"
@@ -212037,467 +212359,6 @@
       }
     },
     {
-      "id": "fabricio-gandini-20000",
-      "cargo": "deputado_estadual",
-      "nome_urna": "Fabrício Gandini",
-      "nome_completo": "Fabricio Gandine Aquino",
-      "partido": "Podemos",
-      "numero": "20000",
-      "idade": null,
-      "ocupacao": "Deputado",
-      "situacao": "deferido",
-      "situacao_obs": "#ne",
-      "tipo_historico": "legislativo",
-      "inicio_politica": 2004,
-      "resumo": "Importado do TSE (Dados Abertos); histórico ainda não pesquisado. Federação: #NULO. Coligação: PARTIDO ISOLADO.",
-      "mandatos": [
-        {
-          "cargo": "Vereador (Vitória)",
-          "periodo": "eleito em 2008",
-          "partido": "PPS",
-          "obs": "importado do histórico do TSE; período e detalhes a confirmar"
-        },
-        {
-          "cargo": "Vereador (Vitória)",
-          "periodo": "eleito em 2012",
-          "partido": "PPS",
-          "obs": "importado do histórico do TSE; período e detalhes a confirmar"
-        },
-        {
-          "cargo": "Vereador (Vitória)",
-          "periodo": "eleito em 2016",
-          "partido": "PPS",
-          "obs": "importado do histórico do TSE; período e detalhes a confirmar"
-        },
-        {
-          "cargo": "Deputado Estadual (Espírito Santo)",
-          "periodo": "eleito em 2018",
-          "partido": "PPS",
-          "obs": "importado do histórico do TSE; período e detalhes a confirmar"
-        },
-        {
-          "cargo": "Deputado Estadual (Espírito Santo)",
-          "periodo": "eleito em 2022",
-          "partido": "CIDADANIA",
-          "obs": "importado do histórico do TSE; período e detalhes a confirmar"
-        }
-      ],
-      "projetos": null,
-      "gestao": [],
-      "relatorias": [],
-      "fiscalizacao": [],
-      "processos": [],
-      "bens": {
-        "total": 970701.0,
-        "itens": [
-          {
-            "tipo": "Apartamento",
-            "descricao": "RESIDENCIAL",
-            "valor": 741034.0
-          },
-          {
-            "tipo": "Aplicação de renda fixa (cdb, rdb e outros)",
-            "descricao": "APLICAÇÕES",
-            "valor": 164667.0
-          },
-          {
-            "tipo": "Dinheiro em espécie - moeda nacional",
-            "descricao": "DINHEIRO",
-            "valor": 45000.0
-          },
-          {
-            "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
-            "descricao": "CARRO",
-            "valor": 20000.0
-          }
-        ],
-        "fonte": "TSE Dados Abertos (bem_candidato_2026)",
-        "atualizado_em": "2026-09-28"
-      },
-      "certidoes": [],
-      "eleicoes_anteriores": [
-        {
-          "ano": "2004",
-          "cargo": "Vereador",
-          "partido": "PSDB",
-          "uf": "Vitoria",
-          "resultado": "Suplente",
-          "turno": "1",
-          "situacao": "Apto"
-        },
-        {
-          "ano": "2008",
-          "cargo": "Vereador",
-          "partido": "PPS",
-          "uf": "Vitória",
-          "resultado": "Eleito",
-          "turno": "1",
-          "situacao": "Apto"
-        },
-        {
-          "ano": "2012",
-          "cargo": "Vereador",
-          "partido": "PPS",
-          "uf": "Vitória",
-          "resultado": "Eleito por QP",
-          "turno": "1",
-          "situacao": "Apto"
-        },
-        {
-          "ano": "2014",
-          "cargo": "Vice-governador",
-          "partido": "PPS",
-          "uf": "Espírito Santo",
-          "resultado": "Não eleito",
-          "turno": "1",
-          "situacao": "Apto"
-        },
-        {
-          "ano": "2016",
-          "cargo": "Vereador",
-          "partido": "PPS",
-          "uf": "Vitória",
-          "resultado": "Eleito por QP",
-          "turno": "1",
-          "situacao": "Apto"
-        },
-        {
-          "ano": "2018",
-          "cargo": "Deputado Estadual",
-          "partido": "PPS",
-          "uf": "Espírito Santo",
-          "resultado": "Eleito por QP",
-          "turno": "1",
-          "situacao": "Apto"
-        },
-        {
-          "ano": "2020",
-          "cargo": "Prefeito",
-          "partido": "Cidadania",
-          "uf": "Vitória",
-          "resultado": "Não eleito",
-          "turno": "1",
-          "situacao": "Apto"
-        },
-        {
-          "ano": "2022",
-          "cargo": "Deputado Estadual",
-          "partido": "Cidadania",
-          "uf": "Espírito Santo",
-          "resultado": "Eleito por média",
-          "turno": "1",
-          "situacao": "Apto"
-        }
-      ],
-      "tse_id": "80002537485",
-      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/ES/80002537485",
-      "fontes": [
-        "https://dadosabertos.tse.jus.br/dataset/candidatos-2026"
-      ],
-      "trocas_de_partido": 2,
-      "vezes_eleito": 5,
-      "tse_complementar": {
-        "limite_gastos": 1270629.01,
-        "situacao_julgamento": "DEFERIDO",
-        "na_urna": true,
-        "destinacao_votos": "Válido",
-        "substituido": false,
-        "sq_substituido": null,
-        "nascimento": "Vitória",
-        "genero": "Masculino",
-        "cor_raca": "Branca",
-        "declarou_bens": true,
-        "processo_registro": "06003206220266080000"
-      },
-      "redes": [
-        "https://timegandini.ai.studio",
-        "https://www.fgandini.com.br",
-        "https://youtube.com/fabriciogandini",
-        "https://instagram: https://www.instagram.com/fgandini/",
-        "https://facebook: https://www.facebook.com/fgandini",
-        "https://linkedin: https://br.linkedin.com/in/fgandini",
-        "https://tiktok: https://www.tiktok.com/@fgandini"
-      ],
-      "certidoes_arquivos": [
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016985475.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886731.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886613.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886612.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016995621.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886610.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016985475.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886731.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886613.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886612.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016995621.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886610.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016985475.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886731.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886613.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886612.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016995621.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886610.pdf.pdf"
-      ],
-      "campanha": {
-        "receitas": 179285.5,
-        "despesas": 147460.96,
-        "fundo_publico_e_partido": 50000.0,
-        "maiores_doadores": [
-          {
-            "nome": "Direção Nacional - PODE",
-            "valor": 50000.0
-          },
-          {
-            "nome": "ALMIR AQUINO RODRIGUES JR",
-            "valor": 30000.0
-          },
-          {
-            "nome": "EDSON DA SILVA COSTA NETO",
-            "valor": 25000.0
-          },
-          {
-            "nome": "FABRICIO GANDINE AQUINO",
-            "valor": 24348.5
-          },
-          {
-            "nome": "Jurema O. D. Silva",
-            "valor": 21000.0
-          },
-          {
-            "nome": "Morgana de Assis Malani Gandini",
-            "valor": 13578.5
-          },
-          {
-            "nome": "ALEXANDRE MARCELO COUTINHO SANTOS",
-            "valor": 7260.0
-          },
-          {
-            "nome": "SOLANGE GANDINE AQUINO",
-            "valor": 4000.0
-          },
-          {
-            "nome": "BRUNO SILVA TRAVEZANI",
-            "valor": 2098.5
-          },
-          {
-            "nome": "JOSIAS MARIO DA VITORIA",
-            "valor": 2000.0
-          }
-        ],
-        "fonte": "TSE Dados Abertos (receitas_candidatos_2026)",
-        "atualizado_em": "2026-09-28",
-        "despesas_pagas": 126565.73,
-        "maiores_fornecedores": [
-          {
-            "nome": "BREDA IMPRESSAO DIGITAL LTDA",
-            "valor": 36000.0
-          },
-          {
-            "nome": "GRAFICA E EDITORA JEP LTDA",
-            "valor": 32325.0
-          },
-          {
-            "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
-            "valor": 20000.0
-          },
-          {
-            "nome": "MORED ASSESSORIA CONTABIL LTDA",
-            "valor": 5000.0
-          },
-          {
-            "nome": "JOSE NETO ROSSONI TORRES",
-            "valor": 4267.23
-          },
-          {
-            "nome": "JOSÉ RICARDO BARBOSA",
-            "valor": 3500.0
-          },
-          {
-            "nome": "MAXSUEL DA SILVA PESSOA",
-            "valor": 3000.0
-          },
-          {
-            "nome": "ROBERTO LEONARDO SILVA CASTRO 11601267711",
-            "valor": 2500.0
-          },
-          {
-            "nome": "PATRICIA NEVES PATROCINIO",
-            "valor": 2500.0
-          },
-          {
-            "nome": "ADRIANA SECONDINO FERREIRA CORREA",
-            "valor": 2500.0
-          }
-        ],
-        "despesas_por_tipo": [
-          {
-            "tipo": "Publicidade por materiais impressos",
-            "valor": 70125.0
-          },
-          {
-            "tipo": "Atividades de militância e mobilização de rua",
-            "valor": 41468.0
-          },
-          {
-            "tipo": "Despesa com impulsionamento de conteúdos",
-            "valor": 20000.0
-          },
-          {
-            "tipo": "Serviços contábeis",
-            "valor": 5000.0
-          },
-          {
-            "tipo": "Locação/cessão de bens imóveis",
-            "valor": 4267.23
-          },
-          {
-            "tipo": "Locação/cessão de bens móveis (exceto veículos)",
-            "valor": 3000.0
-          }
-        ]
-      },
-      "situacao_detalhe": "#ne",
-      "foto": "data/fotos/80002537485.jpg",
-      "certidoes_resumo": [
-        {
-          "orgao": "Justiça Estadual",
-          "grau": "2º grau",
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016985475.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Federal",
-          "grau": null,
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886731.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Federal",
-          "grau": null,
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886613.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Estadual",
-          "grau": "2º grau",
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886612.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Estadual",
-          "grau": "1º grau",
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016995621.pdf.pdf",
-          "leitura": "cache"
-        },
-        {
-          "orgao": "Justiça Estadual",
-          "grau": "1º grau",
-          "tipo": "criminal",
-          "status": "nada consta",
-          "processos": [],
-          "obs": null,
-          "trecho": null,
-          "arquivo": "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002537485_80016886610.pdf.pdf",
-          "leitura": "cache"
-        }
-      ],
-      "certidoes_flag": "nada consta",
-      "escolaridade": "Superior completo",
-      "cpf": "05473878733",
-      "sancoes": {
-        "verificado_em": "2026-09-28",
-        "tcu": [],
-        "ceis": [],
-        "cnep": [],
-        "ceaf": [],
-        "fontes_consultadas": [
-          "Portal da Transparência CEIS",
-          "Portal da Transparência CNEP",
-          "Portal da Transparência CEAF"
-        ]
-      },
-      "noticias": {
-        "consultado_em": "2026-09-28",
-        "busca": "\"Fabrício Gandini\" (\"Espírito Santo\" OR ES OR capixaba OR candidato OR deputado OR senador OR governador)",
-        "itens": [
-          {
-            "titulo": "Fabrício Gandini (PODE) — Deputado Estadual de Espírito Santo 2026",
-            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RamszRmQ4Y0xsNmcwZEcxRHo5SnJRcW1raFRwZC1XSVhhblhERVp1Nk5TZ0gzQ1F4VjI3UnZYN1dKYWJZQXdhdjFFbWczWjQ3OTgzZ0hmdzloV0RSOUV2R3R4d1RDZw?oc=5",
-            "data": "2026-09-24",
-            "fonte": "tmc.com.br"
-          },
-          {
-            "titulo": "Ales aprova projeto que garante alimentação escolar a professores da rede estadual",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdFo4YUl5Qkl6cHlwbE9rUW84ZE02bDFfOXkyV0xjYjlmNGVBVnB5NEd4djN2d3NDVDlaZXZPNk1CaFIwd1BRTjI2eFhuZkhGcE9hb3VyMTE3V1JiZ1NVdjRrbTQtTTRUZU90Wk0wMGF3Y1RLLTEtNy15UGM0ekw4VU50UXFic1ZmOGdGUXdMQUtEYzZqQmRrSlpIR0gtaVowQ1doMzRRWGFFWmU0LUlnd3NScTlQSElobHZLWFhiQkJTckE?oc=5",
-            "data": "2026-09-21",
-            "fonte": "ES 24 Horas"
-          },
-          {
-            "titulo": "FABRÍCIO GANDINI",
-            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYktTSkNLV0otRGFSNDFFeVI1YlNUcS1fakhIUkZNNWs5QnpDcm9GRjlucnoyTlhmV185VW55RDdmeTlkd0dwS0Nicm16YzhrTlU4OEh5aHNqdlpaTF9LbDNwck5IUFJtbENqNk5LSFZNYThBWjllY0FHbjJvUW9PM2xxVmxBeVgybnBNZ3BMMzZ6YWhsVWVsT3gxUS1RQ3FTWUNUMElB?oc=5",
-            "data": "2026-09-20",
-            "fonte": "CNN Brasil"
-          },
-          {
-            "titulo": "Fabrício Gandini Candidato a Deputado Estadual no Espírito Santo nas eleições 2026",
-            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcmdOcUxTVmptS3ZrZmxnY1h4Y0xzbnhtWGtSTzBPM2NmX2l0dERKeExicVRzX1VqeEFTQWdHNW1hdkJkZlpUcmtjOVlzZVF6OHlVMjVHdnM0elh2ZHNYZjlkZjIwOFh3VmtNNGlRYkNnQkl3UFdfZmZiLU80Skl3MU04UG93YW5CSEIyRmF5NkgwSHJ5aGczSnc2b255REtGZm9SY1RPOWE?oc=5",
-            "data": "2026-09-01",
-            "fonte": "g1.globo.com"
-          },
-          {
-            "titulo": "Fabrício Gandini, PODE, veja o número do candidato a Deputado Estadual no Espírito Santo",
-            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeXlsdnNMbWd4WERxbXdCbWE1bGx3ZWZQeTBjTzJWQ085aXpoRndDTmhWUGtaSjZNNVVwdG55ZTcxTFN0UWFpMUdDbGZTOVAxTFM3R0JDeDg4M3ZJOEk0YkpWUUdzQ2tNOXNFc0UwWEVRX25sRk1OOTJsMGl0Z1JxTVdERkNZNTZzY0NTLXRDQnFLSjkxak8tRmxKS2YzbTBIa0lPQTVuLVdKd2t5cW9LRw?oc=5",
-            "data": "2026-09-01",
-            "fonte": "Rádio Itatiaia"
-          },
-          {
-            "titulo": "Fabrício Gandini",
-            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRXZCNTlFaDlNR1lzN01oM3lKeUZNc0p0TVljejlISUNNVGFiRlFJZ01tMGEwbmZhb0VsSVFzNzlZMjBIbVN0czdZeHhKVEd0c1hDRWNZY0hTRmV3aUJEZXRnNGRSOU1vVDREX1V6MTF2QVJlN2ZobXREYUkzdUFmdjdn?oc=5",
-            "data": "2026-08-25",
-            "fonte": "operamundi.uol.com.br"
-          },
-          {
-            "titulo": "candidato fabrício gandini | eleiçoes 2026",
-            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNnNYd2ROdWV5M1QwTkRpcWM3MndQVmZ4RnpGOVhKUHRtMnk1cVBuTmtUMWZMSGg2TktYcWRTOGljQ3VmNFN4bVJrSkFvMTg4N2RCblNVTGkzLXhsdnRSUnIybUhPTzk3TDVvSGZSbVM4ZFdHcm9PbkNUYTJoVzdRdjFCN1hWeGNUaU1tX0h2dGhpOXlnM1FrNFotbzRmNWJvNWR1bw?oc=5",
-            "data": "2026-08-16",
-            "fonte": "GZH"
-          },
-          {
-            "titulo": "Fabrício Gandini 20000 - Candidato a deputado estadual do ES pelo PODE | Eleições 2026",
-            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNS0F0VVlTVUZ1dUJHXzdGZkhJZ3k4d0pFdXRVSmt3MGNzcDN2ZUkxOUFwM3MyT3l0NUhRVzhOV0tXSy1GRGRETTdZcjdIazNOVS1tUVR1VUVqWVdWR094c3RXYUhCOHFjdEhJYnVxSzYybW45alNVdmRoamFsSGR4M3gybl9fQ2JoNXcxMzJheDhQYnM4cWc?oc=5",
-            "data": "2026-08-11",
-            "fonte": "ND Mais"
-          }
-        ],
-        "fonte": "Google Notícias (RSS); pode incluir homônimos"
-      }
-    },
-    {
       "id": "alysson-reis-20333",
       "cargo": "deputado_estadual",
       "nome_urna": "Alysson Reis",
@@ -224719,1490 +224580,6 @@
         ],
         "fonte": "Google Notícias (RSS); pode incluir homônimos"
       }
-    },
-    {
-      "id": "escritor-augusto-cury-70",
-      "cargo": "presidente",
-      "nome_urna": "Escritor Augusto Cury",
-      "nome_completo": "Augusto Jorge Cury",
-      "partido": "Avante",
-      "numero": "70",
-      "idade": null,
-      "ocupacao": "Escritor e crítico",
-      "escolaridade": "Superior completo",
-      "cpf": "02162936852",
-      "situacao": "deferido",
-      "situacao_obs": null,
-      "tipo_historico": "sem_dados",
-      "inicio_politica": null,
-      "resumo": "Importado do TSE (Dados Abertos); histórico ainda não pesquisado. Coligação: BRASIL DOS NOSSOS SONHOS.",
-      "mandatos": [],
-      "projetos": null,
-      "gestao": [],
-      "relatorias": [],
-      "fiscalizacao": [],
-      "processos": [],
-      "bens": {
-        "total": 242593012.43,
-        "itens": [
-          {
-            "tipo": "Outros bens e direitos",
-            "descricao": "EMPRÉSTIMO MUTUO - FILADÉLFIA NATURE PARTICIPAÇÕES",
-            "valor": 121190451.65
-          },
-          {
-            "tipo": "Quotas ou quinhões de capital",
-            "descricao": "SÓCIO PARTICIPANTE - FICTOR INVEST LTDA",
-            "valor": 31500000.0
-          },
-          {
-            "tipo": "Ações (inclusive as provenientes de linha telefônica)",
-            "descricao": "ATIVOS NEGOCIADOS BDR",
-            "valor": 25827960.0
-          },
-          {
-            "tipo": "Quotas ou quinhões de capital",
-            "descricao": "FILADÉLFIA NATURE PARTICIPAÇÕES E EMPREENDIMENTOS LTDA",
-            "valor": 15607925.0
-          },
-          {
-            "tipo": "Ações (inclusive as provenientes de linha telefônica)",
-            "descricao": "AÇÕES BBDC3",
-            "valor": 7090180.0
-          },
-          {
-            "tipo": "Prédio residencial",
-            "descricao": "PRÉDIO URBANO",
-            "valor": 6623800.0
-          },
-          {
-            "tipo": "Quotas ou quinhões de capital",
-            "descricao": "COTAS DE CAPITAL - FLORIDA INVESTIMENTOS PARTICIPAÇÕES LTDA",
-            "valor": 4739990.0
-          },
-          {
-            "tipo": "Outros bens e direitos",
-            "descricao": "EMPRÉSTIMO CONCEDIDO - INTELLIENCE SCHOOL LLC",
-            "valor": 4125172.3
-          },
-          {
-            "tipo": "Prédio comercial",
-            "descricao": "PRÉDIO COMERCIAL",
-            "valor": 3200000.0
-          },
-          {
-            "tipo": "Crédito decorrente de alienação",
-            "descricao": "DE QUOTAS - FACULDADE METROPOLITANA",
-            "valor": 2950000.0
-          },
-          {
-            "tipo": "Fundo de longo prazo e fundo de investimentos em direitos creditórios (fidc)",
-            "descricao": "NAVI ENERGIAS SUSTENTÁVEIS II FIP INFRAESTRUTURA",
-            "valor": 2733124.44
-          },
-          {
-            "tipo": "Quotas ou quinhões de capital",
-            "descricao": "80% DE PARTICIPAÇÃO - LOVE STORY JOSEFINA LLC",
-            "valor": 2570476.79
-          },
-          {
-            "tipo": "Fundo de curto prazo",
-            "descricao": "FUNDO BB GESTÃO DE RECURSOS",
-            "valor": 2558575.5
-          },
-          {
-            "tipo": "Terreno",
-            "descricao": "50% DE ÁREA EM CONDOMINIO",
-            "valor": 2150000.0
-          },
-          {
-            "tipo": "Outros bens imóveis",
-            "descricao": "FAZENDA SANTOS REIS",
-            "valor": 1325721.0
-          }
-        ],
-        "fonte": "TSE Dados Abertos (bem_candidato_2026)",
-        "atualizado_em": "2026-09-28"
-      },
-      "certidoes": [],
-      "eleicoes_anteriores": [],
-      "tse_id": "280002551547",
-      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002551547",
-      "fontes": [
-        "https://dadosabertos.tse.jus.br/dataset/candidatos-2026"
-      ],
-      "tse_complementar": {
-        "limite_gastos": 88944030.8,
-        "situacao_julgamento": "DEFERIDO",
-        "na_urna": true,
-        "destinacao_votos": "Válido",
-        "substituido": false,
-        "sq_substituido": null,
-        "nascimento": "Colina",
-        "genero": "Masculino",
-        "cor_raca": "Branca",
-        "declarou_bens": true,
-        "processo_registro": "06015368020266000000"
-      },
-      "redes": [
-        "https://www.facebook.com/augustocury.autor/",
-        "https://www.tiktok.com/@augustocuryoficial",
-        "https://x.com/augustocury?lang=pt",
-        "https://queroapoiar.com.br/augustocury",
-        "http://instagram.com/augustocury",
-        "https://www.threads.com/@augustocury",
-        "https://www.linkedin.com/in/augustocury",
-        "https://www.youtube.com/channel/uc3f2e1lob9x8awyulluryjg",
-        "https://kwai.com/@augustocuryoficial",
-        "https://augustocurypresidente.com.br/"
-      ],
-      "sancoes": {
-        "verificado_em": "2026-09-28",
-        "tcu": [],
-        "ceis": [],
-        "cnep": [],
-        "ceaf": [],
-        "fontes_consultadas": [
-          "Portal da Transparência CEIS",
-          "Portal da Transparência CNEP",
-          "Portal da Transparência CEAF"
-        ]
-      },
-      "noticias": {
-        "consultado_em": "2026-09-28",
-        "busca": "\"Escritor Augusto Cury\" (candidato OR presidente OR eleição)",
-        "itens": [
-          {
-            "titulo": "As ideias de Augusto Cury",
-            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbmxFZWY2RkFWQ2RJQVctVm55RFJfRTd2MWpqTVNUQ2VHdUVEbFNEdkRneFQxZGw0cXdPYlEyVTZGRlZ6cmtWU0VxX2NUZUo1MFRSWFV2OV9yd2lzZ21fYzEwUkhqQnM2bmYxY204VklDVjJJY1FJdzJ1aW5QX0E2UnVpbDY?oc=5",
-            "data": "2026-09-29",
-            "fonte": "veja.abril.com.br"
-          },
-          {
-            "titulo": "Augusto Cury, candidato à Presidência pelo Avante, faz campanha em São Paulo",
-            "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWjZzVDE1ZE5NOFBVeHh2d01XZTZkSnd0Tm5vYzJGaXNJX2N6VW9WSTRULTdsT0xkSHlHbmZtVVFCcWFKMFViT1NjenRzdW1qZzNHVUxDTTVSak4wS3Bxbm1ZVWJLcXNhMXhuLWpsN1lpZXFlSy1hSjdJNTBuWVJmVmhCV0lBTFlXQXpJcDRJa05xS1NXZFJUeDhyRGQxeHhCbE82N3lrTWNlMkdXYUFWZ2ZEaDFjQXlnd1M5c19zY3NGYjhSamRyNHNWYXp3UTFjQUHSAeABQVVfeXFMTzFGQUNpdXJvUldSZVdSc2h1UjdwUE5QdV9PbWtnQlQ3eGQ4MTJUR0xVRXZCbHMtQkl3ZHdjMW9rQ3BTaVZpTnRub1VvdXFtTG01YkJnSlF5cEIxWVJjMm5QSnRyZXNVQ2U1QjN3ZHdmYklBNU1HZ2RRLWhuOWpON2s0OGtOZzJzRDZwd2NObFlGMnplbUNDNEd6dEZDTVhhc2NMWnJhRHRYZ1h6YzBMZ2J1cW4tOUl5Wnp3MVVIYTdYaFZzOTVWVzR0SzAwaHFNNFFRU1ZNX1J2NmN4VEpVbVg?oc=5",
-            "data": "2026-09-29",
-            "fonte": "g1.globo.com"
-          },
-          {
-            "titulo": "Quaest divulga nova pesquisa da eleição presidencial; veja números",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeWdoX0FlV0t2aTRqZUN5dXNYcjRLc0NWc0FNQlZ0YVdlYzFFRkNBWnZsbERGSmlKRTNhUzJNVi1KT1lsUTRiTjdhN0E4cEtzaXM0MjRucFEwaWc1V3VqWjdIdTE3eWk2MDkwVmozdlNIYkRtRWxBQ0Q1WGZwZks2a1Zwb1lORzNBZ0tKYkExUVJpUEx2SGJhN2ZLYnZOZ3lqYVEwa3VaZmJMWnp6YnRGVmF0bkpjeFVpWk5nV2lwZ05TdTFzcmfSAdQBQVVfeXFMTnZxLUdoT0RJZHZiRGFJVkZLR2pVQm1aVTNmMEFyMUR1US1EdGlxYmdaM3JUWGtxbHMycHF3ZUxEbVFhRWZLRmprZUNNRUM1V1RtQ2NwV05udnVkM0NGN2hZR2ptV3RHUkVVdFdYQXJJMTh0ckJkRVZNSEJfazFJVEtzSkpFTUZiblJSMDQtOFBOZGVCSkhGS3NaeklkVXM4bFhnY18yR3BoS2ItbDZTc0RuWkduWlo5b2plQXRPMktsRW5NeS1GVm1hcXRYMkMyaERpMFo?oc=5",
-            "data": "2026-09-29",
-            "fonte": "g1.globo.com"
-          },
-          {
-            "titulo": "Bets: Para Cury, Lula “usa dor das pessoas” para ganhar votos",
-            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSUZXeHp4SFlhNVBtdzNxdDE4Wmxoa1FwNFJzVV9JcjFta0JyNmgwZmNjTFJsLU1nQ1kzVUdrT2FXWE15NVN5WW8xVzFLZXNtX0N0SlVBZm41RE5oVUk4R1pmMFFKX2VWaEtTNFJBcFVvakU4ZUJISUZOOWs5dTc4MUV3bkgzaWFFcEpGMEV4Mmt3N0cxb3V6TElGakpjcG5oaHFBNdIBrAFBVV95cUxPMXVqUHhRc0RMYnFkRy1EcC1zV1pieXp0ZUtYVWZjQms4UFpkTExFRXByRlB5QVpoYm1MUmlHMWwwekExT05OeHFWMmZUVjhiMy1hUmFRR3UtWXpMSUxRY0tNczVpTEdKLTRpbmNRa2M4NVY1STlxMlJpa3NUcC1QWXBZaUlBZzROZXViZkdERXNwRXBjY1I4cFNXZXBfT2tja3VPT3loMUVIb3lG?oc=5",
-            "data": "2026-09-29",
-            "fonte": "Pleno.News"
-          },
-          {
-            "titulo": "Augusto Cury mobiliza Belo Horizonte em grande Carreata da Pacificação na reta final",
-            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOGxLRkNvb0lpQ2dZdUM4TG5YdG1fX1dBYU80bkl6ME5JQVpCalppRXI1TkoyaFpVd2N1V0NyUW95WmEwSE9ITFIzcHNoRmVrcG03em5qdkRtUE40R25KRmowRURsUllnQmlpU1ZyMkFJdVZWRm4zM1c4dDlNb0xtNnI1MGxpcWhvelVkTEJ2TVVLbGVLZE5sYzZiMzlJNndCYlRoTml5S3ctbHotblN2NEU2WFk0ckxKblE?oc=5",
-            "data": "2026-09-28",
-            "fonte": "Avante 70"
-          },
-          {
-            "titulo": "Cury critica Lula sobre bets e defende aumento da taxação do setor",
-            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQTNjb2VQV1BFRUlXelZienRLWldycDc4R2FJaFNxUjhkVl9aUTUxM1BjeWtNT0lLTjJHckdlOTJQNElpYzdUU2RRNEVycWhHcXFKTGdkYWtOMEJtUUU2YjlrbV9ySkVmOENYR0NtcEQ4UXFnSHVCRjVKaW5wbWtQWWc1cUM4cXZIN216RjBwRWFaeG9wbEVyUjVMVVlzVkZZUHVmekt4VHM?oc=5",
-            "data": "2026-09-28",
-            "fonte": "CNN Brasil"
-          },
-          {
-            "titulo": "Eleições presidenciais: o que as pesquisas diziam sobre Lula x Bolsonaro a uma semana da eleição em 2022 e 2018 — e o que dizem em 2026",
-            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ua3B4cVpVakpldkg1VXlkdWlGcHczcU50SmVlQmZ1aTRZd1llNUliTGozSUVrZ3NtWnVmaHQ0RWNrUGZITm0wV3NRcTFBWjVlU0tuSTNWM2ZfRWxMY0lTZDZrVQ?oc=5",
-            "data": "2026-09-28",
-            "fonte": "BBC"
-          },
-          {
-            "titulo": "Cury diz que Lula usa \"dor das pessoas para ganhar votos\" ao proibir bets",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdXUxalNnOE9LSktDLTNna2FpcHo5ZUJhTC1ESVhPQWxwanp0UGc1VEFKZ2dVdFBRdjhHbnBEc0FwTmprM01OdDRrNWFfSVg2b3c5SlZfUTBUcFd6RHRDUmFxWktHRVM3LS13ekFsQk5CWERfYTBtSlZxWUdPR1ZzMHgyaVMyRXBjbGRpcUItN2VlNy1rM3JFYktlWHB6UEJHclhaVFFvNG1yT1Aw?oc=5",
-            "data": "2026-09-28",
-            "fonte": "Metrópoles"
-          }
-        ],
-        "fonte": "Google Notícias (RSS); pode incluir homônimos"
-      }
-    },
-    {
-      "id": "samara-80",
-      "cargo": "presidente",
-      "nome_urna": "Samara",
-      "nome_completo": "Samara Martins da Silva Feitosa",
-      "partido": "UP",
-      "numero": "80",
-      "idade": null,
-      "ocupacao": "Odontólogo",
-      "escolaridade": "Superior completo",
-      "cpf": "07787166606",
-      "situacao": "deferido",
-      "situacao_obs": null,
-      "tipo_historico": "sem_mandato",
-      "inicio_politica": 2022,
-      "resumo": "Importado do TSE (Dados Abertos); Disputou 1 eleição(ões) antes sem ser eleito, segundo o TSE. Coligação: PARTIDO ISOLADO.",
-      "mandatos": [],
-      "projetos": null,
-      "gestao": [],
-      "relatorias": [],
-      "fiscalizacao": [],
-      "processos": [],
-      "bens": {
-        "total": 33000.0,
-        "itens": [
-          {
-            "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
-            "descricao": "UNO VIVACE 2016",
-            "valor": 29000.0
-          },
-          {
-            "tipo": "Caderneta de poupança",
-            "descricao": "POUPANÇA",
-            "valor": 4000.0
-          }
-        ],
-        "fonte": "TSE Dados Abertos (bem_candidato_2026)",
-        "atualizado_em": "2026-09-28"
-      },
-      "certidoes": [],
-      "eleicoes_anteriores": [
-        {
-          "ano": "2022",
-          "cargo": "Vice-presidente",
-          "partido": "UP",
-          "uf": "Brasil",
-          "resultado": "Não eleito",
-          "turno": "1",
-          "situacao": "Apto"
-        }
-      ],
-      "tse_id": "280002538811",
-      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002538811",
-      "fontes": [
-        "https://dadosabertos.tse.jus.br/dataset/candidatos-2026"
-      ],
-      "trocas_de_partido": 0,
-      "vezes_eleito": 0,
-      "tse_complementar": {
-        "limite_gastos": 88944030.8,
-        "situacao_julgamento": "DEFERIDO",
-        "na_urna": true,
-        "destinacao_votos": "Válido",
-        "substituido": false,
-        "sq_substituido": null,
-        "nascimento": "Belo Horizonte",
-        "genero": "Feminino",
-        "cor_raca": "Preta",
-        "declarou_bens": true,
-        "processo_registro": "06013999820266000000"
-      },
-      "redes": [
-        "https://www.instagram.com/samaramartinsup?igsi=MXFuaHczMWV5bDJwMA==",
-        "https://@samaramartinsup",
-        "https://www.tiktok.com/@samara.martinsup?_r=1&_t=ZS-99M6wtQb0Wy",
-        "https://unidadepopular.org.br/"
-      ],
-      "sancoes": {
-        "verificado_em": "2026-09-28",
-        "tcu": [],
-        "ceis": [],
-        "cnep": [],
-        "ceaf": [],
-        "fontes_consultadas": [
-          "Portal da Transparência CEIS",
-          "Portal da Transparência CNEP",
-          "Portal da Transparência CEAF"
-        ]
-      },
-      "noticias": {
-        "consultado_em": "2026-09-28",
-        "busca": "\"Samara Martins da Silva Feitosa\" (candidato OR presidente OR eleição)",
-        "itens": [
-          {
-            "titulo": "Samara Martins propõe dobrar salário mínimo e criar escala 4×3",
-            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZWJKQzlFdzFlbWJtWHVzN3F0eTllUFVTTENlWEoxbWpZaXBmcklDS3JkYjc5Y1V4WHVFVm4tZ3RBVlVHOHUxdzczVzN3SkV2UVdPOTU5eTh0U3E1cGVUakRzek1RY2l2R1JMYm5vUUVaVVdGMG9KWXRJTjJqRnZLSUJJWi1vZktxd0pnZV91Z2szQQ?oc=5",
-            "data": "2026-09-28",
-            "fonte": "grudiario.com.br"
-          },
-          {
-            "titulo": "Datafolha divulga nova pesquisa da eleição presidencial; veja números",
-            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQUV4TXdLVEtaem1IM0pQZGllSFVaQTBwM2ViRGZNdXhMT1V5dFZ3Rmd1c213UWtKUGVsaUhwMVI4NXFrSXJVS3NNdngtdmxXam1yby1ocjdUN1dycXFEZUF3RlFsVFpzRkpwLXhMMmwxZ3FJRWRBRXVHeWhkRFg1SEdleE1TRk5BLUxPTE5Cc1RWUG1sQmdDY3JVYWtZVXk3V3A0RHUyNWRZQ05yWTNiRUowM3dMbXdqR3M2dlBQbWkwNHZ0VEk2dkdn0gHYAUFVX3lxTE5DNFpOQXVOQzluNnQ5dHVBa005TUhudVM3TThGZm5tX21FMEVRa2JOYUNsMl9kemtNMjNKeXRzUlFfYWdvOENNZDlkLWJtbDJQN09OU3k1aXJQcnpGd2NkUFZ6aHRWTFotLVhsSmFsZmRIUnBjeThpaEJYR2kwaVpYbDluaXNuNmNQQnlLUnRXYmpqanVNMTB5TVdzN0VlWVNYMFNlcnZYdFo0LU5ienJYWmNnRTdHNEJsRVRSbjBOeG9FWlU3azd1cEVPTXptdlJzd0RYZTFLdA?oc=5",
-            "data": "2026-09-25",
-            "fonte": "g1.globo.com"
-          },
-          {
-            "titulo": "Samara Martins, candidata do partido Unidade Popular à Presidência, faz campanha em Salvador",
-            "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVzZWUjdJdHdqc0diTGJSRlIxSFVyWmtZMl9ZV0lLUlVqWEUxQmx1aHNCTkw4X3NXVHRiUWJ0MVhQR2RETzBvYTVUc0NFSnoyVWtCRTJUR1N2eGc2WWxtZ1lxcHZXQU9UVmxkV2Qtci1nTm5fTHdRNVRTd0JGSXM0RlUyQUhsWElJeVNwbE5IN18xeEpkZXhPUHowTzN2eHlCeVdJUnpFQTN4Q3Vra19xaHJuN09hLWttdFNzQW5pcDNicG1SVmNoRkthOGNSd01OdmVUOVMxbVBMclhReHl2ZEMxWWlrWlk?oc=5",
-            "data": "2026-09-24",
-            "fonte": "g1.globo.com"
-          },
-          {
-            "titulo": "Exclusivo - Samara Martins, candidata a presidente: \"Só a luta muda a vida\"",
-            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUFFpM0wxcXJQRzJVMDNRQjBXNEJRREwtVXJZeUN0R1JTc0NBdUxyek8wdHNNdmh6MElweHFELWROVHMxV0tWUDJ5dl9vYzJ2aUVNNExxeTJXaVQxXzdxeEthVk9zYjZLTzduNXRnei1QVzNSbHF2elhsb0xzcXpYOHA5bEJ3Ym5NVjUxUGpTOVJxVl8xaER4TW5CcFMwNWx2TmhYUnNSLUZBWllPN2dV?oc=5",
-            "data": "2026-09-24",
-            "fonte": "Jornal O PODER"
-          },
-          {
-            "titulo": "Samara Martins propõe dobrar salário mínimo e acabar com escala 6x1 em agenda na Bahia",
-            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONjNsOVRGYmc3ZWJRREpvejNzQ3VWRGhnbEFBWHlMX2l6cUtNdk96OW16X1R2VnZldkZYcmZlMm00cmowWUFiR0VETFZDbHF4NlNHNDMwN0hOOXFGWTZuSDh4UTlrQmwtTlZrVmhJSVFEX28zZEZuRkJxU3dsamdQS0RuLTZHWWkzTzBtdXh0aEdGTkpxbVA40gGmAUFVX3lxTE5VTnE0VjBNUFBnS3ViUk0yeW5CSkFSZnFzVU1wYXRNcVFPbTk4OWNJSUlyRldLdGlxU0oxWkZMb09QeWtHdlM4V3dfXzZTZmtnaDR6bHR6R2pjaXRLVE5RVjBkYW9qNHB1OVhDVUVmWnY4cFN5RDhwSFlWR0hfeHdLaHE4aEh4elJtXzU4NDd0UDhCU0F5QUJnajVyV0RHSmRjZUVQU3c?oc=5",
-            "data": "2026-09-23",
-            "fonte": "g1.globo.com"
-          },
-          {
-            "titulo": "Mulheres exigem respeito da Governadora Raquel Teixeira, diz Samara Martins",
-            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRjdad1RGT1ZmNnJHZEl4SWp4cTN6eXdrZHRHUXlQQVBaVUZGc1lFME5UYW9Kb2VzZ2t1eDV5M21BZE43Qnc3TmxMUXlMU3BCSWVQckwxRG9ncDNPUm1mWjJKYjFWVGRVeGh3SUZTOGFzVVdfSTVKU0wzMGtsMVBneHQxOTRnX3dWeTJaVmNfbWpuYlR1SVFnYlBIaV9adlhndkZzYkNlZUtoUk5RcldIQTRYUlppZw?oc=5",
-            "data": "2026-09-23",
-            "fonte": "Jornal O PODER"
-          },
-          {
-            "titulo": "Samara Martins propõe dobrar salário mínimo e acabar com escala 6x1",
-            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcS1INGs1eXc2dXlRaG5sakx2RlVFOG1aYlhXbW0wWE5oV1NqTkV0ZHVuYUNlenR4aUIzNUFCZHdFNzdLVzRqdFNVdUZUaVp6eTlVSzhYSkJrNVBJc3ZfZTd3YXphSnM0a1pmVlcybk8zTlpsS0RDN2VPeWJxV2c1MHd1OXBBX3J3SVBTdE9HdmNCRXBsUHlUcjVsU1FaSkdkc1I0?oc=5",
-            "data": "2026-09-23",
-            "fonte": "avozdocampo.com"
-          },
-          {
-            "titulo": "Samara Martins propõe dobrar salário mínimo e instituir escala 4x3",
-            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQm1mT2JRT0hza1JkajFFVkVaQkhJVW4tTndtUnlSQUZkMkl3NVN5WjUybGlybmlCVzFZSlRzZFB1NTQwNTZvLXdBLVlTVlZmYnVIVG1ySTVZMmFXSzlDQnJya0JGdUExWHVKZ1g5X0R4ZVRoSGtiYnI3UVFEZ2ZHcmlDczlDT3dmRUdidHJnVGh5eUJVSF9Zb3FwSEV6dHQyRnpueml3?oc=5",
-            "data": "2026-09-22",
-            "fonte": "jornalznorte.com.br"
-          }
-        ],
-        "fonte": "Google Notícias (RSS); pode incluir homônimos"
-      }
-    },
-    {
-      "id": "zema-30",
-      "cargo": "presidente",
-      "nome_urna": "Zema",
-      "nome_completo": "Romeu Zema Neto",
-      "partido": "Novo",
-      "numero": "30",
-      "idade": null,
-      "ocupacao": "Empresário",
-      "escolaridade": "Superior completo",
-      "cpf": "44906161634",
-      "situacao": "deferido",
-      "situacao_obs": null,
-      "tipo_historico": "sem_dados",
-      "inicio_politica": null,
-      "resumo": "Importado do TSE (Dados Abertos); histórico ainda não pesquisado. Coligação: PARTIDO ISOLADO.",
-      "mandatos": [],
-      "projetos": null,
-      "gestao": [],
-      "relatorias": [],
-      "fiscalizacao": [],
-      "processos": [],
-      "bens": {
-        "total": 178707610.08999997,
-        "itens": [
-          {
-            "tipo": "Quotas ou quinhões de capital",
-            "descricao": "PARTICIPAÇÃO EM HOLDING FAMILIAR",
-            "valor": 94498898.0
-          },
-          {
-            "tipo": "Fundos: ações, mútuos de privatização, invest. empresas emergentes, invest.participação e invest. índice mercado",
-            "descricao": "FUNDO DE INVESTIMENTO MULTIMERCADO",
-            "valor": 56218194.15
-          },
-          {
-            "tipo": "Quotas ou quinhões de capital",
-            "descricao": "PARTICIPAÇÃO EM INSTITUIÇÃO FINANCEIRA",
-            "valor": 16834806.0
-          },
-          {
-            "tipo": "Aplicação de renda fixa (cdb, rdb e outros)",
-            "descricao": "APLICAÇÃO DE RENDA FIXA",
-            "valor": 3964283.93
-          },
-          {
-            "tipo": "Quotas ou quinhões de capital",
-            "descricao": "PARTICIPAÇÃO EM SEGURADORA",
-            "valor": 3666680.0
-          },
-          {
-            "tipo": "Fundos: ações, mútuos de privatização, invest. empresas emergentes, invest.participação e invest. índice mercado",
-            "descricao": "FUNDO DE INVESTIMENTO EM AÇÕES",
-            "valor": 1556006.67
-          },
-          {
-            "tipo": "Casa",
-            "descricao": "IMÓVEL RESIDENCIAL REFORMADO",
-            "valor": 704864.25
-          },
-          {
-            "tipo": "Fundos: ações, mútuos de privatização, invest. empresas emergentes, invest.participação e invest. índice mercado",
-            "descricao": "FUNDO DE INVESTIMENTO EM COTAS",
-            "valor": 397866.26
-          },
-          {
-            "tipo": "Quotas ou quinhões de capital",
-            "descricao": "QUOTAS EM COOPERATIVA DE CRÉDITO",
-            "valor": 393000.0
-          },
-          {
-            "tipo": "Aplicação de renda fixa (cdb, rdb e outros)",
-            "descricao": "APLICAÇÃO EM CDB",
-            "valor": 337400.33
-          },
-          {
-            "tipo": "Terreno",
-            "descricao": "TERRENO RECEBIDO EM DOAÇÃO",
-            "valor": 70000.0
-          },
-          {
-            "tipo": "Quotas ou quinhões de capital",
-            "descricao": "PARTICIPAÇÃO EM EMPRESA IMOBILIÁRIA",
-            "valor": 47000.0
-          },
-          {
-            "tipo": "Depósito bancário em conta corrente no país",
-            "descricao": "CONTA CORRENTE EM COOPERATIVA",
-            "valor": 9848.34
-          },
-          {
-            "tipo": "Aplicação de renda fixa (cdb, rdb e outros)",
-            "descricao": "FUNDO DE INVESTIMENTO RENDA FIXA",
-            "valor": 4306.56
-          },
-          {
-            "tipo": "Quotas ou quinhões de capital",
-            "descricao": "QUOTAS OU QUINHÕES DE CAPITAL",
-            "valor": 3959.16
-          }
-        ],
-        "fonte": "TSE Dados Abertos (bem_candidato_2026)",
-        "atualizado_em": "2026-09-28"
-      },
-      "certidoes": [],
-      "eleicoes_anteriores": [],
-      "tse_id": "280002539826",
-      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002539826",
-      "fontes": [
-        "https://dadosabertos.tse.jus.br/dataset/candidatos-2026"
-      ],
-      "tse_complementar": {
-        "limite_gastos": 88944030.8,
-        "situacao_julgamento": "DEFERIDO",
-        "na_urna": true,
-        "destinacao_votos": "Válido",
-        "substituido": false,
-        "sq_substituido": null,
-        "nascimento": "Araxá",
-        "genero": "Masculino",
-        "cor_raca": "Branca",
-        "declarou_bens": true,
-        "processo_registro": "06014042320266000000"
-      },
-      "redes": [
-        "https://www.x.com/romeuzema",
-        "https://www.zema30.com.br/",
-        "https://www.instagram.com/romeuzemaoficial",
-        "https://www.planoimplacavel.com.br",
-        "https://www.linkedin.com/in/romeuzema/",
-        "https://www.youtube.com/@romeuzemaoficial",
-        "https://www.kwai.com/@romeuzemaoficial",
-        "https://www.tiktok.com/@romeuzemaoficial",
-        "https://www.novo.org.br",
-        "https://www.facebook.com/romeuzemaoficial",
-        "https://www.romeuzema.com.br"
-      ],
-      "sancoes": {
-        "verificado_em": "2026-09-28",
-        "tcu": [],
-        "ceis": [],
-        "cnep": [],
-        "ceaf": [],
-        "fontes_consultadas": [
-          "Portal da Transparência CEIS",
-          "Portal da Transparência CNEP",
-          "Portal da Transparência CEAF"
-        ]
-      },
-      "noticias": {
-        "consultado_em": "2026-09-28",
-        "busca": "\"Romeu Zema Neto\" (candidato OR presidente OR eleição)",
-        "itens": [
-          {
-            "titulo": "Confira como foi a segunda-feira (28) dos candidatos a presidente",
-            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTHBMU1RmQWEtMk1wWmFITFlFVWgxc0VieXpKdGFyM0ZDcWZyaW90d1N1YUpJYUdYamZTM0tSVFVnNWdoaWhST2V2OW9Ra2hla0g2UlkwVk9pZXd2TEg4Tlp4MmRnWHd5UzRST1VQLWN4N1dOQTJWMGUxWW5TQWx4R2RKYm1rTk92Z1RXcWQ5RDd4OUctMWFIS2RsWV9sM3FqcmVNUGtVVjFLWTRzNV9lbVc1T1JwcXRv?oc=5",
-            "data": "2026-09-29",
-            "fonte": "Agência Brasil"
-          },
-          {
-            "titulo": "Quaest divulga nova pesquisa da eleição presidencial; veja números",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeWdoX0FlV0t2aTRqZUN5dXNYcjRLc0NWc0FNQlZ0YVdlYzFFRkNBWnZsbERGSmlKRTNhUzJNVi1KT1lsUTRiTjdhN0E4cEtzaXM0MjRucFEwaWc1V3VqWjdIdTE3eWk2MDkwVmozdlNIYkRtRWxBQ0Q1WGZwZks2a1Zwb1lORzNBZ0tKYkExUVJpUEx2SGJhN2ZLYnZOZ3lqYVEwa3VaZmJMWnp6YnRGVmF0bkpjeFVpWk5nV2lwZ05TdTFzcmfSAdQBQVVfeXFMTnZxLUdoT0RJZHZiRGFJVkZLR2pVQm1aVTNmMEFyMUR1US1EdGlxYmdaM3JUWGtxbHMycHF3ZUxEbVFhRWZLRmprZUNNRUM1V1RtQ2NwV05udnVkM0NGN2hZR2ptV3RHUkVVdFdYQXJJMTh0ckJkRVZNSEJfazFJVEtzSkpFTUZiblJSMDQtOFBOZGVCSkhGS3NaeklkVXM4bFhnY18yR3BoS2ItbDZTc0RuWkduWlo5b2plQXRPMktsRW5NeS1GVm1hcXRYMkMyaERpMFo?oc=5",
-            "data": "2026-09-29",
-            "fonte": "g1.globo.com"
-          },
-          {
-            "titulo": "Youtuber Davy Jones afirma que não autorizou uso de sua imagem em vídeo de Zema",
-            "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbUJjbUhPT0NSMEJlZllMOENGa09wRjRjalNRR1B1MmxRWVBCX2g3MXcxV29Sc2R1Y2JrN3puaFhYaWl0eXBrTlNDN2dIYXpwQl9ybjdfa1pLSlpIdnA3ZjFROUpuV2NLdjRVZ1VCVjctS2NTaEplWHd6Und1b0Y1UnlVVWpTSlo1QnFQVEJZcXlLMzBOYi1Xckw2LWFvcDZ2dmNqZGpDSnBCSGY4cXJMVVhpM1JsOW1IejZNTnZ1NVdvVEx3NU40dVpzckR2T2dNa2hNbU5tVVo?oc=5",
-            "data": "2026-09-29",
-            "fonte": "Tribuna do Sertão"
-          },
-          {
-            "titulo": "Ex-secretário e assessor xinga eleitor de 'animal' e 'imbecil' por não votar em Zema; veja vídeo",
-            "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPNm1mTVlQbEp4R2dnZmsyZ2hQeWtkdF81dGFaYm54MXh3WS03RzRPRGxOT1FrQlFXRGVmb045aG82SlA5RmtLSFpXMTg0emdzazFlTjNvQzRVcHY1NVBaSHNMZjJQREwwdkdHUWlLQ3RIZFNEM0dYVkpsTVVReHZIYThVNmczNDkzcEpaVDBScGZrNEVYeDBmdGwzUWNBQ2xLTUlSQm1NdkdIcEsyRXo5cjFtTG9oM0pIeldFeTI1b0lKY3NnNXAzbjF3T1hjQ29MSWJTUk1iQlk1Z3BFTGJyNXJ5Ym00M3VhMWo3bzJWVm1HNmszZHRlemJMblA2UGRFMkZNckJYbURicXJ1XzdGb3I1UlJBQQ?oc=5",
-            "data": "2026-09-29",
-            "fonte": "Terra"
-          },
-          {
-            "titulo": "Zema nega desistência e diz que levará sua candidatura 'até o final'",
-            "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPa3J4bDZ4dE15YXh0RG0yaXFqYTBvUi1CU3NFb1NkbkpmQTZYeTRUNHcwemxNUjY2M0ktaEhiR1lLU0N1X0N3WWtTeGlXNGdhYmtMRlRtanpzUTFvOGN6djBaNU9HbUo5dmJxTlRrbm9wOW83LWJ1emZ3SUE3MkVIaGJNanJ6aVQ5dk5WRy1QUlpocGhFRldUZENkbFlIYVpiYVFtenlhdWpzODBiaWJQN1pSTTl6OHczVlZOTFRRLWFYMDNtYS1yX0NHVmY2OWZ2ejRhbXhiRkV2Ym52RGdaSNIB7wFBVV95cUxPcEhqbE4za0hsb2ZyOUpfYmhQMWlSakdqTjBpd1V6T0pkeDFhTXZfNTZTTG0wZmtXcU1FajBkRnFBajZyUC1QWnRBZ3U2ZU1weWpiQTRWTFQ0a2l1bFNMZzN0YU1RMVUyVU5pZkw4dFZmQ0tZRXM3dXhTUmZHdVp2UHQ3Q1Q4YjM2TTc5NkY2aXVCcnhRMGpIQlBLRDJWT1lVVnlyLVIxSFpPR0h5WXhhVm9oZ05ISGNmX05tLWlXNW14UkpJMzVtU3Nmb3hmc3YtNDNmbjZicC0yazJTQTRUOUd5eVNZR0dTTXJTYUtqMA?oc=5",
-            "data": "2026-09-28",
-            "fonte": "Valor Econômico"
-          },
-          {
-            "titulo": "Zema libera candidatos a apoiar Flávio Bolsonaro, mas esquece de aliado em MG",
-            "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVkFpeV82b29CYnQ3Z0xfOTNHZWxaTm8zcmF2RXpETGN2T0U3aHZ4RVdYNnZtcy1HQldwUXZuX3R0SE9RMjZjNU54cmkxUjA5WnotMFA4YmQ0QlFJMm1fVl9PLTVGZVU3RjFnMk1rbWVXVWxOM29hZ29vSTdSM050aXZYZlRZRHA4MHFCTUwzX3gyOXNDa2ZGZmVCRUVVcThMdHJ0VkNpc1lMVF9TTGlOeHY0WWYxTGtTRllXRUdTblE1aWoxQi1MZHNub20?oc=5",
-            "data": "2026-09-28",
-            "fonte": "Gazeta do Povo"
-          },
-          {
-            "titulo": "Zema é pressionado a desistir para apoiar Flávio; vice diz que ele continua",
-            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeHBlY0Nid2xsWmRMbFdaRGFaRXBDM0sxdlJITDhzSm81eFhMVm10TG1rbHlXRlRLbzZqNHFvZTZDSGs3bjd6WW04bDkzX1Q4ZS0xWmQxNzNtbjZ0Z1B6Sm1oNnpEcUxjZnhSVVExMzBlXy1TSllpLUxhXzl3dUNqeHJsZ1FPQVJ3X2huT2l1UV9UTEts?oc=5",
-            "data": "2026-09-28",
-            "fonte": "UOL Notícias"
-          },
-          {
-            "titulo": "Tarcísio cita Zema ao defender união da direita com Flávio no 1º turno",
-            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNVI2SUNRaGdJRXpJVkNobG5lNTFkRUZkRXhDVWZtWWk3WlJ4WHNmOTNDN3A1WWhCZUpra1VfMzd4OVF6OFQ3bGNndHI0VGxJUXZCUktBa3hjZklIcDU3dlZQaHNCSmN0RnJJaFEtWmVJRXFpdVV6V0R0eGFXaDZlSm1ucVJXUWx4czQ4YjUyMGNuLU13Rnc2WU81aEdJMXc1SFVvR1lZWkkyT251NWc?oc=5",
-            "data": "2026-09-28",
-            "fonte": "CNN Brasil"
-          }
-        ],
-        "fonte": "Google Notícias (RSS); pode incluir homônimos"
-      }
-    },
-    {
-      "id": "dr-victor-4000",
-      "cargo": "deputado_federal",
-      "nome_urna": "Dr. Victor",
-      "nome_completo": "Victor Garozi Linhalis",
-      "partido": "PSB",
-      "numero": "4000",
-      "idade": null,
-      "ocupacao": "Advogado",
-      "escolaridade": "Superior completo",
-      "cpf": "10204305756",
-      "situacao": "deferido",
-      "situacao_obs": null,
-      "tipo_historico": "misto",
-      "inicio_politica": 2020,
-      "resumo": "Importado do TSE (Dados Abertos); histórico ainda não pesquisado. Coligação: PARTIDO ISOLADO.",
-      "mandatos": [
-        {
-          "cargo": "Vice-prefeito (Vila Velha)",
-          "periodo": "eleito em 2020",
-          "partido": "Podemos",
-          "obs": "importado do histórico do TSE; período e detalhes a confirmar"
-        },
-        {
-          "cargo": "Deputado Federal (Espírito Santo)",
-          "periodo": "eleito em 2022",
-          "partido": "Podemos",
-          "obs": "importado do histórico do TSE; período e detalhes a confirmar"
-        }
-      ],
-      "projetos": {
-        "fonte": "Câmara dos Deputados, API dadosabertos (deputado 220528)",
-        "atualizado_em": "2026-09-29",
-        "apresentados": {
-          "total": 37,
-          "obs": "2 arquivadas. Só PL e PLP de autoria; PECs contadas à parte."
-        },
-        "em_tramitacao": [
-          {
-            "id": "PL 1284/2023",
-            "titulo": "Altera a Lei nº 10.048, de 8 de novembro de 2000 para garantir atendimento prioritário nos serviços públicos e privados aos acompanhantes das pessoas com prioridade de atendimento, nas condições que especifica.",
-            "obs": "Tramitando em Conjunto"
-          },
-          {
-            "id": "PL 1684/2023",
-            "titulo": "Define crimes de atentados violentos e terrorismo no âmbito escolar e dá outras providências.",
-            "obs": "Tramitando em Conjunto"
-          },
-          {
-            "id": "PL 2211/2023",
-            "titulo": "Altera o Decreto-Lei 2.848, de 7 de dezembro de 1940, para dispor sobre o crime de perseguição moral, nas condições que especifica.",
-            "obs": "Tramitando em Conjunto"
-          },
-          {
-            "id": "PL 2478/2023",
-            "titulo": "Dispõe sobre diretrizes e bases do planejamento do desenvolvimento nacional equilibrado, regulamenta o § 1º do art. 174 da Constituição Federal, prevê o estabelecimento do Plano Nacional de Desenvolvimento Econômico e Social de Longo Prazo,",
-            "obs": "Aguardando Parecer"
-          },
-          {
-            "id": "PL 2479/2023",
-            "titulo": "Institui a Política Nacional de Conectividade da Agricultura Familiar.",
-            "obs": "Tramitando em Conjunto"
-          },
-          {
-            "id": "PL 2481/2023",
-            "titulo": "Altera a Lei nº 8.036, 11 de maio de 1990, para modificar a forma de recolhimento de depósitos no Fundo de Garantia do Tempo de Serviço - FGTS.",
-            "obs": "Aguardando Designação de Relator(a)"
-          },
-          {
-            "id": "PL 2482/2023",
-            "titulo": "Altera a destinação e contribuições aos Fundos que especifica visando à implementação de diretrizes e bases do planejamento do desenvolvimento nacional equilibrado, bem como altera a Lei no 10.052, de 28 de novembro de 2000, e a Lei no 9.99",
-            "obs": "Aguardando Parecer"
-          },
-          {
-            "id": "PL 2483/2023",
-            "titulo": "Altera a Lei nº 11.638, de 28 de dezembro de 2007, para dispor sobre a publicação na rede mundial de computadores (internet) de demonstrações financeiras de sociedades de grande porte.",
-            "obs": "Pronta para Pauta"
-          },
-          {
-            "id": "PL 2484/2023",
-            "titulo": "Altera a Lei nº 14.133, de 1º de abril de 2021, para aperfeiçoar as disposições relativas às margens de preferência para contratação de bens manufaturados nacionais e serviços nacionais.",
-            "obs": "Tramitando em Conjunto"
-          },
-          {
-            "id": "PL 2485/2023",
-            "titulo": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil) para dispor sobre a subcapitalização de pessoas jurídicas.",
-            "obs": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro"
-          },
-          {
-            "id": "PL 2680/2023",
-            "titulo": "Altera a Lei nº 8.213, de 24 de julho de 1991, para dispor sobre o cumprimento da reserva de cargo pelo pai ou pela mãe de pessoa com deficiência.",
-            "obs": "Tramitando em Conjunto"
-          },
-          {
-            "id": "PL 2904/2023",
-            "titulo": "Acrescenta o artigo 40-A na Lei nº 6.766, de 19 de dezembro de 1979, para dispor sobre a implementação de infraestruturas de água e esgotamento sanitários em áreas não autorizadas e dá outras providências.",
-            "obs": "Tramitando em Conjunto"
-          },
-          {
-            "id": "PL 2905/2023",
-            "titulo": "Altera a Lei nº 13.303, de 30 de junho de 2016, para dispor sobre o prazo de permissão que as empresas possam manter contratos continuados que atendam adequadamente as estatais por período superior ao hoje permitido e dá outras providências",
-            "obs": "Aguardando Designação de Relator(a)"
-          },
-          {
-            "id": "PL 3598/2023",
-            "titulo": "Altera a Lei nº 10.216, de 6 de abril de 2001, para dispor sobre a criação e manutenção de residências terapêuticas para atendimento a pessoas com vínculos familiares fragilizados ou rompidos.",
-            "obs": "Pronta para Pauta"
-          },
-          {
-            "id": "PL 3643/2023",
-            "titulo": "Altera a Lei nº 9.503, de 23 de setembro de 1997, que “institui o Código de Trânsito Brasileiro”, para incluir como equipamento obrigatório para motocicletas, motonetas, ciclomotores, triciclos e quadriciclos o dispositivo aparador de linha",
-            "obs": "Tramitando em Conjunto"
-          },
-          {
-            "id": "PL 4061/2023",
-            "titulo": "Altera a Lei nº 12.764, de 27 de dezembro de 2012, que institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista, e estabelece prazo para o diagnóstico de Transtorno do Espectro Autista pelo Poder Pú",
-            "obs": "Pronta para Pauta"
-          },
-          {
-            "id": "PL 4362/2023",
-            "titulo": "Obriga fabricantes de smartphones e tablets a advertir os consumidores sobre os riscos do seu uso por crianças.",
-            "obs": "Aguardando Parecer"
-          },
-          {
-            "id": "PL 4366/2023",
-            "titulo": "Altera o art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 – Código Penal, para aumentar a pena do crime de estelionato quando a conduta for praticada contra a mulher, por razões da condição do sexo feminino.",
-            "obs": "Aguardando Designação de Relator(a)"
-          },
-          {
-            "id": "PL 4536/2023",
-            "titulo": "Dispõe sobre a prioridade de tramitação de procedimentos cíveis e penais de ações relativas a tragédias ambientais.",
-            "obs": "Aguardando Apreciação pelo Senado Federal"
-          },
-          {
-            "id": "PL 4925/2023",
-            "titulo": "Dispõe sobre isenção do Imposto sobre Produtos Industrializados (IPI) na aquisição de veículos pelos Municípios, para utilização exclusiva nas áreas de segurança pública e saúde.",
-            "obs": "Aguardando Designação de Relator(a)"
-          },
-          {
-            "id": "PL 5774/2023",
-            "titulo": "Altera a Lei 11.196, de 21 de novembro de 2005 - Lei do Bem, para dispor sobre a extensão do incentivo de dedução recaído sobre a apuração do lucro líquido, para fins de IRPJ e CSLL, correspondente ao dispêndio com pesquisa tecnológica e de",
-            "obs": "Aguardando Encaminhamento"
-          },
-          {
-            "id": "PL 308/2024",
-            "titulo": "Altera o Decreto-Lei 2.848, de 7 de dezembro de 1940, para dispor sobre oaumento da penalidade nos casos de violência doméstica contra a mulher, nas condições que especifica.",
-            "obs": "Tramitando em Conjunto"
-          },
-          {
-            "id": "PL 309/2024",
-            "titulo": "Dispõe sobre incentivos tributários para o turismo de aventura e o ecoturismo.",
-            "obs": "Aguardando Designação de Relator(a)"
-          },
-          {
-            "id": "PL 346/2024",
-            "titulo": "Altera a Lei nº 14.758, de 19 de dezembro de 2023, que institui a Política Nacional de Prevenção e Controle do Câncer no âmbito do Sistema Único de Saúde (SUS), para priorizar o uso de telessaúde no diagnóstico e acompanhamento de pacientes",
-            "obs": "Aguardando Apreciação pelo Senado Federal"
-          },
-          {
-            "id": "PL 828/2024",
-            "titulo": "Cria o Cadastro Nacional de Combate à Violência Contra Vulneráveis e dá outras providências.",
-            "obs": "Aguardando Designação de Relator(a)"
-          },
-          {
-            "id": "PLP 55/2024",
-            "titulo": "Institui e regulamenta os regimes específicos de tributação aplicáveis às operações com bens imóveis, conforme previsto na Emenda Constitucional nº 132, de 20 de dezembro de 2023.",
-            "obs": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PL 2427/2024",
-            "titulo": "Dispõe sobre a criação de canal de denúncia por aplicativo para facilitar a denúncia de casos de abusos e violência sexual contra crianças e adolescentes, e torna obrigatória a instalação do aplicativo em todos os sistemas operacionais de s",
-            "obs": "Aguardando Parecer"
-          },
-          {
-            "id": "PL 2428/2024",
-            "titulo": "Dispõe sobre a obrigatoriedade de transparência e fiscalização na tramitação de processos relacionados a abusos e violência sexual contra crianças e adolescentes.",
-            "obs": "Aguardando Designação de Relator(a)"
-          },
-          {
-            "id": "PL 3131/2024",
-            "titulo": "Dispõe sobre a inclusão da informação de \"Pessoa com Deficiência\" na Carteira de Identidade Nacional do Portador de Doença Renal Crônica, em todo o território nacional.",
-            "obs": "Aguardando Designação de Relator(a)"
-          },
-          {
-            "id": "PL 3132/2024",
-            "titulo": "Dispõe sobre a obrigatoriedade de médicos identificarem-se como profissionais da saúde durante voos nacionais e internacionais realizados no território brasileiro.",
-            "obs": "Aguardando Encaminhamento"
-          },
-          {
-            "id": "PL 3133/2024",
-            "titulo": "Altera a Lei n. 9.099/1995, para dispor sobre a possibilidade de não realização de audiência de conciliação no âmbito do Juizado Especial.",
-            "obs": "Tramitando em Conjunto"
-          },
-          {
-            "id": "PL 3134/2024",
-            "titulo": "Dispõe sobre a inclusão de pesquisa de biomarcadores entre as ações destinadas à detecção precoce de doenças raras no âmbito do Sistema Único de Saúde (SUS).",
-            "obs": "Aguardando Parecer"
-          },
-          {
-            "id": "PL 4920/2025",
-            "titulo": "Dispõe sobre normas gerais de utilização de bicicletas elétricas e bicicletas motorizadas no território nacional, altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), e dá outras providências.",
-            "obs": "Aguardando Parecer"
-          },
-          {
-            "id": "PL 2522/2026",
-            "titulo": "Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para incluir a doação voluntária de sangue como modalidade de remição de pena.",
-            "obs": "Tramitando em Conjunto"
-          },
-          {
-            "id": "PL 5036/2026",
-            "titulo": "Institui a Política Nacional de Desenvolvimento Infantil, Intervenção Precoce e Inclusão Integrada - PNDII.",
-            "obs": "Apresentação de Proposição"
-          }
-        ],
-        "aprovados": [],
-        "pecs_assinadas": [
-          {
-            "id": "PEC 2/2023",
-            "titulo": "Dá nova redação ao art. 6º da Constituição Federal, ao inserir a CULTURA no rol de nossos direitos sociais.",
-            "situacao": "Aguardando Criação de Comissão Temporária"
-          },
-          {
-            "id": "PEC 7/2023",
-            "titulo": "Altera o art. 84, XII, da Constituição Federal de 1988, para estabelecer parâmetro para a concessão de indulto e comutação de penas pelo Presidente da República.",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 23/2023",
-            "titulo": "Acrescenta o artigo 135-A e Seção V ao Capítulo IV, Das Funções Essenciais à Justiça e altera o disposto no § 4-B do art. 40 todos da Constituição Federal.",
-            "situacao": "Aguardando Criação de Comissão Temporária"
-          },
-          {
-            "id": "PEC 34/2023",
-            "titulo": "Inclui dispositivos nos artigos 3º e 5º da Constituição da República Federativa do Brasil, estabelecendo o combate às drogas ilícitas como princípio fundamental e vedando expressamente a descriminalização do tráfico e a legalização de novas",
-            "situacao": "Aguardando Designação de Relator(a)"
-          },
-          {
-            "id": "PEC 38/2023",
-            "titulo": "Modifica as regras dos regimes próprios de previdência social dos servidores dos municípios, objetivando o equilíbrio financeiro e atuarial dos regimes e a sustentabilidade fiscal desses entes, e dá outras providências.",
-            "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro"
-          },
-          {
-            "id": "PEC 57/2023",
-            "titulo": "Altera os arts. 40 e 144 da Constituição Federal para dispor sobre as Polícias Municipais.",
-            "situacao": "Aguardando Designação de Relator(a)"
-          },
-          {
-            "id": "PEC 62/2023",
-            "titulo": "Altera o artigo 122 do Ato das Disposições Constitucionais Transitórias.",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 64/2023",
-            "titulo": "Altera  disposições  sobre  servidores policiais, para dispor sobre seu Regime Jurídico Policial.",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 17/2024",
-            "titulo": "Acrescenta art. 132-A e altera o art. 168 da Constituição Federal, para conferir autonomia orçamentária às Procuradorias dos Estados e do Distrito Federal e à Advocacia-Geral da União e seus órgãos vinculados.",
-            "situacao": "Aguardando Criação de Comissão Temporária"
-          },
-          {
-            "id": "PEC 21/2024",
-            "titulo": "Altera o art. 198 da Constituição Federal, para promover o enquadramento dos servidores públicos federais ocupantes do cargo de auxiliar de enfermagem para a carreira dos técnicos de enfermagem.",
-            "situacao": "Aguardando Encaminhamento"
-          },
-          {
-            "id": "PEC 23/2024",
-            "titulo": "Acrescenta o §2º no Art. 4º da Constituição para acrescentar a integração dos países de língua portuguesa entre os princípios que regem as relações internacionais da República Federativa do Brasil.",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 24/2024",
-            "titulo": "Altera os §§ 4º, 4°-B e 7º do art. 40 da Constituição Federal e os artigos 5º, 10, 23, 24 e 26 da Emenda Constitucional nº 103, de 2019, acrescenta o art. 144-A a Constituição e dá outras providências.",
-            "situacao": "Aguardando Constituição de Comissão Temporária "
-          },
-          {
-            "id": "PEC 29/2024",
-            "titulo": "Altera a Constituição Federal para acrescentar no art. 5º texto sobre o marco temporal de início da vida humana explicitando de forma inequívoca a inviolabilidade do direito à vida, desde a sua concepção, bem como cria o inciso LXXX para es",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 31/2024",
-            "titulo": "Acrescenta os arts.91-A, 91-B e a alínea “g” do inciso I do artigo 159 da Constituição Federal, para instituir o Conselho Nacional de Mudança Climática, a Autoridade Climática Nacional e o Fundo Nacional de Mudança Climática.",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 34/2024",
-            "titulo": "Inclui a primeira infância como beneficiária de direitos e garantias, no Texto Constitucional.",
-            "situacao": null
-          },
-          {
-            "id": "PEC 42/2024",
-            "titulo": "Acrescenta o inciso VI ao art. 51 da Constituição Federal, para estabelecer competência privativa à Câmara dos Deputados relativa à fiscalização das atividades das agências reguladoras.",
-            "situacao": "Aguardando Encaminhamento"
-          },
-          {
-            "id": "PEC 44/2024",
-            "titulo": "Altera o §9º do artigo 166 da Constituição Federal para destinar parte dos recursos oriundos das emendas individuais a programas e ações relacionados ao Esporte.",
-            "situacao": "Aguardando Criação de Comissão Temporária"
-          },
-          {
-            "id": "PEC 2/2025",
-            "titulo": "Dá nova redação ao Capítulo II, do Título IV, da Constituição Federal, que dispõe sobre o Poder Executivo e dá outras providências.",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 10/2025",
-            "titulo": "Altera o Artigo 133º da Constituição Federal, que dispõe sobre a importância do exercicio do advogado, junto a administração da justiça.",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 12/2025",
-            "titulo": "Altera o art. 50 da Constituição da República, para incluir o Presidente do Banco Central no rol das autoridades, que a Câmara dos Deputados e o Senado Federal, ou quaisquer de suas Comissões, podem convocar para prestar informações sobre a",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 17/2025",
-            "titulo": "Acrescenta os §§ 11, 12 e 13 ao art. 144 da Constituição Federal, para instituir o piso salarial dos servidores policiais civis e militares e bombeiros militares.",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 32/2025",
-            "titulo": "Esta Lei altera o artigo 5º, inciso XLIII, da Constituição Federal, o qual prevê que nos casos de crimes previstos neste inciso, a pena deverá ser cumprida integralmente em regime fechado, por eles respondendo os mandantes, os executores e ",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 35/2025",
-            "titulo": "Altera a Constituição Federal para acrescentar os §§ 4º e 5º ao art. 164 para determinar que a criação, emissão e circulação de qualquer moeda digital do Banco Central (CBDC) ou outro ativo digital requer aprovação das duas Casas do Congres",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 38/2025",
-            "titulo": "Altera normas sobre a Administração Pública brasileira para aperfeiçoar a governança e a gestão pública, promover a transformação digital, impulsionar a profissionalização e extinguir privilégios no serviço público.",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 46/2025",
-            "titulo": "Altera a redação do § 4º do art. 212 da Constituição Federal para considerar o programa de alimentação escolar como despesa de manutenção e desenvolvimento de ensino.",
-            "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)"
-          },
-          {
-            "id": "PEC 9/2026",
-            "titulo": "Altera o art. 228 da Constituição Federal, para reduzir a idade mínima de imputabilidade penal, nas condições que estabelece.",
-            "situacao": "Tramitando em Conjunto"
-          }
-        ],
-        "pecs_obs": "PEC precisa de 171 assinaturas na Câmara; cada signatário aparece como autor nos dados abertos."
-      },
-      "gestao": [],
-      "relatorias": [],
-      "fiscalizacao": [],
-      "processos": [],
-      "bens": {
-        "total": 4400000.0,
-        "itens": [
-          {
-            "tipo": "Casa",
-            "descricao": "CASA",
-            "valor": 3000000.0
-          },
-          {
-            "tipo": "Sala ou conjunto",
-            "descricao": "UMA SALA",
-            "valor": 450000.0
-          },
-          {
-            "tipo": "Depósito bancário em conta corrente no país",
-            "descricao": "CONTA CORRENTE",
-            "valor": 400000.0
-          },
-          {
-            "tipo": "Terreno",
-            "descricao": "LOTE",
-            "valor": 280000.0
-          },
-          {
-            "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
-            "descricao": "CARRO",
-            "valor": 270000.0
-          }
-        ],
-        "fonte": "TSE Dados Abertos (bem_candidato_2026)",
-        "atualizado_em": "2026-09-28"
-      },
-      "certidoes": [],
-      "eleicoes_anteriores": [
-        {
-          "ano": "2020",
-          "cargo": "Vice-prefeito",
-          "partido": "Podemos",
-          "uf": "Vila Velha",
-          "resultado": "Eleito",
-          "turno": "2",
-          "situacao": "Apto"
-        },
-        {
-          "ano": "2022",
-          "cargo": "Deputado Federal",
-          "partido": "Podemos",
-          "uf": "Espírito Santo",
-          "resultado": "Eleito por média",
-          "turno": "1",
-          "situacao": "Apto"
-        }
-      ],
-      "tse_id": "80002541009",
-      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/ES/80002541009",
-      "fontes": [
-        "https://dadosabertos.tse.jus.br/dataset/candidatos-2026"
-      ],
-      "trocas_de_partido": 0,
-      "vezes_eleito": 2,
-      "tse_complementar": {
-        "limite_gastos": 3176572.53,
-        "situacao_julgamento": "DEFERIDO",
-        "na_urna": true,
-        "destinacao_votos": "Válido",
-        "substituido": false,
-        "sq_substituido": null,
-        "nascimento": "Colatina",
-        "genero": "Masculino",
-        "cor_raca": "Branca",
-        "declarou_bens": true,
-        "processo_registro": "06003985620266080000"
-      },
-      "redes": [
-        "https://www.facebook.com/victor.garozilinhalis",
-        "https://www.facebook.com/victor.garozilinhalis",
-        "https://www.facebook.com/DrVictorLinhalis",
-        "https://www.instagram.com/drvictorlinhalis/",
-        "https://www.instagram.com/channel/aby6bnmtrurjc9ze/",
-        "https://www.tiktok.com/@drvictorlinhalis",
-        "https://x.com/victorlinhalis",
-        "https://whatsapp.com/channel/0029vbb2ke130lky5xqxhk42",
-        "https://k.kwai.com/u/@deputadodr.vic/xjvcydqy",
-        "https://www.linkedin.com/in/dr-victor-84a66877/",
-        "https://x.com/victorlinhalis?s=11",
-        "https://www.youtube.com/@drvictorlinhalis",
-        "https://drvictorlinhalis.com/",
-        "https://linktr.ee/drvictorlinhalis?utm_source=ig&utm_medium=social&utm_content=l"
-      ],
-      "certidoes_arquivos": [
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016997000.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016999642.2.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016999649. Estadual  2 grau.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016999643.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016999648. Federal Criminal  2 Grau.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016999650. Estadual  1 grau.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80017005919.pdf.pdf",
-        "data/cache/certidao_criminal_2026_ES.zip:ES/2026ES80002541009_80016996992.pdf.pdf"
-      ],
-      "sancoes": {
-        "verificado_em": "2026-09-28",
-        "tcu": [],
-        "ceis": [],
-        "cnep": [],
-        "ceaf": [],
-        "fontes_consultadas": [
-          "Portal da Transparência CEIS",
-          "Portal da Transparência CNEP",
-          "Portal da Transparência CEAF"
-        ]
-      },
-      "noticias": {
-        "consultado_em": "2026-09-28",
-        "busca": "\"Dr. Victor\" (\"Espírito Santo\" OR ES OR capixaba OR candidato OR deputado OR senador OR governador)",
-        "itens": [
-          {
-            "titulo": "A 15 dias das eleições, Dr. Victor intensifica campanha nas ruas",
-            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ3NpQVFYZWJiWDlRNVRfMU5iYnFmVkVVYm15TXdzRUF2dUtVUmR2ZjdVYkR4LXRaWjlWUHlaOVpheHlCRVE0aUFsZkt1VWg0UzVmNFlHSEhGNVJqeTlBbThpazFMNC1DeVRfMVJSajRQQldtbXRzTEpGdkxIQS1LTkJ1ZHU4SUkzSlk0aERPTW1LMm9GdHh2Yy1oT0VFalFoUHI5SQ?oc=5",
-            "data": "2026-09-19",
-            "fonte": "Jornal ES HOJE"
-          },
-          {
-            "titulo": "Sinais políticos durante evento de Victor Linhalis",
-            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPamctMlI2OXFOWThQdnFGOG1Eam9QT0J4eXd4QTNkTW5rVWR4VlJoTzVyM0FZbjNjMFpfREZQd0FBYWdrTkxEbnhlWUxhSWtIcmlmUU1yQzFQaDBkTVlFY2ZWRFdpSGxFZEJiSElpMmJ6cHNhQno5UlJ6RDZwZ2R6eFdmMVFQQlU4cVdIX3dQc0p1dzRjVko1aWZoWWZoY2U1N0FJQdIBrAFBVV95cUxNVzVuRjI1eEhoMEEycE9PMjlfajlWczNVanlBOWxjWV81SU1ZLVVCcUZIS0hyRE1FZHRHZldjNDhMa1l6VVRqUHFKU3MxTDRsX0h4UWVTT2tBQndmOVNqVGFzemNOdzdMMXJRUjY4LWhSQWVlQXhFQndwNnYxalpiM3JTT213clBUd05pTmNidEJmNUJ0Y190VWpFbk1rX2p4bGtPWGxuNzlxcTlQ?oc=5",
-            "data": "2026-09-17",
-            "fonte": "tribunaonline.com.br"
-          },
-          {
-            "titulo": "Victor Linhalis reúne mais de duas mil pessoas e Casagrande na corrida pela reeleição",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ0VFZnJaTUJ4ZjNlcmp1SkR0TEZxXy1hUmRJaVNBZHNNd3N0SGx4d2NEdkNjS0xUR2FweGRtcTdFYVJROVlWTTkyRUZweUN4eDF3SFpyNFdhZkFORzM3a1BaUnZmYnIxRm9janFxd1FCOHlfRHlPSVdpcTI4ZlZzN2xHbnBSMlN5dU0zYlQ1YlR5ZHdHVzFDaXZreDBpbU01NnRFYjBFa1pyRi1DZkxpOUR5clFmam4zbFIxaFBYRGZiUkE?oc=5",
-            "data": "2026-09-16",
-            "fonte": "Jornal ES HOJE"
-          },
-          {
-            "titulo": "O bônus e o risco da agenda múltipla de Arnaldinho Borgo",
-            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMVZ4TjVWNjRDekhWVTh5a3RwR3R1YW91OU8xZGhITEYzbGRBM1dydkd0Vk1rNkZXVXpXTU5KOExZNDhJQTZBRThkRTh0TUE0QXltQ3NvaTZOdng1aTVXbVpYMHpNTWxVY0RZaGdiMzA1TGhwTzFWYWV0RWVaNTZLLW9BTEhLb1lsVHBkM0p2eEhUck5TdTVTVzZjS0xjSHNoLWpWemZBLTJnaWVuWm03MmNndDVnLTYyVjNR?oc=5",
-            "data": "2026-09-05",
-            "fonte": "Jornal ES HOJE"
-          },
-          {
-            "titulo": "Distanciamento entre lideranças de Vila Velha",
-            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX1VNX3I3NmlwTFIyb1NaUTR6MnA0bWhOSmc3YzlVWV94X1preUphQUNFZzFFaVpDeml2ZTZQQzRvc0pGbHNPNHpzSllpRXZ5UjZvR2xrd3hwZ09jX0ZsRnZyVVFMR01SenYxaHhfWnNnaG5ocDQxZkJpSmVjbDlmQWEwMGpPVGFFTWp4azcwbzl0bTU0SFJwVk92ZjRoQdIBpgFBVV95cUxOZ2pEMFFDVE9Kb0dZLUFaOFVweWt6NGZqWXJkU2RmbFN2aUJTTDZWamVjdGp2Y0ZETkQyaEVnREh0NENTUDNFT01qbTVRMEV3Y3BFNjhleTFiOEdlX2o4YVI4OFRHZXZsTGhSdEdtNElCN0pfai11SlozU3JubnZiLXlNa0FkbW9rVVJnelAxT1VNSmJoS3hQVk54VVBkYkpKRjZoWEJ3?oc=5",
-            "data": "2026-09-03",
-            "fonte": "tribunaonline.com.br"
-          },
-          {
-            "titulo": "Dr. Victor Linhalis",
-            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYVFkZUw2TUpVRGNudU1faWJkeWJjZllHcjdZeWpuWkZBYXZGWVROdTBoeVgxNXRrMmhObENrS3lNN0xqdkJSbThobmZNRklrd0ZQbG41N3Q5TXNmdC1fR3JCeUdSTndISXJ5ejh6Wk80bEszUVd5cUJDZzVxS1JocmlMaC0?oc=5",
-            "data": "2026-08-25",
-            "fonte": "operamundi.uol.com.br"
-          },
-          {
-            "titulo": "Emenda do deputado Dr. Victor garante novo mamógrafo para o Hospital Santa Rita",
-            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc2Z0VUtybWdHMlNTY3hja2FLR3dMM1h5Ylp4MjRGSjRiTFk2SjgtY3YzQnQ2Ui1xNFppcUZaOGVwTm1zR2VaQ2hXSzJwTVBqUVFQVUlEbHlXOHh2ZnFUTF85RjRRRjhQOG1Fdnl5SV9WLUVzTm9TeTBpaC1mVWJsMEczQWJwd1NVaXVkQXFtUkhIc2tsbEhlS3NuNm5hcV9XeXY4bWt1NjV5SjVNcjVTREZWOWRtZw?oc=5",
-            "data": "2026-07-03",
-            "fonte": "Jornal ES HOJE"
-          },
-          {
-            "titulo": "Castração gratuita: gasto ou investimento público?",
-            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUlVrNW5LeVdnc25YWHR1c0VFY080a0dHdzR0bkFSdWUybGxucU1VSHlrM2hqNkZfN3YyZnNVMHFpSmx2RkktbVB5anhtdmgybVpqUGprdzYydVVYbTZSMHZWOWlNRGU3bkh3OXZaUndIU0VaN1B6a192UmFKMjFiWDh0enpqSmdQVUpwOFR4YnJvNmw3Z3lXVExyU3hTbndfTnc?oc=5",
-            "data": "2026-06-19",
-            "fonte": "Jornal ES HOJE"
-          }
-        ],
-        "fonte": "Google Notícias (RSS); pode incluir homônimos"
-      },
-      "camara_nome": "Dr. Victor Linhalis",
-      "camara_id": 220528,
-      "gastos": {
-        "cota_parlamentar_por_ano": {},
-        "fonte": "Câmara, API dadosabertos (despesas)",
-        "atualizado_em": "2026-09-29"
-      },
-      "comissoes": [
-        {
-          "sigla": "CEXMABRU",
-          "nome": "Comissão Externa destinada a fiscalizar os rompimentos de barragens, em especial acompanhar a repactuação do acordo de Mariana e a reparação do crime de Brumadinho",
-          "papel": "Titular",
-          "inicio": "2023-02-18T00:00",
-          "fim": null
-        },
-        {
-          "sigla": "CECANCER",
-          "nome": "Comissão Especial destinada a acompanhar as ações de prevenção e combate ao câncer, ao acidente vascular cerebral (AVC) e às doenças do coração.",
-          "papel": "Suplente",
-          "inicio": "2024-02-07T00:00",
-          "fim": null
-        },
-        {
-          "sigla": "CEDES",
-          "nome": "Centro de Estudos e Debates Estratégicos",
-          "papel": "Suplente",
-          "inicio": "2024-02-07T00:00",
-          "fim": null
-        },
-        {
-          "sigla": "MESA",
-          "nome": "Mesa Diretora da Câmara dos Deputados",
-          "papel": "3º Suplente de Secretário",
-          "inicio": "2025-02-01T00:00",
-          "fim": null
-        },
-        {
-          "sigla": "MESA",
-          "nome": "Mesa Diretora da Câmara dos Deputados",
-          "papel": "Suplente",
-          "inicio": "2025-02-01T00:00",
-          "fim": null
-        },
-        {
-          "sigla": "COETICA",
-          "nome": "Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados",
-          "papel": "Suplente",
-          "inicio": "2025-06-30T00:00",
-          "fim": null
-        },
-        {
-          "sigla": "PL073325",
-          "nome": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 733, de 2025, do Sr. Leur Lomanto Júnior, que \"dispõe sobre o Sistema Portuário Brasileiro, regula a exploração dos portos, as atividades de operação portuária, o trabalho portuário e dá outras providências\"",
-          "papel": "Suplente",
-          "inicio": "2025-07-08T00:00",
-          "fim": null
-        },
-        {
-          "sigla": "PL233823",
-          "nome": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2338, de 2023, do Senado Federal, que \"dispõe sobre o desenvolvimento, o fomento e o uso ético e responsável da inteligência artificial com base na centralidade da pessoa humana\"",
-          "papel": "Titular",
-          "inicio": "2025-08-20T00:00",
-          "fim": null
-        },
-        {
-          "sigla": "PEC01825",
-          "nome": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição n. 18, de 2025, do Poder Executivo, que \"altera os art. 21, art. 22, art. 23, art. 24 e art. 144 da Constituição, para dispor sobre competências da União, dos Estados, do Distrito Federal e dos Municípios relativas à segurança pública\"",
-          "papel": "Suplente",
-          "inicio": "2025-10-15T00:00",
-          "fim": null
-        }
-      ],
-      "votacoes_chave": [
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-07",
-          "descricao": "Suprimido o texto. Sim: 307; não: 166; abstenção: 5; total: 478.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-07",
-          "descricao": "Mantido o texto. Sim: 370; não: 28; abstenção: 3; total: 401.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-07",
-          "descricao": "Mantido o texto. Sim: 349; não: 84; abstenção: 2; total: 435.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-07",
-          "descricao": "Mantido o texto. Sim: 336; não: 132; total: 468.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-06",
-          "descricao": "Mantido o texto. Sim: 423; não: 37; abstenção: 1; total: 461.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-06",
-          "descricao": "Aprovada, em segundo turno, a Proposta de Emenda à Constituição nº 45, de 2019, ressalvados os destaques. Sim: 375; não: 113; abstenção:3; total: 491.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-06",
-          "descricao": "Aprovado o Requerimento nº 2.150/2023, dos Senhores Líderes, que solicita a quebra de interstício de 5 sessões previsto no § 6º do art. 202 do RICD, para apreciação do segundo turno da PEC 45, de 2019. Sim: 335; não: 100; abstenção: 2; total: 437.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-06",
-          "descricao": "Mantido o texto. Sim: 461; não: 24; abstenção: 2; total: 487.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-06",
-          "descricao": "Mantido o texto. Sim: 344; não: 147; abstenção: 2; total: 493.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-06",
-          "descricao": "Mantido o texto. Sim: 379; não: 114; abstenção: 2; total: 495.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-06",
-          "descricao": "Mantido o texto. Sim: 383; não: 103; abstenção: 2; total: 488.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-06",
-          "descricao": "Mantido o texto. Sim: 379; não: 116; abstenção: 1; total: 496.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-06",
-          "descricao": "Mantido o texto. Sim: 390; não: 108; abstenção: 1; total: 499.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-06",
-          "descricao": "Mantido o texto. Sim: 317; não: 170; total: 487.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-06",
-          "descricao": "Aprovada a Emenda Aglutinativa nº 1. Sim: 379; não: 114; abstenção: 1; total: 494.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-06",
-          "descricao": "Aprovado, em primeiro turno, o Substitutivo adotado pelo relator da Comissão Especial à Proposta de Emenda Constitucional nº 45, de 2019, ressalvados os destaques. Sim: 382; não: 118; abstenção: 3; total: 503.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-06",
-          "descricao": "Rejeitado o Requerimento. Sim: 133; não: 357; abstenção: 3; total: 493.",
-          "voto": "Não"
-        },
-        {
-          "tema": "Reforma tributária do consumo (IVA)",
-          "quando": "2023",
-          "data": "2023-07-05",
-          "descricao": "Rejeitado o Requerimento. Sim: 148; não: 302; abstenção: 1; total: 451.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Novo arcabouço fiscal",
-          "quando": "2023",
-          "data": "2023-08-22",
-          "descricao": "Rejeitadas as Emendas do Senado Federal ao Projeto de Lei Complementar nº 93-B, de 2023, nºs 1, 2, 3, 5, 6, 7, 8, 9, 11, 12, 13 e 15, ressalvados os destaques. Sim: 19; não: 423; abstenção: 2; total: 444.",
-          "voto": "Não"
-        },
-        {
-          "tema": "Novo arcabouço fiscal",
-          "quando": "2023",
-          "data": "2023-08-22",
-          "descricao": "Aprovadas as Emendas do Senado Federal ao Projeto de Lei Complementar nº 93-B, de 2023, nºs 4, 10 e 14, ressalvados os destaques. Sim: 379; não: 64; total: 443.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Novo arcabouço fiscal",
-          "quando": "2023",
-          "data": "2023-08-22",
-          "descricao": "Aprovado o Requerimento. Sim: 351; não: 92; total: 443.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Novo arcabouço fiscal",
-          "quando": "2023",
-          "data": "2023-05-24",
-          "descricao": "Rejeitada a Emenda de Plenário nº 85. Sim: 126; não: 335; total: 461.",
-          "voto": "Não"
-        },
-        {
-          "tema": "Novo arcabouço fiscal",
-          "quando": "2023",
-          "data": "2023-05-24",
-          "descricao": "Mantido o texto. Sim: 306; não: 170; total: 476.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Novo arcabouço fiscal",
-          "quando": "2023",
-          "data": "2023-05-24",
-          "descricao": "Mantido o texto. Sim: 316; não: 160; abstenção: 3; total: 479.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Novo arcabouço fiscal",
-          "quando": "2023",
-          "data": "2023-05-24",
-          "descricao": "Mantido o texto. Sim: 326; não: 138; total: 464.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Novo arcabouço fiscal",
-          "quando": "2023",
-          "data": "2023-05-23",
-          "descricao": "Mantido o texto. Sim: 429; não: 20; abstenção: 1; total: 450.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Novo arcabouço fiscal",
-          "quando": "2023",
-          "data": "2023-05-23",
-          "descricao": "Rejeitadas as Emendas de Plenário ao Substitutivo, ressalvados os destaques. Sim: 102; não: 346; abstenção: 1; total: 449.",
-          "voto": "Não"
-        },
-        {
-          "tema": "Novo arcabouço fiscal",
-          "quando": "2023",
-          "data": "2023-05-23",
-          "descricao": "Aprovado o Substitutivo ao Projeto de Lei Complementar nº 93, de 2023, adotado pelo relator da Comissão de Finanças e Tributação, ressalvados os destaques. Sim: 372; não: 108; abstenção: 1; total: 481.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Novo arcabouço fiscal",
-          "quando": "2023",
-          "data": "2023-05-23",
-          "descricao": "Aprovado o Requerimento. Sim: 371; não: 105; abstenção: 2; total: 478.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Novo arcabouço fiscal",
-          "quando": "2023",
-          "data": "2023-05-23",
-          "descricao": "Rejeitado o Requerimento. Sim: 105; não: 342; abstenção: 2; total: 449.",
-          "voto": "Não"
-        },
-        {
-          "tema": "Novo arcabouço fiscal",
-          "quando": "2023",
-          "data": "2023-05-17",
-          "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 367; não: 102; abstenção: 1; total: 470.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Licenciamento ambiental (chamado de 'PL da devastação' pelos críticos)",
-          "quando": "2025",
-          "data": "2025-07-16",
-          "descricao": "Aprovada a Redação Final assinada pelo Relator, Dep. Zé Vitor (PL-MG). Sim: 231; Não: 87; Total: 318.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Licenciamento ambiental (chamado de 'PL da devastação' pelos críticos)",
-          "quando": "2025",
-          "data": "2025-07-16",
-          "descricao": "Aprovada a Emenda do Senado nº 28. Sim: 229; Não: 82; Abstenção: 1; Total: 312.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Licenciamento ambiental (chamado de 'PL da devastação' pelos críticos)",
-          "quando": "2025",
-          "data": "2025-07-16",
-          "descricao": "Aprovada a Emenda do Senado Federal nº 4.\r\n Sim: 234; Não: 101; Total: 335.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "Licenciamento ambiental (chamado de 'PL da devastação' pelos críticos)",
-          "quando": "2025",
-          "data": "2025-07-16",
-          "descricao": "Rejeitado o Requerimento. Sim: 119; Não: 273; Total: 392.",
-          "voto": "Não"
-        },
-        {
-          "tema": "Licenciamento ambiental (chamado de 'PL da devastação' pelos críticos)",
-          "quando": "2025",
-          "data": "2025-07-16",
-          "descricao": "Rejeitado o Requerimento. Sim: 124; Não: 269; Total: 393.",
-          "voto": "Não"
-        },
-        {
-          "tema": "PEC da blindagem: restringe processos criminais contra parlamentares",
-          "quando": "2025",
-          "data": "2025-09-17",
-          "descricao": "Aprovada a Emenda Aglutinativa de Plenário nº 1. Sim: 314; Não: 168; Total: 482.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "PEC da blindagem: restringe processos criminais contra parlamentares",
-          "quando": "2025",
-          "data": "2025-09-17",
-          "descricao": "Rejeitado o Requerimento. Sim: 132; Não: 309; Total: 441.",
-          "voto": "Não"
-        },
-        {
-          "tema": "PEC da blindagem: restringe processos criminais contra parlamentares",
-          "quando": "2025",
-          "data": "2025-09-16",
-          "descricao": "Suprimido o texto. Sim: 296; Não: 174; Total: 470.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "PEC da blindagem: restringe processos criminais contra parlamentares",
-          "quando": "2025",
-          "data": "2025-09-16",
-          "descricao": "Aprovada, em segundo turno, a Proposta de Emenda à Constituição n° 3, de 2021, ressalvado os destaques. Sim: 344; Não: 133; Total: 477.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "PEC da blindagem: restringe processos criminais contra parlamentares",
-          "quando": "2025",
-          "data": "2025-09-16",
-          "descricao": "Aprovado o Requerimento nº 3.818/2025, dos Senhores Líderes, que solicita a quebra de interstício de 5 sessões previsto no § 6º do art. 202 do RICD, para apreciação do segundo turno da PEC 3, de 2021. Sim: 332; Não: 117; Total: 449.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "PEC da blindagem: restringe processos criminais contra parlamentares",
-          "quando": "2025",
-          "data": "2025-09-16",
-          "descricao": "Mantido o texto. Sim: 317; Não: 156; Abstenção: 1; Total: 474.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "PEC da blindagem: restringe processos criminais contra parlamentares",
-          "quando": "2025",
-          "data": "2025-09-16",
-          "descricao": "Mantido o texto. Sim: 322; Não: 147; Abstenção: 1; Total: 470.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "PEC da blindagem: restringe processos criminais contra parlamentares",
-          "quando": "2025",
-          "data": "2025-09-16",
-          "descricao": "Aprovado, em primeiro turno, o Substitutivo Reformulado à Proposta de Emenda à Constituição nº 3, de 2021, adotado pelo Relator da Comissão Especial. Sim: 353; Não: 134; Abstenção: 1; Total: 488.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "PEC da blindagem: restringe processos criminais contra parlamentares",
-          "quando": "2025",
-          "data": "2025-09-16",
-          "descricao": "Aprovado o Requerimento. Sim: 346; Não: 122; Total: 468.",
-          "voto": "Sim"
-        },
-        {
-          "tema": "PEC da blindagem: restringe processos criminais contra parlamentares",
-          "quando": "2025",
-          "data": "2025-09-16",
-          "descricao": "Rejeitado o Requerimento. Sim: 137; Não: 324; Total: 461.",
-          "voto": "Não"
-        },
-        {
-          "tema": "PEC da blindagem: restringe processos criminais contra parlamentares",
-          "quando": "2025",
-          "data": "2025-09-16",
-          "descricao": "Rejeitado o Requerimento. Sim: 144; Não: 266; Total: 410.",
-          "voto": "Não"
-        },
-        {
-          "tema": "Isenção do IR até R$ 5 mil",
-          "quando": "2025",
-          "data": "2025-10-01",
-          "descricao": "Aprovada a Subemenda Substitutiva Global ao Projeto de Lei nº 1.087, de 2025, adotada pelo relator da Comissão Especial. Sim: 493; Total: 493.",
-          "voto": "Sim"
-        }
-      ]
     }
   ]
 }
