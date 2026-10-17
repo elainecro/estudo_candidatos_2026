@@ -373,7 +373,14 @@ def linhas_contas(zip_path: pathlib.Path, base: str):
     os presidenciáveis ficariam de fora.
     """
     yield from ler_csv_zip(zip_path, (f"{base}_2026_ES.csv",))
-    for r in ler_csv_zip(zip_path, (f"{base}_2026_BRASIL.csv", f"{base}_2026_BR.csv")):
+    # o zip pode trazer _BR e _BRASIL ao mesmo tempo (out/2026); ler os dois dobrava os presidenciáveis
+    import zipfile
+    with zipfile.ZipFile(zip_path) as z:
+        nomes = {n.upper() for n in z.namelist()}
+    nacional = next((s for s in (f"{base}_2026_BR.csv", f"{base}_2026_BRASIL.csv") if any(n.endswith(s.upper()) for n in nomes)), None)
+    if not nacional:
+        return
+    for r in ler_csv_zip(zip_path, (nacional,)):
         if (r.get("SG_UF") or "").strip().upper() == "BR":
             yield r
 
