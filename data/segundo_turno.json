@@ -1,0 +1,20 @@
+{
+  "data": "2026-10-25",
+  "atualizado_em": "2026-10-17",
+  "nota": "Os dois de cada disputa aparecem em ordem de número na urna, do menor para o maior. A ordem não quer dizer nada além disso.",
+  "planos_2o_turno": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026-segundo-turno",
+  "disputas": [
+    {
+      "cargo": "governador",
+      "titulo": "Governador do Espírito Santo",
+      "candidatos": ["lorenzo-pazolini", "ricardo-ferraco"],
+      "fonte": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/no-espirito-santo-disputa-pelo-governo-sera-decidida-no-2o-turno"
+    },
+    {
+      "cargo": "presidente",
+      "titulo": "Presidente da República",
+      "candidatos": ["lula", "flavio-bolsonaro"],
+      "fonte": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica"
+    }
+  ]
+}

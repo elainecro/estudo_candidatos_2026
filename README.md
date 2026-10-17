@@ -4,6 +4,11 @@ Guia estático para estudar antes de votar: o que cada cargo faz, o que cada
 partido defende e o histórico de cada candidato (tempo de vida pública,
 mandatos, projetos apresentados, em tramitação e aprovados).
 
+**2º turno (25/10):** `segundo-turno.html` mostra os dois finalistas de
+governador e de presidente lado a lado, com os mesmos critérios para os dois e
+"não coletado" onde falta dado (nunca zero). Quem está em cada disputa fica em
+`data/segundo_turno.json`; a página reaproveita a ficha completa do guia.
+
 **Abrir:** basta abrir `index.html` no navegador. Não precisa de servidor nem
 de instalar nada. Se publicar no GitHub Pages, o site é a raiz do repositório.
 
@@ -38,6 +43,7 @@ página, isso aparece como "nº a confirmar" ou "sem consolidação".
 ```bash
 python3 scripts/build_bundle.py
 python3 scripts/build_artifact.py        # gera dist/artifact.html, um arquivo só
+python3 scripts/build_artifact.py --segundo-turno   # gera dist/artifact-segundo-turno.html
 ```
 
 `dist/artifact.html` é a página inteira embutida (CSS, JS e dados) no formato

@@ -410,6 +410,8 @@
     if (e.target.closest('[data-fechar]')) return fecharModal();
     const a = e.target.closest('a[data-cand],a[data-partido],a[data-filtra-cargo],a[data-filtra-partido],a[data-filtra-espectro],a[data-filtra-espectro-partidos]');
     if (!a) return;
+    // fora do guia completo (ex.: segundo-turno.html) os filtros não existem: o link leva para a seção no index.html
+    if (!a.dataset.cand && !a.dataset.partido && !$('#lista-candidatos')) { a.setAttribute('href', 'index.html' + a.getAttribute('href')); return; }
     e.preventDefault();
     if (a.dataset.cand) { const c = CANDS.find(x => x.id === a.dataset.cand); if (c) abrirCandidato(c); }
     else if (a.dataset.partido) { const p = PARTIDO_POR_SIGLA[a.dataset.partido]; if (p) abrirPartido(p); }
@@ -432,5 +434,7 @@
     abas.forEach(a => { const sec = document.querySelector(a.getAttribute('href')); if (sec) io.observe(sec); });
   }
 
-  renderCargos(); renderEspectros(); renderPartidos(); renderCandidatos(); renderUrna();
+  // a mesma ficha serve ao segundo-turno.html, que só tem o modal
+  window.ESTUDO_APP = { abrirCandidato, abrirPartido, anosPolitica, tagSituacao, espectroDe, esc, fmtData, CANDS, CARGO_POR_ID, PARTIDO_POR_SIGLA, ESPECTRO_POR_ID, corEsp };
+  if ($('#lista-candidatos')) { renderCargos(); renderEspectros(); renderPartidos(); renderCandidatos(); renderUrna(); }
 })();

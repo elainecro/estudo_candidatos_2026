@@ -10,7 +10,8 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-FILES = {"cargos": "cargos.json", "partidos": "partidos.json", "candidatos": "candidatos.json", "espectros": "espectros.json"}
+FILES = {"cargos": "cargos.json", "partidos": "partidos.json", "candidatos": "candidatos.json", "espectros": "espectros.json",
+         "segundo_turno": "segundo_turno.json"}
 
 
 def main() -> int:
@@ -286,6 +287,10 @@ def validar(bundle: dict) -> None:
             raise SystemExit(f"{c['id']}: partido '{c['partido']}' não está em partidos.json")
         if c["cargo"] not in cargos:
             raise SystemExit(f"{c['id']}: cargo '{c['cargo']}' não está em cargos.json")
+    for d in bundle["segundo_turno"]["disputas"]:
+        for cid in d["candidatos"]:
+            if cid not in ids:
+                raise SystemExit(f"segundo_turno.json: candidato '{cid}' não está em candidatos.json")
 
 
 if __name__ == "__main__":

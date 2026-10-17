@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2º turno no ES</title>
+<meta name="description" content="Os dois finalistas de governador do ES e de presidente, lado a lado: trajetória, gestão, projetos, plano de governo, processos, patrimônio e campanha.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#duelos">Ir direto para a comparação</a>
+
+<header class="topo">
+  <div class="wrap">
+    <p class="kicker">Espírito Santo · 2º turno em 25 de outubro de 2026</p>
+    <h1>Dois nomes, duas escolhas</h1>
+    <p class="lead">No 2º turno você vota duas vezes: governador e presidente. Aqui os dois finalistas de cada disputa aparecem lado a lado, com os mesmos critérios para os dois. Toque no nome para abrir a ficha completa.</p>
+    <p class="voltar-guia"><a href="index.html">← Guia completo do 1º turno (cargos, partidos, todos os candidatos)</a></p>
+  </div>
+</header>
+
+<div class="abas-barra">
+  <nav class="abas wrap" aria-label="Seções" id="abas-duelos">
+    <a href="#governador">Governador</a>
+    <a href="#presidente">Presidente</a>
+    <a href="#antes">Antes de comparar</a>
+  </nav>
+</div>
+
+<main class="wrap" id="duelos">
+
+  <section id="governador" class="secao duelo-secao"></section>
+  <section id="presidente" class="secao duelo-secao"></section>
+
+  <section id="antes" class="secao">
+    <h2>Antes de comparar</h2>
+    <ul class="limites" id="avisos"></ul>
+  </section>
+
+</main>
+
+<footer class="wrap rodape">
+  <p id="atualizado"></p>
+  <p>Mesmos dados do guia do 1º turno: TSE/DivulgaCand, Câmara dos Deputados, Senado Federal e imprensa (links em cada ficha). As duas disputas estão em <code>data/segundo_turno.json</code>.</p>
+</footer>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-fundo" data-fechar></div>
+  <article class="modal-caixa" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+    <div class="modal-barra">
+      <button class="voltar" id="modal-voltar" data-voltar hidden>← Voltar</button>
+      <button class="fechar" data-fechar aria-label="Fechar">×</button>
+    </div>
+    <div id="modal-conteudo"></div>
+  </article>
+</div>
+
+<script src="data/bundle.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/segundo-turno.js"></script>
+</body>
+</html>
