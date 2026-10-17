@@ -522,8 +522,9 @@
       "ocupacao": "Senador (RJ)",
       "chapa": {
         "vice": "Alfredo Gaspar",
-        "partido_vice": "União",
-        "coligacao": "PL e aliados"
+        "partido_vice": "PL",
+        "coligacao": "PL e aliados",
+        "obs": "Alfredo Gaspar deixou o União Brasil e se filiou ao PL em março de 2026."
       },
       "situacao": "deferido",
       "tipo_historico": "legislativo",
@@ -1192,7 +1193,8 @@
       },
       "fontes": [
         "https://www.jota.info/eleicoes/eleicoes-2026/alfredo-gaspar-sera-o-candidato-a-vice-presidente-na-chapa-de-flavio-bolsonaro",
-        "https://www.brasildefato.com.br/2026/04/02/em-sete-anos-flavio-bolsonaro-teve-apenas-um-projeto-de-lei-aprovado-no-congresso/"
+        "https://www.brasildefato.com.br/2026/04/02/em-sete-anos-flavio-bolsonaro-teve-apenas-um-projeto-de-lei-aprovado-no-congresso/",
+        "https://jovempan.com.br/politica/relator-da-cpmi-do-inss-e-ex-secretario-de-ministro-de-lula-conheca-alfredo-gaspar-vice-de-flavio/"
       ],
       "gestao": [],
       "relatorias": [

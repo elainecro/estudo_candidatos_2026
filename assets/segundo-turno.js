@@ -36,6 +36,12 @@
     { rotulo: 'Na vida pública', f: c => { const a = anosPolitica(c); return c.tipo_historico === 'sem_mandato' ? 'Nunca teve mandato' : (c.inicio_politica ? `Desde <b>${c.inicio_politica}</b> (${a} anos)` : SEM()); } },
     { rotulo: 'Perfil de carreira', f: c => ({ legislativo: 'Legislativo (fez carreira propondo e votando leis)', executivo: 'Executivo (fez carreira governando)', misto: 'Misto (Legislativo e Executivo)', sem_mandato: 'Sem mandato' }[c.tipo_historico] || SEM()) },
     { rotulo: 'Mandatos e cargos', f: c => c.mandatos?.length ? lista(c.mandatos.map(m => `<b>${esc(m.periodo)}</b> ${esc(m.cargo)}`)) : 'Nenhum mandato eletivo anterior' },
+    { rotulo: 'Eleições disputadas', f: c => {
+      // só o histórico conferido à mão; o do TSE é incompleto e faria uma pessoa parecer menos votada do que foi
+      if (!c.historico_fonte) return SEM('histórico do TSE incompleto');
+      const el = c.eleicoes_anteriores || [];
+      return `<b>${el.length}</b> disputadas, <b>${c.vezes_eleito}</b> vencidas<div class="obs">${plural(c.trocas_de_partido, 'troca', 'trocas')} de partido entre elas</div>${lista([...el].reverse().map(e => `<b>${esc(e.ano)}</b> ${esc(e.cargo || '')}${e.uf ? ' (' + esc(e.uf) + ')' : ''} · ${esc(e.partido || '')} <span class="obs">${esc(e.resultado || 'resultado não confirmado')}</span>`), 4)}`;
+    } },
 
     { grupo: 'O que fez com o poder que teve', nota: 'Quem governou se mede pela gestão; quem legislou, pelos projetos e relatorias. Comparar o número de projetos de quem passou a vida no Executivo com o de quem passou no Legislativo engana.' },
     { rotulo: 'Gestão (Executivo)', f: c => c.gestao?.length

@@ -677,7 +677,7 @@ def fetch_tse_csv(doc, dry_run: bool):
 AUTO_CAMPOS = ("tse_id", "tse_url", "numero", "situacao", "bens", "certidoes", "certidoes_arquivos", "proposta_governo_arquivos", "eleicoes_anteriores",
                "trocas_de_partido", "vezes_eleito", "campanha", "redes", "tse_complementar", "motivos_registro", "gastos", "comissoes", "votacoes_chave",
                "filiacoes", "emendas", "camara_id", "senado_id", "idade", "ocupacao", "foto", "reeleicao", "escolaridade", "cpf", "sancoes",
-               "servidor_federal", "noticias", "camara_municipal", "camara_nome")
+               "servidor_federal", "noticias", "camara_municipal", "camara_nome", "projetos_casas")
 PALAVRAS_FRACAS = {"dr", "dra", "prof", "professor", "professora", "delegado", "delegada", "capitao", "coronel", "cabo", "sargento", "pastor", "bispo",
                    "engenheiro", "escritor", "da", "de", "do", "das", "dos", "e", "o", "a", "junior", "filho", "neto", "santos", "silva", "souza", "oliveira", "federal", "direita"}
 
@@ -714,7 +714,7 @@ def fundir_por_tse_id(doc) -> int:
         for k, v in b.items():
             if k != "id" and (k in AUTO_CAMPOS or a.get(k) in (None, "", [], {})):
                 a[k] = v
-        if b.get("projetos") and "API" in ((b.get("projetos") or {}).get("fonte") or ""):
+        if b.get("projetos") and re.search(r"API|dados abertos", (b.get("projetos") or {}).get("fonte") or ""):
             a["projetos"] = b["projetos"]
         removidos.append(b["id"])
         print(f"  fundido por tse_id: '{a['nome_urna']}' <- '{b['nome_urna']}' ({t})")
@@ -753,7 +753,7 @@ def fundir_orfaos(doc):
                     o["situacao_obs"] = f"TSE registra '{v}'. " + o["situacao_obs"]
                 o[k] = v
         # projetos vindos da API são mais completos que a lista manual
-        if i.get("projetos") and "API" in (i["projetos"].get("fonte") or ""):
+        if i.get("projetos") and re.search(r"API|dados abertos", i["projetos"].get("fonte") or ""):
             o["projetos"] = i["projetos"]
         if i.get("nome_urna") != o["nome_urna"]:
             o["nome_urna_tse"] = i["nome_urna"]
@@ -1073,9 +1073,9 @@ def fetch_camara(doc, dry_run: bool):
             nome_api = ((d or {}).get("dados") or {}).get("ultimoStatus", {}).get("nomeEleitoral") or ((d or {}).get("dados") or {}).get("nomeCivil") or ""
             if nome_api and not _nome_cabe(nome_api, c):
                 print(f"  {c['nome_urna']}: camara_id {dep_id} era de '{nome_api}' (homônimo); descartado", file=sys.stderr)
-                for k in ("camara_id", "camara_nome", "projetos", "gastos", "comissoes", "votacoes_chave"):
+                for k in ("camara_id", "camara_nome", "gastos", "comissoes"):
                     c.pop(k, None)
-                c["projetos"] = None
+                gravar_casa(c, "camara", None, [])
                 dep_id = None
             elif nome_api:
                 c["camara_nome"] = nome_api
@@ -1094,19 +1094,62 @@ def fetch_camara(doc, dry_run: bool):
             if d:
                 detalhes[p["id"]] = d["dados"]
             time.sleep(0.12)
-        c["projetos"] = {"fonte": f"Câmara dos Deputados, API dadosabertos (deputado {dep_id})", "atualizado_em": HOJE, **normalizar_proposicoes(props, detalhes)}
+        projetos = {"fonte": f"Câmara dos Deputados, API dadosabertos (deputado {dep_id})", "atualizado_em": HOJE, **normalizar_proposicoes(props, detalhes)}
         desp = paginar_camara(f"{CAMARA_BASE}/deputados/{dep_id}/despesas?ordem=ASC&ordenarPor=ano")
         c["gastos"] = normalizar_despesas(desp)
         orgaos = get_json(f"{CAMARA_BASE}/deputados/{dep_id}/orgaos?itens=100") or {}
         c["comissoes"] = [{"sigla": o.get("siglaOrgao"), "nome": o.get("nomeOrgao"), "papel": o.get("titulo"), "inicio": o.get("dataInicio"), "fim": o.get("dataFim")} for o in orgaos.get("dados", [])]
-        c["votacoes_chave"] = [{"tema": it["tema"], "quando": it["quando"], "data": v["data"], "descricao": v["descricao"], "voto": v["votos"].get(dep_id)} for it, v in votacoes if dep_id in v["votos"]]
-        print(f"  {c['nome_urna']}: {len(props)} proposições, {len(c['projetos']['aprovados'])} leis, {len(c['votacoes_chave'])} votos-chave, {len(c['comissoes'])} comissões")
+        votos = [{"tema": it["tema"], "quando": it["quando"], "data": v["data"], "descricao": v["descricao"], "voto": v["votos"].get(dep_id)} for it, v in votacoes if dep_id in v["votos"]]
+        gravar_casa(c, "camara", projetos, votos)
+        print(f"  {c['nome_urna']}: {len(props)} proposições, {len(projetos['aprovados'])} leis, {len(votos)} votos-chave, {len(c['comissoes'])} comissões")
     salvar(doc, dry_run)
 
 
 # ============================================================ Senado
 
 TIPOS_LEI = ("PL", "PLS", "PLP", "PEC", "PLC", "MPV")
+
+
+def gravar_casa(c: dict, casa: str, projetos: dict | None, votos: list) -> None:
+    """Câmara e Senado guardam cada um a sua parte em 'projetos_casas'; 'projetos' e 'votacoes_chave' são a soma.
+    Antes cada coletor sobrescrevia 'projetos' e quem rodava por último apagava a outra casa (ex.: Ferraço perdeu o Senado)."""
+    casas = c.get("projetos_casas")
+    if not isinstance(casas, dict):
+        casas = {}
+        antigo = c.get("projetos")
+        fonte = (antigo or {}).get("fonte") or "" if isinstance(antigo, dict) else ""
+        for nome, prefixo in (("camara", "Câmara"), ("senado", "Senado")):
+            if fonte.startswith(prefixo):  # dado de coleta antiga, de uma casa só
+                casas[nome] = {"projetos": antigo, "votacoes": c.get("votacoes_chave") or []}
+        c["projetos_casas"] = casas
+    if projetos is None:
+        casas.pop(casa, None)
+    else:
+        casas[casa] = {"projetos": projetos, "votacoes": votos}
+    partes = [casas[k] for k in ("camara", "senado") if k in casas]
+    if not partes:
+        if isinstance(c.get("projetos"), dict) and re.match(r"^(Câmara|Senado)", c["projetos"].get("fonte") or ""):
+            c["projetos"] = None
+            c["votacoes_chave"] = []
+        return
+    c["projetos"] = juntar_projetos([x["projetos"] for x in partes])
+    c["votacoes_chave"] = [v for x in partes for v in x["votacoes"]]
+
+
+def juntar_projetos(lista: list) -> dict:
+    if len(lista) == 1:
+        return lista[0]
+    total = sum((p.get("apresentados") or {}).get("total") or 0 for p in lista)
+    curta = lambda p: (p.get("fonte") or "").split(",")[0]
+    return {
+        "fonte": " + ".join(p.get("fonte") or "" for p in lista),
+        "atualizado_em": max(p.get("atualizado_em") or "" for p in lista),
+        "apresentados": {"total": total, "obs": " ".join(f"{curta(p)}: {(p.get('apresentados') or {}).get('total')} ({(p.get('apresentados') or {}).get('obs') or ''})" for p in lista)},
+        "em_tramitacao": [i for p in lista for i in p.get("em_tramitacao") or []],
+        "aprovados": [i for p in lista for i in p.get("aprovados") or []],
+        "pecs_assinadas": [i for p in lista for i in p.get("pecs_assinadas") or []],
+        "pecs_obs": "PEC precisa de 171 assinaturas na Câmara e 27 no Senado; cada signatário aparece como autor nos dados abertos.",
+    }
 
 
 def ident_materia(m: dict) -> tuple:
@@ -1232,7 +1275,7 @@ def fetch_senado(doc, dry_run: bool):
             if sg in TIPOS_LEI and cod_m:
                 situacoes[cod_m] = get_json(f"{SENADO_BASE}/materia/situacaoatual/{cod_m}.json") or {}
                 time.sleep(0.12)
-        c["projetos"] = {"fonte": f"Senado Federal, dados abertos (parlamentar {cod})", "atualizado_em": HOJE, **normalizar_senado_autorias(autorias, situacoes)}
+        projetos = {"fonte": f"Senado Federal, dados abertos (parlamentar {cod})", "atualizado_em": HOJE, **normalizar_senado_autorias(autorias, situacoes)}
         rel = get_json(f"{SENADO_BASE}/senador/{cod}/relatorias.json") or {}
         _debug(f"relatorias {cod}", rel)
         rels = (((rel.get("MateriasRelatoriaParlamentar") or {}).get("Parlamentar") or {}).get("Relatorias") or {}).get("Relatoria") or []
@@ -1250,8 +1293,9 @@ def fetch_senado(doc, dry_run: bool):
             _debug("primeira votação", vots[0])
         if autorias and os.environ.get("DEBUG"):
             _debug("primeira autoria", autorias[0])
-        c["votacoes_chave"] = normalizar_senado_votacoes(vots, itens)
-        print(f"  {c['nome_urna']}: {c['projetos']['apresentados']['total']} matérias, {len(auto_rel)} relatorias, {len(c['votacoes_chave'])} votos-chave, {len(c['filiacoes'])} filiações")
+        votos = normalizar_senado_votacoes(vots, itens)
+        gravar_casa(c, "senado", projetos, votos)
+        print(f"  {c['nome_urna']}: {projetos['apresentados']['total']} matérias, {len(auto_rel)} relatorias, {len(votos)} votos-chave, {len(c['filiacoes'])} filiações")
     salvar(doc, dry_run)
 
 

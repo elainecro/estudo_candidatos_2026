@@ -33,6 +33,9 @@ def main() -> int:
     sanear_certidoes(bundle)
     embutir_interpretacoes(bundle)
     embutir_biografias(bundle)
+    embutir_historico_manual(bundle)
+    for c in bundle["candidatos"]["candidatos"]:
+        c.pop("projetos_casas", None)  # a página usa só a soma em 'projetos'
     out = DATA / "bundle.js"
     out.write_text(
         "// Gerado por scripts/build_bundle.py. Não edite à mão; edite os JSON em data/.\n"
@@ -135,6 +138,32 @@ def embutir_biografias(bundle: dict) -> None:
         n += 1
     if n:
         print(f"{n} biografias embutidas")
+
+
+def embutir_historico_manual(bundle: dict) -> None:
+    """data/historico_manual.json troca o histórico eleitoral do TSE pelo levantado à mão.
+    O arquivo de histórico do TSE só cobre eleições recentes e às vezes vem sem o resultado do 2º turno
+    (ex.: Lula aparecia como eleito uma vez). Fica fora de candidatos.json para o --tse não apagar."""
+    arq = DATA / "historico_manual.json"
+    if not arq.exists():
+        return
+    manual = json.loads(arq.read_text(encoding="utf-8"))
+    por_id = {c["id"]: c for c in bundle["candidatos"]["candidatos"]}
+    n = 0
+    for cid, h in manual.get("candidatos", {}).items():
+        c = por_id.get(cid)
+        if not c:
+            raise SystemExit(f"historico_manual.json: candidato '{cid}' não está em candidatos.json")
+        lista = sorted(h["eleicoes"], key=lambda e: (int(e["ano"]), e.get("cargo") or ""))
+        partidos = [e["partido"] for e in lista if e.get("partido")]
+        c["eleicoes_anteriores"] = [{"ano": str(e["ano"]), "cargo": e.get("cargo"), "partido": e.get("partido"), "uf": e.get("local"),
+                                     "resultado": e.get("resultado"), "obs": e.get("obs")} for e in lista]
+        c["vezes_eleito"] = sum(1 for e in lista if (e.get("resultado") or "").startswith("eleito"))
+        c["trocas_de_partido"] = sum(1 for i in range(1, len(partidos)) if partidos[i] != partidos[i - 1])
+        c["historico_fonte"] = {"fontes": h.get("fontes", []), "conferido_em": manual.get("conferido_em")}
+        n += 1
+    if n:
+        print(f"{n} históricos eleitorais revisados à mão")
 
 
 def descartar_camara_homonima(bundle: dict) -> None:
