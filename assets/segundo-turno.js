@@ -61,7 +61,7 @@
       return lista(Object.entries(porTema).map(([t, voto]) => `${esc(t)}: <b>${esc(voto)}</b>`));
     } },
 
-    { grupo: 'O que promete', nota: 'Resumo, feito com ajuda de IA, do plano de governo entregue ao TSE no 1º turno. As contagens dependem do resumo: servem de pista, não de nota. Os candidatos podem registrar um plano novo para o 2º turno; confira no TSE.' },
+    { grupo: 'O que promete', nota: 'Resumo, feito com ajuda de IA, do plano de governo entregue ao TSE no 1º turno. As contagens dependem do resumo: servem de pista, não de nota. Em 17/10 conferimos os planos publicados pelo TSE para o 2º turno: são os mesmos do 1º turno.' },
     { rotulo: 'Síntese do plano', f: c => c.proposta_resumo?.sintese ? `<p class="cel-par">${esc(c.proposta_resumo.sintese)}</p>` : SEM('resumo não escrito') },
     { rotulo: 'Eixos', f: c => c.proposta_resumo?.eixos?.length ? lista(c.proposta_resumo.eixos.map(e => esc(e.tema))) : SEM() },
     { rotulo: 'Promessas com número ou prazo', f: c => { const m = c.proposta_resumo?.mensuraveis; return m ? `<b>${m.length}</b>${m.length ? lista(m.map(esc), 3) : ''}` : SEM(); } },
@@ -110,7 +110,7 @@
       esc(T.nota),
       '“Não coletado” quer dizer que o guia não tem esse dado, não que a pessoa tem zero. Os dois lados nem sempre têm as mesmas fontes: a Câmara e o Senado têm API; a Assembleia do ES, não.',
       'Os números de projetos, relatorias e votações vêm dos sites da Câmara e do Senado. Contam quantidade, não qualidade. Uma lei importante pesa mais que dez homenagens.',
-      `Os planos resumidos aqui são os do 1º turno. <a href="${esc(T.planos_2o_turno)}" target="_blank" rel="noopener">Planos registrados para o 2º turno no TSE</a>.`,
+      `Os planos que o TSE publicou para o 2º turno são idênticos aos do 1º (conferido em 17/10). <a href="${esc(T.planos_2o_turno)}" target="_blank" rel="noopener">Planos no site do TSE</a>.`,
       'Apoios recebidos depois do 1º turno, debates e promessas novas de campanha não estão nesta página.',
     ].map(t => `<li>${t}</li>`).join('');
     $('#atualizado').textContent = `Disputas conferidas em ${fmtData(T.atualizado_em)}. Dados dos candidatos de ${fmtData(D.candidatos.meta.atualizado_em)}. 2º turno: ${fmtData(T.data)}.`;
