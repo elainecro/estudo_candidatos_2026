@@ -1,0 +1,259 @@
+{
+  "conferido_em": "2026-10-17",
+  "nota": "Histórico eleitoral levantado à mão (imprensa, biografias da Câmara e do Senado, Wikipedia) porque o arquivo do TSE só cobre eleições recentes. Partido em branco quando as fontes divergem.",
+  "candidatos": {
+    "lula": {
+      "eleicoes": [
+        {
+          "ano": 1982,
+          "cargo": "Governador",
+          "local": "SP",
+          "partido": "PT",
+          "resultado": "não eleito",
+          "obs": "4º lugar"
+        },
+        {
+          "ano": 1986,
+          "cargo": "Deputado federal",
+          "local": "SP",
+          "partido": "PT",
+          "resultado": "eleito",
+          "obs": "constituinte, o mais votado do país"
+        },
+        {
+          "ano": 1989,
+          "cargo": "Presidente",
+          "local": "Brasil",
+          "partido": "PT",
+          "resultado": "perdeu no 2º turno",
+          "obs": "contra Fernando Collor"
+        },
+        {
+          "ano": 1994,
+          "cargo": "Presidente",
+          "local": "Brasil",
+          "partido": "PT",
+          "resultado": "não eleito",
+          "obs": "FHC venceu no 1º turno"
+        },
+        {
+          "ano": 1998,
+          "cargo": "Presidente",
+          "local": "Brasil",
+          "partido": "PT",
+          "resultado": "não eleito",
+          "obs": "FHC reeleito no 1º turno"
+        },
+        {
+          "ano": 2002,
+          "cargo": "Presidente",
+          "local": "Brasil",
+          "partido": "PT",
+          "resultado": "eleito no 2º turno",
+          "obs": "contra José Serra"
+        },
+        {
+          "ano": 2006,
+          "cargo": "Presidente",
+          "local": "Brasil",
+          "partido": "PT",
+          "resultado": "eleito no 2º turno",
+          "obs": "contra Geraldo Alckmin"
+        },
+        {
+          "ano": 2018,
+          "cargo": "Presidente",
+          "local": "Brasil",
+          "partido": "PT",
+          "resultado": "candidatura barrada",
+          "obs": "TSE negou o registro pela Lei da Ficha Limpa; substituído por Fernando Haddad"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Presidente",
+          "local": "Brasil",
+          "partido": "PT",
+          "resultado": "eleito no 2º turno",
+          "obs": "contra Jair Bolsonaro"
+        }
+      ],
+      "fontes": [
+        "https://www.poder360.com.br/eleicoes/relembre-as-disputas-de-lula-pela-presidencia/",
+        "https://www.brasildefato.com.br/2018/08/31/candidatura-lula-e-impugnada-pela-maioria-do-tse",
+        "https://www.gov.br/planalto/en/composition/biography-president-of-the-republic"
+      ]
+    },
+    "flavio-bolsonaro": {
+      "eleicoes": [
+        {
+          "ano": 2002,
+          "cargo": "Deputado estadual",
+          "local": "RJ",
+          "partido": "PPB",
+          "resultado": "eleito",
+          "obs": "primeira eleição, aos 21 anos"
+        },
+        {
+          "ano": 2006,
+          "cargo": "Deputado estadual",
+          "local": "RJ",
+          "partido": "PP",
+          "resultado": "eleito",
+          "obs": null
+        },
+        {
+          "ano": 2010,
+          "cargo": "Deputado estadual",
+          "local": "RJ",
+          "partido": "PP",
+          "resultado": "eleito",
+          "obs": null
+        },
+        {
+          "ano": 2014,
+          "cargo": "Deputado estadual",
+          "local": "RJ",
+          "partido": "PP",
+          "resultado": "eleito",
+          "obs": null
+        },
+        {
+          "ano": 2016,
+          "cargo": "Prefeito",
+          "local": "Rio de Janeiro (RJ)",
+          "partido": "PSC",
+          "resultado": "não eleito",
+          "obs": "4º lugar"
+        },
+        {
+          "ano": 2018,
+          "cargo": "Senador",
+          "local": "RJ",
+          "partido": "PSL",
+          "resultado": "eleito",
+          "obs": "o mais votado da disputa no RJ"
+        }
+      ],
+      "fontes": [
+        "https://exame.com/brasil/de-inicio-aos-21-anos-ao-senado-a-trajetoria-politica-de-flavio-bolsonaro-ate-o-anuncio-de-2026/",
+        "https://en.wikipedia.org/wiki/Fl%C3%A1vio_Bolsonaro",
+        "https://jovempan.com.br/eleicoes/2026/candidatos/br/presidente/pl/flavio-bolsonaro/22/"
+      ]
+    },
+    "lorenzo-pazolini": {
+      "eleicoes": [
+        {
+          "ano": 2018,
+          "cargo": "Deputado estadual",
+          "local": "ES",
+          "partido": "PRP",
+          "resultado": "eleito",
+          "obs": "primeira disputa"
+        },
+        {
+          "ano": 2020,
+          "cargo": "Prefeito",
+          "local": "Vitória (ES)",
+          "partido": "Republicanos",
+          "resultado": "eleito no 2º turno",
+          "obs": "contra João Coser (PT)"
+        },
+        {
+          "ano": 2024,
+          "cargo": "Prefeito",
+          "local": "Vitória (ES)",
+          "partido": "Republicanos",
+          "resultado": "eleito",
+          "obs": "reeleito no 1º turno"
+        }
+      ],
+      "fontes": [
+        "https://www.poder360.com.br/poder-eleicoes/lorenzo-pazolini-republicanos-e-reeleito-prefeito-de-vitoria/",
+        "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-lorenzo-pazolini-pre-candidato-ao-governo-do-es/",
+        "https://en.wikipedia.org/wiki/Lorenzo_Pazolini"
+      ]
+    },
+    "ricardo-ferraco": {
+      "eleicoes": [
+        {
+          "ano": 1982,
+          "cargo": "Vereador",
+          "local": "Cachoeiro de Itapemirim (ES)",
+          "partido": null,
+          "resultado": "eleito",
+          "obs": "partido incerto: as fontes dizem PDS ou PTB"
+        },
+        {
+          "ano": 1990,
+          "cargo": "Deputado estadual",
+          "local": "ES",
+          "partido": "PTB",
+          "resultado": "eleito",
+          "obs": null
+        },
+        {
+          "ano": 1994,
+          "cargo": "Deputado estadual",
+          "local": "ES",
+          "partido": "PTB",
+          "resultado": "eleito",
+          "obs": "presidiu a Assembleia em 1995-1996"
+        },
+        {
+          "ano": 1998,
+          "cargo": "Deputado federal",
+          "local": "ES",
+          "partido": "PSDB",
+          "resultado": "eleito",
+          "obs": "o mais votado do ES"
+        },
+        {
+          "ano": 2002,
+          "cargo": "Senador",
+          "local": "ES",
+          "partido": "PPS",
+          "resultado": "não eleito",
+          "obs": "4º lugar"
+        },
+        {
+          "ano": 2006,
+          "cargo": "Vice-governador",
+          "local": "ES",
+          "partido": "PSDB",
+          "resultado": "eleito",
+          "obs": "vice de Paulo Hartung, reeleito no 1º turno"
+        },
+        {
+          "ano": 2010,
+          "cargo": "Senador",
+          "local": "ES",
+          "partido": "PMDB",
+          "resultado": "eleito",
+          "obs": null
+        },
+        {
+          "ano": 2018,
+          "cargo": "Senador",
+          "local": "ES",
+          "partido": "PSDB",
+          "resultado": "não eleito",
+          "obs": "tentava a reeleição"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Vice-governador",
+          "local": "ES",
+          "partido": "PSDB",
+          "resultado": "eleito no 2º turno",
+          "obs": "vice de Renato Casagrande; assumiu o governo em abril de 2026"
+        }
+      ],
+      "fontes": [
+        "https://www.camara.leg.br/deputados/74674/biografia",
+        "https://www25.senado.leg.br/web/senadores/senador/-/perfil/635",
+        "https://portalpolitica.com.br/govenadores/ricardo-ferraco/",
+        "https://tribunaonline.com.br/politica/quem-e-ricardo-ferraco-o-novo-governador-do-estado-do-espirito-santo-297953"
+      ]
+    }
+  }
+}

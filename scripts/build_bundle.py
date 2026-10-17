@@ -155,7 +155,9 @@ def embutir_historico_manual(bundle: dict) -> None:
         if not c:
             raise SystemExit(f"historico_manual.json: candidato '{cid}' não está em candidatos.json")
         lista = sorted(h["eleicoes"], key=lambda e: (int(e["ano"]), e.get("cargo") or ""))
-        partidos = [e["partido"] for e in lista if e.get("partido")]
+        # mudança de nome do mesmo partido não é troca (PPB virou PP, PMDB virou MDB, PFL virou DEM)
+        renomeados = {"PPB": "PP", "PMDB": "MDB", "PFL": "DEM"}
+        partidos = [renomeados.get(e["partido"], e["partido"]) for e in lista if e.get("partido")]
         c["eleicoes_anteriores"] = [{"ano": str(e["ano"]), "cargo": e.get("cargo"), "partido": e.get("partido"), "uf": e.get("local"),
                                      "resultado": e.get("resultado"), "obs": e.get("obs")} for e in lista]
         c["vezes_eleito"] = sum(1 for e in lista if (e.get("resultado") or "").startswith("eleito"))

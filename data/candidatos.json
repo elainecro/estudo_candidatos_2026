@@ -6725,19 +6725,24 @@
         },
         {
           "cargo": "Deputado estadual",
-          "periodo": "1989-1998",
+          "periodo": "1991-1999",
           "partido": "PTB / PSDB",
           "obs": "presidiu a Ales em 1995-96; chefe da Casa Civil"
         },
         {
           "cargo": "Deputado federal",
-          "periodo": "1999-2002",
+          "periodo": "1999-2003",
           "partido": "PSDB"
         },
         {
           "cargo": "Secretário de Estado da Agricultura",
           "periodo": "2003-2006",
           "partido": "PSDB"
+        },
+        {
+          "cargo": "Vice-governador",
+          "periodo": "2007-2010",
+          "obs": "vice de Paulo Hartung"
         },
         {
           "cargo": "Senador",
